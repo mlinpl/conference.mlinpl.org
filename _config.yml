@@ -1,0 +1,158 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you:
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+
+# Head settings
+title: ML in PL Conference 2024
+email: contact@conference.mlinpl.org
+event-date: "2024-11-07T00:00:00"
+description: >-
+  ML in PL Conference 2024 is an event focused on the best of Machine Learning both in academia and in business.
+main-image: images/mlinpl-conference-2024-logo-black.png
+twitter-username: "@MLinPL"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://conference.mlinpl.org" # the base hostname & protocol for your site, e.g. http://example.com
+author:
+  name: ML in PL Association
+  url: https://mlinpl.org
+
+
+# Header settings
+inline-logo: '<span class="logo"><span class="main-name">ML <span class="emph">i</span>n PL</span> <span class="sub-name">Conference 2024</span></span>'
+header:
+  heading: '<img src="images/mlinpl-conference-2024-logo-black.png" style="max-height: 1.5em; max-width: 90%;">'
+  date-location: 7 - 10 November / Warsaw, Poland
+  # Countdown settings
+  countdown-date: "2024-11-07T08:00:00"
+  arrow-url: "#about"
+
+
+# Navigation settings
+navigation:
+  # - name: "/ Tickets"
+  #   url: "#tickets"
+
+  - name: "/ About"
+    url: "#about"
+    subsites:
+      - name: "/ More information"
+        url: "/about-ml-in-pl-conference"
+
+  # - name: "/ Program"
+  #   url: "#speakers"
+  #   subsites:
+  #     - name: "/ Agenda"
+  #       url: "#agenda"
+  #     - name: "/ Invited speakers"
+  #       url: "#invited-speakers"
+  #     - name: "/ Discussion Panels"
+  #       url: "#panels"
+  #     - name: "/ Full program"
+  #       url: "/program"
+  #     - name: "/ Call for Contributions"
+  #       url: "/call-for-contributions"
+  #     - name: "/ Call for Tutorials"
+  #       url: "/call-for-tutorials"
+  #     - name: "/ Conference game"
+  #       url: "/conference-game"
+  #     - name: "/ Conference booklet"
+  #       url: "/docs/booklet.pdf"
+
+  # - name: "/ Timeline"
+  #   url: "#timeline"
+
+  # - name: "/ Sponsors & partners"
+  #   url: "#sponsors"
+
+  - name: "/ Organizers"
+    url: "#organizers"
+    subsites:
+      - name: "/ Scientific Board"
+        url: "#scientific_board"
+      - name: "/ Contact"
+        url: "#contact"    
+
+
+# Defaults for different pages
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /images/mlinpl-conference-2024-event-banner.jpg
+
+
+# Colors and styles settings
+photo-border-width: 1px
+color:
+  main: "#E7322A"
+  second: "#010101"
+  main-gradient: "#E7322A, #FF00FF"
+  background: "#FFFFFF"
+  person-photo-filter: "grayscale(75%)"
+  person-photo-gradient: "linear-gradient(140deg, rgba(231,50,42,0) 25%,rgba(231,50,42,0.5) 100%)"
+
+
+# Footer settings
+footer: ML in PL Association
+
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: linkedin
+    url: https://www.linkedin.com/company/mlinpl
+  - title: facebook
+    url: https://www.facebook.com/MLinPL
+  - title: twitter
+    url: https://twitter.com/mlinpl
+  - title: youtube
+    url: https://www.youtube.com/channel/UCmXKn-Xeq1ZTAQBTwsYw4AA
+
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-seo-tag
+
+markdown: kramdown
+permalink: pretty
+
+sass:
+  style: compressed # possible values: nested expanded compact compressed
+
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

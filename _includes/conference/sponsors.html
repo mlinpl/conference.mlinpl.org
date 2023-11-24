@@ -1,0 +1,13 @@
+<!-- Sponsors Section -->
+<section id="sponsors" class="container content-section">
+    {% for category in site.data.sponsors %} 
+        <div class="sponsors-section">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="text-align-left">{{category.title}}</h2>
+                </div>
+            </div>
+            {% include logos.html logos-data=category.sponsors imageMaxWidth=category.imageMaxWidth imageMaxHeight=category.imageMaxHeight margin=category.margin %}
+        </div>
+    {% endfor %}
+</section>

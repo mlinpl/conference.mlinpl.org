@@ -1,0 +1,17 @@
+<!-- Standard page header -->
+<header class="intro page-intro">
+    <canvas id="intro-background" class="intro-background"></canvas>
+    <div class="intro-body">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                {% if page.html-title %}
+                    <h1 class="page-heading">{{ page.html-title | trim }}</h1>
+                {% else %}
+                    <h1 class="page-heading">{{ page.title | escape }}</h1>
+                {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+</header>

@@ -1,0 +1,40 @@
+<!-- People list, variant with small photos and social media links -->
+{% comment %}
+Expects following parameters: people-data
+{% endcomment %}
+<div class="row">
+    <div class="col-xs-12 people-grid">
+        {% for person in include.people-data %}
+        <div class="person" style="text-align: center; width: 138px; margin: 20px 10px;">
+            <div class="person-photo-with-social">
+                <div class="person-photo-wrapper" style="width: 120px;">
+                    <div>
+                        <img src="{{ person.image | relative_url }}" alt="{{ person.name }}">
+                    </div>
+                </div>
+                <div class="person-social-120">
+                    {% if person.google-scholar and person.google-scholar != "" %}
+                    <a href="{{ person.google-scholar }}">
+                        <i>
+                            <img src="{{ "images/google-scholar-icon-white.svg" | relative_url }}" style="width: 100%; vertical-align: top;">
+                        </i>
+                    </a>
+                    {% endif %}
+                    {% if person.linkedin and person.linkedin != "" %}
+                    <a href="{{ person.linkedin }}">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                    {% endif %}
+                    {% if person.twitter and person.twitter != "" %}
+                    <a href="{{ person.twitter }}">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    {% endif %}
+                </div>
+            </div>
+            <h5 class="person-name">{{ person.name }}</h5>
+            <p class="person-title"><span>{{ person.title }}</span></p>
+        </div>
+        {% endfor %}
+    </div>
+</div>

@@ -1,0 +1,45 @@
+{% comment %}
+Expects following parameters: panel, include-details
+{% endcomment %}
+
+
+{% if include.include-details %}
+<h3 style="margin-bottom: 15px; border-bottom: 1px solid black;">Discussion Panel {{ include.panel.id }}: <span class="bold emph-i">{{ include.panel.name }}</span></h3>
+<h4><span><i class="fa-solid fa-calendar-day"></i> {{ include.panel.date }}</span>
+    <span style="margin-left: 15px;"><i  class="fa-solid fa-clock"></i> {{ include.panel.time }}</span> 
+    {% if include.panel.room %}
+    <span style="margin-left: 15px;">
+        <i  class="fa-solid fa-door-open"></i> {{ include.panel.room }} 
+    </span>
+    {% endif %}
+</h4>
+{% else %}
+<h2 class="bold emph-i">{{ include.panel.name }}</h2>
+{% endif %}
+
+<p>{{ include.panel.desc }}</p>
+
+<div class="people-grid">
+    {% for person in include.panel.panelists %}
+    <div class="person" style="width: 330px; margin: 20px;">
+        <div class="text-center">
+        <div class="person-photo-wrapper" style="width: 210px; margin-bottom: 1em;">
+            <div>
+                <img src="{{ person.image | relative_url }}" alt="{{ person.name }}">
+            </div>
+        </div>
+        <h3 style="margin-bottom: 0.2em">{{ person.name }}</h3>
+        <p style="font-size: 14px; margin-bottom: 0.5em"><span>{{ person.title }}</span></p>
+        </div>
+
+        {% if person.bio-intro and person.bio-more %}
+        <input type="checkbox" class="read-more-state" id="{{ panel.name }}-{{ person.name | replace: ' ','-' }}-bio" />
+        <p style="font-size: 16px; text-align: justify;" class="read-more-wrap">{{ person.bio-intro }} <span class="read-more-target">{{ person.bio-more }}</span>
+        </p>
+        <label for="{{ panel.name }}-{{ person.name | replace: ' ','-' }}-bio" class="btn btn-default read-more-trigger"></label>
+        {% elsif person.bio %}
+        <p style="font-size: 16px; text-align: justify;">{{ person.bio }}</p>
+        {% endif %}
+    </div>
+    {% endfor %}
+</div>

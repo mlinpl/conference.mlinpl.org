@@ -1,0 +1,39 @@
+<!-- Intro Header -->
+<header class="intro">
+    <canvas id="intro-background" class="intro-background"></canvas>
+    <div class="intro-body">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <h1 class="event-heading">{{ site.header.heading }}</h1>
+                    {% if site.header.subheading %}
+                    <h2 class="event-subheading">{{ site.header.subheading }}</h2>
+                    {% endif %}
+                    {% if site.header.date-location %}
+                    <h3 class="event-date-location">{{ site.header.date-location }}</h3>
+                    {% endif %}
+                    
+                    {% if site.header.countdown-overwrite %}
+                    <h3 id="event-countdown" class="event-countdown">
+                        {{ site.header.countdown-overwrite }}
+                    </h3>
+                    {% else if site.header.countdown-date %}
+                    <h3 id="event-countdown" class="event-countdown">
+                        {% if site.header.countdown-text %}
+                        <div class="event-countdown-text">{{ site.header.countdown-text }}</div>
+                        {% endif %}
+                        <span class="nowrap"><span id="d-left">0</span> <sub>days</sub></span>
+                        <span class="nowrap">/ <span id="h-left">00</span> <sub>hours</sub></span>
+                        <span class="nowrap">/ <span id="m-left">00</span> <sub>minutes</sub></span>
+                        <span class="nowrap">/ <span id="s-left">00</span> <sub>seconds</sub></span>
+                    </h3>
+                    {% endif %}
+
+                    <a href="{{ site.header.arrow-url }}" class="btn btn-circle page-scroll">
+                        <i class="fa fa-angle-double-down animated"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>

@@ -1,0 +1,19 @@
+<!-- People list, variant with big photos  -->
+{% comment %}
+Expects following parameters: people-data
+{% endcomment %}
+<div class="row">
+    <div class="col-xs-12 people-grid">
+        {% for person in include.people-data %}
+        <div class="person" style="text-align: center; width: 230px; margin: 20px;">
+            <div class="person-photo-wrapper" style="width: 210px; margin-bottom: 1em;">
+                <div>
+                    <img src="{{ person.image | relative_url }}" alt="{{ person.name }}">
+                </div>
+            </div>
+            <h4 style="text-align: center; margin-bottom: 0.2em">{{ person.name }}</h4>
+            <p style="font-size: 16px; text-align: center; margin-bottom: 0.4em"><span>{{ person.title }}</span></p>
+        </div>
+        {% endfor %}
+    </div>
+</div>

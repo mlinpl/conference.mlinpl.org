@@ -1,0 +1,24 @@
+<!-- People list, variant with small photos and social media links -->
+{% comment %}
+Expects following parameters: people-data
+{% endcomment %}
+<div class="row">
+    <div class="col-xs-12 people-grid">
+        {% for person in include.people-data %}
+        <div class="person" style="text-align: center; width: 250px; margin: 20px 10px;">
+            <div class="person-photo-with-social">
+                <div class="person-photo-wrapper" style="width: 120px;">
+                    <div>
+                        <img src="{{ person.image | relative_url }}" alt="{{ person.name }}">
+                    </div>
+                </div>
+            </div>
+            <h4 class="person-name" style="margin-bottom: 0 !important;">{{ person.name }}</h4>
+            <p class="person-title"><span>{{ person.title }}</span></p>
+            {% if person.comment and person.comment != "" %}
+            <p class="person-comment">{{ person.comment }}</p>
+            {% endif %}
+        </div>
+        {% endfor %}
+    </div>
+</div>

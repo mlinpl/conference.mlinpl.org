@@ -1,0 +1,83 @@
+- title: "Privacy Distillation: Reducing Re-identification Risk of Multimodal Diffusion Models"
+  abstract: >-
+    Knowledge distillation in neural networks refers to compressing a large model or dataset into a smaller version of itself. We introduce Privacy Distillation, a framework that allows a text-to-image generative model to teach another model without exposing it to identifiable data. Here, we are interested in the privacy issue faced by a data provider who wishes to share their data via a multimodal generative model. A question that immediately arises is “How can a data provider ensure that the generative model is not leaking identifiable information about a patient?”. Our solution consists of (1) training a first diffusion model on real data (2) generating a synthetic dataset using this model and filtering it to exclude images with a re-identifiability risk (3) training a second diffusion model on the filtered synthetic data only. We showcase that datasets sampled from models trained with privacy distillation can effectively reduce re-identification risk whilst maintaining downstream performance.
+  date: Friday / 27 October
+  time: 11:45 - 12:35
+  room: Lecture Hall A
+  slider-order: 1
+  author-name: Grzegorz Jacenków
+  author-title: Amazon
+  author-image: images/optimized/speakers-2023-600x600/GrzegorzJacenkow.webp
+  author-bio: >- 
+    Currently a Data Scientist at Amazon, Grzegorz Jacenków specialises in multimodal learning research and large language models (LLMs). Prior to joining Amazon, he was a PhD student in Healthcare AI at The University of Edinburgh, where he also earned an MSc in Artificial Intelligence. His academic foundation was laid with a BSc in Computer Science with Business and Management from The University of Manchester. Notably, Grzegorz contributed to CERN as a technical student, addressing author disambiguation at Inspire-HEP. His research interests encompass multimodal alignment, low-resource learning, and leveraging knowledge graphs.
+
+- author-name: Maciej Wysocki
+  title: "The Future is Now: Embracing Allegro Transactional Data for Risk Modeling"
+  #author-title: "Allegro Pay / Faculty of Economic Sciences, Quantiatitve Finance Department, University of Warsaw"
+  author-title: "Allegro Pay / University of Warsaw"
+  slider-order: 3
+  abstract: >- 
+    The accurate prediction of probability of default plays a critical role in safeguarding Allegro Pay business. Industry standard models, like tree-based models, unfortunately fall short in capturing the complexities of time-varying transactional data, limiting their predictive capabilities in prescoring applications. This presentation unveils a groundbreaking approach that harnesses the power of deep learning models to transform preliminary credit risk assessment.
+    
+    At the core of our methodology lies the utilization of time series transactional data, which provides insights into customers' behavior over time. We developed a custom experimentation framework tailored to our specific credit risk domain leveraging this valuable data. This framework facilitated seamless integration of deep learning models and allowed us to derive more accurate preliminary probability of default estimates.
+    
+    Our experimentation framework enabled us to explore various deep learning architectures, including Long Short-Term Memory (LSTM) networks and transformers, capable of capturing temporal dependencies in the data. We incorporated a combination of numerical and categorical features into our models, effectively encoding customer behavior patterns and leveraging transactional data in a meaningful way.
+    
+    To evaluate the effectiveness of our approach, extensive experiments were conducted on a diverse dataset comprising hundreds of thousands of time series of customer transactions. The results surpassed our baseline approaches, showcasing the potential of deep learning in probability of default prediction. We witnessed remarkable improvements in model performance, enabling more precise preliminary risk assessment and proactive decision-making.
+    
+    In conclusion, this presentation demonstrates the transformative potential of deep learning models in credit risk assessment, leveraging time series transactional data to accurately calculate preliminary probability of default based solely on Allegro data. The developed experimentation framework and the insights gained from our experiments pave the way for future advancements and usage of our methodology for customers prelimit offers.
+  author-bio: >- 
+    Maciej Wysocki is a first-year Ph.D. student in Quantitative Finance at the University of Warsaw and works as a data scientist at Allegro Pay. In his academic research he tackles the problems of derivatives pricing and portfolio optimization, while at Allegro Pay on a daily basis he deals with terabytes of data to deliver state-of-the-art machine learning solutions for credit risk management. With a passion for data-driven insights, he has a track record of applying advanced analytics and machine learning methods to solve complex business challenges in the banking and fintech industries.
+  co-authors: Jan Kościałkowski
+  date: Friday / 27 October
+  time: 11:45 - 12:35
+  room: Lecture Hall B
+  session:
+  author-image: images/optimized/cfc-2023-600x600/maciej_wysocki.webp
+
+- author-name: Michał Karpowicz
+  title: "From Cybersecurity to Neurosurgery: ML at work at NASK"
+  author-title: "NASK"
+  slider-order: 4
+  abstract: >-
+    Mathematics of AI, mathematics of cyberthreat detection and mitigation, cryptology, AI-based cybersecurity, disinformation detection, and harmful content tracking, NLP and LLMs, AI in medicine, computer vision and biometrics, and XAI, yes, you will find that all at NASK. I will not tell you about all, but I will tell you about some of the most fascinating research challenges and the beautiful mathematics behind them. How does matrix meta-factorization reveal and keep secrets? How can we reduce neurosurgery time with linear algebra? I am sure we will have a lot of fun!
+  author-bio: >- 
+    Michał Karpowicz joined NASK PIB in 2006. He has gone through a full academic career path, from a research assistant position to a professor at the institute, leading a team, department, and branch along the way (in the field of cyber security systems).
+    
+    He was visiting professor at the MIT Mathematics Department. He has given guest lectures at institutions like Stanford University and UCSD (University of California San Diego). He has been a long-time lecturer at the Faculty of Electronics and Information Technology at the Warsaw University of Technology.
+
+    He is the creator of the meta-factorization theory and new algorithms for detecting and mitigating DDoS attacks. He has formulated optimality conditions for a class of energy-efficient stochastic control problems with an infinite horizon, as well as necessary and sufficient conditions for the effectiveness of Nash equilibrium points in games induced by KKT conditions for nonlinear optimization problems with constraints.
+    
+    He is a co-creator of FLDX technology, energy-efficient network control systems, and energy-efficient CPU controllers (for the Linux kernel).
+    
+    He is the recipient of the NASK PIB Director's Award for his exceptional contribution to the development of the institute. He is also the recipient of the Warsaw University of Technology Rector's Award for his original lecture on Control Theory, as well as the Rector's Award for achievements in scientific research related to the development of energy-efficient control mechanisms for computer systems.
+  date: Friday / 27 October
+  time: 12:35 - 13:00
+  room: Lecture Hall B
+  author-image: images/optimized/speakers-2023-600x600/MichalKarpowicz.webp
+
+- author-name: Charles Martinez
+  title: "An introduction to careers and challenges in Quantitative Finance"
+  author-title: "Academic Relations Manager at G-Research"
+  slider-order: 2
+  abstract: >- 
+    We are a leading quantitative research and technology company based in London. Day to day we use a variety of quantitative techniques to predict financial markets from large data sets worldwide. Mathematics, statistics, machine learning, natural language processing and deep learning is what our business is built on. Our culture is academic and highly intellectual. In this seminar I will explain our background, current AI research applications to finance and our ongoing outreach and grants programme. The seminar will be aimed at PhD and Masters students who are curious about quant finance or interested in internship opportunities. We will cover the following topics: 1. Introducing G-Research, 2. What does a Quant look like?, 3. Challenges in ML 4. Our recruitment and internship processes.
+  author-bio: >- 
+    Dr Charles Martinez is the Academic Relations Manager at G-Research. Charles started his studies as a physicist at University Portsmouth Physics department’s MPhys programme, and later completed a PhD in Phonon interactions in Gallium Nitride nanostructures at the University of Nottingham. Charles then worked on indexing and abstract databases at the Institution for Engineering and Technology (IET) before moving –into sales in 2010. Charles' previous role was as Elsevier's Key Account Manager, managing sales and renewals for the UK Russell Group institutions, Government and Funding body accounts, including being one of the negotiators in the recent UK ScienceDirect Read and Publish agreement. Since leaving Elsevier Charles is dedicated to forming beneficial partnerships between G-Research and Europe's top institutions, and is living in Cambridge, UK.
+  date: Saturday / 28 October
+  time: 14:15 - 15:05
+  room: Lecture Hall A
+  author-image: images/optimized/cfc-2023-600x600/CharlesMartinez.webp
+
+- author-name: Volodymyr Saviak
+  title: "Hewlett Packard Enterprise tools for the AI/ML development & training"
+  author-title: "Hewlett-Packard Enterprise AI & HPC Sales Manager in CEE countries"
+  slider-order: 5
+  abstract: >- 
+    Hewlett Packard Enterprise (HPE) offers hardware infrastructure and software tools to build, train, tune and deploy large-scale AI. In the presentation, you will learn about HPE AI at Scale software portfolio, including Machine Learning Development Environment (MLDE), Machine Learning Data Management (MLDM), Smart-SIM, Swarm Learning.
+  author-bio: >- 
+    More than 25 years delivers IT infrastructure solutions on Central Eastern European market, focused on High Performance Computing, Big Data and recently Artificial Intelligence. Volodymyr is helping organizations to understand optimal infrastructure and implement technical computing solutions focused on high performance and scalability. For the development of the “First Ukrainian Supercomputer Center” and Ukrainian HPC community, he was awarded a top-level Ukraine’s Parliament Award. Volodymyr is a technology expert with a strong technical and business qualifications with an impressive record of accomplishments. 
+  date: Saturday / 28 October
+  time: 14:15 - 15:40
+  room: Lecture Hall B
+  author-image: images/optimized/speakers-2023-600x600/VolodymyrSaviak.webp

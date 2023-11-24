@@ -1,0 +1,15 @@
+- style: google
+  link: https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20231026%2F20231030&details=&location=Warsaw%2C%20Poland&text=ML%20in%20PL%20Conference
+  icon: <i class="fa-brands fa-google" style="font-size:18px"></i>
+
+- style: outlook
+  link: https://outlook.live.com/calendar/0/deeplink/compose?allday=true&body=&enddt=2023-10-30T01%3A00%3A00%2B00%3A00&location=Warsaw%2C%20Poland&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2023-10-26T00%3A00%3A00%2B00%3A00&subject=ML%20in%20PL%20Conference
+  icon: <i class="fa-solid fa-envelope" style="font-size:18px"></i>
+
+- style: office
+  link: https://outlook.office.com/calendar/0/deeplink/compose?allday=true&body=&enddt=2023-10-30T01%3A00%3A00%2B00%3A00&location=Warsaw%2C%20Poland&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2023-10-26T00%3A00%3A00%2B00%3A00&subject=ML%20in%20PL%20Conference
+  icon: <i class="fa-brands fa-microsoft" style="font-size:18px"></i>
+
+- style: yahoo
+  link: https://calendar.yahoo.com/?desc=&dur=allday&et=20231030&in_loc=Warsaw%2C%20Poland&st=20231026&title=ML%20in%20PL%20Conference&v=60
+  icon: <i class="fa-brands fa-yahoo" style="font-size:20px"></i>

@@ -1,0 +1,40 @@
+- title: Borges and AI
+  abstract: >-
+    Many believe that Large Language Models (LLMs) open the era of
+    Artificial Intelligence (AI). Some see opportunities while others see
+    dangers. Yet both proponents and opponents grasp AI through the imagery
+    popularised by science fiction. Will the machine become sentient and
+    rebel against its creators? Will we experience a paperclip apocalypse?
+    Before answering such questions, we should first ask whether this mental
+    imagery provides a good description of the phenomenon at hand.
+    Understanding weather patterns through the moods of the gods only goes
+    so far. The present paper instead advocates understanding LLMs and their
+    connection to AI through the imagery of Jorge Luis Borges, a master of
+    20th century literature, forerunner of magical realism, and precursor to
+    postmodern literature. This exercise leads to a new perspective that
+    illuminates the relation between language modelling and artificial
+    intelligence. 
+
+  date: Thursday / 26 October
+  time: 12:30 - 13:30 
+  room: Main Lecture Hall
+  author-name: Léon Bottou
+  author-title: Meta AI
+  author-image: images/optimized/speakers-2023-600x600/LeonBottou.webp
+  author-bio: >- 
+    Léon Bottou received the Diplôme d'Ingénieur de l'École Polytechnique (X84) in 1987, the Magistère de Mathématiques Fondamentales et Appliquées et d'Informatique from École Normale Supérieure in 1988, and a Ph.D. in Computer Science from Université de Paris-Sud in 1991. His research career took him to AT&T Bell Laboratories, AT&T Labs Research, NEC Labs America and Microsoft. He joined Meta AI (formerly Facebook AI Research) in 2015. The long-term goal of Léon Bottou's research is to understand and replicate intelligence. Because this goal requires conceptual advances that cannot be anticipated, Leon's research has followed many practical and theoretical turns: neural networks applications in the late 1980s, stochastic gradient learning algorithms and statistical properties of learning systems in the early 1990s, computer vision applications with structured outputs in the late 1990s, theory of large scale learning in the 2000s. During the last few years, Léon Bottou's research aims to clarify the relation between learning and reasoning, with more and more focus on the many aspects of causation (inference, invariance, reasoning, affordance, and intuition.)
+  google-scholar: https://scholar.google.com/citations?user=kbN88gsAAAAJ
+  co-author: Bernhard Schölkopf
+
+- title: "Reinforcement Learning, Large Models and AI: Challenges and Opportunities"
+  abstract: >-
+    There has been tremendous progress in Reinforcement Learning (RL) over the past decade, with RL-based agents achieving super-human performance in Atari games, Go, StarCraft and other challenging tasks. This progress led many researchers to view RL as a key ingredient for building generally intelligent systems. However, the continued improvement in the capabilities of large language models is causing many to reconsider the importance of RL on the path to AI. Are large language models enough? Will RL continue to play an important role? Should you learn about RL if you're new to the field? I will try to answer these questions by looking back at the last 10 years of progress in AI while also presenting some challenges and opportunities for the future.
+  date: Thursday / 26 October
+  time: 16:45 - 17:45
+  room: Main Lecture Hall
+  author-name: Volodymyr Mnih
+  author-title: Google DeepMind
+  author-image: images/optimized/speakers-2023-600x600/VolodymyrMnih.webp
+  author-bio: >- 
+    Volodymyr Mnih is a Research Scientist at Google DeepMind. He completed an MSc at the University of Alberta working under the supervision of Csaba Szepesvari and a PhD at the University of Toronto working under the supervision of Geoffrey Hinton. Since joining DeepMind, he has been working at the intersection of deep learning and reinforcement learning, co-developing Deep Q Networks (DQN), the asynchronous advantage actor critic (A3C), and reinforcement learning-based hard attention mechanisms.
+  google-scholar: https://scholar.google.com/citations?user=rLdfJ1gAAAAJ

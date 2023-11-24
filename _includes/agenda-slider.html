@@ -1,0 +1,54 @@
+<!-- Agenda Section -->
+{% comment %}
+Expects following parameters: agenda-data
+{% endcomment %}
+<section id="agenda" class="container content-section">
+    <div class="row">
+        <div class="col-lg-12">
+            <h2>/ Agenda</h2>
+            <!-- <p>
+                Below we present the draft of the conference agenda, it may change. 
+                The details will be announced in the following days.
+            </p> -->
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12 slider-container">
+            <div class="slider-tabs">
+                {% for day in include.agenda-data %}
+                <a class="slider-item page-scroll person item-col-4" data-index="{{ forloop.index0 }}" href="#agenda">
+                    <div class="center-verticaly" style="max-height: 34px;">
+                        <div>
+                            <span class="speaker-name">
+                                {{ day.title }}
+                            </span></br>
+                        </div>
+                    </div>
+                </a>
+                {% endfor %}
+            </div>
+
+            <div class="slider-content">
+                {% for day in include.agenda-data %}
+                <div class="row slider-item-content" data-index="{{ forloop.index0 }}">
+                    <div class="col-lg-12">
+                        <h4 style="padding-left: 10px; margin-top: 35px; margin-bottom: 0;"><i class="fa-solid fa-location-dot"></i> <strong>{{ day.location }}</strong></h4>
+                        <h4 style="padding-left: 30px;">{{ day.location-address }}</h4>
+                        {% if day.note %}
+                        <p style="padding: 10px;">
+                           <i class="emph fa-solid fa-circle-exclamation"></i> {{ day.note }}
+                        </p>
+                        {% endif %}
+                    </div>
+                    {% include agenda-day-details.html day=day %}
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    <div class="row text-center" style="margin-top: 25px;">
+        <div class="col-lg-12">
+            <a class="btn btn-default btn-lg" href="{{ "./program" | relative_url }}">Full program of <span class="logo"><span class="main-name">ML&nbsp;in&nbsp;PL</span>&nbsp;<span class="sub-name">Conference 2023</span></span> </a>
+        </div>
+    </div>
+</section>

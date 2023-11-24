@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+    {% include nav.html %}
+    {% include page-header.html %}
+    
+    {% if page.content-wrapper == false %}
+    {{ content }}
+    {% else %}
+    <section class="container content-section">
+        <div class="row">
+            <div class="col-xs-12">
+                {{ content }}
+            </div>
+        </div>
+    </section>
+    {% endif %}
+
+    {% include footer.html %}
+    {% include js.html %}
+</body>
+</html>
