@@ -1,0 +1,185 @@
+---
+layout: page
+content-wrapper: false
+title: About ML in PL Conference
+html-title: About <span class="logo"><span class="main-name">ML <span class="emph">i</span>n PL</span> <span class="sub-name">Conference</span></span>
+permalink: /about-ml-in-pl-conference
+mlinpl-inline-logo: <span class="logo"><span class="main-name">ML <span class="emph">i</span>n PL</span> <span class="sub-name">Conference</span></span>
+---
+
+
+<section class="container content-section" style="">
+    <div class="row">
+        <div class="col-xs-12">
+            <h2>/ What is {{ page.mlinpl-inline-logo }}?</h2>
+            <p>
+                The {{ page.mlinpl-inline-logo }} (formerly PL in ML) is a non-archival scientific conference on machine learning research 
+                and applications, organized by non-profit ML in PL Association. 
+                It is held annually in Warsaw, Poland. Ever since its inauguration in 2017, 
+                the conference has been gathering a diverse audience of machine learning researchers and enthusiasts, 
+                providing them with a platform to listen to the leading experts in the field, present and discuss their latest research,
+                and meet like-minded machine learning enthusiasts in a friendly and inclusive atmosphere.
+            </p>
+            <p>
+                Below you can find more information about {{ page.mlinpl-inline-logo }} and what distinguishes it from other events.            
+            </p>
+        </div>
+    </div>
+</section>
+
+
+<section class="container content-section">
+    <div class="row">
+        <div class="col-xs-12">
+            <h2>/ Talks by the best experts</h2>
+            <p>
+                To inspire our audience and create an excellent environment for learning and exchanging knowledge, 
+                every year we aim for an impressive line-up of speakers and panelists consisting of the world’s leading experts in machine learning.
+                Over the years, we have managed to host many distinguished people from the best universities and companies around the world, 
+                some of whom we list below.
+
+            </p>
+            <h3>Some of our previous invited speakers:</h3>
+        </div>
+    </div>
+
+    {% include people-with-comments.html people-data=site.data.previous-selected-speakers %}
+</section>
+
+
+<section class="container content-section">
+    <div class="row">
+        <div class="col-xs-12">
+            <h2>/ Community driven</h2>
+            <p>
+                {{ page.mlinpl-inline-logo }} would not exist without 
+                presentations of our community members.
+                Each year we invite all to submit their talks and poster proposals.
+                We receive a multitude of high-quality submissions 
+                and accept the best proposals to be presented at the conference.
+                We aim to provide a forum for discussing recent advances from 
+                the possible broadest range of topics and perspectives.
+                Because of that, our selection process focuses on inclusivity, 
+                embracing a wide range of themes and viewpoints. 
+                In addition to scientific excellence, we consider the relevance, novelty, 
+                and uniqueness of each proposed topic.
+            </p>
+        </div>
+    </div>
+</section>
+
+
+<section class="container content-section">
+    <div class="row">
+        <div class="col-xs-12">
+            <h2>/ Diverse audience of machine learning enthusiasts</h2>
+            <p>
+                {{ page.mlinpl-inline-logo }} gathers in one place, diverse audience, 
+                including researchers, engineers, developers, data scientists, students, and enthusiasts
+                from different backgrounds, locations, and genders.
+                Since 2019, each year, the conference is attended by over 500 participants (over 600 in 2023).
+                Below we present some statistics about the population of our participants.
+            </p>
+            <h3>Statistics about {{ page.mlinpl-inline-logo }} participants:</h3>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <img class="width-100 width-max-400px" src="{{ './images/misc/participants-degree.png' | relative_url }}">
+        </div>
+        <div class="col-md-4">
+            <img class="width-100 width-max-400px" src="{{ './images/misc/participants-affiliation.png' | relative_url }}">
+        </div>
+        <div class="col-md-4">
+            <img class="width-100 width-max-400px" src="{{ './images/misc/participants-gender.png' | relative_url }}">
+        </div>
+        <div class="col-xs-12">
+            <p style="color: #AAA; font-size: 14px; margin-left: 10px; margin-top: 20px;">
+                Based on the registration and conference survey data from 2019 and 2022 (two most recent on-site editions, 2020 and 2021 were virtual edtions).
+            </p>
+        </div>
+    </div>
+</section>
+
+<section class="container content-section">
+    <div class="row">
+        <div class="col-xs-12">
+            <h2>/ Endorsed by the participants and speakers</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <p>
+                {{ page.mlinpl-inline-logo }} has been endorsed many times by the participants and speakers
+                that appreciated the quality of the scientific program, 
+                the professionalism of the organization, and the great friendly atmosphere. 
+                One such person was Yannic Kilcher. We share here a fragment of his video, 
+                where he talks about his experience at the conference.
+            </p>
+            <p>
+                The proof of the conference's popularity is the fact that 
+                the regular tickets, which are sold in a first-come-first-served manner, 
+                sold out every year.
+            </p>
+        </div>
+        <div class="col-md-6">
+            <iframe style="max-width: 100%; aspect-ratio: 560/315;" width="560" src="https://www.youtube-nocookie.com/embed/zLPaRIgFJPo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <p style="color: #AAA; font-size: 14px;">
+                Original video: <a href="https://youtu.be/TOo-HnjjuhU">https://youtu.be/TOo-HnjjuhU</a>
+            </p>
+        </div>
+    </div>
+</section>
+
+
+<section class="container content-section">
+    <div class="row">
+        <div class="col-xs-12">
+            <h2>/ Trusted by the leaders in the industry</h2>
+            <p>
+                Over the years, {{ page.mlinpl-inline-logo }} has been supported by many companies that are industry leaders 
+                in the field of machine learning and artificial intelligence research and applications. 
+                We are grateful for their support and trust. 
+            </p>
+            <h3>Companies that sponsored us in the past:</h3>
+        </div>
+    </div>
+    {% include logos.html logos-data=site.data.previous-sponsors imageMaxWidth="210px" imageMaxHeight="90px" %}
+</section>
+
+
+<section class="container content-section">
+    <div class="row">
+        <div class="col-xs-12">
+            <h2>/ Organizers - ML in PL Association</h2>
+        </div>  
+    </div>
+    <div class="row">
+        <div class="col-md-8">
+            <p>
+                ML in PL Association is a non-profit organization set up by students from Poland that wanted to have 
+                a world-class machine learning conference in their country, so they decided to organize it themselves.
+                The association consists of a group of volunteers, mostly undergrad, graduate, and PhD students, 
+                that are devoted to fostering the machine learning community in Poland and Europe 
+                and promoting a deep understanding of machine learning. 
+            </p>
+        </div>
+        <div class="col-md-4 text-center" style="margin-bottom: 35px;">
+            <a href="https://mlinpl.org"><img class="width-100 width-max-400px" src="{{ "./images/mlinpl-logo-black.png" | relative_url }}"></a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12">
+            <p>
+                Despite the conference being organized by volunteers in their free time, 
+                the years of experience, well-defined structure of the management,
+                and knowledge transfer between senior and junior members of the association
+                ensure mostly smooth organization of a large-scale international event, which is {{ page.mlinpl-inline-logo }}.
+            </p>
+            <p>
+                100% of the profits from the conference are used to support the organization of the next editions of ML in PL Conference and our Machine Learning Summer Schools.
+                Check all our activities and initiatives on our <a href="https://mlinpl.org/">website</a>.
+            </p>
+        </div>
+    </div>
+</section>

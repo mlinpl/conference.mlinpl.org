@@ -1,0 +1,48 @@
+<!-- Panels Section -->
+<section id="panels" class="container content-section">
+    <div class="row">
+        <div class="col-lg-12">
+            <h2>/ Discussion Panels</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12 slider-container">
+            <div class="slider-content">
+                {% for panel in site.data.panels %}
+                <div class="row slider-item-content" data-index="{{ forloop.index0 }}">
+                    <!-- Panel details will be displayed here when a panel is selected -->
+                    <div class="col-md-12">
+                        {% include conference/panel-details.html panel=panel %}
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+  
+            <div class="slider-timer-wrapper">
+                <div class="slider-timer"></div>
+            </div>
+    
+            <div class="slider-tabs">
+                {% for panel in site.data.panels %}
+                <a class="slider-item page-scroll person item-col-3" data-index="{{ forloop.index0 }}" href="#panels">
+                    {% for speaker in panel.panelists %}
+                    <div class="person-photo-wrapper speaker-photo" style="width: 75px; margin-right: -20px;">
+                        <div>
+                            <img src="{{ speaker.image | relative_url }}" alt="{{ speaker.name }} photo">
+                        </div>
+                    </div>
+                    {% endfor %}
+                    <div class="center-verticaly" style="padding-left: 20px;">
+                        <div>
+                            <span class="speaker-name">
+                                {{ panel.name }}
+                            </span>
+                        </div>
+                    </div>
+                </a>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>
+  

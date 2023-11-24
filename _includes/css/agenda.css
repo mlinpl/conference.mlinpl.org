@@ -1,0 +1,132 @@
+/*!
+ * ML in PL Jekyll Theme
+ */
+
+/* Simple agenda styles */
+.simple-agenda{
+    display: flex;
+    flex-wrap: wrap; 
+    align-items: baseline;
+    width: 100%;
+}
+
+.day{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.days-3 {
+    width: 33%;
+}
+
+.days-7 {
+    width: 14.25%;
+    min-width: 150px;
+}
+
+.events{
+    text-align: left;
+    padding: 5px;
+}
+
+.simple-agenda .events:last-child{
+    border-right: none;
+}
+
+.event{
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid {{ site.color.main }};
+}
+
+.event:last-child{
+    border-bottom: none;
+}
+
+.event-empty{
+    border-bottom: none;
+}
+
+.event-1{
+    height: 64px;
+}
+
+.event-1-5{
+    height: 80px;
+}
+
+.event-2{
+    height: 96px;
+}
+
+.event-2-5{
+    height: 112px;
+}
+
+.event-3{
+    height: 128px;
+}
+
+.event-3-5{
+    height: 144px;
+}
+
+.event-4{
+    height: 160px;
+}
+
+.event-5{
+    height: 192px;
+}
+
+.event-6{
+    height: 224px;
+}
+
+.event-7{
+    height: 256px;
+}
+
+.event-8{
+    height: 288px;
+}
+
+
+/* Agenda styles */
+
+.agenda-day{
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.agenda-session {
+    clear: both;
+}
+
+.agenda-item > div {
+    font-size: 16px;
+    border-top: 1px solid #000;
+    padding: 10px;
+}
+
+.agenda-session:first-child > .agenda-item > div {
+    border-top: none;
+}
+
+.agenda-item h4, .agenda-item h5, .agenda-item h6 {
+    margin-bottom: 0;
+    text-align: left;
+}
+
+.agenda-item ul {
+    list-style: disc;
+    list-style-position: outside;
+    padding-left: 1em;
+    margin-bottom: 0;
+}
+
+.agenda-item ul li a {
+    display: inline-table;
+}

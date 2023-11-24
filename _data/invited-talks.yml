@@ -1,0 +1,192 @@
+- title: "Understanding Iterative Magnitude Pruning: linear mode connectivity, symmetries, and data"
+  abstract: >-
+    Magnitude-based neural network pruning is an effective and widely used technique for compressing neural networks. In this talk I will present my line of work investigating iterative magnitude pruning. I will discuss how the data used to train and prune as well as algorithmic aspects of pruning itself, affect generalization. Using a toy model, I will illustrate how pruning interacts with the loss landscape and curvature.  Finally, I will describe linear mode connectivity's role in iterative magnitude pruning and present our recent findings on how symmetries in neural networks affect iterative magnitude pruning and lottery tickets.
+  time: 09:00 - 10:00
+  room: Main Lecture Hall
+  date: Friday / 27 October
+  id: 1
+  author-name: Gintare Karolina Dziugaite
+  author-title: Google DeepMind
+  author-image: images/optimized/speakers-2023-600x600/GintareKarolinaDziugaite.webp
+  author-bio: >-
+    Gintare Karolina Dziugaite is a senior research scientist at Google DeepMind, an adjunct professor in the McGill University School of Computer Science, and an associate industry member of Mila, the Quebec AI Institute. Prior to joining Google, she led the Trustworthy AI program at Element AI / ServiceNow, and was named a Rising Star in Machine Learning in 2019. Her research combines theoretical and empirical approaches to understanding deep learning. Since her PhD, one of her main focuses has been on generalization, memorization, and, more recently, on unlearning. She has published a number of papers on network and data pruning, investigating how pruning interacts with other properties of deep learning systems, the training dynamics and the loss landscape.
+  google-scholar: https://scholar.google.co.uk/citations?user=5K1QB_8AAAAJ
+
+- title: Learning Dynamical Systems Via Koopman Operator Regression
+  abstract: >-
+    Non-linear dynamical systems can be handily described by the associated Koopman operator, whose action evolves every observable of the system forward in time. These operators are instrumental to forecasting and interpreting the system dynamics, and have broad applications in science and engineering. The talk gives a gentle introduction to this topic, with a focus on theory and algorithms. We highlight the importance of algorithms that allow us to estimate the spectral decomposition of the Koopman operator well and explore how the quest for good representations for these operators can be formulated as an optimization problem involving neural networks.
+  time: 09:00 - 10:00
+  room: Lecture Hall A
+  date: Friday / 27 October
+  id: 2
+  author-name: Massimiliano Pontil
+  author-title: Italian Institute of Technology / University College London / ELLIS
+  author-image: images/optimized/speakers-2023-600x600/MassimilianoPontil.webp
+  author-bio: >-
+    Massimiliano Pontil is Senior Researcher at the Italian Institute of Technology, where he leads the CSML research unit, and co-director of ELLIS unit Genoa. He is also Professor at University College London and member of the UCL Centre for Artificial Intelligence. He has been active in machine learning for over twenty-five years, working on theory and algorithms, including the areas of kernel methods, learning dynamical systems, meta-learning, multitask and transfer learning, sparse estimation, and statistical learning theory.
+  google-scholar: https://scholar.google.com/citations?user=lcOacs8AAAAJ
+
+- title: Bits of Reinforcement Learning
+  abstract: >-
+    By leveraging so-called deep neural networks and using unprecedented computing power, the reinforcement learning community has obtained remarkable achievements these last years. They drew the attention and interest of many towards RL. Indeed, a vast amount of practical problems seem to fit the RL setting. During this talk, I will present a set of our recent works dealing with various fields of applications (agriculture, agro-ecology, soft robotics). I will also discuss the practical difficulties we faced, and the experimental methodological issues that we currently meet in RL, and some solutions.
+  time: 09:00 - 10:00
+  room: Lecture Hall B
+  date: Friday / 27 October
+  id: 3
+  author-name: Philippe Preux
+  author-title: Université de Lille
+  author-image: images/optimized/speakers-2023-600x600/PhilippePreux.webp
+  author-bio: >-
+    Philippe Preux is a professor in Computer Science at the Université de Lille, France. He has been active in research in artificial intelligence for 30 years now, mostly dealing with machine learning and data mining in the last 2 decades, especially reinforcement learning. He has been the head of the SequeL research group at Inria/CNRS/Université de Lille since 2006, a group now renamed Scool. His research ranges from fundamental algorithmic and methodological questions to applications of reinforcement learning in collaboration with companies. Philippe currently focuses his efforts on applications related to health or sustainable development. He has hosted ICML 2015, and co-organized various scientific events such as the European Workshop on Reinforcement Learning in 2008 and 2018, as well as the Reinforcement Learning Summer School in 2019.
+  google-scholar: https://scholar.google.com/citations?user=JTXxmeAAAAAJ
+
+- title: Language Modelling with Pixels
+  abstract: >-
+    Language models are usually defined over a finite set of inputs, which creates a bottleneck if we attempt to scale the number of languages supported by a model. Tackling this bottleneck often results in a trade-off between what can be represented in the model and computational issues in the output layer. I will present the Pixel-based Encoder of Language, which suffers from neither of these issues by rendering text as images, making it possible to transfer representations across languages based on the co-activation of pixels. I will discuss the results of various models, pretrained on only English text, ranging from just 5M parameters up to 86M parameters on a variety of downstream syntactic and semantic tasks in 32 typologically diverse languages across 14 scripts.
+  date: Friday / 27 October
+  time: 14:15 - 15:15
+  room: Main Lecture Hall
+  id: 4
+  author-name: Desmond Elliott
+  author-title: University of Copenhagen
+  author-image: images/optimized/speakers-2023-600x600/DesmondElliott.webp
+  author-bio: >-
+    Desmond Elliott is an Assistant Professor and a Villum Young Investigator at the University of Copenhagen. He obtained his Ph.D from the University of Edinburgh, under the supervision of Frank Keller, and he was a Postdoctoral Researcher at CWI, and the University of Amsterdam in the Netherlands. His current research interests include tokenisation-free language modelling, and multilingual and multimodal learning.
+  google-scholar: https://scholar.google.com/citations?user=OjYpMi4AAAAJ
+
+- title: Teaching Language Models to Use Tools
+  abstract: >-
+    Large language models (LLMs) have fueled dramatic progress in natural language tasks and are already at the core of many user-facing products, such as ChatGPT and Copilot. Paradoxically, language models often still struggle with basic tasks, like solving simple arithmetic problems, where smaller and simpler external resources, such as a calculator, can accomplish the task perfectly. This talk will focus on LLMs that leverage external resources, beginning with models that are always prompted to use an external tool, like retrieval-augmented models. The second part of this talk will concentrate on teaching models to autonomously understand how and when to leverage tools in a self-supervised way. Finally, we will discuss exciting new opportunities that necessitate external tool usage.
+  date: Friday / 27 October
+  time: 14:15 - 15:15
+  room: Lecture Hall A
+  id: 5
+  author-name: Jane Dwivedi-Yu
+  author-title: Meta AI
+  author-image: images/optimized/speakers-2023-600x600/JaneDwivedi-Yu.webp
+  author-bio: >-
+    Jane Dwivedi-Yu is a researcher at Meta AI. Her current research focuses on enhancing capabilities of language models along several dimensions, including tool usage, editing, and evaluating representation harms and notions of morality and norms internalized by these models. She is also interested in building large-scale personalized recommender systems by leveraging principles from affective computing, work which was cited among the top 15 AI papers to read in 2022. Before joining Meta, she completed her PhD in Computer Science at University of California, Berkeley and Bachelors at Cornell University.
+  google-scholar: https://scholar.google.com/citations?user=ev8Ilx0AAAAJ
+
+- title: Planning and Learning in Structured Environments
+  abstract: >-
+    Reinforcement learning (RL) and more generally sequential decision making deal with problems where the decision maker ('agent') needs to take actions over time. While impressive results have been achieved on challenging domains like Atari, Go, and Starcraft, most of this work relies on neural networks to form their own internal abstractions. However, in many applications, we may be able to exploit some knowledge about the structure of the environment to guide this process.  In this talk I will cover some of my work that tries to exploit structure to define effective methods for planning and reinforcement learning.
+  date: Friday / 27 October
+  time: 14:15 - 15:15
+  room: Lecture Hall B
+  id: 6
+  author-name: Frans A. Oliehoek
+  author-title: Delft University of Technology
+  author-image: images/optimized/speakers-2023-600x600/FransOliehoek.webp
+  author-bio: >-
+    Frans A. Oliehoek is Associate Professor at Delft University of Technology, where he leads a group on interactive learning and decision making, is one of the scientific directors of the Mercury machine learning lab, and is director and co-founder of the ELLIS Unit Delft. He received his Ph.D. in Computer Science (2010) from the University of Amsterdam (UvA), and held positions at various universities including MIT, Maastricht University and the University of Liverpool.  Frans' research interests revolve around intelligent systems that learn about their environment via interaction, building on techniques from machine learning, AI and game theory. He has served as PC/SPC/AC at top-tier venues in AI and machine learning, and currently serves as associate editor for JAIR and AIJ. He is a Senior Member of AAAI, and was awarded a number of personal research grants, including a prestigious ERC Starting Grant.
+  google-scholar: https://scholar.google.com/citations?user=rSNBJJIAAAAJ
+
+
+
+- title: Importance-Weighted Offline Learning Done Right
+  abstract: >-
+    We study the problem of offline policy optimization in stochastic
+    contextual bandit problems, where the goal is to learn a near-optimal
+    policy based on a dataset of decision data collected by a suboptimal
+    behavior policy. Rather than making any structural assumptions on the
+    reward function, we assume access to a given policy class and aim to
+    compete with the best comparator policy within this class. In this
+    setting, a standard approach is to compute importance-weighted
+    estimators of the value of each policy, and select a policy that
+    minimizes the estimated value up to a "pessimistic" adjustment
+    subtracted from the estimates to reduce their random fluctuations. In
+    this paper, we show that a simple alternative approach based on the
+    "implicit exploration" estimator of Neu (2015) yields performance
+    guarantees that are superior in nearly all possible terms to all
+    previous results. Most notably, we remove an extremely restrictive
+    "uniform coverage" assumption made in all previous works. These
+    improvements are made possible by the observation that the upper and
+    lower tails importance-weighted estimators behave very differently
+    from each other, and their careful control can massively improve on
+    previous results that were all based on symmetric two-sided
+    concentration inequalities. We also extend our results to infinite
+    policy classes in a PAC-Bayesian fashion, and showcase the robustness
+    of our algorithm to the choice of hyper-parameters by means of
+    numerical simulations.
+  co-authors: Germano Gabbianelli, Matteo Papini
+  time: 09:00 - 10:00
+  room: Lecture Hall A
+  date: Saturday / 28 October
+  id: 7
+  author-name: Gergely Neu
+  author-title: Universitat Pompeu Fabra
+  author-image: images/optimized/speakers-2023-600x600/GergelyNeu.webp
+  author-bio: >-
+    Gergely Neu is a research assistant professor at the Pompeu Fabra University, Barcelona, Spain. He has previously worked with the SequeL team of INRIA Lille, France and the RLAI group at the University of Alberta, Edmonton, Canada. He obtained his PhD degree in 2013 from the Budapest University of Technology and Economics, where his advisors were András György, Csaba Szepesvári and László Györfi. His main research interests are in machine learning theory, with a strong focus on sequential decision making problems. Dr. Neu was the recipient of a Google Faculty Research award in 2018, the Bosch Young AI Researcher Award in 2019, and an ERC Starting Grant in 2020.
+  google-scholar: https://scholar.google.com/citations?user=uz27G84AAAAJ
+
+- title: "Geometric Algebra Transformers: A Universal Architecture for Geometric Data"
+  abstract: >-
+    Problems involving geometric data arise in a variety of fields, including computer vision, robotics, chemistry, and physics. Such data can take numerous forms, such as points, direction vectors, planes, or transformations, but to date there is no single architecture that can be applied to such a wide variety of geometric types while respecting their symmetries. In this paper we introduce the Geometric Algebra Transformer (GATr), a general-purpose architecture for geometric data. GATr represents inputs, outputs, and hidden states in the projective geometric algebra, which offers an efficient 16-dimensional vector space representation of common geometric objects as well as operators acting on them. GATr is equivariant with respect to Pin(3,0,1), the double cover of E(3): the symmetry group of 3D Euclidean space. As a transformer, GATr is scalable, expressive, and versatile. In various geometric problems, GATr shows strong improvements over non-geometric baselines.
+  time: 09:00 - 10:00
+  room: Lecture Hall B
+  date: Saturday / 28 October
+  id: 8
+  author-name: Taco Cohen
+  author-title: Qualcomm AI Research
+  author-image: images/optimized/speakers-2023-600x600/TacoCohen.webp
+  author-bio: >-
+    Taco Cohen is a machine learning researcher (Principal Engineer) at Qualcomm AI Research in Amsterdam. He received a BSc in theoretical computer science from Utrecht University, and a MSc in artificial intelligence and PhD in machine learning (with prof. Max Welling) from the University of Amsterdam (all three cum laude). He was a co-founder of Scyfer, a company focussed on deep active learning, acquired by Qualcomm in 2017. His research is focused on geometric deep learning and reinforcement learning. During his studies he has interned at Google Deepmind (working with Geoff Hinton) and OpenAI. He received the 2014 University of Amsterdam MSc thesis prize, a Google PhD Fellowship, ICLR 2018 best paper award for “Spherical CNNs”, was named one of 35 innovators under 35 by MIT Tech Review, and won the 2022 ELLIS PhD Award and 2022 Kees Schouhamer Immink prize for his PhD research.
+  google-scholar: https://scholar.google.com/citations?user=a3q4YxEAAAAJ
+
+- title: Neural Network Deployment - Dealing with Non-Differentiable Objectives and with Prior Shift
+  abstract: >-
+    The talk will touch two problems that are common, yet rarely addressed, in the deployment of system based on neural networks.
+    
+    
+    The natural formulations of many tasks, in computer vision and elsewhere, leads to a non-differentiable objective function, rendering  standard SGD training inapplicable. In applicatons, the problem is often side-stepped by using a differentiable proxy loss, i.e. a loss designed for another task, which may or may not align well with the non-differentiable objective. We will present approaches for learning a differentiable surrogate of  decomposable and non-differentiable objectives.  For the decomposable case, the approach is validated on two practical tasks of scene text recognition and detection, where the surrogate learns an approximation of edit distance and intersection-over-union, respectively. For the non-decomposable case, we consider image retrieval and develop a recall@k surrogate, also applicable for sorting and counting.
+    
+
+    The second part of the talk will focus on the problem of prior shift, i.e. the situation when the the training and test data have different prior probabilities, distinguishing two cases, when the test-time priors is known and when it must be estimated. The proposed method treats the outputs of the deep net as  a posteriori probabilities, requiring output calibration. The benefits of test-time prior estimation and adaptation will be demonstrated on a fine-grained recognition problem.
+  time: 15:15 - 16:15
+  room: Main Lecture Hall
+  date: Saturday / 28 October
+  id: 9
+  author-name: Jiri Matas
+  author-title: Czech Technical University
+  author-image: images/optimized/speakers-2023-600x600/JiriMatas.webp
+  author-bio: >-
+    Jiri Matas is a full professor and the head of the Visual Recognition Group, Department of Cybernetics, Czech Technical University in Prague. He holds a PhD degree from the University of Surrey, UK (1995). He has published more than 300 papers that have been cited about 64000 times.
+    His research interests include visual tracking, object recognition, image matching and retrieval, sequential pattern recognition, and RANSAC-type optimization methods. He received the best paper prize at the British Machine Vision Conferences in 2002, 2005 and 2022, at the Asian Conference on Computer Vision in 2007 and at the Int. Conf. on Document analysis and Recognition in 2015. J. Matas served as a programme or general chair at the European Conference of Computer Vision (ECCV) in 2004, 2016, 2022 and at Computer Vision and Pattern Recognition (CVPR) in 2007 and 2022. He is an Editor-in-Chief of the International Journal of Computer Vision was an Associate Editor-in-Chief of IEEE T. Pattern Analysis and Machine Intelligence. 
+    He has co-founded two companies, Eyedea Recognition (computer vision) and Locksley (combinatorial optimization). The industrial project he has lead at the Czech Technical University (Toyota, Samsung, Hitachi, Boeing) have generated income of about 5 million euros. He is an inventor of several patents.
+  google-scholar: https://scholar.google.com/citations?user=EJCNY6QAAAAJ
+
+- title: Modular Deep Learning for Customisable LLMs
+  abstract: >- 
+    Large Language Models (LLMs) are fine-tuned on instructions and/or human feedback to create general-purpose models for a variety of AI applications. Nevertheless, LLMs are hard to customise due to their scale, which makes full fine-tuning impractical (due to its high memory requirements) and prompting unreliable (due to its inferior performance). How then to customise the behaviour of an LLM efficiently? Modular deep learning has emerged as an alternative paradigm where information is routed to specialised, autonomous modules. Individual modules can be subsequently merged to add (or subtract) the knowledge they contain from a backbone LLM.
+
+    A module may consist of any form of parameter-efficient fine-tuning (PEFT) so that large inventories of modules do not impact the complexity of the original LLM. However, most PEFT methods suffer from interferences when multiple modules are activated. Hence, I propose a series of algorithms to create composable modules. In particular, I will show how to adapt LLMs by updating only sub-networks (subsets of parameters): the resulting modules consist of sparse parameter shifts from the dense LLM, which can be composed in non-destructive ways.
+
+    Composing modules is crucial for generalising systematically to new tasks when these consist of new combinations of skills learned from previous tasks. While sometimes the required skills are known (e.g., language modules and task modules in cross-lingual transfer), often it is necessary to learn how to route every input to the modules corresponding to the skills needed to solve it. To this end, I will illustrate a method to disentangle skills into modules and routing to variable-size subsets of skills in both NLP and RL.
+
+    Finally, I will show how adding modules can promote positive behaviours in LLMs (e.g., faithfulness to ground-truth knowledge) and how subtracting modules can discourage negative behaviours (e.g., toxicity). Moreover, I will demonstrate that the errors resulting from these merging operations stem from the mismatch between the gradients of individual modules and a “target” model (by definition inaccessible) trained on the union of their data. Thus, I will provide a general formula for merging modules that minimises their gradient mismatch.
+
+  time: 15:15 - 16:15
+  room: Lecture Hall A
+  date: Saturday / 28 October
+  id: 10
+  author-name: Edoardo Maria Ponti
+  author-title: University of Edinburgh / University of Cambridge
+  author-image: images/optimized/speakers-2023-600x600/EdoardoMariaPonti.webp
+  author-bio: >-
+    Edoardo M. Ponti is a Lecturer (≈ Assistant Professor) in Natural Language Processing at the University of Edinburgh, where he is part of the "Institute for Language, Cognition, and Computation" (ILCC), and an Affiliated Lecturer at the University of Cambridge. Previously, he was a visiting postdoctoral scholar at Stanford University and a postdoctoral fellow at Mila and McGill University in Montreal. In 2021, he obtained a PhD in computational linguistics from the University of Cambridge, St John’s College. His main research foci are modular deep learning, sample-efficient learning, faithful text generation, computational typology and multilingual NLP. His research earned him a Google Research Faculty Award and 2 Best Paper Awards at EMNLP 2021 and RepL4NLP 2019. He is a board member and co-founder of SIGTYP, the ACL special interest group for computational typology, and a scholar of the European Lab for Learning and Intelligent Systems (ELLIS). He is a (terrible) violinist, football player, and an aspiring practitioner of heroic viticulture.
+  google-scholar: https://scholar.google.com/citations?user=tklL2q0AAAAJ
+
+- title: Game Theory Empowered by Data Science and Machine learning to Improve Treatment of Metastatic Cancer
+  abstract: >-
+    Standard of care in metastatic cancers typically applies Maximum Tolerable Dose (MTD) of treatment or treatment combinations, either continuously or in repeated identical cycles, until unacceptable toxicity, cancer progression, or cure. Cure is rare, due to fast evolving therapy resistance. My recent research helped to explain why MTD fails and to design first evolutionary  anti-cancer therapies, i.e. therapies that anticipate and forestall evolution of  treatment-induced resistance in cancer cells. Such therapies can be designed through Stackelberg evolutionary games (SEGs), i.e. games between a rational leader (here physician) and evolutionary followers (here evolving cancer cells). I will demonstrate how data science and machine learning can empower game theory to design the evolutionary anti-cancer therapies and how such therapies lead to better quality and quantity of patients’ lives.
+  room: Lecture Hall B
+  date: Saturday / 28 October
+  id: 11
+  author-name: Kateřina Staňková
+  author-title: Delft University of Technology
+  author-image: images/optimized/speakers-2023-600x600/KaterinaStankova.webp
+  author-bio: >-
+    Kateřina Staňková is an associate professor at Delft University of Technology and Delft Technology Fellow, at the faculty of Technology, Policy and Management. She also co-founded Institute for Health Systems Science at her faculty. She focuses on both theory of differential and evolutionary games and their application in understanding and managing evolving systems. In the past years, she has been focusing on understanding cancer through evolutionary game theory and  designing evolutionary therapies, i.e. therapies that anticipate and steer/forestall treatment-induced resistance in cancer cells. These treatments show a great promise in first clinical trials. For this work, she received the 2020 Dutch Research Council Stairway to Impact award. She leads a number of national and international projects, including European Training Network EvoGamesPlus and the Dutch Research Council VIDI project “ANTICANCER: Game Theory Empowered by Data Science and Control Theory to Improve Treatment of Metastatic Cancer”, which aims at designing evolutionary therapies for metastatic Non-Small Cell Lung Cancer.
+  google-scholar: https://scholar.google.nl/citations?user=wYupkOAAAAAJ

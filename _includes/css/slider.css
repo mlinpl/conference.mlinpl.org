@@ -1,0 +1,149 @@
+.slider-tabs {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.slider-tabs .slider-item {
+    cursor: pointer;
+    padding: 10px;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    color: #000;
+}
+
+.item-col-4 {
+    width: 277.5px;
+}
+
+.item-col-3 {
+    width: 370px;
+}
+
+.slider-tabs .slider-item .speaker-photo {
+    width: 75px;
+    float: left;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+    margin-right: 0.5em;
+}
+
+.slider-tabs .slider-item .speaker-name {
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+}
+
+.slider-tabs .slider-item .speaker-title {
+    font-size: 14px;
+}
+
+.slider-tabs .slider-item.active, .slider-tabs .slider-item:hover {
+    background: {{ site.color.main }};
+    transition: background .3s ease-in-out;
+    color: {{ site.color.background }};
+    text-decoration: none;
+}
+
+.slider-tabs .slider-item.active div, .slider-tabs .slider-item:hover div{
+    border-color: {{ site.color.background }};
+}
+
+.slider-item-content {
+    opacity: 0;
+    text-align: justify;
+    min-height: 600px;
+    overflow: hidden;
+    display: none;
+}
+
+@media(min-width:767px) {
+    .slider-item-content {
+        min-height: 400px;
+    }
+}
+
+.slider-item-content .speaker-details-text h2 {
+    margin-bottom: 0;
+    font-weight: 700;
+}
+
+.slider-item-content .speaker-details-image {
+    text-align: center;
+}
+
+.slider-item-content .speaker-details-image img {
+    border-radius: 50%;
+}
+
+.center-verticaly {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.slider-timer-wrapper{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 100%;
+}
+
+.slider-timer{
+    height: 2px;
+    background: {{ site.color.main }};
+    width: 0%;
+    transition: width 30s ease-in-out;
+}
+
+@keyframes width-from-0-to-100 {
+    0% { width: 0%; }
+    100% { width: 100%; }
+}
+
+.width-from-0-to-100 {
+    animation: width-from-0-to-100 30s forwards;
+    animation-timing-function: linear;
+}
+
+/* Fade in/out animation for slider */
+@keyframes fadeInFromLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeOutToRight {
+    0% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+}
+
+.fade-in {
+    animation: fadeInFromLeft 0.5s forwards;
+    animation-fill-mode: forwards;
+    display: block !important;
+}
+
+.fade-out {
+    animation: fadeOutToRight 0.5s forwards;
+    animation-fill-mode: forwards;
+    display: block !important;
+}

@@ -1,0 +1,111 @@
+{% comment %}
+Expects following parameters:
+    talks-title, 
+    talk-title-prefix,
+    talks-data
+{% endcomment %}
+<section class="container content-section">
+    <div class="row">
+        <div class="col-lg-12">
+            <h2>{{ include.talks-title }}</h2>
+        </div>
+    </div>
+    {% for talk in include.talks-data %}
+    {% assign html-id = include.talk-title-prefix | slugify | append: "-" %}
+    {% if talk.id %}
+        {% assign html-id = html-id | append: talk.id %}
+    {% else %}
+        {% assign html-id = html-id | append: forloop.index %}
+    {% endif %}
+    <anchor style="position: relative; top: -70px;" id="{{ html-id }}"></anchor>
+    <div class="row" style="margin-bottom: 70px;">
+        <div class="speaker-details-image col-md-3 person text-center">
+            {% if talk.author-name %}
+            <div class="person-photo-wrapper width-100 width-max-300px" style="margin-bottom: 1em;">
+                <div>
+                    <img src="{{ talk.author-image }}" alt="{{ talk.author-name }} photo">
+                </div>
+            </div>
+            <h3 style="margin-bottom: 0.2em">{{ talk.author-name }}</h3>
+            <p style="font-size: 14px; margin-bottom: 35px;">{{ talk.author-title }}</p>
+            {% endif %}
+            
+            {% if talk.authors %}
+
+            {% for author in talk.authors %}
+            <div class="person-photo-wrapper width-100 width-max-300px" style="margin-bottom: 1em;">
+                <div>
+                    <img src="{{ author.image }}" alt="{{ author.name }} photo">
+                </div>
+            </div>
+            <h3 style="margin-bottom: 0.2em">{{ author.name }}</h3>
+            <p style="font-size: 14px; margin-bottom: 35px;">{{ author.title }}</p>
+            {% endfor %}
+
+            {% endif %}
+
+            {% if talk.co-authors %}
+                <h4 style="margin-bottom: 0px;"><strong><i class="fa-solid fa-users"></i> Co-authors:</strong></h4>
+                <p>{{ talk.co-authors }}</p>
+            {% endif %}
+        </div>
+        <div class="speaker-details-text col-md-9">
+            <h3 style="margin-bottom: 15px; border-bottom: 1px solid black;">
+                {% if include.talk-title-prefix %}
+                    {{ include.talk-title-prefix }} 
+                    {% if talk.id %}
+                        {{ talk.id }}:
+                    {% else %}
+                        {{ forloop.index }}:
+                    {% endif %}
+                {% endif %}
+                <span class="emph-i bold">{{ talk.title }}</span>
+            </h3>
+            <h4><span><i class="fa-solid fa-calendar-day"></i> {{ talk.date }}</span>
+                <span style="margin-left: 15px;"><i  class="fa-solid fa-clock"></i> {{ talk.time }}</span> 
+                {% if talk.room %}
+                <span style="margin-left: 15px;">
+                    <i  class="fa-solid fa-door-open"></i> {{ talk.room }} 
+                    {% if talk.session %}
+                    ({{ talk.session }})
+                    {% endif %}
+                </span>
+                {% endif %}
+            </h4>
+
+            {% if talk.desc-md %}
+            <h4 style="margin-top: 35px; margin-bottom: 0px;"><strong><i class="fa-solid fa-file"></i> Description:</strong></h4> 
+            {{ talk.desc-md | markdownify }}
+            {% endif %}
+            {% if talk.slides %}
+                <a class="btn btn-default" href="{{ talk.slides | relative_url }}"><i class="fa-solid fa-file-pdf"></i> slides</a>
+            {% endif %}
+            {% if talk.poster %}
+                <a class="btn btn-default" href="{{ talk.poster | relative_url }}"><i class="fa-solid fa-file-pdf"></i> poster</a>
+            {% endif %}
+            {% if talk.video %}
+                <a class="btn btn-default" href="{{ talk.video | relative_url }}"><i class="fa-solid fa-youtube"></i> recording</a>
+            {% endif %}
+            {% if talk.abstract %}
+            <div>
+            <h4 style="margin-top: 35px; margin-bottom: 0px;"><strong><i class="fa-solid fa-file"></i> Abstract:</strong></h4>
+            {% assign read-more-id = html-id | append: "-abstract" %}
+            {% include read-more.html content=talk.abstract id=read-more-id %}  
+            </div>
+            {% endif %}
+            {% if talk.author-bio %}
+            <div>
+            <h4 style="margin-top: 35px; margin-bottom: 0px;"><strong><i class="fa-solid fa-user"></i> Biography:</strong></h4> 
+            {% assign read-more-id = html-id | append: "-bio" %}
+            {% include read-more.html content=talk.author-bio id=read-more-id %}
+            </div>
+            {% endif %}
+            {% if talk.author-bio-md %}
+            <h4 style="margin-top: 25px; margin-bottom: 0px;"><strong><i class="fa-solid fa-user"></i> Biography:</strong></h4> 
+            {{ talk.author-bio-md | markdownify }}
+            {% endif %}
+
+        </div>
+    </div>
+    {% endfor %}
+</section>

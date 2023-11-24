@@ -1,0 +1,7 @@
+- style: linkedin
+  link: https://www.linkedin.com/events/mlinplconference20237029513672045510656/about/
+  icon: <i class="fa-brands fa-linkedin" style="font-size:20px"></i>
+
+- style: facebook
+  link: https://www.facebook.com/events/506795964960528/?ref=newsfeed
+  icon: <i class="fa-brands fa-facebook" style="font-size:20px"></i>

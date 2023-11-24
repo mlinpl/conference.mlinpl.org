@@ -1,0 +1,108 @@
+- name: Open Source
+  date: Thursday / 26 October
+  room: Main Lecture Hall
+  time: 14:00 - 15:00
+  id: 1
+  desc: >-
+    Join us for an engaging panel discussion on Open Source, where we will delve into the intricacies of opening AI models. Our panelists will provide valuable insights and thought-provoking perspectives on the benefits and risks associated with this practice.
+  panelists:
+    - name: Yannic Kilcher
+      image: images/optimized/speakers-2023-600x600/YannicKilcher.webp
+      title: DeepJudge
+      bio: >-
+        Yannic runs the world's largest YouTube channel dedicated to Machine Learning Research. His video topics range from technical analysis of new papers to covering the ML community's recent news and developments, as well as mini-research projects. He holds a PhD in ML from ETH Zurich and is a co-founder of the Swiss LegalTech startup DeepJudge.
+    - name: Inez Okulska
+      image: images/optimized/scientific-board-300x300/InezOkulska.webp
+      title: NASK / Ministry of Digitial Affairs Republic of Poland
+      bio-intro: >-
+        Inez Okulska is the Head of the Department of Linguistic Engineering and Text Analysis at the NASK National Research Institute and Director of Innovaition & Tech Department at the Ministry of Digitial Affairs Republic of Poland.
+      bio-more: >-
+        After completing a colorful humanistic path (which included, among others, linguistics, comparative literary studies, cultural studies, philosophy), culminating in a doctorate in translation studies and a postdoctoral fellowship at Harvard University, she completed master's studies in automation and robotics at the WEiTI faculty of the Warsaw University of Technology. Scientifically interested in the semantic and pragmalinguistic potential of grammar, explores proprietary vector representations of text and their algebraic potential. She implements projects related to cybersecurity, primarily at the level of detection and classification of undesirable content. She was selected as one of Perspectywy Top100 WomenInAI in Poland.
+    - name: Omar Sanseviero
+      image: images/optimized/speakers-2023-600x600/OmarSanseviero.webp
+      title: Hugging Face
+      bio-intro: >-
+        Omar Sanseviero is a lead machine learning engineer at Hugging Face, where he works at the intersection of open source, community, and product. Omar leads multiple ML teams that work on topics such as ML for Art, Developer Advocacy Engineering, ML Partnerships, Mobile ML, and ML for Healthcare. 
+      bio-more: >- 
+        Previously, Omar worked at Google as a Software Engineer on Google Assistant and TensorFlow. In Google Assistant, Omar worked with on-device language models, model training and quality refinement, and serving infrastructure.
+
+- name: Human in the loop
+  date: Friday / 27 October
+  room: Main Lecture Hall
+  time: 11:45 - 13:00
+  id: 2
+  desc: >-
+    Join us for a panel discussion on the intriguing concept of "Human in the Loop." Delve into the topic of training models with human involvement as our panelists shed light on harnessing human expertise to enhance AI models. We will explore the effectiveness of leveraging human insights, assess their inherent value, and uncover the true potential they hold.
+  panelists:
+    # - name: Piotr Wygocki
+    #   image: images/optimized/speakers-2023-600x600/PiotrWygocki.webp
+    #   title: MIM Fertility
+    #   bio-intro: >-
+    #     Piotr Wygocki is researcher and innovator, co-founder of MIM Fertility. A graduate of the University of Warsaw with a PhD in computer science and a double master's degree in computer science and mathematics. Assistant Professor at the University of Warsaw. 
+    #   bio-more: >-
+    #     Experienced expert in both theoretical and commercial aspects of computer science. Winner of the Kaggle offline competition during KaggleDays Warsaw 2018. Outstanding specialist in AI solutions in reproductive health.
+    - name: Veronika Cheplygina
+      image: images/optimized/speakers-2023-600x600/VeronikaCheplygina.webp
+      title: IT University of Copenhagen
+      bio-intro: >-
+        Veronika Cheplygina's research focuses on limited labeled scenarios in machine learning, in particular in medical image analysis. She received her Ph.D. from Delft University of Technology in 2015. After a postdoc at the Erasmus Medical Center, in 2017 she started as an assistant professor at Eindhoven University of Technology. 
+      bio-more: >-
+        In 2020, failing to achieve various metrics, she left the tenure track of search of the next step where she can contribute to open and inclusive science. In 2021 she started as an associate professor at IT University of Copenhagen. Next to research and teaching, Veronika blogs about academic life at https://www.veronikach.com. She also loves cats, which you will often encounter in her work.
+    - name: Alina Powała
+      image: images/optimized/speakers-2023-600x600/AlinaPowala.webp
+      title: QED Software
+      bio-intro: >-
+        Alina is an entrepreneur with an academic background (Ph.D. in Computer Science, Artificial Intelligence), combining the best of the two worlds to support business partners and enable analytic teams. She has helped companies across various industries leverage growing AI capabilities in order to bring competitive advantage. A scientist, highly trained in research, quantitative methods and computer science.
+      bio-more:  
+        Alina cultivates a culture of innovation, entrepreneurial spirit and focused teamwork. She has built teams and worked in international groups, including fully remote. She authored and co-authored 10+ publications in top scientific journals such as Neurocomputing, Web Intelligence, Fundamenta Informaticae as well as leading conference papers such as IJCAI, PRIMA and WI-IAT. She received a special prize for outstanding theoretical dissertation on Artificial Intelligence in 2016. At QED Software, Alina is responsible for the AI products portfolio as well as effective introduction of the products to the market. Privately, Alina enjoys life, but particularly windsurfing.
+    - name: Eduardo Mosqueira Rey
+      image: images/optimized/speakers-2023-600x600/EduardoMosqueiraRey.webp
+      title: University of A Coruña / LIDIA
+      bio-intro: >-
+        Eduardo Mosqueira-Rey is a tenured Associate Professor at the University of A Coruña (Spain) and member of the research group LIDIA (Laboratory for Research and Development in Artificial Intelligence). His research focuses on the development of Machine Learning and Quantum Computing algorithms applied usually to health problems. 
+      bio-more: >-
+        His recent work is centred on the definition of new types of interaction between humans and machine learning algorithms known as “Human-in-the-Loop Machine Learning''. Within this line, he is the principal investigator of the project “Analysis of human-in-the-loop machine learning strategies and its application to pancreatic cancer research (HITL-ML)” funded by the Spanish State Research Agency (AEI). He is also a research member of the NEASQC (NExt ApplicationS of Quantum Computing) European project developing the use case “Quantum Rule-Based Systems (QRBS) for breast cancer detection.
+
+- name: Generative models
+  date: Saturday / 28 October
+  room: Main Lecture Hall
+  time: 09:00 - 10:15
+  id: 3
+  desc: >-
+      During our panel discussion, immerse yourself in the captivating "Generative Models" realm. Prepare to be enthralled as our panelists explore the profound impact of Generative AI and its wide-ranging implications. We will delve into the potential opportunities and risks arising from these models.
+  panelists:
+    - name: Łukasz Kuciński
+      image: images/optimized/speakers-2023-600x600/LukaszKucinski.webp
+      title: Polish Academy of Science / IDEAS NCBR
+      bio-intro: >-
+        Łukasz Kuciński is an Assistant Professor at the Institute of Mathematics of the PAS, a Senior Research Scientist at IDEAS NCBR, and a Member of the ELLIS Society. His ambition is to design and implement AI agents that can learn to solve problems autonomously in a self-improvement manner.
+      bio-more: >-
+        His research is published at CORE A* conferences, such as NeurIPS and ICLR, and covers machine learning and sequential decision-making topics, including reinforcement learning, planning, game theory, automated theorem proving, or alignment of large language models. Prior to his current roles, he worked at PFSA as Vice-Director, where he led a risk modeling team. He obtained a master's degree from the Faculty of Mathematics, Informatics, and Mechanics of the University of Warsaw and a Ph.D. in mathematics from the Polish Academy of Sciences.
+    - name: Jane Dwivedi-Yu
+      title: Meta AI
+      image: images/optimized/speakers-2023-600x600/JaneDwivedi-Yu.webp
+      bio-intro: >-
+        Jane Dwivedi-Yu is a researcher at Meta AI. Her current research focuses on enhancing capabilities of language models along several dimensions, including tool usage, editing, and evaluating representation harms and notions of morality and norms internalized by these models.
+      bio-more: >-
+        She is also interested in building large-scale personalized recommender systems by leveraging principles from affective computing, work which was cited among the top 15 AI papers to read in 2022. Before joining Meta, she completed her PhD in Computer Science at University of California, Berkeley and Bachelors at Cornell University.
+    # - name: Paula Skrzypecka
+    #   image: images/optimized/speakers-2023-600x600/PaulaSkrzypecka.webp
+    #   title: Creativa Legal
+    #   bio-intro: >-
+    #     Paula Skrzypecka is a Doctor of Law and a senior lawyer at Creativa Legal, where she deals with, amongst others, providing services to technology companies, start-ups, and software houses. 
+    #   bio-more: >-
+    #     She completed attorney-at-law training and specializes in the law of new technologies, including blockchain (her scientific work concerned the legal qualification and conceptualization of cryptocurrencies) and the implementation of artificial intelligence. It is also familiar with legal problems related to the protection of personal data and cybersecurity, e.g. as part of IoT.
+    # - name: Michał Karpowicz
+    #   image: images/optimized/speakers-2023-600x600/MichalKarpowicz.webp
+    #   title: NASK
+    #   bio-intro: >-
+    #     Michał Karpowicz joined NASK PIB in 2006. He has traversed the full path of his research career, from the position of research assistant to professor at the institute, heading a team, a department and a division (cybersecurity systems) along the way. He is a visiting professor at MIT's Department of Mathematics. 
+    #   bio-more: >-
+    #     He has given guest lectures at Stanford University and UCSD (University of California San Diego), among others. Long-time lecturer at the Department of Electronics and Information Technology, Warsaw University of Technology. Creator of meta-factorization theory and new algorithms for detecting and suppressing DDoS attacks. He formulated optimality conditions for a class of energy-efficient stochastic control tasks on an infinite horizon, as well as necessary and sufficient conditions for the efficiency of Nash equilibrium points in games induced by KKT conditions for nonlinear optimization tasks with constraints. Co-inventor of FLDX technology, energy-efficient network control systems, and energy-efficient CPU drivers (for the Linux kernel). Laureate of the NASK PIB Director's Award given for special contribution to the development of the Institute. Laureate of the Prize of the Rector of the Warsaw University of Technology awarded for the author's lecture Control Theory and the Prize of the Rector of the Warsaw University of Technology awarded for scientific achievements related to the development of energy-efficient control mechanisms for information systems.
+    - name: Piotr Tempczyk
+      image: images/optimized/speakers-2023-600x600/PiotrTempczyk.webp
+      title: NASK
+      bio-intro: >-
+        Piotr completed his studies in physics at the University of Warsaw and is currently a doctoral student at the Faculty of Mathematics, Computer Science, and Mechanics under the supervision of Marek Cygan. 
+      bio-more: >-
+        With over 10 years of experience in applying statistics and machine learning to business problems, in recent years, he has also decided to delve into research in the field of neural networks and Bayesian statistics. His first article on measuring the dimensionality of data was among the top 10% of papers at the prestigious ICML conference. Currently, he is professionally affiliated with Tradelink LLC and Yellowshift. He is also a co-founder and CTO at deeptale.ai, where he focuses on research and development in computer vision solutions and the creation of highly personalized products using generative models. In addition to his studies and work, he leads the Polish Lab for AI (PL4AI) research group. After work, he spends time with his wife and two daughters, rides off-road motorcycles, and if he somehow manages to find a bit of time for himself, he enjoys playing various board games, computer games, and music.

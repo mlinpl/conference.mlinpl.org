@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+    {% include nav.html %}
+    {% include header.html %}
+    {% comment %}
+    {% include conference/tickets.html %}
+    {% endcomment %}
+    {% include conference/about.html %}
+    {% comment %}
+    {% include conference/speakers-slider.html %}
+    {% include conference/panels-slider.html %}
+    {% include conference/sponsor-speakers-slider.html %}
+    {% include agenda-slider.html agenda-data=site.data.agenda %}}
+    {% include conference/calls.html %}
+    {% include conference/timeline-with-calendars.html %}
+    {% include conference/sponsors.html %}
+    {% endcomment %}
+    {% include conference/organizers.html %}
+    {% include conference/scientific-board.html %}
+    {% include contact.html %}
+    {% include footer.html %}
+    {% include js.html %}
+</body>
+
+</html>

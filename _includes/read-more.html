@@ -1,0 +1,33 @@
+{% comment %}
+Expects following parameters:
+    content
+    id
+{% endcomment %}
+
+{% assign string = include.content | split: "." %}
+{% assign shortstr = "" %}
+{% assign morestr = "" %}
+
+{% for sentence in string %}
+  {% assign tempstr = shortstr | append: sentence %}
+  {% assign tempstr = tempstr | append: "." %}
+  {% if tempstr.size < 500 and morestr.size == 0 %}
+    {% assign shortstr = tempstr %}
+  {% else %}
+    {% assign tempstr = morestr | append: sentence %}
+    {% assign tempstr = tempstr | append: "." %}
+    {% assign morestr = tempstr %}
+  {% endif %}
+{% endfor %}
+
+{% if morestr.size > 0 %}
+<input type="checkbox" class="read-more-state" id="more-{{ include.id }}" />
+<p class="read-more-wrap">
+    {{ shortstr }} <span class="read-more-target">{{ morestr }}</span>
+</p>
+<label for="more-{{ include.id }}" class="btn btn-default read-more-trigger"></label>
+{% else %}
+<p>
+    {{ include.content }}
+</p>
+{% endif %}

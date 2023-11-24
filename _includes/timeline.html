@@ -1,0 +1,33 @@
+{% comment %}
+Expects following parameters:
+    timeline-title, 
+    timeline-data, 
+    timeline-col-width, 
+    image-col-width, 
+    date-col-width, 
+    desc-col-width
+{% endcomment %}
+<div class="row">
+    <div class="col-lg-12">
+        <h2>/ {{ include.timeline-title }}</h2>
+    </div>
+    <div class="col-md-{{ include.timeline-col-width }} timeline">
+        {% for date in include.timeline-data %}
+        <div class="row">
+            <div class="col-xs-{{ include.date-col-width }} timeline-date">
+                <p class="emph uppercase">
+                    {{ date.date }}
+                </p>
+            </div>
+            <div class="col-xs-{{ include.desc-col-width }} timeline-desc">
+                <p style="text-align: left;">
+                    {{ date.description }}
+                </p>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    <div class="col-md-{{ include.image-col-width }} text-center" style="filter: {{ site.color.image-filter }};">
+        <img class="width-100 width-max-400px" src="{{ "./images/optimized/ai-generated-800x800/group_of_people_looking_at_a_clock_1.webp" | relative_url }}">
+    </div>
+</div>

@@ -1,0 +1,167 @@
+- author-name: Antoni Kowalczuk
+  title: "Towards More Realistic Membership Inference Attacks on Large Diffusion Models"
+  author-title: "Warsaw University of Technology"
+  abstract: >- 
+    Generative diffusion models, including Stable Diffusion
+    and Midjourney, can generate visually appealing, diverse,
+    and high-resolution images for various applications. These
+    models are trained on billions of internet-sourced images,
+    raising significant concerns about the potential unauthorized
+    use of copyright-protected images. In this paper, we examine
+    whether it is possible to determine if a specific image was
+    used in the training set, a problem known in the cybersecurity community and referred to as a membership inference
+    attack. Our focus is on Stable Diffusion, and we address
+    the challenge of designing a fair evaluation framework to
+    answer this membership question. We propose a new dataset
+    to establish a fair evaluation setup and apply it to Stable
+    Diffusion, also applicable to other generative models. With
+    the proposed dataset, we execute membership attacks (both
+    known and newly introduced). Our research reveals that
+    previously proposed evaluation setups do not provide a full
+    understanding of the effectiveness of membership inference
+    attacks. We conclude that the membership inference attack
+    remains a significant challenge for large diffusion models
+    (often deployed as black-box systems), indicating that related
+    privacy and copyright issues will persist in the foreseeable
+    future.
+  author-bio: >- 
+    Antoni Kowalczuk is an undergraduate student currently pursuing a Bachelor of Engineering Degree at Warsaw University of Technology in the field of Computer Science. He is involved in building the Artificial Intelligence Society "Golem" at the University, successfully developing the brand and recognisability of "Golem" in the field. He is co-organizing the ML in PL 2023 Conference. Antoni was also involved in the previous two editions of the event. His current field of research revolves around adversarial examples and robustness in the context of the SSL vision encoders in cooperation with CISPA.
+  co-authors: Jan Dubiński
+  date: Thursday / 26 October
+  time: 8:10 - 8:30
+  room: Main Lecture Hall
+  session: 
+  id: 1
+  author-image: images/optimized/cfc-2023-600x600/antoni_kowalczuk.webp
+  slides: docs/srw_talk_1.pdf
+
+- author-name: Szymon Haponiuk
+  title: "Solver-free neural ordinary differential equations for forecasting long horizon time series"
+  author-title: "NVIDIA / Universisty of Warsaw"
+  abstract: >- 
+    Neural ordinary differential equations (NeuralODEs) represent a highly adaptable model class suitable for forecasting applications. Nonetheless, their training efficiency is often hampered by the sequential computation of a numerical solver, resulting in significantly longer training times compared to discrete forecasting methods like RNNs. To address this limitation, we propose employing multiple linear ordinary differential equations (ODEs) within the latent space instead of arbitrary ODEs. Linear ODEs can be analytically solved in constant time through matrix exponentiation and it is possible to backpropagate through this operation, enabling the model to converge approximately an order of magnitude faster than NeuralODEs. Moreover, linear ODEs exhibit competitive predictive performance when compared to state of the art forecasting methods and offer, just like NeuralODEs, the advantage of being continuously evaluable at any timestamp.
+  author-bio: >- 
+    A student, researcher, working on optimising deep learning workflows at NVIDIA and doing time series research at University of Warsaw. Interested in music/audio deep learning, GNNs, time series and generative AI.
+  co-authors: Jacek Cyranka
+  date: Thursday / 26 October
+  time: 8:30 - 8:50
+  room: Main Lecture Hall
+  session: 
+  id: 2
+  author-image: images/empty.png
+  slides: docs/srw_talk_2.pdf
+
+- author-name: Jakub Krajewski
+  title: "Fine-grained Mixture-of-Experts"
+  author-title: "University of Warsaw"
+  abstract: >- 
+    Transformer-based Large Language Models have achieved remarkable success in recent years, in many cases reaching, or even surpassing, human performance in Natural Language Understanding tasks. These models are typically backed up by a generous computational budget, size of dataset and parameter count. However, in many cases this scaling cannot be continued due to hardware limitations. This leads researchers and engineers to look for more efficient techniques. Among them, Mixture-of-Experts (MoE) seems to give the most promising results, allowing to scale Language Models to up to a trillion parameters, and reaching state-of-the-art performance on many tasks. This is accompanied by a much lower need for computational power in comparison to classical Transformer models. Existing work only considers scaling up these models by adding more experts with the same size. This is limited due to the memory requirements and diminishing returns for higher model sizes. In our work we will consider increasing the number of experts, but keeping the amount of computation and parameter count constant. We will explain how to use this technique to train a Language Model to the same performance using 2 times fewer steps (compared with baseline MoE). We will also present other benefits that come from using our method.
+  author-bio: >- 
+    Jakub Krajewski is a master's student in Machine Learning at the University of Warsaw, finishing in September, 2023. After pursuing the degree, he is planning to continue my education during PhD studies in a joint program with IDEAS NCBR. He is broadly interested in Large Language Models. In particular, Jakub would like to contribute to a better understanding of this architecture and develop more efficient training methods.
+  co-authors: Marek Cygan, Jan Ludziejewski, Maciej Pióro, Szymon Antoniak, Tomasz Odrzygóźdź, Sebastian Jaszczur, Michał Krutul
+  date: Thursday / 26 October
+  time: 8:50 - 9:10
+  room: Main Lecture Hall
+  session: 
+  id: 3
+  author-image: images/optimized/cfc-2023-600x600/jakub_krajewski.webp
+  slides: docs/srw_talk_3.pdf
+
+- author-name: Krzysztof Jankowski
+  title: "GARAGE: Generative-Augmented Retrieval Assisting Generation Enhancement"
+  author-title: "University of Warsaw"
+  abstract: >- 
+    With the recent rise in popularity of generative models (e.g. ChatGPT, GPT4) the issues with the accuracy of the provided information became a great threat. The models might generate a correct answer, but in many cases, they output with high confidence a totally wrong and extremely plausible answer. In many sectors, this hallucinating behavior can have critical consequences e.g. medicine, law, or engineering, and therefore the usage of generative models is very risky especially when people don't know the limitations of such tools. In this paper, we tackle a very important task of augmenting generative models like BART or ChatGPT to improve their capabilities of generating factual responses. Moreover, we incorporate a mechanism of providing passages containing information from a local knowledge database alongside the generated response. Thanks to such improvements the users get the possibility to quickly assess the correctness of a response and by relying on an external nonparametric knowledge-base memory it is easy to update the model's knowledge to provide correct answers. Our model consists of a powerful ensemble of classical and neural retrievers and generative prompt enhancement to achieve a superior performance of information retrieval. Our experiments employ the CovidQA dataset, which comprises questions and passages from scientific articles, to assess the performance of GARAGE. The results demonstrate that our approach outperforms the baseline models in terms of retrieval accuracy and answer quality, while also reducing hallucinations typically encountered in large language models. The total cost of training the model and performing experiments was 10$ making it very affordable and compute resource efficient. GARAGE signifies a promising advancement in open-domain question answering systems and paves the way for future research in combining traditional retrieval methods with neural approaches.
+  author-bio: >- 
+    Krzysztof Jankowski is a final year Machine Learning MSc student at University of Warsaw, SDE intern at Amazon and a member of TensorCell research group. He graduated from University of Warsaw with Bachelor's degree in Computer Science and a thesis "Large Scale Optimization Algorithms in Vehicle Routing Problem" which was recognized as the best engineering thesis by IEEE Engineer 4 Science. From that moment, he embarked on a fascinating Machine Learning journey. Krzysztof is particularly passionate about Natural Language Processing and Reinforcement Learning and has started contributing to these fields. He loves connecting academic research with business challenges and applying Machine Learning solutions to such problems. He also worked in 2 startups and learned a lot about entrepreneurship by winning a startup accelerator program organized by UW Incubator. In his free time, he loves attending ML events and meeting amazing people.
+  co-authors: Michał Janik, Michał Grotkowski, Antoni Hanke, Grzegorz Preibisch
+  date: Thursday / 26 October
+  time: 9:10 - 9:30
+  room: Main Lecture Hall
+  session:
+  id: 4
+  author-image: images/optimized/cfc-2023-600x600/krzysztof_jankowski.webp
+  slides: docs/srw_talk_4.pdf
+
+- author-name: Sebastian Chwilczyński
+  title: "Random Similarity Isolation Forest - Outlier Detection for Multimodal Data"
+  author-title: "Poznan University of Technology"
+  abstract: >- 
+    To enhance the accuracy of predictive models, it is reasonable to gather as much data about the object of interest as possible. As a result, increasingly often, the collected data consists not only of simple numerical data but also more complex objects such as time series, images, sets, or graphs. Such multimodal representations provide many different points of view on the data and may improve performance. However, optimal use of these modalities is a challenging task, especially in outlier detection, where algorithms are dedicated to individual types of data. Consequently, working with mixed types of data requires either fusing multiple data-specific models or transforming all of the representations into a single format, both of which can hinder predictive performance.
+    
+    In this talk, we present a multi-modal outlier detection algorithm called Random Similarity Isolation Forest (RSIF), which, to our knowledge, is the first outlier detection method capable of handling mixed-type data inherently without converting it to a different representation. This method couples the efficiency and performance of the Isolation Forest with the similarity-based projections of a Random Similarity Forest. More precisely, having provided a distance measure for each feature, RSIF uses similarity-based projections to create a multimodal feature space for detecting outliers. In this space, the algorithm creates an ensemble of trees to find the most isolated data points.
+    
+    In addition to a comprehensive experimental evaluation on 37 datasets consisting of numerical, categorical, graph, time series, image, text, and multi-omics data, we also conducted a sensitivity analysis to study the properties of the proposed algorithm. The sensitivity analysis results demonstrate that RSIF can be considered a generalization of Isolation Forests. More precisely, RSIF is capable of behaving exactly like Isolation Forests when it uses Euclidean distance on single features for projections but also offers more flexibility by being capable of using multiple complex distance measures for projections. Moreover, we propose a parameter that minimizes the number of distance calculations required by RSIF and show that it does not negatively impact predictive performance. To conclude the sensitivity analysis, for each data modality, we tested a variety of similarity functions. We show that selecting appropriate projections is crucial, especially in the context of an unsupervised algorithm such as RSIF. Finally, the experimental evaluation with the use of the AUC metric, showed that RSIF is equally good or significantly better than five competitor models: LOF, HBOS, ECOD, Similarity Forest, and Isolation Forest. Regardless of the data modality,  RSIF was always competitive. Our ongoing work focuses on translating these results into a practical application in the field of predictive maintenance.
+    
+    In our work, we tried to elaborate on similarity-based projection methods and their usage in multimodal outlier detection as thoroughly as possible. As a result, a new competitive algorithm - Random Isolation Similarity Forest - was introduced. Still, many exciting directions for future work, such as the potential for interpretability, the search for better similarity measures, the optimal way of selecting projection pairs, and the search for new multimodal outlier detection datasets, remain open. This is why, besides sharing our insights, we fully open-source our code and unique set of datasets.
+  author-bio: >- 
+    Sebastian Chwilczyński is a 7th semester student of Artificial Intelligence at Poznan University of Technology, president of GHOST science club and music enthusiast. He gained his experience, among others, at Intel in the Audio Research team and PSNC working on Computer Vision problems. Currently he works with segmentation models at deepsense.ai.
+    
+    He loves to share his knowledge, this is why he led many groups at GHOST science club, both in practical and research setting. 
+    
+    His favourite part of learning a new method is to understand all the maths behind it.
+  co-authors: 
+  date: Thursday / 26 October
+  time: 9:30 - 9:50
+  room: Main Lecture Hall
+  session: 
+  id: 5
+  author-image: images/optimized/cfc-2023-600x600/sebastian_chwilczyński.webp
+  slides: docs/srw_talk_5.pdf
+
+- author-name: Maksymilian Kulicki
+  title: "Self-guided semantic segmentation"
+  author-title: "University of Amsterdam"
+  abstract: >- 
+    While humans can recognize a virtually limitless variety of objects in context, automated segmentation systems typically rely on a fixed set of objects they have been trained to identify. Open-vocabulary segmentation methods, meant to address this issue, instead rely on a list of objects given by the user alongside the image. A truly open segmentation method should be able to name and localize different parts of the scene based on the image itself, without the need for user-provided labels or a predefined set of classes. To achieve this, we propose Self-guided Semantic Segmentation (SegSeg), a new framework for semantic segmentation, which combines open-vocabulary segmentation with a method of generating labels from the image itself. Utilizing ClusterBLIP, our newly introduced method based on the Vision-Language model BLIP, we successfully generate localized captions that comprehensively describe different parts of an image. These captions then serve as a source of labels for X-Decoder, an open-vocabulary segmentation model. To evaluate the performance in this new self-guided setting, we propose modifications to the mean Intersection over Union (mIoU) that compares predicted and ground truth labels using text embedding similarities. Our results demonstrate that our method outperforms baselines that use image captioning in a more conventional manner, thereby making a significant contribution to the field of image segmentation and paving the way for future research in open-world vision systems.
+  author-bio: >- 
+    Maksymilian Kulicki obtained a Bachelor's degree in Artificial Intelligence at Radboud University and a Master's degree in Artificial Intelligence at University of Amsterdam. His master thesis was about self-guided semantic segmentation, a novel computer vision task in which the model has to generate object names and localize them in an image. During his studies, he also participated in a reproduction study about strategic classification, which was published in the ReScience journal. I had an opportunity to present it as a poster at NeruIPS 2023.
+    
+    He will now start his PhD at Ideas NCBR in collaboration with the Polish Academy of Science, with a focus on applying AI in precision forestry. His main research subjects are computer vision and multimodal learning. He is interested in combining various forms of data into unified embedding spaces, and in practical applications of AI. 
+    
+    In his free time, since 2018, he has been exploring AI art. Maksymilian has an Instagram with over 300 unique AI artworks, and he has exhibited some of them in the Vrijpaleis gallery in Amsterdam. In 2022, he gave a talk about AI art at the Starfest festival in Lublin.
+  co-authors: Osman Ülger
+  date: Thursday / 26 October
+  time: 9:50 - 10:10
+  room: Main Lecture Hall
+  session: 
+  id: 6
+  author-image: images/optimized/cfc-2023-600x600/maksymilian_kulicki.webp
+  slides: docs/srw_talk_6.pdf
+
+- author-name: Pawel Knap
+  title: "Energy Storage in the Smart Grid: a Multi-Agent Deep Reinforcement Learning Approach"
+  author-title: "University of Southampton"
+  abstract: >- 
+    This work presents a novel energy storage system controlled by a Reinforcement Learning agent for households in the context of smart grid technology. The proposed system aims to optimize electricity trading in variable tariff environment. The system has been shown through simulations and evaluations to generate significant consumer savings in electricity bills, up to 29.53%, without requiring changes in consumption habits. It also offers substantial earnings when combined with solar panels. My work further investigates a Multi-Agent System simulation to analyze interactions and identify beneficial price-demand relationships. The findings highlight the positive impact of storage on the energy market and demonstrate the advantages for both consumers and network operators. Deep Q Learning is identified as the most effective algorithm, and the study examines the effects of different storage sizes and agent complexity levels. The results provide valuable insights into the potential of the proposed solution and its benefits for the wider community.
+  author-bio: >- 
+    Pawel Knap is an enthusiastic 4th year Electronics with AI student at the University of Southampton, expected to graduate in 2024. With a steadfast passion for Machine Learning, particularly in Computer Vision and Reinforcement Learning.
+    
+    His education has been characterized by a remarkable academic record, consistently achieving first-class average, and laureate/finalist titles in three National Olympiads of EEE knowledge in middle school, cementing my dedication to technical excellence from an early age. Additionally, I've contributed extensively to research with two publications submitted to international academic conferences:"Energy Storage in the Smart Grid: A Multi-Agent Deep Reinforcement Learning Approach", and "Real-time Omnidirectional 3D Multi-Person Human Pose Estimation with Occlusion Handling".
+    
+    In addition to my academic pursuits, he has gained valuable industry experience, including roles as a Computer Vision Engineer at the University of Southampton, where he developed a real-time 3D multi-person human pose estimation system with occlusion-handling capabilities, and as a Computer Vision Intern at OculAI, contributing to the development and fine-tuning of yolov5-based applications. Furthermore, his tenure as a Data Science Intern at Clas-SiC Wafer Fab involved designing and implementing a high-performance supervised algorithm for detecting faulty components.
+  co-authors: 
+  date: Thursday / 26 October
+  time: 10:10 - 10:30
+  room: Main Lecture Hall
+  session: 
+  id: 7
+  author-image: images/empty.png
+  slides: docs/srw_talk_7.pdf
+
+- author-name: Anjitha John William Mini Latha
+  title: "Deep learning based distance estimation of galaxies"
+  author-title: "Center For Theoretical Physics, Polish Academy Of Science"
+  abstract: >- 
+    One of the biggest challenges in astronomy is to measure distances to celestial objects. This is especially the case for far-away galaxies, which are millions and billions of light years from us. The traditional observational technique to measure galaxy distances is by obtaining their electromagnetic spectra - detailed decomposition of the light arriving to us - and computing the so-called redshift, related to the expansion of the Universe. However, exact redshifts can only be obtained for a small percentage of all observed galaxies. In the era of billions of galaxy samples, other techniques of distance estimation are being developed, and among them are those using machine learning to estimate the redshift from galaxy images at different “colors” - different electromagnetic wavelengths or frequencies. For many years now methods such as artificial neural networks have been used for that purpose, and they have relied on post-processed, summary information about galaxies, in the form of galaxy fluxes measured for the different colors. However, more precise information about galaxy distances can be extracted directly from their full images, which encode many features lost in the post-processing (“data reduction”). This is where deep learning techniques excel and in my talk, I will show how we employ convolutional neural networks to estimate redshifts from state-of-the-art observational data.
+  author-bio: >- 
+    Anjitha is a PhD student at Center for Theoretical Physics, Warsaw, Poland. She did her master’s in Physics at University of Kerala, India. Her research work includes analysing cosmological observational data by using machine learning techniques and clustering of galaxies. She has developed a deep learning model to estimate photometric redshifts of galaxies.
+  co-authors: Maciej Bilicki, Priyanka Jalan
+  date: Thursday / 26 October
+  time: 10:30 - 10:50
+  room: Main Lecture Hall
+  session: 
+  id: 8
+  author-image: images/optimized/cfc-2023-600x600/anjitha_john_william_mini_latha.webp
+  slides: docs/srw_talk_8.pdf
+
