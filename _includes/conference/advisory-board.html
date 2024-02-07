@@ -1,18 +1,18 @@
-    <!-- Scientific board section -->
-    <section id="scientific_board" class="container content-section">
+    <!-- Advisory board section -->
+    <section id="advisory-board" class="container content-section">
         <div class="row">
             <div class="col-lg-12">
-                <h2>/ Scientific Board</h2>
+                <h2>/ Advisory Board</h2>
                 <p>
                     We have invited a group of outstanding researchers and entrepreneurs to serve 
-                    on the scientific board of the conference. 
+                    on the advisory board of the conference. 
                     We consult the event's program with them 
                     to guarantee the best scientific level.
                 </p>
             </div>
         </div>
 
-        {% for member in site.data.scientific-board %}
+        {% for member in site.data.advisory-board %}
         {% assign odd = forloop.index | modulo: 2 %}
         {% if odd == 1 %}
         <div class="row">
