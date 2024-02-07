@@ -1,13 +1,13 @@
 - name: Przemysław Biecek
   affiliation: Warsaw University of Technology / University of Warsaw
-  image: images/optimized/scientific-board-300x300/PrzemyslawBiecek.webp
+  image: images/optimized/advisory-board-300x300/PrzemyslawBiecek.webp
   google-scholar: https://scholar.google.com/citations?user=Af0O75cAAAAJ
   bio: >-
     Przemysław Biecek obtained his Ph.D. in Mathematical Statistics and MSc in Software Engineering at Wroclaw University of Science and Technology. He is currently working as an associate professor at the Faculty of Mathematics and Information Science, Warsaw University of Technology, and an Assistant Professor at the Faculty of Mathematics, Informatics and Mechanics, University of Warsaw.
 
 - name: Jan Chorowski
   affiliation: University of Wrocław / Pathway
-  image: images/optimized/scientific-board-300x300/JanChorowski.webp
+  image: images/optimized/advisory-board-300x300/JanChorowski.webp
   google-scholar: https://scholar.google.pl/citations?user=Yc94070AAAAJ
   bio-intro: >-
     Jan Chorowski is an associate professor at Faculty of Mathematics and Computer Science at University of Wrocław. He received his M.Sc. degree in electrical engineering from Wrocław University of Technology and Ph.D. from University of Louisville. 
@@ -16,14 +16,14 @@
 
 - name: Marek Cygan
   affiliation: University of Warsaw / Nomagic
-  image: images/optimized/scientific-board-300x300/MarekCygan.webp
+  image: images/optimized/advisory-board-300x300/MarekCygan.webp
   google-scholar: https://scholar.google.com/citations?user=df8TSy4AAAAJ
   bio: >-
     Marek Cygan is currently an associate professor at the University of Warsaw, leading a newly created Robot learning group, focused on robotic manipulation and computer vision. Additionally, CTO and co-founder of Nomagic, a startup delivering smart pick-and-place robots for intralogistics applications. Earlier doing research in various branches of algorithms, having an ERC Starting grant on the subject.
 
 - name: Krzysztof Dembczyński
   affiliation: Yahoo Research
-  image: images/optimized/scientific-board-300x300/KrzysztofDembczynski.webp
+  image: images/optimized/advisory-board-300x300/KrzysztofDembczynski.webp
   google-scholar: https://scholar.google.com/citations?user=SetMoyoAAAAJ
   bio-intro: >-
     Prior to joining Yahoo Research Krzysztof Dembczyński was an Assistant Professor at Poznan University of Technology (PUT), Poland. He has received his PhD degree in 2009 and Habilitation degree in 2018, both from PUT. During his PhD studies he was mainly working on preference learning and boosting-based decision rule algorithms.
@@ -32,7 +32,7 @@
 
 - name: Krzysztof Geras
   affiliation: New York University
-  image: images/optimized/scientific-board-300x300/KrzysztofGeras.webp
+  image: images/optimized/advisory-board-300x300/KrzysztofGeras.webp
   google-scholar: https://scholar.google.pl/citations?user=ZMCGp48AAAAJ
   bio-intro: >-
     Krzysztof Geras is an associate professor at NYU School of Medicine and an affiliated faculty at NYU Center for Data Science. His main interests are in unsupervised learning with neural networks, model compression, transfer learning, evaluation of machine learning models and applications of these techniques to medical imaging. 
@@ -41,7 +41,7 @@
 
 - name: Stanisław Jastrzębski
   affiliation: Molecule.one
-  image: images/optimized/scientific-board-300x300/StanislawJastrzebski.webp
+  image: images/optimized/advisory-board-300x300/StanislawJastrzebski.webp
   google-scholar: https://scholar.google.pl/citations?user=wbJxGQ8AAAAJ
   bio-intro: >-
     Stanislaw Jastrzebski serves as the CTO and Chief Scientist at Molecule.one, a biotech startup in the drug discovery space. He is passionate about improving the fundamental aspects of deep learning and applying it to automate scientific discovery. He completed his postdoctoral training at New York University in deep learning.
@@ -50,7 +50,7 @@
 
 - name: Agnieszka Ławrynowicz
   affiliation: Poznan University of Technology
-  image: images/optimized/scientific-board-300x300/AgnieszkaLawrynowicz.webp
+  image: images/optimized/advisory-board-300x300/AgnieszkaLawrynowicz.webp
   google-scholar: https://scholar.google.pl/citations?user=7cZ0afAAAAAJ
   bio-intro: >-
     Agnieszka Ławrynowicz is an associate professor of AI and an experienced researcher in combining machine learning with symbolic approaches such as knowledge graphs. She is passionate about her work and continually seeks new ways to apply her knowledge to help solve real-world problems.
@@ -59,7 +59,7 @@
 
 - name: Henryk Michalewski
   affiliation: Google Brain
-  image: images/optimized/scientific-board-300x300/HenrykMichalewski.webp
+  image: images/optimized/advisory-board-300x300/HenrykMichalewski.webp
   google-scholar: https://scholar.google.pl/citations?user=YdHW1ycAAAAJ
   bio-intro: >-
     Henryk Michalewski obtained his Ph.D. in Mathematics and Habilitation in Computer Science from the University of Warsaw. Henryk spent a semester in the Fields Institute, was a postdoc at the Ben Gurion University in Beer-Sheva and a visiting professor in the École normale supérieure de Lyon. 
@@ -68,14 +68,14 @@
 
 - name: Piotr Miłoś
   affiliation: IDEAS NCBR / University of Warsaw
-  image: images/optimized/scientific-board-300x300/PiotrMilos.webp
+  image: images/optimized/advisory-board-300x300/PiotrMilos.webp
   google-scholar: https://scholar.google.com/citations?user=Se68XecAAAAJ
   bio: >-
     Piotr Miłoś is an associate professor in the Polish Academy of Sciences, a team leader at IDEAS NCBR and a member of the ELLIS Society. He is interested in methods that can deliver robust decision-making capabilities in complex scenarios. This covers many scenarios including continual learning, automated reasoning in mathematics, planning algorithms and sequential modelling. 
 
 - name: Inez Okulska
   affiliation: NASK / Ministry of Digitial Affairs Republic of Poland
-  image: images/optimized/scientific-board-300x300/InezOkulska.webp
+  image: images/optimized/advisory-board-300x300/InezOkulska.webp
   google-scholar: https://scholar.google.pl/citations?user=wKQ-ZfQAAAAJ&hl=pl
   bio-intro: >-
     Inez Okulska is the Head of the Department of Linguistic Engineering and Text Analysis at the NASK National Research Institute and Director of Innovaition & Tech Department at the Ministry of Digitial Affairs Republic of Poland.
@@ -84,14 +84,14 @@
 
 - name: Razvan Pascanu
   affiliation: DeepMind
-  image: images/optimized/scientific-board-300x300/RazvanPascanu.webp
+  image: images/optimized/advisory-board-300x300/RazvanPascanu.webp
   google-scholar: https://scholar.google.com/citations?user=eSPY8LwAAAAJ
   bio: >-
     Razvan Pascanu is a Research Scientist at Google DeepMind, London. He obtained a Ph.D. from the University of Montreal under the supervision of Yoshua Bengio. While in Montreal he was a core developer of Theano. Razvan is also one of the organizers of the Eastern European Summer School. He has a wide range of interests around deep learning including optimization, RNNs, meta-learning and graph neural networks.
 
 - name: Viorica Patraucean
   affiliation: DeepMind
-  image: images/optimized/scientific-board-300x300/VioricaPatraucean.webp
+  image: images/optimized/advisory-board-300x300/VioricaPatraucean.webp
   google-scholar: https://scholar.google.com/citations?user=hWzXZUMAAAAJ
   bio-intro: >-
     Viorica Patraucean is a research scientist in DeepMind. She obtained her PhD from University of Toulouse on probabilistic models for low-level image processing. She then carried out postdoctoral work at Ecole Polytechnique Paris and University of Cambridge, on processing of images, videos, and point-clouds.
@@ -100,7 +100,7 @@
 
 - name: Piotr Sankowski
   affiliation: IDEAS NCBR / University of Warsaw
-  image: images/optimized/scientific-board-300x300/PiotrSankowski.webp
+  image: images/optimized/advisory-board-300x300/PiotrSankowski.webp
   google-scholar: https://scholar.google.pl/citations?user=-5LVg-0AAAAJ
   bio-intro: >-
     Piotr Sankowski is a professor at the Institute of Informatics, University of Warsaw, where he received his habilitation in 2009 and where he received a doctorate in computer science in 2005. His research interest focuses on practical application of algorithms, ranging from economic applications, through learning data structures, to parallel algorithms for data science.
@@ -109,7 +109,7 @@
 
 - name: Ewa Szczurek
   affiliation: University of Warsaw
-  image: images/optimized/scientific-board-300x300/EwaSzczurek.webp
+  image: images/optimized/advisory-board-300x300/EwaSzczurek.webp
   google-scholar: https://scholar.google.pl/citations?user=hltmGf0AAAAJ
   bio-intro: >-
     Ewa Szczurek is an assistant professor at the Faculty of Mathematics, Informatics and Mechanics at the University of Warsaw. She holds two Master degrees, one from the Uppsala University, Sweden and one from the University of Warsaw, Poland.
@@ -118,14 +118,14 @@
 
 - name: Jacek Tabor
   affiliation: Jagiellonian University (GMUM)
-  image: images/optimized/scientific-board-300x300/JacekTabor.webp
+  image: images/optimized/advisory-board-300x300/JacekTabor.webp
   google-scholar: https://scholar.google.pl/citations?user=zSKYziUAAAAJ
   bio: >-
     Jacek Tabor in his scientific work deals with broadly understood machine learning, in particular with deep generative models. He is also a member of the GMUM group (gmum.net) aimed at popularization and development of machine learning methods in Cracow.
 
 - name: Tomasz Trzciński
   affiliation: Warsaw University of Technology / Tooploox / Jagiellonian University
-  image: images/optimized/scientific-board-300x300/TomaszTrzcinski.webp
+  image: images/optimized/advisory-board-300x300/TomaszTrzcinski.webp
   google-scholar: https://scholar.google.com/citations?user=bJMRBFoAAAAJ
   bio-intro: >-
     Tomasz Trzciński (DSc, WUT'20; PhD, EPFL'14; MSc, UPC/PoliTo'10) is an Associate Professor at Warsaw University of Technology, where he leads a Computer Vision Lab, and at Jagiellonian University of Cracow (GMUM). He is also a Computer Vision Group Leader at IDEAS NCBR, a publicly-funded Polish Center for AI. He was a Visiting Scholar at Stanford University in 2017 and at Nanyang Technological University in 2019. 
