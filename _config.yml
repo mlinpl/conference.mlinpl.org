@@ -54,6 +54,9 @@ navigation:
     subsites:
       - name: "/ More information"
         url: "/about-ml-in-pl-conference"
+
+  - name: "/ Call for Sponsors"
+    url: "#sponsors"
   
   - name: "/ Previous editions"
     subsites:
