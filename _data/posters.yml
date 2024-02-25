@@ -860,7 +860,7 @@
   abstract: >- 
     We present multitask neural networks on example of persuasion techniques detection in news articles paragraphs. First we discuss multitask networks in general, possible architectures, applications, challenges. Then we present our architecture used for detectiong persuasion techniques. We use hierarchical multitask neural networks combined with transformers. Span detection is an auxiliary task that helps in the main task: identifying propaganda techniques.
   author-bio: >- 
-    Katarzyna Barraniak is a researcher that focuses on Neural Networks, Natural Language Processing and it's applications. She works on media bias detection in news articles. She worked in several companies, conduct her own research and teach sudents machine learning and related staff.
+    Katarzyna Barraniak is a researcher that focuses on Neural Networks, Natural Language Processing and it's applications. She works on media bias detection in news articles. She worked in several companies, conduct her own research and teach students machine learning and related staff.
   co-authors: 
   date: Saturday / 28 October
   time: 10:00 - 12:00

@@ -123,7 +123,7 @@ function drawParticles(particles){
             const p1 = particles[i],
                   p2 = particles[j];
 
-            // This part can be done faster by creating indexes for groups, but I'm too lazy to implemt it
+            // This part can be done faster by creating indexes for groups, but I'm too lazy to implement it
             if(distVec2d(p1, p2) > connectionDistanceThreshold) continue;
 
             for (let g of p1.groups){  

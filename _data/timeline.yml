@@ -1,23 +1,23 @@
-- date: 1 June
-  description: <a href="/call-for-contributions">Call for Contributions (Talks and Posters)</a> and <a href="/call-for-tutorials">Call for Tutorials</a> open
+- date: 6 May
+  description: Call for Contributions (Talks, Posters, and Tutorials) submissions open
 
 - date: 1 August
   description: Start of Early Bird (selective) registration
 
-- date: 20 August
+- date: 20 August, 23:59 (AoE)
   description: Call for Tutorials submissions deadline
 
 - date: 1 September, 23:59 (AoE)
-  description: Call for Contributions submissions deadline </br>/ End of Early Bird registration period
-
-- date: 4 September
-  description: Early bird tickets acceptance notifications
+  description: Call for Talks and Posters submissions deadline </br>/ End of Early Bird registration period
 
 - date: 7 September
-  description: Talks and posters acceptance notifications
+  description: Early bird tickets acceptance notifications
 
-- date: 14 September, 18:00 CEST (GMT+2)
+- date: 9 September, 18:00 CEST (GMT+2)
   description: Regular ticket sales start
 
-- date: 26 - 29 October
-  description: <span class="logo"><span class="main-name">ML <span class="emph">i</span>n PL</span> <span class="sub-name">Conference 2023</span></span>
+- date: 21 September
+  description: Talks and posters acceptance notifications
+
+- date: 7 - 10 November
+  description: <span class="logo"><span class="main-name">ML <span class="emph">i</span>n PL</span> <span class="sub-name">Conference 2024</span></span>
