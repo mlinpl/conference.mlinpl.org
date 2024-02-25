@@ -103,7 +103,7 @@
     to their estimation: a joint maximum likelihood method and the second approach based on an alternating maximization of two Fisher consistent approximations. Our experimental results show that the proposed methods perform on par or better than the existing
     methods based on Expectation-Maximisation scheme.
   author-bio: >- 
-    Jan Mielniczuk is a full profesor at the Institute of Computer Science, Polish Academy of Sciences and at the Faculty of Mathematics and Information Science, Warsaw University of Technology.
+    Jan Mielniczuk is a full professor at the Institute of Computer Science, Polish Academy of Sciences and at the Faculty of Mathematics and Information Science, Warsaw University of Technology.
 
 #    Please consult https://home.ipipan.waw.pl/j.mielniczuk/cvJM.htm
   co-authors: 
@@ -119,7 +119,7 @@
   title: "ML without proper data in Advanced Robotic Navigation"
   author-title: "United Robots / Warsaw University of Technology"
   abstract: >- 
-    Classical approaches for robotic perception are not sufficient, when robots operate in changing environments. If the suroundings are not perceived accurately, the misinformation is propagated to navigation resulting in inefficient behaviour. It is possible for the robot to learn from the past experiences however the variety of industrial environments makes it difficult to develop a scalable learning system which is universal in various settings. In this talk I will presents approaches for generating vast learning datasets from limited real recordings and synthetic data that can be used for learning deep understanding of surrounding objects. The system we developed is able to generate big datasets with realistic representations and use them directly for perception tasks such as segmentation and footprint estimation. In our work we evaluated proposed approach both with data originating from real sensors and in the context of limited computational resources.
+    Classical approaches for robotic perception are not sufficient, when robots operate in changing environments. If the surroundings are not perceived accurately, the misinformation is propagated to navigation resulting in inefficient behaviour. It is possible for the robot to learn from the past experiences however the variety of industrial environments makes it difficult to develop a scalable learning system which is universal in various settings. In this talk I will presents approaches for generating vast learning datasets from limited real recordings and synthetic data that can be used for learning deep understanding of surrounding objects. The system we developed is able to generate big datasets with realistic representations and use them directly for perception tasks such as segmentation and footprint estimation. In our work we evaluated proposed approach both with data originating from real sensors and in the context of limited computational resources.
   author-bio: >- 
     Konrad Cop is a graduate of Control Engineering and Robotics from Wrocław University of Science and Technology and Master of Robotics, Systems and Control from ETH Zürich. Currently in the process of obtaining PhD degree from Warsaw University of Technology. His experience combines a mixture of scientific research and applied development activities. 
     He was a researcher in Autonomous Robots at CSIRO in Brisbane, Australia and in robotic manipulation at TUM in Munich, Germany. He was also involved in industrial robotic and control engineering projects at Veltru in Schaffhausen, Switzerland and Lenze in Hameln, Germany.
@@ -137,7 +137,7 @@
 
 - author-name: Bartosz Ptak
   title: "Enhancing Lunar Robotics Rover through Deep Learning and Edge AI"
-  author-title: "Poznan University of Technolgy"
+  author-title: "Poznan University of Technology"
   abstract: >- 
     With the growing interest in space exploration, challenges are also increasing. Recent years have witnessed a notable surge in the advancement of space robotics, particularly pertaining to Moon exploration. The incorporation of Commercial off-the-shelf (COTS) devices in this domain has expedited both research and development endeavours. It also enables equipping satellites, rovers and landers in deep-learning accelerators and edge AI devices. Their usage allows not only for onboard data processing and reduction of data transfer, but can also help in the decision-making process, instilling elements of autonomy. 
     In our project, we employ deep learning for space robotics by using an image segmentation model of the lunar environment.  This network, designed for rock segmentation, was deployed on an FPGA accelerator board, thereby enabling efficient and low-power processing of rover-captured images directly onboard. The solution was validated in the analogue lunar research station.
@@ -471,7 +471,7 @@
   abstract: >- 
     This will be a talk about the problem of explainable clustering in the setting first formalized by Dasgupta, Frost, Moshkovitz, and Rashtchian (ICML 2020). A k-clustering is said to be explainable if it is given by a decision tree where each internal node splits data points with a threshold cut in a single dimension (feature), and each of the k leaves corresponds to a cluster. I will present an algorithm that outputs an explainable clustering that loses at most a factor of log k compared to an optimal (not necessarily explainable) clustering for the k-medians objective – which is provably a necessary price to pay for explainability. The algorithm is remarkably simple and elegant. In particular, given an initial (not necessarily explainable) clustering in d dimensions, it is oblivious to the data points and runs in time ~O(dk), independent of the number of data points n. The talk will be based on our joint work with Buddhima Gamlath, Xinrui Jia, and Ola Svensson, as well as other works in the area.
   author-bio: >- 
-    I obtained my PhD from Jagiellonian University in Kraków, where I was fortunate to be advised by Paweł Idziak. Afterwards, I worked as a postdoc at Ecole Polytechnique Fédérale de Lausanne and Max Planck Institute for Informatics. Recently, I started a new position as an assistant professor at Bocconi Univeristy.
+    I obtained my PhD from Jagiellonian University in Kraków, where I was fortunate to be advised by Paweł Idziak. Afterwards, I worked as a postdoc at Ecole Polytechnique Fédérale de Lausanne and Max Planck Institute for Informatics. Recently, I started a new position as an assistant professor at Bocconi University.
   co-authors:
   date: Saturday / 28 October
   time: 12:25 - 12:50
