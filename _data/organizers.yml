@@ -22,6 +22,12 @@
   twitter: "https://twitter.com/Hoxmot"
   image: "images/optimized/organizers-300x300/KamilBladoszewski.webp"
 
+- name: "Franciszek Budrowski"
+  title: "Speakers Team Coordinator"
+  linkedin: "https://www.linkedin.com/in/fbudrowski/"
+  twitter: ""
+  image: "images/optimized/organizers-300x300/FranciszekBudrowski.webp"
+  
 - name: "Aleksandra Daniluk"
   title: "Visual Identity Team Coordinator"
   linkedin: "https://www.linkedin.com/in/aleksandra-daniluk/"
@@ -71,16 +77,11 @@
   image: "images/optimized/organizers-300x300/EmiliaWisnios.webp"
 
 - name: "Marek Wydmuch"
-  title: "Website Team"
+  title: "Website Team Coordinator"
   linkedin: "https://www.linkedin.com/in/marekwydmuch"
   twitter: ""
   image: "images/optimized/organizers-300x300/MarekWydmuch.webp"
 
-- name: "Franciszek Budrowski"
-  title: "Speakers Team"
-  linkedin: "https://www.linkedin.com/in/fbudrowski/"
-  twitter: ""
-  image: "images/optimized/organizers-300x300/FranciszekBudrowski.webp"
 
 - name: "Magdalena Cebula"
   title: "Marketing Team"
