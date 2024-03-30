@@ -3,7 +3,7 @@
   image: images/optimized/advisory-board-300x300/PrzemyslawBiecek.webp
   google-scholar: https://scholar.google.com/citations?user=Af0O75cAAAAJ
   bio: >-
-    Przemysław Biecek obtained his Ph.D. in Mathematical Statistics and MSc in Software Engineering at Wroclaw University of Science and Technology. He is currently working as an associate professor at the Faculty of Mathematics and Information Science, Warsaw University of Technology, and an Assistant Professor at the Faculty of Mathematics, Informatics and Mechanics, University of Warsaw.
+    "We are here to fix Al!" That's the central topic of Przemyslaw Biecek's research on the safety and explainability of artificial intelligence at the Warsaw University of Technology and the University of Warsaw. He leads the MI2.Al team conducting red-teaming of text and image models used in medicine, earth observation, or finance.
 
 - name: Jan Chorowski
   affiliation: University of Wrocław / Pathway
@@ -18,8 +18,10 @@
   affiliation: University of Warsaw / Nomagic
   image: images/optimized/advisory-board-300x300/MarekCygan.webp
   google-scholar: https://scholar.google.com/citations?user=df8TSy4AAAAJ
-  bio: >-
-    Marek Cygan is currently an associate professor at the University of Warsaw, leading a newly created Robot learning group, focused on robotic manipulation and computer vision. Additionally, CTO and co-founder of Nomagic, a startup delivering smart pick-and-place robots for intralogistics applications. Earlier doing research in various branches of algorithms, having an ERC Starting grant on the subject.
+  bio-intro: >-
+    Marek Cygan is currently an associate professor at the University of Warsaw, leading a newly created Robot learning group, focused on robotic manipulation, reinforcement learning, computer vision and large language models. Additionally, Chief Al Officer and co-founder of Nomagic, a startup delivering smart pick-and-place robots for intralogistics applications.
+  bio-more: >-
+    Earlier doing research in various branches of algorithms, with a background in competitive programming, having an ERC Starting grant on the subject.
 
 - name: Krzysztof Dembczyński
   affiliation: Yahoo Research
@@ -128,6 +130,6 @@
   image: images/optimized/advisory-board-300x300/TomaszTrzcinski.webp
   google-scholar: https://scholar.google.com/citations?user=bJMRBFoAAAAJ
   bio-intro: >-
-    Tomasz Trzciński (DSc, WUT'20; PhD, EPFL'14; MSc, UPC/PoliTo'10) is an Associate Professor at Warsaw University of Technology, where he leads a Computer Vision Lab, and at Jagiellonian University of Cracow (GMUM). He is also a Computer Vision Group Leader at IDEAS NCBR, a publicly-funded Polish Center for AI. He was a Visiting Scholar at Stanford University in 2017 and at Nanyang Technological University in 2019. 
+    Tomasz Trzcinski (DSc, WUT'20; PhD, EPEL'14; MSc, UPC/PoliTo'10) is an Associate Professor at Warsaw University of Technology, where he leads a Computer Vision Lab. He is also a Computer Vision Group Leader at IDEAS NCBR, a publicly-funded Polish Center for Al.
   bio-more: >-  
-    Previously, he worked at Google in 2013, Qualcomm in 2012 and Telefónica in 2010. He is an Associate Editor of IEEE Access and MDPI Electronics and frequently serves as a reviewer in major computer science conferences (CVPR, ICCV, ECCV, NeurIPS, ICML) and journals (TPAMI, IJCV, CVIU). He is a Senior Member of IEEE, member of ELLIS Society, member of the ALICE Collaboration at CERN and an expert of National Science Centre and Foundation for Polish Science. He is a Chief Scientist at Tooploox and a co-founder of Comixify, a technology startup focused on using machine learning algorithms for video editing.
+    He was an Associate Professor at Jagiellonian University of Cracow (GMUM). He was a Visiting Scholar at Stanford University in 2017 and at Nanyang Technological University in 2019 and 2023. Previously, he worked at Google in 2013, Qualcomm in 2012 and Telefónica in 2010. He is an Associate Editor of IEEE Access and MDPI Electronics and frequently serves as a reviewer in major computer science conferences (CVPR, ICCV, ECCV, NeurIPS, ICML) and journals (TPAMI, IJCV, CVIU). He is a Senior Member of IEEE, member of ELLIS Society, member of the ALICE Collaboration at CERN and an expert of National Science Centre and Foundation for Polish Science. He is a Chief Scientist at Tooploox.

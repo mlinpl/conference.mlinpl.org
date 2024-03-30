@@ -10,6 +10,11 @@ optimize_images () {
     input_directory="${ROOT_DIR}/images/${1}"
     output_directory="${ROOT_DIR}/images/optimized/${1}-${2}"
 
+    if [ ! -d "$input_directory" ]; then
+        echo "Input directory $input_directory does not exist. Skipping..."
+        return
+    fi
+
     echo "Optimizing images in images/${1}, saving to images/optimized/${1}-${2} ..."
     
     mkdir -p images/optimized
@@ -25,9 +30,9 @@ optimize_images () {
 }
 
 
-# Optimize images of organizers and scientific board
+# Optimize images of organizers and advisory-board
 optimize_images organizers 300x300 webp 90
-optimize_images scientific-board 300x300 webp 90
+optimize_images advisory-board 300x300 webp 90
 
 # Optimize images of speakers
 optimize_images previous-speakers 300x300 webp 90
