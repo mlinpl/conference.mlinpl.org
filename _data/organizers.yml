@@ -36,7 +36,7 @@
 
 - name: "Adam Dubowski"
   title: "Meetups Team Coordinator"
-  linkedin: ""
+  linkedin: "https://www.linkedin.com/in/adubowski/"
   twitter: ""
   image: "images/optimized/organizers-300x300/AdamDubowski.webp"
 
@@ -79,9 +79,8 @@
 - name: "Marek Wydmuch"
   title: "Website Team Coordinator"
   linkedin: "https://www.linkedin.com/in/marekwydmuch"
-  twitter: ""
+  twitter: "https://twitter.com/marekwydmuch"
   image: "images/optimized/organizers-300x300/MarekWydmuch.webp"
-
 
 - name: "Magdalena Cebula"
   title: "Marketing Team"
@@ -169,7 +168,7 @@
 
 - name: "Jakub Myśliwiec"
   title: "Speakers Team"
-  linkedin: ""
+  linkedin: "https://www.linkedin.com/in/jmysliwiec/"
   twitter: ""
   image: "images/optimized/organizers-300x300/JakubMysliwiec.webp"
 
