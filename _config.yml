@@ -55,6 +55,9 @@ navigation:
       - name: "/ More information"
         url: "/about-ml-in-pl-conference"
 
+  - name: "/ Timeline"
+    url: "#timeline"
+
   - name: "/ Call for Sponsors"
     url: "#sponsors"
   
@@ -94,9 +97,6 @@ navigation:
   #       url: "/conference-game"
   #     - name: "/ Conference booklet"
   #       url: "/docs/booklet.pdf"
-
-  # - name: "/ Timeline"
-  #   url: "#timeline"
 
   # - name: "/ Sponsors & partners"
   #   url: "#sponsors"
