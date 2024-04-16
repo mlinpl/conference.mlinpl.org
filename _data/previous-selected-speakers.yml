@@ -82,11 +82,16 @@
   image: images/optimized/previous-speakers-300x300/RichCaruana.webp
   comment: His thesis on multi-task learning helped create interest in transfer learning
 
-# - name: Yannic Kilcher
-#   title: DeepJudge
-#   google-scholar: https://scholar.google.com/citations?user=r40iAwIAAAAJ
-#   image: images/optimized/previous-speakers-300x300/YannicKilcher.webp
-#   comment: Runs one of the most popular YT channels on ML research, co-creator of OpenAssistant
+- name: Yannic Kilcher
+  title: DeepJudge
+  google-scholar: https://scholar.google.com/citations?user=r40iAwIAAAAJ
+  image: images/optimized/previous-speakers-300x300/YannicKilcher.webp
+  comment: Runs one of the most popular YT channels on ML research, co-creator of OpenAssistant
+
+- name: Omar Sanseviero
+  title: Hugging Face
+  image: images/optimized/previous-speakers-300x300/OmarSanseviero.webp
+  comment: Chief Llama Officer and Head of Platform and Community at Hugging Face
 
 # - name: Cheng Zhang 
 #   title: Microsoft Research
