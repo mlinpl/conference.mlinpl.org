@@ -11,11 +11,14 @@ Only research institutions are eligible to submit tutorial proposals. Tutorials 
 
 **Each tutorial can be a maximum of 4 hours long, including Q&A.** Approximately 10 tutorials will be selected, divided into two sessions (morning and afternoon). **The tutorials will be held on-site at the Warsaw University of Technology on November 10, 2024**. For each accepted tutorial, we will provide two free tickets for the conference.
 
-The proposal deadline is 31 August 2024. To submit a proposal, please visit the submission form:
+The proposal deadline is 20 August 2024. To submit a proposal, please visit the submission form:
 
 <ul class="list-inline banner-social-buttons">
     <li>
-        <a href="https://ulzamqgp.paperform.co/" class="btn btn-default btn-lg"><i class="fa-solid fa-list"></i> Submit your tutorial proposal</a>
+        <a href="https://mlinpl2024tutorials.paperform.co/" class="btn btn-default btn-lg"><i class="fa-solid fa-list"></i> Submit your tutorial proposal</a>
+    </li>
+    <li>
+        <a href="{{ "./tutorials-terms-and-conditions" | relative_url }}" class="btn btn-default"><i class="fa-solid fa-file-lines"></i> Terms and conditions of Call for Tutorials</a>
     </li>
     <li>
         <a href="{{ "./privacy-policy" | relative_url }}" class="btn btn-default"><i class="fa-solid fa-file-lines"></i> Privacy policy</a>
