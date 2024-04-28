@@ -95,7 +95,7 @@ Rules of contributed talks, posters, student research workshop acceptance to the
 
 1. The Best Talks and Best Posters Awards will be settled by voting contest within the participant of the Conference - the work with the most amount of votes will be awarded. The awards include only the Conference (not the Student Research Workshop).
 
-2. The winners of the Best Talks and Posters Competition (hereinafter, the "Winners") will be selected by 10 November 2024 and the final results will be presented on 10 November 2024. The Winners will be notified by e-mail and awarded, as well as their works will be presented on the Website.
+2. The winners of the Best Talks and Posters Competition (hereinafter, the "Winners") will be selected by 9 November 2024 and the final results will be presented on 9 November 2024. The Winners will be notified by e-mail and awarded, as well as their works will be presented on the Website.
 
 3. The Sponsor of the Award is the Organizer.
 
