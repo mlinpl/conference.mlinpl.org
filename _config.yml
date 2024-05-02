@@ -91,12 +91,12 @@ navigation:
       # - name: "/ Conference booklet"
       #   url: "/docs/booklet.pdf"
 
-  - name: "/ Timeline"
-    url: "#timeline"
-
   - name: "/ Call for Sponsors"
     url: "#sponsors"
   
+  - name: "/ Timeline"
+    url: "#timeline"
+
   # - name: "/ Sponsors & partners"
   #   url: "#sponsors"
 
