@@ -46,7 +46,7 @@ The co-authors of accepted papers will have a guaranteed option to buy the ticke
 - 31 August, 23:59 (AoE): Call for Contributions submissions deadline
 - 18 September: Talks and posters acceptance notifications
 - 7 November: Student Research Workshop
-- 8 - 10 November: Talks and Posters presentations at the Main Conference
+- 8 - 9 November: Talks and Posters presentations at the Main Conference
 
 **The talks and posters accepted at the Main Conference will be presented on 8 - 9 November 2024. The Student Research Workshop will be held on 7 November 2024.**
 
