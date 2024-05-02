@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Call for Contributions (CfC)
+title: Call for Contributions (Talks and Posters)
 permalink: /call-for-contributions
 ---
 
-We are excited to invite you to submit proposals for **contributed talks and posters** for **{{ site.inline-logo }}** and **Student Research Workshop**. The talks and posters will be held at the main conference on 8th and 9th of November 2024. Student Research Workshop will take place on 7th November 2024, at the start of the conference. We invite you to send your submissions to Call for Contributions from 01.05.2024 to 31.08.2024.
+We are excited to invite you to submit proposals for **contributed talks and posters** for **{{ site.inline-logo }}** and **Student Research Workshop**. The talks and posters will be held at the Main Conference on 8 - 9 November 2024. Student Research Workshop will take place on 7 November 2024, at the start of the conference. We invite you to send your submissions to Call for Contributions (CfC) from 1 May to 31 August 2024.
 
 <ul class="list-inline banner-social-buttons">
     <li>
@@ -20,7 +20,7 @@ We are excited to invite you to submit proposals for **contributed talks and pos
 
 ---
 
-## About the Call for Contributions
+## About the Call for Talks and Posters
 
 We believe in the inclusive nature of machine learning research and aim to provide a forum for a discussion on recent advances in the field. Whether you're an academic, a seasoned practitioner, or a student, we encourage you to share your work at the Conference. We welcome submissions broadly related to machine learning and its application across various other domains.
 
@@ -46,7 +46,7 @@ The co-authors of accepted papers will have a guaranteed option to buy the ticke
 - 31 August, 23:59 (AoE): Call for Contributions submissions deadline
 - 18 September: Talks and posters acceptance notifications
 - 7 November: Student Research Workshop
-- 7 - 10 October: Main Conference
+- 8 - 10 November: Talks and Posters presentations at the Main Conference
 
 **The talks and posters accepted at the Main Conference will be presented on 8 - 9 November 2024. The Student Research Workshop will be held on 7 November 2024.**
 

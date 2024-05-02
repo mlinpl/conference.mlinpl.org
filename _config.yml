@@ -54,9 +54,25 @@ navigation:
     subsites:
       - name: "/ More information"
         url: "/about-ml-in-pl-conference"
+      - name: "/ Previous editions"
+        subsites:
+          - name: "/ 2023"
+            url: "https://conference2023.mlinpl.org"
+          - name: "/ 2022"
+            url: "https://conference2022.mlinpl.org"
+          - name: "/ 2021"
+            url: "https://conference2021.mlinpl.org"
+          - name: "/ 2020"
+            url: "https://conference2020.mlinpl.org"
+          - name: "/ 2019"
+            url: "https://conference2019.mlinpl.org"
+          - name: "/ 2018"
+            url: "https://conference2018.mlinpl.org"
+          - name: "/ 2017"
+            url: "https://conference2017.mlinpl.org"
 
   - name: "/ Program"
-    url: "#speakers"
+    url: "#program"
     subsites:
       # - name: "/ Agenda"
       #   url: "#agenda"
@@ -78,26 +94,9 @@ navigation:
   - name: "/ Timeline"
     url: "#timeline"
 
-  # - name: "/ Call for Sponsors"
-  #   url: "#sponsors"
+  - name: "/ Call for Sponsors"
+    url: "#sponsors"
   
-  - name: "/ Previous editions"
-    subsites:
-      - name: "/ 2023"
-        url: "https://conference2023.mlinpl.org"
-      - name: "/ 2022"
-        url: "https://conference2022.mlinpl.org"
-      - name: "/ 2021"
-        url: "https://conference2021.mlinpl.org"
-      - name: "/ 2020"
-        url: "https://conference2020.mlinpl.org"
-      - name: "/ 2019"
-        url: "https://conference2019.mlinpl.org"
-      - name: "/ 2018"
-        url: "https://conference2018.mlinpl.org"
-      - name: "/ 2017"
-        url: "https://conference2017.mlinpl.org"
-
   # - name: "/ Sponsors & partners"
   #   url: "#sponsors"
 
