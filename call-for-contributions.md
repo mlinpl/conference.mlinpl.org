@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Call for Contributions (Talks and Posters)
+html-title: Call for Contributions</br>(Talks and Posters)
 permalink: /call-for-contributions
 ---
 
