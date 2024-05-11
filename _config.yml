@@ -135,12 +135,16 @@ footer: ML in PL Association
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: linkedin
+    icon: linkedin
     url: https://www.linkedin.com/company/mlinpl
   - title: facebook
+    icon: facebook
     url: https://www.facebook.com/MLinPL
   - title: twitter
+    icon: x-twitter
     url: https://twitter.com/mlinpl
   - title: youtube
+    icon: youtube
     url: https://www.youtube.com/channel/UCmXKn-Xeq1ZTAQBTwsYw4AA
 
 
