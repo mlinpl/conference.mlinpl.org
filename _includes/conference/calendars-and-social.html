@@ -6,10 +6,10 @@
 
         <div>
             {% for calendar in site.data.conference-cal-links %}
-            <a href="{{ calendar.link }}" class="btn-default btn-calendar {{ calendar.style }}">{{calendar.icon | trim }}</a>
+            <a href="{{ calendar.link }}" class="btn-default btn-calendar {{ calendar.style }}" target="_blank">{{calendar.icon | trim }}</a>
             {% endfor %}
             {% for event in site.data.conference-events-links %}
-            <a href="{{ event.link }}" class="btn-default btn-calendar {{ event.style }}">{{event.icon | trim }}</a>
+            <a href="{{ event.link }}" class="btn-default btn-calendar {{ event.style }}" target="_blank">{{event.icon | trim }}</a>
             {% endfor %}
         </div>
 
@@ -24,7 +24,7 @@
         <div>
             {% for network in site.social %}
             {% if network.title != 'youtube' %}
-            <a href="{{ network.url }}" class="btn-default {{ network.title }} btn-calendar"><i class="fa-brands fa-{{ network.title }}" style="font-size:20px"></i></a>
+            <a href="{{ network.url }}" class="btn-default {{ network.title }} btn-calendar" target="_blank"><i class="fa-brands fa-{{ network.icon }}" style="font-size:20px"></i></a>
             {% endif %}
             {% endfor %}
         </div>

@@ -9,7 +9,7 @@ We are excited to invite you to submit proposals for **contributed talks and pos
 
 <ul class="list-inline banner-social-buttons">
     <li>
-        <a href="https://mlinpl2024cfc.paperform.co/" class="btn btn-default btn-lg"><i class="fa-solid fa-list"></i> Submit your talk/poster proposal</a>
+        <a href="https://mlinpl2024cfc.paperform.co/" class="btn btn-default btn-lg" target="_blank"><i class="fa-solid fa-list"></i> Submit your talk/poster proposal</a>
     </li>
     <li>
         <a href="{{ "./cfc-terms-and-conditions" | relative_url }}" class="btn btn-default"><i class="fa-solid fa-file-lines"></i> Terms and conditions of CfC</a>

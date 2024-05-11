@@ -15,7 +15,7 @@ The proposal deadline is 20 August 2024. To submit a proposal, please visit the 
 
 <ul class="list-inline banner-social-buttons">
     <li>
-        <a href="https://mlinpl2024tutorials.paperform.co/" class="btn btn-default btn-lg"><i class="fa-solid fa-list"></i> Submit your tutorial proposal</a>
+        <a href="https://mlinpl2024tutorials.paperform.co/" class="btn btn-default btn-lg" target="_blank"><i class="fa-solid fa-list"></i> Submit your tutorial proposal</a>
     </li>
     <li>
         <a href="{{ "./tutorials-terms-and-conditions" | relative_url }}" class="btn btn-default"><i class="fa-solid fa-file-lines"></i> Terms and conditions of Call for Tutorials</a>
