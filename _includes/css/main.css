@@ -79,7 +79,7 @@
 }
 
 .event-heading {
-    margin-top: 1.5em;
+    margin-top: 3em;
     font-size: 3.5em;
     margin-bottom: 5px;
 }
@@ -289,7 +289,8 @@ ol > li > ol > li > ol > li:before {
     border-bottom: 1px solid rgba(255,255,255,.3);
     text-transform: uppercase;
     font-family: 'Poppins', sans-serif;
-    background-color: {{ site.color.background }};
+    backdrop-filter: blur(12px);
+    background-color: rgba(255, 255, 255, 0.8);
 }
 
 .navbar-custom .navbar-brand {
@@ -335,29 +336,20 @@ ol > li > ol > li > ol > li:before {
     transition: background .3s ease-in-out;
 }
 
-@media(min-width:767px) {
-    .navbar {
-        padding: 20px 0;
-        border-bottom: 0;
-        letter-spacing: 1px;
-        background: 0 0;
-        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        transition: background .5s ease-in-out,padding .5s ease-in-out;
-    }
-
-    .top-nav-collapse {
-        padding: 0;
-        background-color: {{ site.color.background }};
-    }
-
-    .navbar-custom.top-nav-collapse {
-        border-bottom: 1px solid rgba(255,255,255,.3);
-    }
+.navbar {
+    padding: 20px 0;
+    border-bottom: 0;
+    letter-spacing: 1px;
+    background: 0 0;
+    -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+    -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+    transition: background .5s ease-in-out,padding .5s ease-in-out;
 }
 
-.navbar-nav li, .navbar-brand{
-    background: radial-gradient(rgba(255, 255, 255, 1.0) 0%, rgba(255,255,255,0) 100%);
+.top-nav-collapse {
+    backdrop-filter: blur(12px);
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 0;
 }
 
 .navbar-nav, .nav-dropdown-content {
@@ -411,7 +403,8 @@ ol > li > ol > li > ol > li:before {
     .nav-dropdown-content {
         min-width: 160px;
         position: absolute;
-        background-color: #f9f9f9;
+        backdrop-filter: blur(12px);
+        background-color: rgba(255, 255, 255, 0.8);
         box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
         z-index: 1;
     }
@@ -429,11 +422,14 @@ ol > li > ol > li > ol > li:before {
     }
 }
 
-.intro, .page-intro {
+.intro {
     display: table;
     width: 100%;
-    height: auto;
-    padding: 100px 0;
+    height: 100%;
+    padding: 0;
+    -webkit-mask: linear-gradient(rgba(255,255,255,50%) 0%, rgba(255,255,255,0%) 90px, rgba(255, 255, 255, 100%) 140px, rgb(255, 255, 255) 100%);
+    -moz-mask: linear-gradient(rgba(255,255,255,50%) 0%, rgba(255,255,255,0%) 90px, rgba(255, 255, 255, 100%) 140px, rgb(255, 255, 255) 100%);
+    mask: linear-gradient(rgba(255,255,255,50%) 0%, rgba(255,255,255,0%) 90px, rgba(255, 255, 255, 100%) 140px, rgb(255, 255, 255) 100%);
     text-align: center;
     color: #000;
     background-color: {{ site.color.background }};
@@ -457,17 +453,7 @@ ol > li > ol > li > ol > li:before {
     font-size: 18px;
 }
 
-.page-intro {
-    height: 400px !important;
-    margin-bottom: -150px;
-}
-
 @media(min-width:767px) {
-    .intro {
-        height: 100%;
-        padding: 0;
-    }
-
     .intro .intro-body .brand-heading {
         font-size: 100px;
     }
