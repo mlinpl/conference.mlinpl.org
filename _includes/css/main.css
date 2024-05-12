@@ -289,6 +289,7 @@ ol > li > ol > li > ol > li:before {
     border-bottom: 1px solid rgba(255,255,255,.3);
     text-transform: uppercase;
     font-family: 'Poppins', sans-serif;
+    -webkit-backdrop-filter: blur(12px);
     backdrop-filter: blur(12px);
     background-color: rgba(255, 255, 255, 0.8);
 }
@@ -347,6 +348,7 @@ ol > li > ol > li > ol > li:before {
 }
 
 .top-nav-collapse {
+    -webkit-backdrop-filter: blur(12px);
     backdrop-filter: blur(12px);
     background-color: rgba(255, 255, 255, 0.8);
     padding: 0;
@@ -403,6 +405,7 @@ ol > li > ol > li > ol > li:before {
     .nav-dropdown-content {
         min-width: 160px;
         position: absolute;
+        -webkit-backdrop-filter: blur(12px);
         backdrop-filter: blur(12px);
         background-color: rgba(255, 255, 255, 0.8);
         box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
