@@ -21,13 +21,13 @@ We are excited to invite you to submit proposals for **contributed talks and pos
 
 ---
 
-## About the Call for Talks and Posters
+## / About the Call for Talks and Posters
 
 We believe in the inclusive nature of machine learning research and aim to provide a forum for a discussion on recent advances in the field. Whether you're an academic, a seasoned practitioner, or a student, we encourage you to share your work at the Conference. We welcome submissions broadly related to machine learning and its application across various other domains.
 
-**The talks at the Main Conference should have a length of 20 minutes + 5 minutes for questions. For the poster presentation, we will hold two 1.5-hour sessions during the 2nd and 3rd day of the conference. Student Research Workshop talks should take around 15 minutes + 5 minutes for questions.**. To participate in the Call for Contributions, we please provide the title of your talk/poster proposal, an abstract of up to 300 words, your preference towards talk or poster, a short bio, a photo, and a list of your previous talks. Talks and posters should be in English. The submission deadline is 31 August 2024. With the help of the Contributions Committee, we will select the best proposals.
+**The talks at the Main Conference should have a length of 20 minutes + 5 minutes for questions. For the poster presentation, we will hold two 1.5-hour sessions during the 2nd and 3rd day of the conference. Student Research Workshop talks should take around 15 minutes + 5 minutes for questions.** To participate in the Call for Contributions, we please provide the title of your talk/poster proposal, an abstract of up to 300 words, your preference towards talk or poster, a short bio, a photo, and a list of your previous talks. Talks and posters should be in English. The submission deadline is 31 August 2024. With the help of the Contributions Committee, we will select the best proposals.
 
-## Acceptance criteria
+## / Acceptance criteria
 
 The factors that will be considered the most when evaluating submissions include:
 - The relevance of the proposed topic in the current machine learning landscape.
@@ -41,21 +41,22 @@ All accepted talks and posters will be presented during the Main Conference (or 
 The co-authors of accepted papers will have a guaranteed option to buy the tickets with the Early Bird prices.
 
 
-## Timeline
+## / Timeline
 
-- 1 May: Call for Contributions (Talks and Posters) open
-- 31 August, 23:59 (AoE): Call for Contributions submissions deadline
-- 18 September: Talks and posters acceptance notifications
-- 7 November: Student Research Workshop
-- 8 - 9 November: Talks and Posters presentations at the Main Conference
+{% include timeline-inline.html 
+    timeline-data=site.data.timeline-cfc
+    timeline-col-width=8 
+    date-col-width=4
+    desc-col-width=8
+%}
 
 **The talks and posters accepted at the Main Conference will be presented on 8 - 9 November 2024. The Student Research Workshop will be held on 7 November 2024.**
 
-## Awards
+## / Awards
 
 The best contributed talks and posters from the Main Conference will be awarded with gift cards. The winners will be decided by the audience votes.
 
-<!-- ## Submit your talk/poster proposal
+<!-- ## / Submit your talk/poster proposal
 
 <ul class="list-inline banner-social-buttons">
     <li>
@@ -72,7 +73,7 @@ The best contributed talks and posters from the Main Conference will be awarded 
 We look forward to receiving your talk and poster proposals!
 Join us in shaping **{{ site.inline-logo }}**! -->
 
-## Instructions for preparing Contributed Talk and Poster
+## / Instructions for preparing Contributed Talk and Poster
 
 **The exact guidelines for preparing your talk and poster can be found [here]({{ "./cfc-instructions" | relative_url }}).**
 

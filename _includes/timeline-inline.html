@@ -1,0 +1,27 @@
+{% comment %}
+Expects following parameters:
+    timeline-data, 
+    timeline-col-width, 
+    date-col-width, 
+    desc-col-width
+{% endcomment %}
+<section id="timeline" class="container">
+    <div class="row">
+        <div class="col-md-{{ include.timeline-col-width }} timeline">
+            {% for date in include.timeline-data %}
+            <div class="row">
+                <div class="col-xs-{{ include.date-col-width }} timeline-date">
+                    <p class="emph uppercase">
+                        {{ date.date }}
+                    </p>
+                </div>
+                <div class="col-xs-{{ include.desc-col-width }} timeline-desc">
+                    <p style="text-align: left;">
+                        {{ date.description }}
+                    </p>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>

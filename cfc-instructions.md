@@ -4,7 +4,7 @@ title: Instructions for preparing Contributed Talk and Poster
 permalink: /cfc-instructions
 ---
 
-## Instructions for Contributed Talks
+## / Instructions for Contributed Talks
 
 - All talks should be held in English.
 - All the talks will have a length of 20 minutes + 5 minutes for questions. Please prepare your talk accordingly so that it is within the time limit.
@@ -15,7 +15,7 @@ permalink: /cfc-instructions
 - The slide switcher will be available for you to use during the session.
 
 
-## Instructions for Contributed Posters
+## / Instructions for Contributed Posters
 
 - All the posters should be in English.
 - The printed version of the poster has to be A0-size in a vertical orientation (recommended) or smaller. Larger posters will not fit on the poster boards.
@@ -24,7 +24,7 @@ permalink: /cfc-instructions
 - The posters need to be removed at the end of the session. Posters that are not removed will be discarded.
 
 
-### Tips for preparing a poster
+### / Tips for preparing a poster
 
 Those of you for whom this will be their first poster session might find it a bit intimidating. There are many tools that facilitate poster creation (e.g., LaTeX/Beamer, Powerpoint, Keynote). Our number-one pick is LaTeX due to its flexibility and compatibility with scientific papers. A good place to start might be the Overleaf poster gallery: [https://www.overleaf.com/gallery/tagged/poster](https://www.overleaf.com/gallery/tagged/poster) There, you will find many templates for your poster. Also, if you are a student, ask your supervisor for the template by your organization.
 
@@ -36,7 +36,7 @@ Despite the selected tool, try to follow these simple rules:
 - Use large-enough fonts and high-contrast colors. The text should be readable from a distance of 1-2 meters.
 
  
-### Tips from our scientific board
+### / Tips from our scientific board
 
 > *I typically start working on the poster with a set of images that will catch passer-by's attention. I try to fill at least 50% of the paper with graphics: visual examples, diagrams and graphs, as these are much easier to digest for the readers. They should convey the main message, i.e. looking at the graphics only, you should be able to understand what the poster is about. Remember that people look at the top of the poster to read the title first and then they reach down to the central part of the poster. This is where your .shiniest, prettiest graphics should sit!* 
 >
@@ -55,6 +55,6 @@ Despite the selected tool, try to follow these simple rules:
 >Tomasz Trzciński, PhD. Eng.
 
 
-## Instructions for Students Research Workshop Talks
+## / Instructions for Students Research Workshop Talks
 
 - The talk will have a length of 15 minutes + 5 minutes for questions. Please prepare your talk accordingly so that it is within the time limit.
