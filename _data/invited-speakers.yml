@@ -1,92 +1,34 @@
-- name: Léon Bottou
-  title: Meta AI
-  image: images/optimized/speakers-2023-600x600/LeonBottou.webp
-  bio: >- 
-    Léon Bottou received the Diplôme d’Ingénieur de l’École Polytechnique (X84) in 1987, the Magistère de Mathématiques Fondamentales et Appliquées et d’Informatique from École Normale Supérieure in 1988, and a Ph.D. in Computer Science from Université de Paris-Sud in 1991. His research career took him to AT&T Bell Laboratories, AT&T Labs Research, NEC Labs America and Microsoft. He joined Meta AI (formerly Facebook AI Research) in 2015. The long-term goal of Léon Bottou’s research is to understand and replicate intelligence. Because this goal requires conceptual advances that cannot be anticipated, Leon’s research has followed many practical and theoretical turns: neural networks applications in the late 1980s, stochastic gradient learning algorithms and statistical properties of learning systems in the early 1990s, computer vision applications with structured outputs in the late 1990s, theory of large scale learning in the 2000s. During the last few years, Léon Bottou’s research aims to clarify the relation between learning and reasoning, with more and more focus on the many aspects of causation (inference, invariance, reasoning, affordance, and intuition.)
-  google-scholar: https://scholar.google.com/citations?user=kbN88gsAAAAJ
+- name: Yuki Asano
+  title: University of Amsterdam
+  image: images/optimized/speakers-600x600/YukiAsano.webp
+  bio: >-
+    Yuki is an assistant professor for computer vision and machine learning at the QUVA lab at the University of Amsterdam, where he works with Cees Snoek, Max Welling and Efstratios Gavves. His PhD was at the Visual Geometry Group (VGG) at the University of Oxford where he worked with Andrea Vedaldi and Christian Rupprecht. Prior to this, he studied physics at the University of Munich (LMU) and Economics in Hagen as well as a MSc in Mathematical Modelling and Scientific Computing at the Mathematical Institute in Oxford.
+  google scholar: https://scholar.google.com/citations?user=CdpLhlgAAAAJ
 
-- name: Volodymyr Mnih
+- name: Tom Rainforth
+  title: University of Oxford
+  image: images/optimized/speakers-600x600/TomRainforth.webp
+  bio: >-
+    Tom is a Senior Researcher in Machine Learning and leader of the RainML Research Lab at the Department of Statistics in the University of Oxford. He is the principal investigator for the ERC Starting Grant Data-Driven Algorithms for Data Acquisition. His research covers a wide range of topics in and around machine learning and experimental design, with areas of particular interest including Bayesian experimental design, deep learning, representation learning, generative models, Monte Carlo methods, active learning, probabilistic programming, and approximate inference.
+  google scholar: https://scholar.google.com/citations?user=ieLRNKMAAAAJ
+
+- name: Bernardino Romera Paredes
   title: Google DeepMind
-  image: images/optimized/speakers-2023-600x600/VolodymyrMnih.webp
+  image: images/optimized/speakers-600x600/BernardinoRomeraParedes.webp
+  bio: >-
+    Bernardino is a researcher at Google DeepMind, where he has been a core team member of AlphaFold2 for protein folding, and AlphaTensor for matrix multiplication algorithms. More recently, he initiated FunSearch, a system which uses Large Language Models for program search and has discovered new mathematical knowledge. Long before that, in 2009, Bernardino started his AI journey by studying the MSc Computational Statistics and Machine Learning at UCL. In 2010 he started a PhD, also at UCL, supervised by Prof. Massimiliano Pontil and Prof. Nadia Berthouze, and in 2013 he also did an internship at Microsoft Research. After finishing his PhD in 2014, he joined the Torr Vision Group as a Postdoc at the University of Oxford, researching about semantic segmentation and zero-shot learning. He has several papers published in Nature, as well as in machine learning conferences like NeurIPS and ICML. His main motivation is to leverage the power of AI to bring light to important scientific problems.
+  google scholar: https://scholar.google.com/citations?user=_LC9U6EAAAAJ
+
+- name: Wojciech Samek
+  title: Technische Universität Berlin
+  image: images/optimized/speakers-600x600/WojciechSamek.webp
+  bio: >-
+    Wojciech Samek is a Professor in the EECS Department at TU Berlin and is jointly heading the AI Department at Fraunhofer HHI. He is a Fellow at BIFOLD - Berlin Institute for the Foundation of Learning and Data, the ELLIS Unit Berlin, and the DFG Research Unit DeSBi. Furthermore, he is a Senior Editor for IEEE TNNLS, an Associate Editor for Pattern Recognition, and an elected member of the IEEE MLSP Technical Committee and Germany's Platform for AI. He also serves as a member of the scientific advisory board of IDEAS NCBR - Polish Centre of Innovation in the Field of Artificial Intelligence. Wojciech has co-authored more than 200 papers and was the leading editor of the Springer book "Explainable AI: Interpreting, Explaining and Visualizing Deep Learning" (2019), and co-editor of the open access Springer book “xxAI – Beyond explainable AI” (2022). He has served as Program Co-Chair for IEEE MLSP'23, and as Area Chair for NAACL'21 and NeurIPS'23, and is a recipient of multiple best paper awards, including the 2020 Pattern Recognition Best Paper Award and the 2022 Digital Signal Processing Best Paper Prize.
+  google scholar: https://scholar.google.com/citations?user=7aQwO08AAAAJ
+
+- name: Jakub Tomczak
+  title: Eindhoven University of Technology
+  image: images/optimized/speakers-600x600/JakubTomczak.webp
   bio: >- 
-    Volodymyr Mnih is a Research Scientist at Google DeepMind. He completed an MSc at the University of Alberta working under the supervision of Csaba Szepesvari and a PhD at the University of Toronto working under the supervision of Geoffrey Hinton. Since joining DeepMind, he has been working at the intersection of deep learning and reinforcement learning, co-developing Deep Q Networks (DQN), the asynchronous advantage actor critic (A3C), and reinforcement learning-based hard attention mechanisms.
-  google-scholar: https://scholar.google.com/citations?user=rLdfJ1gAAAAJ
-
-- name: Jiri Matas
-  title: Czech Technical University
-  image: images/optimized/speakers-2023-600x600/JiriMatas.webp
-  bio: >-
-    Jiri Matas is a full professor and the head of the Visual Recognition Group, Department of Cybernetics, Czech Technical University in Prague. He holds a PhD degree from the University of Surrey, UK (1995). He has published more than 300 papers that have been cited about 64000 times.
-    His research interests include visual tracking, object recognition, image matching and retrieval, sequential pattern recognition, and RANSAC-type optimization methods. He received the best paper prize at the British Machine Vision Conferences in 2002, 2005 and 2022, at the Asian Conference on Computer Vision in 2007 and at the Int. Conf. on Document analysis and Recognition in 2015. J. Matas served as a programme or general chair at the European Conference of Computer Vision (ECCV) in 2004, 2016, 2022 and at Computer Vision and Pattern Recognition (CVPR) in 2007 and 2022. He is an Editor-in-Chief of the International Journal of Computer Vision was an Associate Editor-in-Chief of IEEE T. Pattern Analysis and Machine Intelligence. 
-    He has co-founded two companies, Eyedea Recognition (computer vision) and Locksley (combinatorial optimization). The industrial project he has lead at the Czech Technical University (Toyota, Samsung, Hitachi, Boeing) have generated income of about 5 million euros. He is an inventor of several patents.
-  google-scholar: https://scholar.google.com/citations?user=EJCNY6QAAAAJ
-
-- name: Massimiliano Pontil
-  title: Italian Institute of Technology / University College London / ELLIS
-  image: images/optimized/speakers-2023-600x600/MassimilianoPontil.webp
-  bio: >-
-    Massimiliano Pontil is Senior Researcher at the Italian Institute of Technology, where he leads the CSML research unit, and co-director of ELLIS unit Genoa. He is also Professor at University College London and member of the UCL Centre for Artificial Intelligence. He has been active in machine learning for over twenty-five years, working on theory and algorithms, including the areas of kernel methods, learning dynamical systems, meta-learning, multitask and transfer learning, sparse estimation, and statistical learning theory.
-  google-scholar: https://scholar.google.com/citations?user=lcOacs8AAAAJ
-
-- name: Taco Cohen
-  title: Qualcomm AI Research
-  image: images/optimized/speakers-2023-600x600/TacoCohen.webp
-  bio: >-
-    Taco Cohen is a machine learning researcher (Principal Engineer) at Qualcomm AI Research in Amsterdam. He received a BSc in theoretical computer science from Utrecht University, and a MSc in artificial intelligence and PhD in machine learning (with prof. Max Welling) from the University of Amsterdam (all three cum laude). He was a co-founder of Scyfer, a company focussed on deep active learning, acquired by Qualcomm in 2017. His research is focused on geometric deep learning and reinforcement learning. During his studies he has interned at Google Deepmind (working with Geoff Hinton) and OpenAI. He received the 2014 University of Amsterdam MSc thesis prize, a Google PhD Fellowship, ICLR 2018 best paper award for “Spherical CNNs”, was named one of 35 innovators under 35 by MIT Tech Review, and won the 2022 ELLIS PhD Award and 2022 Kees Schouhamer Immink prize for his PhD research.
-  google-scholar: https://scholar.google.com/citations?user=a3q4YxEAAAAJ
-
-- name: Gintare Karolina Dziugaite
-  title: Google DeepMind
-  image: images/optimized/speakers-2023-600x600/GintareKarolinaDziugaite.webp
-  bio: >-
-    Gintare Karolina Dziugaite is a senior research scientist at Google DeepMind, an adjunct professor in the McGill University School of Computer Science, and an associate industry member of Mila, the Quebec AI Institute. Prior to joining Google, she led the Trustworthy AI program at Element AI / ServiceNow, and was named a Rising Star in Machine Learning in 2019. Her research combines theoretical and empirical approaches to understanding deep learning. Since her PhD, one of her main focuses has been on generalization, memorization, and, more recently, on unlearning. She has published a number of papers on network and data pruning, investigating how pruning interacts with other properties of deep learning systems, the training dynamics and the loss landscape.
-  google-scholar: https://scholar.google.co.uk/citations?user=5K1QB_8AAAAJ
-
-- name: Frans A. Oliehoek
-  title: Delft University of Technology
-  image: images/optimized/speakers-2023-600x600/FransOliehoek.webp
-  bio: >-
-    Frans A. Oliehoek is Associate Professor at Delft University of Technology, where he leads a group on interactive learning and decision making, is one of the scientific directors of the Mercury machine learning lab, and is director and co-founder of the ELLIS Unit Delft. He received his Ph.D. in Computer Science (2010) from the University of Amsterdam (UvA), and held positions at various universities including MIT, Maastricht University and the University of Liverpool.  Frans' research interests revolve around intelligent systems that learn about their environment via interaction, building on techniques from machine learning, AI and game theory. He has served as PC/SPC/AC at top-tier venues in AI and machine learning, and currently serves as associate editor for JAIR and AIJ. He is a Senior Member of AAAI, and was awarded a number of personal research grants, including a prestigious ERC Starting Grant.
-  google-scholar: https://scholar.google.com/citations?user=rSNBJJIAAAAJ
-
-- name: Desmond Elliott
-  title: University of Copenhagen
-  image: images/optimized/speakers-2023-600x600/DesmondElliott.webp
-  bio: >-
-    Desmond Elliott is an Assistant Professor and a Villum Young Investigator at the University of Copenhagen. He obtained his Ph.D from the University of Edinburgh, under the supervision of Frank Keller, and he was a Postdoctoral Researcher at CWI, and the University of Amsterdam in the Netherlands. His current research interests include tokenisation-free language modelling, and multilingual and multimodal learning.
-  google-scholar: https://scholar.google.com/citations?user=OjYpMi4AAAAJ
-
-- name: Kateřina Staňková
-  title: Delft University of Technology
-  image: images/optimized/speakers-2023-600x600/KaterinaStankova.webp
-  bio: >-
-    Kateřina Staňková is an associate professor at Delft University of Technology and Delft Technology Fellow, at the faculty of Technology, Policy and Management. She also co-founded Institute for Health Systems Science at her faculty. She focuses on both theory of differential and evolutionary games and their application in understanding and managing evolving systems. In the past years, she has been focusing on understanding cancer through evolutionary game theory and  designing evolutionary therapies, i.e. therapies that anticipate and steer/forestall treatment-induced resistance in cancer cells. These treatments show a great promise in first clinical trials. For this work, she received the 2020 Dutch Research Council Stairway to Impact award. She leads a number of national and international projects, including European Training Network EvoGamesPlus and the Dutch Research Council VIDI project “ANTICANCER: Game Theory Empowered by Data Science and Control Theory to Improve Treatment of Metastatic Cancer”, which aims at designing evolutionary therapies for metastatic Non-Small Cell Lung Cancer.
-  google-scholar: https://scholar.google.nl/citations?user=wYupkOAAAAAJ
-
-- name: Gergely Neu
-  title: Universitat Pompeu Fabra
-  image: images/optimized/speakers-2023-600x600/GergelyNeu.webp
-  bio: >-
-    Gergely Neu is a research assistant professor at the Pompeu Fabra University, Barcelona, Spain. He has previously worked with the SequeL team of INRIA Lille, France and the RLAI group at the University of Alberta, Edmonton, Canada. He obtained his PhD degree in 2013 from the Budapest University of Technology and Economics, where his advisors were András György, Csaba Szepesvári and László Györfi. His main research interests are in machine learning theory, with a strong focus on sequential decision making problems. Dr. Neu was the recipient of a Google Faculty Research award in 2018, the Bosch Young AI Researcher Award in 2019, and an ERC Starting Grant in 2020.
-  google-scholar: https://scholar.google.com/citations?user=uz27G84AAAAJ
-
-- name: Edoardo Maria Ponti
-  title: University of Edinburgh / University of Cambridge
-  image: images/optimized/speakers-2023-600x600/EdoardoMariaPonti.webp
-  bio: >-
-    Edoardo M. Ponti is a Lecturer (≈ Assistant Professor) in Natural Language Processing at the University of Edinburgh, where he is part of the "Institute for Language, Cognition, and Computation" (ILCC), and an Affiliated Lecturer at the University of Cambridge. Previously, he was a visiting postdoctoral scholar at Stanford University and a postdoctoral fellow at Mila and McGill University in Montreal. In 2021, he obtained a PhD in computational linguistics from the University of Cambridge, St John’s College. His main research foci are modular deep learning, sample-efficient learning, faithful text generation, computational typology and multilingual NLP. His research earned him a Google Research Faculty Award and 2 Best Paper Awards at EMNLP 2021 and RepL4NLP 2019. He is a board member and co-founder of SIGTYP, the ACL special interest group for computational typology, and a scholar of the European Lab for Learning and Intelligent Systems (ELLIS). He is a (terrible) violinist, football player, and an aspiring practitioner of heroic viticulture.
-  google-scholar: https://scholar.google.com/citations?user=tklL2q0AAAAJ
-
-- name: Philippe Preux
-  title: Université de Lille
-  image: images/optimized/speakers-2023-600x600/PhilippePreux.webp
-  bio: >-
-    Philippe Preux is a professor in Computer Science at the Université de Lille, France. He has been active in research in artificial intelligence for 30 years now, mostly dealing with machine learning and data mining in the last 2 decades, especially reinforcement learning. He has been the head of the SequeL research group at Inria/CNRS/Université de Lille since 2006, a group now renamed Scool. His research ranges from fundamental algorithmic and methodological questions to applications of reinforcement learning in collaboration with companies. Philippe currently focuses his efforts on applications related to health or sustainable development. He has hosted ICML 2015, and co-organized various scientific events such as the European Workshop on Reinforcement Learning in 2008 and 2018, as well as the Reinforcement Learning Summer School in 2019.
-  google-scholar: https://scholar.google.com/citations?user=JTXxmeAAAAAJ
-
-- name: Jane Dwivedi-Yu
-  title: Meta AI
-  image: images/optimized/speakers-2023-600x600/JaneDwivedi-Yu.webp
-  bio: >-
-    Jane Dwivedi-Yu is a researcher at Meta AI. Her current research focuses on enhancing capabilities of language models along several dimensions, including tool usage, editing, and evaluating representation harms and notions of morality and norms internalized by these models. She is also interested in building large-scale personalized recommender systems by leveraging principles from affective computing, work which was cited among the top 15 AI papers to read in 2022. Before joining Meta, she completed her PhD in Computer Science at University of California, Berkeley and Bachelors at Cornell University.
-  google-scholar: https://scholar.google.com/citations?user=ev8Ilx0AAAAJ
+    Jakub M. Tomczak is an associate professor and the PI of the Generative AI group at the Eindhoven University of Technology (TU/e). Before joining the TU/e, he was an assistant professor at Vrije Universiteit Amsterdam, a deep learning researcher (Engineer, Staff) in Qualcomm AI Research in Amsterdam, a Marie Sklodowska-Curie individual fellow in Prof. Max Welling's group at the University of Amsterdam, and an assistant professor and a postdoc at the Wroclaw University of Technology. His main research interests include deep generative modeling, deep learning, and Bayesian inference, with applications to image/text processing, Life Sciences, and Molecular Sciences. He serves as an action editor of "Transactions of Machine Learning Research", and an area chair of major AI conferences (e.g., NeurIPS, ICML, AISTATS). He will be a program chair at NeurIPS 2024. He is the author of the book entitled "Deep Generative Modeling", the first comprehensive book on Generative AI. He is also the founder of Amsterdam AI Solutions.
+  google-scholar: https://scholar.google.com/citations?user=XB99pR4AAAAJ
