@@ -456,7 +456,13 @@ ol > li > ol > li > ol > li:before {
     font-size: 18px;
 }
 
+.page-intro {
+    height: 400px !important;
+    margin-bottom: -150px;
+}
+
 @media(min-width:767px) {
+
     .intro .intro-body .brand-heading {
         font-size: 100px;
     }
