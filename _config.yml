@@ -122,6 +122,7 @@ photo-border-width: 1px
 color:
   main: "#E7322A"
   second: "#010101"
+  default-text: "#010101"
   main-gradient: "#E7322A, #FF00FF"
   background: "#FFFFFF"
   person-photo-filter: "grayscale(75%)"
