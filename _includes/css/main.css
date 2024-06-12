@@ -350,6 +350,10 @@ ol > li > ol > li > ol > li:before {
     padding: 0;
 }
 
+.navbar-main-collapse {
+    background: {{ site.color.background }};
+}
+
 .navbar-nav, .nav-dropdown-content {
     font-size: 14px;
 }
@@ -398,6 +402,10 @@ ol > li > ol > li > ol > li:before {
 }
 
 @media(min-width:767px) {
+    .navbar-main-collapse {
+        background: none !important;
+    }
+
     .nav-dropdown-content {
         min-width: 160px;
         position: absolute;
@@ -424,7 +432,7 @@ ol > li > ol > li > ol > li:before {
     width: 100%;
     height: 100%;
     padding: 0;
-    mask: linear-gradient(rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.2) 60px, black 100px, black 100%);
+    mask: linear-gradient(rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0.15) 60px, black 100px, black 100%);
     text-align: center;
     color: {{ site.color.default-text }};
     background-color: {{ site.color.background }};
@@ -453,7 +461,6 @@ ol > li > ol > li > ol > li:before {
 }
 
 @media(min-width:767px) {
-
     .intro .intro-body .brand-heading {
         font-size: 100px;
     }
