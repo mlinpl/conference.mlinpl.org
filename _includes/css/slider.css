@@ -14,7 +14,7 @@
     flex-wrap: wrap;
     flex-direction: column;
     text-align: center;
-    color: #000;
+    color: {{ site.color.default-text }};
 }
 
 .item-col-4 {
