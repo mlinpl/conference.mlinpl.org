@@ -5,6 +5,24 @@
     Yuki is an assistant professor for computer vision and machine learning at the QUVA lab at the University of Amsterdam, where he works with Cees Snoek, Max Welling and Efstratios Gavves. His PhD was at the Visual Geometry Group (VGG) at the University of Oxford where he worked with Andrea Vedaldi and Christian Rupprecht. Prior to this, he studied physics at the University of Munich (LMU) and Economics in Hagen as well as a MSc in Mathematical Modelling and Scientific Computing at the Mathematical Institute in Oxford.
   google scholar: https://scholar.google.com/citations?user=CdpLhlgAAAAJ
 
+- name: Danielle Belgrave
+  title: GSK AI
+  image: images/optimized/speakers-600x600/DanielleBelgrave.webp
+  bio: >- 
+    Danielle Belgrave is a VP of AI/ML at GSK. Her experience spans conducting machine learning research and leading teams across academia and industry focused on scientific discovery and personalising interventions in health. She has previously worked at Google DeepMind, Microsoft Research Cambridge, UK and Imperial College London. She has a BSc in business mathematics and statistics from the London School of Economics and a master’s degree in statistics from University College London. Her PhD was at the University of Manchester in Machine Learning for Healthcare.
+  google-scholar: https://scholar.google.co.uk/citations?user=bGDCgpUAAAAJ&hl=en
+
+- name: Alejandro Frangi
+  title: University of Manchester
+  image: images/optimized/speakers-600x600/AlejandroFrangi.webp
+  bio: |- 
+    Prof. Alejandro Frangi FREng, holds the Bicentennial Turing Chair in Computational Medicine at the University of Manchester, UK, with joint appointments in the Schools of Computer Science and Health Science. Additionally, he is the Royal Academy of Engineering Chair in Emerging Technologies, specialising in Precision Computational Medicine for in silico trials of medical devices. He serves as the Director of the Christabel Pankhurst Institute for Health Technology Research and Innovation and is a Fellow at the Alan Turing Institute. Recently, his research vision was recognised with an ERC Advanced Grant from the European Research Council. He leads the InSilicoUK Pro-Innovation Regulations Network (www.insilicouk.org). 
+    
+    Professor Frangi's main research interests lie at the crossroads of medical image analysis and modelling with an emphasis on machine learning (phenomenological models) and computational physiology (mechanistic models). His work has had a profound impact on the field, particularly in the areas of cardiovascular, musculoskeletal and neurosciences. He is particularly interested in statistical methods applied to population imaging and in silico clinical trials. 
+    
+    Prof. Frangi's contributions to the field have been widely recognised. He has received numerous accolades, including the IEEE Engineering in Medicine and Biology Technical Achievement Award (2021) and Early Career Award (2006). In 2011, he was honored with the UPF Medal for his service as Dean of the Escuela Politècnica Superior. He also received the ICREA-Academia Prize from the Institució Catalana de Recerca i Estudis Avançats (ICREA) in 2008, a President's International Initiative Award from the Chinese Academy of Science in 2019. Prof. Frangi has also edited a textbook on Medical Image Analysis, published in the MICCAI-Elsevier Book Series by Academic Press.
+  google-scholar: https://scholar.google.com/citations?user=9fGrB0sAAAAJ&hl=en
+
 - name: Tom Rainforth
   title: University of Oxford
   image: images/optimized/speakers-600x600/TomRainforth.webp
