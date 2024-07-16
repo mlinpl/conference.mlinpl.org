@@ -170,7 +170,7 @@ body {
     width: 100%;
     height: 100%;
     font-family: 'Roboto', sans-serif;
-    color: #000;
+    color: {{ site.color.default-text }};
     background-color: {{ site.color.background }};
 }
 
@@ -289,9 +289,7 @@ ol > li > ol > li > ol > li:before {
     border-bottom: 1px solid rgba(255,255,255,.3);
     text-transform: uppercase;
     font-family: 'Poppins', sans-serif;
-    -webkit-backdrop-filter: blur(12px);
-    backdrop-filter: blur(12px);
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: {{ site.color.background }};
 }
 
 .navbar-custom .navbar-brand {
@@ -304,7 +302,7 @@ ol > li > ol > li > ol > li:before {
 
 .navbar-custom .navbar-brand, .navbar-custom .navbar-toggle {
     font-size: 18px;
-    color: #000;
+    color: {{ site.color.default-text }};
 }
 
 .navbar-custom .navbar-toggle {
@@ -320,7 +318,7 @@ ol > li > ol > li > ol > li:before {
 }
 
 .navbar-custom a {
-    color: #000;
+    color: {{ site.color.default-text }};
 }
 
 .navbar-custom .nav li a:hover,
@@ -348,10 +346,12 @@ ol > li > ol > li > ol > li:before {
 }
 
 .top-nav-collapse {
-    -webkit-backdrop-filter: blur(12px);
-    backdrop-filter: blur(12px);
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: {{ site.color.background }};
     padding: 0;
+}
+
+.navbar-main-collapse {
+    background: {{ site.color.background }};
 }
 
 .navbar-nav, .nav-dropdown-content {
@@ -402,12 +402,14 @@ ol > li > ol > li > ol > li:before {
 }
 
 @media(min-width:767px) {
+    .navbar-main-collapse {
+        background: none !important;
+    }
+
     .nav-dropdown-content {
         min-width: 160px;
         position: absolute;
-        -webkit-backdrop-filter: blur(12px);
-        backdrop-filter: blur(12px);
-        background-color: rgba(255, 255, 255, 0.8);
+        background-color: {{ site.color.background }};
         box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
         z-index: 1;
     }
@@ -430,11 +432,9 @@ ol > li > ol > li > ol > li:before {
     width: 100%;
     height: 100%;
     padding: 0;
-    -webkit-mask: linear-gradient(rgba(255,255,255,50%) 0%, rgba(255,255,255,0%) 90px, rgba(255, 255, 255, 100%) 140px, rgb(255, 255, 255) 100%);
-    -moz-mask: linear-gradient(rgba(255,255,255,50%) 0%, rgba(255,255,255,0%) 90px, rgba(255, 255, 255, 100%) 140px, rgb(255, 255, 255) 100%);
-    mask: linear-gradient(rgba(255,255,255,50%) 0%, rgba(255,255,255,0%) 90px, rgba(255, 255, 255, 100%) 140px, rgb(255, 255, 255) 100%);
+    mask: linear-gradient(rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0.15) 60px, black 100px, black 100%);
     text-align: center;
-    color: #000;
+    color: {{ site.color.default-text }};
     background-color: {{ site.color.background }};
     background-size: cover;
     position: relative;
@@ -443,8 +443,7 @@ ol > li > ol > li > ol > li:before {
 .intro .intro-body {
     display: table-cell;
     vertical-align: middle;
-    /*background: radial-gradient(circle, rgba(255,255,255,1) 25%, rgba(255,255,255,0) 75%); */
-    background: radial-gradient(farthest-side at 50% 75%, rgb(255, 255, 255, 1) 50%, rgba(255,255,255,0) 100%);
+    background: radial-gradient(farthest-side at 50% 75%, {{ site.color.background }} 50%, rgba(255,255,255,0) 100%);
     position: relative;
 }
 
@@ -454,6 +453,11 @@ ol > li > ol > li > ol > li:before {
 
 .intro .intro-body .intro-text {
     font-size: 18px;
+}
+
+.page-intro {
+    height: 400px !important;
+    margin-bottom: -150px;
 }
 
 @media(min-width:767px) {
@@ -485,10 +489,10 @@ ol > li > ol > li > ol > li:before {
     height: 70px;
     margin-top: 15px;
     padding: 12px 16px;
-    border: 2px solid #000;
+    border: 2px solid {{ site.color.default-text }};
     border-radius: 100%;
     font-size: 30px;
-    color: #000;
+    color: {{ site.color.default-text }};
     background: 0 0;
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
@@ -498,8 +502,7 @@ ol > li > ol > li > ol > li:before {
 .btn-circle:hover,
 .btn-circle:focus {
     outline: 0;
-    color: #000;
-    background: rgba(255,255,255,.1);
+    color: {{ site.color.default-text }};
 }
 
 .btn-circle i.animated {
@@ -565,18 +568,6 @@ ol > li > ol > li > ol > li:before {
 
 .sponsors-section:last-child{
     padding-bottom: 0;
-}
-
-.download-section {
-    width: 100%;
-    padding: 50px 0;
-    color: #000;
-    background: url(/img/downloads-bg.jpg) no-repeat center center scroll;
-    background-color: {{ site.color.background }};
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
 }
 
 #map {
