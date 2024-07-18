@@ -29,9 +29,9 @@ permalink: /terms-of-participation
       1. application for participation in the Conference in the form of filling in the Registration Form or Call for Contributions Submission Form;
       2. making a payment to the Organizer as specified below, unless regulated otherwise;
       3. acceptance of the provisions of these Terms of Participation by the Candidate (the fact of making a payment for participation in the Conference or Tutorials will mean acceptance of the provisions of these Terms of Participation).
-   2. Persons under 18 years of age:
-      1. may be allowed to participate in the Conference after their prior verification by the Organizer (only with the consent of a legal guardian). Please contact us in advance by e-mail: <contact@conference.mlinpl.org>;
-      2. solely under the supervision of adults in the accordance with the consent of a guardian. The Organizer reserves the right to postpone the above term.
+   2. Persons who are 16 years of age or older but under 18 years of age on the day of the Conference:
+      1. may stay and participate in the area where the Conference is held only on the basis of a consent signed by a legal guardian, available at the [link](https://docs.mlinpl.org/conference/2024/zgoda_na_udzia%C5%82_ma%C5%82oletniego.docx). The Organizer has the right to verify the age of the Participant and the authenticity of the aforementioned consent;
+      2. are not allowed to attend the evening party organized as part of the Conference.
    3. In order to enter the Conference or Tutorials, the Participant or Tutorials Participant is obliged to present the Conference Pass or Tutorials Pass to the member of Organizer’s personnel together with the Participant’s ID, confirming their identity.
 
 2. **CONDITIONS FOR EARLY BIRD REGISTRATION**
