@@ -2,7 +2,7 @@
 
 /*!
  * ML in PL Jekyll Theme - Navigation
- * This script handles some events related with the navigation bar
+ * This script implements small easteregg related to Yannic Kilcher
  */
 
 let images = document.getElementsByTagName('img');
