@@ -1,5 +1,6 @@
 /*!
  * ML in PL Jekyll Theme
+ * Main CSS file
  */
 
 /* Force larger margins for all Bootstrap elements */
@@ -1030,6 +1031,9 @@ body {
 .read-more-trigger{
     margin-top: -1.5em;
 }
+
+
+/* Ticket info */
 
 .ticket-info p, .ticket-info table {
     margin-top: 15px;
