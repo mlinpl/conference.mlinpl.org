@@ -1,0 +1,42 @@
+upcoming:
+  title: ML in PL Wrocław Meetup
+  url: https://www.meetup.com/ml-in-pl-meetups/events/301113131/
+  date: Thursday, June 20, 2024
+  location: Wrocław, Poland
+  location-address: ul. Wielka 67, inQube
+  sessions:
+    - events:
+        - title: Welcome
+          time: 17:45 - 18:00
+    - events:
+        - title: <strong>LLM Personalisation</strong>
+          subtitle: by Jan Kocoń
+          time: 18:00 - 18:30
+    - events:
+        - title: <strong>Grounding LLMs with the Power of Knowledge Graphs</strong>
+          subtitle: by Patryk Wielopolski
+          time: 18:45 - 19:30
+    - events:
+        - title: <i class="fa-solid fa-champagne-glasses"></i> Pizza & Networking
+          time: 19:30 - 21:00
+
+past:
+  - title: ML in PL + Warsaw.AI Meetup - AI & Education
+    url: https://www.meetup.com/ml-in-pl-meetups/events/300998812/
+    date: Wednesday, June 12, 2024
+    location: Warsaw, Poland
+    location-address: ul. Józefa Lewartowskiego 17, School of Computer Science
+    speakers:
+      - name: Andrew Tuson
+      - name: Paulina Tomaszewska
+      - name: Marek Cygan
+
+  - title: ML in PL Meetup - Explainable & Responsible AI
+    url: https://www.meetup.com/ml-in-pl-meetups/events/300451543/
+    date: Thursday, May 30, 2024
+    location: Utrecht, Netherlands
+    location-address: Oudegracht 91A, Deeploy
+    speakers:
+      - name: Kateřina Staňková
+      - name: Helma Torkamaan
+      - name: Paweł Gora
