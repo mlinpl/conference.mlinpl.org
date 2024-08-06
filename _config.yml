@@ -92,6 +92,7 @@ navigation:
       #   url: "/docs/booklet.pdf"
       - name: '<span class="main-name">ML <span style="color: #4BCAFD !important;">i</span>n PL</span> <span class="sub-name">AI ART FESTIVAL</span>'
         url: https://aiart.mlinpl.org/
+        target: "_blank"
 
   - name: "/ Call for Sponsors"
     url: "#sponsors"
