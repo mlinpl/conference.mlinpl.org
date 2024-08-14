@@ -42,6 +42,8 @@ header:
   # Countdown settings
   countdown-date: "2024-11-07T08:00:00"
   arrow-url: "#about"
+  # Meetup countdown settings
+  meetup-countdown-date: "2024-06-20T17:45:00"
 
 
 # Navigation settings
@@ -54,6 +56,8 @@ navigation:
     subsites:
       - name: "/ More information"
         url: "/about-ml-in-pl-conference"
+      - name: "/ Meetups"
+        url: "/meetups"
       - name: "/ Previous editions"
         subsites:
           - name: "/ 2023"
@@ -92,6 +96,7 @@ navigation:
       #   url: "/docs/booklet.pdf"
       - name: '<span class="main-name">ML <span style="color: #4BCAFD !important;">i</span>n PL</span> <span class="sub-name">AI ART FESTIVAL</span>'
         url: https://aiart.mlinpl.org/
+        target: "_blank"
 
   - name: "/ Call for Sponsors"
     url: "#sponsors"
