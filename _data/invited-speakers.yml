@@ -12,6 +12,13 @@
     Danielle Belgrave is a VP of AI/ML at GSK. Her experience spans conducting machine learning research and leading teams across academia and industry focused on scientific discovery and personalising interventions in health. She has previously worked at Google DeepMind, Microsoft Research Cambridge, UK and Imperial College London. She has a BSc in business mathematics and statistics from the London School of Economics and a master’s degree in statistics from University College London. Her PhD was at the University of Manchester in Machine Learning for Healthcare.
   google-scholar: https://scholar.google.co.uk/citations?user=bGDCgpUAAAAJ&hl=en
 
+- name: Roberto Calandra
+  title: Technische Universität Dresden
+  image: images/optimized/speakers-600x600/RobertoCalandra.webp
+  bio: >-
+    Roberto Calandra is a Full (W3) Professor at the Technische Universität Dresden where he leads the Learning, Adaptive Systems and Robotics (LASR) lab. Previously, he founded at Meta AI (formerly Facebook AI Research) the Robotic Lab in Menlo Park. Prior to that, he was a Postdoctoral Scholar at the University of California, Berkeley (US) in the Berkeley Artificial Intelligence Research (BAIR) Lab. His education includes a Ph.D. from TU Darmstadt (Germany), a M.Sc. in Machine Learning and Data Mining from the Aalto university (Finland), and a B.Sc. in Computer Science from the Università degli Studi di Palermo (Italy). His scientific interests are broadly at the conjunction of Robotics and Machine Learning, with the goal of making robots more intelligent and useful in the real world. Among his contributions is the design and commercialization of DIGIT -- the first commercial high-resolution compact tactile sensor, which is currently the most widely used tactile sensor in robotics. Roberto served as Program Chair for AISTATS 2020, as Guest Editor for the JMLR Special Issue on Bayesian Optimization, and has previously co-organized over 16 international workshops (including at NeurIPS, ICML, ICLR, ICRA, IROS, RSS). In 2024, he received the IEEE Early Academic Career Award in Robotics and Automation.
+  google scholar: https://scholar.google.ch/citations?user=fA0rYxMAAAAJ&hl=en
+
 - name: Alejandro Frangi
   title: University of Manchester
   image: images/optimized/speakers-600x600/AlejandroFrangi.webp
@@ -50,10 +57,3 @@
   bio: >-
     Wojciech Samek is a Professor in the EECS Department at TU Berlin and is jointly heading the AI Department at Fraunhofer HHI. He is a Fellow at BIFOLD - Berlin Institute for the Foundation of Learning and Data, the ELLIS Unit Berlin, and the DFG Research Unit DeSBi. Furthermore, he is a Senior Editor for IEEE TNNLS, an Associate Editor for Pattern Recognition, and an elected member of the IEEE MLSP Technical Committee and Germany's Platform for AI. He also serves as a member of the scientific advisory board of IDEAS NCBR - Polish Centre of Innovation in the Field of Artificial Intelligence. Wojciech has co-authored more than 200 papers and was the leading editor of the Springer book "Explainable AI: Interpreting, Explaining and Visualizing Deep Learning" (2019), and co-editor of the open access Springer book “xxAI – Beyond explainable AI” (2022). He has served as Program Co-Chair for IEEE MLSP'23, and as Area Chair for NAACL'21 and NeurIPS'23, and is a recipient of multiple best paper awards, including the 2020 Pattern Recognition Best Paper Award and the 2022 Digital Signal Processing Best Paper Prize.
   google scholar: https://scholar.google.com/citations?user=7aQwO08AAAAJ
-
-- name: Jakub Tomczak
-  title: Eindhoven University of Technology
-  image: images/optimized/speakers-600x600/JakubTomczak.webp
-  bio: >- 
-    Jakub M. Tomczak is an associate professor and the PI of the Generative AI group at the Eindhoven University of Technology (TU/e). Before joining the TU/e, he was an assistant professor at Vrije Universiteit Amsterdam, a deep learning researcher (Engineer, Staff) in Qualcomm AI Research in Amsterdam, a Marie Sklodowska-Curie individual fellow in Prof. Max Welling's group at the University of Amsterdam, and an assistant professor and a postdoc at the Wroclaw University of Technology. His main research interests include deep generative modeling, deep learning, and Bayesian inference, with applications to image/text processing, Life Sciences, and Molecular Sciences. He serves as an action editor of "Transactions of Machine Learning Research", and an area chair of major AI conferences (e.g., NeurIPS, ICML, AISTATS). He will be a program chair at NeurIPS 2024. He is the author of the book entitled "Deep Generative Modeling", the first comprehensive book on Generative AI. He is also the founder of Amsterdam AI Solutions.
-  google-scholar: https://scholar.google.com/citations?user=XB99pR4AAAAJ
