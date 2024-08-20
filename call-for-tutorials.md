@@ -11,7 +11,7 @@ Only research institutions are eligible to submit tutorial proposals. Tutorials 
 
 **Each tutorial can be a maximum of 4 hours long, including Q&A.** Approximately 10 tutorials will be selected, divided into two sessions (morning and afternoon). **The tutorials will be held on-site on 10 November 2024**. For each accepted tutorial, we will provide two free tickets for the conference.
 
-The proposal deadline is 20 August 2024. To submit a proposal, please visit the submission form:
+The proposal deadline is 31 August 2024. To submit a proposal, please visit the submission form:
 
 <ul class="list-inline banner-social-buttons">
     <li>

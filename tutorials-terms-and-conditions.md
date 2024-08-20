@@ -35,8 +35,8 @@ Rules of contributed tutorials acceptance to the **ML in PL** CONFERENCE 2024 (h
 
 ## § 4. THE RULES AND THE COURSE OF THE COMPETITION
 
-1. The Competition will start on 1 May 2024 and end on 20 August 2024 (hereinafter, the “Duration of the Competition”).
-2. The registration for the Competition will be open from 1 May 2024 to 20 August 2024.
+1. The Competition will start on 1 May 2024 and end on 31 August 2024 (hereinafter, the “Duration of the Competition”).
+2. The registration for the Competition will be open from 1 May 2024 to 31 August 2024.
 3. The registration for the Competition takes place via the registration form in the Call for Tutorials section available at [**https://conference.mlinpl.org/tutorials/**](https://conference2024.mlinpl.org/tutorials/) (hereinafter, the “Website”).
 4. In order to participate in the Competition, the Participant is obliged to submit the registration form on the Website through which the Participant provides:
    1. his/her personal data,
