@@ -37,6 +37,13 @@
     Iryna Gurevych is Professor of Ubiquitous Knowledge Processing in the Department of Computer Science at the Technical University of Darmstadt in Germany. She also is an adjunct professor at MBZUAI in Abu-Dhabi, UAE, and an affiliated professor at INSAIT in Sofia, Bulgaria. She is widely known for fundamental contributions to and innovative applications of natural language processing and machine learning. Professor Gurevych is a past president of the Association for Computational Linguistics (ACL), the leading professional society in the field of natural language processing. Her many accolades include being a Fellow of the ACL, an ELLIS Fellow, and the recipient of an ERC Advanced Grant.
   google-scholar: https://scholar.google.com/citations?user=t3A39e8AAAAJ&hl=en
 
+- name: Tomek Korbak
+  title: UK AI Safety Institute
+  image: images/optimized/speakers-600x600/TomaszKorbak.webp
+  bio: >-
+    Tomek Korbak is a Senior Research Scientist at the UK AI Safety Institute working on safety cases for frontier models. Previously, he was a Member of Technical Staff at Anthropic working on honesty. Before that, he did a PhD at the University of Sussex focusing on RL from human feedback (RLHF) and spent time as a visiting researcher at NYU working with Ethan Perez, Sam Bowman and Kyunghyun Cho. He studied cognitive science, philosophy and physics at the University of Warsaw.
+  google-scholar: https://scholar.google.com/citations?user=YQ5rrk4AAAAJ
+
 - name: Tom Rainforth
   title: University of Oxford
   image: images/optimized/speakers-600x600/TomRainforth.webp
