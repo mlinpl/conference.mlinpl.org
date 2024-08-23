@@ -112,6 +112,9 @@ navigation:
     subsites:
       - name: "/ Advisory Board"
         url: "#advisory-board"
+      - name: "/ Join us"
+        url: "https://mlinpl-recruitment.paperform.co/"
+        target: "_blank"
       - name: "/ Contact"
         url: "#contact"    
 
