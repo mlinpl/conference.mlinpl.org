@@ -48,8 +48,8 @@ header:
 
 # Navigation settings
 navigation:
-  # - name: "/ Tickets"
-  #   url: "#tickets"
+  - name: "/ Tickets"
+    url: "#tickets"
 
   - name: "/ About"
     url: "#about"
