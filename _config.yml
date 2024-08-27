@@ -99,7 +99,7 @@ navigation:
         target: "_blank"
 
   - name: "/ Call for Sponsors"
-    url: "#sponsors"
+    url: "#sponsors-call"
   
   - name: "/ Timeline"
     url: "#timeline"
