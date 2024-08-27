@@ -3,159 +3,110 @@
   imageMaxHeight: 220px
   margin: 45px 60px
   sponsors:
-    - name: Amazon
-      image: "images/optimized/sponsors-2023-600x600/Amazon.webp"
-      url: "https://www.aboutamazon.pl/nasze-miejsce-pracy/amazon-development-center"
-    - name: G-Resaerch
-      image: "images/optimized/sponsors-2023-600x600/GResearch.webp"
-      url: "https://www.gresearch.com/"
 
 - title: '/ <span class="gold-shine-text">Gold sponsors</span>'
   imageMaxWidth: 280px
   imageMaxHeight: 90px
   margin: 30px 45px
   sponsors:
-    - name: Allegro
-      image: "images/optimized/sponsors-2023-600x600/Allegro.webp"
-      url: https://ml.allegro.tech/
-    - name: Google DeepMind
-      image: "images/optimized/sponsors-2023-600x600/GoogleDeepMind.webp"
-      url: https://www.deepmind.com/
-    - name: Ideas NCBR
-      image: "images/optimized/sponsors-2023-600x600/IdeasNCBR.webp"
-      url: "https://ideas-ncbr.pl/en/"
-    - name: Pearson
-      image: "images/optimized/sponsors-2023-600x600/Pearson.webp"
-      url: "https://www.pearson.pl/"
-    - name: RTB House
-      image: "images/optimized/sponsors-2023-600x600/RTBHouse.webp"
-      url: "https://www.rtbhouse.com/"
-    - name: Snowflake
-      image: "images/optimized/sponsors-2023-600x600/Snowflake.webp"
-      url: "https://www.snowflake.com/en/"
 
 - title: '/ <span class="silver-shine-text">Silver sponsors</span>'
   imageMaxWidth: 270px
   imageMaxHeight: 70px
   margin: 30px 50px
   sponsors:
-    - name: AI Clearing
-      image: "images/optimized/sponsors-2023-600x600/AIClearing.webp"
-      url: "https://www.aiclearing.com/"
-    - name: Alphamoon
-      image: "images/optimized/sponsors-2023-600x600/alphamoon.webp"
-      url: "https://alphamoon.ai/"
-    - name: Bites Studio
-      image: "images/optimized/sponsors-2023-600x600/Bites.webp"
-      url: "https://www.bitesstudio.com/"
-    - name: Gemelo
-      image: "images/optimized/sponsors-2023-600x600/Gemelo.webp"
-      url: https://gemelo.ai/
-    - name: Hewlett Packard Enterprise
-      image: "images/optimized/sponsors-2023-600x600/HPE.webp"
-      url: https://www.hpe.com/us/en/home.html
-    - name: QuickchatAI
-      image: "images/optimized/sponsors-2023-600x600/Quickchat.webp"
-      url: "https://www.quickchat.ai/"
 
 - title: "/ Partners"
   imageMaxWidth: 280px
   imageMaxHeight: 110px
   margin: 30px 45px
   sponsors:
-    - name: NASK
-      image: "images/optimized/sponsors-2023-600x600/NASK.webp"
-      url: "https://en.nask.pl/"
 
 - title: "/ Honorary Patronages"
   imageMaxWidth: 410px
   imageMaxHeight: 240px
   margin: 45px 60px
   sponsors:
-    - name: Minister of Digital Affairs
-      #title: Minister of Digital Affairs
-      image: "images/optimized/honorary-patronages-600x600/MinistryOfDigitalAffairs.webp"
-    - name: GovTech
-      #title: Minister of Digital Affairs
-      image: "images/honorary-patronages/govtech.svg"
-      url: https://www.gov.pl/web/govtech-en
-    - name: SGH
-      image: "images/optimized/honorary-patronages-600x600/SGH.webp"
-      url: https://www.sgh.waw.pl/en
-    - name: WMiNI
-      image: "images/optimized/honorary-patronages-600x600/WMiNI.webp"
-      url: "https://ww4.mini.pw.edu.pl/"
-    - name: University of Warsaw
-      #title: Rector of University of Warsaw
-      image: "images/optimized/honorary-patronages-600x600/UW.webp"
-      url: https://en.uw.edu.pl/
-    - name: Dean of the Faculty of Mathematics, Informatics and Mechanics
-      #title: Dean of the Faculty of Mathematics, Informatics and Mechanics UW
-      image: "images/optimized/honorary-patronages-600x600/MIMUW.webp"
-      url: https://www.mimuw.edu.pl/
+    - name: Centrum Nauki Kopernik
+      image: "images/optimized/honorary-patronages-600x600/CNK.webp"
  
 - title: "/ Media partners"
   imageMaxWidth: 215px
   imageMaxHeight: 115px
   margin: 20px 30px
   sponsors:
-    - name: AIFlavours
-      image: "images/optimized/partners-600x600/AIFlavours.webp"
-      url: "https://www.linkedin.com/company/aiflavours"
-    - name: Digital Festival
-      image: "images/optimized/partners-600x600/DigitalFestival.webp"
-      url: "https://digitalfestival.pl/"
-    - name: Gauss
-      image: "images/optimized/partners-600x600/gauss.webp"
-      url: "http://gauss.im.pwr.wroc.pl"
-    - name: "Ghost Day: Applied Machine Learning Conference"
-      image: "images/optimized/partners-600x600/GhostDay.webp"
-      url: "https://ghostday.pl"
-    - name: Group of Horribly Optimistic STatisticians
-      image: "images/optimized/partners-600x600/GHOST.webp"
-      url: "https://ghost.put.poznan.pl"
-    - name: GMUM
-      image: "images/optimized/partners-600x600/gmum.webp"
-      url: https://gmum.net/
-    - name: Golem
-      image: "images/optimized/partners-600x600/golem.webp"
-      url: "https://ai.ii.pw.edu.pl/kolo-naukowe-sztucznej-inteligencji-golem/"
-    - name: KNUM
-      image: "images/optimized/partners-600x600/knum.webp"
-      url: "https://knum.mimuw.edu.pl/"
-    - name: Machine Learning Prague
-      image: "images/optimized/partners-600x600/MachineLearningPrague.webp"
-      url: "https://mlprague.com/"
-    - name: MI2
-      image: "images/optimized/partners-600x600/MI2.webp"
-      url: "https://www.mi2.ai/"
-    - name: Nauka w Polsce
-      image: "images/optimized/partners-600x600/naukawpolsce.webp"
-      url: "https://naukawpolsce.pl/"
+    - name: Advaiseme
+      image: "images/optimized/partners-600x600/Advaiseme.webp"
+      url:
+    # - name: AIFlavours
+    #   image: "images/optimized/partners-600x600/AIFlavours.webp"
+    #   url: "https://www.linkedin.com/company/aiflavours"
+    - name: bit
+      image: "images/optimized/partners-600x600/bit.webp"
+      url:
+    - name: Czarna Magia
+      image: "images/optimized/partners-600x600/CzarnaMagia.webp"
+      url: 
+    # - name: Digital Festival
+    #   image: "images/optimized/partners-600x600/DigitalFestival.webp"
+    #   url: "https://digitalfestival.pl/"
+    # - name: Gauss
+    #   image: "images/optimized/partners-600x600/gauss.webp"
+    #   url: "http://gauss.im.pwr.wroc.pl"
+    # - name: "Ghost Day: Applied Machine Learning Conference"
+    #   image: "images/optimized/partners-600x600/GhostDay.webp"
+    #   url: "https://ghostday.pl"
+    - name: Gradient KN
+      image: "images/optimized/partners-600x600/gradient.webp"
+      url:
+    # - name: Group of Horribly Optimistic STatisticians
+    #   image: "images/optimized/partners-600x600/GHOST.webp"
+    #   url: "https://ghost.put.poznan.pl"
+    # - name: GMUM
+    #   image: "images/optimized/partners-600x600/gmum.webp"
+    #   url: https://gmum.net/
+    # - name: Golem
+    #   image: "images/optimized/partners-600x600/golem.webp"
+    #   url: "https://ai.ii.pw.edu.pl/kolo-naukowe-sztucznej-inteligencji-golem/"
+    - name: Kobiety Nauki
+      image: "images/optimized/partners-600x600/KobietyNauki.webp"
+      url:
+    # - name: KNUM
+    #   image: "images/optimized/partners-600x600/knum.webp"
+    #   url: "https://knum.mimuw.edu.pl/"
+    # - name: Machine Learning Prague
+    #   image: "images/optimized/partners-600x600/MachineLearningPrague.webp"
+    #   url: "https://mlprague.com/"
+    # - name: MI2
+    #   image: "images/optimized/partners-600x600/MI2.webp"
+    #   url: "https://www.mi2.ai/"
+    # - name: Nauka w Polsce
+    #   image: "images/optimized/partners-600x600/naukawpolsce.webp"
+    #   url: "https://naukawpolsce.pl/"
     - name: Opanuj AI
       image: "images/optimized/partners-600x600/OpanujAI.webp"
       url: https://opanuj.ai/ 
-    - name: Opium
-      image: "images/optimized/partners-600x600/Opium.webp"
-      url: http://opium.sh
+    # - name: Opium
+    #   image: "images/optimized/partners-600x600/Opium.webp"
+    #   url: http://opium.sh
     - name: Polish ML Community
       image: "images/optimized/partners-600x600/PolishMLCommunity.webp"
       url: "https://polishml.community/"
-    - name: Polonium Foundation
-      image: "images/optimized/partners-600x600/PoloniumFoundation.webp"
-      url: https://poloniumfoundation.org/
+    # - name: Polonium Foundation
+    #   image: "images/optimized/partners-600x600/PoloniumFoundation.webp"
+    #   url: https://poloniumfoundation.org/
     - name: Quantum AI Foundation
       image: "images/optimized/partners-600x600/QuantumAIFoundation.webp"
       url: "https://www.qaif.org"
-    - name: SKN Data Science
-      image: "images/optimized/partners-600x600/SKNDataScience.webp"
-      url: https://www.linkedin.com/company/skndatascience
-    - name: SpeakLeash
-      image: "images/optimized/partners-600x600/SpeakLeash.webp"
-      url: https://speakleash.org/en/speakleash-a-k-a-spichlerz-english/
+    # - name: SKN Data Science
+    #   image: "images/optimized/partners-600x600/SKNDataScience.webp"
+    #   url: https://www.linkedin.com/company/skndatascience
+    # - name: SpeakLeash
+    #   image: "images/optimized/partners-600x600/SpeakLeash.webp"
+    #   url: https://speakleash.org/en/speakleash-a-k-a-spichlerz-english/
     - name: Warsaw AI
       image: "images/optimized/partners-600x600/WarsawAI.webp"
       url: "https://warsaw.ai"
-    - name: Zdarzenia Poznawcze
-      image: "images/optimized/partners-600x600/ZdarzeniePoznawcze.webp"
-      url: "https://www.facebook.com/zderzenia.poznawcze"
+    # - name: Zderzenia Poznawcze
+    #   image: "images/optimized/partners-600x600/ZdarzeniePoznawcze.webp"
+    #   url: "https://www.facebook.com/zderzenia.poznawcze"
