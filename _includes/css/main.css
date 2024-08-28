@@ -1063,24 +1063,120 @@ body {
     color: {{ site.color.background }};
 }
 
-@keyframes shine-animation {
+/* @keyframes shine-animation {
     to {background-position: right}
+} */
+
+@keyframes shine-animation {
+    0% {
+        background-position: -50% 50%;
+    }
+    50% {
+        background-position: 150% 50%;
+    }
+    100% {
+        background-position: -50% 50%;
+    }
 }
 
+@keyframes dimond-shine-animation {
+    0% {
+        background-position: -50% 50%;
+        filter: hue-rotate(125deg) contrast(130%);
+    }
+    50% {
+        background-position: 150% 50%;
+        filter: hue-rotate(135deg) contrast(150%);
+    }
+    100% {
+        background-position: -50% 50%;
+        filter: hue-rotate(125deg) contrast(130%);
+    }
+}
+
+.dimond-shine-text {
+    /* background: linear-gradient(100deg, 
+        #4284e8 10%,
+        #d2dbe7 25%, 
+        #5381c7 40%,
+        #d2dbe7 50%, 
+        #5381c7 60%,
+        #d2dbe7 75%, 
+        #4284e8 90%
+    ); */
+    /* background: linear-gradient(100deg, 
+        #4284e8 5%,
+        #e9f2fd 10%, 
+        #5381c7 15%,
+        #4284e8 25%,
+        #e8f1fd 30%, 
+        #4284e8 35%,
+        #4284e8 45%,
+        #bfcfe5 50%, 
+        #5381c7 55%,
+        #4284e8 65%,
+        #bbcee8 70%, 
+        #5381c7 75%,
+        #4284e8 85%,
+        #fefeff 90%, 
+        #4284e8 95%
+    ); */
+    background: linear-gradient(100deg, 
+        #4284e8 8%,
+        #e9f2fd 10%, 
+        #5381c7 12%,
+        #4284e8 28%,
+        #e9f2fd 30%, 
+        #6091d0 32%,
+        #4284e8 48%,
+        #e9f2fd 50%, 
+        #5381c7 52%,
+        #4284e8 68%,
+        #e9f2fd 70%, 
+        #6091d0 72%,
+        #4284e8 88%,
+        #e9f2fd 90%, 
+        #4284e8 92%
+    );
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.4),
+                 0 0 10px rgba(142, 172, 233, 0.4),
+                 0 0 15px rgba(129, 187, 218, 0.4),
+                 0 0 20px rgba(107, 142, 203, 0.4);
+}
+
+
 .platinium-shine-text {
-    background: linear-gradient(90deg, 
+    /* background: linear-gradient(100deg, 
         rgba(146, 166, 183, 1) 10%, 
         rgba(201, 214, 228, 1) 25%, 
         rgba(146, 166, 183, 1) 40%, 
         rgba(238, 240, 242, 1) 50%, 
         rgba(146, 166, 183, 1) 60%, 
-        rgba(201, 214, 228, 1) 75%, 
+        rgba(218, 232, 247, 1) 75%, 
         rgba(146, 166, 183, 1) 90%
+    ); */
+    background: linear-gradient(100deg, 
+        rgba(146, 166, 183, 1) 10%, 
+        rgba(201, 214, 228, 1) 30%, 
+        rgba(146, 166, 183, 1) 35%, 
+        rgba(238, 240, 242, 1) 40%, 
+        rgba(146, 166, 183, 1) 45%, 
+        rgba(161, 163, 166, 1) 70%, 
+        rgba(146, 166, 183, 1) 75%,
+        rgba(238, 240, 242, 1) 80%, 
+        rgba(146, 166, 183, 1) 85%, 
+        rgba(218, 232, 247, 1) 90%,
+        rgba(146, 166, 183, 1) 100%
     );
+    text-shadow: 
+        0 0 5px rgba(201, 214, 228, 0.3),
+        0 0 10px rgba(146, 166, 183, 0.3),
+        0 0 15px rgba(146, 166, 183, 0.3);
+    filter: contrast(125%);
 }
 
 .gold-shine-text {
-    background: linear-gradient(90deg, 
+    background: linear-gradient(100deg, 
         rgba(188, 136, 30, 1) 10%, 
         rgba(224, 196, 85, 1) 25%, 
         rgba(188, 136, 30, 1) 40%, 
@@ -1089,10 +1185,14 @@ body {
         rgba(224, 196, 85, 1) 75%, 
         rgba(188, 136, 30, 1) 90%
     );
+    text-shadow: 
+        0 0 5px rgba(234, 225, 199, 0.2),
+        0 0 10px rgba(224, 194, 136, 0.2);
+    filter: contrast(120%);
 }
 
 .silver-shine-text {
-    background: linear-gradient(90deg, 
+    background: linear-gradient(100deg, 
         rgba(143, 144, 143, 1) 10%, 
         rgba(217, 219, 220, 1) 25%, 
         rgba(143, 144, 143, 1) 40%, 
@@ -1101,10 +1201,12 @@ body {
         rgba(217, 219, 220, 1) 75%, 
         rgba(143, 144, 143, 1) 90%
     );
+    text-shadow: 0 0 5px rgba(143, 144, 143, 0.1);
+    filter: contrast(115%);
 }
 
 .bronze-shine-text {
-    background: linear-gradient(90deg, 
+    background: linear-gradient(100deg, 
         rgba(150, 124, 98, 1) 10%, 
         rgba(197, 169, 141, 1) 25%, 
         rgba(150, 124, 98, 1) 40%, 
@@ -1113,15 +1215,19 @@ body {
         rgba(197, 169, 141, 1) 75%, 
         rgba(150, 124, 98, 1) 90%
     );
+    filter: contrast(110%);
 }
 
-.bronze-shine-text, .silver-shine-text, .gold-shine-text, .platinium-shine-text {
+.bronze-shine-text, .silver-shine-text, .gold-shine-text, .platinium-shine-text, .dimond-shine-text {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;	
-  animation: shine-animation 8s infinite;
+  animation: shine-animation 32s infinite;
   background-size: 200%;
   background-position: left;
   padding: 0 50px;
   margin: 0 -50px;
 }
 
+.dimond-shine-text {
+    animation: dimond-shine-animation 32s infinite;
+}
