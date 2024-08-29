@@ -1,23 +1,15 @@
 <!-- Sponsors Section -->
 <section id="sponsors" class="container content-section">
-    <div class="row">
-        <div class="col-md-12">
-            <h2>/ Call for Sponsors</h2>
-            <p>
-                If you would like to sponsor our conference, please get in touch with us at <a href="mailto:sponsors@conference.mlinpl.org">sponsors@conference.mlinpl.org</a>
-            </p>
-        </div>
-    </div>
-    {% comment %}
     {% for category in site.data.sponsors %} 
-        <div class="sponsors-section">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h2 class="text-align-left">{{category.title}}</h2>
+        {% if category.sponsors.size > 0 %}
+            <div class="sponsors-section">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h2 class="text-align-left">{{category.title}}</h2>
+                    </div>
                 </div>
+                {% include logos.html logos-data=category.sponsors imageMaxWidth=category.imageMaxWidth imageMaxHeight=category.imageMaxHeight margin=category.margin %}
             </div>
-            {% include logos.html logos-data=category.sponsors imageMaxWidth=category.imageMaxWidth imageMaxHeight=category.imageMaxHeight margin=category.margin %}
-        </div>
+        {% endif %}
     {% endfor %}
-    {% endcomment %}
 </section>

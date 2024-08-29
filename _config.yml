@@ -48,8 +48,8 @@ header:
 
 # Navigation settings
 navigation:
-  # - name: "/ Tickets"
-  #   url: "#tickets"
+  - name: "/ Tickets"
+    url: "#tickets"
 
   - name: "/ About"
     url: "#about"
@@ -82,8 +82,8 @@ navigation:
       #   url: "#agenda"
       - name: "/ Invited speakers"
         url: "#invited-speakers"
-      # - name: "/ Discussion Panels"
-      #   url: "#panels"
+      - name: "/ Discussion Panels"
+        url: "#panels"
       # - name: "/ Full program"
       #   url: "/program"
       - name: "/ Call for Contributions"
@@ -99,7 +99,7 @@ navigation:
         target: "_blank"
 
   - name: "/ Call for Sponsors"
-    url: "#sponsors"
+    url: "#sponsors-call"
   
   - name: "/ Timeline"
     url: "#timeline"
@@ -112,6 +112,9 @@ navigation:
     subsites:
       - name: "/ Advisory Board"
         url: "#advisory-board"
+      - name: "/ Join us"
+        url: "https://mlinpl-recruitment.paperform.co/"
+        target: "_blank"
       - name: "/ Contact"
         url: "#contact"    
 
