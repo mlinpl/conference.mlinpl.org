@@ -26,6 +26,17 @@
     Iryna Gurevych is Professor of Ubiquitous Knowledge Processing in the Department of Computer Science at the Technical University of Darmstadt in Germany. She also is an adjunct professor at MBZUAI in Abu-Dhabi, UAE, and an affiliated professor at INSAIT in Sofia, Bulgaria. She is widely known for fundamental contributions to and innovative applications of natural language processing and machine learning. Professor Gurevych is a past president of the Association for Computational Linguistics (ACL), the leading professional society in the field of natural language processing. Her many accolades include being a Fellow of the ACL, an ELLIS Fellow, and the recipient of an ERC Advanced Grant.
   google-scholar: https://scholar.google.com/citations?user=t3A39e8AAAAJ&hl=en
 
+- name: Alejandro Frangi
+  title: University of Manchester
+  image: images/optimized/speakers-600x600/AlejandroFrangi.webp
+  bio: |- 
+    Prof. Alejandro Frangi FREng, holds the Bicentennial Turing Chair in Computational Medicine at the University of Manchester, UK, with joint appointments in the Schools of Computer Science and Health Science. Additionally, he is the Royal Academy of Engineering Chair in Emerging Technologies, specialising in Precision Computational Medicine for in silico trials of medical devices. He serves as the Director of the Christabel Pankhurst Institute for Health Technology Research and Innovation and is a Fellow at the Alan Turing Institute. Recently, his research vision was recognised with an ERC Advanced Grant from the European Research Council. He leads the InSilicoUK Pro-Innovation Regulations Network (www.insilicouk.org). 
+    
+    Professor Frangi's main research interests lie at the crossroads of medical image analysis and modelling with an emphasis on machine learning (phenomenological models) and computational physiology (mechanistic models). His work has had a profound impact on the field, particularly in the areas of cardiovascular, musculoskeletal and neurosciences. He is particularly interested in statistical methods applied to population imaging and in silico clinical trials. 
+    
+    Prof. Frangi's contributions to the field have been widely recognised. He has received numerous accolades, including the IEEE Engineering in Medicine and Biology Technical Achievement Award (2021) and Early Career Award (2006). In 2011, he was honored with the UPF Medal for his service as Dean of the Escuela Politècnica Superior. He also received the ICREA-Academia Prize from the Institució Catalana de Recerca i Estudis Avançats (ICREA) in 2008, a President's International Initiative Award from the Chinese Academy of Science in 2019. Prof. Frangi has also edited a textbook on Medical Image Analysis, published in the MICCAI-Elsevier Book Series by Academic Press.
+  google-scholar: https://scholar.google.com/citations?user=9fGrB0sAAAAJ&hl=en
+
 - name: Yuki Asano
   title: University of Amsterdam
   image: images/optimized/speakers-600x600/YukiAsano.webp
@@ -46,17 +57,6 @@
   bio: >-
     Roberto Calandra is a Full (W3) Professor at the Technische Universität Dresden where he leads the Learning, Adaptive Systems and Robotics (LASR) lab. Previously, he founded at Meta AI (formerly Facebook AI Research) the Robotic Lab in Menlo Park. Prior to that, he was a Postdoctoral Scholar at the University of California, Berkeley (US) in the Berkeley Artificial Intelligence Research (BAIR) Lab. His education includes a Ph.D. from TU Darmstadt (Germany), a M.Sc. in Machine Learning and Data Mining from the Aalto university (Finland), and a B.Sc. in Computer Science from the Università degli Studi di Palermo (Italy). His scientific interests are broadly at the conjunction of Robotics and Machine Learning, with the goal of making robots more intelligent and useful in the real world. Among his contributions is the design and commercialization of DIGIT -- the first commercial high-resolution compact tactile sensor, which is currently the most widely used tactile sensor in robotics. Roberto served as Program Chair for AISTATS 2020, as Guest Editor for the JMLR Special Issue on Bayesian Optimization, and has previously co-organized over 16 international workshops (including at NeurIPS, ICML, ICLR, ICRA, IROS, RSS). In 2024, he received the IEEE Early Academic Career Award in Robotics and Automation.
   google scholar: https://scholar.google.ch/citations?user=fA0rYxMAAAAJ&hl=en
-
-- name: Alejandro Frangi
-  title: University of Manchester
-  image: images/optimized/speakers-600x600/AlejandroFrangi.webp
-  bio: |- 
-    Prof. Alejandro Frangi FREng, holds the Bicentennial Turing Chair in Computational Medicine at the University of Manchester, UK, with joint appointments in the Schools of Computer Science and Health Science. Additionally, he is the Royal Academy of Engineering Chair in Emerging Technologies, specialising in Precision Computational Medicine for in silico trials of medical devices. He serves as the Director of the Christabel Pankhurst Institute for Health Technology Research and Innovation and is a Fellow at the Alan Turing Institute. Recently, his research vision was recognised with an ERC Advanced Grant from the European Research Council. He leads the InSilicoUK Pro-Innovation Regulations Network (www.insilicouk.org). 
-    
-    Professor Frangi's main research interests lie at the crossroads of medical image analysis and modelling with an emphasis on machine learning (phenomenological models) and computational physiology (mechanistic models). His work has had a profound impact on the field, particularly in the areas of cardiovascular, musculoskeletal and neurosciences. He is particularly interested in statistical methods applied to population imaging and in silico clinical trials. 
-    
-    Prof. Frangi's contributions to the field have been widely recognised. He has received numerous accolades, including the IEEE Engineering in Medicine and Biology Technical Achievement Award (2021) and Early Career Award (2006). In 2011, he was honored with the UPF Medal for his service as Dean of the Escuela Politècnica Superior. He also received the ICREA-Academia Prize from the Institució Catalana de Recerca i Estudis Avançats (ICREA) in 2008, a President's International Initiative Award from the Chinese Academy of Science in 2019. Prof. Frangi has also edited a textbook on Medical Image Analysis, published in the MICCAI-Elsevier Book Series by Academic Press.
-  google-scholar: https://scholar.google.com/citations?user=9fGrB0sAAAAJ&hl=en
 
 - name: Tomek Korbak
   title: UK AI Safety Institute
