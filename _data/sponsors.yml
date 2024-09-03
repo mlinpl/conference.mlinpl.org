@@ -25,11 +25,11 @@
 #   margin: 30px 50px
 #   sponsors:
 
-- title: "/ Partners"
-  imageMaxWidth: 280px
-  imageMaxHeight: 110px
-  margin: 30px 45px
-  sponsors:
+# - title: "/ Partners"
+#   imageMaxWidth: 280px
+#   imageMaxHeight: 110px
+#   margin: 30px 45px
+#   sponsors:
 
 - title: "/ Honorary Patronages"
   imageMaxWidth: 310px
