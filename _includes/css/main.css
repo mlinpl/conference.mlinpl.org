@@ -1035,9 +1035,14 @@ body {
 
 /* Ticket info */
 
+.ticket-info{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
 .ticket-info p, .ticket-info table {
     margin-top: 15px;
-    margin-bottom: 15px;
+    margin-bottom: 0px;
 }
 
 .ticket-info .btn, .ticket-info table {
@@ -1048,6 +1053,24 @@ body {
     font-family: 'Poppins', sans-serif;
     font-weight: normal;
     text-align: center;
+}
+
+.ticket-current {
+    border: 2px solid {{ site.color.main }};
+}
+
+.ticket-header {
+    height: 0px;
+    text-align: left;
+    text-transform: uppercase;
+    position: relative;
+    top: -45px;
+    left: -30px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    font-size: 20px;
+    color: {{ site.color.main }};
 }
 
 
@@ -1138,10 +1161,10 @@ body {
         #e9f2fd 90%, 
         #4284e8 92%
     );
-    text-shadow: 0 0 5px rgba(255, 255, 255, 0.4),
-                 0 0 10px rgba(142, 172, 233, 0.4),
-                 0 0 15px rgba(129, 187, 218, 0.4),
-                 0 0 20px rgba(107, 142, 203, 0.4);
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.5),
+                 0 0 10px rgba(142, 172, 233, 0.5),
+                 0 0 15px rgba(129, 187, 218, 0.5),
+                 0 0 20px rgba(107, 142, 203, 0.5);
 }
 
 
@@ -1155,7 +1178,7 @@ body {
         rgba(218, 232, 247, 1) 75%, 
         rgba(146, 166, 183, 1) 90%
     ); */
-    background: linear-gradient(100deg, 
+    /* background: linear-gradient(100deg, 
         rgba(146, 166, 183, 1) 10%, 
         rgba(201, 214, 228, 1) 30%, 
         rgba(146, 166, 183, 1) 35%, 
@@ -1167,11 +1190,24 @@ body {
         rgba(146, 166, 183, 1) 85%, 
         rgba(218, 232, 247, 1) 90%,
         rgba(146, 166, 183, 1) 100%
+    ); */
+    background: linear-gradient(100deg, 
+        rgba(146, 166, 183, 1) 10%, 
+        rgba(187, 202, 218, 1) 20%, 
+        rgba(146, 166, 183, 1) 30%, 
+        rgba(238, 240, 242, 1) 35%, 
+        rgba(146, 166, 183, 1) 40%, 
+        rgba(161, 163, 166, 1) 55%, 
+        rgba(146, 166, 183, 1) 70%,
+        rgba(238, 240, 242, 1) 75%, 
+        rgba(146, 166, 183, 1) 80%, 
+        rgba(187, 202, 218, 1) 90%,
+        rgba(146, 166, 183, 1) 100%
     );
     text-shadow: 
-        0 0 5px rgba(201, 214, 228, 0.3),
-        0 0 10px rgba(146, 166, 183, 0.3),
-        0 0 15px rgba(146, 166, 183, 0.3);
+        0 0 5px rgba(201, 214, 228, 0.4),
+        0 0 10px rgba(146, 166, 183, 0.4),
+        0 0 15px rgba(146, 166, 183, 0.4);
     filter: contrast(125%);
 }
 
@@ -1186,8 +1222,8 @@ body {
         rgba(188, 136, 30, 1) 90%
     );
     text-shadow: 
-        0 0 5px rgba(234, 225, 199, 0.2),
-        0 0 10px rgba(224, 194, 136, 0.2);
+        0 0 5px rgba(234, 225, 199, 0.3),
+        0 0 10px rgba(224, 194, 136, 0.3);
     filter: contrast(120%);
 }
 
@@ -1201,7 +1237,7 @@ body {
         rgba(217, 219, 220, 1) 75%, 
         rgba(143, 144, 143, 1) 90%
     );
-    text-shadow: 0 0 5px rgba(143, 144, 143, 0.1);
+    text-shadow: 0 0 5px rgba(143, 144, 143, 0.2);
     filter: contrast(115%);
 }
 
