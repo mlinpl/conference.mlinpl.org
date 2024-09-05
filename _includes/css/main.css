@@ -1035,9 +1035,19 @@ body {
 
 /* Ticket info */
 
+.tickets-row {
+    margin-left: -15px !important;
+    margin-right: -15px !important;
+}
+
+.ticket-col {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 30px;
+} 
+
 .ticket-info{
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding: 15px;
 }
 
 .ticket-info p, .ticket-info table {
@@ -1064,8 +1074,7 @@ body {
     text-align: left;
     text-transform: uppercase;
     position: relative;
-    top: -45px;
-    left: -30px;
+    top: -30px;
     font-weight: 400;
     letter-spacing: 1px;
     line-height: 1.5;
