@@ -82,6 +82,8 @@ navigation:
       #   url: "#agenda"
       - name: "/ Invited speakers"
         url: "#invited-speakers"
+      - name: "/ AI Audio Challenge"
+        url: "/ai-audio-challenge"
       - name: "/ Discussion Panels"
         url: "#panels"
       # - name: "/ Full program"
