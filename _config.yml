@@ -100,14 +100,14 @@ navigation:
         url: https://aiart.mlinpl.org/
         target: "_blank"
 
-  - name: "/ Call for Sponsors"
-    url: "#sponsors-call"
+  # - name: "/ Call for Sponsors"
+  #   url: "#sponsors-call"
   
   - name: "/ Timeline"
     url: "#timeline"
 
-  # - name: "/ Sponsors & partners"
-  #   url: "#sponsors"
+  - name: "/ Sponsors & partners"
+    url: "#sponsors"
 
   - name: "/ Organizers"
     url: "#organizers"
