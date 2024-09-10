@@ -1276,3 +1276,13 @@ body {
 .dimond-shine-text {
     animation: dimond-shine-animation 64s infinite;
 }
+
+.list-item-icon {
+    color: {{ site.color.main }};
+    left: -2.5em;
+    position: relative;
+    margin-right: -2.5em;
+    width: 2.5em;
+    text-align: center;
+    padding-right: 1em;
+}
