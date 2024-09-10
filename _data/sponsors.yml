@@ -1,12 +1,12 @@
 - title: '/ <span class="dimond-shine-text">Strategic sponsor</span>'
-  imageMaxWidth: 400px
-  imageMaxHeight: 220px
+  imageMaxWidth: 480px
+  imageMaxHeight: 240px
   margin: 45px 60px
   sponsors:
     - name: ElevenLabs
       image: "images/sponsors/ElevenLabs.svg"
       url: "https://elevenlabs.io/"
-  caption: 'Check out ElevenLabs AI Audio Challenge <a href="/ai-audio-challenge">here</a>.'
+  #caption: 'Check out AI Audio Challenge organized by ElevenLabs <a href="/ai-audio-challenge">here</a>.'
 
 - title: '/ <span class="platinium-shine-text">Platinum sponsors</span>'
   imageMaxWidth: 400px
