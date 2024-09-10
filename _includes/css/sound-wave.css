@@ -41,6 +41,7 @@
     --boxSize: 14px;
     --gutter: 8px;
     width: calc((var(--boxSize) + var(--gutter)) * 5);
+    margin: 16px;
 }
 
 .sound-wave-segment {
