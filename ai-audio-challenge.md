@@ -23,7 +23,8 @@ timeline:
 
 The AI Audio Challenge is a competition organized by <strong>ElevenLabs</strong> in partnership with {{ site.inline-logo }}, open to all enthusiasts of applied AI. Participating teams are asked to develop cutting-edge solutions using industry-leading AI audio technologies. Where teams are encouraged to explore AI audio solutions in; accessibility, education and the public sector.
 
-The finalists of the challenge will be invited to {{ site.inline-logo }} to showcase their solutions and compete for the main prizes.
+The finalists of the challenge will be invited to {{ site.inline-logo }} to showcase their solutions and compete for the main prizes. 
+Travel grants of 200 USD will be offered to finalists to attend the conference. 
 
 <ul style="list-style-type: none; padding-left: 2.5em;">
     <li><i class="list-item-icon fa-solid fa-handshake"></i>Form a team of <strong>2-6 members</strong> to build something groundbreaking.</li>
