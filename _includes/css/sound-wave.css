@@ -37,9 +37,9 @@
 .sound-wave {
     display: flex;
     justify-content: space-between;
-    height: 64px;
-    --boxSize: 10px;
-    --gutter: 4px;
+    height: 128px;
+    --boxSize: 14px;
+    --gutter: 8px;
     width: calc((var(--boxSize) + var(--gutter)) * 5);
 }
 
@@ -48,7 +48,7 @@
     height: 100%;
     width: var(--boxSize);
     background:  {{ site.color.main }};
-    animation-duration: 1.2s;
+    animation-duration: 1.6s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
     border-radius: 8px;
