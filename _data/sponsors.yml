@@ -8,29 +8,38 @@
       url: "https://elevenlabs.io/"
   caption: 'Check out ElevenLabs AI Audio Challenge <a href="/ai-audio-challenge">here</a>.'
 
-# - title: '/ <span class="platinium-shine-text">Platinum sponsors</span>'
-#   imageMaxWidth: 400px
-#   imageMaxHeight: 220px
-#   margin: 45px 60px
-#   sponsors:
+- title: '/ <span class="platinium-shine-text">Platinum sponsors</span>'
+  imageMaxWidth: 400px
+  imageMaxHeight: 220px
+  margin: 45px 60px
+  sponsors:
+    # - name: Allegro
+    #   image: "images/optimized/sponsors-600x600/Allegro.webp"
+    #   url: https://ml.allegro.tech/
+    # - name: G-Resaerch
+    #   image: "images/optimized/sponsors-600x600/GResearch.webp"
+    #   url: "https://www.gresearch.com/"
 
-# - title: '/ <span class="gold-shine-text">Gold sponsors</span>'
-#   imageMaxWidth: 280px
-#   imageMaxHeight: 90px
-#   margin: 30px 45px
-#   sponsors:
+- title: '/ <span class="gold-shine-text">Gold sponsors</span>'
+  imageMaxWidth: 280px
+  imageMaxHeight: 90px
+  margin: 30px 45px
+  sponsors:
+    # - name: Google DeepMind
+    #   image: "images/optimized/sponsors-2023-600x600/GoogleDeepMind.webp"
+    #   url: https://www.deepmind.com/
+    # - name: Ideas NCBR
+    #   image: "images/optimized/sponsors-600x600/IdeasNCBR.webp"
+    #   url: "https://ideas-ncbr.pl/en/"
+    # - name: RTB House
+    #   image: "images/optimized/sponsors-600x600/RTBHouse.webp"
+    #   url: "https://www.rtbhouse.com/"
 
-# - title: '/ <span class="silver-shine-text">Silver sponsors</span>'
-#   imageMaxWidth: 270px
-#   imageMaxHeight: 70px
-#   margin: 30px 50px
-#   sponsors:
-
-# - title: "/ Partners"
-#   imageMaxWidth: 280px
-#   imageMaxHeight: 110px
-#   margin: 30px 45px
-#   sponsors:
+- title: '/ <span class="silver-shine-text">Silver sponsors</span>'
+  imageMaxWidth: 270px
+  imageMaxHeight: 70px
+  margin: 30px 50px
+  sponsors:
 
 - title: "/ Honorary Patronages"
   imageMaxWidth: 310px
