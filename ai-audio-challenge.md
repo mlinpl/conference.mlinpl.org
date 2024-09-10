@@ -26,10 +26,10 @@ The AI Audio Challenge is a competition organized by <strong>ElevenLabs</strong>
 The finalists of the challenge will be invited to {{ site.inline-logo }} to showcase their solutions and compete for the&nbsp;main prizes.
 
 <ul style="list-style-type: none; padding-left: 0; maring-left: 0;">
-    <li>🤝 Form a team of 2-6 members to build something groundbreaking.</li>
-    <li>🚀 Create an innovative AI audio solution with ElevenLabs technology.</li>
-    <li>🕒 Submit your solution by 5 October.</li>
-    <li>🏆 Compete for a 6666 USD prize pool, exclusive resources, and the chance to join the Lablab NEXT acceleration program.</li>
+    <li>🤝 Form a team of <strong>2-6 members</strong> to build something groundbreaking.</li>
+    <li>🚀 Create an innovative AI audio solution with <strong>ElevenLabs technology</strong>.</li>
+    <li>🕒 Submit your solution by <strong>5 October</strong>.</li>
+    <li>🏆 Compete for a <strong>6666 USD</strong> prize pool, exclusive resources, and the chance to join the <strong>Lablab NEXT</strong> acceleration program.</li>
     <li>📅 Finalists will present their solution at the {{ site.inline-logo }}.</li>
 </ul>
 
@@ -45,9 +45,9 @@ The finalists of the challenge will be invited to {{ site.inline-logo }} to show
 
 ## / Prizes
 <ul style="list-style-type: none; padding-left: 0; maring-left: 0;">
-    <li>1st Prize: 3333 USD + 12 months of ElevenLabs Scale tier subscription</li>
-    <li>2nd Prize: 2222 USD + 12 months of ElevenLabs Scale tier subscription</li>
-    <li>3rd Prize: 1111 USD + 12 months of ElevenLabs Scale tier subscription</li>
+    <li><strong>1st Prize</strong>: 3333 USD + 12 months of ElevenLabs Scale tier subscription</li>
+    <li><strong>2nd Prize</strong>: 2222 USD + 12 months of ElevenLabs Scale tier subscription</li>
+    <li><strong>3rd Prize</strong>: 1111 USD + 12 months of ElevenLabs Scale tier subscription</li>
 </ul>
 
 Each Finalist will receive ElevenLabs swag and the opportunity to join the Lablab AI Accelerator to bring their solution to life.
