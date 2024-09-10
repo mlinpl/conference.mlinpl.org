@@ -5,8 +5,8 @@ html-title: AI Audio Challenge
 permalink: /ai-audio-challenge
 mlinpl-inline-logo: <span class="logo"><span class="main-name">ML&nbsp;<span class="emph">i</span>n&nbsp;PL</span></span>
 sponsor:
-    imageMaxWidth: 400px
-    imageMaxHeight: 220px
+    imageMaxWidth: 480px
+    imageMaxHeight: 240px
     margin: 45px 60px
     data:
       - name: ElevenLabs
