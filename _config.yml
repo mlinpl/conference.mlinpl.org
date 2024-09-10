@@ -36,12 +36,13 @@ author:
 
 # Header settings
 inline-logo: '<span class="logo"><span class="main-name">ML <span class="emph">i</span>n PL</span> <span class="sub-name">Conference 2024</span></span>'
+
 header:
   heading: '<img src="images/mlinpl-conference-2024-logo-black.png" style="max-height: 1.5em; max-width: 90%;">'
-  date-location: 7 - 10 November / Warsaw, Poland
+  date-location: 7 - 10 November / Copernicus Science Centre, Warsaw, Poland
   # Countdown settings
   countdown-date: "2024-11-07T08:00:00"
-  arrow-url: "#about"
+  arrow-url: "#tickets"
   # Meetup countdown settings
   meetup-countdown-date: "2024-06-20T17:45:00"
 
@@ -56,8 +57,6 @@ navigation:
     subsites:
       - name: "/ More information"
         url: "/about-ml-in-pl-conference"
-      - name: "/ Meetups"
-        url: "/meetups"
       - name: "/ Previous editions"
         subsites:
           - name: "/ 2023"
@@ -92,6 +91,10 @@ navigation:
         url: "/call-for-contributions"
       - name: "/ Call for Tutorials"
         url: "/call-for-tutorials"
+      - name: "/ Venue"
+        url: "#venue"
+      - name: "/ Pre-conference meetups"
+        url: "/meetups"
       # - name: "/ Conference game"
       #   url: "/conference-game"
       # - name: "/ Conference booklet"
@@ -99,15 +102,12 @@ navigation:
       - name: '<span class="main-name">ML <span style="color: #4BCAFD !important;">i</span>n PL</span> <span class="sub-name">AI ART FESTIVAL</span>'
         url: https://aiart.mlinpl.org/
         target: "_blank"
-
-  # - name: "/ Call for Sponsors"
-  #   url: "#sponsors-call"
   
   - name: "/ Timeline"
     url: "#timeline"
 
   - name: "/ Sponsors & partners"
-    url: "#sponsors"
+    url: "#sponsors-call"
 
   - name: "/ Organizers"
     url: "#organizers"
