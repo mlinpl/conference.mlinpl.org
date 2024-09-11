@@ -4,9 +4,9 @@
   margin: 45px 60px
   sponsors:
     - name: ElevenLabs
-      image: "images/sponsors/ElevenLabs.svg"
-      url: "https://elevenlabs.io/"
-  #caption: 'Check out AI Audio Challenge organized by ElevenLabs <a href="/ai-audio-challenge">here</a>.'
+      image: "images/optimized/sponsors-600x600/ElevenLabs.svg"
+      url: "https://elevenlabs.io"
+  # caption: 'Check out AI Audio Challenge organized by ElevenLabs <a href="/ai-audio-challenge">here</a>.'
 
 - title: '/ <span class="platinium-shine-text">Platinum sponsors</span>'
   imageMaxWidth: 400px
@@ -16,9 +16,9 @@
     # - name: Allegro
     #   image: "images/optimized/sponsors-600x600/Allegro.webp"
     #   url: https://ml.allegro.tech/
-    # - name: G-Resaerch
-    #   image: "images/optimized/sponsors-600x600/GResearch.webp"
-    #   url: "https://www.gresearch.com/"
+    - name: G-Research
+      image: "images/optimized/sponsors-600x600/GResearch.webp"
+      url: "https://www.gresearch.com"
 
 - title: '/ <span class="gold-shine-text">Gold sponsors</span>'
   imageMaxWidth: 280px
@@ -26,20 +26,35 @@
   margin: 30px 45px
   sponsors:
     # - name: Google DeepMind
-    #   image: "images/optimized/sponsors-2023-600x600/GoogleDeepMind.webp"
+    #   image: "images/optimized/sponsors-600x600/GoogleDeepMind.webp"
     #   url: https://www.deepmind.com/
-    # - name: Ideas NCBR
-    #   image: "images/optimized/sponsors-600x600/IdeasNCBR.webp"
-    #   url: "https://ideas-ncbr.pl/en/"
-    # - name: RTB House
-    #   image: "images/optimized/sponsors-600x600/RTBHouse.webp"
-    #   url: "https://www.rtbhouse.com/"
+    - name: Ideas NCBR
+      image: "images/optimized/sponsors-600x600/IdeasNCBR.webp"
+      url: "https://ideas-ncbr.pl/en"
+    - name: LOT Polish Airlines
+      image: "images/optimized/sponsors-600x600/LOT.webp"
+      url: "https://www.lot.com/pl/en"
+    - name: RTB House
+      image: "images/optimized/sponsors-600x600/RTBHouse.webp"
+      url: "https://www.rtbhouse.com"
 
 - title: '/ <span class="silver-shine-text">Silver sponsors</span>'
   imageMaxWidth: 270px
   imageMaxHeight: 70px
   margin: 30px 50px
   sponsors:
+    - name: Jane Street
+      image: "images/optimized/sponsors-600x600/JaneStreet.webp"
+      url: "https://www.janestreet.com"
+    - name: Palto
+      image: "images/optimized/sponsors-600x600/Palto.svg"
+      url: "https://palto.ai"
+    - name: Semtic AI
+      image: "images/optimized/sponsors-600x600/SemticAI.svg"
+      url: "https://semtic.ai"
+    - name: TCL Research Europe
+      image: "images/optimized/sponsors-600x600/TCL.webp"
+      url: "https://tcl-research.pl"
 
 - title: "/ Honorary Patronages"
   imageMaxWidth: 310px
