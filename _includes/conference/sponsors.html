@@ -11,5 +11,13 @@
                 {% include logos.html logos-data=category.sponsors imageMaxWidth=category.imageMaxWidth imageMaxHeight=category.imageMaxHeight margin=category.margin %}
             </div>
         {% endif %}
+
+        {% if category.caption %}
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>{{category.caption}}</p>
+                </div>
+            </div>
+        {% endif %}
     {% endfor %}
 </section>
