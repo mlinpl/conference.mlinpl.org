@@ -1035,11 +1035,6 @@ body {
 
 /* Ticket info */
 
-.tickets-row {
-    margin-left: -15px !important;
-    margin-right: -15px !important;
-}
-
 .ticket-col {
     padding-left: 15px;
     padding-right: 15px;
