@@ -1266,7 +1266,7 @@ body {
 .bronze-shine-text, .silver-shine-text, .gold-shine-text, .platinium-shine-text, .dimond-shine-text {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;	
-  animation: shine-animation 32s infinite;
+  animation: shine-animation 64s infinite;
   background-size: 200%;
   background-position: left;
   padding: 0 50px;
@@ -1274,5 +1274,15 @@ body {
 }
 
 .dimond-shine-text {
-    animation: dimond-shine-animation 32s infinite;
+    animation: dimond-shine-animation 64s infinite;
+}
+
+.list-item-icon {
+    color: {{ site.color.main }};
+    left: -2.5em;
+    position: relative;
+    margin-right: -2.5em;
+    width: 2.5em;
+    text-align: center;
+    padding-right: 1em;
 }
