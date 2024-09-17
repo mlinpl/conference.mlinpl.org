@@ -64,6 +64,10 @@
     - name: Centrum Nauki Kopernik
       image: "images/optimized/honorary-patronages-600x600/CNK.webp"
       url: "https://www.kopernik.org.pl/en"
+    - name: Dean of the Faculty of Mathematics, Informatics and Mechanics
+      #title: Dean of the Faculty of Mathematics, Informatics and Mechanics UW
+      image: "images/optimized/honorary-patronages-600x600/MIMUW.webp"
+      url: https://www.mimuw.edu.pl/
 
 - title: "/ Partners"
   imageMaxWidth: 280px
