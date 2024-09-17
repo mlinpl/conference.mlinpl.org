@@ -107,7 +107,7 @@ navigation:
     url: "#timeline"
 
   - name: "/ Sponsors & partners"
-    url: "#sponsors-call"
+    url: "#sponsors"
 
   - name: "/ Organizers"
     url: "#organizers"
