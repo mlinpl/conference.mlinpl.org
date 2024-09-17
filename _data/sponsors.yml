@@ -56,6 +56,18 @@
       image: "images/optimized/sponsors-600x600/TCL.webp"
       url: "https://tcl-research.pl"
 
+- title: "/ Partners"
+  imageMaxWidth: 280px
+  imageMaxHeight: 120px
+  margin: 30px 45px
+  sponsors:
+    - name: Hugging Face
+      image: images/optimized/partners-600x600/HuggingFace.webp
+      url: "https://huggingface.co/"
+    # - name: NASK
+    #   image: "images/optimized/sponsors-2023-600x600/NASK.webp"
+    #   url: "https://en.nask.pl/"
+
 - title: "/ Honorary Patronages"
   imageMaxWidth: 310px
   imageMaxHeight: 240px
@@ -68,18 +80,6 @@
       #title: Dean of the Faculty of Mathematics, Informatics and Mechanics UW
       image: "images/optimized/honorary-patronages-600x600/MIMUW.webp"
       url: https://www.mimuw.edu.pl/
-
-- title: "/ Partners"
-  imageMaxWidth: 280px
-  imageMaxHeight: 120px
-  margin: 30px 45px
-  sponsors:
-    - name: Hugging Face
-      image: images/optimized/partners-600x600/HuggingFace.webp
-      url: "https://huggingface.co/"
-    # - name: NASK
-    #   image: "images/optimized/sponsors-2023-600x600/NASK.webp"
-    #   url: "https://en.nask.pl/"
  
 - title: "/ Media partners"
   imageMaxWidth: 215px

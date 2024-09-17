@@ -45,9 +45,9 @@ The co-authors of accepted papers will have a guaranteed option to buy the ticke
 
 {% include timeline-inline.html 
     timeline-data=site.data.timeline-cfc
-    timeline-col-width=8 
-    date-col-width=4
-    desc-col-width=8
+    timeline-col-width=12
+    date-col-width=3
+    desc-col-width=9
 %}
 
 **The talks and posters accepted at the Main Conference will be presented on 8 - 9 November 2024. The Student Research Workshop will be held on 7 November 2024.**
