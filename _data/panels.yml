@@ -34,7 +34,7 @@
   time: 
   id: 2
   desc: >-
-   Join us for the AI in Law panel, where we would like to explore the influence of artificial intelligence on the legal sector. During discussion we will delve into the potential role for AI-driven technologies and their promise to increase access to justice as well as challenges for responsible AI adoption.
+   Join us for the "AI in Law" panel, where we would like to explore the influence of artificial intelligence on the legal sector. During discussion we will delve into the potential role for AI-driven technologies and their promise to increase access to justice as well as challenges for responsible AI adoption.
   panelists:
     - name: Gabriela Bar
       image: images/optimized/speakers-600x600/GabrielaBar.webp
@@ -51,13 +51,13 @@
       bio-more: >-
         Dr Byrom has given evidence to a number of parliamentary committees including the Justice Select Committee and the House of Lords Constitution Committee on issues relating to justice system reform, data collection and governance. Her writing on these issues has been published in the legal and national press. She is part of the BBC Expert Women Network, holds several public appointments, and is an Honorary Senior Research Fellow at UCL Faculty of Laws 
 
-- name: Career Paths in Machine Learning
+- name: Career Paths in ML
   date: 
   room: 
   time: 
   id: 3
   desc: >-
-   
+   Join us for the "Career Paths in Machine Learning" panel, where we will explore the critical decisions and turning points in the careers of machine learning professionals. This discussion will delve into the important choice between pursuing a career in industry or academia.
   panelists:
     - name: Bartłomiej Twardowski
       image: images/optimized/speakers-600x600/BartlomiejTwardowski.webp
