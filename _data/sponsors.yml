@@ -28,6 +28,9 @@
     # - name: Google DeepMind
     #   image: "images/optimized/sponsors-600x600/GoogleDeepMind.webp"
     #   url: https://www.deepmind.com/
+    - name: Comarch
+      image: "images/optimized/sponsors-600x600/Comarch.webp"
+      url: "https://www.comarch.com"
     - name: Ideas NCBR
       image: "images/optimized/sponsors-600x600/IdeasNCBR.webp"
       url: "https://ideas-ncbr.pl/en"
