@@ -32,7 +32,7 @@
   date: 
   room: 
   time: 
-  id: 1
+  id: 2
   desc: >-
    Join us for the AI in Law panel, where we would like to explore the influence of artificial intelligence on the legal sector. During discussion we will delve into the potential role for AI-driven technologies and their promise to increase access to justice as well as challenges for responsible AI adoption.
   panelists:
@@ -50,3 +50,33 @@
         Dr Natalie Byrom is a researcher and policy adviser with expertise in justice system reform, AI, data-driven technologies and justice data governance. She has a track record of leading high-quality research and translating this into policy impact. Between 2018 and 2020 Dr Byrom was seconded to the UK Ministry of Justice as expert adviser on data in the context of an ongoing £1bn programme of digital court reform. She has also completed projects for the OECD and the Law Society of England and Wales on justice data and AI.
       bio-more: >-
         Dr Byrom has given evidence to a number of parliamentary committees including the Justice Select Committee and the House of Lords Constitution Committee on issues relating to justice system reform, data collection and governance. Her writing on these issues has been published in the legal and national press. She is part of the BBC Expert Women Network, holds several public appointments, and is an Honorary Senior Research Fellow at UCL Faculty of Laws 
+
+- name: Career Paths in Machine Learning
+  date: 
+  room: 
+  time: 
+  id: 3
+  desc: >-
+   
+  panelists:
+    - name: Bartłomiej Twardowski
+      image: images/optimized/speakers-600x600/BartlomiejTwardowski.webp
+      title: IDEAS NCBR, Computer Vision Center UAB
+      bio-intro: >-
+        Bartłomiej Twardowski is a Research Team Leader at the IDEAS NCBR and a researcher at the Computer Vision Center, Universitat Autònoma de Barcelona. His research interests focus on computer vision and continual learning of neural networks.
+      bio-more: >-
+        He earned his Ph.D. in 2018, focusing on recommender systems and neural networks. Following his doctoral studies, he served as an assistant professor at Warsaw University of Technology in the AI group for 1.5 years before deciding to join the Computer Vision Center, UAB, for a post-doctoral program. He has been actively involved in various research projects related to DL/NLP/ML (ranging from €40k to €1.4M). He is a Ramón y Cajal fellow. He has a wide industry experience (more than 12 years), including international companies, e.g., Zalando, Adform, Huawei, Naspers Group (Allegro), as well as helping startups with research projects (Sotrender, Scattered). Throughout his career, he has had the opportunity to publish papers in prestigious conferences such as CVPR (2020, 2024, 3 papers), NeurIPS (2020, 2023), ICCV (2021, 2023), ICLR (2023, 2024), and ECIR (2021, 2023). Additionally, he has served as a reviewer for multiple AI/ML  conferences, i.e., AAAI, CVPR, ECCV, ICCV, ICML, WACV and NeurIPS.
+        Currently, his research primarily focuses on lifelong machine learning in computer vision, efficient neural network training, transferability and domain adaptation, as well as information retrieval and recommender systems.
+    - name: Anna Dawid
+      image: images/optimized/speakers-600x600/AnnaDawid.webp
+      title: Flatiron Institute
+      bio-intro: >-
+        Ania is a research fellow at the Center of Computational Quantum Physics of the Flatiron Institute in New York, happily playing with interpretable machine learning for science and ultracold platforms for quantum simulations. 
+      bio-more: >-
+        She defended her joint Ph.D. in physics and photonics in 2022 at the University of Warsaw and ICFO — The Institute of Photonic Sciences in Spain. Before that, Ania earned an MSc in quantum chemistry and a BSc in biotechnology at the University of Warsaw. Next to authoring papers on quantum physics, the theory of machine learning, and machine learning applications in science, she is the first author of the book "Machine Learning in Quantum Sciences" by Cambridge University Press (in press). She is also a 2022 FNP START laureate, awardee of two NCN grants, and one of the selected participants in the Lindau Nobel Laureate Meeting in 2024.
+    - name: Tomek Korbak
+      title: UK AI Safety Institute
+      image: images/optimized/speakers-600x600/TomaszKorbak.webp
+      bio: >-
+        Tomek Korbak is a Senior Research Scientist at the UK AI Safety Institute working on safety cases for frontier models. Previously, he was a Member of Technical Staff at Anthropic working on honesty. Before that, he did a PhD at the University of Sussex focusing on RL from human feedback (RLHF) and spent time as a visiting researcher at NYU working with Ethan Perez, Sam Bowman and Kyunghyun Cho. He studied cognitive science, philosophy and physics at the University of Warsaw.
+  
