@@ -51,6 +51,13 @@
     Danielle Belgrave is a VP of AI/ML at GSK. Her experience spans conducting machine learning research and leading teams across academia and industry focused on scientific discovery and personalising interventions in health. She has previously worked at Google DeepMind, Microsoft Research Cambridge, UK and Imperial College London. She has a BSc in business mathematics and statistics from the London School of Economics and a master’s degree in statistics from University College London. Her PhD was at the University of Manchester in Machine Learning for Healthcare.
   google-scholar: https://scholar.google.co.uk/citations?user=bGDCgpUAAAAJ&hl=en
 
+- name: Lucas Beyer
+  title: Google DeepMind
+  image: images/optimized/speakers-600x600/LucasBeyer.webp
+  bio: >-
+    Lucas grew up in Belgium wanting to make video games and their AI. He went on to study mechanical engineering at RWTH Aachen in Germany, then did a PhD in robotic perception and computer vision there too. Now, he is a staff research scientist at Google DeepMind (formerly Brain) in Zürich, leading multimodal vision-language research.
+  google-scholar: https://scholar.google.com/citations?user=p2gwhK4AAAAJ&hl=fr
+
 - name: Roberto Calandra
   title: Technische Universität Dresden
   image: images/optimized/speakers-600x600/RobertoCalandra.webp
