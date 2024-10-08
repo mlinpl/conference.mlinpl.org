@@ -173,6 +173,9 @@
     # - name: SpeakLeash
     #   image: "images/optimized/partners-600x600/SpeakLeash.webp"
     #   url: https://speakleash.org/en/speakleash-a-k-a-spichlerz-english/
+    - name: KN Solvro
+      image: "images/optimized/partners-600x600/Solvro.webp"
+      url: "https://solvro.pwr.edu.pl/"
     - name: Warsaw AI
       image: "images/optimized/partners-600x600/WarsawAI.webp"
       url: "https://warsaw.ai"
