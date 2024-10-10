@@ -1,167 +1,112 @@
-- author-name: Antoni Kowalczuk
-  title: "Towards More Realistic Membership Inference Attacks on Large Diffusion Models"
-  author-title: "Warsaw University of Technology"
+- author-name: Pawel Knap
+  title: "Real-Time Omnidirectional 3D Multi-Person Human Pose Estimation with Occlusion Handling"
+  author-title: "University of Southampton / University of Freiburg"
   abstract: >- 
-    Generative diffusion models, including Stable Diffusion
-    and Midjourney, can generate visually appealing, diverse,
-    and high-resolution images for various applications. These
-    models are trained on billions of internet-sourced images,
-    raising significant concerns about the potential unauthorized
-    use of copyright-protected images. In this paper, we examine
-    whether it is possible to determine if a specific image was
-    used in the training set, a problem known in the cybersecurity community and referred to as a membership inference
-    attack. Our focus is on Stable Diffusion, and we address
-    the challenge of designing a fair evaluation framework to
-    answer this membership question. We propose a new dataset
-    to establish a fair evaluation setup and apply it to Stable
-    Diffusion, also applicable to other generative models. With
-    the proposed dataset, we execute membership attacks (both
-    known and newly introduced). Our research reveals that
-    previously proposed evaluation setups do not provide a full
-    understanding of the effectiveness of membership inference
-    attacks. We conclude that the membership inference attack
-    remains a significant challenge for large diffusion models
-    (often deployed as black-box systems), indicating that related
-    privacy and copyright issues will persist in the foreseeable
-    future.
+    Current human pose estimation systems primarily focus on obtaining an accurate 3D global estimate of a single person. Our work introduces one of the first real-time 3D multi-person human pose estimation systems capable of handling basic forms of occlusion. First, we adapt an off-the-shelf 2D detector and an unsupervised 2D-3D lifting model for use with 360° panoramic camera and mmWave radar sensors. We then make several key contributions, including camera and radar calibrations and improved matching of individuals between image and radar spaces.  Our system addresses the depth and scale ambiguity problems by utilizing a lightweight 2D-3D pose lifting algorithm that operates in real-time with high accuracy in both indoor and outdoor environments, providing an affordable and scalable solution. Notably, the system maintains nearly constant time complexity regardless of the number of detected individuals, achieving a frame rate of approximately 7-8 fps on a laptop with a commercial-grade GPU.  My presentation and poster will feature material from our initial paper, which proposed the system and was presented at the ACM SIGGRAPH European Conference on Visual Media Production in December 2023. I will also cover our second paper, which details system improvements and was presented in January 2024 at the International Conference on Electronics, Information, and Communication. Additionally, I will reference my latest article, "Human Modelling and Pose Estimation Overview," available on arXiv. All these resources can be found on my webpage: pawelknap.github.io.
   author-bio: >- 
-    Antoni Kowalczuk is an undergraduate student currently pursuing a Bachelor of Engineering Degree at Warsaw University of Technology in the field of Computer Science. He is involved in building the Artificial Intelligence Society "Golem" at the University, successfully developing the brand and recognisability of "Golem" in the field. He is co-organizing the ML in PL 2023 Conference. Antoni was also involved in the previous two editions of the event. His current field of research revolves around adversarial examples and robustness in the context of the SSL vision encoders in cooperation with CISPA.
-  co-authors: Jan Dubiński
-  date: Thursday / 26 October
+    Pawel Knap is a PhD student at the University of Freiburg, Germany. He holds both an MEng and a BEng in Electronic Engineering with Artificial Intelligence from the University of Southampton. Pawel is the first author of several papers on human pose estimation. His current academic focus is on computer vision, with a particular emphasis on medical/neuroscience image data analysis. Additionally, he has published work on reinforcement learning and has contributed to real-time object detection and satellite image segmentation projects in the private sector.
+  date: 07.11.2024
   time: 8:10 - 8:30
   room: Main Lecture Hall
-  session: 
+  session: Student Research Workshop
   id: 1
-  author-image: images/optimized/cfc-2023-600x600/antoni_kowalczuk.webp
-  slides: docs/srw_talk_1.pdf
+  author-image: images/optimized/cfc-600x600/pawel_knap.webp
 
-- author-name: Szymon Haponiuk
-  title: "Solver-free neural ordinary differential equations for forecasting long horizon time series"
-  author-title: "NVIDIA / Universisty of Warsaw"
+- author-name: Paulina Kaczyńska
+  title: "Accumulated Local Effects and Graph Neural Networks"
+  author-title: "University of Warsaw, MIM Faculty; IPPT PAN"
   abstract: >- 
-    Neural ordinary differential equations (NeuralODEs) represent a highly adaptable model class suitable for forecasting applications. Nonetheless, their training efficiency is often hampered by the sequential computation of a numerical solver, resulting in significantly longer training times compared to discrete forecasting methods like RNNs. To address this limitation, we propose employing multiple linear ordinary differential equations (ODEs) within the latent space instead of arbitrary ODEs. Linear ODEs can be analytically solved in constant time through matrix exponentiation and it is possible to backpropagate through this operation, enabling the model to converge approximately an order of magnitude faster than NeuralODEs. Moreover, linear ODEs exhibit competitive predictive performance when compared to state of the art forecasting methods and offer, just like NeuralODEs, the advantage of being continuously evaluable at any timestamp.
+    I explore how Accumulated Local Effects (ALE), a model-agnostic explanation method, can be tailored to visualize the impact of node features in link prediction tasks in Graph Neural Networks (GNN). A key challenge addressed in this work is the fact that complex interactions of nodes during message passing within GNN layers complicate the direct application of ALE. Since a straightforward solution of modyfying only one node at once would substantially increase computation time, I propose an approximate method that mitigates this challenge.  The findings reveal that although the approximate method offers computational efficiency, the exact method yields more stable explanations, particularly when smaller data subsets are used. However, when a large number of data points are employed to estimate the ALE profile, the differences between the two methods diminish. Additionally, I discuss how different parameters influence the accuracy of ALE estimation for both methods.
   author-bio: >- 
-    A student, researcher, working on optimising deep learning workflows at NVIDIA and doing time series research at University of Warsaw. Interested in music/audio deep learning, GNNs, time series and generative AI.
-  co-authors: Jacek Cyranka
-  date: Thursday / 26 October
+    Paulina Kaczyńska obtained a Bachelor's degree in Physics and a Bachelor's degree in Cognitive Science from the college of Inter-Faculty Individual Studies in Mathematics and Natural Sciences (MISMaP) at University of Warsaw. She then completed a Master's degree in Machine Learning at the University of Warsaw, focusing on visualizing node features with Accumulated Local Effects in Graph Neural Networks for her thesis. Paulina is now starting her PhD at the Institute of Fundamental Technological Research of the Polish Academy of Sciences (IPPT PAN) under the supervision of prof. Tomasz Lipniacki. The topic of her PhD concerns modelling regulatory networks with single-cell resolution using machine learning methods. Her research interests centre around modelling social and natural phenomena with Machine Learning tools. She participated in MAIR project at MI2 DataLab focused on describing qualitative and quantitative impact of Big Techs on Artificial Intelligence research. In collaboration with Computational Psychiatry and Phenomenology group at IDEAS NCBR she analysed the cognitive biases of therapeutic chatbots.
+  date: 07.11.2024
   time: 8:30 - 8:50
   room: Main Lecture Hall
-  session: 
+  session: Student Research Workshop
   id: 2
-  author-image: images/empty.png
-  slides: docs/srw_talk_2.pdf
+  author-image: images/optimized/cfc-600x600/paulina_kaczynska.webp
 
-- author-name: Jakub Krajewski
-  title: "Fine-grained Mixture-of-Experts"
-  author-title: "University of Warsaw"
+- author-name: Michal Wilinski
+  title: "Interrogating Time Series Foundation Models"
+  author-title: "Carnegie Mellon University/Poznan University of Technology"
   abstract: >- 
-    Transformer-based Large Language Models have achieved remarkable success in recent years, in many cases reaching, or even surpassing, human performance in Natural Language Understanding tasks. These models are typically backed up by a generous computational budget, size of dataset and parameter count. However, in many cases this scaling cannot be continued due to hardware limitations. This leads researchers and engineers to look for more efficient techniques. Among them, Mixture-of-Experts (MoE) seems to give the most promising results, allowing to scale Language Models to up to a trillion parameters, and reaching state-of-the-art performance on many tasks. This is accompanied by a much lower need for computational power in comparison to classical Transformer models. Existing work only considers scaling up these models by adding more experts with the same size. This is limited due to the memory requirements and diminishing returns for higher model sizes. In our work we will consider increasing the number of experts, but keeping the amount of computation and parameter count constant. We will explain how to use this technique to train a Language Model to the same performance using 2 times fewer steps (compared with baseline MoE). We will also present other benefits that come from using our method.
+    Time series foundation models have shown significant adaptability across various tasks and domains, providing powerful tools for analyzing and predicting temporal data. These models offer easy-to-use and powerful tools for analyzing and predicting temporal data across diverse applications, from finance to healthcare. However, large scale, in terms of both parameters and training data, poses challenges in evaluating their limitations and determining appropriate use cases. The rapid evolution of this field raises questions about the optimal architecture and training data composition, as well as the mechanisms employed for time series processing. Furthermore, to responsibly deploy these models in real-world scenarios, it is crucial to understand their limitations and potential failure points, enabling stakeholders to make informed decisions.   To address these knowledge gaps, we introduce Time Series Interrogator, a novel framework for analyzing time series foundation models, leveraging representation analysis and mechanistic interpretability techniques. Our study applies it to multiple publicly available models, offering a comparative analysis of their learned representations and underlying processes. This approach not only provides insights into the workings of time series foundation models, but also paves the way for more informed model development and application. By elucidating these complex systems, our work contributes to the responsible advancement of time series analysis, enabling researchers and practitioners to harness the full potential of foundation models while understanding their inherent strengths and limitations.
   author-bio: >- 
-    Jakub Krajewski is a master's student in Machine Learning at the University of Warsaw, finishing in September, 2023. After pursuing the degree, he is planning to continue my education during PhD studies in a joint program with IDEAS NCBR. He is broadly interested in Large Language Models. In particular, Jakub would like to contribute to a better understanding of this architecture and develop more efficient training methods.
-  co-authors: Marek Cygan, Jan Ludziejewski, Maciej Pióro, Szymon Antoniak, Tomasz Odrzygóźdź, Sebastian Jaszczur, Michał Krutul
-  date: Thursday / 26 October
+    Michał is a final year undergraduate student specializing in Artificial Intelligence at Poznan University of Technology. As a former Vice President of the GHOST student organization, he was involved in building a students' community around Machine Learning. Currently, Michał collaborates closely with the Institute of Robotics and Machine Intelligence at PUT and the Auton Lab at Carnegie Mellon University, where he works on a range of applied machine learning projects spanning robotics, deep learning and foundation models.
+  date: 07.11.2024
   time: 8:50 - 9:10
   room: Main Lecture Hall
-  session: 
+  session: Student Research Workshop
   id: 3
-  author-image: images/optimized/cfc-2023-600x600/jakub_krajewski.webp
-  slides: docs/srw_talk_3.pdf
+  author-image: images/optimized/cfc-600x600/michal_wilinski.webp
 
-- author-name: Krzysztof Jankowski
-  title: "GARAGE: Generative-Augmented Retrieval Assisting Generation Enhancement"
-  author-title: "University of Warsaw"
+- author-name: Tomasz Wojnar
+  title: "Harnessing YouTube for evaluating general-purpose speech recognition machine learning models"
+  author-title: "Jagiellonian University"
   abstract: >- 
-    With the recent rise in popularity of generative models (e.g. ChatGPT, GPT4) the issues with the accuracy of the provided information became a great threat. The models might generate a correct answer, but in many cases, they output with high confidence a totally wrong and extremely plausible answer. In many sectors, this hallucinating behavior can have critical consequences e.g. medicine, law, or engineering, and therefore the usage of generative models is very risky especially when people don't know the limitations of such tools. In this paper, we tackle a very important task of augmenting generative models like BART or ChatGPT to improve their capabilities of generating factual responses. Moreover, we incorporate a mechanism of providing passages containing information from a local knowledge database alongside the generated response. Thanks to such improvements the users get the possibility to quickly assess the correctness of a response and by relying on an external nonparametric knowledge-base memory it is easy to update the model's knowledge to provide correct answers. Our model consists of a powerful ensemble of classical and neural retrievers and generative prompt enhancement to achieve a superior performance of information retrieval. Our experiments employ the CovidQA dataset, which comprises questions and passages from scientific articles, to assess the performance of GARAGE. The results demonstrate that our approach outperforms the baseline models in terms of retrieval accuracy and answer quality, while also reducing hallucinations typically encountered in large language models. The total cost of training the model and performing experiments was 10$ making it very affordable and compute resource efficient. GARAGE signifies a promising advancement in open-domain question answering systems and paves the way for future research in combining traditional retrieval methods with neural approaches.
+    Speech recognition has become a critical component in numerous applications, ranging from virtual assistants and transcription services to voice-controlled devices and accessibility tools. The increasing reliance on speech recognition machine learning models requires robust and comprehensive evaluation methodologies to ensure their performance, reliability, and adaptability across diverse scenarios. In our research, we propose YouTube as a data source to evaluate speech recognition models by utilizing the audio from the videos and the subtitles added to them. YouTube offers a rich and continuously updated collection of spoken language data, encompassing various languages, accents, dialects, speaking styles, and audio quality levels. This makes it an ideal source of data which can be used to evaluate the adaptability and performance of speech recognition models in real-world situations.   For the purposes of research we created a tool named Mi-Go to help collect data, evaluate models and store results. The experiment that we conducted on open-source models (Whisper, Wav2Vec2 and others) highlights the utility of YouTube as a valuable data source for evaluation of speech recognition models, ensuring their robustness, accuracy, and adaptability to diverse languages and acoustic conditions. Additionally, by contrasting the machine-generated transcriptions against human-made subtitles, the experiments can help pinpoint potential misuse of YouTube subtitles, like search engine optimization.
   author-bio: >- 
-    Krzysztof Jankowski is a final year Machine Learning MSc student at University of Warsaw, SDE intern at Amazon and a member of TensorCell research group. He graduated from University of Warsaw with Bachelor's degree in Computer Science and a thesis "Large Scale Optimization Algorithms in Vehicle Routing Problem" which was recognized as the best engineering thesis by IEEE Engineer 4 Science. From that moment, he embarked on a fascinating Machine Learning journey. Krzysztof is particularly passionate about Natural Language Processing and Reinforcement Learning and has started contributing to these fields. He loves connecting academic research with business challenges and applying Machine Learning solutions to such problems. He also worked in 2 startups and learned a lot about entrepreneurship by winning a startup accelerator program organized by UW Incubator. In his free time, he loves attending ML events and meeting amazing people.
-  co-authors: Michał Janik, Michał Grotkowski, Antoni Hanke, Grzegorz Preibisch
-  date: Thursday / 26 October
+    Tomasz Wojnar is a final year Machine Learning M.Sc. student at the Jagiellonian University. His journey into the research began during a High-School Students Internship Programme at CERN in Geneva. He gained his experience at Nokia in the Machine Learning Quantization team, developing tools for 6G. Currently, he is actively involved in projects with the Group of Machine Learning Research (GMUM) at the Jagiellonian University. With a strong interest in various aspects of Deep Learning, he is now focused on generative models and computer vision. Looking ahead, he aspires to advance in the field of automated science discovery.
+  date: 07.11.2024
   time: 9:10 - 9:30
   room: Main Lecture Hall
-  session:
+  session: Student Research Workshop
   id: 4
-  author-image: images/optimized/cfc-2023-600x600/krzysztof_jankowski.webp
-  slides: docs/srw_talk_4.pdf
+  author-image: images/optimized/cfc-600x600/tomasz_wojnar.webp
 
-- author-name: Sebastian Chwilczyński
-  title: "Random Similarity Isolation Forest - Outlier Detection for Multimodal Data"
-  author-title: "Poznan University of Technology"
+- author-name: Nina Zukowska
+  title: "Cherish Every MOMENT"
+  author-title: "FU Berlin / CMU"
   abstract: >- 
-    To enhance the accuracy of predictive models, it is reasonable to gather as much data about the object of interest as possible. As a result, increasingly often, the collected data consists not only of simple numerical data but also more complex objects such as time series, images, sets, or graphs. Such multimodal representations provide many different points of view on the data and may improve performance. However, optimal use of these modalities is a challenging task, especially in outlier detection, where algorithms are dedicated to individual types of data. Consequently, working with mixed types of data requires either fusing multiple data-specific models or transforming all of the representations into a single format, both of which can hinder predictive performance.
-    
-    In this talk, we present a multi-modal outlier detection algorithm called Random Similarity Isolation Forest (RSIF), which, to our knowledge, is the first outlier detection method capable of handling mixed-type data inherently without converting it to a different representation. This method couples the efficiency and performance of the Isolation Forest with the similarity-based projections of a Random Similarity Forest. More precisely, having provided a distance measure for each feature, RSIF uses similarity-based projections to create a multimodal feature space for detecting outliers. In this space, the algorithm creates an ensemble of trees to find the most isolated data points.
-    
-    In addition to a comprehensive experimental evaluation on 37 datasets consisting of numerical, categorical, graph, time series, image, text, and multi-omics data, we also conducted a sensitivity analysis to study the properties of the proposed algorithm. The sensitivity analysis results demonstrate that RSIF can be considered a generalization of Isolation Forests. More precisely, RSIF is capable of behaving exactly like Isolation Forests when it uses Euclidean distance on single features for projections but also offers more flexibility by being capable of using multiple complex distance measures for projections. Moreover, we propose a parameter that minimizes the number of distance calculations required by RSIF and show that it does not negatively impact predictive performance. To conclude the sensitivity analysis, for each data modality, we tested a variety of similarity functions. We show that selecting appropriate projections is crucial, especially in the context of an unsupervised algorithm such as RSIF. Finally, the experimental evaluation with the use of the AUC metric, showed that RSIF is equally good or significantly better than five competitor models: LOF, HBOS, ECOD, Similarity Forest, and Isolation Forest. Regardless of the data modality,  RSIF was always competitive. Our ongoing work focuses on translating these results into a practical application in the field of predictive maintenance.
-    
-    In our work, we tried to elaborate on similarity-based projection methods and their usage in multimodal outlier detection as thoroughly as possible. As a result, a new competitive algorithm - Random Isolation Similarity Forest - was introduced. Still, many exciting directions for future work, such as the potential for interpretability, the search for better similarity measures, the optimal way of selecting projection pairs, and the search for new multimodal outlier detection datasets, remain open. This is why, besides sharing our insights, we fully open-source our code and unique set of datasets.
+    Time Series Foundation Models represent a new paradigm for modeling time series data across a variety of tasks and domains with minimal supervision. To simplify pre-training, many foundation models are designed to accept univariate time series of a fixed length as input. However, real-world time series can be both long and multivariate, which limits the widespread adoption of these models. In this paper, we focus on developing effective techniques to expand the context length of time series models, enabling them to handle both long and multivariate time series. We evaluate how extending the context window impacts downstream task performance in both classification and long-horizon forecasting. Additionally, we explore methods to createa multivariate Time Series Foundation Model.
   author-bio: >- 
-    Sebastian Chwilczyński is a 7th semester student of Artificial Intelligence at Poznan University of Technology, president of GHOST science club and music enthusiast. He gained his experience, among others, at Intel in the Audio Research team and PSNC working on Computer Vision problems. Currently he works with segmentation models at deepsense.ai.
-    
-    He loves to share his knowledge, this is why he led many groups at GHOST science club, both in practical and research setting. 
-    
-    His favourite part of learning a new method is to understand all the maths behind it.
-  co-authors: 
-  date: Thursday / 26 October
-  time: 9:30 - 9:50
-  room: Main Lecture Hall
-  session: 
-  id: 5
-  author-image: images/optimized/cfc-2023-600x600/sebastian_chwilczyński.webp
-  slides: docs/srw_talk_5.pdf
-
-- author-name: Maksymilian Kulicki
-  title: "Self-guided semantic segmentation"
-  author-title: "University of Amsterdam"
-  abstract: >- 
-    While humans can recognize a virtually limitless variety of objects in context, automated segmentation systems typically rely on a fixed set of objects they have been trained to identify. Open-vocabulary segmentation methods, meant to address this issue, instead rely on a list of objects given by the user alongside the image. A truly open segmentation method should be able to name and localize different parts of the scene based on the image itself, without the need for user-provided labels or a predefined set of classes. To achieve this, we propose Self-guided Semantic Segmentation (SegSeg), a new framework for semantic segmentation, which combines open-vocabulary segmentation with a method of generating labels from the image itself. Utilizing ClusterBLIP, our newly introduced method based on the Vision-Language model BLIP, we successfully generate localized captions that comprehensively describe different parts of an image. These captions then serve as a source of labels for X-Decoder, an open-vocabulary segmentation model. To evaluate the performance in this new self-guided setting, we propose modifications to the mean Intersection over Union (mIoU) that compares predicted and ground truth labels using text embedding similarities. Our results demonstrate that our method outperforms baselines that use image captioning in a more conventional manner, thereby making a significant contribution to the field of image segmentation and paving the way for future research in open-world vision systems.
-  author-bio: >- 
-    Maksymilian Kulicki obtained a Bachelor's degree in Artificial Intelligence at Radboud University and a Master's degree in Artificial Intelligence at University of Amsterdam. His master thesis was about self-guided semantic segmentation, a novel computer vision task in which the model has to generate object names and localize them in an image. During his studies, he also participated in a reproduction study about strategic classification, which was published in the ReScience journal. I had an opportunity to present it as a poster at NeruIPS 2023.
-    
-    He will now start his PhD at Ideas NCBR in collaboration with the Polish Academy of Science, with a focus on applying AI in precision forestry. His main research subjects are computer vision and multimodal learning. He is interested in combining various forms of data into unified embedding spaces, and in practical applications of AI. 
-    
-    In his free time, since 2018, he has been exploring AI art. Maksymilian has an Instagram with over 300 unique AI artworks, and he has exhibited some of them in the Vrijpaleis gallery in Amsterdam. In 2022, he gave a talk about AI art at the Starfest festival in Lublin.
-  co-authors: Osman Ülger
-  date: Thursday / 26 October
+    I’m Nina Żukowska, a passionate data scientist with a solid foundation in AI and machine learning. I am doing a Master’s degree at Freie Universität Berlin and I did my Bachelor’s at Poznań University of Technology. My research focuses on time series models and generative AI, and I’m always eager to learn and apply new techniques.
+  date: 07.11.2024
   time: 9:50 - 10:10
   room: Main Lecture Hall
-  session: 
-  id: 6
-  author-image: images/optimized/cfc-2023-600x600/maksymilian_kulicki.webp
-  slides: docs/srw_talk_6.pdf
+  session: Student Research Workshop
+  id: 5
+  author-image: images/optimized/cfc-600x600/nina_zukowska.webp
 
-- author-name: Pawel Knap
-  title: "Energy Storage in the Smart Grid: a Multi-Agent Deep Reinforcement Learning Approach"
-  author-title: "University of Southampton"
+- author-name: Mateusz Smendowski
+  title: "Towards Sustainable Cloud Environments by Leveraging Time Series Forecasting for Enhanced Resource Utilization"
+  author-title: "AGH University of Krakow"
   abstract: >- 
-    This work presents a novel energy storage system controlled by a Reinforcement Learning agent for households in the context of smart grid technology. The proposed system aims to optimize electricity trading in variable tariff environment. The system has been shown through simulations and evaluations to generate significant consumer savings in electricity bills, up to 29.53%, without requiring changes in consumption habits. It also offers substantial earnings when combined with solar panels. My work further investigates a Multi-Agent System simulation to analyze interactions and identify beneficial price-demand relationships. The findings highlight the positive impact of storage on the energy market and demonstrate the advantages for both consumers and network operators. Deep Q Learning is identified as the most effective algorithm, and the study examines the effects of different storage sizes and agent complexity levels. The results provide valuable insights into the potential of the proposed solution and its benefits for the wider community.
+    The increasing importance of cloud computing underscores its undeniable flexibility, which renders it indispensable in modern organizations. However, the operational model inherent in cloud environments carries significant risks that can impact both cost-effectiveness and energy utilization. While the pay-as-you-go pricing scheme provides a convenient interface for accessing cloud resources, expenses can escalate uncontrollably. Ensuring top-notch QoS (Quality of Service) and steering clear of SLA (Service Level Agreement) violations often involves provisioning more resources than necessary, leaving a considerable margin of unused cloud capacity. While overprovisioning leads to resource wastage and higher costs, underprovisioning risks service downtime. As cloud computing continues to grow in scale and complexity, optimizing resource utilization is crucial for achieving environmental sustainability. Moreover, improving resource management aligns with the principles of GCC (Green Cloud Computing) and sustainable computing.  Therefore, machine learning-based resource usage prediction emerges as a significant optimization category. However, workload patterns in cloud environments are influenced by various factors, resulting in time series data that represent historical resource usage characterized by complex, multi-seasonal dependencies and considerable variability. Consequently, introducing a cloud resource usage optimization system tackles the issue of inefficient resource utilization by applying long-term time-series forecasting within the cloud computing domain to generate dynamic resource reservation plans based on predicted demand.  Due to the multi-faceted nature of system architecture, the thematic scope covers various aspects, such as the role of exploratory data analysis combined with unsupervised anomaly detection, the critical importance of leveraging cloud FinOps (Financial Operations) principles, the evaluation of different machine learning models for time-series forecasting (including recurrent neural networks and transformers), and the qualitative and quantitative assessment of resource reservation plans. A key focus will be showcasing the role of custom domain-specific evaluation measures and demonstrating their relationship with standard machine learning evaluation metrics, highlighting that the model best suited for forecasting may not always be the one that enables the most efficient dynamic resource reservation planning. Additionally, given the potential negative impacts and risks associated with applying machine learning, aspects related to monitoring and enhancing the interpretability of system detections are of key importance.  As cloud environments involve different types of virtual machines, the application of forecasting is considered in the context of both HPC (High-Performance Computing) machines and general-purpose ones, highlighting the differences in approaches between them. In environments dominated by general-purpose or diverse-purpose machines, not just those for long-running scientific workflows, the key to resource usage optimization may lie in focusing on optimizing the time-series forecasting process itself, enabling scalable optimization along with the dynamic evolution of environments. Ultimately, ML-based optimization represents a tradeoff between minimizing costs, maximizing resource utilization, and maintaining high service availability.
   author-bio: >- 
-    Pawel Knap is an enthusiastic 4th year Electronics with AI student at the University of Southampton, expected to graduate in 2024. With a steadfast passion for Machine Learning, particularly in Computer Vision and Reinforcement Learning.
-    
-    His education has been characterized by a remarkable academic record, consistently achieving first-class average, and laureate/finalist titles in three National Olympiads of EEE knowledge in middle school, cementing my dedication to technical excellence from an early age. Additionally, I've contributed extensively to research with two publications submitted to international academic conferences:"Energy Storage in the Smart Grid: A Multi-Agent Deep Reinforcement Learning Approach", and "Real-time Omnidirectional 3D Multi-Person Human Pose Estimation with Occlusion Handling".
-    
-    In addition to my academic pursuits, he has gained valuable industry experience, including roles as a Computer Vision Engineer at the University of Southampton, where he developed a real-time 3D multi-person human pose estimation system with occlusion-handling capabilities, and as a Computer Vision Intern at OculAI, contributing to the development and fine-tuning of yolov5-based applications. Furthermore, his tenure as a Data Science Intern at Clas-SiC Wafer Fab involved designing and implementing a high-performance supervised algorithm for detecting faulty components.
-  co-authors: 
-  date: Thursday / 26 October
+    Mateusz Smendowski, MSc in Computer Science, is a PhD student at AGH University of Krakow. His main interests include the application of machine learning within the domain of cloud resource usage optimization and sustainable computing, with a particular focus on long-term time series forecasting and unsupervised anomaly detection.
+  date: 07.11.2024
   time: 10:10 - 10:30
   room: Main Lecture Hall
-  session: 
-  id: 7
-  author-image: images/empty.png
-  slides: docs/srw_talk_7.pdf
+  session: Student Research Workshop
+  id: 6
+  author-image: images/optimized/cfc-600x600/mateusz_smendowski.webp
 
-- author-name: Anjitha John William Mini Latha
-  title: "Deep learning based distance estimation of galaxies"
-  author-title: "Center For Theoretical Physics, Polish Academy Of Science"
+- author-name: Wojciech Zarzecki
+  title: "BATTLE-AMP - Benchmarking Assessment Tests for The Leading Efficacy of Antimicrobial Peptides"
+  author-title: "Computational Medicine Group, MIMUW"
   abstract: >- 
-    One of the biggest challenges in astronomy is to measure distances to celestial objects. This is especially the case for far-away galaxies, which are millions and billions of light years from us. The traditional observational technique to measure galaxy distances is by obtaining their electromagnetic spectra - detailed decomposition of the light arriving to us - and computing the so-called redshift, related to the expansion of the Universe. However, exact redshifts can only be obtained for a small percentage of all observed galaxies. In the era of billions of galaxy samples, other techniques of distance estimation are being developed, and among them are those using machine learning to estimate the redshift from galaxy images at different “colors” - different electromagnetic wavelengths or frequencies. For many years now methods such as artificial neural networks have been used for that purpose, and they have relied on post-processed, summary information about galaxies, in the form of galaxy fluxes measured for the different colors. However, more precise information about galaxy distances can be extracted directly from their full images, which encode many features lost in the post-processing (“data reduction”). This is where deep learning techniques excel and in my talk, I will show how we employ convolutional neural networks to estimate redshifts from state-of-the-art observational data.
+    Antimicrobial peptides (AMPs) have emerged as a promising alternative to combat the growing threat of antibiotic-resistant bacteria. However, they have not been widely adopted in clinic due to their high toxicity and low activity. Therefore, discriminative methods are crucial to select AMP candidates with desired properties. The comparison of predictive models in AMP discovery is challenging and lacks consistency due to the absence of  standardized benchmarks. New methods are evaluated on custom datasets that are often not related to key AMP properties such as activity and are typically released in a manner that is difficult to reproduce. In this work we reviewed over 50 methods for AMP prediction and observed that code reproducibility was a significant challenge, with only 10 methods meeting our criteria for reproducibility. To address this fundamental problem, we propose an extendable framework for the systematic comparison of AMP prediction methods. We evaluated the robustness of these methods in key biological contexts, such as activity against specific species or adversarial syntactic variations. Our framework ensures higher reproducibility and plug-and-play assessment of new models, aiming to redefine AMP classification in a way that aligns more closely with the biological context.
   author-bio: >- 
-    Anjitha is a PhD student at Center for Theoretical Physics, Warsaw, Poland. She did her master’s in Physics at University of Kerala, India. Her research work includes analysing cosmological observational data by using machine learning techniques and clustering of galaxies. She has developed a deep learning model to estimate photometric redshifts of galaxies.
-  co-authors: Maciej Bilicki, Priyanka Jalan
-  date: Thursday / 26 October
+    Wojciech Zarzecki is a Computer Science student at the Warsaw University of Technology. He is also a member of the Computational Medicine Group at MIMUW led by Prof. Ewa Szczurek. His main interests are the application of deep learning in antimicrobial peptide discovery and computer vision.
+  date: 07.11.2024
   time: 10:30 - 10:50
   room: Main Lecture Hall
-  session: 
+  session: Student Research Workshop
+  id: 7
+  author-image: images/optimized/cfc-600x600/wojciech_zarzecki.webp
+
+- author-name: Sai Preetham, Sata
+  title: "Statistical criteria for the prediction of dynamical clustering in granular gases"
+  author-title: "PhD Student, Otto-von-Guericke-University Magdeburg"
+  abstract: >- 
+    Granular matter, which consists of ensembles of interacting macroscopic particles, plays a prominent role in many natural and industrial processes, such as cosmic body formation, processing of coal and ore in mining, etc. It is ubiquitous in our environment (e.g. sand, gravel) and takes great part in our daily life applications (salt, sugar, coffee beans, etc). While exhibiting their own unique properties, most granular materials can be roughly attributed to liquid state (as in case of hourglass), gaseous state (dust cloud) and solid state (e.g. clogged aggregation of particles). Granular gases are relatively sparse ensembles of free-moving macroscopic particles which interact mainly via inelastic collisions. One fascinating property of granular gas is the dynamical clustering, i.e. spontaneous local increase of particle density which leads to decrease of particle mobility. In order to understand dynamical clustering, experiments are performed in microgravity conditions [1-5] and matching numerical models are developed.  Due to several disadvantages of direct numerical simulations such as higher computation time, machine learning based approaches provide a promising alternative to predict dynamical clustering. With the help of machine learning, a function that maps the input parameters of the system (number of particles, container size, etc.) to a variable that states whether the system is in the gaseous or cluster state can be built. With the help of this function, the state of the system for a given set of system parameters can be predicted without the need of extensive numerical simulations. In order to quantify the property of dynamical clustering in granular gases, several statistical criteria have been developed over recent years. Three such criteria include the Kolmogorov-Smirnov Test (KS-Test) [2], the so-called caging-effect that is based on the critical local packing fraction [2] and analysis of local density distributions [4]. We performed multiple numerical simulations based on the VIP-GRAN experiment [2] and the clustering criteria were evaluated for various combinations of system parameters. These criteria were compared in order to investigate their advantages and drawbacks.  A dataset that contains system parameters and clustering criteria variables have been prepared, and several machine learning models were trained and validated using this dataset with the help of standard regression performance metrics. Based on the performance on these metrics, best models were identified for each of clustering criteria. This study is supported by DLR projects VICKI and EVA2 (50WM2252 and 50WM2048).   References   [1] É. Falcon et al., Phys. Rev. Lett., 83:440–443, (1999).  [2] E. Opsomer et al., Europhys. Lett., 99:40001 (2012).  [3] S. Aumaître et al., Rev. Sci. Instr., 89:7:075103, (2018).  [4] M. Noirhomme et al., Phys. Rev. Lett., 126:128002 (2021). [5] D. Puzyrev et al. Sci. Rep. 11 10621 (2021)
+  author-bio: >- 
+    My name is Sai Preetham Sata. I am currently working as a research associate and pursuing my PhD studies at Otto-von-Guericke University, Magdeburg in the field of machine learning and granular physics. Previously I have worked as data scientist and software developer in several startups and research institutes and acquired immense knowledge and passion towards machine learning, computer vision, data science, deep learning, robotics and reinforcement learning. After completing my Master studies in Mechatronics from Technical University of Harburg-Hamburg with intelligent systems and robotics specialisation, I have developed expertise in computer vision, robotics, machine learning and deep learning by working on several projects in various applications. This keen interest and facination about machine learning and its applications in various domains have motivated to pursue PhD in this field.
+  date: 07.11.2024
+  time: 10:50 - 11:10
+  room: Main Lecture Hall
+  session: Student Research Workshop
   id: 8
-  author-image: images/optimized/cfc-2023-600x600/anjitha_john_william_mini_latha.webp
-  slides: docs/srw_talk_8.pdf
+  author-image: images/optimized/cfc-600x600/sai_preetham_sata.webp
 

@@ -1,499 +1,336 @@
-- author-name: Franziska Boenisch
-  title: "Can individuals trust privacy mechanisms for machine learning? A case study of federated learning"
-  author-title: "CISPA"
+- author-name: Klaudia Balcer
+  title: "Exceeding historical exposure in session-based recommender systems"
+  author-title: "Computational Intelligence Research Group, University of Wrocław"
   abstract: >- 
-    What is the trusted computing base for privacy? This talk will answer this question from the perspective of individual users. I will first focus on a case study of federated learning (FL). My work shows that vanilla FL currently does not provide meaningful privacy for individual users who cannot trust the central server orchestrating the FL protocol. This is because gradients of the shared model directly leak individual training data points.The resulting leakage can be amplified by a malicious attacker through small, targeted manipulations of the model weights. My work thus shows that the protection that vanilla FL claims to offer is but a thin facade: data may never "leave'' personal devices explicitly but it certainly does so implicitly through gradients. Then, I will show that the leakage is still exploitable for what is considered the most private instantiation of FL: a protocol that combines secure aggregation with differential privacy. This highlights that individuals unable to trust the central server should instead rely on verifiable mechanisms to obtain privacy. I will conclude my talk with an outlook on how such verifiable mechanisms can be designed in the future, as well as how my work generally advances the ability to audit privacy mechanisms. This work lays the foundation for approaches to model governance.
+    Recommender systems (RS) are invisible artificial intelligence tools accompanying us in our daily lives online: on streaming platforms, social media, banner ads, or online shops, providing us with personalised content, offers, training programs etc. There are different scenarios of recommendations. Sometimes we track the user activity through the years, gathering explicit opinions about the items. In session-based RS (SBRS), we track only short, anonymous sessions of user actions (like clicks) without direct feedback. Methods applied for modelling RS highly rely on the nature of the data.   In SBRS, surprisingly good accuracy can be achieved by using the bigram model, which recommends the most common successors of the last item in the session prefix. It suggests how strongly are the users biased with exposure (with what the previously used RS showed them). Training on biased data, it is hard to obtain non-biased results. Also, if we change the exposure (present new recommendations to the user), their preferences may also change (as they will be conditioned on different exposure), which breaks the silent assumption in Machine Learning about the identical distribution of the data. To handle the issues caused by exposure, we propose to incorporate the uncertainty of the collected data in the training process.   In our recent work, we proposed to treat sessions as realizations of a stochastic process and train the model with random realizations of the underlying process in each epoch. As recent research suggests the supremacy of spherical embeddings, we decided to use the von Mises-Fisher distribution (Gaussian conditioned on a sphere). It allowed us to directly include the uncertainty of the user behaviour and to model the dense user interest (directed to items similar to what the user was looking for, not to a specific one). Additionally, we used disrupted targets (session suffixes of length 1) during the training. Instead of optimizing the model to focus on a unique target, we used the true target and a number of fake targets (sampled with consideration of the similarity to the true one) in the loss function. It allowed us to simulate the change in the exposure. We also provided a broad evaluation of the proposed approach, including datasets with various levels of popularity bias. We have also used several metrics scoring recommendation relevance (recall, distance in embeddings space to the taregt), recommendation quality (average recommendation popularity, coverage) and embedding quality (radial basis function). We have also perfomed evaluation in groups defined by item popularity.   The results showed that our approach improves the overall recommendation quality. The exact consequences of using stochastic augmentations in SBRS depend on the strength of popularity bias in data. For less biased data, we obtained an improved recommendation hit-rate. For more biased data, we obtained improvements in coverage and reduced the propagation of popularity into recommendations, while keeping the hit-rate stable.   In the talk, we propose to give a short introduction to session-based recommendations and present our findings. We will also get into the details of evaluation, to present various aspects of recommendation quality.
   author-bio: >- 
-    Franziska is a faculy at the CISPA Helmholtz Center for Information Security. Before, she was a Postdoctoral Fellow at the University of Toronto and Vector Institute in Toronto advised by Prof. Nicolas Papernot. Her current research centers around private and trustworthy machine learning with a focus on decentralized applications. Franziska obtained her Ph.D. at the Computer Science Department at Freie University Berlin, where she pioneered the notion of individualized privacy in machine learning. During her Ph.D., Franziska was a research associate at the Fraunhofer Institute for Applied and Integrated Security (AISEC), Germany. She received a Fraunhofer TALENTA grant for outstanding female early career researchers and the German Industrial Research Foundation prize for her research on machine learning privacy.
-  co-authors: 
-  date: Friday / 27 October
-  time: 10:00 - 10:25
-  room: Main Lecture Hall
+    Klaudia Balcer is a PhD Student and Research Assistant in the Computational Intelligence Research Group at the University of Wrocław. Using her mathematical background, she bridges between a stochastic interpretation of data uncertainty and deep learning models for recommender systems. She focuses on reducing exposure and popularity bias.
+  date: 08.11.2024
+  time: 10:35 - 11:00
+  room: Lecture Hall A
   session: CfC Session 1
   id: 1
-  author-image: images/optimized/cfc-2023-600x600/franziska_boenisch.webp
-  slides: docs/cfc_talk_1.pdf
+  author-image: images/optimized/cfc-600x600/klaudia_balcer.webp
 
-- author-name: Adam Dziedzic
-  title: "Privacy for Large Language Models"
-  author-title: "University of Toronto / Vector Institute"
+- author-name: Tudor Coman
+  title: "Leveraging Multi-Armed Bandit Algorithms for Dynamic Decision Making"
+  author-title: "Software Development Engineer @ Adobe"
   abstract: >- 
-    Large language models (LLMs) are excellent in-context learners. However, the sensitivity of data contained in prompts raises privacy concerns. Our work first shows that these concerns are valid: we instantiate a simple but highly effective membership inference attack against the data used to prompt LLMs. To address this vulnerability, one could forego prompting and resort to fine-tuning LLMs with known algorithms for private gradient descent. However, this comes at the expense of the practicality and efficiency offered by prompting. Therefore, we propose to privately learn to prompt. We first show that soft prompts can be obtained privately through gradient descent on downstream data. However, this is not the case for discrete prompts. Thus, we orchestrate a noisy vote among an ensemble of LLMs presented with different prompts, i.e., a flock of stochastic parrots. The vote privately transfers the flock's knowledge into a single public prompt. We show that LLMs prompted with our private algorithms closely match the non-private baselines. For example, using GPT3 as the base model, we achieve a downstream accuracy of 92.7% on the sst2 dataset with (ϵ=0.147,δ=10−6)-differential privacy vs. 95.2% for the non-private baseline. Through our experiments, we also show that our prompt-based approach is easily deployed with existing commercial APIs.
+    Consider the challenge of allocating resources efficiently across multiple options, where each choice's potential benefit is initially unknown. Multi-armed bandit algorithms provide a robust solution by dynamically adjusting decisions based on real-time feedback, maximizing outcomes across various sectors. From enhancing user engagement through smart A/B testing in web development to optimizing investment strategies in finance and personalizing treatment plans in healthcare, these algorithms are pivotal.   Multi-armed bandit (MAB) algorithms have become a cornerstone in various fields due to their ability to balance exploration and exploitation effectively. This approach is used in contexts where decision-making under uncertainty is crucial, such as finance, healthcare, marketing, and more. The presentation will explore the broader applications of MAB algorithms, demonstrating their versatility and effectiveness in dynamic environments.   Bandits are considered a typical Reinforcement Learning problem, but they are not currently as popular as other AI algorithms (such as Neural Networks, GPT etc.). However, due to the large number of applications that require informed decision-making, this is a topic of interest to the industry.  At Adobe, we are using multi-armed bandits in Adobe Target for allocating traffic in A/B tests dynamically and automatically, and we are currently working on implementing this feature in Adobe Experience Platform for a similar use case.  This talk will explore how multi-armed bandit algorithms use advanced statistical methods to revolutionize decision-making processes, making them more data-driven and results-oriented. The demo will be oriented towards A/B testing, but no prior background is necessary to be able to understand the concepts, as they are easily applicable to other fields as well. Join us to learn how integrating these algorithms into your strategies can lead to significant improvements in performance and resource utilization.
   author-bio: >- 
-    Adam Dziedzic is a Postdoctoral Fellow at the University of Toronto and Vector Institute, advised by Prof. Nicolas Papernot. His research focus is on trustworthy machine learning, especially model stealing and defenses as well as on private and confidential collaborative machine learning. Adam finished his Ph.D. at the University of Chicago, advised by Prof. Sanjay Krishnan, where he worked on input and model compression for adaptive and robust neural networks. He obtained his Bachelor's and Master's degrees from the Warsaw University of Technology. Adam was also studying at the Technical University of Denmark and EPFL. He worked at CERN, Barclays Investment Bank, Microsoft Research, and Google.
-  co-authors: 
-  date: Friday / 27 October
-  time: 10:25 - 10:50
-  room: Main Lecture Hall
+    I am a software engineer, working at Adobe for the past 6 years, since I was at the young age of 15. At first, I tackled and helped develop complex fraud prevention systems for online video platforms. My past experience also includes working with ranking/recommendation algorithms and MLOps.  Moving on, the work I do now enables customers get the most out of Adobe products. This includes using Generative AI and Large Language Models to answer user questions about feature documentation and usage insights. I am also involved in the development of a large-scale experimentation platform that instruments A/B testing.  Previously, I have been recognized by Forbes Romania, who featured me in their 30 Under 30 list in 2020 for my achievements.
+  date: 08.11.2024
+  time: 11:05 - 11:30
+  room: Lecture Hall A
   session: CfC Session 1
   id: 2
-  author-image: images/optimized/cfc-2023-600x600/adam_dziedzic.webp
-  slides: docs/cfc_talk_2.pdf
-
-- author-name: Jan Dubiński
-  title: "Bucks for Buckets (B4B): Active Defenses Against Stealing Encoders"
-  author-title: "Warsaw University of Technology"
-  abstract: >- 
-    Machine Learning as a Service (MLaaS) APIs provide ready-to-use and high-utility encoders that generate vector representations for given inputs. Since these encoders are very costly to train, they become lucrative targets for model stealing attacks during which an adversary leverages query access to the API to replicate the encoder locally at a fraction of the original training costs. We propose Bucks for Buckets (B4B), the first active defense that prevents stealing while the attack is happening without degrading representation quality for legitimate API users. Our defense relies on the observation that the representations returned to adversaries who try to steal the encoder's functionality cover a significantly larger fraction of the embedding space than representations of legitimate users who utilize the encoder to solve a particular downstream task. B4B leverages this to adaptively adjust the utility of the returned representations according to a user's coverage of the embedding space. To prevent adaptive adversaries from eluding our defense by simply creating multiple user accounts (sybils), B4B also individually transforms each user's representations. This prevents the adversary from directly aggregating representations over multiple accounts to create their stolen encoder copy. Our active defense opens a new path towards securely sharing and democratizing encoders over public APIs.
-  author-bio: >- 
-    Jan Dubiński was born in Warsaw, Poland, in 1995. He received a M.Sc. degree in computer science, as well as a B.Sc. and a M.Sc. degrees in power engineering from the Warsaw University of Technology. He also holds a bachelor's degree in quantitative methods from the Warsaw School of Economics, Warsaw. He is currently pursuing a PhD degree in deep learning at the Warsaw University of Technology. He is a member of the ALICE Collaboration at LHC CERN. Jan has been working on fast simulation methods for High Energy Physics experiments at the Large Hadron Collider at CERN. The methods developed in this research leverage generative deep learning models such as GANs to provide a computationally efficient alternative to existing Monte Carlo-based methods. More recently, he has focused on issues related to the security of machine learning models and data privacy. His latest efforts aim to improve the security of self-supervised and generative methods, which are often overlooked compared to supervised models.
-  co-authors: Stanisław Pawlak, Franziska Boenitsch, Tomasz Trzciński, Adam Dziedzic
-  date: Friday / 27 October
-  time: 10:50 - 11:15
-  room: Main Lecture Hall
-  session: CfC Session 1
-  id: 3
-  author-image: images/optimized/cfc-2023-600x600/jan_dubiński.webp
-  slides: docs/cfc_talk_3.pdf
-
-- author-name: Omar Rivasplata
-  title: "Semi-supervised batch learning from logged data"
-  author-title: "University College London"
-  abstract: >- 
-    Offline policy optimization methods aim to learn a policy from logged data which typically consists of context, action, propensity score, and reward for each sample point. In this work, we build on the counterfactual risk minimisation framework and we propose learning methods for settings where the rewards for some samples are not observed, so the logged data consists of a subset of samples with rewards and a subset of samples without rewards. This setting arises in many application domains, and we refer to it as semi-supervised batch learning. To approach this kind of learning problem, we derive new upper bounds on the true risk under the inverse propensity score estimator. We then build upon these bounds to propose a regularized counterfactual risk minimization method where the regularization term is reward independent and hence can be evaluated on the without-rewards data. We also propose another algorithm based on generating pseudo rewards for the logged without-rewards dataset. Thus, while reward feedback is present for some samples only, it is possible to leverage the without-reward samples in order to learn a policy that minimizes the risk. Experimental results with neural networks and logged data examples derived from benchmark datasets indicate that these algorithms can output policies that have smaller risk than the logging policy.
-  author-bio: >- 
-    Omar is a Senior Research Fellow at the Department of Statistical Science, University College London. 
-    
-    Before his current post, he was for a few months at UCL Department of Mathematics, and previously he was for a few years at UCL Department of Computer Science where he did research studies in statistical learning sponsored by DeepMind, and in parallel with these studies he was a research scientist intern at DeepMind for three years.
-    
-    Back in the day Omar studied undergraduate maths (BSc 2000, Pontificia Universidad Católica del Perú) and graduate maths (MSc 2005, PhD 2012, University of Alberta).
-  co-authors: 
-  date: Friday / 27 October
-  time: 10:00 - 10:25
-  room: Lecture Hall A
-  session: CfC Session 2
-  id: 4
-  author-image: images/empty.png
-  slides: docs/cfc_talk_4.pdf
+  author-image: images/optimized/cfc-600x600/tudor_coman.webp
 
 - author-name: Patryk Wielopolski
-  title: "TreeFlow: A Novel Tree-Based Approach for Flexible Regression Modeling with Normalizing Flows"
-  author-title: "DataWalk / Wrocław University of Science and Technology"
+  title: "From Theory to Practice: A Practitioner's Journey with Knowledge Graphs"
+  author-title: "DataWalk"
   abstract: >- 
-    Tree-based ensembles have long been acknowledged for their exceptional performance in handling classification and regression tasks involving mixed-type variables from diverse domains and ranges. However, in regression problems, they traditionally offer deterministic responses or model output uncertainty using Gaussian or parametric distributions. To overcome these limitations, we present TreeFlow, an innovative approach that seamlessly integrates the strengths of tree ensembles with the adaptability of modeling complex probability distributions using normalizing flows.
-    
-    In this work, we propose a methodology that leverages a tree-based model as a feature extractor, which is subsequently combined with a conditional variant of normalizing flow. By doing so, our approach gains the unique capability of effectively modeling intricate and multi-modal target distributions for regression outputs. To assess the effectiveness of TreeFlow, we conduct extensive evaluations on challenging regression benchmarks with varying data volumes, feature characteristics, and target dimensionalities.
-    
-    Our experimental results demonstrate that TreeFlow achieves state-of-the-art performance in both probabilistic and deterministic metrics on datasets featuring multi-modal target distributions. Furthermore, when compared to traditional tree-based regression baselines, TreeFlow delivers competitive results on datasets with unimodal target distributions. Overall, our novel TreeFlow approach represents a significant advancement in the realm of flexible regression modeling, offering promising avenues for tackling complex real-world problems requiring probabilistic output predictions.
+    Large Language Models (LLMs) and Knowledge Graphs (KGs) are emerging as significant technological trends, as highlighted in recent industry reports. These technologies offer promising avenues for enhancing data-driven decision-making and operational efficiency across various sectors. While LLMs have recently gained significant attention, KGs remain less widely understood.  This presentation draws on six years of experience in designing and implementing solutions with DataWalk, a Knowledge Graph platform, to offer a clear and practical introduction to Knowledge Graphs. It will explore real-world applications across diverse industries, illustrating how Knowledge Graphs can independently provide substantial value to organizations. Additionally, the talk will demonstrate the synergy between Knowledge Graphs and AI techniques, showcasing their combined potential to address complex challenges.
   author-bio: >- 
-    Patryk Wielopolski is an Artificial Intelligence Ph.D. Researcher at Wrocław University of Science and Technology. He holds a Master's degree in Applied Mathematics. His research focuses on advanced topics in AI, with a particular emphasis on normalizing flows, probabilistic modeling, and uncertainty estimation. 
-    
-    Wielopolski's contributions to the field have been recognized through publications in AAAI and ECAI and his role as a reviewer for the ICML Conference. Further, Wielopolski has actively participated as a speaker in multiple conferences, delivering insightful presentations and showcasted innovative solutions at over 10 hackathons.
-    
-    His expertise extends beyond academia, as he also occupies the role of an AI Solution Architect at DataWalk. Previously, he held roles as a Senior Data Scientist and R&D Product Owner in the CTO Office Team at DataWalk.
-    
-    His professional interests span a wide range of topics, including Machine Learning Platforms, 1B+ Graph Data Analytics & Graph Data Processing, Graph Embeddings, Knowledge Graphs, and Entity Resolution. Through his work and research, he continues to contribute to the advancement of AI and its practical applications in various domains.
-  co-authors: 
-  date: Friday / 27 October
-  time: 10:25 - 10:50
+    Patryk Wielopolski is an R&D leader at DataWalk and a Ph.D. candidate in Artificial Intelligence at Wrocław University of Science and Technology. His work focuses on Knowledge Graphs and AI, where he has contributed to designing and implementing solutions in the finance, insurance, and law enforcement sectors. Patryk’s efforts connect academic research with practical applications, advancing innovation in data-driven technologies.
+  date: 08.11.2024
+  time: 11:35 - 12:00
   room: Lecture Hall A
+  session: CfC Session 1
+  id: 3
+  author-image: images/optimized/cfc-600x600/patryk_wielopolski.webp
+
+- author-name: Adriana Borowa
+  title: "Deep Learning for effective analysis of High Content Screening"
+  author-title: "Ardigen SA"
+  abstract: >- 
+    High Content Screening (HCS) is a powerful technique that facilitates complex cellular analysis by integrating fluorescence microscopy with automated high-throughput image acquisition. This approach enables the detailed examination and comparison of various cell phenotypes, generating extensive image datasets that can reveal subtle biological effects. However, these datasets often suffer from challenges such as sparse and imbalanced labeling, where the underlying chemical or biological effects are not fully annotated or are unevenly distributed. Recent advancements in Deep Learning have shown great promise in overcoming these challenges. By leveraging sophisticated algorithms, Deep Learning can extract rich, high-dimensional representations from HCS images, enabling more accurate and efficient analysis even in the face of limited or imbalanced labels. These methods can enhance our understanding of the complex interactions captured in HCS datasets, providing insights that were previously difficult to achieve with traditional analysis techniques. This talk will focus on the transformative potential of Deep Learning in High Content Screening, highlighting its ability to address the limitations of traditional analysis methods. We will explore the latest developments in Deep Learning techniques tailored for high-dimensional image data, emphasizing their applications in overcoming challenges such as sparse labeling and class imbalance.
+  author-bio: >- 
+    Adriana is Senior Data Scientist at Ardigen responsible for the development of Ardigen phenAID platform that enables the identification of small molecule candidates. Her diverse experience includes work in digital pathology and neuron imaging with commitment to making meaningful contributions in various domains of life sciences. Adriana is also pursuing PhD at Jagiellonian University and her research interests are focused on advancing the field of  biomedical imaging by leveraging AI models. Her scientific work on cutting-edge deep learning algorithms aims to automate the analysis of High Content Screening images as well as microscopy images of bacteria.
+  date: 08.11.2024
+  time: 10:35 - 11:00
+  room: Lecture Hall B
+  session: CfC Session 2
+  id: 4
+  author-image: images/optimized/cfc-600x600/adriana_borowa.webp
+
+- author-name: Maciej Chrabaszcz
+  title: "Aggregated Attributions for Explanatory Analysis of 3D Segmentation Models"
+  author-title: "NASK - National Research Institute / Warsaw University of Technology"
+  abstract: >- 
+    Analysis of 3D segmentation models, especially in the context of medical imaging, is often limited to segmentation performance metrics that overlook the crucial aspect of explainability and bias. Currently, effectively explaining these models with saliency maps is challenging due to the high dimensions of input images multiplied by the ever-growing number of segmented class labels. To this end, we introduce Agg$^2$Exp, a methodology for aggregating fine-grained voxel attributions of the segmentation model's predictions. Unlike classical explanation methods that primarily focus on the local feature attribution, Agg$^2$Exp enables a more comprehensive global view on the importance of predicted segments in 3D images. Our benchmarking experiments show that gradient-based voxel attributions are more faithful to the model's predictions than perturbation-based explanations. As a concrete use-case, we apply Agg$^2$Exp to discover knowledge acquired by the Swin UNEt TRansformer model trained on the TotalSegmentator v2 dataset for segmenting anatomical structures in computed tomography medical images. Agg$^2$Exp facilitates the explanatory analysis of large segmentation models beyond their predictive performance.
+  author-bio: >- 
+    Maciej Chrabąszcz is a dedicated researcher in the field of Artificial Intelligence, with a particular focus on AI model behavior analysis, alignment, and efficient computing. As a PhD student in Computer Science, his work contributes to the critical areas of AI development and understanding.  Having completed his Master's in Mathematical Statistics at the Warsaw University of Technology (WUT), Maciej is now pursuing his doctoral studies at the same institution. Concurrently, he contributes his expertise to NASK - National Research Institute.
+  date: 08.11.2024
+  time: 11:05 - 11:30
+  room: Lecture Hall B
   session: CfC Session 2
   id: 5
-  author-image: images/optimized/cfc-2023-600x600/patryk_wielopolski.webp
-  slides: docs/cfc_talk_5.pdf
+  author-image: images/optimized/cfc-600x600/maciej_chrabaszcz.webp
 
-- author-name: Jan Mielniczuk
-  title: "Double  logistic regression approach to biased positive-unlabeled data"
-  author-title: "Polish Academy of Sciences / Warsaw University of Technology"
+- author-name: Barbara Klaudel
+  title: "Towards Medical Foundation Model -- a Unified Dataset for Pretraining Medical Imaging Models"
+  author-title: "TheLion.AI"
   abstract: >- 
-    Positive and unlabelled learning is an important nonstandard
-    inference problem which arises naturally in many applications. 
-    The significant limitation of almost all existing methods addressing it lies in assuming that the propensity score function is constant and does not depend on features (Selected Completely at Random assumption), which is unrealistic in many practical situations. Avoiding this assumption, we consider parametric approach to the
-    problem of joint estimation of posterior probability and propensityscore functions.We show that if both these functions are logistic with different parameters (double logistic model) then the corresponding parameters are identifiable. Motivated by this, we propose two approaches
-    to their estimation: a joint maximum likelihood method and the second approach based on an alternating maximization of two Fisher consistent approximations. Our experimental results show that the proposed methods perform on par or better than the existing
-    methods based on Expectation-Maximisation scheme.
+    We present UMIE datasets, the largest publicly available collection of annotated medical imaging data to date. This resource combines over 1 million images from 20 open-source datasets, spanning X-ray, CT, and MRI modalities. The dataset includes images for both classification and segmentation tasks, with 40+ standardized labels and 15 annotation masks. A key contribution is the unified preprocessing pipeline that standardizes the heterogeneous source datasets into a common format, addressing challenges such as diverse file types, annotation styles, and labeling ontologies. We mapped all labels and masks to the RadLex ontology, ensuring consistency across datasets. The preprocessing scripts are modular and extensible, allowing researchers to easily incorporate new datasets. By providing this large-scale, standardized medical imaging resource, UMIE datasets aim to facilitate the development of more robust and generalizable medical foundation models akin to those in general-purpose computer vision. The associated code enabling exact replication of the dataset is publicly available, with select portions to be released on HuggingFace to comply with redistribution restrictions on some source datasets.
   author-bio: >- 
-    Jan Mielniczuk is a full professor at the Institute of Computer Science, Polish Academy of Sciences and at the Faculty of Mathematics and Information Science, Warsaw University of Technology.
-
-#    Please consult https://home.ipipan.waw.pl/j.mielniczuk/cvJM.htm
-  co-authors: 
-  date: Friday / 27 October
-  time: 10:50 - 11:15
-  room: Lecture Hall A
+    Co-founder of a research group, TheLion.AI devoted to creating AI-based open source solutions for healthcare. Worked on projects such as the Universal Medical Image Encoder and the Polish medical language model Esculap. Creates educational materials, like "Computer Vision Worksheets" with video tutorials on YouTube. Awarded Forbes 25 under 25.
+  date: 08.11.2024
+  time: 11:35 - 12:00
+  room: Lecture Hall B
   session: CfC Session 2
   id: 6
-  author-image: images/optimized/cfc-2023-600x600/jan_mielniczuk.webp
-  slides: docs/cfc_talk_6.pdf
+  author-image: images/optimized/cfc-600x600/barbara_klaudel.webp
 
-- author-name: Konrad Cop
-  title: "ML without proper data in Advanced Robotic Navigation"
-  author-title: "United Robots / Warsaw University of Technology"
+- author-name: Marek Justyna
+  title: "RNAgrail: GRAph neural network and diffusIon modeL for RNA 3D structure prediction"
+  author-title: "Poznan Institute of Technology"
   abstract: >- 
-    Classical approaches for robotic perception are not sufficient, when robots operate in changing environments. If the surroundings are not perceived accurately, the misinformation is propagated to navigation resulting in inefficient behaviour. It is possible for the robot to learn from the past experiences however the variety of industrial environments makes it difficult to develop a scalable learning system which is universal in various settings. In this talk I will presents approaches for generating vast learning datasets from limited real recordings and synthetic data that can be used for learning deep understanding of surrounding objects. The system we developed is able to generate big datasets with realistic representations and use them directly for perception tasks such as segmentation and footprint estimation. In our work we evaluated proposed approach both with data originating from real sensors and in the context of limited computational resources.
+    Accurate prediction of RNA 3D structures is crucial for understanding its diverse biological functions, yet current methods face significant challenges due to the limited availability of high-resolution RNA structures and the inherent data imbalance. Traditional approaches, such as those inspired by AlphaFold, rely heavily on multiple sequence alignment and template-based strategies, which are hindered by the scarcity of RNA data. To address these limitations, we propose a novel method combining Graph Neural Networks (GNNs) with generative diffusion models for RNA 3D structure prediction. Unlike existing methods that attempt to predict entire RNA structures, our approach focuses on predicting local RNA descriptors, which allows for more precise modeling of RNA’s complex secondary and tertiary interactions. By leveraging the structural and relational properties encoded in these local descriptors, our model can generate high-quality RNA structures even in the absence of extensive sequence data or templates. This method represents a significant departure from the traditional template-based models and has demonstrated superior performance in preliminary evaluations, particularly in cases where data is sparse. Our results suggest that this innovative approach not only addresses the current limitations in RNA 3D structure prediction but also opens new avenues for the application of machine learning in structural biology. We believe that this methodology could serve as a robust alternative to current state-of-the-art techniques, providing more reliable predictions and advancing our understanding of RNA structure and function.
   author-bio: >- 
-    Konrad Cop is a graduate of Control Engineering and Robotics from Wrocław University of Science and Technology and Master of Robotics, Systems and Control from ETH Zürich. Currently in the process of obtaining PhD degree from Warsaw University of Technology. His experience combines a mixture of scientific research and applied development activities. 
-    He was a researcher in Autonomous Robots at CSIRO in Brisbane, Australia and in robotic manipulation at TUM in Munich, Germany. He was also involved in industrial robotic and control engineering projects at Veltru in Schaffhausen, Switzerland and Lenze in Hameln, Germany.
-    Currently he is a Technology Lead at Warsaw-based autonomous robots company - United Robots. 
-    Author of multiple publications (ICRA, IROS) and industrial patents. 
-    His research interests include Autonomous Robotics, Application of Deep Learning to Robotics Perception and general AI topics in Mobile Robots.
-  co-authors: 
-  date: Friday / 27 October
-  time: 10:00 - 10:25
-  room: Lecture Hall B
+    He is a PhD student supported by the prestigious PRELUDIUM BIS grant funded by the Polish National Science Center. His main interests lie in applying AI techniques to solve complex biological problems, with a particular focus on structural biology. His current research under this grant is dedicated to advancing the use of generative models in RNA 3D structure prediction.
+  date: 08.11.2024
+  time: 14:30 - 14:55
+  room: Main Lecture Hall
   session: CfC Session 3
   id: 7
-  author-image: images/optimized/cfc-2023-600x600/konrad_cop.webp
-  slides: docs/cfc_talk_7.pdf
+  author-image: images/empty.png
 
-- author-name: Bartosz Ptak
-  title: "Enhancing Lunar Robotics Rover through Deep Learning and Edge AI"
-  author-title: "Poznan University of Technology"
+- author-name: Krzysztof Maziarz
+  title: "Fake it till you make it: planning chemical syntheses for drug discovery"
+  author-title: "Microsoft Research"
   abstract: >- 
-    With the growing interest in space exploration, challenges are also increasing. Recent years have witnessed a notable surge in the advancement of space robotics, particularly pertaining to Moon exploration. The incorporation of Commercial off-the-shelf (COTS) devices in this domain has expedited both research and development endeavours. It also enables equipping satellites, rovers and landers in deep-learning accelerators and edge AI devices. Their usage allows not only for onboard data processing and reduction of data transfer, but can also help in the decision-making process, instilling elements of autonomy. 
-    In our project, we employ deep learning for space robotics by using an image segmentation model of the lunar environment.  This network, designed for rock segmentation, was deployed on an FPGA accelerator board, thereby enabling efficient and low-power processing of rover-captured images directly onboard. The solution was validated in the analogue lunar research station.
+    Recent advances in Deep Learning are powering increasingly sophisticated generative models for the design of novel drugs, but these imagined molecules are only useful if we can synthesize them. In this talk, I will dive into our recent results on retrosynthesis, which is the task of coming up with “recipes” describing how a given molecule can be made in the lab. This requires first building a bespoke model to predict “single-step” chemical reactions, where we utilize a mix of symbolic and learned components, including graph rewriting transformations, Transformers, and Graph Neural Networks. The model is then combined with a planning algorithm akin to A* search, in order to find plausible trees of reactions describing how to synthesize a drug of interest from simple molecules that are commercially available. Finally, I will also connect this to our larger effort in Drug Discovery, and more broadly AI for Science, fuelled by a five-year collaboration between Microsoft Research and Novartis.
   author-bio: >- 
-    Bartosz has been affiliated with Poznan University of Technology (PUT) since 2021. He received a Bachelor of Engineering in Computer Science and graduated Master's Degree in the Automatic Control and Robotics field with honours in July 2021. Currently, he is a PhD student at PUT in the Automation, electronic, electrical engineering and space technologies discipline and a Computer Vision Engineer at the Institute of Robotics and Machine Intelligence. His research interests include computer vision processing, embedded AI devices, and machine learning aspects for the real-world application of artificial intelligence in everyday life.
-  co-authors: Dominik Pieczyński, Marek Kraft
-  date: Friday / 27 October
-  time: 10:25 - 10:50
-  room: Lecture Hall B
+    Krzysztof is a Senior Researcher in the AI for Science team at Microsoft Research, where he works on applying Deep Learning to problems in Drug Discovery. Among other things, he has developed generative models of molecular graphs, few-shot molecular property prediction methods, and planning algorithms for sequences of chemical reactions. These works not only led to 4 publications at top ML conferences but also to application in a pharma company, with 150+ molecules proposed by his generative models successfully synthesised and tested in a lab. Before joining Microsoft nearly five years ago, Krzysztof studied Theoretical Computer Science, and was a serial intern (including three research internships at Google). Before settling on Deep Learning, he also had decent success in competitive programming, advancing to finals of ACM ICPC, Facebook HackerCup and Distributed Google CodeJam.
+  date: 08.11.2024
+  time: 15:00 - 15:25
+  room: Main Lecture Hall
   session: CfC Session 3
   id: 8
-  author-image: images/optimized/cfc-2023-600x600/bartosz_ptak.webp
-  slides: docs/cfc_talk_8.pdf
+  author-image: images/optimized/cfc-600x600/krzysztof_maziarz.webp
 
-- author-name: Bartosz Zieliński
-  title: "Sustainable computer vision for autonomous machines"
-  author-title: "IDEAS NCBR / Jagiellonian University"
+- author-name: France ROSE
+  title: "Uncertainty-aware self-supervised learning on multi-dimensional time series for animal behavior"
+  author-title: "University of Cologne"
   abstract: >- 
-    In this talk, I will introduce the main topics of my research group dedicated to developing sustainable computer vision methods for autonomous machines, where we assume device limitations and a variety of sensors. After the short overview, I will present our research on active visual exploration, which addresses the issue of limited sensor capabilities in real-world scenarios, where successive observations are actively chosen based on the environment. For this purpose, I will describe our technique called Attention-Map Entropy (AME) that we recently published at IJCAI. It leverages the internal uncertainty of the transformer-based model to determine the most informative observations. Unlike the existing solutions, it does not require additional loss components, which simplifies the training and significantly improves the performance of reconstruction, segmentation, and classification on publicly available datasets.
+    Studying freely moving animals is essential to understand how animals behave and make decisions -- e.g. when they escape predators, find mates, or raise their young -- in an undisturbed manner. Although animal behavior has been studied for decades, animal movements can only now be recorded at high throughput thanks to recent technical progress. On one hand, videos from synchronized cameras can be coupled with deep learning pose estimation methods, automatically tracking the trajectories of a few keypoints. On the other hand, motion capture systems directly outputs the 3D trajectories of physical reflectors apposed on the body (reflectors on a suit for humans, reflecting piercings for rodents). However, these methods are not perfect and contain missing data. Since animal behavior cannot be easily scripted and additional recordings are not always possible due to constraints in experimental design, missing data is a more pressing problem in animal compared to human behavior analysis. So far, few works have effectively addressed these issues in animal recordings, with most relying on linear interpolation and smoothing (e.g. Kalman filter) only suitable for short gaps, or lacking large-scale testing.   We hypothesized that recent advances in deep learning architectures and self-supervised learning (SSL) can help recover missing data by learning dynamics within and between keypoints. Specifically masked modeling has proven to be successful in recent large language models and computer vision transformers.  Mimicking the missing data during training via masked modeling, we tested several neural network architectures: Gated Recurrent Unit (GRU), Temporal Convolutional network (TCN), Spatio-Temporal Graph Convolutional Network (ST-GCN), Space-Time-Separable Graph Convolutional Network (STS-GCN), and a custom transformer encoder named DISK (Deep Imputation for Skeleton data). For testing, we gathered seven datasets, covering five species (human, fly, mouse, rat, fish), in 2D and 3D, from one to two animals, and a variety of number of keypoints (from 3 to 38 per animal). Furthermore we adapted a probabilistic head, initially proposed for probabilistic forecasting of time-series, to assess the reliability of the imputed data at inference time.   We found that DISK outperformed other architectures and linear interpolation baseline (42% to 89% root mean square error improvement compared to linear interpolation, calculated between true coordinates and imputed ones on a held-out test set - one value per dataset). DISK probabilistic head outputs an estimated error linearly correlated with the real error (Pearson correlation coefficient: 0.746 to 0.890 - one value per dataset). This estimated error allows to filter out less reliable predictions and control the amount of noise in the imputed dataset.  As SSL methods are known to learn general properties about input data, we further explored the latent space of DISK and showed motion sequences clustered by behavior categories (e.g. attack, mount, investigation).   While animal behavior experiments are expensive and complex, tracking errors make sometimes large portions of the experimental data unusable. DISK allows for filling in the missing information and for taking full advantage of the rich behavioral data. Available as a stand-alone imputation package (github.com/bozeklab/DISK.git), DISK is applicable to results of any tracking method (cameras or motion capture) and allows for any type of downstream an
   author-bio: >- 
-    Bartosz Zieliński is the leader of the research team at IDEAS NCBR and a professor at the Jagiellonian University. He obtained his master's degree at the Jagiellonian University in 2007, his doctorate at IPPT PAS in 2012, and his habilitation at the Wrocław University of Technology in 2023 – all in the discipline of computer science. He is a member of ELLIS and the author of numerous publications prepared for top conferences on machine learning. His research interests revolve around computer vision, deep neural networks, as well as interpretable and sustainable artificial intelligence.
-  co-authors: 
-  date: Friday / 27 October
-  time: 10:50 - 11:15
-  room: Lecture Hall B
+    I am France ROSE (she/her), a post-doctoral researcher at the University Hospital of Cologne. My research topics cover biomedical image and time-series analysis. At the time of exploding data generation in Biology and Medical Sciences, it is exciting to meet the needs in image analysis and challenge current scientific knowledge.
+  date: 08.11.2024
+  time: 15:30 - 15:55
+  room: Main Lecture Hall
   session: CfC Session 3
   id: 9
-  author-image: images/optimized/cfc-2023-600x600/bartosz_zieliński.webp
-  slides: docs/cfc_talk_9.pdf
+  author-image: images/optimized/cfc-600x600/france_rose.webp
 
-- author-name: Sebastian Cygert
-  title: "Toward Continually Learning Models"
-  author-title: "IDEAS NCBR / Gdańsk University of Technology"
+- author-name: Natasha Alkhatib
+  title: "How LLMs are Revolutionizing the cybersecurity field"
+  author-title: "Cybersecurity and AI researcher"
   abstract: >- 
-    Continual Learning is an emerging paradigm in machine learning where models learn new tasks in sequence without access to previously acquired knowledge. The key challenge in this field is addressing the problem of catastrophic forgetting of previous information. This is crucial because models must adapt to constantly evolving data and tasks in many real-world scenarios. During this presentation, I will discuss the latest developments in Continual Learning research and draw the connection to test-time adaptation, which allows the initial model to adapt to data distribution changes without any supervision. Finally, I will present our research results with self-adapting models for visual recognition in autonomous driving scenarios.
+    The ever-evolving threat landscape demands constant adaptation. Traditional methods struggle. Large Language Models (LLMs) emerge, wielding the power of language. This talk explores LLMs' revolution in cybersecurity.  LLMs are AI models trained on massive text and code datasets. This grants them an understanding of complex linguistic patterns, invaluable in cybersecurity. Firstly, LLMs excel at advanced threat detection. Analyzing vast amounts of data, they identify subtle anomalies indicating brewing attacks. Traditional methods rely on pre-defined rules, vulnerable to novel attack vectors. LLMs, with their ability to learn and adapt, identify unseen threats, providing a crucial early warning system.  Secondly, LLMs offer proactive threat analysis. By ingesting vast quantities of threat intelligence data, including past attack methods and attacker motivations, LLMs uncover patterns and predict future attack vectors. This allows security teams to take a pre-emptive approach, focusing resources on fortifying potential weaknesses  before attackers exploit them. Imagine an LLM analyzing a hacker forum, identifying discussions about targeting a specific software vulnerability. This foresight empowers security professionals to patch the vulnerability before a widespread breach.  Furthermore, LLMs can revolutionize vulnerability research . Traditionally, identifying vulnerabilities is time-consuming and laborious. LLMs, with their ability to analyze vast code repositories, pinpoint potential vulnerabilities through code patterns and language constructs associated with known weaknesses. This streamlines the vulnerability discovery process, allowing security teams to address critical issues  before attackers identify them.  While LLMs offer a powerful new frontier, challenges remain. Issues surrounding explainability, bias in training data, and potential misuse require careful consideration. However, the potential benefits are undeniable. As these models continue to evolve and integrate with existing security solutions, they hold the promise of a more secure and resilient digital landscape.
   author-bio: >- 
-    Sebastian is a postdoctoral researcher at IDEAS NCBR and also an assistant professor at the Gdańsk University of Technology, where he earned his PhD. Previously, he was employed as an Applied Scientist at Amazon and contributed to projects such as the visual perception system for the autonomous robot Amazon Scout. He has extensive experience in a variety of computer science topics and has worked for Moody's Analytics on mathematical modeling. His research focuses on the real-world generalization and efficient computation of machine learning algorithms. In addition, he is collaborating with the Medical University of Gdańsk on a project aimed at early cancer diagnosis through the use of liquid biopsies.
-  co-authors: 
-  date: Friday / 27 October
-  time: 15:15 - 15:40
-  room: Main Lecture Hall
+    Dr.Natasha Alkhatib  Researcher & Engineer - Cybersecurity & AI for Automotive  Dr.Natasha Alkhatib is a researcher and engineer with expertise in cybersecurity and artificial intelligence (AI) for the automotive industry. Her passion for securing vehicles against cyber threats led her to pursue a Ph.D. thesis at the prestigious Institut Polytechnique de Paris. Her doctoral research focused on leveraging AI to develop robust solutions against cyberattacks in connected and autonomous vehicles. Currently, Dr.Natasha Alkhatib applies her expertise at ETAS Bosch, a leading provider of embedded systems for the automotive industry.  In this role, she is instrumental in developing AI-based solutions that enhance the cybersecurity of automotive products.  She plays a key role in ensuring the safety and security of future generations of vehicles.
+  date: 08.11.2024
+  time: 14:30 - 14:55
+  room: Lecture Hall A
   session: CfC Session 4
   id: 10
-  author-image: images/optimized/cfc-2023-600x600/sebastian_cygert.webp
-  slides: docs/cfc_talk_10.pdf
+  author-image: images/optimized/cfc-600x600/natasha_alkhatib.webp
 
-- author-name: Michał Jamroż
-  title: "Class Fitting in Residual Convolutional Networks"
-  author-title: "AGH University of Science and Technology"
+- author-name: Klaudia Bałazy
+  title: "Efficient Fine-Tuning of LLMs: Exploring PEFT Methods and LoRA-XS Insights"
+  author-title: "NVIDIA | Jagiellonian University"
   abstract: >- 
-    We leverage probabilistic models of neural representations to investigate how residual networks fit classes. To this end, we estimate class-conditional density models for representations learned by deep ResNets. We then use these models to characterize distributions of representations across learned classes. Surprisingly, we find that classes in the investigated models are not fitted in a uniform way. On the contrary: we uncover two groups of classes that are fitted with markedly different distributions of representations. These distinct modes of class-fitting are evident only in the deeper layers of the investigated models, indicating that they are not related to low-level image features. We show that the uncovered structure in neural representations correlate with memorization of training examples and adversarial robustness. Finally, we compare class-conditional distributions of neural representations between memorized and typical examples. This allows us to uncover where in the network structure class labels arise for memorized and standard inputs.
-    
-    The paper that concerns this work - "Neural Representations Reveal Distinct Modes of Class Fitting in Residual Convolutional Networks" was accepted at AAAI-2023 conference.
+    The rapid scaling of large language models (LLMs) has underscored the need for parameter-efficient fine-tuning (PEFT) methods to manage increasing computational and storage demands. Among these methods, Low-Rank Adaptation (LoRA) has emerged as a prominent solution, often matching or exceeding the performance of full fine-tuning with significantly fewer parameters. Despite its success, LoRA faces challenges related to the storage of numerous task-specific or user-specific modules on top of a base model.  In this talk, I will discuss the importance of parameter-efficient fine-tuning in natural language processing (NLP) and provide an overview of various PEFT approaches for large language models. I will introduce our latest research, LoRA-XS (Low-Rank Adaptation with eXtremely Small number of parameters), which leverages Singular Value Decomposition (SVD) to further enhance parameter efficiency. I will also highlight emerging trends and future possibilities in efficient fine-tuning.
   author-bio: >- 
-    Michał Jamroż is a Data Scientist with an engineering background who has 9 years of industrial experience in Machine Learning. He is also practicing academic research as a Ph.D. candidate, where my interests revolve around deep architectures, representation learning, and probabilistic modeling.
-  co-authors: 
-  date: Friday / 27 October
-  time: 15:40 - 16:05
-  room: Main Lecture Hall
+    Klaudia Bałazy is a Senior Deep Learning Engineer at NVIDIA and a PhD student at the Jagiellonian University. She is also an active member of the Group of Machine Learning Research (GMUM). Her research primarily focuses on enhancing the efficiency of deep learning solutions, with particular emphasis on model compression, dynamic neural networks, and the parameter efficiency of large language models. Klaudia holds both a Master's and an Engineer's degree in Computer Science from the AGH University of Science and Technology. Throughout her career, she has led and participated in various AI-based projects across several tech startups, contributing to the development of practical AI applications.
+  date: 08.11.2024
+  time: 15:00 - 15:25
+  room: Lecture Hall A
   session: CfC Session 4
   id: 11
-  author-image: images/optimized/cfc-2023-600x600/michał_jamroż.webp
-  slides: docs/cfc_talk_11.pdf
+  author-image: images/optimized/cfc-600x600/klaudia_balazy.webp
 
-- author-name: Kamil Deja
-  title: "Diffusion models - what we already can and yet can't generate"
-  author-title: "Warsaw University of Technology / IDEAS NCBR"
+- author-name: Adam Dziedzic
+  title: "Open LLMs are Necessary for Private Adaptations and Outperform their Closed Alternatives"
+  author-title: "CISPA Helmholtz Center for Information Security"
   abstract: >- 
-    In this presentation, I will provide an overview of recent advancements in generative modeling using diffusion models. I will begin with a brief introduction, followed by a review of several recent publications that highlight significant progress. These advancements include concepts like classifier guidance, representation learning, selective forgetting, and continual learning within the context of diffusion models. During the presentation, I'll highlight the practical applications where diffusion-based generative models excel and delve into interesting research opportunities that arise from the limitations of these models.
+    While open Large Language Models (LLMs) have made significant progress, they still fall short of matching the performance of their closed, proprietary counterparts, making the latter attractive even for the use on highly private data. Recently, various new methods have been proposed to adapt closed LLMs to private data without leaking private information to third parties and/or the LLM provider. In this talk, we will analyze the privacy protection and performance of the four most recent methods for private adaptation of closed LLMs. By examining their threat models and thoroughly comparing their performance under different privacy levels according to differential privacy (DP), various LLM architectures, and multiple datasets for classification and generation tasks, we found that: (1) all the methods leak query data, i.e., the (potentially sensitive) user data that is queried at inference time, to the LLM provider, (2) three out of four methods also leak large fractions of private training data to the LLM provider while the method that protects private data requires a local open LLM, (3) all the methods exhibit lower performance compared to three private gradient-based adaptation methods for local open LLMs, and (4) the private adaptation methods for closed LLMs incur higher monetary training and query costs than running the alternative methods on local open LLMs. This yields the conclusion that to achieve truly privacy-preserving LLM adaptations that yield high performance and more privacy at lower costs, one should use open LLMs.
   author-bio: >- 
-    Kamil Deja is a Ph.D. student at Warsaw University of Technology and a researcher at IDEAS NCBR. He was a Visiting Researcher at Vrije University of Amsterdam in 2022 and a science intern at Amazon Alexa in 2021 and 2022. Since 2018, he has been a member of the ALICE Collaboration at CERN. His research focuses on Generative Modelling and its application to continual learning. He published his works in major ML journals and conferences, including NeurIPS, IJCAI, Interspeech, and ICASSP.
-  co-authors: 
-  date: Friday / 27 October
-  time: 16:05 - 16:30
-  room: Main Lecture Hall
+    Adam is a Tenure Track Faculty Member at CISPA Helmholtz Center for Information Security, co-leading the SprintML group. His research is focused on secure and trustworthy Machine Learning as a Service (MLaaS). Adam designs robust and reliable machine learning methods for training and inference of ML models while preserving data privacy and model confidentiality. Adam was a Postdoctoral Fellow at the Vector Institute and the University of Toronto, and a member of the CleverHans Lab, advised by Prof. Nicolas Papernot. He earned his PhD at the University of Chicago, where he was advised by Prof. Sanjay Krishnan and worked on input and model compression for adaptive and robust neural networks. Adam obtained his Bachelor's and Master's degrees from Warsaw University of Technology in Poland. He was also studying at DTU (Technical University of Denmark) and carried out research at EPFL, Switzerland. Adam also worked at CERN (Geneva, Switzerland), Barclays Investment Bank in London (UK), Microsoft Research (Redmond, USA), and Google (Madison, USA).
+  date: 08.11.2024
+  time: 15:30 - 15:55
+  room: Lecture Hall A
   session: CfC Session 4
   id: 12
-  author-image: images/optimized/cfc-2023-600x600/kamil_deja.webp
+  author-image: images/optimized/cfc-600x600/adam_dziedzic.webp
 
-- author-name: Piotr Januszewski
-  title: "Mastering MLOps at a Reasonable Scale at Allegro"
-  author-title: "Allegro"
+- author-name: Kamil Deja
+  title: "Personalisation of large-scale diffusion models"
+  author-title: "Warsaw University of Technology/IDEAS NCBR"
   abstract: >- 
-    In today's competitive e-commerce landscape, Allegro is constantly seeking ways to harness the power of Machine Learning (ML) efficiently. Central to our efforts is the challenge of building ML pipelines that can deliver personalized recommendations to our vast user base. This presentation will share our journey in mastering these pipelines at a scale that's both practical and impactful.
-    
-    While the world of ML offers many tools, working at a "Reasonable Scale" has its hurdles. Unlike tech giants with virtually limitless resources, most enterprises don't have the luxury of processing billions of data points daily, hiring endless talent, or leveraging infinite computing power. At Allegro, we have to be smart with our resources. We often face challenges like ensuring consistent data quality across diverse sources, managing the intricacies of deployment without the luxury of vast dedicated teams, or the need to make quick recommendations with the computing power we have available. Adapting to new ML techniques while keeping our systems efficient is a constant balancing act.
-    
-    This talk will dive deep into the challenges of doing ML at a reasonable scale. Through Allegro's experiences, we aim to show that with the right strategies, even mid-sized operations can achieve great ML outcomes.
+    -Mum, Can we have a diffusion model?  -We have a diffusion model at home!  Diffusion model at home: Well, come and listen :)  In this talk, I will discuss recent advances in large-scale diffusion model personalisation methods. I will overview and explain techniques for finetuning off-the-shelf models to generate images with desired concepts or styles, starting from naive finetuning through low-rank adaptation to data-free model editing techniques. On top of adding new concepts to the existing model, I will outline state-of-the-art unlearning approaches that allow for the precise removal of unwanted content.
   author-bio: >- 
-    Piotr graduated with honors his engineering and master's degrees in computer science at the Gdańsk University of Technology. He is a research engineer in the Machine Learning Research team at Allegro, where he works on the application of reinforcement learning for recommendation systems. At the same time, he is conducting research for his PhD in deep reinforcement learning at the Gdańsk University of Technology. During his scientific career, he had the opportunity to, among others, cooperate with the VGG group at the University of Oxford on the "Toddler-Inspired Active Representation Learning" project and prepared materials and conducted classes on "Reinforcement Learning" at the University of Warsaw. While working at Intel Technology Poland, Piotr also gained experience in implementing drivers for general-purpose computing on Intel GPUs and implementing libraries for Intel's deep learning accelerators.
-    Privately, he is interested in science in general, and space exploration in particular. He likes hard sci-fi movies and books, post-apocalyptic, detective stories, but also space-opera novels. In his free time, he runs, bikes, snowboards, and watches the stars through his Newtonian telescope.
-  co-authors: Marcin Cylke
-  date: Friday / 27 October
-  time: 15:15 - 15:40
-  room: Lecture Hall A
+    Kamil Deja is a postdoctoral researcher at IDEAS NCBR and Warsaw University of Technology where he obtained a Ph.D. His research focuses on Generative Modelling with applications to Continual Learning. He has previously interned at Virje Universiteit in Amsterdam and twice at Amazon Alexa. His research work has been published in prestigious conferences such as NeurIPS, IJCAI, and Interspeech. In recognition of his accomplishments, Kamil received the FNP Start scholarship in 2023, awarded to the top-100 young researchers in Poland.
+  date: 08.11.2024
+  time: 14:30 - 14:55
+  room: Lecture Hall B
   session: CfC Session 5
   id: 13
-  author-image: images/optimized/cfc-2023-600x600/piotr_januszewski.webp
-  slides: docs/cfc_talk_13.pdf
+  author-image: images/optimized/cfc-600x600/kamil_deja.webp
 
-- author-name: Maja Jabłońska
-  title: "Unlocking Scientific Discoveries with Large Language Models in Astronomy"
-  author-title: "Australian National University"
+- author-name: Dawid Rymarczyk
+  title: "Current trends in intrinsically interpretable deep learning"
+  author-title: "Jagiellonian University; Ardigen SA"
   abstract: >- 
-    Recent advances in understanding, generating, and interpreting human language have brought Large Language Models (LLMs) to the forefront of research. Intrigued by their potential, we have focused on utilizing LLMs for hypothesis generation within the field of astronomy—a domain that serves as an ideal platform for integrating machine learning. This suitability stems from the field's vast, publicly available datasets, limited privacy concerns, and an abundant corpus of expert literature. Our initiative, UniverseTBD, is a multidisciplinary collaboration that includes approximately 30 active contributors and partners with the core team of NASA's ADS server, a primary data repository for astronomers.
-    
-    Our objectives are twofold: to enhance information retrieval through improved semantic representation and to pioneer new frontiers in hypothesis generation. Our expert team of astronomers acts as human evaluators, employing their domain expertise to assess the quality of the hypotheses generated by the models.
-    
-    Our efforts are coordinated around two pivotal activities: (a) fine-tuning existing large-scale models, primarily LLaMA, with a comprehensive corpus of astronomy literature from arXiv, and (b) exploring various instruction-based learning techniques to build upon these refined models. Noteworthy outcomes include a marked improvement in the quality of generated hypotheses, thanks to adversarial prompting that employs teacher and student models. We have also implemented classifier-free guidance and negative prompting to enhance the robustness and diversity of hypothesis generation. Through rigorous human evaluations, we've shown that our machine-generated hypotheses are beginning to match human-level quality.
-    
-    We believe our work will become an invaluable resource for early-career researchers and smaller academic institutions, thereby democratizing access to specialized expertise in astronomy.
+    The talk will focus on intrinsically interpretable deep learning models, where the transparent reasoning process is integral to the prediction, eliminating the need for an explainer to interpret the results. I will discuss current trends in this field, including continual learning of these models using prototypical parts architecture (Rymarczyk@ICCV2023), the limitations of prototypical parts in their interpretations (Sacha@AAAI2024, Ma@NeurIPS2023, Pach@arxiv2024), and ways to involve users in interacting with interpretations to create more reliable models (Kim@ECCV2022, Bontempelli@ICLR2023).
   author-bio: >- 
-    Maja Jabłońska is currently pursuing PhD degree in Astronomy at the Australian National University. She previously obtained her bachelor's degree in Computer Science degree at the Warsaw University of Technology and master's in Astronomy at Warsaw University. Maja is a member of ML in PL Association and co-organizer of ML in PL Conference 2020-2023.
-  co-authors: 
-  date: Friday / 27 October
-  time: 15:40 - 16:05
-  room: Lecture Hall A
+    In 2024, I earned a PhD with distinction in a topic related to interpretable neural networks. Since 2017, I have been working as a Data Scientist at Ardigen, where I was recently promoted to Director of Data Science and Lead Data Scientist. My research interests include computer vision, prototypical parts for deep learning architectures, and AI applications in the drug discovery process. I am actively involved in publishing and collaborating with the GMUM and SINN research groups. Additionally, I completed an internship with Dr. Joost van de Weijer's group and attended the International Computer Vision Summer School (ICVSS).
+  date: 08.11.2024
+  time: 15:00 - 15:25
+  room: Lecture Hall B
   session: CfC Session 5
   id: 14
-  author-image: images/optimized/cfc-2023-600x600/maja_jabłońska.webp
-  slides: docs/cfc_talk_14.pdf
+  author-image: images/optimized/cfc-600x600/dawid_rymarczyk.webp
 
-- author-name: Piotr Płoński
-  title: "Create User Interface for Machine Learning models directly from Python Notebook"
-  author-title: "MLJAR"
+- author-name: Przemysław Spurek
+  title: "Neural rendering: the future of 3D modeling"
+  author-title: "Jagiellonian University"
   abstract: >- 
-    The Jupyter Notebook is a widely used tool in Machine Learning. It can be used for training and inference of ML pipelines. In the inference mode, the User Interface can greatly simplify the usage of the ML model. What is more, the UI allows non-technical users to use and test ML models. In this talk, we would like to introduce the Mercury framework for creating UI for ML models in Jupyter Notebooks.
+    The presentation will present the central concept of neural rendering for modeling 3D objects. We concentrate on Neural Radiation Fields (NeRFs) and Gaussian Splatting (GS). Then, new results obtained by the GMUM Neural Rendering group will be presented. NeRF has demonstrated the remarkable potential of neural networks to capture the intricacies of 3D objects. NeRFs excel at producing strikingly sharp novel views of 3D objects by encoding the shape and color information within neural network weights. Recently, numerous generalizations of NeRFs utilizing generative models have emerged, expanding its versatility. In contrast, GS offers a similar render quality with faster training and inference, as it does not need neural networks to work. It encodes information about the 3D objects in the set of Gaussian distributions that can be rendered in 3D similarly to classical meshes.
   author-bio: >- 
-    Piotr is software engineer trying to make data science tools easier to use for everyone. He is working on open source tools: mljar-supervised and mercury.
-  co-authors: Aleksandra Płońska
-  date: Friday / 27 October
-  time: 16:05 - 16:30
-  room: Lecture Hall A
+    Przemysław Spurek is the leader of the Neural Rendering research team at IDEAS NCBR and a researcher in the GMUM group operating at the Jagiellonian University in Krakow. In 2014, he defended his PhD in machine learning and information theory. In 2023, he obtained his habilitation degree and became a university professor. He has published articles at prestigious international conferences such as NeurIPS, ICML, IROS, AISTATS, ECML. He co-authored the book Głębokie uczenie. Wprowadzenie [Deep Learning. Introduction] – a compendium of knowledge about the basics of AI. He was the director of PRELUDIUM, SONATA, OPUS and SONATA BIS NCN grants. Currently, his research focuses mainly on neural rendering, in particular NeRF and Gaussian Splatting models.
+  date: 08.11.2024
+  time: 15:30 - 15:55
+  room: Lecture Hall B
   session: CfC Session 5
   id: 15
-  author-image: images/optimized/cfc-2023-600x600/piotr_płoński.webp
-  slides: docs/cfc_talk_15.pdf
+  author-image: images/optimized/cfc-600x600/przemyslaw_spurek.webp
 
-- author-name: Maciek Wiatrak
-  title: "Fighting Antibiotic Resistance with Deep Learning"
-  author-title: "University of Cambridge"
+- author-name: Franziska Boenisch
+  title: "Finding NeMo: Localizing Neurons Responsible For Memorization in Diffusion Models"
+  author-title: "CISPA Helmholtz Center for Information Security"
   abstract: >- 
-    Rapid diagnosis of antibiotic-resistant bacteria and understanding the molecular mechanisms of Antimicrobial resistance (AMR) is a major unsolved problem which poses a significant threat to global public health. Here, we report substantially improved antibiotic resistance prediction from DNA sequences through the introduction of a novel deep learning architecture called GeneBac. We show that by leveraging the DNA sequence information and gene regulatory interactions in a bacterial strain, GeneBac is capable of accurately predicting minimum inhibitory concentration (MIC) to multiple drugs, which allows for a more accurate diagnosis and is a substantial improvement to existing methods that predict a binary label. Furthermore, GeneBac learned to predict the effect of previously unseen genetic variants, which is crucial considering the rapid rate of mutation in bacteria. GeneBac achieves state-of-the-art performance on multiple tasks, including antibiotic resistance, variant effect and gene expression prediction on two distinct bacterial species; Mycobacterium tuberculosis and Pseudomonas aeruginosa. Finally, we show how the modular architecture of GeneBac allows for transfer learning across modalities, leading to improved performance.
+    Diffusion models (DMs) produce very detailed and high-quality images. Their power results from extensive training on large amounts of data usually scraped from the internet without proper attribution or consent from content creators. Unfortunately, this practice raises privacy and intellectual property concerns, as DMs can memorize and later reproduce their potentially sensitive or copyrighted training images at inference time. Prior efforts prevent this issue by either changing the input to the diffusion process, thereby preventing the DM from generating memorized samples during inference or removing the memorized data from training altogether. While those are viable solutions when the DM is developed and deployed in a secure and constantly monitored environment, they hold the risk of adversaries circumventing the safeguards and are not effective when the DM itself is publicly released. To solve the problem, we introduce NeMo, the first method to localize the memorization of individual data samples down to the level of neurons in DMs' cross-attention layers. Through our experiments, we make the intriguing finding that in many cases, single neurons are responsible for memorizing particular training samples. By deactivating these memorization neurons, we can avoid the replication of training data at inference time, increase the diversity in the generated outputs, and mitigate the leakage of private and copyrighted data. In this way, our NeMo contributes to a more responsible deployment of DMs.
   author-bio: >- 
-    Maciek is a 1st year PhD student at Cambridge Centre for AI in Medicine (CCAIM) working on deep learning for single-cell omics, supervised by Prof. Andres Floto, Dr Sarah Teichmann and Prof. Mihaela van der Schaar. Before joining CCAIM he completed his undergraduate studies at UCL with distinction, majoring in Computer Science and minoring in Mathematics, after which he worked for 3 years at BenevolentAI as a Machine Learning Engineer and later Applied Research Team Lead. He previously published on graph learning and NLP for the biomedical domain in conferences such as ICML, EMNLP, ACL and AKBC.
-  co-authors: 
-  date: Friday / 27 October
-  time: 15:15 - 15:40
-  room: Lecture Hall B
+    Franziska is a tenure-track faculty at the CISPA Helmholtz Center for Information Security where she co-leads the SprintML lab. Before, she was a Postdoctoral Fellow at the University of Toronto and Vector Institute advised by Prof. Nicolas Papernot. Her current research centers around private and trustworthy machine learning. Franziska obtained her Ph.D. at the Computer Science Department at Freie University Berlin, where she pioneered the notion of individualized privacy in machine learning. During her Ph.D., Franziska was a research associate at the Fraunhofer Institute for Applied and Integrated Security (AISEC), Germany. She received a Fraunhofer TALENTA grant for outstanding female early career researchers, the German Industrial Research Foundation prize for her research on machine learning privacy, and the Fraunhofer ICT Dissertation Award 2023, and was named a GI-Junior Fellow in 2024.
+  date: 09.11.2024
+  time: 12:00 - 12:25
+  room: Main Lecture Hall
   session: CfC Session 6
   id: 16
-  author-image: images/optimized/cfc-2023-600x600/maciek_wiatrak.webp
-  slides: docs/cfc_talk_16.pdf
+  author-image: images/optimized/cfc-600x600/franziska_boenisch.webp
 
-- author-name: Paulina Tomaszewska
-  title: "Deep spatial context - digital pathology"
-  author-title: "Warsaw University of Technology"
+- author-name: Jan Dubiński
+  title: "CDI: Copyrighted Data Identification in Diffusion Models"
+  author-title: "Warsaw University of Technology; IDEAS NCBR"
   abstract: >- 
-    Neural networks find application in the processing of histopathological images. However, it comes with some challenges. One of the most popular approaches is an attention-based model. In the talk, the Deep Spatial Context method will be presented, which was inspired by the need to analyse whether the behaviour of the trained models aligns with the histopathologists' good practices that take into account contextual information. The proposed Spatial Context Measures allow a quantitative measurement of the role of the spatial context.
+    Diffusion Models (DMs) benefit from large and diverse datasets for their training. Since this data is often scraped from the internet without permission from the data owners, this raises concerns about copyright and intellectual property protections. While (illicit) use of data is easily detected for training samples perfectly re-created by a DM at inference time, it is much harder for data owners to verify if their data was used for training when the outputs from the suspect DM are not close replicas. Conceptually, membership inference attacks (MIAs), which detect if a given data point was used during training, present themselves as a suitable tool to address this challenge. However, we demonstrate that existing MIAs are ineffective in determining the membership of individual images in large DMs. To overcome this limitation, we propose Copyrighted Data Identification (CDI), a framework for data owners to identify whether their dataset was used to train a given DM. CDI relies on dataset inference techniques, i.e., instead of using the membership signal from a single data point, CDI leverages the fact that most data owners, such as providers of stock photography, visual media companies, or even individual artists, own datasets with multiple publicly exposed data points which might all be included in the training of a given DM. By selectively aggregating signals from existing MIAs and using new handcrafted methods to extract features for these datasets, feeding them to a scoring model, and applying rigorous statistical testing, CDI allows data owners with as little as 70 data points to identify with a confidence of more than 99% whether their data was used to train a DM. Thereby, CDI represents a valuable tool for data owners to claim illegitimate use of their copyrighted data.
   author-bio: >- 
-    Paulina Tomaszewska is a PhD student in Computer Science at the Warsaw University of Technology. She gained experience in artificial intelligence at leading universities such as Tsinghua University (China), Nanyang Technological University (Singapore), Institute of Science and Technology Austria, École Polytechnique Fédérale de Lausanne (Switzerland). Recently, her research mainly concerns digital pathology, especially in the area of investigating whether the Deep Learning models capture and pay attention to contextual information.
-  co-authors: Elżbieta Sienkiewicz, Mai P. Hoang, Przemysław Biecek
-  date: Friday / 27 October
-  time: 15:40 - 16:05
-  room: Lecture Hall B
+    Jan Dubiński is pursuing a PhD in deep learning at the Warsaw University of Technology. He is a member of the ALICE Collaboration at LHC CERN. Jan has been working on fast simulation methods for High Energy Physics experiments at the Large Hadron Collider at CERN. The methods developed in this research leverage generative deep learning models such as GANs to provide a computationally efficient alternative to existing Monte Carlo-based methods. More recently, he has focused on issues related to the security of machine learning models and data privacy. His latest efforts aim to improve the security of self-supervised and generative methods, which are often overlooked compared to supervised models.
+  date: 09.11.2024
+  time: 12:30 - 12:55
+  room: Main Lecture Hall
   session: CfC Session 6
   id: 17
-  author-image: images/optimized/cfc-2023-600x600/paulina_tomaszewska.webp
-  slides: docs/cfc_talk_17.pdf
+  author-image: images/optimized/cfc-600x600/jan_dubinski.webp
 
-- author-name: Tomasz Konopczyński
-  title: "Artificial Intelligence for non-invasive cardiac diagnostics"
-  author-title: "Hemolens Diagnostics"
+- author-name: Bartlomiej Sobieski
+  title: "Global Counterfactual Directions"
+  author-title: "MI2.ai, University of Warsaw"
   abstract: >- 
-    The integration of Artificial Intelligence (AI) in cardiovascular imaging is revolutionizing the field of coronary artery disease (CAD) diagnostics. In recent years, in the domain of computed tomography angiography (CTA), a fractional flow reserve (FFR) derived from coronary CTA using computational fluid dynamics, has been used as a compelling, non-invasive, in-silico replacement for invasive diagnostic techniques. The patient-specific hemodynamic features, and in particular the FFR in coronary arteries is an essential step in providing personalized and accurate diagnosis of CAD. This talk delves into the impactful use of AI to augment cardiovascular disease diagnosis, with a focus on the innovative CenterlinePointNet++ architecture (accepted to MICCAI 2023), which is a new point cloud based architecture for patient-specific, coronary artery hemodynamic features estimation.
+    Explaining the decision-making process of image classifiers is a long-standing problem for which, as of today's state of knowledge, no ultimate solution exists. Counterfactual explanations aim to provide such explanation by presenting the user with the answer to a specific what-if question, such as "what would be the hair color classifier's decision if the eye color changed". Crucially, this type of explanation stands at the highest level of Pearl’s causality ladder as they help humans in identifying the cause-effect relations of the model’s decision and its input. However, constructing these explanations is extremely difficult, as they require precise control over the image content conditioned on the model's inference process. Therefore, previous works made strong assumptions about the model's availability, e.g. so-called white-box access which assumes that one can utilize fully the classifier's gradients. Unfortunately, this scenario is often not observed in practice. Many models, such as the latest ChatGPT, allow only black-box access, i.e. observing only the input and the model's output through an API.  In this work, we propose a novel state-of-the-art solution to finding visual counterfactual explanations in a black-box scenario. We discover a remarkable property of Diffusion Autoencoders, a type of diffusion model, whose latent space encodes the decision-making process of a classifier in a form of global directions. Despite assuming black-box access to the model of interest, our method finds these directions using only a single image, which allows for limiting the generation of explanations to pure inference of the generative model. In addition, we show that the nature of our approach can be utilized to improve the understanding of the explanations themselves by extending the Latent Integrated Gradients method to black-box case. Overall, our method pushes the boundaries of explaining models with greatly limited access, while also shedding light at interesting properties of Diffusion Autoencoders.  This work has been accepted as a conference paper on the upcoming European Conference on Computer Vision (ECCV) 2024, rated as A* conference in the CORE ranking.  Paper link: https://arxiv.org/abs/2404.12488
   author-bio: >- 
-    Tomasz is a computer science professional with over 10 years of experience in machine learning and computer vision. He received his doctorate in computer science from Heidelberg University in 2021. He has been a visiting scholar at several prestigious institutions, including KU Leuven, University of Padua, and University of Illinois at Chicago.
-    He is an author and co-author of 20 scientific publications and 3 patent applications. Currently, he is leading the AI team at the Hemolens Diagnostics as the Head of AI working on a cutting-edge cardio-diagnostic technology revolutionizing the market by significantly reducing risks associated with invasive tests.
-  co-authors: 
-  date: Friday / 27 October
-  time: 16:05 - 16:30
-  room: Lecture Hall B
+    I am an AI researcher passionate about combining image generative models and explainable computer vision. I believe that highly advanced mathematics is the key for developing better AI models and explaining their decision-making process.
+  date: 09.11.2024
+  time: 13:00 - 13:25
+  room: Main Lecture Hall
   session: CfC Session 6
   id: 18
-  author-image: images/optimized/cfc-2023-600x600/tomasz_konopczyński.webp
-  slides: docs/cfc_talk_18.pdf
+  author-image: images/optimized/cfc-600x600/bartlomiej_sobieski.webp
 
-- author-name: Piotr Rybak
-  title: "The State of Polish Semantic Search in the Era of LLMs"
-  author-title: "IPI PAN"
+- author-name: Michał Bortkiewicz
+  title: "Accelerating Goal-Conditioned RL Algorithms and Research"
+  author-title: "Warsaw University of Technology"
   abstract: >- 
-    As Large Language Models (LLMs) gain popularity, concerns about hallucination are becoming more prevalent. One effective approach to addressing this issue is to augment the prompt with related documents, allowing LLMs to rely on existing information rather than generating facts. However, the challenge is to identify relevant documents efficiently and accurately. In this talk, I will give an overview of the Polish semantic search field. I will discuss the existing models and their training datasets, present the new models, and share insights from the PolEval competition challenge, which focused on tackling this problem.
+    Self-supervision has the potential to transform reinforcement learning (RL), paralleling the breakthroughs it has enabled in other areas of machine learning. While self-supervised learning in other domains aims to find patterns in a fixed dataset, self-supervised goal-conditioned reinforcement learning (GCRL) agents discover new behaviors by learning from the goals achieved during unstructured interaction with the environment. However, these methods have failed to see similar success, both due to a lack of data from slow environments as well as a lack of stable algorithms. We take a step toward addressing both of these issues by releasing a high-performance codebase and benchmark JaxGCRL for self-supervised GCRL, enabling researchers to train agents for millions of environment steps in minutes on a single GPU. The key to this performance is a combination of GPU-accelerated environments and a stable, batched version of the contrastive reinforcement learning algorithm, based on an infoNCE objective, that effectively makes use of this increased data throughput. With this approach, we provide a foundation for future research in self-supervised GCRL, enabling researchers to quickly iterate on new ideas and evaluate them in a diverse set of challenging environments.
   author-bio: >- 
-    Piotr Rybak has been involved in machine learning for more than 10 years. He has gained experience in academia, as well as start-ups and larger companies. On a daily basis, he focuses on natural language processing, currently researching how to build better systems for answering questions. He is active in the Polish NLP community being a co-author of works such as the KLEJ benchmark and the HerBERT and plT5 models. In his free time, he builds with Legos, plays board games, and trains climbing.
-  co-authors: 
-  date: Saturday / 28 October
+    Michał Bortkiewicz is a PhD student at Warsaw University of Technology, where his research centres on Continual and Reinforcement Learning. As a data scientist, he advises companies on implementing deep learning methods for data-intensive tasks. Michał has previously worked as a deep learning engineer at Samsung Research, focusing on audio intelligence projects, at Scope Fluidics, where he specialized in computer vision, and at Airspace Intelligence, where he dealt with tabular machine learning.
+  date: 09.11.2024
   time: 12:00 - 12:25
-  room: Main Lecture Hall
+  room: Lecture Hall A
   session: CfC Session 7
   id: 19
-  author-image: images/optimized/cfc-2023-600x600/piotr_rybak.webp
-  slides: docs/cfc_talk_19.pdf
+  author-image: images/optimized/cfc-600x600/michal_bortkiewicz.webp
 
-- author-name: Charles O'Neill
-  title: "Steering Language Generation: Harnessing Contrastive Guidance and Negative Prompting for Coherent and Diverse Synthetic Data Generation"
-  author-title: "The Australian National University"
+- author-name: Bartłomiej Cupiał
+  title: "Fine-tuning Reinforcement Learning Models is Secretly a Forgetting Mitigation Problem"
+  author-title: "University of Warsaw / IDEAS NCBR"
   abstract: >- 
-    Large Language Models (LLMs) hold immense potential to generate synthetic data of high quality and utility, which has numerous applications from downstream model training to practical data utilisation. However, contemporary models, despite their impressive capacities, consistently struggle to produce both coherent and diverse data. To address this, we introduce an innovative approach that employs classifier-free contrastive guidance and negative prompting for inference-time logit reshaping. Our approach systematically guides the LLMs to strike a balance between adherence to the data distribution (ensuring semantic fidelity) and deviation from prior synthetic examples or existing real datasets (ensuring diversity and authenticity). Our key contribution lies in this delicate balancing act, achieved by dynamically moving towards or away from chosen representations in the latent space. We evaluate our method using principles from minimum set theory, abstracting metrics for precision, recall, and authenticity. Using these metrics, our method demonstrates superior performance to previous data generation techniques across all dimensions of fidelity, diversity, and authenticity in three distinct tasks. Our findings underscore the universality and effectiveness of our approach, positioning it as a generalisable algorithm in synthetic data generation that fully capitalises on the strengths of LLMs.
+    Fine-tuning is a widespread technique that allows practitioners to transfer pre-trained capabilities, as recently showcased by the successful applications of foundation models. However, fine-tuning reinforcement learning (RL) models remains a challenge. This work conceptualizes one specific cause of poor transfer, accentuated in the RL setting by the interplay between actions and observations: forgetting of pre-trained capabilities. Namely, a model deteriorates on the state subspace of the downstream task not visited in the initial phase of fine-tuning, on which the model behaved well due to pre-training. This way, we lose the anticipated transfer benefits. We identify conditions when this problem occurs, showing that it is common and, in many cases, catastrophic. Through a detailed empirical analysis of the challenging NetHack and Montezuma's Revenge environments, we show that standard knowledge retention techniques mitigate the problem and thus allow us to take full advantage of the pre-trained capabilities. In particular, in NetHack, we achieve a new state-of-the-art for neural models, improving the previous best score from 5K to over 10K points in the Human Monk scenario.
   author-bio: >- 
-    Charles is an undergraduate Honours student at ANU studying mathematics and computer science. He has a broad history of implementing and researching applied AI systems, from healthcare to climate change, in both an industry and academic setting. He is particularly interested in cross-disciplinary pollination between different subfields of machine learning as a means to improve generative AI.
-  co-authors: Yuan-Sen Ting, Ioana Ciuca, Thang Bui
-  date: Saturday / 28 October
-  time: 12:25 - 12:50
-  room: Main Lecture Hall
+    Bartłomiej Cupiał is a PhD student at IDEAS NCBR and the University of Warsaw. He finished his master's degree at Jagiellonian University and bachelor's degree at Wrocław University of Science and Technology. Currently, he is working on combining reinforcement learning with large language models.  In particular, how to improve exploration in RL with the help of LLMs and how to integrate external knowledge into RL agents.
+  date: 09.11.2024
+  time: 12:30 - 12:55
+  room: Lecture Hall A
   session: CfC Session 7
   id: 20
-  author-image: images/empty.png
-  slides: docs/cfc_talk_20.pdf
+  author-image: images/optimized/cfc-600x600/bartlomiej_cupial.webp
 
-- author-name: Sneha Jha
-  title: "Memory optimization for finetuning models"
-  author-title: "Imperial College London"
+- author-name: Adam Pardyl
+  title: "AdaGlimpse: Active Visual Exploration with Arbitrary Glimpse Position and Scale"
+  author-title: "IDEAS NCBR; Jagiellonian University"
   abstract: >- 
-    Large deep learning models often require memory far in excess of processing units typically available. This presents unique challenges in fine-tuning models with a large number of parameters. We aim to discuss the group of memory optimization techniques such as low-rank adaptation, quantization etc applicable to models like the recent LLMs. These techniques are scattered across the literature and this talk attempts to bring them together in an attempt to discuss how these may allow us to use large models in single/multiple GPU settings for custom experiments.
+    Active Visual Exploration (AVE) is a task that involves dynamically selecting observations (glimpses), which is critical to facilitate comprehension and navigation within an environment. While modern AVE methods have demonstrated impressive performance, they are constrained to fixed-scale glimpses from rigid grids. In contrast, existing mobile platforms equipped with optical zoom capabilities can capture glimpses of arbitrary positions and scales. To address this gap between software and hardware capabilities, we introduce AdaGlimpse. It uses Soft Actor-Critic, a reinforcement learning algorithm tailored for exploration tasks, to select glimpses of arbitrary position and scale. This approach enables our model to rapidly establish a general awareness of the environment before zooming in for detailed analysis. Experimental results demonstrate that AdaGlimpse surpasses previous methods across various visual tasks while maintaining greater applicability in realistic AVE scenarios.
   author-bio: >- 
-    Sneha Jha is a postgraduate researcher at Imperial College London where she does interdisciplinary work across the Dept of Mathematics and the Dept of Surgery and Cancer. She is a member of the iCARE  group under the NIHR Imperial Biomedical Research Center. Prior to Imperial College, she received a graduate degree in computer science from University of Pennsylvania and worked at the Clinical Language Understanding Research group at Nuance Communications. Her research interests are in machine learning and natural language processing with a focus on solving problems in health care. She is also interested in the overlap of technology with policy, law and ethics.
-  co-authors: 
-  date: Saturday / 28 October
-  time: 12:50 - 13:15
-  room: Main Lecture Hall
+    Researcher @ Sustainable Machine Learning For Autonomous Machines team, IDEAS NCBR PhD candidate @ GMUM, UJ
+  date: 09.11.2024
+  time: 13:00 - 13:25
+  room: Lecture Hall A
   session: CfC Session 7
   id: 21
-  author-image: images/optimized/cfc-2023-600x600/sneha_jha.webp
-  slides: docs/cfc_talk_21.pdf
+  author-image: images/optimized/cfc-600x600/adam_pardyl.webp
 
-- author-name: Kacper Łodzikowski
-  title: "What AI developers need to know about AI governance"
-  author-title: "Pearson"
+- author-name: Tomasz Piotrowski
+  title: "Fixed points of nonnegative neural networks"
+  author-title: "Nicolaus Copernicus University in Toruń"
   abstract: >- 
-    Research shows that AI governance is a key impediment to the adoption of AI solutions, and the landscape is becoming increasingly complex in 2023. Around the world, governments are enacting regulations that impose data and algorithmic transparency obligations on AI providers, while courts are setting landmark precedents in AI copyright law.
-    
-    This complexity poses a considerable risk, especially for institutions and startups that lack the resources for legal consultation at every stage of a project. A single poor decision can derail months-long, multi-million-dollar initiatives. Therefore, this talk aims to provide attendees with the essential knowledge to navigate the evolving landscape of AI governance and mitigate such risks.
-    
-    We will start by delving into software licenses, addressing such questions as: To what extent can a 'research-only' open-source model be used in a for-profit setting? What are the caveats in reusing an open-source model published under a commercial license if the original training data was not commercially licensed? Do you retain copyright when using AI coding assistants?
-    
-    Next, we will address the challenges associated with model training data. This will encompass emerging legal interpretations on copyright infringement for using publicly available data and recent challenges from data protection regulators regarding the scraping of publicly available data as a violation of privacy rights. We will also tackle the decision-making process for releasing your own data, exploring what types of licenses facilitate reusability.
-    
-    Finally, we will examine the regulatory landscape for model deployment, focusing on Article 28b of the European Union's upcoming AI Act. We will cover the practical implications of this act, such as how open-source models are more likely to meet these regulatory requirements and how substantial alterations to a model could reclassify you as the provider, thereby imposing new regulatory obligations.
-    
-    While the exact answers to these questions will inevitably vary based on jurisdiction and circumstances, attendees will leave the session better equipped to spot and mitigate potential red flags.
+    We use fixed point theory to analyze nonnegative neural networks, which we define as neural networks that map nonnegative vectors to nonnegative vectors. We first show that nonnegative neural networks with nonnegative weights and biases can be recognized as monotonic and (weakly) scalable mappings within the framework of nonlinear Perron-Frobenius theory. This fact enables us to provide conditions for the existence of fixed points of nonnegative neural networks having inputs and outputs of the same dimension, and these conditions are weaker than those recently obtained using arguments in convex analysis. Furthermore, we prove that the shape of the fixed point set of nonnegative neural networks with nonnegative weights and biases is an interval, which under mild conditions degenerates to a point. These results are then used to obtain the existence of fixed points of more general nonnegative neural networks. From a practical perspective, our results contribute to the understanding of the behavior of autoencoders, and we also offer valuable mathematical machinery for future developments in deep equilibrium models.
   author-bio: >- 
-    Kacper Łodzikowski is the Vice President of AI Capabilities at Pearson. His group primarily focuses on natural language processing, computational psychometrics, human-computer interaction, and ethical AI governance. He is also a linguistics researcher and AI lecturer at Adam Mickiewicz University in Poznań, Poland.
-  co-authors: 
-  date: Saturday / 28 October
+    Tomasz Piotrowski received the M.Sc. degree in Mathematics from SilesianUniversity of Technology, Poland, in 2004, the M.Sc. degree in Information Processing & Neural Networks from King’s College London, UK, in 2005, the Ph.D. degree from Tokyo Institute of Technology, Japan, in 2008, and the D.Sc. degree from Systems Research Institute, Polish Academy of Sciences, in 2021.  From 2009 to 2010 he worked in industry as a data analyst at Comarch SA. In 2011, he joined Nicolaus Copernicus University (NCU) in Toruń, Poland as an Assistant Professor. Since 2022, he is an Associate Professor at NCU. He is involved in brain research, signal processing, and mathematical foundations of deep learning.
+  date: 09.11.2024
   time: 12:00 - 12:25
-  room: Lecture Hall A
+  room: Lecture Hall B
   session: CfC Session 8
   id: 22
-  author-image: images/optimized/cfc-2023-600x600/kacper_łodzikowski.webp
-  slides: docs/cfc_talk_22.pdf
+  author-image: images/optimized/cfc-600x600/tomasz_piotrowski.webp
 
-- author-name: Adam Zadrożny
-  title: "First full report on the state of AI adoption in law"
-  author-title: "AnyLawyer Corporation / National Centre for Nuclear Research"
+- author-name: Marcin Przewięźlikowski
+  title: "Augmentation-aware Self-supervised Learning with Conditioned Projector"
+  author-title: "GMUM (Jagiellonian University) / IDEAS NCBR"
   abstract: >- 
-    In 2023, the legal sector faces several challenges, including stagnating wages, rising operational costs, and decreasing productivity. Compounded by the lingering impacts of the COVID-19 pandemic, these issues have accelerated the industry's need for innovation. Concurrently, the rapid advancement of generative AI technologies has begun to significantly influence service sectors, including law.
-    
-    We conducted a comprehensive study to gauge the state and future of AI adoption in the legal field. Over 1,000 interviews were carried out with lawyers worldwide, resulting in 200 law firms completing surveys. The respondents predominantly held key decision-making positions related to technology and innovation within their organizations. Collectively, the surveyed firms employed around 400,000 individuals, including 50,000 lawyers, providing a representative global perspective.
-    
-    The data suggests that generative AI has the potential to substantially disrupt the legal sector within the next three years. Projections indicate that AI could be responsible for approximately 40% of legal tasks in the near future. This technological integration offers significant financial benefits, enabling firms to perform more efficiently and effectively, thereby solidifying their market positions.
-    
-    The benefits of AI adoption extend beyond financial gains. The technology promises to automate routine tasks, enhance efficiency, and thereby improve client services. The increased efficiency could allow firms to handle a higher volume of legal matters in shorter periods, reinforcing their market leadership.
-    
-    In summary, the study underscores the imminent and transformative impact of AI technology on the legal industry. Widespread AI adoption could lead to substantial financial and operational advantages for law firms, as well as increased efficiency within the legal process. As AI becomes an integral part of the legal landscape, proficiency in this technology will be increasingly critical for practitioners in the field.
-    
-    The full report will be published in late September 2023.
+    Self-supervised learning (SSL) is a powerful technique for learning robust representations from unlabeled data. By learning to remain invariant to applied data augmentations, methods such as SimCLR and MoCo are able to reach quality on par with supervised approaches. However, this invariance may be harmful to solving some downstream tasks which depend on traits affected by augmentations used during pretraining, such as color. In this paper, we propose to foster sensitivity to such characteristics in the representation space by modifying the projector network, a common component of self-supervised architectures. Specifically, we supplement the projector with information about augmentations applied to images. In order for the projector to take advantage of this auxiliary conditioning when solving the SSL task, the feature extractor learns to preserve the augmentation information in its representations. Our approach, coined Conditional Augmentation-aware Self-supervised Learning (CASSLE), is directly applicable to typical joint-embedding SSL methods regardless of their objective functions. Moreover, it does not require major changes in the network architecture or prior knowledge of downstream tasks. In addition to an analysis of sensitivity towards different data augmentations, we conduct a series of experiments, which show that CASSLE improves over various SSL methods, reaching state-of-the-art performance in multiple downstream tasks.
   author-bio: >- 
-    Dr. Adam Zadrożny, head of AI at AnyLawyer and astrophysicist working at National Centre for Nuclear Research. In the years 2017-2018 he was postdoc at the Center of Gravitational Wave Astrophysics at the University of Texas Rio Grande Valley. He took part in the first detection of gravitational waves by the international LIGO-Virgo project. As a PhD student he was an intern at Facebook, Inc. (2012).
-  co-authors: mec. Michał Jackowski
-  date: Saturday / 28 October
-  time: 12:25 - 12:50
-  room: Lecture Hall A
+    Marcin Przewięźlikowski is a PhD Student with Group of Machine Learning Research at Jagiellonian University in Kraków, Poland, and IDEAS NCBR. He is interested in data-effciency and works on topics such as Meta-Learning and Self-Supervised Learning.
+  date: 09.11.2024
+  time: 12:30 - 12:55
+  room: Lecture Hall B
   session: CfC Session 8
   id: 23
-  author-image: images/optimized/cfc-2023-600x600/adam_zadrożny.webp
-  slides: docs/cfc_talk_23.pdf
+  author-image: images/optimized/cfc-600x600/marcin_przewiezlikowski.webp
 
-- author-name: Gianmario Spacagna
-  title: "The impact of modern Large Language Models in the EdTech industry"
-  author-title: "Brainly"
+- author-name: Omar Rivasplata
+  title: "Meta-analysis of Bayesian Analyses"
+  author-title: "University of Manchester"
   abstract: >- 
-    2023 will be remembered as the year of the LLM battle among tech companies such as OpenAI, Google, Meta, Nvidia, smaller competitors such as Anthropic, CoHere, as well as other open source initiatives.
-    All of those organizations competing to release a better, larger, more reliable model able to generate text contents.
-    Those modern models are still based on the Transformer architecture, which was already available over the last 5 years and gave birth to BERT and related solutions that quickly conquered the NLP adoption in almost every industry.
-    Thus, how modern language models are different compared from the previous generation of transformers? What does “large” mean? Are we at the dawn of a new chapter for generative AI? What are the impacts and new opportunities for educators and technology providers?
-    
-    In this talk, we will cover an overview of the state of the art of large language models, insights from the educational domain at Brainly, how the data science and engineering approaches are evolving into new paradigms, and we will share some simple tips and best practices to build question answering applications that provide education values to the learners.
+    Meta-analysis aims to generalize results from multiple related statistical analyses through a combined analysis. While the natural outcome of a Bayesian study is a posterior distribution, traditional Bayesian meta-analyses proceed by combining summary statistics (i.e. point-valued estimates) computed from data. In this talk, I will present work with collaborators proposing a framework for combining posterior distributions from multiple related Bayesian studies into a meta-analysis. Importantly, the method is capable of reusing pre-computed posteriors from computationally costly analyses, without needing the implementation details from each study. Besides providing a consensus across studies, the method enables updating the local posteriors post-hoc and therefore refining them by sharing statistical strength between the studies, without rerunning the original analyses. The wide applicability of the framework is illustrated by combining results from likelihood-free Bayesian analyses, which would be difficult to carry out using standard methodology.
   author-bio: >- 
-    Gianmario is leading the AI Services department at Brainly. Their mission is to solve educational challenges with the aim of artificial intelligence in order to give learners around the globe access to personalized learning, and to deliver educational value through it. 
-    His past experience covers a diverse portfolio of machine learning algorithms and data products across different industries such as market research and social intelligence, IoT in automotive, retail and business banking, cybersecurity, predictive marketing, and some occasional freelancing.
-    He is a contributor to the “Professional Manifesto for Data Science” and founder of the “Data Science Milan” community.
-    He holds an MBA and a double master's in Telematics and Software Engineering of Distributed Systems.
-  co-authors: Gianmario Spacagna
-  date: Saturday / 28 October
-  time: 12:50 - 13:15
-  room: Lecture Hall A
+    My top-level topics of interest are statistical learning theory and machine learning theory. In the limit of tending to praxis, these days I am very interested in strategies to train and certify machine learning models.   Currently I am Senior Lecturer (Associate Professor) in Machine Learning in the Department of Computer Science at The University of Manchester, where I am a member of the Manchester Centre for AI Fundamentals and a supervisor at the UKRI AI CDT in Decision-Making for Complex Systems.  Before joining The University of Manchester (July 2024), I had positions at University College London and DeepMind. I have a PhD in Mathematics (University of Alberta, 2012) and a PhD in Statistical Learning Theory (University College London, 2022).   Back in the day I studied undergraduate maths (BSc 2000, Pontificia Universidad Católica del Perú).
+  date: 09.11.2024
+  time: 13:00 - 13:25
+  room: Lecture Hall B
   session: CfC Session 8
   id: 24
-  author-image: images/optimized/cfc-2023-600x600/gianmario_spacagna.webp
-  slides: docs/cfc_talk_24.pdf
+  author-image: images/optimized/cfc-600x600/omar_rivasplata.webp
 
-- author-name: Michał Nowicki
-  title: "Multi-modal mobile robot localization"
-  author-title: "Poznan University of Technology"
-  abstract: >- 
-    The proposed presentation concerns the new solutions for localization with multi-sensory systems, starting with the challenges of multi-sensory localization solutions from exact extrinsic calibration to non-usual sensory stacks. We will discuss camera-3D LiDAR spatiotemporal calibration through bus calibration, multi-sensory place recognition, and haptic localization. The presented solutions create a unified series of works, each based on experiences from previous approaches, even if the application is different. The proposed methods are practical localization solutions or their components that can be a part of the autonomous agents.
-  author-bio: >- 
-    Michał R. Nowicki is an Assistant Professor at the Institute of Robotics and Machine Intelligence, Poznan University of Technology. He graduated from the same University with an MSc degree in Automation and Robotics (specialization: Robotics) in 2014, a BSc degree in Computing in 2014), and a BSc degree in Automation and Robotics (specialization: Robotics) in 2013. In 2018, M. Nowicki defended his Ph.D. thesis concerning multiple-sensory SLAM systems. He has experience in six scientific projects (EU H2020, Polish NCN), seven R&D projects (Polish NCBR), and commercial projects as a researcher, team leader, principal investigator, and head of autonomy. The projects concerned, among others, haptic localization for a walking robot, an ADAS system for bus driving, an autonomous drone for indoor exploration for the military, and autonomy for a fleet of last-mile mobile delivery robots. He is the author of over 60 scientific papers. The main area of research includes the perception, localization, and autonomy of mobile robots indoors and outdoors. Fundamental interests lie in unexplored areas of autonomous mobile robot applications.
-  co-authors:
-  date: Saturday / 28 October
-  time: 12:00 - 12:25
-  room: Lecture Hall B
-  session: Witold Lipski Award
-  id: 25
-  author-image: images/optimized/cfc-2023-600x600/michał_nowicki.webp
-  slides: docs/lipski_talk_25.pdf
-
-- author-name: Adam Polak
-  title: "The story of explainable clustering"
-  author-title: "Bocconi University"
-  abstract: >- 
-    This will be a talk about the problem of explainable clustering in the setting first formalized by Dasgupta, Frost, Moshkovitz, and Rashtchian (ICML 2020). A k-clustering is said to be explainable if it is given by a decision tree where each internal node splits data points with a threshold cut in a single dimension (feature), and each of the k leaves corresponds to a cluster. I will present an algorithm that outputs an explainable clustering that loses at most a factor of log k compared to an optimal (not necessarily explainable) clustering for the k-medians objective – which is provably a necessary price to pay for explainability. The algorithm is remarkably simple and elegant. In particular, given an initial (not necessarily explainable) clustering in d dimensions, it is oblivious to the data points and runs in time ~O(dk), independent of the number of data points n. The talk will be based on our joint work with Buddhima Gamlath, Xinrui Jia, and Ola Svensson, as well as other works in the area.
-  author-bio: >- 
-    I obtained my PhD from Jagiellonian University in Kraków, where I was fortunate to be advised by Paweł Idziak. Afterwards, I worked as a postdoc at Ecole Polytechnique Fédérale de Lausanne and Max Planck Institute for Informatics. Recently, I started a new position as an assistant professor at Bocconi University.
-  co-authors:
-  date: Saturday / 28 October
-  time: 12:25 - 12:50
-  room: Lecture Hall B
-  session: Witold Lipski Award
-  id: 26
-  author-image: images/empty.png
-  slides: docs/lipski_talk_26.pdf
-
-- author-name: Błażej Osiński
-  title: "Towards Efficient Machine Learning for Sequential Decision Making"
-  author-title: "University of Warsaw / Altos Labs"
-  abstract: >-
-    In this talk, I will present my personal journey toward developing efficient machine learning methods for sequential decision making. This journey spans both academia and industry, tackling diverse challenges that range from Atari games to autonomous driving and robotics.
-    Why should we care about efficient methods for sequential decision making? If we observe the progress of artificial intelligence over the last few decades, it has managed to ascend what were perceived as pinnacles of human intelligence. From chess and Go to StarCraft and No Limit Texas Hold'em, machines have toppled human champions. The emergence of large language models extends this progress to more open-ended challenges.
-    Despite these successes, when it comes to physical interactions with the real world, the achievements of AI are less remarkable. For instance, despite three decades of research, multi-fingered robotic hands are still far less dexterous than those of an average human child. The comparatively slower advancements in the realm of physical interactions can largely be attributed to the massive data requirements of contemporary machine learning methods. Advancements in efficiency could pave the way for truly practical robots capable of alleviating our household chores, rather than just beating us in games or eyeing our jobs.
-  author-bio: >- 
-    Błażej is a machine learning researcher with experience in sequential decision-making problems (reinforcement learning, imitation learning). He is about to graduate with a Ph.D. from the University of Warsaw. He has divided his time between academia and industry, having affiliations with institutions such as Lyft Level 5, Google Brain, and the University of California, Berkeley. He is now pivoting to the ambitious endeavor of explaining cellular biology with machine learning working for Altos Labs.
-  co-authors:
-  date: Saturday / 28 October
-  time: 12:50 - 13:15
-  room: Lecture Hall B
-  session: Witold Lipski Award
-  id: 27
-  author-image: images/optimized/cfc-2023-600x600/błażej_osiński.webp
