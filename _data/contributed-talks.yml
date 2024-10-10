@@ -7,7 +7,7 @@
     Klaudia Balcer is a PhD Student and Research Assistant in the Computational Intelligence Research Group at the University of Wrocław. Using her mathematical background, she bridges between a stochastic interpretation of data uncertainty and deep learning models for recommender systems. She focuses on reducing exposure and popularity bias.
   date: Friday / 8 November
   time: 10:35 - 11:00
-  room: Lecture Hall A
+  room: Hall A
   session: CfC Session 1
   id: 1
   author-image: images/optimized/cfc-600x600/klaudia_balcer.webp
@@ -21,7 +21,7 @@
     I am a software engineer, working at Adobe for the past 6 years, since I was at the young age of 15. At first, I tackled and helped develop complex fraud prevention systems for online video platforms. My past experience also includes working with ranking/recommendation algorithms and MLOps.  Moving on, the work I do now enables customers get the most out of Adobe products. This includes using Generative AI and Large Language Models to answer user questions about feature documentation and usage insights. I am also involved in the development of a large-scale experimentation platform that instruments A/B testing.  Previously, I have been recognized by Forbes Romania, who featured me in their 30 Under 30 list in 2020 for my achievements.
   date: Friday / 8 November
   time: 11:05 - 11:30
-  room: Lecture Hall A
+  room: Hall A
   session: CfC Session 1
   id: 2
   author-image: images/optimized/cfc-600x600/tudor_coman.webp
@@ -35,7 +35,7 @@
     Patryk Wielopolski is an R&D leader at DataWalk and a Ph.D. candidate in Artificial Intelligence at Wrocław University of Science and Technology. His work focuses on Knowledge Graphs and AI, where he has contributed to designing and implementing solutions in the finance, insurance, and law enforcement sectors. Patryk’s efforts connect academic research with practical applications, advancing innovation in data-driven technologies.
   date: Friday / 8 November
   time: 11:35 - 12:00
-  room: Lecture Hall A
+  room: Hall A
   session: CfC Session 1
   id: 3
   author-image: images/optimized/cfc-600x600/patryk_wielopolski.webp
@@ -49,7 +49,7 @@
     Adriana is Senior Data Scientist at Ardigen responsible for the development of Ardigen phenAID platform that enables the identification of small molecule candidates. Her diverse experience includes work in digital pathology and neuron imaging with commitment to making meaningful contributions in various domains of life sciences. Adriana is also pursuing PhD at Jagiellonian University and her research interests are focused on advancing the field of  biomedical imaging by leveraging AI models. Her scientific work on cutting-edge deep learning algorithms aims to automate the analysis of High Content Screening images as well as microscopy images of bacteria.
   date: Friday / 8 November
   time: 10:35 - 11:00
-  room: Lecture Hall B
+  room: Hall B
   session: CfC Session 2
   id: 4
   author-image: images/optimized/cfc-600x600/adriana_borowa.webp
@@ -63,7 +63,7 @@
     Maciej Chrabąszcz is a dedicated researcher in the field of Artificial Intelligence, with a particular focus on AI model behavior analysis, alignment, and efficient computing. As a PhD student in Computer Science, his work contributes to the critical areas of AI development and understanding.  Having completed his Master's in Mathematical Statistics at the Warsaw University of Technology (WUT), Maciej is now pursuing his doctoral studies at the same institution. Concurrently, he contributes his expertise to NASK - National Research Institute.
   date: Friday / 8 November
   time: 11:05 - 11:30
-  room: Lecture Hall B
+  room: Hall B
   session: CfC Session 2
   id: 5
   author-image: images/optimized/cfc-600x600/maciej_chrabaszcz.webp
@@ -77,7 +77,7 @@
     Co-founder of a research group, TheLion.AI devoted to creating AI-based open source solutions for healthcare. Worked on projects such as the Universal Medical Image Encoder and the Polish medical language model Esculap. Creates educational materials, like "Computer Vision Worksheets" with video tutorials on YouTube. Awarded Forbes 25 under 25.
   date: Friday / 8 November
   time: 11:35 - 12:00
-  room: Lecture Hall B
+  room: Hall B
   session: CfC Session 2
   id: 6
   author-image: images/optimized/cfc-600x600/barbara_klaudel.webp
@@ -91,7 +91,7 @@
     He is a PhD student supported by the prestigious PRELUDIUM BIS grant funded by the Polish National Science Center. His main interests lie in applying AI techniques to solve complex biological problems, with a particular focus on structural biology. His current research under this grant is dedicated to advancing the use of generative models in RNA 3D structure prediction.
   date: Friday / 8 November
   time: 14:30 - 14:55
-  room: Main Lecture Hall
+  room: Main Hall
   session: CfC Session 3
   id: 7
   author-image: images/empty.png
@@ -105,7 +105,7 @@
     Krzysztof is a Senior Researcher in the AI for Science team at Microsoft Research, where he works on applying Deep Learning to problems in Drug Discovery. Among other things, he has developed generative models of molecular graphs, few-shot molecular property prediction methods, and planning algorithms for sequences of chemical reactions. These works not only led to 4 publications at top ML conferences but also to application in a pharma company, with 150+ molecules proposed by his generative models successfully synthesised and tested in a lab. Before joining Microsoft nearly five years ago, Krzysztof studied Theoretical Computer Science, and was a serial intern (including three research internships at Google). Before settling on Deep Learning, he also had decent success in competitive programming, advancing to finals of ACM ICPC, Facebook HackerCup and Distributed Google CodeJam.
   date: Friday / 8 November
   time: 15:00 - 15:25
-  room: Main Lecture Hall
+  room: Main Hall
   session: CfC Session 3
   id: 8
   author-image: images/optimized/cfc-600x600/krzysztof_maziarz.webp
@@ -119,7 +119,7 @@
     I am France ROSE (she/her), a post-doctoral researcher at the University Hospital of Cologne. My research topics cover biomedical image and time-series analysis. At the time of exploding data generation in Biology and Medical Sciences, it is exciting to meet the needs in image analysis and challenge current scientific knowledge.
   date: Friday / 8 November
   time: 15:30 - 15:55
-  room: Main Lecture Hall
+  room: Main Hall
   session: CfC Session 3
   id: 9
   author-image: images/optimized/cfc-600x600/france_rose.webp
@@ -133,7 +133,7 @@
     Dr.Natasha Alkhatib  Researcher & Engineer - Cybersecurity & AI for Automotive  Dr.Natasha Alkhatib is a researcher and engineer with expertise in cybersecurity and artificial intelligence (AI) for the automotive industry. Her passion for securing vehicles against cyber threats led her to pursue a Ph.D. thesis at the prestigious Institut Polytechnique de Paris. Her doctoral research focused on leveraging AI to develop robust solutions against cyberattacks in connected and autonomous vehicles. Currently, Dr.Natasha Alkhatib applies her expertise at ETAS Bosch, a leading provider of embedded systems for the automotive industry.  In this role, she is instrumental in developing AI-based solutions that enhance the cybersecurity of automotive products.  She plays a key role in ensuring the safety and security of future generations of vehicles.
   date: Friday / 8 November
   time: 14:30 - 14:55
-  room: Lecture Hall A
+  room: Hall A
   session: CfC Session 4
   id: 10
   author-image: images/optimized/cfc-600x600/natasha_alkhatib.webp
@@ -147,7 +147,7 @@
     Klaudia Bałazy is a Senior Deep Learning Engineer at NVIDIA and a PhD student at the Jagiellonian University. She is also an active member of the Group of Machine Learning Research (GMUM). Her research primarily focuses on enhancing the efficiency of deep learning solutions, with particular emphasis on model compression, dynamic neural networks, and the parameter efficiency of large language models. Klaudia holds both a Master's and an Engineer's degree in Computer Science from the AGH University of Science and Technology. Throughout her career, she has led and participated in various AI-based projects across several tech startups, contributing to the development of practical AI applications.
   date: Friday / 8 November
   time: 15:00 - 15:25
-  room: Lecture Hall A
+  room: Hall A
   session: CfC Session 4
   id: 11
   author-image: images/optimized/cfc-600x600/klaudia_balazy.webp
@@ -161,7 +161,7 @@
     Adam is a Tenure Track Faculty Member at CISPA Helmholtz Center for Information Security, co-leading the SprintML group. His research is focused on secure and trustworthy Machine Learning as a Service (MLaaS). Adam designs robust and reliable machine learning methods for training and inference of ML models while preserving data privacy and model confidentiality. Adam was a Postdoctoral Fellow at the Vector Institute and the University of Toronto, and a member of the CleverHans Lab, advised by Prof. Nicolas Papernot. He earned his PhD at the University of Chicago, where he was advised by Prof. Sanjay Krishnan and worked on input and model compression for adaptive and robust neural networks. Adam obtained his Bachelor's and Master's degrees from Warsaw University of Technology in Poland. He was also studying at DTU (Technical University of Denmark) and carried out research at EPFL, Switzerland. Adam also worked at CERN (Geneva, Switzerland), Barclays Investment Bank in London (UK), Microsoft Research (Redmond, USA), and Google (Madison, USA).
   date: Friday / 8 November
   time: 15:30 - 15:55
-  room: Lecture Hall A
+  room: Hall A
   session: CfC Session 4
   id: 12
   author-image: images/optimized/cfc-600x600/adam_dziedzic.webp
@@ -175,7 +175,7 @@
     Kamil Deja is a postdoctoral researcher at IDEAS NCBR and Warsaw University of Technology where he obtained a Ph.D. His research focuses on Generative Modelling with applications to Continual Learning. He has previously interned at Virje Universiteit in Amsterdam and twice at Amazon Alexa. His research work has been published in prestigious conferences such as NeurIPS, IJCAI, and Interspeech. In recognition of his accomplishments, Kamil received the FNP Start scholarship in 2023, awarded to the top-100 young researchers in Poland.
   date: Friday / 8 November
   time: 14:30 - 14:55
-  room: Lecture Hall B
+  room: Hall B
   session: CfC Session 5
   id: 13
   author-image: images/optimized/cfc-600x600/kamil_deja.webp
@@ -189,7 +189,7 @@
     In 2024, I earned a PhD with distinction in a topic related to interpretable neural networks. Since 2017, I have been working as a Data Scientist at Ardigen, where I was recently promoted to Director of Data Science and Lead Data Scientist. My research interests include computer vision, prototypical parts for deep learning architectures, and AI applications in the drug discovery process. I am actively involved in publishing and collaborating with the GMUM and SINN research groups. Additionally, I completed an internship with Dr. Joost van de Weijer's group and attended the International Computer Vision Summer School (ICVSS).
   date: Friday / 8 November
   time: 15:00 - 15:25
-  room: Lecture Hall B
+  room: Hall B
   session: CfC Session 5
   id: 14
   author-image: images/optimized/cfc-600x600/dawid_rymarczyk.webp
@@ -203,7 +203,7 @@
     Przemysław Spurek is the leader of the Neural Rendering research team at IDEAS NCBR and a researcher in the GMUM group operating at the Jagiellonian University in Krakow. In 2014, he defended his PhD in machine learning and information theory. In 2023, he obtained his habilitation degree and became a university professor. He has published articles at prestigious international conferences such as NeurIPS, ICML, IROS, AISTATS, ECML. He co-authored the book Głębokie uczenie. Wprowadzenie [Deep Learning. Introduction] – a compendium of knowledge about the basics of AI. He was the director of PRELUDIUM, SONATA, OPUS and SONATA BIS NCN grants. Currently, his research focuses mainly on neural rendering, in particular NeRF and Gaussian Splatting models.
   date: Friday / 8 November
   time: 15:30 - 15:55
-  room: Lecture Hall B
+  room: Hall B
   session: CfC Session 5
   id: 15
   author-image: images/optimized/cfc-600x600/przemyslaw_spurek.webp
@@ -217,7 +217,7 @@
     Franziska is a tenure-track faculty at the CISPA Helmholtz Center for Information Security where she co-leads the SprintML lab. Before, she was a Postdoctoral Fellow at the University of Toronto and Vector Institute advised by Prof. Nicolas Papernot. Her current research centers around private and trustworthy machine learning. Franziska obtained her Ph.D. at the Computer Science Department at Freie University Berlin, where she pioneered the notion of individualized privacy in machine learning. During her Ph.D., Franziska was a research associate at the Fraunhofer Institute for Applied and Integrated Security (AISEC), Germany. She received a Fraunhofer TALENTA grant for outstanding female early career researchers, the German Industrial Research Foundation prize for her research on machine learning privacy, and the Fraunhofer ICT Dissertation Award 2023, and was named a GI-Junior Fellow in 2024.
   date: Saturday / 9 November
   time: 12:00 - 12:25
-  room: Main Lecture Hall
+  room: Main Hall
   session: CfC Session 6
   id: 16
   author-image: images/optimized/cfc-600x600/franziska_boenisch.webp
@@ -231,7 +231,7 @@
     Jan Dubiński is pursuing a PhD in deep learning at the Warsaw University of Technology. He is a member of the ALICE Collaboration at LHC CERN. Jan has been working on fast simulation methods for High Energy Physics experiments at the Large Hadron Collider at CERN. The methods developed in this research leverage generative deep learning models such as GANs to provide a computationally efficient alternative to existing Monte Carlo-based methods. More recently, he has focused on issues related to the security of machine learning models and data privacy. His latest efforts aim to improve the security of self-supervised and generative methods, which are often overlooked compared to supervised models.
   date: Saturday / 9 November
   time: 12:30 - 12:55
-  room: Main Lecture Hall
+  room: Main Hall
   session: CfC Session 6
   id: 17
   author-image: images/optimized/cfc-600x600/jan_dubinski.webp
@@ -245,7 +245,7 @@
     I am an AI researcher passionate about combining image generative models and explainable computer vision. I believe that highly advanced mathematics is the key for developing better AI models and explaining their decision-making process.
   date: Saturday / 9 November
   time: 13:00 - 13:25
-  room: Main Lecture Hall
+  room: Main Hall
   session: CfC Session 6
   id: 18
   author-image: images/optimized/cfc-600x600/bartlomiej_sobieski.webp
@@ -259,7 +259,7 @@
     Michał Bortkiewicz is a PhD student at Warsaw University of Technology, where his research centres on Continual and Reinforcement Learning. As a data scientist, he advises companies on implementing deep learning methods for data-intensive tasks. Michał has previously worked as a deep learning engineer at Samsung Research, focusing on audio intelligence projects, at Scope Fluidics, where he specialized in computer vision, and at Airspace Intelligence, where he dealt with tabular machine learning.
   date: Saturday / 9 November
   time: 12:00 - 12:25
-  room: Lecture Hall A
+  room: Hall A
   session: CfC Session 7
   id: 19
   author-image: images/optimized/cfc-600x600/michal_bortkiewicz.webp
@@ -273,7 +273,7 @@
     Bartłomiej Cupiał is a PhD student at IDEAS NCBR and the University of Warsaw. He finished his master's degree at Jagiellonian University and bachelor's degree at Wrocław University of Science and Technology. Currently, he is working on combining reinforcement learning with large language models.  In particular, how to improve exploration in RL with the help of LLMs and how to integrate external knowledge into RL agents.
   date: Saturday / 9 November
   time: 12:30 - 12:55
-  room: Lecture Hall A
+  room: Hall A
   session: CfC Session 7
   id: 20
   author-image: images/optimized/cfc-600x600/bartlomiej_cupial.webp
@@ -287,7 +287,7 @@
     Researcher @ Sustainable Machine Learning For Autonomous Machines team, IDEAS NCBR PhD candidate @ GMUM, UJ
   date: Saturday / 9 November
   time: 13:00 - 13:25
-  room: Lecture Hall A
+  room: Hall A
   session: CfC Session 7
   id: 21
   author-image: images/optimized/cfc-600x600/adam_pardyl.webp
@@ -301,7 +301,7 @@
     Tomasz Piotrowski received the M.Sc. degree in Mathematics from SilesianUniversity of Technology, Poland, in 2004, the M.Sc. degree in Information Processing & Neural Networks from King’s College London, UK, in 2005, the Ph.D. degree from Tokyo Institute of Technology, Japan, in 2008, and the D.Sc. degree from Systems Research Institute, Polish Academy of Sciences, in 2021.  From 2009 to 2010 he worked in industry as a data analyst at Comarch SA. In 2011, he joined Nicolaus Copernicus University (NCU) in Toruń, Poland as an Assistant Professor. Since 2022, he is an Associate Professor at NCU. He is involved in brain research, signal processing, and mathematical foundations of deep learning.
   date: Saturday / 9 November
   time: 12:00 - 12:25
-  room: Lecture Hall B
+  room: Hall B
   session: CfC Session 8
   id: 22
   author-image: images/optimized/cfc-600x600/tomasz_piotrowski.webp
@@ -315,7 +315,7 @@
     Marcin Przewięźlikowski is a PhD Student with Group of Machine Learning Research at Jagiellonian University in Kraków, Poland, and IDEAS NCBR. He is interested in data-effciency and works on topics such as Meta-Learning and Self-Supervised Learning.
   date: Saturday / 9 November
   time: 12:30 - 12:55
-  room: Lecture Hall B
+  room: Hall B
   session: CfC Session 8
   id: 23
   author-image: images/optimized/cfc-600x600/marcin_przewiezlikowski.webp
@@ -329,7 +329,7 @@
     My top-level topics of interest are statistical learning theory and machine learning theory. In the limit of tending to praxis, these days I am very interested in strategies to train and certify machine learning models.   Currently I am Senior Lecturer (Associate Professor) in Machine Learning in the Department of Computer Science at The University of Manchester, where I am a member of the Manchester Centre for AI Fundamentals and a supervisor at the UKRI AI CDT in Decision-Making for Complex Systems.  Before joining The University of Manchester (July 2024), I had positions at University College London and DeepMind. I have a PhD in Mathematics (University of Alberta, 2012) and a PhD in Statistical Learning Theory (University College London, 2022).   Back in the day I studied undergraduate maths (BSc 2000, Pontificia Universidad Católica del Perú).
   date: Saturday / 9 November
   time: 13:00 - 13:25
-  room: Lecture Hall B
+  room: Hall B
   session: CfC Session 8
   id: 24
   author-image: images/optimized/cfc-600x600/omar_rivasplata.webp

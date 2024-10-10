@@ -63,8 +63,10 @@ Expects following parameters:
             </h3>
             <h4><span><i class="fa-solid fa-calendar-day"></i> {{ talk.date }}</span>
                 <span style="margin-left: 15px;"><i  class="fa-solid fa-clock"></i> {{ talk.time }}
-                    {% if talk.session and not talk.room %}
+                    {% if talk.room %}{% else %}
+                    {% if talk.session %}
                     ({{ talk.session }})
+                    {% endif %}
                     {% endif %}
                 </span> 
                 {% if talk.room %}
