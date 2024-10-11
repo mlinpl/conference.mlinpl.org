@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-ROOT_DIR=$( realpath $( dirname "${BASH_SOURCE[0]}" ) )
+ROOT_DIR=$( realpath $( dirname "${BASH_SOURCE[0]}" ) )/..
 
 optimize_images () {
     directory=$1
