@@ -156,15 +156,15 @@
           - title: "<strong>Exceeding Historical Exposure in Session-Based Recommender Systems</strong>"
             subtitle: by Klaudia Balcer
             time: 10:35 - 11:00
-            url: /program#cfc-talk-1
+            url: /program#contributed-talk-1
           - title: "<strong>Leveraging Multi-Armed Bandit Algorithms for Dynamic Decision Making</strong>"
             subtitle: by Tudor Coman
             time: 11:05 - 11:30
-            url: /program#cfc-talk-3
+            url: /program#contributed-talk-3
           - title: "<strong>From Theory to Practice: A Practitioner's Journey with Knowledge Graphs</strong>"
             subtitle: by Patryk Wielopolski
             time: 11:35 - 12:00
-            url: /program#cfc-talk-5
+            url: /program#contributed-talk-5
         element-class: col-lg-4
         time: 10:35 - 12:00
         room: Lecture Hall A
@@ -174,15 +174,15 @@
           - title: "<strong>Deep Learning for Effective Analysis of High Content Screening</strong>"
             subtitle: by Adriana Borowa
             time: 10:35 - 11:00
-            url: /program#cfc-talk-2
+            url: /program#contributed-talk-2
           - title: "<strong>Aggregated Attributions for Explanatory Analysis of 3D Segmentation Models</strong>"
             subtitle: by Maciej Chrabaszcz
             time: 11:05 - 11:30
-            url: /program#cfc-talk-4
+            url: /program#contributed-talk-4
           - title: "<strong>Towards Medical Foundation Model - A Unified Dataset for Pretraining Medical Imaging Models</strong>"
             subtitle: by Barbara Klaudel
             time: 11:35 - 12:00
-            url: /program#cfc-talk-6
+            url: /program#contributed-talk-6
         element-class: col-lg-4
         time: 10:35 - 12:00
         room: Lecture Hall B
@@ -224,15 +224,15 @@
           - title: "<strong>RNAgrail: GRAph Neural Network and Diffusion Model for RNA 3D Structure Prediction</strong>"
             subtitle: by Marek Justyna
             time: 14:30 - 14:55
-            url: /program#cfc-talk-7
+            url: /program#contributed-talk-7
           - title: "<strong>Fake it till you make it: Planning Chemical Syntheses for Drug Discovery</strong>"
             subtitle: by Krzysztof Maziarz
             time: 15:00 - 15:25
-            url: /program#cfc-talk-10
+            url: /program#contributed-talk-10
           - title: "<strong>Uncertainty-Aware Self-Supervised Learning on Multi-Dimensional Time Series for Animal Behavior</strong>"
             subtitle: by France Rose
             time: 15:30 - 15:55
-            url: /program#cfc-talk-13
+            url: /program#contributed-talk-13
         element-class: col-lg-4
         room: Main Lecture Hall
 
@@ -241,15 +241,15 @@
           - title: "<strong>How LLMs are Revolutionizing the Cybersecurity Field</strong>"
             subtitle: by Natasha Alkhatib
             time: 14:30 - 14:55
-            url: /program#cfc-talk-8
+            url: /program#contributed-talk-8
           - title: "<strong>Efficient Fine-Tuning of LLMs: Exploring PEFT Methods and LoRA-XS Insights</strong>"
             subtitle: by Klaudia Bałazy
             time: 15:00 - 15:25
-            url: /program#cfc-talk-11
+            url: /program#contributed-talk-11
           - title: "<strong>Open LLMs are Necessary for Private Adaptations and Outperform their Closed Alternatives</strong>"
             subtitle: by Adam Dziedzic
             time: 15:30 - 15:55
-            url: /program#cfc-talk-14
+            url: /program#contributed-talk-14
         element-class: col-lg-4
         room: Lecture Hall A
 
@@ -258,15 +258,15 @@
           - title: "<strong>Personalisation of Large-Scale Diffusion Models</strong>"
             subtitle: by Kamil Deja
             time: 14:30 - 14:55
-            url: /program#cfc-talk-9
+            url: /program#contributed-talk-9
           - title: "<strong>Current Trends in Intrinsically Interpretable Deep Learning</strong>"
             subtitle: by Dawid Rymarczyk
             time: 15:00 - 15:25
-            url: /program#cfc-talk-12
+            url: /program#contributed-talk-12
           - title: "<strong>Neural Rendering: The Future of 3D Modeling</strong>"
             subtitle: by Przemysław Spurek
             time: 15:30 - 15:55
-            url: /program#cfc-talk-15
+            url: /program#contributed-talk-15
         element-class: col-lg-4
         room: Lecture Hall B
 
