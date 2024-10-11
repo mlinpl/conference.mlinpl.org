@@ -26,9 +26,6 @@
               time: 9:10 - 9:30
               url: /program#srw-talk-4
 
-            - title: "Break"
-              time: 9:30 - 9:50
-
             - title: "<strong>Cherish Every MOMENT</strong>"
               subtitle: by Nina Zukowska
               time: 9:50 - 10:10
@@ -48,9 +45,6 @@
               subtitle: by Sai Preetham, Sata
               time: 10:50 - 11:10
               url: /program#srw-talk-8
-
-            - title: '<i class="fa-solid fa-pizza-slice"></i> Pizza'
-              time: 11:10 - 11:30
          
           element-class: col-lg-12
           time: 8:00 - 11:30
