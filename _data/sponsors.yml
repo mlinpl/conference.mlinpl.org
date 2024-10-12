@@ -84,19 +84,17 @@
       url: "https://www.lot.com/pl/en"
 
 - title: "/ Honorary Patronages"
-  imageMaxWidth: 340px
-  imageMaxHeight: 200px
-  margin: 45px 60px
+  imageMaxWidth: 270px
+  imageMaxHeight: 120px
+  margin: 30px 45px
   sponsors:
     - name: Centrum Nauki Kopernik
       image: "images/optimized/honorary-patronages-600x600/CNK.webp"
       url: "https://www.kopernik.org.pl/en"
-    - name: Dean of the Faculty of Mathematics, Informatics and Mechanics, University of Warsaw
-      #title: Dean of the Faculty of Mathematics, Informatics and Mechanics, University of Warsaw
+    - name: Faculty of Mathematics, Informatics and Mechanics, University of Warsaw
       image: "images/optimized/honorary-patronages-600x600/MIMUW.webp"
       url: https://www.mimuw.edu.pl/en/
     - name: Faculty of Mathematics and Information Science, Warsaw University of Technology
-      #title: Faculty of Mathematics and Information Science, Warsaw University of Technology
       image: "images/optimized/honorary-patronages-600x600/MiNIPW.webp"
       url: https://ww4.mini.pw.edu.pl/
  
