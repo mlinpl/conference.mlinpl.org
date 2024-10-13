@@ -162,11 +162,11 @@
           - title: "<strong>Leveraging Multi-Armed Bandit Algorithms for Dynamic Decision Making</strong>"
             subtitle: by Tudor Coman
             time: 11:05 - 11:30
-            url: /program#contributed-talk-3
+            url: /program#contributed-talk-2
           - title: "<strong>From Theory to Practice: A Practitioner's Journey with Knowledge Graphs</strong>"
             subtitle: by Patryk Wielopolski
             time: 11:35 - 12:00
-            url: /program#contributed-talk-5
+            url: /program#contributed-talk-3
         element-class: col-lg-4
         time: 10:35 - 12:00
         room: Lecture Hall A
@@ -176,11 +176,11 @@
           - title: "<strong>Deep Learning for Effective Analysis of High Content Screening</strong>"
             subtitle: by Adriana Borowa
             time: 10:35 - 11:00
-            url: /program#contributed-talk-2
+            url: /program#contributed-talk-4
           - title: "<strong>Aggregated Attributions for Explanatory Analysis of 3D Segmentation Models</strong>"
             subtitle: by Maciej Chrabaszcz
             time: 11:05 - 11:30
-            url: /program#contributed-talk-4
+            url: /program#contributed-talk-5
           - title: "<strong>Towards Medical Foundation Model - A Unified Dataset for Pretraining Medical Imaging Models</strong>"
             subtitle: by Barbara Klaudel
             time: 11:35 - 12:00
@@ -230,11 +230,11 @@
           - title: "<strong>Fake it till you make it: Planning Chemical Syntheses for Drug Discovery</strong>"
             subtitle: by Krzysztof Maziarz
             time: 15:00 - 15:25
-            url: /program#contributed-talk-10
+            url: /program#contributed-talk-8
           - title: "<strong>Uncertainty-Aware Self-Supervised Learning on Multi-Dimensional Time Series for Animal Behavior</strong>"
             subtitle: by France Rose
             time: 15:30 - 15:55
-            url: /program#contributed-talk-13
+            url: /program#contributed-talk-9
         element-class: col-lg-4
         room: Main Lecture Hall
 
@@ -243,7 +243,7 @@
           - title: "<strong>How LLMs are Revolutionizing the Cybersecurity Field</strong>"
             subtitle: by Natasha Alkhatib
             time: 14:30 - 14:55
-            url: /program#contributed-talk-8
+            url: /program#contributed-talk-10
           - title: "<strong>Efficient Fine-Tuning of LLMs: Exploring PEFT Methods and LoRA-XS Insights</strong>"
             subtitle: by Klaudia Bałazy
             time: 15:00 - 15:25
@@ -251,7 +251,7 @@
           - title: "<strong>Open LLMs are Necessary for Private Adaptations and Outperform their Closed Alternatives</strong>"
             subtitle: by Adam Dziedzic
             time: 15:30 - 15:55
-            url: /program#contributed-talk-14
+            url: /program#contributed-talk-12
         element-class: col-lg-4
         room: Lecture Hall A
 
@@ -260,11 +260,11 @@
           - title: "<strong>Personalisation of Large-Scale Diffusion Models</strong>"
             subtitle: by Kamil Deja
             time: 14:30 - 14:55
-            url: /program#contributed-talk-9
+            url: /program#contributed-talk-13
           - title: "<strong>Current Trends in Intrinsically Interpretable Deep Learning</strong>"
             subtitle: by Dawid Rymarczyk
             time: 15:00 - 15:25
-            url: /program#contributed-talk-12
+            url: /program#contributed-talk-14
           - title: "<strong>Neural Rendering: The Future of 3D Modeling</strong>"
             subtitle: by Przemysław Spurek
             time: 15:30 - 15:55
@@ -348,11 +348,11 @@
           - title: "<strong>CDI: Copyrighted Data Identification in Diffusion Models</strong>"
             subtitle: by Jan Dubiński
             time: 12:30 - 12:55
-            url: /program#contributed-talk-19
+            url: /program#contributed-talk-17
           - title: "<strong>Global Counterfactual Directions</strong>"
             subtitle: by Bartlomiej Sobieski
             time: 13:00 - 13:25
-            url: /program#contributed-talk-22
+            url: /program#contributed-talk-18
         element-class: col-lg-4
         time: 12:00 - 13:25
         room: Main Lecture Hall
@@ -361,7 +361,7 @@
           - title: "<strong>Accelerating Goal-Conditioned RL Algorithms and Research</strong>"
             subtitle: by Michał Bortkiewicz
             time: 12:00 - 12:25
-            url: /program#contributed-talk-17
+            url: /program#contributed-talk-19
           - title: "<strong>Fine-tuning Reinforcement Learning Models is Secretly a Forgetting Mitigation Problem</strong>"
             subtitle: by Bartłomiej Cupiał
             time: 12:30 - 12:55
@@ -369,7 +369,7 @@
           - title: "<strong>AdaGlimpse: Active Visual Exploration with Arbitrary Glimpse Position and Scale</strong>"
             subtitle: by Adam Pardyl
             time: 13:00 - 13:25
-            url: /program#contributed-talk-23
+            url: /program#contributed-talk-21
         element-class: col-lg-4
         time: 12:00 - 13:25
         room: Lecture Hall A
@@ -378,11 +378,11 @@
           - title: "<strong>Fixed points of nonnegative neural networks</strong>"
             subtitle: by Tomasz Piotrowski
             time: 12:00 - 12:25
-            url: /program#contributed-talk-18
+            url: /program#contributed-talk-22
           - title: "<strong>Augmentation-aware Self-supervised Learning with Conditioned Projector</strong>"
             subtitle: by Marcin Przewięźlikowski
             time: 12:30 - 12:55
-            url: /program#contributed-talk-21
+            url: /program#contributed-talk-23
           - title: "<strong>Meta-analysis of Bayesian Analyses</strong>"
             subtitle: by Omar Rivasplata
             time: 13:00 - 13:25
