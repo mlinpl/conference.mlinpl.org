@@ -6,6 +6,7 @@ html-title: Program of <br><span class="logo"><span class="main-name">ML <span c
 permalink: /program
 ---
 
+{% comment %}
 <section class="container content-section">
     <div class="row">
         <div class="col-xs-12">
@@ -16,8 +17,8 @@ permalink: /program
         </div>
     </div>
 </section>
+{% endcomment %}
 
-{% comment %}
 <section class="container content-section">
     <div class="row">
         <div class="col-xs-12">
@@ -27,7 +28,7 @@ permalink: /program
             </p>
         </div>
     </div>
-
+    
     {% for day in site.data.agenda %}
     <div class="row" style="margin-bottom: 70px;">
         <div class="col-xs-12">
@@ -40,12 +41,15 @@ permalink: /program
     {% endfor %}
 </section>
 
+{% comment %}
 {% include talks.html talks-title="/ Keynote talks" talks-data=site.data.keynote-talks talk-title-prefix="Keynote talk" %}
 
 {% include talks.html talks-title="/ Invited talks" talks-data=site.data.invited-talks talk-title-prefix="Invited talk" %}
+{% endcomment %}
 
 {% include conference/panels.html %}
 
+{% comment %}
 {% include talks.html talks-title="/ Sponsor talks" talks-data=site.data.sponsor-talks talk-title-prefix="Sponsor talk" %}
 {% endcomment %}
 
