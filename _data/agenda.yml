@@ -356,7 +356,7 @@
         element-class: col-lg-4
         time: 12:00 - 13:25
         room: Main Lecture Hall
-      - title: 'Contributed Talks Session 8:'
+      - title: 'Contributed Talks Session 7:'
         subevents:
           - title: "<strong>Accelerating Goal-Conditioned RL Algorithms and Research</strong>"
             subtitle: by Michał Bortkiewicz
@@ -373,7 +373,7 @@
         element-class: col-lg-4
         time: 12:00 - 13:25
         room: Lecture Hall A
-      - title: 'Contributed Talks Session 9:'
+      - title: 'Contributed Talks Session 8:'
         subevents:
           - title: "<strong>Fixed points of nonnegative neural networks</strong>"
             subtitle: by Tomasz Piotrowski
