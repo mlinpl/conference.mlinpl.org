@@ -86,3 +86,40 @@
         Danielle Belgrave is a VP of AI/ML at GSK. Her experience spans conducting machine learning research and leading teams across academia and industry focused on scientific discovery and personalising interventions in health. She has previously worked at Google DeepMind, Microsoft Research Cambridge, UK and Imperial College London. 
       bio-more: >-
         She has a BSc in business mathematics and statistics from the London School of Economics and a master’s degree in statistics from University College London. Her PhD was at the University of Manchester in Machine Learning for Healthcare.
+
+- name: AI Safety
+  date: Friday / 8 November
+  room: Main Lecture Hall
+  time: 16:00 - 17:00
+  id: 4
+  desc: >-
+    Join us for the “AI Safety” panel, powered by ElevenLabs, where we will discuss real-world challenges of building and assessing models for safety, while maintaining top performance. We will explore ways for AI manipulation, as well as automated and human-in-the-loop systems for preventing misuse.
+  panelists:
+    - name: Aleksandra Pedraszewska
+      image: images/optimized/speakers-600x600/AleksandraPedraszewska.webp
+      title: ElevenLabs
+      bio-intro: >-
+        Aleksandra leads AI Safety Operations at ElevenLabs – the most realistic AI audio tool for generating speech, voices and dubbing of content in 32 languages, with over 1 million users (including TIME, HarperCollins, and nvidia) and $1.1bn valuation. She is responsible for ensuring that ElevenLabs’ products are developed, deployed, and used in a safe way, maximising audio AI's transformative potential.
+      bio-more: >-
+        Aleksandra has extensive operational experience, having directed a venture-backed deep tech company for 7 years, and holds an MPhil in Technology Policy from Cambridge Judge Business School, and a BA from the University of Cambridge. She supports IP-driven companies as an Entrepreneur-in-Residence at Cambridge and a mentor at Conception X.
+    - name: Anna Bialas
+      image: images/optimized/speakers-600x600/AnnaBialas.webp
+      title: Cohere
+      bio-intro: >-
+        Anna is a Machine Learning Engineer at Cohere, a provider of foundational LLM models for enterprise customers. Her work focuses on post-training techniques to customize models and ensure safety, consistency, and accuracy, while also designing evaluation frameworks to assess model performance. Previously, she worked as a Quant at Goldman Sachs and as a Natural Language Data Scientist at Harvard Business School.
+      bio-more: >-
+        Anna holds a Bachelor's degree in Computer Science from Oxford University and a Master's in Data Science from Harvard University. Her research on adversarial attacks on large language models was featured at ICML 2023.
+    - name: Julia Bazinska
+      image: images/optimized/speakers-600x600/JuliaBazinska.webp
+      title: Lakera AI
+      bio-intro: >-
+        Julia is a Machine Learning Engineer at Lakera AI, developing their core product. Lakera AI is a frontrunner in AI security, known for empowering developers to build secure AI applications with Lakera Guard, which protects against prompt injections, data leaks, and other risks. Her career trajectory includes internships at Google, DeepMind, and IBM Research.
+      bio-more: >-
+        Julia earned her Bachelor's degree in Computer Science from the University of Warsaw and completed her Master's at ETH Zurich in 2023. Her professional interests are in Machine Learning for Natural Language Processing, AI security, and performance optimization of ML systems.
+    - name: Matija Franklin
+      image: images/optimized/speakers-600x600/MatijaFranklin.webp
+      title: OpenAI
+      bio-intro: >-
+        Matija is an AI Safety Researcher who has worked with OpenAI, DeepMind, the AI Objectives Institute, ContextualAI, and Mercor on advancing methods for collecting human data for post-training, developing evals and benchmarks. His work on AI Manipulation and General Purpose AI Systems has impacted the EU AI Act, and he is currently involved in crafting the Codes of Practice for the EU AI Office. 
+      bio-more: >-
+        He holds a BA/MSc in Psychological Sciences and Experimental Psychology from the University of Cambridge, and completed his PhD in Cognitive Science at the Causal Cognition Laboratory, at University College London.
