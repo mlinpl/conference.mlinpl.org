@@ -1,17 +1,26 @@
-  - name: Tomasz Sapiński
-    title: Comarch
-    image: images/optimized/speakers-600x600/TomaszSapinski.webp
-    bio: >-
-      Tomasz Sapiński is a highly experienced IT professional with a strong background in software development and image processing using AI. He holds a degree from Lodz University of Technology and has spent over 15 years in the industry, gaining extensive experience in project management and IT system implementations around the world. Tomasz is also a skilled Data Scientist with a keen interest in the development of AI and neural networks, and their practical applications.
+- name: Georgy Marchuk
+  title: ElevenLabs
+  image: images/optimized/speakers-600x600/GeorgyMarchuk.webp
+  bio: >-
+    Georgy Marchuk is a Software Engineer at ElevenLabs – the most realistic AI audio tool for generating speech, voices and dubbing of content in 32 languages, with over 1 million users (including TIME, HarperCollins, and nvidia). Georgy oversees the development of new product features within the self-serve platform and developer APIs, optimises data collection processes, and ensures the safety of AI systems. He is passionate about applying AI in practical, real-world contexts, always looking for ways to make cutting-edge technologies more accessible and impactful.
 
-  - name: Daniel Śliwiński
-    title: LOT Polish Airlines
-    image: images/optimized/speakers-600x600/DanielSliwinski.webp
-    bio: >-
-      Daniel Śliwiński holds a master's degree in Data Science and Business Analytics from the University of Warsaw, where he focused on exploring the intersection of airline e-commerce and machine learning. He also has a bachelor's degree in Japanese Studies. Currently, Daniel is a Junior Data Scientist at LOT Polish Airlines, where he has contributed to various projects for over two years, working primarily on personalization, segmentation, forecasting, and big data initiatives. Outside of work, Daniel trains in Olympic weightlifting and competes in triathlon.
+    Before joining ElevenLabs, Georgy was a member of technical staff at Pipedrive, a leading CRM platform, where he worked with the core platform and drove new products from zero to shipped. Prior to that, he held various design engineering positions.
+    Georgy is deeply involved in open-source communities, running the Open Source Software Institute and co-hosting the Rebase podcast, where he meets the biggest names of open-source technology. He holds a BSc in Computing from Teesside University.
 
-  - name: Patryk Radoń
-    title: LOT Polish Airlines
-    image: images/optimized/speakers-600x600/PatrykRadon.webp
-    bio: >-
-      Patryk Radoń with a bachelors and master's degree from Cracow's AGH and Cracow University of Technology, he has honed his skills in data science over five years of practical experience. Currently working at LOT Polish Airlines, he specializes in modeling customer behavior with statistical background in causal inference and customer personalization, focused primarily on areas related to CRM and ecommerce. His expertise lies in leveraging data to drive business growth, optimize customer interactions, and enhance marketing strategies. In his free time he strives to balance his time between rock climbing, traveling and practicing martial arts.
+- name: Tomasz Sapiński
+  title: Comarch
+  image: images/optimized/speakers-600x600/TomaszSapinski.webp
+  bio: >-
+    Tomasz Sapiński is a highly experienced IT professional with a strong background in software development and image processing using AI. He holds a degree from Lodz University of Technology and has spent over 15 years in the industry, gaining extensive experience in project management and IT system implementations around the world. Tomasz is also a skilled Data Scientist with a keen interest in the development of AI and neural networks, and their practical applications.
+
+- name: Daniel Śliwiński
+  title: LOT Polish Airlines
+  image: images/optimized/speakers-600x600/DanielSliwinski.webp
+  bio: >-
+    Daniel Śliwiński holds a master's degree in Data Science and Business Analytics from the University of Warsaw, where he focused on exploring the intersection of airline e-commerce and machine learning. He also has a bachelor's degree in Japanese Studies. Currently, Daniel is a Junior Data Scientist at LOT Polish Airlines, where he has contributed to various projects for over two years, working primarily on personalization, segmentation, forecasting, and big data initiatives. Outside of work, Daniel trains in Olympic weightlifting and competes in triathlon.
+
+- name: Patryk Radoń
+  title: LOT Polish Airlines
+  image: images/optimized/speakers-600x600/PatrykRadon.webp
+  bio: >-
+    Patryk Radoń with a bachelors and master's degree from Cracow's AGH and Cracow University of Technology, he has honed his skills in data science over five years of practical experience. Currently working at LOT Polish Airlines, he specializes in modeling customer behavior with statistical background in causal inference and customer personalization, focused primarily on areas related to CRM and ecommerce. His expertise lies in leveraging data to drive business growth, optimize customer interactions, and enhance marketing strategies. In his free time he strives to balance his time between rock climbing, traveling and practicing martial arts.
