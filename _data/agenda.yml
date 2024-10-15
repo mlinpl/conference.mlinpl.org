@@ -278,7 +278,7 @@
         element-class: col-lg-4
         time: 16:00 - 17:00
         room: Main Lecture Hall
-        # url: /program#panel-4
+        url: /program#discussion-panel-4
 
       - title: "Invited Talk 7: <strong>TBA</strong>"
         subtitle: "by TBA"
