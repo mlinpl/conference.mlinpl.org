@@ -102,9 +102,20 @@
     - events:
         - title: '<i class="fa-solid fa-award"></i> <strong>ElevenLabs AI Audio Challenge Final</strong>'
           element-class: col-lg-12
-          time: 16:45 - 17:45
+          time: 16:15 - 17:45
           room: Main Lecture Hall
-          # url: /program#
+          subevents:
+            - title: "Talk: <strong>AI Audio: New Research and Applications Frontier for Generative AI Models</strong>"
+              subtitle: by Georgy Marchuk (ElevenLabs)
+              time: 16:15 - 16:30
+            - title: "<strong>Presentations of Finalists</strong>"
+              subtitle: in Front of Expert Jury
+              time: 16:30 - 17:15
+            - title: "<strong>Estimator Quiz</strong>"
+              subtitle: with Prizes for the Audience
+              time: 17:15 - 17:30
+            - title: "<strong>Winners Announcement</strong>"
+              time: 17:30 - 17:45
     - events:
         - title: '<i class="fa-solid fa-champagne-glasses"></i> Conference Party'
           element-class: col-lg-12
