@@ -6,9 +6,9 @@
   author-bio: >- 
     Pawel Knap is a PhD student at the University of Freiburg, Germany. He holds both an MEng and a BEng in Electronic Engineering with Artificial Intelligence from the University of Southampton. Pawel is the first author of several papers on human pose estimation. His current academic focus is on computer vision, with a particular emphasis on medical/neuroscience image data analysis. Additionally, he has published work on reinforcement learning and has contributed to real-time object detection and satellite image segmentation projects in the private sector.
   co-authors: Peter Hardy, Alberto Tamajo, Hwasup Lim, Hansung Kim
-  date: 07.11.2024
+  date: Thursday / 7 November
   time: 8:10 - 8:30
-  room: Main
+  room: Main Hall
   session: Student Research Workshop
   id: 1
   author-image: images/optimized/cfc-600x600/pawel_knap.webp
@@ -21,9 +21,9 @@
   author-bio: >- 
     Paulina Kaczyńska obtained a Bachelor's degree in Physics and a Bachelor's degree in Cognitive Science from the college of Inter-Faculty Individual Studies in Mathematics and Natural Sciences (MISMaP) at University of Warsaw. She then completed a Master's degree in Machine Learning at the University of Warsaw, focusing on visualizing node features with Accumulated Local Effects in Graph Neural Networks for her thesis. Paulina is now starting her PhD at the Institute of Fundamental Technological Research of the Polish Academy of Sciences (IPPT PAN) under the supervision of prof. Tomasz Lipniacki. The topic of her PhD concerns modelling regulatory networks with single-cell resolution using machine learning methods. Her research interests centre around modelling social and natural phenomena with Machine Learning tools. She participated in MAIR project at MI2 DataLab focused on describing qualitative and quantitative impact of Big Techs on Artificial Intelligence research. In collaboration with Computational Psychiatry and Phenomenology group at IDEAS NCBR she analysed the cognitive biases of therapeutic chatbots.
   co-authors:
-  date: 07.11.2024
+  date: Thursday / 7 November
   time: 8:30 - 8:50
-  room: Main
+  room: Main Hall
   session: Student Research Workshop
   id: 2
   author-image: images/optimized/cfc-600x600/paulina_kaczynska.webp
@@ -36,9 +36,9 @@
   author-bio: >- 
     Michał is a final year undergraduate student specializing in Artificial Intelligence at Poznan University of Technology. As a former Vice President of the GHOST student organization, he was involved in building a students' community around Machine Learning. Currently, Michał collaborates closely with the Institute of Robotics and Machine Intelligence at PUT and the Auton Lab at Carnegie Mellon University, where he works on a range of applied machine learning projects spanning robotics, deep learning and foundation models.
   co-authors: Mononito Goswami, Nina Zukowska, Willa Potosnak, Chi-En Teh, Artur Dubrawski
-  date: 07.11.2024
+  date: Thursday / 7 November
   time: 8:50 - 9:10
-  room: Main
+  room: Main Hall
   session: Student Research Workshop
   id: 3
   author-image: images/optimized/cfc-600x600/michal_wilinski.webp
@@ -51,9 +51,9 @@
   author-bio: >- 
     Tomasz Wojnar is a final year Machine Learning M.Sc. student at the Jagiellonian University. His journey into the research began during a High-School Students Internship Programme at CERN in Geneva. He gained his experience at Nokia in the Machine Learning Quantization team, developing tools for 6G. Currently, he is actively involved in projects with the Group of Machine Learning Research (GMUM) at the Jagiellonian University. With a strong interest in various aspects of Deep Learning, he is now focused on generative models and computer vision. Looking ahead, he aspires to advance in the field of automated science discovery.
   co-authors: Jarosław Hryszko, Adam Roman
-  date: 07.11.2024
+  date: Thursday / 7 November
   time: 9:10 - 9:30
-  room: Main
+  room: Main Hall
   session: Student Research Workshop
   id: 4
   author-image: images/optimized/cfc-600x600/tomasz_wojnar.webp
@@ -64,11 +64,11 @@
   abstract: >- 
     Time Series Foundation Models represent a new paradigm for modeling time series data across a variety of tasks and domains with minimal supervision. To simplify pre-training, many foundation models are designed to accept univariate time series of a fixed length as input. However, real-world time series can be both long and multivariate, which limits the widespread adoption of these models. In this paper, we focus on developing effective techniques to expand the context length of time series models, enabling them to handle both long and multivariate time series. We evaluate how extending the context window impacts downstream task performance in both classification and long-horizon forecasting. Additionally, we explore methods to createa multivariate Time Series Foundation Model.
   author-bio: >- 
-    I’m Nina Żukowska, a passionate data scientist with a solid foundation in AI and machine learning. I am doing a Master’s degree at Freie Universität Berlin and I did my Bachelor’s at Poznań University of Technology. My research focuses on time series models and generative AI, and I’m always eager to learn and apply new techniques.
+    Nina Żukowska is a passionate data scientist with a solid foundation in AI and machine learning. She is doing a Master’s degree at Freie Universität Berlin and she did my Bachelor’s at Poznań University of Technology. Her research focuses on time series models and generative AI, and she is always eager to learn and apply new techniques.
   co-authors: Michal Wilinski, Mononito Goswami, Nick Gisolfi, Artur Dubrawski
-  date: 07.11.2024
+  date: Thursday / 7 November
   time: 9:50 - 10:10
-  room: Main
+  room: Main Hall
   session: Student Research Workshop
   id: 5
   author-image: images/optimized/cfc-600x600/nina_zukowska.webp
@@ -81,9 +81,9 @@
   author-bio: >- 
     Mateusz Smendowski, MSc in Computer Science, is a PhD student at AGH University of Krakow. His main interests include the application of machine learning within the domain of cloud resource usage optimization and sustainable computing, with a particular focus on long-term time series forecasting and unsupervised anomaly detection.
   co-authors:
-  date: 07.11.2024
+  date: Thursday / 7 November
   time: 10:10 - 10:30
-  room: Main
+  room: Main Hall
   session: Student Research Workshop
   id: 6
   author-image: images/optimized/cfc-600x600/mateusz_smendowski.webp
@@ -96,9 +96,9 @@
   author-bio: >- 
     Wojciech Zarzecki is a Computer Science student at the Warsaw University of Technology. He is also a member of the Computational Medicine Group at MIMUW led by Prof. Ewa Szczurek. His main interests are the application of deep learning in antimicrobial peptide discovery and computer vision.
   co-authors: Paulina Szymczak,Roberto Olayo,Krzysztof Koras,Marcin Możejko,Małgorzata Łazęcka,Krzysztof Oksza Orzechowski,Ewa Szczurek
-  date: 07.11.2024
+  date: Thursday / 7 November
   time: 10:30 - 10:50
-  room: Main
+  room: Main Hall
   session: Student Research Workshop
   id: 7
   author-image: images/optimized/cfc-600x600/wojciech_zarzecki.webp
@@ -107,13 +107,13 @@
   title: "Statistical criteria for the prediction of dynamical clustering in granular gases"
   author-title: "PhD Student, Otto-von-Guericke-University Magdeburg"
   abstract: >- 
-    Granular matter, which consists of ensembles of interacting macroscopic particles, plays a prominent role in many natural and industrial processes, such as cosmic body formation, processing of coal and ore in mining, etc. It is ubiquitous in our environment (e.g. sand, gravel) and takes great part in our daily life applications (salt, sugar, coffee beans, etc). While exhibiting their own unique properties, most granular materials can be roughly attributed to liquid state (as in case of hourglass), gaseous state (dust cloud) and solid state (e.g. clogged aggregation of particles). Granular gases are relatively sparse ensembles of free-moving macroscopic particles which interact mainly via inelastic collisions. One fascinating property of granular gas is the dynamical clustering, i.e. spontaneous local increase of particle density which leads to decrease of particle mobility. In order to understand dynamical clustering, experiments are performed in microgravity conditions [1-5] and matching numerical models are developed.  Due to several disadvantages of direct numerical simulations such as higher computation time, machine learning based approaches provide a promising alternative to predict dynamical clustering. With the help of machine learning, a function that maps the input parameters of the system (number of particles, container size, etc.) to a variable that states whether the system is in the gaseous or cluster state can be built. With the help of this function, the state of the system for a given set of system parameters can be predicted without the need of extensive numerical simulations. In order to quantify the property of dynamical clustering in granular gases, several statistical criteria have been developed over recent years. Three such criteria include the Kolmogorov-Smirnov Test (KS-Test) [2], the so-called caging-effect that is based on the critical local packing fraction [2] and analysis of local density distributions [4]. We performed multiple numerical simulations based on the VIP-GRAN experiment [2] and the clustering criteria were evaluated for various combinations of system parameters. These criteria were compared in order to investigate their advantages and drawbacks.  A dataset that contains system parameters and clustering criteria variables have been prepared, and several machine learning models were trained and validated using this dataset with the help of standard regression performance metrics. Based on the performance on these metrics, best models were identified for each of clustering criteria. This study is supported by DLR projects VICKI and EVA2 (50WM2252 and 50WM2048).   References   [1] É. Falcon et al., Phys. Rev. Lett., 83:440–443, (1999).  [2] E. Opsomer et al., Europhys. Lett., 99:40001 (2012).  [3] S. Aumaître et al., Rev. Sci. Instr., 89:7:075103, (2018).  [4] M. Noirhomme et al., Phys. Rev. Lett., 126:128002 (2021). [5] D. Puzyrev et al. Sci. Rep. 11 10621 (2021)
+    Granular matter, which consists of ensembles of interacting macroscopic particles, plays a prominent role in many natural and industrial processes, such as cosmic body formation, processing of coal and ore in mining, etc. It is ubiquitous in our environment (e.g. sand, gravel) and takes great part in our daily life applications (salt, sugar, coffee beans, etc). While exhibiting their own unique properties, most granular materials can be roughly attributed to liquid state (as in case of hourglass), gaseous state (dust cloud) and solid state (e.g. clogged aggregation of particles). Granular gases are relatively sparse ensembles of free-moving macroscopic particles which interact mainly via inelastic collisions. One fascinating property of granular gas is the dynamical clustering, i.e. spontaneous local increase of particle density which leads to decrease of particle mobility. In order to understand dynamical clustering, experiments are performed in microgravity conditions and matching numerical models are developed.  Due to several disadvantages of direct numerical simulations such as higher computation time, machine learning based approaches provide a promising alternative to predict dynamical clustering. With the help of machine learning, a function that maps the input parameters of the system (number of particles, container size, etc.) to a variable that states whether the system is in the gaseous or cluster state can be built. With the help of this function, the state of the system for a given set of system parameters can be predicted without the need of extensive numerical simulations. In order to quantify the property of dynamical clustering in granular gases, several statistical criteria have been developed over recent years. Three such criteria include the Kolmogorov-Smirnov Test (KS-Test), the so-called caging-effect that is based on the critical local packing fraction and analysis of local density distributions. We performed multiple numerical simulations based on the VIP-GRAN experiment and the clustering criteria were evaluated for various combinations of system parameters. These criteria were compared in order to investigate their advantages and drawbacks.  A dataset that contains system parameters and clustering criteria variables have been prepared, and several machine learning models were trained and validated using this dataset with the help of standard regression performance metrics. Based on the performance on these metrics, best models were identified for each of clustering criteria. 
   author-bio: >- 
-    My name is Sai Preetham Sata. I am currently working as a research associate and pursuing my PhD studies at Otto-von-Guericke University, Magdeburg in the field of machine learning and granular physics. Previously I have worked as data scientist and software developer in several startups and research institutes and acquired immense knowledge and passion towards machine learning, computer vision, data science, deep learning, robotics and reinforcement learning. After completing my Master studies in Mechatronics from Technical University of Harburg-Hamburg with intelligent systems and robotics specialisation, I have developed expertise in computer vision, robotics, machine learning and deep learning by working on several projects in various applications. This keen interest and facination about machine learning and its applications in various domains have motivated to pursue PhD in this field.
-  co-authors: Dr. Dmitry Puzyrev(Department of Microgravity and Translational Regenerative Medicine (MTRM) and MARS, Medical Faculty, Otto-von-Guericke University, Magdeburg),  Prof. Dr. Ralf Stannarius(Department of Engineering, Brandenburg University of Applied Sciences and Department of Microgravity and Translational Regenerative Medicine (MTRM) and MARS, Otto-von-Guericke University Magdeburg)
-  date: 07.11.2024
+    Sai Preetham Sata is currently working as a research associate and pursuing my PhD studies at Otto-von-Guericke University, Magdeburg in the field of machine learning and granular physics. Previously he has worked as data scientist and software developer in several startups and research institutes and acquired immense knowledge and passion towards machine learning, computer vision, data science, deep learning, robotics and reinforcement learning. After completing my Master studies in Mechatronics from Technical University of Harburg-Hamburg with intelligent systems and robotics specialisation, He has developed expertise in computer vision, robotics, machine learning and deep learning by working on several projects in various applications. This keen interest and facination about machine learning and its applications in various domains has motivated him to pursue PhD in this field.
+  co-authors: Dr. Dmitry Puzyrev (Department of Microgravity and Translational Regenerative Medicine (MTRM) and MARS, Medical Faculty, Otto-von-Guericke University, Magdeburg), Prof. Dr. Ralf Stannarius (Department of Engineering, Brandenburg University of Applied Sciences and Department of Microgravity and Translational Regenerative Medicine (MTRM) and MARS, Otto-von-Guericke University Magdeburg)
+  date: Thursday / 7 November
   time: 10:50 - 11:10
-  room: Main
+  room: Main Hall
   session: Student Research Workshop
   id: 8
   author-image: images/optimized/cfc-600x600/sai_preetham_sata.webp
