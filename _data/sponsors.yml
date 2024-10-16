@@ -85,12 +85,18 @@
 
 - title: "/ Honorary Patronages"
   imageMaxWidth: 270px
-  imageMaxHeight: 120px
+  imageMaxHeight: 160px
   margin: 30px 45px
   sponsors:
     - name: Centrum Nauki Kopernik
       image: "images/optimized/honorary-patronages-600x600/CNK.webp"
       url: "https://www.kopernik.org.pl/en"
+    - name: University of Warsaw
+      image: "images/optimized/honorary-patronages-600x600/UW.webp"
+      url: https://en.uw.edu.pl/
+    - name: Warsaw University of Technology
+      image: "images/optimized/honorary-patronages-600x600/PW.webp"
+      url: https://eng.pw.edu.pl/
     - name: Faculty of Mathematics, Informatics and Mechanics, University of Warsaw
       image: "images/optimized/honorary-patronages-600x600/MIMUW.webp"
       url: https://www.mimuw.edu.pl/en/
