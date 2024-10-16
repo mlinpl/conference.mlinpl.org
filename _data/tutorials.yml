@@ -1,261 +1,182 @@
-- title: 'Dancing with censored data: How to survive with explainable survival analysis?'
-  date: Sunday / 29 October
-  time: 09:00 - 13:00
+- title: 'Gaussian Splatting'
+  date: Sunday / 10 November
+  time: 9:00 - 13:00
   room: TBA
+  id: 1
   desc-md: >-
-    As machine learning in survival analysis is gaining popularity, it is becoming crucial for ML practitioners to understand the unique aspects of this type of modeling and effectively interpret survival models.
+    In this hands-on tutorial, we will introduce you to Gaussian Splatting, an advanced technology for generating detailed 3D scenes from 2D images. You will begin the session by creating your own dataset, where we will capture you or your chosen object. Each participant will work then on their own dataset.
+    Throughout the tutorial, you will dive deep into the practical aspects of Gaussian Splatting. We’ll guide you step-by-step through the entire workflow, from preparing the dataset from videos to training the model and refining your final 3D objects. By the end of the session, you will not only have your own 3D scene but also a solid understanding of the technology behind it. You will gain insight into critical techniques for optimizing the splatting process, addressing common challenges, and achieving high-quality 3D results.
+    Whether you are a beginner or have some experience with computer graphics, this tutorial will equip you with the skills to employ Gaussian Splatting technology in your own projects. Join us for an exciting journey into the world of cutting-edge 3D scene reconstruction!
 
 
-    This tutorial will guide you through a complete journey of examining the machine learning survival models with explainability and interpretability techniques. You will learn about various methods used for survival model analysis, both from the theoretical perspective and use cases. You will also become familiar with practical tools for creating explanations.
+
+    **Prerequisites:** You must know 3D Gaussian distribution and how to train fully connected neural networks.
+  authors: 
+    - name: Przemysław Spurek
+      title: IDEAS NCBR / GMUM, Jagiellonian University
+      image: images/optimized/cfc-600x600/przemyslaw_spurek.webp
+    
+    - name: Weronika
+      title: Jagiellonian University
+      image: images/empty.png
+
+    - name: Piotr Borycki
+      title: Jagiellonian University
+      image: images/optimized/cfc-600x600/PiotrBorycki.webp
+
+    - name:  Joanna
+      title: Jagiellonian University
+      image: images/empty.png
+
+    - name:  Dawid
+      title: Jagiellonian University
+      image: images/empty.png
+  author-bio: >-
+    Przemysław Spurek is the leader of the Neural Rendering research team at IDEAS NCBR and a researcher in the GMUM group operating at the Jagiellonian University in Krakow. In 2014, he defended his PhD in machine learning and information theory. In 2023, he obtained his habilitation degree and became a university professor. He has published articles at prestigious international conferences such as NeurIPS, ICML, IROS, AISTATS, ECML. He co-authored the book Głębokie uczenie. Wprowadzenie [Deep Learning. Introduction] – a compendium of knowledge about the basics of AI. He was the director of PRELUDIUM, SONATA, OPUS and SONATA BIS NCN grants. Currently, his research focuses mainly on neural rendering, in particular NeRF and Gaussian Splatting models.
 
 
-    We will cover explanation techniques developed specifically for survival analysis (SurvSHAP(t), SurvLIME) but also demonstrate how to apply methods adapted from classification and regression problems in this specific field of survival analysis.
+    Weronika is currently pursuing her PhD in Technical Computer Science at Jagiellonian University in Kraków. Her main area of interest is neural rendering models for 3D scene reconstruction, especially Gaussian Splatting. She employs it in different areas from physical simulations to medical data.
 
 
-    The emphasis will be on the insights these techniques unveil, along with discussions about their limitations, all demonstrated through specially curated examples complemented by code snippets.
+
+    Piotr Borycki is currently pursuing a Master’s degree in Computer Mathematics at Jagiellonian University in Kraków. His research focuses on 3D object representation, particularly using Neural Radiance Fields (NeRF) and Gaussian Splatting.
 
 
-    The examples showcased during the tutorial will be mostly prepared using the 'survex' package for the R language. However, survex is capable of creating explanations also for models implemented in Python. Furthermore, a part of the tutorial's examples will be presented in Python, too.
-  authors:
-    - name: Mateusz Krzyziński
-      title: MI2.AI
-      image: images/optimized/cfc-2023-600x600/MateuszKrzyziński.webp
 
-    - name: Mikołaj Spytek
-      title: MI2.AI
-      image: images/optimized/cfc-2023-600x600/MikołajSpytek.webp
+    Joanna is pursuing her PhD in Technical Computer Science at Jagiellonian University in Kraków, where she focuses on object representation in computer vision. Her research primarily revolves around models based on Gaussian Splatting, enabling fast rendering and modification of visual data. In recent years, she has had the privilege of collaborating with CERN and the University of Cambridge, while also participating in the first edition of AI Tech program at Wrocław University of Technology.
 
+
+
+    Dawid has three years of experience working as a Machine Learning Engineer and is now focused on research in 3D object reconstruction using Neural Radiance Fields (NeRF) and Gaussian Splatting. His work aims to enhance the efficiency and accuracy of 3D object representation techniques in modern computer vision applications.
+
+- title: 'How LLMs are Revolutionizing the cybersecurity field'
+  date: Sunday / 10 November
+  time: 9:00 - 13:00
+  room: TBA
+  id: 2
+  desc-md: >-
+    The ever-evolving threat landscape demands constant adaptation. Traditional methods struggle. Large Language Models (LLMs) emerge, wielding the power of language. This talk explores LLMs' revolution in cybersecurity. LLMs are AI models trained on massive text and code datasets. This grants them an understanding of complex linguistic patterns, invaluable in cybersecurity. Firstly, LLMs excel at advanced threat detection. Analyzing vast amounts of data, they identify subtle anomalies indicating brewing attacks. Traditional methods rely on pre-defined rules, vulnerable to novel attack vectors. LLMs, with their ability to learn and adapt, identify unseen threats, providing a crucial early warning system. Secondly, LLMs offer proactive threat analysis. By ingesting vast quantities of threat intelligence data, including past attack methods and attacker motivations, LLMs uncover patterns and predict future attack vectors. This allows security teams to take a pre-emptive approach, focusing resources on fortifying potential weaknesses before attackers exploit them. Imagine an LLM analyzing a hacker forum, identifying discussions about targeting a specific software vulnerability. This foresight empowers security professionals to patch the vulnerability before a widespread breach. Furthermore, LLMs can revolutionize vulnerability research . Traditionally, identifying vulnerabilities is time-consuming and laborious. LLMs, with their ability to analyze vast code repositories, pinpoint potential vulnerabilities through code patterns and language constructs associated with known weaknesses. This streamlines the vulnerability discovery process, allowing security teams to address critical issues before attackers identify them. While LLMs offer a powerful new frontier, challenges remain. Issues surrounding explainability, bias in training data, and potential misuse require careful consideration. However, the potential benefits are undeniable. As these models continue to evolve and integrate with existing security solutions, they hold the promise of a more secure and resilient digital landscape.
+
+
+
+    **Prerequisites:** Participants for this LLM for cybersecurity tutorial ideally should have: Basic understanding of cybersecurity concepts: Familiarity with common threats, vulnerabilities, and security practices is helpful. No prior knowledge of LLMs is required: The tutorial will introduce the concept and core functionalities of LLMs. However, a basic understanding of artificial intelligence (AI) and machine learning (ML) could be beneficial. Regarding the needed software, they should install jupyter notebook or any Python framework. Langchain python library should also be installed for processin cybersecurity tasks with LLM.
+
+
+  author-name: Natasha Alkhatib
+  author-title: Symbio
+  author-image: images/optimized/cfc-600x600/NatashaAlkhatib.webp
   author-bio-md: >-
-    Mateusz Krzyziński and Mikołaj Spytek are researchers within the MI2.AI team, whose focus spans various areas, with a particular interest in explainable artificial intelligence, especially XAI for survival model analysis. They are the authors of the survex package for R, a tool designed to enhance XAI in survival analysis. Their work also extends to innovative methods. They introduced the SurvSHAP(t) technique, offering a new way to explain machine learning survival models in a time-dependent manner. 
+    Dr. Natasha Alkhatib is a seasoned expert in automotive cybersecurity with a Ph.D. in Artificial Intelligence. Their doctoral research focused on developing cutting-edge intrusion detection systems for autonomous vehicles, demonstrating a deep understanding of the unique challenges and vulnerabilities within this domain. 
+    Following their academic pursuits, Natasha joined ETAS Bosch as a cybersecurity consultant, where they contributed to the development and implementation of various tools and services to enhance automotive security. Their expertise in this field allowed them to play a pivotal role in safeguarding critical automotive systems.
+    Currently, Natasha holds the position of Automotive Cybersecurity Leader at Symbio, a leading provider of fuel cell systems for the automotive industry. In this role, they leverage their extensive knowledge and experience to ensure the security of Symbio's hydrogen-based fuel cell technology, protecting both consumers and manufacturers from potential cyber threats.
 
 
-    Beyond theoretical aspects, their commitment extends to practical applications. This involvement includes close collaboration with medical professionals, facilitating the integration of innovative methodologies into the healthcare landscape.
 
-- title: 'Quickly Build and Deploy Interactive Machine Learning Applications with Streamlit'
-  date: Sunday / 29 October
-  time: 09:00 - 13:00
+- title: 'Beyond transformers - new sequence processing architectures'
+  date: Sunday / 10 November
+  time: 9:00 - 13:00
   room: TBA
+  id: 3
   desc-md: >-
-    Looking for an easy & engaging way to share your Data Science & Machine Learning contributions to the world?
+    The transformer neural architecture took by storm the AI community and is now used in many applications, from language models to image generation. With its widespread use we start to better understand transformer’s operating principles, limitations, and possible solutions to them. This tutorial aims to offer a clear picture of where transformer models are today and where they might be heading in the future or what might replace them. This tutorial will open with an overview of how transformers work, their strengths, their weaknesses, and recent theoretical findings about their capabilities, such as their ability to simulate different types of computations and their scalability with hardware. We will next cover important topics about how transformers handle context and attention and compare them with newly proposed alternatives, such as state-space models, to highlight the differences and trade-offs. We will discuss learning mechanisms both in the case of learning from training data during pre-training and in-context learning doing evaluation. We’ll look at techniques for handling long contexts and speculate on the relationship between in-context and from data learning. This will lead us to open questions about the future of AI models, such as understanding where knowledge is actually stored in sequence prediction models and is there a potential for models with an almost unlimited learning capacity.	
 
 
-    This 4h workshop is a beginner's guide to Streamlit, one of the fastest-growing open-source Python libraries to build beautiful and interactive web applications. After setting up a Python local development environment, we will build a web application to explore data and investigate predictive results on a Machine Learning project. We will then deploy it on Streamlit Cloud for free, so it can be linked from a research paper or embedded in a blog post for others to freely interact with the results.
-    
 
-    By the end of the session, you will be able to demonstrate your ML projects on the Internet or to stakeholders through fully interactive & easy to use web apps.
-    
-
-    This event is best suited for practitioners with some experience in Python. 
-
-  author-name: Fanilo Andrianasolo
-  author-title: Worldline
-  author-image: images/optimized/cfc-2023-600x600/FaniloAndrianasolo.webp
-  author-bio-md: >-
-    Fanilo Andrianasolo is a Data & AI Strategist at Worldline, with a decade of experience prototyping and deploying Data Analytics features for customer projects / company products in retail, telecommunications and banking.
-    
-
-    Following years of delivering tutorials on Big Data & MLOps to Master students at Université Lumière Lyon 2, he started a Youtube channel as a side-project, where he covers Streamlit in depth to build and share Data projects as Web Applications.
-    
-
-    Drawing from his experience in Educational Video Production, Fanilo now also mentors Developer Advocates in Content Creation & Community Building. His current goal is to inspire the next generation of Data People to showcase their works and impact the world in a positive way.
-
-- title: 'Introduction to geospatial machine learning'
-  date: Sunday / 29 October
-  time: 09:00 - 13:00
-  room: TBA
-  desc-md: >-
-    Tutorial offers a thorough introduction to the geospatial domain with python libraries. Participants will learn how to use, analyse and visualize open-source geospatial data. Additionally, participants will learn to pre-train embedding models and train predictive models for downstream tasks.
-
-
-    Most of the tutorial will be showing capabilities of the library srai (Spatial Representation for Artificial Intelligence) created by the authors, as well as GeoPandas, Shapely, osmnx and scikit-learn.
-
-
-    Beginner knowledge of Python is expected from the participants. Tutorial materials will be provided in the form of Jupyter notebooks.
-  authors:
-    - name: Kamil Raczycki
-      title: Kraina.AI, Wrocław University of Science and Technology / Allegro
-      image: images/optimized/cfc-2023-600x600/KamilRaczycki.webp
-
-    - name: Piotr Gramacki
-      title: Kraina.AI, Wrocław University of Science and Technology / Brand24
-      image: images/optimized/cfc-2023-600x600/PiotrGramacki.webp
-
-    - name: Szymon Woźniak
-      title: Kraina.AI, Wrocław University of Science and Technology / Surfer
-      image: images/optimized/cfc-2023-600x600/SzymonWozniak.webp
-
-    - name: Kacper Leśniara
-      title: Kraina.AI, Wrocław University of Science and Technology / GetInData
-      image: images/optimized/cfc-2023-600x600/kacper_leśniara.webp
-
-  author-bio-md: >-
-      Kamil Raczycki is a Spatial Data Scientist at Allegro working in the Location Intelligence team. He graduated from Wrocław University of Science and Technology with MSc in Data Science in 2021. His thesis about transfer learning in geospatial machine learning was published at the SIGSPATIAL conference. He combines his expertise as a Python developer with interest in the geospatial domain by co-developing the Spatial Representations for the Artificial Intelligence (SRAI) library as the Kraina.AI research group member.
-
-      
-      Piotr Gramacki is a Machine Learning Engineer at Brand24 and a PhD Candidate at Wrocław University of Science and Technology, where he works in the Kraina.AI research group. His scientific interests are geospatial AI and NLP. Piotr is a co-author of several publications from geospatial and NLP domains, and a co-creator of the Spatial Representations for Artificial Intelligence (SRAI) library.
-
-      
-      Szymon Woźniak is a Data Scientist at Surfer and a member of Kraina.AI research group at Wrocław University of Science and Technology. His research interests are focused on NLP and spatial analysis in AI. He holds a Master's degree in Data Science and has published multiple scientific publications in the geospatial domain. He also co-created the SRAI library for geospatial data processing and machine learning.
-
-      
-      Kacper Leśniara is a skilled ML/MLOps Engineer with over two years of experience, proficient in machine learning technologies, Python, SQL, and geospatial analysis. He also holds a Master's Degree in Data Science from Wrocław University of Science and Technology. Additionally, he has published research in the geospatial domain and is a co-author of an open-source Geo AI library under the Kraina AI Research Group at WUST.
-
-- title: 'Generative Methods in Drug Discovery: A Practical Introduction'
-  date: Sunday / 29 October
-  time: 09:00 - 13:00
-  room: TBA
-  desc-md: >-
-    The drug discovery process is a search for a compound that possesses a number of properties such as high activity or low toxicity. In recent years, there has been a rapid development of methods for generating potential drugs using neural networks.   During the workshop, we will generate a set of compounds that satisfy a certain set of criteria. We will pay special attention to synthesizability and activity. We will focus on practical techniques that are popular in the drug discovery space.  The workshop goal is to illustrate practical and realistic challenges in generating active molecules. One common issue is that the training data might be limited and noisy, due to the high cost of biological experiments. As such generated compounds might be biased and work poorly in reality.   Another issue is that compounds predicted to be active might be very hard to synthesize. Balancing the ease of synthesis with finding highly active compounds is an ongoing challenge.  During the workshop, we will host a leaderboard for participants to submit and score their generated compounds.
-
-
-    **Description and outline:** We will cover generating compounds for targets from the TDC leaderboard such as DRD2 using popular techniques (we will likely pick between REINVENT and genetic algorithms). We will host a leaderboard for participants to submit and score their generated compounds.
-
-
-    **Goals:** We would like attendees to understand what is de novo drug discovery, what are its challenges (e.g. OOD generalization, synthesizability, and many more), and reimplement some rudimentary techniques for generating compounds.
+    **Prerequisites:** Familiarity with transformer architecture. Python, PyTorch, Colab.	
 
   authors:
-    - name: Stanislaw Jastrzebski
-      title: Molecule.one
-      image: images/optimized/cfc-2023-600x600/StanislawJastrzebski.webp
-
-    - name: Tomasz Danel
-      title: Insitro
-      image: images/optimized/cfc-2023-600x600/TomaszDanel.webp
-
-  author-bio-md: >-
-    Stanislaw Jastrzebski serves as the CTO and Chief Scientist at Molecule.one, a biotech startup in the drug discovery space. He is passionate about improving the fundamental aspects of deep learning and applying it to automate scientific discovery. He completed his postdoctoral training at New York University in deep learning. His PhD thesis was based on work on foundations of deep learning done during research visits at MILA (with Yoshua Bengio) and the University of Edinburgh (with Amos Storkey). He received his PhD from Jagiellonian University, advised by Jacek Tabor. Beyond academia, he gained industrial experience at Google, Microsoft and Palantir. In his scientific work, he has published at leading machine learning venues (NeurIPS, ICLR, ICML, JMLR, Nature SR). He is also actively contributing to the machine learning community as an Area Chair (most recently NeurIPS '23) and as an Action Editor for TMLR. At Molecule.one, he leads technical teams working on software for synthesis planning based on deep learning, public data sources, and experiments from a highly automated laboratory.
-
-
-    Tomasz Danel is a Machine Learning Lead Scientist at Insitro. He is also a Ph.D. candidate in the machine learning research group (GMUM) at the Jagiellonian University in Kraków. He obtained his M.Sc. in computer science from the same university. His current research is focused on solving drug design challenges using deep learning. He is especially interested in combining geometric deep learning with structure-based drug design. His other research interests include graph neural networks, molecular graph theory, and generative molecular design. 
-
-- title: 'What is possible in real-time machine learning?'
-  date: Sunday / 29 October
-  time: 14:30 - 18:30
-  room: TBA
-  desc-md: >-
-    “The only constant thing in life is change”. A lot of modern data processing applications work with data streams and changing data inputs, and their objective is to provide up-to-date outcomes with low latency at high data throughput.
-
-
-    In this tutorial, we look at how to design dynamic data processing algorithms in a systematic way, and to implement them in an actual distributed streaming system. A major challenge here is the design of dynamic algorithms ready for different input data scenarios: data streams with insertion, deletion, arrival of data out-of-order, backfilling, etc.
-
-
-    We center the discussion around designing iterative machine learning algorithms, especially  graph algorithms and nearest neighbor methods for time-changing data. For this task, we provide examples of code in Pathway, a new performant data processing framework, for bounded and unbounded data streams, equipped with a Table API in Python, and powered by a distributed incremental dataflow in Rust.
-
-
-    In the course of a hands-on code tutorial, we will first show which machine learning algorithms can be implemented to quickly react to training data changes and how they can efficiently keep on updating their answers to the known test cases. We will then use them to design a reactive knowledge base for a Large Language Model chatbot application, showing how it is possible to integrate multiple data sources, learn in real time from its answers, or maintain up-to-date bot answers in the presence of knowledge-base changes.
-
-
-  authors:
-    - name: Jan Chorowski
-      title: Pathway
-      image: images/optimized/cfc-2023-600x600/JanChorowski.webp
-
-    - name: Przemek Uznański
-      title: Pathway
-      image: images/optimized/cfc-2023-600x600/PrzemekUznański.webp
-
     - name: Michał Bartoszkiewicz
       title: Pathway
-      image: images/optimized/cfc-2023-600x600/MichałBartoszkiewicz.webp
+      image: images/optimized/cfc-600x600/MichalBartoszkiewicz.webp
 
-    - name: Mateusz Lewandowski
+    - name: Jan Chorowski
       title: Pathway
-      image: images/optimized/cfc-2023-600x600/MateuszLewandowski.webp
+      image: images/optimized/cfc-600x600/JanChorowski.webp
 
-    - name: Krzysztof Nowicki
+    - name: Adrian Kosowski 
       title: Pathway
-      image: images/optimized/cfc-2023-600x600/KrzysztofNowicki.webp
+      image: images/optimized/cfc-600x600/AdrianKosowski.webp
+
+    - name: Adrian Łańcucki
+      title: NVIDIA
+      image: images/optimized/cfc-600x600/AdrianLancucki.webp
+
+    - name: Przemysław Uznański
+      title: Pathway
+      image: images/optimized/cfc-600x600/PrzemyslawUznanski.webp
 
   author-bio-md: >-
+    Michał Bartoszkiewicz designs the Pathway data processing framework. He is a competitive programmer with a long list of achievements including Topcoder finals, Google Code Jam and Facebook HackerCup. He co-founded nasza-klasa.pl, the first Polish social network.
+
+
+
     Jan Chorowski is the CTO at Pathway working on realtime data processing frameworks. He received his M.Sc. degree in electrical engineering from Wrocław University of Technology and Ph.D. from University of Louisville. He has worked at the University of Wroclaw and has collaborated with several research teams, including Google Brain, Microsoft Research and Yoshua Bengio's lab.
+
+
+
+    Adrian Kosowski specializes in network theory, discrete dynamical systems, graph navigability, and graph learning. He obtained his PhD in Computer Science at the age of 20, and has co-authored over 100 publications across Theoretical Computer Science, Physics, and Biology. Before co-founding Pathway, he was a tenured researcher at Inria and an associate professor at Ecole Polytechnique. He is also a co-founder of Spoj.com.
+
+
+
+    Adrian Łańcucki is a senior engineer at NVIDIA. His research focuses on representation learning and generative modeling for text and speech, as well as improving quality and efficiency at scale. In 2019, Adrian obtained a Ph.D. in machine learning from the University of Wroclaw, Poland. Since then, he has actively collaborated with academia.
+
 
 
     Przemek Uznański is the streaming algorithms and data structure expert at Pathway, and a former competitive programmer (finalist of ACM ICPC, TopCoder Open and Facebook HackerCup). He did his PhD at the INRIA Bordeaux on the topic of distributed computing, then was a Post-doc at ETH Zurich, Aalto (Finland), and in Marseille. He was an assistant professor at University of Wrocław
 
-
-    Michał Bartoszkiewicz: Michal designs the Pathway data processing framework. He is a competitive programmer with a long list of achievements including Topcoder finals, Google Code Jam and Facebook HackerCup. He co-founded nasza-klasa.pl, the first Polish social network.
-
-
-    Mateusz Lewandowski obtained his Ph.D. in Computer Science from the University of Wrocław in the field of combinatorial optimization and network design. Prior joining Pathway - the data processing and logistics company - he gained valuable experiences during his stays in EPFL (École polytechnique fédérale de Lausanne), Google Zürich and Horváth's Steering Lab in Munich.
-
-
-    Krzysztof Nowicki is a Datastore Research Engineer at Pathway. Prior to that, Krzysztof obtained his PhD student at Univ. of Wrocław, after which he was a postdoc at Univ. of Copenhagen. His areas of interest focus on the algorithms for big data sets (distributed, parallel, real-time). For his research on graph algorithms, he was awarded Lipski Prize (2020) and the Prime Minister Prize for the best PhD theses (2022). At Pathway, he works on algorithms and data structures for processing streams of data in real time.
-
-
-- title: 'Algorithmic Challenge: Mastering Commodity Trading and NFT Auctions'
-  date: Sunday / 29 October
-  time: 14:30 - 18:30
-  room: TBA
-  desc-md: >-
-    We have prepared some fun coding challenges to test out algorithmic skills. On the day of the event participants will gain access to Cambridge Spark's EDUKATE.ai where they will be able to easily access and code up solutions to these problems. They will receive feedback on their submissions to help you improve and iterate.
-
-    
-    Participants in groups of 2 or 3, will have 2 hours to complete both challenges. There will be a leaderboard and winners will receive prizes and kudos and be able to share their smart approach and techniques. The challenges are expected to be solved using Python.
- 
-
-    **The two challenges are:**
-
-    
-    - Optimal Transport is based on the classic traveling salesman problem participants may be familiar with. Here they will assume the role of a commodity trader seeking to maximise your profit gained by exchanging commodities between a number of cities, while accounting for the transportation costs between each trade route. They will need to be aware of the chance of inclement weather conditions that may hinder your plans!
-
- 
-    - Auction - For the second challenge, participants will play the part of an NFT Art dealer and develop their strategy to compete in bidding against a group of robot dealers. With a limited budget in each auction round, they need to maximise your Victory Points which will be scored against the best performing bidder in each round.
-
-    
-    **This tutorial is free of charge. 
-    Please register via [https://flows.beamery.com/gresearch/mlinpl-g-research-quant-challenge-leoe7h3xv](https://flows.beamery.com/gresearch/mlinpl-g-research-quant-challenge-leoe7h3xv). 
-    G-Research will select the best applications.**
-
-  author-name: Charles Martinez
-  author-title: G-Research
-  author-image: images/optimized/cfc-2023-600x600/CharlesMartinez.webp
-  author-bio-md: >-
-    Dr Charles Martinez is the Academic Relations Manager at G-Research. Charles started his studies as a physicist at University Portsmouth Physics department's MPhys programme, and later completed a PhD in Phonon interactions in Gallium Nitride nanostructures at the University of Nottingham. Charles then worked on indexing and abstract databases at the Institution for Engineering and Technology (IET) before moving into sales in 2010. Charles' previous role was as Elsevier's Key Account Manager, managing sales and renewals for the UK Russell Group institutions, Government and Funding body accounts, including being one of the negotiators in the recent UK ScienceDirect Read and Publish agreement. Since leaving Elsevier Charles is dedicated to forming beneficial partnerships between G-Research and Europe's top institutions, and is living in Cambridge, UK.
-
-- title: 'Graph representation learning and graph classification'
-  date: Sunday / 29 October
-  time: 14:30 - 18:30
-  room: TBA
-  desc-md: >-
-    Graphs are one of the most general structures that we can process with machine learning. However, as combinatorial and non-Euclidean structures, with unique invariants, they present unique challenges for representation learning. Traditional approaches, such as graph descriptors or graph kernels, focus solely on graph topology. Recent rise of graph neural networks (GNNs) allow us to utilize rich information such as node and edge labels, and include complex subgraph interactions into learned representations. In this tutorial I will outline both classical approaches and modern GNNs. Starting from spectral graph theory, we will introduce the message-passing paradigm, convolutional and attentional GNN architectures. I will focus on graph classification problems, with applications for challenging domains, such as molecular property prediction. Finally, we will introduce the current research problems such as oversmoothing, effective pretraining strategies and fair evaluation.
-
-
-    **Description and outline:** Tutorial will cover 3 approaches to graph classification: graph invariants (feature engineering), graph kernels and graph neural networks (GNNs). The largest focus will be on the latter. I will start with graph descriptors (invariants), as the most basic, and present classical topological features for graph classification, e.g. with centrality measures or community detection indexes. The example models will be Local Degree Profile (LDP) and Local Topological Profile (LTP), implemented with torch-scatter and networkit, and applied for non-attributed graph classification, e.g. for social networks. For graph kernels, I will present the most well-known topological kernels such as random walk kernel, implemented with GraKeL library and applied for bioinformatics dataset, e.g. proteins. For both of those approaches, I will discuss their advantages and disadvantages, especially in terms of attributed graphs (both nodes and edges), and scalability. For graph neural networks, we will start with Graph Convolutional Network (GCN) as a spectral graph convolution, and then go into the message-passing paradigm with GraphSAGE, GAT and GIN. We will implement them with PyTorch Geometric and apply for molecular property prediction. Lastly, we will review interesting areas of GNN research and development, e.g. oversmoothing (e.g. skip connections, directional message passing), pretraining strategies (e.g. Deep Graph Infomax, graph transformers) and fair evaluation. In general, the tutorial will start from the basics and will not require any specific knowledge apart from undergraduate level mathematics, Python and ML.
-
-
-    **Goals:** Attendees will learn about graph representation learning approaches, their strengths and weaknesses. In particular, we will focus on GNNs, so they will have a strong foundation for modern methods for graph classification. This can also be applied for node classification, link prediction and other graph-based learning tasks. We will also introduce efficient frameworks, and implement example models.
-
-  author-name: Jakub Adamczyk
-  author-title: AGH University of Cracow
-  author-image: images/optimized/cfc-2023-600x600/JakubAdamczyk.webp
-  author-bio: >-
-    Jakub Adamczyk is a PhD candidate at AGH University of Cracow, and Data Science graduate. His research work concerns supervised learning on graphs, in particular for molecular property prediction. He also works as a Data Science Engineer at Placewise, developing models for serverless ML in NLP and computer vision. He spends his free time doing Historical European Martial Arts (HEMA).
-
-- title: "From Idea to Market: Invent and Simplify with Amazon"
-  date: Sunday / 29 October
+- title: 'Machine learning on molecules and molecular fingerprints'
+  date: Sunday / 10 November
   time: 9:00 - 13:00
   room: TBA
+  id: 4
   desc-md: >-
-    Are you a young ICT enthusiast starting your career with a passion for turning your innovative ideas into a real-world app or device using cloud technologies? Join our tutorial, "From Idea to Market: Invent and Simplify with Amazon," and discover the answers to your burning questions! We'll explore how to incorporate your model, which technologies you can use, and how to scale up to production. Drawing on our experience with Alexa, Ring, and AWS products, we'll show you how to bring your cool ideas to life and take the first step towards becoming a successful developer-entrepreneur.
+    Machine learning on molecules is a vital subject in chemoinformatics and de novo drug design. Tasks like molecular property prediction and virtual screening are crucial in modern pharmaceutical workflows. However, molecules are nontrivial to process, typically being represented as attributed graphs. As such, they are naturally non-Euclidean and have no notion of distance, requiring vectorization before performing classification, regression, or other ML tasks. Dedicated embedding methods are required, in order to encode relevant structural and functional information. Molecular fingerprints are the most popular group of algorithms in this regard, offering efficient solutions for many problems. One of the most recent developments in this area is scikit-fingerprints, a scikit-learn compatible library for easy and efficient computation of molecular fingerprints, which will be extensively used during the tutorial. This workshop will introduce participants to machine learning on molecules, molecular fingerprints, and how to apply them to practical problems. We will cover basics of chemoinformatics, reading and processing data, how molecular fingerprints work, and how to apply them to molecular property prediction or virtual screening. As a bonus, participants will learn why graph neural networks (GNNs) are not a silver bullet, and why molecular fingerprints are still very much relevant in the era of GNNs popularity.
 
-  authors: 
-    - name: Anna Dąbrowska
-      title: Software Developer, Amazon Alexa AI-Natural Understanding
-      image: images/optimized/cfc-2023-600x600/AnnaDabrowska.webp
+
+
+    **Prerequisites:** We assume reasonably good Python programming knowledge, as well as general familiarity with machine learning and popular data science libraries, e.g. NumPy, Pandas, matplotlib, scikit-learn. Any previous experience with chemoinformatics is not required. We will work with Jupyter Notebooks, and attendees can use either local development environment or Google Colab.
+
+  authors:
+    - name: Jakub Adamczyk
+      title: AGH University of Krakow / Placewise
+      image: images/optimized/cfc-600x600/jakub_adamczyk.webp
+
+    - name: Piotr Ludynia
+      title: AGH University of Krakow
+      image: images/optimized/cfc-600x600/piotr_ludynia.webp
+  author-bio-md: >-
+    Jakub Adamczyk is a PhD candidate in Computer Science at AGH University of Krakow. His research concerns graph representation learning, graph classification, chemoinformatics, and molecular property prediction. He also works at Placewise as Data Science Engineer, focusing on various ML problems in tabular learning, CV and NLP, and their end-to-end MLOps. Besides his professional work, he does Historical European Martial Arts (HEMA) and likes reading.
+
     
-    - name: Volodymyr Hlushkov 
-      title: Senior QA Engineer, Amazon Ring
-      image: images/optimized/cfc-2023-600x600/VolodymyrHlushkov.webp
 
-    - name: Mikołaj Olszewski
-      title: Senior Software Engineer, Amazon Alexa Text-To-Speech
-      image: images/optimized/cfc-2023-600x600/MikolajOlszewski.webp
+    Piotr Ludynia is currently pursuing a Master’s degree at AGH University of Cracow - Poland, specializing in machine learning with a focus on graph and molecular learning. He also works on deep learning research and neural network acceleration at Intel. In his free time he writes, plays modern metal guitar and produces music.
 
-    - name: Valeriia Voitenko
-      title: Software Development Manager, Amazon Web Services Database Migration Service
-      image: images/optimized/cfc-2023-600x600/ValeriiaVoitenko.webp
 
-    - name: Evgenia Vrubel
-      title: Front-End Engineer, Amazon Web Services Database Migration Service
-      image: images/optimized/cfc-2023-600x600/EvgeniaVrubel.webp
-  
+- title: 'Multi-Agent Reinforcement Learning Tutorial for Optimal Urban Route Choice Using TorchRL'
+  date: Sunday / 10 November
+  time: 14:30 - 18:30
+  room: TBA
+  id: 5
+  desc-md: >-
+    In this tutorial, we will demonstrate how to implement Multi-Agent Reinforcement Learning (MARL) scenarios in an urban setting using our custom PettingZoo framework, RouteRL. We will showcase a simplified traffic route choice environment integrating Simulation of Urban MObility (SUMO), an open-source traffic simulation, with the reinforcement learning library, TorchRL. This framework aims to replicate the daily decision-making process involved in route selection. It incorporates two types of agents: human drivers, which are modeled using human route choice behavioral models from transportation research, and Automated Vehicles (AVs), RL agents with individual or collective goals. We will present our environment and its functionality as well as experiments with different state-of-the-art RL algorithms aiming to assess how the agents learn and compare the learning of human agents and AVs.
+
+
+    **Prerequisites:** Participants should have a basic understanding of reinforcement learning concepts before attending this tutorial. Additionally, they should prepare their development environment by installing and setting up the necessary tools. This includes creating and activating a Conda environment with Python 3.12. Within this environment, they should use pip to install the required libraries: Gym, PettingZoo, and torchrl.
+
+  authors:
+    - name: Anastasia Psarou
+      title: Jagiellonian University
+      image: images/optimized/cfc-600x600/anastasia_psarou.webp
+
+    - name: Ahmet Onur Akman
+      title: Jagiellonian University
+      image: images/optimized/cfc-600x600/onur_akman.webp
+
+  author-bio-md: >-
+    Anastasia Psarou is a PhD student in the Faculty of Mathematics and Computer Science at Jagiellonian University. Currently, she is working as part of the COeXISTENCE team towards discovering what happens in the future cities when intelligent machines (autonomous vehicles) and humans share limited resources of urban mobility.
+
+
+
+    Ahmet Onur Akman is a Computer Engineer with a specialization in Artificial Intelligence. Currently, he is a PhD student in the Faculty of Mathematics and Computer Science at Jagiellonian University interested in foreseeing what happens when our cities are shared with autonomous, intelligent robots, competing with human drivers for limited resources.
+
+
