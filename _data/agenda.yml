@@ -476,19 +476,19 @@
         - title: 'Tutorial 1: <strong>Gaussian Splatting</strong>'
           element-class: col-lg-3
           time: 9:00 - 13:00
-          # url: /program#tutorial-1
+          url: /program#tutorial-1
         - title: 'Tutorial 2: <strong>How LLMs are Revolutionizing the cybersecurity field</strong>'
           element-class: col-lg-3
           time: 9:00 - 13:00
-          # url: /program#tutorial-2'
+          url: /program#tutorial-2'
         - title: 'Tutorial 3: <strong>Beyond transformers - new sequence processing architectures</strong>'
           element-class: col-lg-3
           time: 9:00 - 13:00
-          # url: /program#tutorial-3
+          url: /program#tutorial-3
         - title: 'Tutorial 4: <strong>Machine learning on molecules and molecular fingerprints</strong>'
           element-class: col-lg-3
           time: 9:00 - 13:00
-          # url: /program#tutorial-4
+          url: /program#tutorial-4
     - events:
         - title: '<i class="fa-solid fa-utensils"></i> Lunch'
           element-class: col-lg-12
@@ -497,7 +497,7 @@
         - title: 'Tutorial 5: <strong>Multi-Agent Reinforcement Learning Tutorial for Optimal Urban Route Choice Using TorchRL</strong>'
           element-class: col-lg-4
           time: 14:30 - 18:30
-          # url: /program#tutorial-5
+          url: /program#tutorial-5
         - title: 'Tutorial 6: <strong>TBA</strong>'
           element-class: col-lg-4
           time: 14:30 - 18:30
