@@ -43,6 +43,9 @@
     - name: RTB House
       image: "images/optimized/sponsors-600x600/RTBHouse.webp"
       url: "https://www.rtbhouse.com"
+    - name: Snowflake
+      image: "images/optimized/sponsors-600x600/Snowflake.webp"
+      url: "https://www.snowflake.com/"
 
 - title: '/ <span class="silver-shine-text">Silver sponsors</span>'
   imageMaxWidth: 270px
