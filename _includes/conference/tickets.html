@@ -1,10 +1,17 @@
 <!-- Tickets Section -->
+{% comment %}
+To disable a ticket category:
+  1. Add opacity: <div class="ticket-info" style="opacity: 50%;"></div>
+  2. Change the button: <a class="btn btn-default btn-nonactive btn-lg" style="width: 100%;" disabled>
+  3. Remove <strong> from the button text
+  4. Change the table header from: <thead class="bg-active"> to: </thead><thead class="bg-nonactive">
+{% endcomment %}
 <section id="tickets" class="container content-section">
     <div class="row">
         <div class="col-lg-12">
             <h2>/ Tickets</h2> 
         </div>
-        <div class="col-lg-4 text-center ticket-col">
+        <!-- <div class="col-lg-4 text-center ticket-col">
             <div class="ticket-info" style="opacity: 50%;">
                 <a class="btn btn-default btn-nonactive btn-lg" style="width: 100%;" disabled><i class="fa-solid fa-ticket"></i> Early bird registration</a>
                 <p>
@@ -29,7 +36,7 @@
                     </tbody>
                 </table>
             </div>
-        </div>
+        </div> -->
         <div class="col-lg-4 text-center ticket-col" style="opacity: 50%;">
             <div class="ticket-info">
                 <a class="btn btn-default btn-nonactive btn-lg" style="width: 100%;" disabled><i class="fa-solid fa-ticket"></i> Regular registration</a>
@@ -81,6 +88,33 @@
                 </table>
             </div>
         </div>
+        <div class="col-lg-4 text-center ticket-col">
+            <div class="ticket-info">
+                <a href="https://app.evenea.pl/event/mlinpl24-tutorials/" class="btn btn-default btn-nonactive btn-lg" style="width: 100%;" disabled><strong><i class="fa-solid fa-ticket"></i> Tutorial registration</strong></a>
+                <p>
+                    First-come-first-served registration for tutorials. Starts 21&nbsp;October, 18:00 CEST (GMT+2) and last until all tickets are sold out.
+                    <!-- <strong>Selected tutorials are free of charge.</strong> -->
+                </p>
+                <table>
+                    <thead class="bg-active">
+                        <tr>
+                            <th>Ticket</th>
+                            <th>Price</th>
+                        </tr>
+                    <tbody>
+                        <tr>
+                            <td>Student</td>
+                            <td>60 PLN</td>
+                        </tr>
+                        <tr>
+                            <td>Regular</td>
+                            <td>120 PLN</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
         <div class="col-lg-12">
             <ul class="list-inline banner-social-buttons">
                 <li>
