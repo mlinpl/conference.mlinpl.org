@@ -16,7 +16,7 @@
       title: IDEAS NCBR / GMUM, Jagiellonian University
       image: images/optimized/cfc-600x600/przemyslaw_spurek.webp
     
-    - name: Weronika
+    - name: Weronika Smolak-Dyżewska
       title: Jagiellonian University
       image: images/empty.png
 
@@ -24,11 +24,11 @@
       title: Jagiellonian University
       image: images/optimized/cfc-600x600/PiotrBorycki.webp
 
-    - name:  Joanna
+    - name:  Joanna Waczyńska
       title: Jagiellonian University
       image: images/empty.png
 
-    - name:  Dawid
+    - name:  Dawid Malarz
       title: Jagiellonian University
       image: images/empty.png
   author-bio: >-
@@ -180,3 +180,16 @@
     Ahmet Onur Akman is a Computer Engineer with a specialization in Artificial Intelligence. Currently, he is a PhD student in the Faculty of Mathematics and Computer Science at Jagiellonian University interested in foreseeing what happens when our cities are shared with autonomous, intelligent robots, competing with human drivers for limited resources.
 
 
+- title: 'Practical Submodular Optimization'
+  date: Sunday / 10 November
+  time: 14:30 - 18:30
+  room: TBA
+  id: 6
+  # desc-md: >-
+    
+  authors:
+    - name: Marek Adamczyk
+      title: University of Wrocław
+      image: images/empty.png
+
+  # author-bio-md: >-
