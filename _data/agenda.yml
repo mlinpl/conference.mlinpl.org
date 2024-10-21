@@ -252,7 +252,7 @@
       - title: "Contributed Talks Session 4:"
         subevents:
           - title: "<strong>How LLMs are Revolutionizing the Cybersecurity Field</strong>"
-            subtitle: by Natasha Alkhatib
+            subtitle: by Natasha Al-Khatib
             time: 14:30 - 14:55
             url: /program#contributed-talk-10
           - title: "<strong>Efficient Fine-Tuning of LLMs: Exploring PEFT Methods and LoRA-XS Insights</strong>"
