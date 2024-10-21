@@ -18,7 +18,7 @@
     
     - name: Weronika Smolak-Dyżewska
       title: Jagiellonian University
-      image: images/empty.png
+      image: images/optimized/cfc-600x600/WeronikaSmolakDyzewska.webp
 
     - name: Piotr Borycki
       title: Jagiellonian University
@@ -26,12 +26,12 @@
 
     - name:  Joanna Waczyńska
       title: Jagiellonian University
-      image: images/empty.png
+      image: images/optimized/cfc-600x600/JoannaWaczynska.webp
 
     - name:  Dawid Malarz
       title: Jagiellonian University
-      image: images/empty.png
-  author-bio: >-
+      image: images/optimized/cfc-600x600/DawidMalarz.webp
+  author-bio-md: >-
     Przemysław Spurek is the leader of the Neural Rendering research team at IDEAS NCBR and a researcher in the GMUM group operating at the Jagiellonian University in Krakow. In 2014, he defended his PhD in machine learning and information theory. In 2023, he obtained his habilitation degree and became a university professor. He has published articles at prestigious international conferences such as NeurIPS, ICML, IROS, AISTATS, ECML. He co-authored the book Głębokie uczenie. Wprowadzenie [Deep Learning. Introduction] – a compendium of knowledge about the basics of AI. He was the director of PRELUDIUM, SONATA, OPUS and SONATA BIS NCN grants. Currently, his research focuses mainly on neural rendering, in particular NeRF and Gaussian Splatting models.
 
 
