@@ -62,11 +62,11 @@
     **Prerequisites:** Participants for this LLM for cybersecurity tutorial ideally should have: Basic understanding of cybersecurity concepts: Familiarity with common threats, vulnerabilities, and security practices is helpful. No prior knowledge of LLMs is required: The tutorial will introduce the concept and core functionalities of LLMs. However, a basic understanding of artificial intelligence (AI) and machine learning (ML) could be beneficial. Regarding the needed software, they should install jupyter notebook or any Python framework. Langchain python library should also be installed for processin cybersecurity tasks with LLM.
 
 
-  author-name: Natasha Alkhatib
+  author-name: Natasha <nobr>Al-Khatib</nobr>
   author-title: Symbio
   author-image: images/optimized/cfc-600x600/NatashaAlkhatib.webp
   author-bio-md: >-
-    Dr. Natasha Alkhatib is a seasoned expert in automotive cybersecurity with a Ph.D. in Artificial Intelligence. Their doctoral research focused on developing cutting-edge intrusion detection systems for autonomous vehicles, demonstrating a deep understanding of the unique challenges and vulnerabilities within this domain. 
+    Dr. Natasha Al-Khatib is a seasoned expert in automotive cybersecurity with a Ph.D. in Artificial Intelligence. Their doctoral research focused on developing cutting-edge intrusion detection systems for autonomous vehicles, demonstrating a deep understanding of the unique challenges and vulnerabilities within this domain.
     Following their academic pursuits, Natasha joined ETAS Bosch as a cybersecurity consultant, where they contributed to the development and implementation of various tools and services to enhance automotive security. Their expertise in this field allowed them to play a pivotal role in safeguarding critical automotive systems.
     Currently, Natasha holds the position of Automotive Cybersecurity Leader at Symbio, a leading provider of fuel cell systems for the automotive industry. In this role, they leverage their extensive knowledge and experience to ensure the security of Symbio's hydrogen-based fuel cell technology, protecting both consumers and manufacturers from potential cyber threats.
 
