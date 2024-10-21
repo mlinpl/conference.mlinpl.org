@@ -185,11 +185,16 @@
   time: 14:30 - 18:30
   room: TBA
   id: 6
-  # desc-md: >-
+  desc-md: >-
+    In today’s rapidly evolving landscape, Generative AI (GenAI) and large language models (LLMs) dominate the spotlight, sparking excitement and revolutionizing industries across the board. While these advancements capture imaginations, it's easy to overlook the continued relevance of classical algorithmic tools that remain fundamental to solving real-world problems. Among these, submodular optimization stands as a cornerstone of algorithmic heuristics, providing a powerful and elegant abstraction for a wide range of practical scenarios. This tutorial highlights how submodular optimization offers efficient solutions to problems where greedy algorithms excel — thanks to its unique structure that allows ideas from convex continuous optimization to be applied in discrete scenarios. From sensor placement to data summarization through feature selection, submodular optimization elegantly balances simplicity and performance. Moreover, there are situations where sophisticated deep learning models are just impossible to apply due to the very nature of the problem itself. For example, when working with streaming data—where the full dataset isn't available in advance and decisions must be made on the fly—submodular optimization becomes indispensable. Its adaptability to such constraints showcases why it remains a critical tool.
     
+    The tutorial will be divided into three parts. It will begin with an introduction to the fundamental mathematics behind submodular functions, providing a clear and accessible overview. The second part will focus on practical results, drawing from selected ICML, NeurIPS, and AAAI papers to demonstrate how submodular optimization is applied across various domains. The final part will examine a detailed case study, illustrating how submodularity can be used to model dynamic pricing in ride-hailing platforms, connecting theory with a real-world application.
   authors:
     - name: Marek Adamczyk
       title: University of Wrocław
-      image: images/empty.png
+      image: images/optimized/cfc-600x600/marek_adamczyk.webp
 
-  # author-bio-md: >-
+  author-bio-md: >-
+    Marek Adamczyk works at the University of Wrocław's Institute of Informatics. He is a theoretical computer scientist focused on algorithms that predict the future. His research addresses combinatorial problems, drawing from fields such as probability theory, stochastic optimization, online optimization, mechanism design, and algorithmic game theory.
+
+    While his work has a strong foundational and theoretical focus, all of the problems he explores are motivated by natural business and practical applications. Modern internet environments require solutions at the intersection of machine learning, data science, and advanced algorithmics due to the vast amounts of data from which predictions must be inferred and the need for rapid decision-making in large data streams.
