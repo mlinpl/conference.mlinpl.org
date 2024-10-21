@@ -73,8 +73,8 @@
           time: 12:15 - 13:15
           room: Main Lecture Hall
           # url: /program#invited-talk-1
-        - title: "Invited Talk 2: <strong>TBA</strong>"
-          subtitle: "by TBA"
+        - title: "Invited Talk 2: <strong>Evolving programs with LLMs</strong>"
+          subtitle: "by Bernardino Romera Paredes"
           element-class: col-lg-6
           time: 12:15 - 13:15
           room: Lecture Halls A & B
@@ -89,8 +89,8 @@
           time: 14:45 - 15:45
           room: Main Lecture Hall
           url: /program#discussion-panel-1
-        - title: "Invited Talk 3: <strong>TBA</strong>"
-          subtitle: "by TBA"
+        - title: "Invited Talk 3: <strong>Explainable AI for LLMs</strong>"
+          subtitle: "by Wojciech Samek"
           element-class: col-lg-6
           time: 14:45 - 15:45
           room: Lecture Halls A & B
