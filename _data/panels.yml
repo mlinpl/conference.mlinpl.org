@@ -79,14 +79,7 @@
         Wouter is the Chief Operation and Product Officer (COO & CPO) of Aiosyn. At Aiosyn he works on precision pathology for cancer and kidney diseases using AI. Wouter studied Artificial Intelligence and worked as a software engineer and data scientist. He holds a Ph.D. in computational pathology with a focus on using artificial intelligence for clinical diagnostics. 
       bio-more: >-
         Wouter’s research showed that AI algorithms could grade prostate cancer on the level of experienced pathologists and actively assist pathologists in performing better diagnoses. Wouter was also one of the main organizers of the PANDA challenge, collaborating with Karolinska Institute and Google Health. Wouter’s research was published in top journals like The Lancet Oncology and Nature Medicine.
-    - name: Danielle Belgrave
-      image: images/optimized/speakers-600x600/DanielleBelgrave.webp
-      title: GSK AI
-      bio-intro: >-
-        Danielle Belgrave is a VP of AI/ML at GSK. Her experience spans conducting machine learning research and leading teams across academia and industry focused on scientific discovery and personalising interventions in health. She has previously worked at Google DeepMind, Microsoft Research Cambridge, UK and Imperial College London. 
-      bio-more: >-
-        She has a BSc in business mathematics and statistics from the London School of Economics and a master’s degree in statistics from University College London. Her PhD was at the University of Manchester in Machine Learning for Healthcare.
-
+    
 - name: AI Safety
   date: Friday / 8 November
   room: Main Lecture Hall
