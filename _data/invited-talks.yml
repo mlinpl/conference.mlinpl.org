@@ -25,3 +25,31 @@
   author-bio: >-
     Wojciech Samek is a Professor in the EECS Department at TU Berlin and is jointly heading the AI Department at Fraunhofer HHI. He is a Fellow at BIFOLD - Berlin Institute for the Foundation of Learning and Data, the ELLIS Unit Berlin, and the DFG Research Unit DeSBi. Furthermore, he is a Senior Editor for IEEE TNNLS, an Associate Editor for Pattern Recognition, and an elected member of the IEEE MLSP Technical Committee and Germany's Platform for AI. He also serves as a member of the scientific advisory board of IDEAS NCBR - Polish Centre of Innovation in the Field of Artificial Intelligence. Wojciech has co-authored more than 200 papers and was the leading editor of the Springer book "Explainable AI: Interpreting, Explaining and Visualizing Deep Learning" (2019), and co-editor of the open access Springer book “xxAI – Beyond explainable AI” (2022). He has served as Program Co-Chair for IEEE MLSP'23, and as Area Chair for NAACL'21 and NeurIPS'23, and is a recipient of multiple best paper awards, including the 2020 Pattern Recognition Best Paper Award and the 2022 Digital Signal Processing Best Paper Prize.
   google scholar: https://scholar.google.com/citations?user=7aQwO08AAAAJ
+
+- title: "Perceiving, Understanding, and Interacting through Touch"
+  abstract: >-
+    Touch is a crucial sensor modality in both humans and robots. Recent advances in tactile sensing hardware have resulted -- for the first time -- in the availability of mass-produced, high-resolution, inexpensive, and reliable tactile sensors. In this talk, I will argue for the importance of creating a new computational field of "Touch processing" dedicated to the processing and understanding of touch through the use of Artificial Intelligence. This new field will present significant challenges both in terms of research and engineering, but also significantly opportunities in digitizing a new sensing modality. To conclude, I will present some applications of touch in robotics and discuss other future applications.
+  time: 09:30 - 10:30
+  room: Main Lecture Hall
+  date: Friday / 8 November
+  id: 4
+  author-name: Roberto Calandra
+  author-title: Technische Universität Dresden
+  author-image: images/optimized/speakers-600x600/RobertoCalandra.webp
+  author-bio: >-
+    Roberto Calandra is a Full (W3) Professor at the Technische Universität Dresden where he leads the Learning, Adaptive Systems and Robotics (LASR) lab. Previously, he founded at Meta AI (formerly Facebook AI Research) the Robotic Lab in Menlo Park. Prior to that, he was a Postdoctoral Scholar at the University of California, Berkeley (US) in the Berkeley Artificial Intelligence Research (BAIR) Lab. His education includes a Ph.D. from TU Darmstadt (Germany), a M.Sc. in Machine Learning and Data Mining from the Aalto university (Finland), and a B.Sc. in Computer Science from the Università degli Studi di Palermo (Italy). His scientific interests are broadly at the conjunction of Robotics and Machine Learning, with the goal of making robots more intelligent and useful in the real world. Among his contributions is the design and commercialization of DIGIT -- the first commercial high-resolution compact tactile sensor, which is currently the most widely used tactile sensor in robotics. Roberto served as Program Chair for AISTATS 2020, as Guest Editor for the JMLR Special Issue on Bayesian Optimization, and has previously co-organized over 16 international workshops (including at NeurIPS, ICML, ICLR, ICRA, IROS, RSS). In 2024, he received the IEEE Early Academic Career Award in Robotics and Automation.
+  google scholar: https://scholar.google.ch/citations?user=fA0rYxMAAAAJ
+
+- title: "Computer Vision in the age of LLMs"
+  abstract: >-
+    I will discuss how computer vision has changed with the integration of language and the advent of LLMs, with focus on the recent works of our group. Depending on the audience's familiarity, I may spend most of the time covering the way these modalities are integrated via SigLIP, CapPa, and PaLI, as well as touch on some fairness and cultural diversity aspects ("No Filter" paper), or spend more time on the advanced way in which classically "typical vision" tasks such as detection, segmentation, monocular depth, are finding their way into VLMs and the standard language-modeling approach, covering UViM, RL-tuning, GIVT, and more recent approaches towards fully end-to-end multimodal learning.
+  time: 09:30 - 10:30
+  room: Main Lecture Hall
+  date: Saturday / 9 November
+  id: 9
+  author-name: Lucas Beyer
+  author-title: Google DeepMind
+  author-image: images/optimized/speakers-600x600/LucasBeyer.webp
+  author-bio: >-
+    Lucas grew up in Belgium wanting to make video games and their AI. He went on to study mechanical engineering at RWTH Aachen in Germany, then did a PhD in robotic perception and computer vision there too. Now, he is a staff research scientist at Google DeepMind (formerly Brain) in Zürich, leading multimodal vision-language research.
+  google-scholar: https://scholar.google.com/citations?user=p2gwhK4AAAAJ
