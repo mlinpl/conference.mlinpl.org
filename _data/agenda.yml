@@ -285,7 +285,7 @@
 
     - events:
       - title: "Discussion Panel: <Strong>AI Safety</strong>"
-        subtitle: "by Eleven Labs"
+        subtitle: "by ElevenLabs"
         element-class: col-lg-4
         time: 16:00 - 17:00
         room: Main Lecture Hall
