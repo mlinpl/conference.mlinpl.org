@@ -154,11 +154,12 @@
 
 - title: 'Multi-Agent Reinforcement Learning Tutorial for Optimal Urban Route Choice Using TorchRL'
   date: Sunday / 10 November
-  time: 14:30 - 18:30
+  time: 14:30 - 16:30
   room: TBA
   id: 5
   desc-md: >-
     In this tutorial, we will demonstrate how to implement Multi-Agent Reinforcement Learning (MARL) scenarios in an urban setting using our custom PettingZoo framework, RouteRL. We will showcase a simplified traffic route choice environment integrating Simulation of Urban MObility (SUMO), an open-source traffic simulation, with the reinforcement learning library, TorchRL. This framework aims to replicate the daily decision-making process involved in route selection. It incorporates two types of agents: human drivers, which are modeled using human route choice behavioral models from transportation research, and Automated Vehicles (AVs), RL agents with individual or collective goals. We will present our environment and its functionality as well as experiments with different state-of-the-art RL algorithms aiming to assess how the agents learn and compare the learning of human agents and AVs.
+    **The tutorial is expected to take approximately 2 hours.**
 
 
     **Prerequisites:** Participants should have a basic understanding of reinforcement learning concepts before attending this tutorial. Additionally, they should prepare their development environment by installing and setting up the necessary tools. This includes creating and activating a Conda environment with Python 3.12. Within this environment, they should use pip to install the required libraries: Gym, PettingZoo, and torchrl.
