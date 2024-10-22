@@ -40,6 +40,20 @@
     Roberto Calandra is a Full (W3) Professor at the Technische Universität Dresden where he leads the Learning, Adaptive Systems and Robotics (LASR) lab. Previously, he founded at Meta AI (formerly Facebook AI Research) the Robotic Lab in Menlo Park. Prior to that, he was a Postdoctoral Scholar at the University of California, Berkeley (US) in the Berkeley Artificial Intelligence Research (BAIR) Lab. His education includes a Ph.D. from TU Darmstadt (Germany), a M.Sc. in Machine Learning and Data Mining from the Aalto university (Finland), and a B.Sc. in Computer Science from the Università degli Studi di Palermo (Italy). His scientific interests are broadly at the conjunction of Robotics and Machine Learning, with the goal of making robots more intelligent and useful in the real world. Among his contributions is the design and commercialization of DIGIT -- the first commercial high-resolution compact tactile sensor, which is currently the most widely used tactile sensor in robotics. Roberto served as Program Chair for AISTATS 2020, as Guest Editor for the JMLR Special Issue on Bayesian Optimization, and has previously co-organized over 16 international workshops (including at NeurIPS, ICML, ICLR, ICRA, IROS, RSS). In 2024, he received the IEEE Early Academic Career Award in Robotics and Automation.
   google scholar: https://scholar.google.ch/citations?user=fA0rYxMAAAAJ
 
+- title: "RLHF as conditioning on human preferences"
+  abstract: >-
+    The dominant approach to aligning large language models with human preferences is reinforcement learning from human feedback (RLHF): finetuning an LLM to maximise a reward function representing human preferences. In this talk, I will try to present a complementary perspective: that we can also think about LLM alignment not in terms of reward maximisation but in terms of conditioning LMs on evidence about human preferences. First, I will explain how minimizing the classic RLHF objective is equivalent to approximate Bayesian inference. Then, I will go on to argue that the conditioning view also inspires other approaches to LLM alignment. I will discuss three: minimising different f-divergences from a target distribution, learning from feedback expressed in natural language and aligning LMs already during pretraining by directly learning a distribution conditional on alignment score. I will end the talk discussing how they correspond to conditioning subsequent priors on subsequent pieces of evidence about human preferences.
+  time: 16:00 - 17:00
+  room: Lecture Hall B
+  date: Friday / 8 November
+  id: 8
+  author-name: Tomek Korbak
+  author-title: UK AI Safety Institute
+  author-image: images/optimized/speakers-600x600/TomaszKorbak.webp
+  author-bio: >-
+    Tomek Korbak is a Senior Research Scientist at the UK AI Safety Institute working on safety cases for frontier models. Previously, he was a Member of Technical Staff at Anthropic working on honesty. Before that, he did a PhD at the University of Sussex focusing on RL from human feedback (RLHF) and spent time as a visiting researcher at NYU working with Ethan Perez, Sam Bowman and Kyunghyun Cho. He studied cognitive science, philosophy and physics at the University of Warsaw.
+  google scholar: https://scholar.google.com/citations?user=YQ5rrk4AAAAJ
+
 - title: "Computer Vision in the age of LLMs"
   abstract: >-
     I will discuss how computer vision has changed with the integration of language and the advent of LLMs, with focus on the recent works of our group. Depending on the audience's familiarity, I may spend most of the time covering the way these modalities are integrated via SigLIP, CapPa, and PaLI, as well as touch on some fairness and cultural diversity aspects ("No Filter" paper), or spend more time on the advanced way in which classically "typical vision" tasks such as detection, segmentation, monocular depth, are finding their way into VLMs and the standard language-modeling approach, covering UViM, RL-tuning, GIVT, and more recent approaches towards fully end-to-end multimodal learning.
