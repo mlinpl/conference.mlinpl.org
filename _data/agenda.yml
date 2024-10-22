@@ -502,7 +502,7 @@
           element-class: col-lg-4
           time: 14:30 - 18:30
           url: /program#tutorial-6
-        - title: 'Tutorial 7: <strong>TBA</strong>'
-          element-class: col-lg-4
-          time: 14:30 - 18:30
-          # url: /program#tutorial-7
+#        - title: 'Tutorial 7: <strong>TBA</strong>'
+#          element-class: col-lg-4
+#          time: 14:30 - 18:30
+#          # url: /program#tutorial-7
