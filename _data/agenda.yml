@@ -298,12 +298,12 @@
         room: Lecture Hall A
         # url: /program#invited-talk-7
 
-      - title: "Invited Talk 8: <strong>TBA</strong>"
-        subtitle: "by TBA"
+      - title: "Invited Talk 8: <strong>RLHF as conditioning on human preferences</strong>"
+        subtitle: "by Tomek Korbak"
         element-class: col-lg-4
         time: 16:00 - 17:00
         room: Lecture Hall B
-        # url: /program#invited-talk-8
+        url: /program#invited-talk-8
 
     - events:
         - title: "Poster Session 1"
