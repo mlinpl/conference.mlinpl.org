@@ -28,9 +28,9 @@
     - name: Comarch
       image: "images/optimized/sponsors-600x600/Comarch.webp"
       url: "https://www.comarch.com"
-    # - name: Google
-    #   image: "images/optimized/sponsors-600x600/Google.webp"
-    #   url: https://about.google
+    - name: Google
+      image: "images/optimized/sponsors-600x600/Google.webp"
+      url: https://about.google
     # - name: Google DeepMind
     #   image: "images/optimized/sponsors-600x600/GoogleDeepMind.webp"
     #   url: https://www.deepmind.com
