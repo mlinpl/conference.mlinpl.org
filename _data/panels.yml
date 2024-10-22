@@ -104,7 +104,7 @@
         Julia earned her Bachelor's degree in Computer Science from the University of Warsaw and completed her Master's at ETH Zurich in 2023. Her professional interests are in Machine Learning for Natural Language Processing, AI security, and performance optimization of ML systems.
     - name: Matija Franklin
       image: images/optimized/speakers-600x600/MatijaFranklin.webp
-      title: OpenAI
+      title: Human In the Loop / UCL
       bio-intro: >-
         Matija is an AI Safety Researcher who has worked with OpenAI, DeepMind, the AI Objectives Institute, ContextualAI, and Mercor on advancing methods for collecting human data for post-training, developing evals and benchmarks. His work on AI Manipulation and General Purpose AI Systems has impacted the EU AI Act, and he is currently involved in crafting the Codes of Practice for the EU AI Office. 
       bio-more: >-
