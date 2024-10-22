@@ -15,7 +15,7 @@
 
 - author-name: Paulina Kaczyńska
   title: "Accumulated Local Effects and Graph Neural Networks"
-  author-title: "University of Warsaw, Faculty of Mathematics, Informatics and Mechanics; Institute of Fundamental Te"
+  author-title: "University of Warsaw, MIM Faculty; IPPT PAN"
   abstract: >- 
     I explore how Accumulated Local Effects (ALE), a model-agnostic explanation method, can be tailored to visualize the impact of node features in link prediction tasks in Graph Neural Networks (GNN). A key challenge addressed in this work is the fact that complex interactions of nodes during message passing within GNN layers complicate the direct application of ALE. Since a straightforward solution of modyfying only one node at once would substantially increase computation time, I propose an approximate method that mitigates this challenge.  The findings reveal that although the approximate method offers computational efficiency, the exact method yields more stable explanations, particularly when smaller data subsets are used. However, when a large number of data points are employed to estimate the ALE profile, the differences between the two methods diminish. Additionally, I discuss how different parameters influence the accuracy of ALE estimation for both methods.
   author-bio: >- 
