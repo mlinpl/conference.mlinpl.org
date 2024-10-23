@@ -67,3 +67,17 @@
   author-bio: >-
     Lucas grew up in Belgium wanting to make video games and their AI. He went on to study mechanical engineering at RWTH Aachen in Germany, then did a PhD in robotic perception and computer vision there too. Now, he is a staff research scientist at Google DeepMind (formerly Brain) in Zürich, leading multimodal vision-language research.
   google-scholar: https://scholar.google.com/citations?user=p2gwhK4AAAAJ
+
+- title: Improving Foundation Models (with academic compute)
+  abstract: >-
+    I will talk about how we can build on top of pretrained Foundation Models to achieve better models for vision, language, audio and multi-modal tasks. First I will show that despite its strong performance, DINOv2 and other vision backbones often lack spatial understanding of images. To counteract this, we use NeCo, a new post-pretraining approach based on patch-nearest neighbors, which significantly improves the dense performances of this and any other model despite using only 16 GPU hours. Next I will introduce two parameter-efficient finetuning methods for LLMs and for VLMs that significantly reduce the amount of parameters required for successfully tuning these models. Finally, I will present our latest work, where we show that gradients from self-supervised losses can be successfully used as features for improved retrieval performances across vision, audio and text.
+  time: 16:10 - 17:10
+  room: Lecture Hall A
+  date: Saturday / 9 November
+  id: 12
+  author-name: Yuki Asano
+  author-title: University of Amsterdam
+  author-image: images/optimized/speakers-600x600/YukiAsano.webp
+  author-bio: >-
+    Yuki is an assistant professor for computer vision and machine learning at the QUVA lab at the University of Amsterdam, where he works with Cees Snoek, Max Welling and Efstratios Gavves. His PhD was at the Visual Geometry Group (VGG) at the University of Oxford where he worked with Andrea Vedaldi and Christian Rupprecht. Prior to this, he studied physics at the University of Munich (LMU) and Economics in Hagen as well as a MSc in Mathematical Modelling and Scientific Computing at the Mathematical Institute in Oxford.
+  google scholar: https://scholar.google.com/citations?user=CdpLhlgAAAAJ

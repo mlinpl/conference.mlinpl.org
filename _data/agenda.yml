@@ -450,7 +450,7 @@
           element-class: col-lg-4
           time: 16:10 - 17:10
           room: Lecture Hall A
-          # url: /program#invited-talk-12
+          url: /program#invited-talk-12
         - title: 'Invited talk 13: <strong>TBA</strong>'
           subtitle: "by TBA"
           element-class: col-lg-4
