@@ -495,11 +495,11 @@
           time: 13:00 - 14:30
     - events:
         - title: 'Tutorial 5: <strong>Multi-Agent Reinforcement Learning Tutorial for Optimal Urban Route Choice Using TorchRL</strong>'
-          element-class: col-lg-4
+          element-class: col-lg-6
           time: 14:30 - 18:30
           url: /program#tutorial-5
         - title: 'Tutorial 6: <strong>Practical Submodular Optimization</strong>'
-          element-class: col-lg-4
+          element-class: col-lg-6
           time: 14:30 - 18:30
           url: /program#tutorial-6
 #        - title: 'Tutorial 7: <strong>TBA</strong>'
