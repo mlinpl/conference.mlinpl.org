@@ -2,7 +2,7 @@
   abstract: >-
     In this talk I will present FunSearch, a method to search for new solutions in mathematics and computer science. FunSearch works by pairing a pre-trained LLM, whose goal is to provide creative solutions in the form of computer code, with an automated “evaluator”, which guards against hallucinations and incorrect ideas. By iterating back-and-forth between these two components, initial solutions “evolve” into new knowledge. I will present the application of FunSearch to a central problem in extremal combinatorics — the cap set problem — where we discover new constructions of large cap sets going beyond the best known ones, both in finite dimensional and asymptotic cases. This represents the first discoveries made for established open problems using LLMs. Then, I will present the application of FunSearch to an algorithmic problem, online bin packing, which showcases the generality of the method. In this use case, FunSearch finds new heuristics that improve upon widely used baselines. I will conclude the talk by discussing the implications of searching in the space of code.
   time: 12:15 - 13:15
-  room: Lecture Halls A & B
+  room: Halls A & B
   date: Thursday / 7 November
   id: 2
   author-name: Bernardino Romera Paredes
@@ -16,7 +16,7 @@
   abstract: >-
     Abstract: Large Language Models are prone to biased predictions and hallucinations, underlining the paramount importance of understanding their model-internal reasoning process. However, achieving faithful explanations for the entirety of a black-box transformer model and maintaining computational efficiency is difficult. This talk will present a recent extension of the Layer-wise Relevance Propagation (LRP) attribution method to handle attention layers, which addresses this challenge effectively. Our method is the first to faithfully and holistically attribute not only input but also latent representations of transformer models with the computational efficiency similar to a singular backward pass. Since the LRP is a model-aware XAI method, it not only identifies the relevant features in input space (e.g., pixels or words) but also provides deep insights into the model’s representation and the reasoning process. Through extensive evaluations against existing methods on Llama 2, Flan-T5 and the Vision Transformer architecture, we demonstrate that our proposed approach surpasses alternative methods in terms of faithfulness and enables the understanding of latent representations, opening up the door for concept-based explanations.
   time: 14:45 - 15:45
-  room: Lecture Halls A & B
+  room: Halls A & B
   date: Thursday / 7 November
   id: 3
   author-name: Wojciech Samek
@@ -30,7 +30,7 @@
   abstract: >-
     Touch is a crucial sensor modality in both humans and robots. Recent advances in tactile sensing hardware have resulted -- for the first time -- in the availability of mass-produced, high-resolution, inexpensive, and reliable tactile sensors. In this talk, I will argue for the importance of creating a new computational field of "Touch processing" dedicated to the processing and understanding of touch through the use of Artificial Intelligence. This new field will present significant challenges both in terms of research and engineering, but also significantly opportunities in digitizing a new sensing modality. To conclude, I will present some applications of touch in robotics and discuss other future applications.
   time: 09:30 - 10:30
-  room: Main Lecture Hall
+  room: Main Hall
   date: Friday / 8 November
   id: 4
   author-name: Roberto Calandra
@@ -44,7 +44,7 @@
   abstract: >-
     The dominant approach to aligning large language models with human preferences is reinforcement learning from human feedback (RLHF): finetuning an LLM to maximise a reward function representing human preferences. In this talk, I will try to present a complementary perspective: that we can also think about LLM alignment not in terms of reward maximisation but in terms of conditioning LMs on evidence about human preferences. First, I will explain how minimizing the classic RLHF objective is equivalent to approximate Bayesian inference. Then, I will go on to argue that the conditioning view also inspires other approaches to LLM alignment. I will discuss three: minimising different f-divergences from a target distribution, learning from feedback expressed in natural language and aligning LMs already during pretraining by directly learning a distribution conditional on alignment score. I will end the talk discussing how they correspond to conditioning subsequent priors on subsequent pieces of evidence about human preferences.
   time: 16:00 - 17:00
-  room: Lecture Hall B
+  room: Hall B
   date: Friday / 8 November
   id: 8
   author-name: Tomek Korbak
@@ -54,13 +54,45 @@
     Tomek Korbak is a Senior Research Scientist at the UK AI Safety Institute working on safety cases for frontier models. Previously, he was a Member of Technical Staff at Anthropic working on honesty. Before that, he did a PhD at the University of Sussex focusing on RL from human feedback (RLHF) and spent time as a visiting researcher at NYU working with Ethan Perez, Sam Bowman and Kyunghyun Cho. He studied cognitive science, philosophy and physics at the University of Warsaw.
   google scholar: https://scholar.google.com/citations?user=YQ5rrk4AAAAJ
 
+- title: "TBA"
+  abstract: >-
+    TBA
+  time: 09:30 - 10:30
+  room: Main Hall
+  date: Saturday / 9 November
+  id: 9
+  author-name: Alejandro Frangi
+  author-title: University of Manchester
+  author-image: images/optimized/speakers-600x600/AlejandroFrangi.webp
+  author-bio: |- 
+    Prof. Alejandro Frangi FREng, holds the Bicentennial Turing Chair in Computational Medicine at the University of Manchester, UK, with joint appointments in the Schools of Computer Science and Health Science. Additionally, he is the Royal Academy of Engineering Chair in Emerging Technologies, specialising in Precision Computational Medicine for in silico trials of medical devices. He serves as the Director of the Christabel Pankhurst Institute for Health Technology Research and Innovation and is a Fellow at the Alan Turing Institute. Recently, his research vision was recognised with an ERC Advanced Grant from the European Research Council. He leads the InSilicoUK Pro-Innovation Regulations Network (www.insilicouk.org). 
+    
+    Professor Frangi's main research interests lie at the crossroads of medical image analysis and modelling with an emphasis on machine learning (phenomenological models) and computational physiology (mechanistic models). His work has had a profound impact on the field, particularly in the areas of cardiovascular, musculoskeletal and neurosciences. He is particularly interested in statistical methods applied to population imaging and in silico clinical trials. 
+    
+    Prof. Frangi's contributions to the field have been widely recognised. He has received numerous accolades, including the IEEE Engineering in Medicine and Biology Technical Achievement Award (2021) and Early Career Award (2006). In 2011, he was honored with the UPF Medal for his service as Dean of the Escuela Politècnica Superior. He also received the ICREA-Academia Prize from the Institució Catalana de Recerca i Estudis Avançats (ICREA) in 2008, a President's International Initiative Award from the Chinese Academy of Science in 2019. Prof. Frangi has also edited a textbook on Medical Image Analysis, published in the MICCAI-Elsevier Book Series by Academic Press.
+  google scholar: https://scholar.google.com/citations?user=ieLRNKMAAAAJ
+
+- title: "Modern Bayesian Experimental Design"
+  abstract: >-
+    The dominant approach to aligning large language models with human preferences is reinforcement learning from human feedback (RLHF): finetuning an LLM to maximise a reward function representing human preferences. In this talk, I will try to present a complementary perspective: that we can also think about LLM alignment not in terms of reward maximisation but in terms of conditioning LMs on evidence about human preferences. First, I will explain how minimizing the classic RLHF objective is equivalent to approximate Bayesian inference. Then, I will go on to argue that the conditioning view also inspires other approaches to LLM alignment. I will discuss three: minimising different f-divergences from a target distribution, learning from feedback expressed in natural language and aligning LMs already during pretraining by directly learning a distribution conditional on alignment score. I will end the talk discussing how they correspond to conditioning subsequent priors on subsequent pieces of evidence about human preferences.
+  time: 09:30 - 10:30
+  room: Hall A
+  date: Saturday / 9 November
+  id: 10
+  author-name: Tom Rainforth
+  author-title: University of Oxford
+  author-image: images/optimized/speakers-600x600/TomRainforth.webp
+  author-bio: >-
+    Tom is a Senior Researcher in Machine Learning and leader of the RainML Research Lab at the Department of Statistics in the University of Oxford. He is the principal investigator for the ERC Starting Grant Data-Driven Algorithms for Data Acquisition. His research covers a wide range of topics in and around machine learning and experimental design, with areas of particular interest including Bayesian experimental design, deep learning, representation learning, generative models, Monte Carlo methods, active learning, probabilistic programming, and approximate inference.
+  google scholar: https://scholar.google.com/citations?user=ieLRNKMAAAAJ
+
 - title: "Computer Vision in the age of LLMs"
   abstract: >-
     I will discuss how computer vision has changed with the integration of language and the advent of LLMs, with focus on the recent works of our group. Depending on the audience's familiarity, I may spend most of the time covering the way these modalities are integrated via SigLIP, CapPa, and PaLI, as well as touch on some fairness and cultural diversity aspects ("No Filter" paper), or spend more time on the advanced way in which classically "typical vision" tasks such as detection, segmentation, monocular depth, are finding their way into VLMs and the standard language-modeling approach, covering UViM, RL-tuning, GIVT, and more recent approaches towards fully end-to-end multimodal learning.
-  time: 09:30 - 10:30
-  room: Main Lecture Hall
+  time: 16:10 - 17:10
+  room: Main Hall
   date: Saturday / 9 November
-  id: 9
+  id: 12
   author-name: Lucas Beyer
   author-title: Google DeepMind
   author-image: images/optimized/speakers-600x600/LucasBeyer.webp
@@ -72,9 +104,9 @@
   abstract: >-
     I will talk about how we can build on top of pretrained Foundation Models to achieve better models for vision, language, audio and multi-modal tasks. First I will show that despite its strong performance, DINOv2 and other vision backbones often lack spatial understanding of images. To counteract this, we use NeCo, a new post-pretraining approach based on patch-nearest neighbors, which significantly improves the dense performances of this and any other model despite using only 16 GPU hours. Next I will introduce two parameter-efficient finetuning methods for LLMs and for VLMs that significantly reduce the amount of parameters required for successfully tuning these models. Finally, I will present our latest work, where we show that gradients from self-supervised losses can be successfully used as features for improved retrieval performances across vision, audio and text.
   time: 16:10 - 17:10
-  room: Lecture Hall A
+  room: Hall A
   date: Saturday / 9 November
-  id: 12
+  id: 13
   author-name: Yuki Asano
   author-title: University of Amsterdam
   author-image: images/optimized/speakers-600x600/YukiAsano.webp
