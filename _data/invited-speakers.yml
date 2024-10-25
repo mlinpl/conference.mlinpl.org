@@ -37,6 +37,16 @@
     Prof. Frangi's contributions to the field have been widely recognised. He has received numerous accolades, including the IEEE Engineering in Medicine and Biology Technical Achievement Award (2021) and Early Career Award (2006). In 2011, he was honored with the UPF Medal for his service as Dean of the Escuela Politècnica Superior. He also received the ICREA-Academia Prize from the Institució Catalana de Recerca i Estudis Avançats (ICREA) in 2008, a President's International Initiative Award from the Chinese Academy of Science in 2019. Prof. Frangi has also edited a textbook on Medical Image Analysis, published in the MICCAI-Elsevier Book Series by Academic Press.
   google-scholar: https://scholar.google.com/citations?user=9fGrB0sAAAAJ&hl=en
 
+- name: Stanisław Jastrzębski
+  affiliation: Molecule.one
+  photo: images/optimized/speakers-600x600/StanislawJastrzebski.webp
+  google-scholar: https://scholar.google.pl/citations?user=wbJxGQ8AAAAJ
+  bio: >-
+    Stanislaw Jastrzebski serves as the CTO and Chief Scientist at Molecule.one, a biotech startup in the drug discovery space. He is passionate about improving the fundamental aspects of deep learning and applying it to automate scientific discovery. He completed his postdoctoral training at New York University in deep learning.
+    
+    His PhD thesis was based on work on foundations of deep learning done during research visits at MILA (with Yoshua Bengio) and the University of Edinburgh (with Amos Storkey). He received his PhD from Jagiellonian University, advised by Jacek Tabor. Beyond academia, he gained industrial experience at Google, Microsoft and Palantir. In his scientific work, he has published at leading machine learning venues (NeurIPS, ICLR, ICML, JMLR, Nature SR). He is also actively contributing to the machine learning community as an Area Chair (most recently NeurIPS '23) and as an Action Editor for TMLR. At Molecule.one, he leads technical teams working on software for synthesis planning based on deep learning, public data sources, and experiments from a highly automated laboratory.
+  google-scholar: https://scholar.google.com/citations?user=YQ5rrk4AAAAJ
+
 - name: Yuki Asano
   title: University of Amsterdam
   image: images/optimized/speakers-600x600/YukiAsano.webp
