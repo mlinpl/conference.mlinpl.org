@@ -1,4 +1,5 @@
 - title: Thursday / 7 November
+  date: 2024-11-07
   location: Copernicus Science Centre
   location-address: Wybrzeże Kościuszkowskie 20, 00-390 Warszawa
   sessions:
@@ -51,7 +52,7 @@
          
           element-class: col-lg-12
           time: 8:00 - 11:30
-          room: Main Lecture Hall 
+          room: Main Hall 
     - events:
         - title: Registration
           subtitle: (Also open after 12:00)
@@ -61,23 +62,23 @@
         - title: Opening remarks
           element-class: col-lg-6
           time: 12:00 - 12:15
-          room: Main Lecture Hall
+          room: Main Hall
         - title: Opening remarks
           element-class: col-lg-6
           time: 12:00 - 12:15
-          room: Lecture Halls A & B
+          room: Halls A & B
     - events:
         - title: "Invited Talk 1: <strong>TBA</strong>"
           subtitle: "by TBA"
           element-class: col-lg-6
           time: 12:15 - 13:15
-          room: Main Lecture Hall
+          room: Main Hall
           # url: /program#invited-talk-1
         - title: "Invited Talk 2: <strong>Evolving programs with LLMs</strong>"
           subtitle: "by Bernardino Romera Paredes"
           element-class: col-lg-6
           time: 12:15 - 13:15
-          room: Lecture Halls A & B
+          room: Halls A & B
           url: /program#invited-talk-2
     - events:
         - title: '<i class="fa-solid fa-utensils"></i> Lunch'
@@ -87,13 +88,13 @@
         - title: "Discussion Panel 1: <strong>AI in Law</strong>"
           element-class: col-lg-6
           time: 14:45 - 15:45
-          room: Main Lecture Hall
+          room: Main Hall
           url: /program#discussion-panel-1
         - title: "Invited Talk 3: <strong>Explainable AI for LLMs</strong>"
           subtitle: "by Wojciech Samek"
           element-class: col-lg-6
           time: 14:45 - 15:45
-          room: Lecture Halls A & B
+          room: Halls A & B
           url: /program#invited-talk-3
     - events:
         - title: '<i class="fa-solid fa-mug-saucer"></i> Coffee'
@@ -103,7 +104,7 @@
         - title: '<i class="fa-solid fa-award"></i> <strong>ElevenLabs AI Audio Challenge Final</strong>'
           element-class: col-lg-12
           time: 16:15 - 17:45
-          room: Main Lecture Hall
+          room: Main Hall
           subevents:
             - title: "Talk: <strong>AI Audio: New Research and Applications Frontier for Generative AI Models</strong>"
               subtitle: by Georgy Marchuk (ElevenLabs)
@@ -124,6 +125,7 @@
           subtitle: Bolek Pub & Restaurant, al. Niepodległości 211, 02-086 Warszawa
 
 - title: Friday / 8 November
+  date: 2024-11-08
   location: Copernicus Science Centre
   location-address: Wybrzeże Kościuszkowskie 20, 00-390 Warszawa
   sessions:
@@ -137,19 +139,19 @@
         subtitle: "by Roberto Calandra"
         element-class: col-lg-4
         time: 09:30 - 10:30
-        room: Main Lecture Hall
+        room: Main Hall
         url: /program#invited-talk-4
       - title: 'Invited talk 5: <strong>TBA</strong>'
         subtitle: "by TBA"
         element-class: col-lg-4
         time: 09:30 - 10:30
-        room: Lecture Hall A
+        room: Hall A
         # url: /program#invited-talk-5
       - title: 'Invited talk 6: <strong>TBA</strong>'
         subtitle: "by TBA"
         element-class: col-lg-4
         time: 09:30 - 10:30
-        room: Lecture Hall B
+        room: Hall B
         # url: /program#invited-talk-6
 
     - events: 
@@ -157,7 +159,7 @@
         element-class: col-lg-4
         element-class: col-lg-4
         time: 10:35 - 12:00
-        room: Main Lecture Hall
+        room: Main Hall
         # subevents:
         #   - title: "<strong>TBA</strong>"
         #     subtitle: "by TBA"
@@ -180,7 +182,7 @@
             url: /program#contributed-talk-3
         element-class: col-lg-4
         time: 10:35 - 12:00
-        room: Lecture Hall A
+        room: Hall A
 
       - title: 'Contributed Talks Session 2:'
         subevents:
@@ -198,7 +200,7 @@
             url: /program#contributed-talk-6
         element-class: col-lg-4
         time: 10:35 - 12:00
-        room: Lecture Hall B
+        room: Hall B
 
     - events:
       - title: '<i class="fa-solid fa-mug-saucer"></i> Coffee'
@@ -209,21 +211,21 @@
       - title: "Discussion Panel 2: <strong>Career Paths in ML</strong>"
         element-class: col-lg-4
         time: 12:20 - 13:20
-        room: Main Lecture Hall
+        room: Main Hall
         url: /program#discussion-panel-2
 
       - title: "Sponsor Talk 1: <strong>TBA</strong>"
         subtitle: "by TBA (Allegro)"
         element-class: col-lg-4
         time: 12:20 - 13:20
-        room: Lecture Hall A
+        room: Hall A
         # url: /program#sponsor-talk-1
 
       - title: "Sponsor Talk 2: <strong>TBA</strong>"
         subtitle: "by TBA (G Research)"
         element-class: col-lg-4
         time: 12:20 - 13:20
-        room: Lecture Hall B
+        room: Hall B
         # url: /program#sponsor-talk-2
 
     - events:
@@ -247,7 +249,7 @@
             time: 15:30 - 15:55
             url: /program#contributed-talk-9
         element-class: col-lg-4
-        room: Main Lecture Hall
+        room: Main Hall
 
       - title: "Contributed Talks Session 4:"
         subevents:
@@ -264,7 +266,7 @@
             time: 15:30 - 15:55
             url: /program#contributed-talk-12
         element-class: col-lg-4
-        room: Lecture Hall A
+        room: Hall A
 
       - title: "Contributed Talks Session 5:"
         subevents:
@@ -281,28 +283,28 @@
             time: 15:30 - 15:55
             url: /program#contributed-talk-15
         element-class: col-lg-4
-        room: Lecture Hall B
+        room: Hall B
 
     - events:
       - title: "Discussion Panel: <Strong>AI Safety</strong>"
         subtitle: "by ElevenLabs"
         element-class: col-lg-4
         time: 16:00 - 17:00
-        room: Main Lecture Hall
+        room: Main Hall
         url: /program#discussion-panel-4
 
       - title: "Invited Talk 7: <strong>TBA</strong>"
         subtitle: "by TBA"
         element-class: col-lg-4
         time: 16:00 - 17:00
-        room: Lecture Hall A
+        room: Hall A
         # url: /program#invited-talk-7
 
       - title: "Invited Talk 8: <strong>RLHF as conditioning on human preferences</strong>"
         subtitle: "by Tomek Korbak"
         element-class: col-lg-4
         time: 16:00 - 17:00
-        room: Lecture Hall B
+        room: Hall B
         url: /program#invited-talk-8
 
     - events:
@@ -313,6 +315,7 @@
           url: /program#poster-1
 
 - title: Saturday / 9 November
+  date: 2024-11-09
   location: Copernicus Science Centre
   location-address: Wybrzeże Kościuszkowskie 20, 00-390 Warszawa
   sessions:
@@ -323,23 +326,23 @@
         subtitle: (Also open after 09:30)
 
     - events: 
-      - title: 'Invited Talk 9: <strong>Computer Vision in the age of LLMs</strong>'
-        subtitle: "by Lucas Beyer"
+      - title: 'Invited Talk 9: <strong>TBA</strong>'
+        subtitle: "by Alejandro Frangi"
         element-class: col-lg-4
         time: 09:30 - 10:30
-        room: Main Lecture Hall
+        room: Main Hall
         url: /program#invited-talk-9
-      - title: 'Invited Talk 10: <strong>TBA</strong>'
-        subtitle: "by TBA"
+      - title: 'Invited Talk 10: <strong>Modern Bayesian Experimental Design</strong>'
+        subtitle: "by Tom Rainforth"
         element-class: col-lg-4
         time: 09:30 - 10:30
-        room: Lecture Hall A
+        room: Hall A
         # url: /program#invited-talk-10
       - title: 'Invited Talk 11: <strong>TBA</strong>'
         subtitle: "by TBA"
         element-class: col-lg-4
         time: 09:30 - 10:30
-        room: Lecture Hall B
+        room: Hall B
         # url: /program#invited-talk-11
 
     - events:
@@ -366,7 +369,7 @@
             url: /program#contributed-talk-18
         element-class: col-lg-4
         time: 12:00 - 13:25
-        room: Main Lecture Hall
+        room: Main Hall
       - title: 'Contributed Talks Session 7:'
         subevents:
           - title: "<strong>Accelerating Goal-Conditioned RL Algorithms and Research</strong>"
@@ -383,7 +386,7 @@
             url: /program#contributed-talk-21
         element-class: col-lg-4
         time: 12:00 - 13:25
-        room: Lecture Hall A
+        room: Hall A
       - title: 'Contributed Talks Session 8:'
         subevents:
           - title: "<strong>Fixed points of nonnegative neural networks</strong>"
@@ -400,7 +403,7 @@
             url: /program#contributed-talk-24
         element-class: col-lg-4
         time: 12:00 - 13:25
-        room: Lecture Hall B
+        room: Hall B
 
     - events:
       - title: '<i class="fa-solid fa-utensils"></i> Lunch'
@@ -413,14 +416,14 @@
         time: 
         element-class: col-lg-offset-4 col-lg-4
         time: 15:00 - 15:30
-        room: Lecture Hall A
+        room: Hall A
         # url: /program#sponsor-talk-3
       - title: 'Sponsor talk 4: <strong>TBA</strong>'
         subtitle: 'by TBA'
         time: 
         element-class: col-lg-4
         time: 15:00 - 15:30
-        room: Lecture Hall B
+        room: Hall B
         # url: /program#sponsor-talk-4
 
     - events:
@@ -429,41 +432,42 @@
         time: 
         element-class: col-lg-offset-4 col-lg-4
         time: 15:30 - 16:00
-        room: Lecture Hall A
+        room: Hall A
         # url: /program#sponsor-talk-5
       - title: 'Sponsor talk 6: <strong>TBA</strong>'
         subtitle: 'by TBA'
         time:
         element-class: col-lg-4
         time: 15:30 - 16:00
-        room: Lecture Hall B
+        room: Hall B
         # url: /program#sponsor-talk-6
           
     - events: 
         - title: 'Discussion Panel 3: <strong>AI in Medicine</strong>'
           element-class: col-lg-4
           time: 16:10 - 17:10
-          room: Main Lecture Hall 
+          room: Main Hall 
           url: /program#discussion-panel-3
-        - title: 'Invited talk 12: <strong>Improving Foundation Models (with academic compute)</strong>'
+        - title: 'Invited Talk 9: <strong>Computer Vision in the age of LLMs</strong>'
+          subtitle: "by Lucas Beyer"
+          element-class: col-lg-4
+          time: 16:10 - 17:10
+          room: Hall A
+          url: /program#invited-talk-12
+        - title: 'Invited talk 13: <strong>Improving Foundation Models (with academic compute)</strong>'
           subtitle: "by Yuki Asano"
           element-class: col-lg-4
           time: 16:10 - 17:10
-          room: Lecture Hall A
-          url: /program#invited-talk-12
-        - title: 'Invited talk 13: <strong>TBA</strong>'
-          subtitle: "by TBA"
-          element-class: col-lg-4
-          time: 16:10 - 17:10
-          room: Lecture Hall B
-          # url: /program#invited-talk-13
+          room: Hall B
+          url: /program#invited-talk-13
     - events:
         - title: 'Closing ceremony'
           element-class: col-lg-12
           time: 17:15 - 17:45
-          room: Main Lecture Hall
+          room: Main Hall
 
 - title: Sunday / 10 November
+  date: 2024-11-10
   note: Due to limited number of seats, attending tutorials require separate registration (see <a href="#tickets">tickets section</a>).
   location: Faculty of Mathematics, Informatics and Mechanics, University of Warsaw
   location-address: Stefana Banacha 2, 02-097 Warsaw

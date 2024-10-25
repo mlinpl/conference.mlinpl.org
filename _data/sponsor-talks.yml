@@ -3,7 +3,7 @@
     Knowledge distillation in neural networks refers to compressing a large model or dataset into a smaller version of itself. We introduce Privacy Distillation, a framework that allows a text-to-image generative model to teach another model without exposing it to identifiable data. Here, we are interested in the privacy issue faced by a data provider who wishes to share their data via a multimodal generative model. A question that immediately arises is “How can a data provider ensure that the generative model is not leaking identifiable information about a patient?”. Our solution consists of (1) training a first diffusion model on real data (2) generating a synthetic dataset using this model and filtering it to exclude images with a re-identifiability risk (3) training a second diffusion model on the filtered synthetic data only. We showcase that datasets sampled from models trained with privacy distillation can effectively reduce re-identification risk whilst maintaining downstream performance.
   date: Friday / 27 October
   time: 11:45 - 12:35
-  room: Lecture Hall A
+  room: Hall A
   slider-order: 1
   author-name: Grzegorz Jacenków
   author-title: Amazon
@@ -31,7 +31,7 @@
   co-authors: Jan Kościałkowski
   date: Friday / 27 October
   time: 11:45 - 12:35
-  room: Lecture Hall B
+  room: Hall B
   session:
   author-image: images/optimized/cfc-2023-600x600/maciej_wysocki.webp
 
@@ -53,7 +53,7 @@
     He is the recipient of the NASK PIB Director's Award for his exceptional contribution to the development of the institute. He is also the recipient of the Warsaw University of Technology Rector's Award for his original lecture on Control Theory, as well as the Rector's Award for achievements in scientific research related to the development of energy-efficient control mechanisms for computer systems.
   date: Friday / 27 October
   time: 12:35 - 13:00
-  room: Lecture Hall B
+  room: Hall B
   author-image: images/optimized/speakers-2023-600x600/MichalKarpowicz.webp
 
 - author-name: Charles Martinez
@@ -66,7 +66,7 @@
     Dr Charles Martinez is the Academic Relations Manager at G-Research. Charles started his studies as a physicist at University Portsmouth Physics department’s MPhys programme, and later completed a PhD in Phonon interactions in Gallium Nitride nanostructures at the University of Nottingham. Charles then worked on indexing and abstract databases at the Institution for Engineering and Technology (IET) before moving –into sales in 2010. Charles' previous role was as Elsevier's Key Account Manager, managing sales and renewals for the UK Russell Group institutions, Government and Funding body accounts, including being one of the negotiators in the recent UK ScienceDirect Read and Publish agreement. Since leaving Elsevier Charles is dedicated to forming beneficial partnerships between G-Research and Europe's top institutions, and is living in Cambridge, UK.
   date: Saturday / 28 October
   time: 14:15 - 15:05
-  room: Lecture Hall A
+  room: Hall A
   author-image: images/optimized/cfc-2023-600x600/CharlesMartinez.webp
 
 - author-name: Volodymyr Saviak
@@ -79,5 +79,5 @@
     More than 25 years delivers IT infrastructure solutions on Central Eastern European market, focused on High Performance Computing, Big Data and recently Artificial Intelligence. Volodymyr is helping organizations to understand optimal infrastructure and implement technical computing solutions focused on high performance and scalability. For the development of the “First Ukrainian Supercomputer Center” and Ukrainian HPC community, he was awarded a top-level Ukraine’s Parliament Award. Volodymyr is a technology expert with a strong technical and business qualifications with an impressive record of accomplishments. 
   date: Saturday / 28 October
   time: 14:15 - 15:40
-  room: Lecture Hall B
+  room: Hall B
   author-image: images/optimized/speakers-2023-600x600/VolodymyrSaviak.webp
