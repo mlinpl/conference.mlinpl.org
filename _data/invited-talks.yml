@@ -1,3 +1,17 @@
+- title: TBA
+  abstract: >-
+    TBA
+  time: 12:15 - 13:15
+  room: Main Hall
+  date: Thursday / 7 November
+  id: 1
+  author-name: Iryna Gurevych
+  author-title: Technical University of Darmstadt
+  author-image: images/optimized/speakers-600x600/IrynaGurevych.webp
+  author-bio: >-
+    Iryna Gurevych is Professor of Ubiquitous Knowledge Processing in the Department of Computer Science at the Technical University of Darmstadt in Germany. She also is an adjunct professor at MBZUAI in Abu-Dhabi, UAE, and an affiliated professor at INSAIT in Sofia, Bulgaria. She is widely known for fundamental contributions to and innovative applications of natural language processing and machine learning. Professor Gurevych is a past president of the Association for Computational Linguistics (ACL), the leading professional society in the field of natural language processing. Her many accolades include being a Fellow of the ACL, an ELLIS Fellow, and the recipient of an ERC Advanced Grant.
+  google-scholar: https://scholar.google.com/citations?user=t3A39e8AAAAJ&hl=en
+
 - title: "Evolving programs with LLMs"
   abstract: >-
     In this talk I will present FunSearch, a method to search for new solutions in mathematics and computer science. FunSearch works by pairing a pre-trained LLM, whose goal is to provide creative solutions in the form of computer code, with an automated “evaluator”, which guards against hallucinations and incorrect ideas. By iterating back-and-forth between these two components, initial solutions “evolve” into new knowledge. I will present the application of FunSearch to a central problem in extremal combinatorics — the cap set problem — where we discover new constructions of large cap sets going beyond the best known ones, both in finite dimensional and asymptotic cases. This represents the first discoveries made for established open problems using LLMs. Then, I will present the application of FunSearch to an algorithmic problem, online bin packing, which showcases the generality of the method. In this use case, FunSearch finds new heuristics that improve upon widely used baselines. I will conclude the talk by discussing the implications of searching in the space of code.
@@ -39,6 +53,22 @@
   author-bio: >-
     Roberto Calandra is a Full (W3) Professor at the Technische Universität Dresden where he leads the Learning, Adaptive Systems and Robotics (LASR) lab. Previously, he founded at Meta AI (formerly Facebook AI Research) the Robotic Lab in Menlo Park. Prior to that, he was a Postdoctoral Scholar at the University of California, Berkeley (US) in the Berkeley Artificial Intelligence Research (BAIR) Lab. His education includes a Ph.D. from TU Darmstadt (Germany), a M.Sc. in Machine Learning and Data Mining from the Aalto university (Finland), and a B.Sc. in Computer Science from the Università degli Studi di Palermo (Italy). His scientific interests are broadly at the conjunction of Robotics and Machine Learning, with the goal of making robots more intelligent and useful in the real world. Among his contributions is the design and commercialization of DIGIT -- the first commercial high-resolution compact tactile sensor, which is currently the most widely used tactile sensor in robotics. Roberto served as Program Chair for AISTATS 2020, as Guest Editor for the JMLR Special Issue on Bayesian Optimization, and has previously co-organized over 16 international workshops (including at NeurIPS, ICML, ICLR, ICRA, IROS, RSS). In 2024, he received the IEEE Early Academic Career Award in Robotics and Automation.
   google scholar: https://scholar.google.ch/citations?user=fA0rYxMAAAAJ
+
+- title: TBA
+  abstract: >-
+    TBA
+  time: 09:30 - 10:30
+  room: Hall A
+  date: Friday / 8 November
+  id: 5
+  author-name: Stanisław Jastrzębski
+  author-title: Molecule.one
+  author-image: images/optimized/speakers-600x600/StanislawJastrzebski.webp
+  author-bio: |-
+    Stanislaw Jastrzebski serves as the CTO and Chief Scientist at Molecule.one, a biotech startup in the drug discovery space. He is passionate about improving the fundamental aspects of deep learning and applying it to automate scientific discovery. He completed his postdoctoral training at New York University in deep learning.
+    
+    His PhD thesis was based on work on foundations of deep learning done during research visits at MILA (with Yoshua Bengio) and the University of Edinburgh (with Amos Storkey). He received his PhD from Jagiellonian University, advised by Jacek Tabor. Beyond academia, he gained industrial experience at Google, Microsoft and Palantir. In his scientific work, he has published at leading machine learning venues (NeurIPS, ICLR, ICML, JMLR, Nature SR). He is also actively contributing to the machine learning community as an Area Chair (most recently NeurIPS '23) and as an Action Editor for TMLR. At Molecule.one, he leads technical teams working on software for synthesis planning based on deep learning, public data sources, and experiments from a highly automated laboratory.
+  google-scholar: https://scholar.google.com/citations?user=YQ5rrk4AAAAJ
 
 - title: "RLHF as conditioning on human preferences"
   abstract: >-

@@ -69,11 +69,11 @@
           room: Halls A & B
     - events:
         - title: "Invited Talk 1: <strong>TBA</strong>"
-          subtitle: "by TBA"
+          subtitle: "by Iryna Gurevych"
           element-class: col-lg-6
           time: 12:15 - 13:15
           room: Main Hall
-          # url: /program#invited-talk-1
+          url: /program#invited-talk-1
         - title: "Invited Talk 2: <strong>Evolving programs with LLMs</strong>"
           subtitle: "by Bernardino Romera Paredes"
           element-class: col-lg-6
@@ -142,11 +142,11 @@
         room: Main Hall
         url: /program#invited-talk-4
       - title: 'Invited talk 5: <strong>TBA</strong>'
-        subtitle: "by TBA"
+        subtitle: "by Stanisław Jastrzębski"
         element-class: col-lg-4
         time: 09:30 - 10:30
         room: Hall A
-        # url: /program#invited-talk-5
+        url: /program#invited-talk-5
       - title: 'Invited talk 6: <strong>TBA</strong>'
         subtitle: "by TBA"
         element-class: col-lg-4
