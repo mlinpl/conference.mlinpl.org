@@ -235,6 +235,7 @@
 
     - events:
       - title: "Contributed Talks Session 3:"
+        time: 14:30 - 16:00
         subevents:
           - title: "<strong>RNAgrail: GRAph Neural Network and Diffusion Model for RNA 3D Structure Prediction</strong>"
             subtitle: by Marek Justyna
@@ -252,6 +253,7 @@
         room: Main Hall
 
       - title: "Contributed Talks Session 4:"
+        time: 14:30 - 16:00
         subevents:
           - title: "<strong>How LLMs are Revolutionizing the Cybersecurity Field</strong>"
             subtitle: by Natasha Al-Khatib
@@ -269,6 +271,7 @@
         room: Hall A
 
       - title: "Contributed Talks Session 5:"
+        time: 14:30 - 16:00
         subevents:
           - title: "<strong>Personalisation of Large-Scale Diffusion Models</strong>"
             subtitle: by Kamil Deja
@@ -337,7 +340,7 @@
         element-class: col-lg-4
         time: 09:30 - 10:30
         room: Hall A
-        # url: /program#invited-talk-10
+        url: /program#invited-talk-10
       - title: 'Invited Talk 11: <strong>TBA</strong>'
         subtitle: "by TBA"
         element-class: col-lg-4
