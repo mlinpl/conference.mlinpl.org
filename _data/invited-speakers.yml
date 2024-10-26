@@ -39,7 +39,7 @@
 
 - name: Stanisław Jastrzębski
   affiliation: Molecule.one
-  photo: images/optimized/speakers-600x600/StanislawJastrzebski.webp
+  image: images/optimized/speakers-600x600/StanislawJastrzebski.webp
   google-scholar: https://scholar.google.pl/citations?user=wbJxGQ8AAAAJ
   bio: |-
     Stanislaw Jastrzebski serves as the CTO and Chief Scientist at Molecule.one, a biotech startup in the drug discovery space. He is passionate about improving the fundamental aspects of deep learning and applying it to automate scientific discovery. He completed his postdoctoral training at New York University in deep learning.
