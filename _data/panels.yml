@@ -72,7 +72,14 @@
         Wouter is the Chief Operation and Product Officer (COO & CPO) of Aiosyn. At Aiosyn he works on precision pathology for cancer and kidney diseases using AI. Wouter studied Artificial Intelligence and worked as a software engineer and data scientist. He holds a Ph.D. in computational pathology with a focus on using artificial intelligence for clinical diagnostics. 
       bio-more: >-
         Wouter’s research showed that AI algorithms could grade prostate cancer on the level of experienced pathologists and actively assist pathologists in performing better diagnoses. Wouter was also one of the main organizers of the PANDA challenge, collaborating with Karolinska Institute and Google Health. Wouter’s research was published in top journals like The Lancet Oncology and Nature Medicine.
-    
+    - name: Piotr Wygocki
+      image: images/optimized/speakers-600x600/PiotrWygocki.webp
+      title: MIM Fertility
+      bio-intro: >-
+        Piotr Wygocki, PhD, is the Co-Founder and CEO of MIM Fertility, a Polish deep tech company developing AI solutions tailored to the needs of IVF clinics. He is also the Co-Founder of MIM Solutions, a software house specializing in MedTech innovations. 
+      bio-more: >-
+        Piotr Wygocki holds a Ph.D. in Informatics and dual master's degrees in Informatics and Mathematics from the University of Warsaw, where he serves as an Assistant Professor. A winner of KaggleDays Warsaw 2019. He is a member of the AIFS and the Business Advisory Group to EC President Ursula von der Leyen for the Global Gateway Programme. He has also earned recognition in the Deloitte Technology Fast 50 Central Europe 2023.
+
 - name: AI Safety
   date: Friday / 8 November
   room: Main Hall
