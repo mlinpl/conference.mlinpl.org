@@ -120,7 +120,7 @@
   abstract: >-
     I will discuss how computer vision has changed with the integration of language and the advent of LLMs, with focus on the recent works of our group. Depending on the audience's familiarity, I may spend most of the time covering the way these modalities are integrated via SigLIP, CapPa, and PaLI, as well as touch on some fairness and cultural diversity aspects ("No Filter" paper), or spend more time on the advanced way in which classically "typical vision" tasks such as detection, segmentation, monocular depth, are finding their way into VLMs and the standard language-modeling approach, covering UViM, RL-tuning, GIVT, and more recent approaches towards fully end-to-end multimodal learning.
   time: 16:10 - 17:10
-  room: Main Hall
+  room: Hall A
   date: Saturday / 9 November
   id: 12
   author-name: Lucas Beyer
@@ -134,7 +134,7 @@
   abstract: >-
     I will talk about how we can build on top of pretrained Foundation Models to achieve better models for vision, language, audio and multi-modal tasks. First I will show that despite its strong performance, DINOv2 and other vision backbones often lack spatial understanding of images. To counteract this, we use NeCo, a new post-pretraining approach based on patch-nearest neighbors, which significantly improves the dense performances of this and any other model despite using only 16 GPU hours. Next I will introduce two parameter-efficient finetuning methods for LLMs and for VLMs that significantly reduce the amount of parameters required for successfully tuning these models. Finally, I will present our latest work, where we show that gradients from self-supervised losses can be successfully used as features for improved retrieval performances across vision, audio and text.
   time: 16:10 - 17:10
-  room: Hall A
+  room: Hall B
   date: Saturday / 9 November
   id: 13
   author-name: Yuki Asano
