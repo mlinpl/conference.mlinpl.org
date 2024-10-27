@@ -350,7 +350,7 @@
 
     - events:
       - title: 'Poster Session 2 + <i class="fa-solid fa-mug-saucer"></i> Coffee'
-        subtitle: with posters from 32 to 61
+        subtitle: with posters from 32 to 62
         element-class: col-lg-12
         time: 10:30 - 12:00
         url: /program#poster-32
