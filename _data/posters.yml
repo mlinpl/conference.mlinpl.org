@@ -95,7 +95,7 @@
     Visual counterfactual explanations (VCEs) have recently become widely recognized for their ability to enhance the interpretability of image classifiers. This surge in interest is driven by the potential of VCEs to highlight semantically relevant factors that can alter a classifier's decision. Nevertheless, we contend that current leading methods lack a critical feature – region constraint – which hinders the ability to draw clear conclusions and can even foster issues like confirmation bias. To overcome the limitations of prior approaches, which alter images in a highly entangled and scattered fashion, we introduce region-constrained VCEs (RVCEs). These constraint modifications to a specific region of the image in order to influence the model's prediction. To efficiently generate examples from this subclass of VCEs, we present Region-Constrained Counterfactual Schrödinger Bridges (RCSB), which adapt a traceable subclass of Schrödinger Bridges to handle conditional inpainting, with the conditioning signal coming from the classifier of interest. Our approach not only establishes a new state-of-the-art, but also allows for exact counterfactual reasoning, ensuring that only the predefined region is semantically modified, and allows the user to interactively engage with the explanation generation process.
   author-bio: >- 
     Student and practitioner diving deep into different branches of Machine Learning with special interest in practical, explainable and simple solutions guided by observing the nature. Currently working on diffusion models.
-  co-authors: Bartłomiej Sobieski,  Jakub Grzywaczewski
+  co-authors: Bartłomiej Sobieski, Jakub Grzywaczewski
   date: Friday / 8 November
   time: 17:00 - 18:30
   room:
@@ -335,7 +335,7 @@
     In recent years one can observe continuous and dynamic development of the pen & paper RPG market. One of the problems that the industry is facing is the need to design new opponents and to determine the scale of challenge they pose to players. The traditional way of establishing this figure requires many hours of practical tests. Currently there is no automatic way to estimate the level.  The prediction of the scale of challenge can be reduced to ordinal regression. As part of this thesis several machine learning models with different sets of properties were tested in order to create a solution that would estimate the level of the designed monster in a fast and precise way.  Additionally, with the use of explainable AI and counterfactual examples the authors developed suggestions on how to modify monster's properties to increase or decrease its level to desired value.  The result of this thesis is a web application that allows designing monsters using the functionalities described above.
   author-bio: >- 
     Jolanta Śliwa is a Data Science student at the AGH University of Krakow. As part of my engineering thesis, she co-developed an application that supports the design of opponents in a pen & paper RPG game, using Machine Learning. For this reason, Jolanta have recently been spending her free time playing this type of game, and she also immerse myself in the fascinating world of animation.
-  co-authors: Paulina Jędrychowska, Bogumiła Papiernik,Oskar Simon
+  co-authors: Paulina Jędrychowska, Bogumiła Papiernik, Oskar Simon
   date: Friday / 8 November
   time: 17:00 - 18:30
   room:
@@ -770,7 +770,7 @@
     Implicit Neural Representations (INRs) have recently gained attention as a powerful approach for continuously representing signals such as images, videos, and 3D shapes using multilayer perceptrons (MLPs). However, MLPs are known to exhibit a low-frequency bias, limiting their ability to capture high-frequency details accurately. This limitation is typically addressed by incorporating high-frequency input embeddings or specialized activation layers. In this work, we demonstrate that these embeddings and activations are often configured with hyperparameters that perform well on average but are suboptimal for specific input signals under consideration, necessitating a costly grid search to identify optimal settings. Our key observation is that the initial frequency spectrum of an untrained model's output correlates strongly with the model's eventual performance on a given target signal. Leveraging this insight, we propose frequency shifting (or FreSh), a method that selects embedding hyperparameters to align the frequency spectrum of the model’s initial output with that of the target signal. We show that this simple initialization technique improves performance across various neural representation methods and tasks, achieving results comparable to extensive hyperparameter sweeps but with only marginal computational overhead compared to training a single model with default hyperparameters.
   author-bio: >- 
     Adam Kania is machine learnign researcher passionate about mathematics.
-  co-authors: Marko Mihajlovic,Sergey Prokudin,Jacek Tabor,Przemysław Spurek
+  co-authors: Marko Mihajlovic, Sergey Prokudin, Jacek Tabor, Przemysław Spurek
   date: Saturday / 9 November
   time: 10:30 - 12:00
   room:
@@ -914,3 +914,17 @@
   id: 61
   author-image: images/empty.png
 
+- author-name: Wojciech Zarzecki
+  title: "BATTLE-AMP - Benchmarking Assessment Tests for The Leading Efficacy of Antimicrobial Peptides"
+  author-title: "Computational Medicine Group, MIMUW"
+  abstract: >- 
+    Antimicrobial peptides (AMPs) have emerged as a promising alternative to combat the growing threat of antibiotic-resistant bacteria. However, they have not been widely adopted in clinic due to their high toxicity and low activity. Therefore, discriminative methods are crucial to select AMP candidates with desired properties. The comparison of predictive models in AMP discovery is challenging and lacks consistency due to the absence of  standardized benchmarks. New methods are evaluated on custom datasets that are often not related to key AMP properties such as activity and are typically released in a manner that is difficult to reproduce. In this work we reviewed over 50 methods for AMP prediction and observed that code reproducibility was a significant challenge, with only 10 methods meeting our criteria for reproducibility. To address this fundamental problem, we propose an extendable framework for the systematic comparison of AMP prediction methods. We evaluated the robustness of these methods in key biological contexts, such as activity against specific species or adversarial syntactic variations. Our framework ensures higher reproducibility and plug-and-play assessment of new models, aiming to redefine AMP classification in a way that aligns more closely with the biological context.
+  author-bio: >- 
+    Wojciech Zarzecki is a Computer Science student at the Warsaw University of Technology. He is also a member of the Computational Medicine Group at MIMUW led by Prof. Ewa Szczurek. His main interests are the application of deep learning in antimicrobial peptide discovery and computer vision.
+  co-authors: Paulina Szymczak, Roberto Olayo, Krzysztof Koras, Marcin Możejko, Małgorzata Łazęcka, Krzysztof Oksza Orzechowski, Ewa Szczurek
+  date: Saturday / 9 November
+  time: 10:30 - 12:00
+  room:
+  session: Poster Session 2
+  id: 62
+  author-image: images/optimized/cfc-600x600/wojciech_zarzecki.webp
