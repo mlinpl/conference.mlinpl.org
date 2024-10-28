@@ -2,14 +2,14 @@
   title: Google DeepMind
   image: images/optimized/speakers-600x600/BernardinoRomeraParedes.webp
   bio: >-
-    Bernardino is a researcher at Google DeepMind, where he has been a core team member of AlphaFold2 for protein folding, and AlphaTensor for matrix multiplication algorithms. More recently, he initiated FunSearch, a system which uses Large Language Models for program search and has discovered new mathematical knowledge. Long before that, in 2009, Bernardino started his AI journey by studying the MSc Computational Statistics and Machine Learning at UCL. In 2010 he started a PhD, also at UCL, supervised by Prof. Massimiliano Pontil and Prof. Nadia Berthouze, and in 2013 he also did an internship at Microsoft Research. After finishing his PhD in 2014, he joined the Torr Vision Group as a Postdoc at the University of Oxford, researching about semantic segmentation and zero-shot learning. He has several papers published in Nature, as well as in machine learning conferences like NeurIPS and ICML. His main motivation is to leverage the power of AI to bring light to important scientific problems.
+    Bernardino Romera Paredes is a researcher at Google DeepMind, where he has been a core team member of AlphaFold2 for protein folding, and AlphaTensor for matrix multiplication algorithms. More recently, he initiated FunSearch, a system which uses Large Language Models for program search and has discovered new mathematical knowledge. Long before that, in 2009, Bernardino started his AI journey by studying the MSc Computational Statistics and Machine Learning at UCL. In 2010 he started a PhD, also at UCL, supervised by Prof. Massimiliano Pontil and Prof. Nadia Berthouze, and in 2013 he also did an internship at Microsoft Research. After finishing his PhD in 2014, he joined the Torr Vision Group as a Postdoc at the University of Oxford, researching about semantic segmentation and zero-shot learning. He has several papers published in Nature, as well as in machine learning conferences like NeurIPS and ICML. His main motivation is to leverage the power of AI to bring light to important scientific problems.
   google scholar: https://scholar.google.com/citations?user=_LC9U6EAAAAJ
 
 - name: Tom Rainforth
   title: University of Oxford
   image: images/optimized/speakers-600x600/TomRainforth.webp
   bio: >-
-    Tom is a Senior Researcher in Machine Learning and leader of the RainML Research Lab at the Department of Statistics in the University of Oxford. He is the principal investigator for the ERC Starting Grant Data-Driven Algorithms for Data Acquisition. His research covers a wide range of topics in and around machine learning and experimental design, with areas of particular interest including Bayesian experimental design, deep learning, representation learning, generative models, Monte Carlo methods, active learning, probabilistic programming, and approximate inference.
+    Tom Rainforth is a Senior Researcher in Machine Learning and leader of the RainML Research Lab at the Department of Statistics in the University of Oxford. He is the principal investigator for the ERC Starting Grant Data-Driven Algorithms for Data Acquisition. His research covers a wide range of topics in and around machine learning and experimental design, with areas of particular interest including Bayesian experimental design, deep learning, representation learning, generative models, Monte Carlo methods, active learning, probabilistic programming, and approximate inference.
   google scholar: https://scholar.google.com/citations?user=ieLRNKMAAAAJ
 
 - name: Wojciech Samek
@@ -20,7 +20,7 @@
   google scholar: https://scholar.google.com/citations?user=7aQwO08AAAAJ
 
 - name: Iryna Gurevych
-  title: Technical University of Darmstadt
+  title: Technische Universitaet Darmstadt
   image: images/optimized/speakers-600x600/IrynaGurevych.webp
   bio: |- 
     Iryna Gurevych is Professor of Ubiquitous Knowledge Processing in the Department of Computer Science at the Technical University of Darmstadt in Germany. She also is an adjunct professor at MBZUAI in Abu-Dhabi, UAE, and an affiliated professor at INSAIT in Sofia, Bulgaria. She is widely known for fundamental contributions to and innovative applications of natural language processing and machine learning. Professor Gurevych is a past president of the Association for Computational Linguistics (ACL), the leading professional society in the field of natural language processing. Her many accolades include being a Fellow of the ACL, an ELLIS Fellow, and the recipient of an ERC Advanced Grant.
@@ -37,6 +37,14 @@
     Prof. Frangi's contributions to the field have been widely recognised. He has received numerous accolades, including the IEEE Engineering in Medicine and Biology Technical Achievement Award (2021) and Early Career Award (2006). In 2011, he was honored with the UPF Medal for his service as Dean of the Escuela Politècnica Superior. He also received the ICREA-Academia Prize from the Institució Catalana de Recerca i Estudis Avançats (ICREA) in 2008, a President's International Initiative Award from the Chinese Academy of Science in 2019. Prof. Frangi has also edited a textbook on Medical Image Analysis, published in the MICCAI-Elsevier Book Series by Academic Press.
   google-scholar: https://scholar.google.com/citations?user=9fGrB0sAAAAJ&hl=en
 
+- name: Jan Peters
+  title: Technische Universitaet Darmstadt
+  image: images/optimized/speakers-600x600/JanPeters.webp
+  bio: |-
+    Jan Peters is a full professor (W3) for Intelligent Autonomous Systems at the Computer Science Department of the Technische Universitaet Darmstadt.
+    Jan Peters has received the Dick Volz Best 2007 US PhD Thesis Runner-Up Award, the Robotics: Science & Systems – Early Career Spotlight, the INNS Young Investigator Award, and the IEEE Robotics & Automation Society’s Early Career Award as well as numerous best paper awards. In 2015, he received an ERC Starting Grant and in 2019, he was appointed as an IEEE Fellow and in 2020 an ELLIS fellow.
+  google-scholar: https://scholar.google.pl/citations?hl=en&user=-kIVAcAAAAAJ
+
 - name: Stanisław Jastrzębski
   title: Molecule.one
   image: images/optimized/speakers-600x600/StanislawJastrzebski.webp
@@ -45,20 +53,19 @@
     Stanislaw Jastrzebski serves as the CTO and Chief Scientist at Molecule.one, a biotech startup in the drug discovery space. He is passionate about improving the fundamental aspects of deep learning and applying it to automate scientific discovery. He completed his postdoctoral training at New York University in deep learning.
     
     His PhD thesis was based on work on foundations of deep learning done during research visits at MILA (with Yoshua Bengio) and the University of Edinburgh (with Amos Storkey). He received his PhD from Jagiellonian University, advised by Jacek Tabor. Beyond academia, he gained industrial experience at Google, Microsoft and Palantir. In his scientific work, he has published at leading machine learning venues (NeurIPS, ICLR, ICML, JMLR, Nature SR). He is also actively contributing to the machine learning community as an Area Chair (most recently NeurIPS '23) and as an Action Editor for TMLR. At Molecule.one, he leads technical teams working on software for synthesis planning based on deep learning, public data sources, and experiments from a highly automated laboratory.
-  google-scholar: https://scholar.google.com/citations?user=YQ5rrk4AAAAJ
 
 - name: Yuki Asano
-  title: University of Amsterdam
+  title: University of Technology Nuremberg
   image: images/optimized/speakers-600x600/YukiAsano.webp
   bio: >-
-    Yuki is an assistant professor for computer vision and machine learning at the QUVA lab at the University of Amsterdam, where he works with Cees Snoek, Max Welling and Efstratios Gavves. His PhD was at the Visual Geometry Group (VGG) at the University of Oxford where he worked with Andrea Vedaldi and Christian Rupprecht. Prior to this, he studied physics at the University of Munich (LMU) and Economics in Hagen as well as a MSc in Mathematical Modelling and Scientific Computing at the Mathematical Institute in Oxford.
+    Yuki Asano is the head of the Fundamental AI (FunAI) Lab and full Professor at the University of Technology Nuremberg. Prior to this, Yuki lead the QUVA lab at the University of Amsterdam, where he closely collaborated with Qualcomm AI Research. His PhD was at the Visual Geometry Group (VGG) at the University of Oxford, where he worked with Andrea Vedaldi and Christian Rupprecht. Also, he loves running, the mountains, and their combination.
   google scholar: https://scholar.google.com/citations?user=CdpLhlgAAAAJ
 
 - name: Lucas Beyer
   title: Google DeepMind
   image: images/optimized/speakers-600x600/LucasBeyer.webp
   bio: >-
-    Lucas grew up in Belgium wanting to make video games and their AI. He went on to study mechanical engineering at RWTH Aachen in Germany, then did a PhD in robotic perception and computer vision there too. Now, he is a staff research scientist at Google DeepMind (formerly Brain) in Zürich, leading multimodal vision-language research.
+    Lucas Beyer grew up in Belgium wanting to make video games and their AI. He went on to study mechanical engineering at RWTH Aachen in Germany, then did a PhD in robotic perception and computer vision there too. Now, he is a staff research scientist at Google DeepMind (formerly Brain) in Zürich, leading multimodal vision-language research.
   google-scholar: https://scholar.google.com/citations?user=p2gwhK4AAAAJ&hl=fr
 
 - name: Roberto Calandra
