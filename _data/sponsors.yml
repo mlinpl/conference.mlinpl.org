@@ -178,9 +178,9 @@
     - name: Quantum AI Foundation
       image: "images/optimized/partners-600x600/QuantumAIFoundation.webp"
       url: "https://www.qaif.org"
-    # - name: SKN Data Science
-    #   image: "images/optimized/partners-600x600/SKNDataScience.webp"
-    #   url: https://www.linkedin.com/company/skndatascience
+    - name: SKN Data Science
+      image: "images/optimized/partners-600x600/SKNDataScience.webp"
+      url: https://www.linkedin.com/company/skndatascience
     # - name: SpeakLeash
     #   image: "images/optimized/partners-600x600/SpeakLeash.webp"
     #   url: https://speakleash.org/en/speakleash-a-k-a-spichlerz-english/
