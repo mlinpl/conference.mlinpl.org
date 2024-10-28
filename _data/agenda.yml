@@ -312,7 +312,7 @@
 
     - events:
         - title: "Poster Session 1"
-          subtitle: "with posters from 1 to 31"
+          subtitle: "with posters: 1-14, 16-31"
           element-class: col-lg-12
           time: 17:00 - 18:30
           url: /program#poster-1
@@ -350,7 +350,7 @@
 
     - events:
       - title: 'Poster Session 2 + <i class="fa-solid fa-mug-saucer"></i> Coffee'
-        subtitle: with posters from 32 to 62
+        subtitle: "with posters: 15, 32-62"
         element-class: col-lg-12
         time: 10:30 - 12:00
         url: /program#poster-32
