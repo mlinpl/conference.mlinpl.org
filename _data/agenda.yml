@@ -4,7 +4,7 @@
   location-address: Wybrzeże Kościuszkowskie 20, 00-390 Warszawa
   sessions:
     - events:
-        - title: "Student Research Workshop:"
+        - title: "Student Research Workshop (open event, no ticket required)"
           subevents:
             - title: Opening remarks
             - title: "<strong>Real-Time Omnidirectional 3D Multi-Person Human Pose Estimation with Occlusion Handling</strong>"
@@ -471,7 +471,7 @@
 
 - title: Sunday / 10 November
   date: 2024-11-10
-  note: Due to limited number of seats, attending tutorials require separate registration (see <a href="#tickets">tickets section</a>).
+  note: Due to limited number of seats, attending tutorials require separate registration and tickets (see <a href="#tickets">tickets section</a>).
   location: Faculty of Mathematics, Informatics and Mechanics, University of Warsaw
   location-address: Stefana Banacha 2, 02-097 Warszawa
   sessions:
@@ -509,7 +509,3 @@
           element-class: col-lg-6
           time: 14:30 - 18:30
           url: /program#tutorial-6
-#        - title: 'Tutorial 7: <strong>TBA</strong>'
-#          element-class: col-lg-4
-#          time: 14:30 - 18:30
-#          # url: /program#tutorial-7
