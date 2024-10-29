@@ -928,3 +928,19 @@
   session: Poster Session 2
   id: 62
   author-image: images/optimized/cfc-600x600/wojciech_zarzecki.webp
+
+- author-name: Mateusz Piechocki
+  title: "Enhancing Solar Irradiance Forecasts with On-Device Continual Learning"
+  author-title: "Poznan University of Technology"
+  abstract: >- 
+    With the increasing contribution of solar energy to the overall renewable energy system, accurate solar irradiance forecasting is crucial for optimizing energy production and managing grid stability. Traditional forecasting approaches rely on static and centralized algorithms that often struggle to adapt to local conditions and rapidly changing atmospheric phenomena. These limitations can lead to less stable and reliable forecasts, potentially undermining the consistency and efficiency of solar energy systems. Hence, we propose a novel approach to maintain the highest level of solar irradiance forecasting based on on-device continual learning. The presented solution leverages incoming data and an incremental learning strategy to continuously refine its forecasting skills directly on-site in a decentralized way, without constant communication with a central server. By combining new, relevant data samples with historical training data, our on-device continual learning pipeline can rapidly adjust to evolving environmental conditions, ensuring that the forecasting model remains accurate and responsive to local atmospheric changes. The developed pipeline improves the forecast accuracy of the deployed model, protects against catastrophic forgetting, and maintains this process energy efficient, relying only on the available constrained resources of edge devices. In this study, we present a comprehensive evaluation of our method across various deployment scenarios, demonstrating significant improvements in the precision and reliability of solar irradiance forecasts. Our results highlight the potential of on-device continual learning to advance solar irradiance forecasting, providing a scalable and adaptive solution to enhance energy management and facilitate more effective grid integration in the renewable energy sector.
+  author-bio: >- 
+    Mateusz has been affiliated with Poznan University of Technology (PUT) since 2021. In 2021, he graduated from the same University with an MSc degree in Automatic Control and Robotics (Robots and Autonomous Systems specialization). Currently, he is a PhD student in the PUT Vision Laboratory at the Institute of Robotics and Machine Intelligence. His research interests include various topics related to machine and deep learning, computer vision, or robotics, focusing on real-time processing and edge computing.
+  co-authors: Marek Kraft
+  date: Saturday / 9 November
+  time: 10:30 - 12:00
+  room:
+  session: Poster Session 2
+  id: 63
+  author-image: images/optimized/cfc-600x600/mateusz_piechocki.webp
+

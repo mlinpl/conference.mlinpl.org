@@ -350,7 +350,7 @@
 
     - events:
       - title: 'Poster Session 2 + <i class="fa-solid fa-mug-saucer"></i> Coffee'
-        subtitle: "with posters: 15, 32-62"
+        subtitle: "with posters: 15, 32-63"
         element-class: col-lg-12
         time: 10:30 - 12:00
         url: /program#poster-32
@@ -473,7 +473,7 @@
   date: 2024-11-10
   note: Due to limited number of seats, attending tutorials require separate registration (see <a href="#tickets">tickets section</a>).
   location: Faculty of Mathematics, Informatics and Mechanics, University of Warsaw
-  location-address: Stefana Banacha 2, 02-097 Warsaw
+  location-address: Stefana Banacha 2, 02-097 Warszawa
   sessions:
     - events:
         - title: Tutorials registration
