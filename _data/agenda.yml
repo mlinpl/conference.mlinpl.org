@@ -214,12 +214,12 @@
         room: Main Hall
         url: /program#discussion-panel-2
 
-      - title: "Sponsor Talk 1: <strong>TBA</strong>"
-        subtitle: "by TBA (Allegro)"
+      - title: "Sponsor Talk 1: <strong>AlleNoise - large-scale text classification benchmark dataset with real-world label noise</strong>"
+        subtitle: "by Alicja Rączkowska (Allegro)"
         element-class: col-lg-4
         time: 12:20 - 13:20
         room: Hall A
-        # url: /program#sponsor-talk-1
+        url: /program#sponsor-talk-1
 
       - title: "Sponsor Talk 2: <strong>TBA</strong>"
         subtitle: "by TBA (G Research)"
