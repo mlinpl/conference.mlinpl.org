@@ -13,17 +13,23 @@
   bio: >-
     Alicja Rączkowska is a Senior Research Engineer in the Machine Learning Research team at Allegro, where she works on applying and advancing NLP methods in the e-commerce domain. Obtained her PhD from the University of Warsaw, where she focused on machine learning methods for histopathology.
 
-- name: Long Cheng
-  title: Google
-  image: images/optimized/speakers-600x600/LongCheng.webp
-  bio: >-
-    Long Cheng is an Engineering Leader at Google Cloud Vertex AI - a unified machine learning (ML) platform that aims to streamline the entire ML workflow, making it easier for data scientists and ML engineers to build, deploy, and scale AI models. Vertex AI offers a comprehensive suite of tools to manage every stage of the ML development lifecycle, from data preparation and model training to deployment, monitoring, and maintenance. As the site lead for Google Cloud Vertex AI in Poland, Long spearheads the development of MLOps infrastructure (Model training pipelines, Model Garden, Fine-tuning and etc.) and AI serving infrastructure for both online and batch predictions of Gemini and other pretrained AI models, leveraging GPU and TPU acceleration. Long brings a wealth of experience in product strategy and cross-functional leadership, effectively guiding engineering and product management teams to achieve evolving business goals. Prior to that, he gained over 12 years of experience in the U.S. as a lead engineer with top tech companies such as Google, Oracle and Microsoft.
-
 - name: Tomasz Sapiński
   title: Comarch
   image: images/optimized/speakers-600x600/TomaszSapinski.webp
   bio: >-
     Tomasz Sapiński is a highly experienced IT professional with a strong background in software development and image processing using AI. He holds a degree from Lodz University of Technology and has spent over 15 years in the industry, gaining extensive experience in project management and IT system implementations around the world. Tomasz is also a skilled Data Scientist with a keen interest in the development of AI and neural networks, and their practical applications.
+
+- name: Przemysława Musialski
+  title: IDEAS NCBR
+  image: images/optimized/speakers-600x600/PrzemyslawaMusialski.webp
+  bio: >-
+    Przemyslaw Musialski is the leader of the research group Computer Graphics at IDEAS NCBR. He is also an associate professor of Computer Science at New Jersey Institute of Technology, USA. His research spans geometric modeling, geometry processing, computational fabrication, and machine learning, focusing on creating algorithmic solutions for digital content generation. Before joining IDEAS NCBR, he led the Computational Fabrication group at Vienna University of Technology’s Center for Geometry and Computational Design, and previously, he held academic and research positions at VRVis Vienna, TU Vienna, Arizona State University, and King Abdullah University of Science and Technology. He holds an MSc degree in Media Systems Science from Bauhaus University Weimar in Germany and a PhD in Computer Science from the Vienna University of Technology in Austria. He is a member of the ACM SIGGRAPH and the EUROGRAPHICS association.
+
+- name: Long Cheng
+  title: Google
+  image: images/optimized/speakers-600x600/LongCheng.webp
+  bio: >-
+    Long Cheng is an Engineering Leader at Google Cloud Vertex AI - a unified machine learning (ML) platform that aims to streamline the entire ML workflow, making it easier for data scientists and ML engineers to build, deploy, and scale AI models. Vertex AI offers a comprehensive suite of tools to manage every stage of the ML development lifecycle, from data preparation and model training to deployment, monitoring, and maintenance. As the site lead for Google Cloud Vertex AI in Poland, Long spearheads the development of MLOps infrastructure (Model training pipelines, Model Garden, Fine-tuning and etc.) and AI serving infrastructure for both online and batch predictions of Gemini and other pretrained AI models, leveraging GPU and TPU acceleration. Long brings a wealth of experience in product strategy and cross-functional leadership, effectively guiding engineering and product management teams to achieve evolving business goals. Prior to that, he gained over 12 years of experience in the U.S. as a lead engineer with top tech companies such as Google, Oracle and Microsoft.
 
 - name: Daniel Śliwiński
   title: LOT Polish Airlines
