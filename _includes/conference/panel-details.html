@@ -18,6 +18,9 @@ Expects following parameters: panel, include-details
 {% endif %}
 
 <p>{{ include.panel.desc }}</p>
+{% if include.panel.note %}
+<p>{{ include.panel.note }}</p>
+{% endif %}
 
 <div class="people-grid">
     {% for person in include.panel.panelists %}
