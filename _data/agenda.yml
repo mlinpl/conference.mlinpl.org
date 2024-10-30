@@ -298,11 +298,11 @@
         url: /program#discussion-panel-4
 
       - title: "Invited Talk 7: <strong>TBA</strong>"
-        subtitle: "by TBA"
+        subtitle: "by Jan Peters"
         element-class: col-lg-4
         time: 16:00 - 17:00
         room: Hall A
-        # url: /program#invited-talk-7
+        url: /program#invited-talk-7
 
       - title: "Invited Talk 8: <strong>RLHF as conditioning on human preferences</strong>"
         subtitle: "by Tomek Korbak (UK AI Safety Institute)"
