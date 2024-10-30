@@ -85,6 +85,9 @@
     - name: LOT Polish Airlines
       image: "images/optimized/sponsors-600x600/LOT.webp"
       url: "https://www.lot.com/pl/en"
+    - name: OCTO Legal
+      image: "images/optimized/sponsors-600x600/OCTOLegal.webp"
+      url: "https://octolegal.com/"
 
 - title: "/ Honorary Patronages"
   imageMaxWidth: 270px

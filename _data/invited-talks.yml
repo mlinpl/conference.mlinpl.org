@@ -84,9 +84,9 @@
     Tomek Korbak is a Senior Research Scientist at the UK AI Safety Institute working on safety cases for frontier models. Previously, he was a Member of Technical Staff at Anthropic working on honesty. Before that, he did a PhD at the University of Sussex focusing on RL from human feedback (RLHF) and spent time as a visiting researcher at NYU working with Ethan Perez, Sam Bowman and Kyunghyun Cho. He studied cognitive science, philosophy and physics at the University of Warsaw.
   google scholar: https://scholar.google.com/citations?user=YQ5rrk4AAAAJ
 
-- title: "TBA"
+- title: "Unveiling the Potential of AI-enabled In-silico Trials in Medical Innovation"
   abstract: >-
-    TBA
+    The rapid introduction of novel medical technologies necessitates swift, reliable scientific validation of their safety and efficacy to protect patient welfare. Traditional clinical trials, while essential, face challenges such as detecting low-frequency side effects, high costs, and practical limitations, especially with paediatric patients, rare diseases, and underrepresented ethnic groups. In-silico trials (IST), powered by Computational Medicine, offer a promising solution by using computer simulations to test medical products on virtual patient populations. This approach allows for the a-priori optimisation of clinical outcomes, thorough risk assessment, and failure mode analysis before human trials. Although in-silico evidence is still emerging, it has the potential to revolutionise health and life sciences R&D and regulatory processes.
   time: 09:30 - 10:30
   room: Main Hall
   date: Saturday / 9 November
