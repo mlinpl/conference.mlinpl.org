@@ -36,9 +36,8 @@ author:
 
 # Header settings
 inline-logo: '<span class="logo"><span class="main-name">ML <span class="emph">i</span>n PL</span> <span class="sub-name">Conference 2024</span></span>'
-
 header:
-  heading: '<img src="images/mlinpl-conference-2024-logo-black.png" style="max-height: 1.5em; max-width: 90%;">'
+  heading: '<img src="images/mlinpl-conference-2024-logo-black.png" alt="ML in PL Conference 2024" style="max-height: 1.5em; max-width: 90%;">'
   date-location: 7 - 10 November / Copernicus Science Centre, Warsaw, Poland
   # Countdown settings
   countdown-date: "2024-11-07T08:00:00"

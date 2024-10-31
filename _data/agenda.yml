@@ -69,13 +69,13 @@
           room: Halls A & B
     - events:
         - title: "Invited Talk 1: <strong>TBA</strong>"
-          subtitle: "by Iryna Gurevych"
+          subtitle: "by Iryna Gurevych (Technical University of Darmstadt)"
           element-class: col-lg-6
           time: 12:15 - 13:15
           room: Main Hall
           url: /program#invited-talk-1
         - title: "Invited Talk 2: <strong>Evolving programs with LLMs</strong>"
-          subtitle: "by Bernardino Romera Paredes"
+          subtitle: "by Bernardino Romera Paredes (Google DeepMind)"
           element-class: col-lg-6
           time: 12:15 - 13:15
           room: Halls A & B
@@ -92,7 +92,7 @@
           room: Main Hall
           url: /program#discussion-panel-1
         - title: "Invited Talk 3: <strong>Explainable AI for LLMs</strong>"
-          subtitle: "by Wojciech Samek"
+          subtitle: "by Wojciech Samek (Technische Universität Berlin)"
           element-class: col-lg-6
           time: 14:45 - 15:45
           room: Halls A & B
@@ -137,13 +137,13 @@
         subtitle: (Also open after 09:30)
     - events: 
       - title: 'Invited talk 4: <strong>Perceiving, Understanding, and Interacting through Touch</strong>'
-        subtitle: "by Roberto Calandra"
+        subtitle: "by Roberto Calandra (Technische Universität Dresden)"
         element-class: col-lg-4
         time: 09:30 - 10:30
         room: Main Hall
         url: /program#invited-talk-4
       - title: 'Invited talk 5: <strong>TBA</strong>'
-        subtitle: "by Stanisław Jastrzębski"
+        subtitle: "by Stanisław Jastrzębski (Molecule.one)"
         element-class: col-lg-4
         time: 09:30 - 10:30
         room: Hall A
@@ -305,7 +305,7 @@
         url: /program#invited-talk-7
 
       - title: "Invited Talk 8: <strong>RLHF as conditioning on human preferences</strong>"
-        subtitle: "by Tomek Korbak"
+        subtitle: "by Tomek Korbak (UK AI Safety Institute)"
         element-class: col-lg-4
         time: 16:00 - 17:00
         room: Hall B
@@ -331,13 +331,13 @@
 
     - events: 
       - title: 'Invited Talk 9: <strong>Unveiling the Potential of AI-enabled In-silico Trials in Medical Innovation</strong>'
-        subtitle: "by Alejandro Frangi"
+        subtitle: "by Alejandro Frangi (University of Manchester)"
         element-class: col-lg-4
         time: 09:30 - 10:30
         room: Main Hall
         url: /program#invited-talk-9
       - title: 'Invited Talk 10: <strong>Modern Bayesian Experimental Design</strong>'
-        subtitle: "by Tom Rainforth"
+        subtitle: "by Tom Rainforth (University of Oxford)"
         element-class: col-lg-4
         time: 09:30 - 10:30
         room: Hall A
@@ -453,13 +453,13 @@
           room: Main Hall 
           url: /program#discussion-panel-3
         - title: 'Invited Talk 12: <strong>Computer Vision in the age of LLMs</strong>'
-          subtitle: "by Lucas Beyer"
+          subtitle: "by Lucas Beyer (Google DeepMind)"
           element-class: col-lg-4
           time: 16:10 - 17:10
           room: Hall A
           url: /program#invited-talk-12
         - title: 'Invited talk 13: <strong>Improving Foundation Models (with academic compute)</strong>'
-          subtitle: "by Yuki Asano"
+          subtitle: "by Yuki Asano (University of Amsterdam)"
           element-class: col-lg-4
           time: 16:10 - 17:10
           room: Hall B

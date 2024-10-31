@@ -5,8 +5,7 @@
   id: 1
   desc: |-
     Join us for the "AI in Law" panel, where we would like to explore the influence of artificial intelligence on the legal sector. During discussion we will delve into the potential role for AI-driven technologies and their promise to increase access to justice as well as challenges for responsible AI adoption.
-
-    Organized in cooperation with OCTO Legal.
+  note: "Organized in cooperation with OCTO Legal. Moderators: Marek Ballaun, Emilia Wiśnios"
   panelists:
     - name: Gabriela Bar
       image: images/optimized/speakers-600x600/GabrielaBar.webp
@@ -37,6 +36,7 @@
   id: 2
   desc: >-
     Join us for the "Career Paths in Machine Learning" panel, where we will explore the critical decisions and turning points in the careers of machine learning professionals. This discussion will delve into the important choice between pursuing a career in industry or academia.
+  note: "Moderators: Błażej Dolicki, Aleksandra Daniluk"
   panelists:
     - name: Bartłomiej Twardowski
       image: images/optimized/speakers-600x600/BartlomiejTwardowski.webp
@@ -66,6 +66,7 @@
   id: 3
   desc: >-
     Join us for a panel discussion on "AI in Medicine", where we will delve into the influence of artificial intelligence on the healthcare sector. The focus areas are practical applications of AI in clinical settings and the role of AI in expediting research breakthroughs across medicine and biology.
+  note: "Moderators: Alicja Grochocka-Dorocińska, Maciej Chrabąszcz"
   panelists:
     - name: Anna Gambin
       image: images/optimized/speakers-600x600/AnnaGambin.webp
@@ -96,6 +97,7 @@
   id: 4
   desc: >-
     Join us for the “AI Safety” panel, powered by ElevenLabs, where we will discuss real-world challenges of building and assessing models for safety, while maintaining top performance. We will explore ways for AI manipulation, as well as automated and human-in-the-loop systems for preventing misuse.
+  note: "Moderator: Aleksandra Pedraszewska"
   panelists:
     - name: Aleksandra Pedraszewska
       image: images/optimized/speakers-600x600/AleksandraPedraszewska.webp
