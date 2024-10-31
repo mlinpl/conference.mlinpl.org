@@ -58,9 +58,6 @@
     - name: Palto
       image: "images/optimized/sponsors-600x600/Palto.svg"
       url: "https://palto.ai"
-    - name: Quickchat
-      image: "images/optimized/sponsors-600x600/Quickchat.webp"
-      url: "https://www.quickchat.ai"
     - name: Semtic AI
       image: "images/optimized/sponsors-600x600/SemticAI.svg"
       url: "https://semtic.ai"
