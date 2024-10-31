@@ -389,13 +389,13 @@
   author-image: images/optimized/cfc-600x600/bartosz_cywinski.webp
 
 - author-name: David Bertram
-  title: "Classical Machine Learning for Early Detection of REM Sleep Behavior Disorder in Neurodegenerative Diseases"
+  title: "Boosting Neurodegenerative Disorder Screenings with Machine Learning"
   author-title: "University of Cologne"
   abstract: >- 
     REM sleep behavior disorder (RBD) is a critical biomarker for the early stages of alpha-synucleinopathies such as Parkinson's Disease, Lewy-Body-Dementia, or Multi-System-Atrophy. Early detection is crucial for advancing fundamental research and improving patient well-being. The current gold standard for diagnosis, polysomnography, is cost and labor-intensive and requires specialized sleep experts. To optimize the screening process, this research explores the use of wrist-worn accelerometers to make a pre-selection of high vs low-risk patients and thereby making RBD patients in a prodromal state visible to the medical sector.  In this poster, I present my research on developing a tree-based machine-learning classifier that discriminates between RBD patients and healthy controls. The model, trained on a cohort of 116 patients, demonstrates high performance, achieving 0.92±0.06 AUROC in nested cross-validation and 0.86 on an independent test set. This research highlights that in certain medical contexts, traditional machine learning models can be highly effective, often providing robust, interpretable results that meet the demands of real-world applications.
   author-bio: >- 
     During his physics studies, David Bertram applied deep learning techniques to high-energy physics data, with a particular emphasis on using natural language processing (NLP) methods for time-series analysis.  After completing his master’s degree, David shifted his focus to medical applications, where he explored the use of adversarial generative models to augment medical datasets. Currently, he is a PhD student under the supervision of Prof. Katarzyna Bozek at the University of Cologne, working on the application of machine learning and deep learning techniques for the early detection of neurodegenerative diseases.
-  co-authors: Katarzyna Bozek, Michaeal Sommerauer
+  co-authors: Katarzyna Bozek, Michael Sommerauer
   date: Friday / 8 November
   time: 17:00 - 18:30
   room:
