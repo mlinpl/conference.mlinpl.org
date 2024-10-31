@@ -54,9 +54,9 @@
     Roberto Calandra is a Full (W3) Professor at the Technische Universität Dresden where he leads the Learning, Adaptive Systems and Robotics (LASR) lab. Previously, he founded at Meta AI (formerly Facebook AI Research) the Robotic Lab in Menlo Park. Prior to that, he was a Postdoctoral Scholar at the University of California, Berkeley (US) in the Berkeley Artificial Intelligence Research (BAIR) Lab. His education includes a Ph.D. from TU Darmstadt (Germany), a M.Sc. in Machine Learning and Data Mining from the Aalto university (Finland), and a B.Sc. in Computer Science from the Università degli Studi di Palermo (Italy). His scientific interests are broadly at the conjunction of Robotics and Machine Learning, with the goal of making robots more intelligent and useful in the real world. Among his contributions is the design and commercialization of DIGIT -- the first commercial high-resolution compact tactile sensor, which is currently the most widely used tactile sensor in robotics. Roberto served as Program Chair for AISTATS 2020, as Guest Editor for the JMLR Special Issue on Bayesian Optimization, and has previously co-organized over 16 international workshops (including at NeurIPS, ICML, ICLR, ICRA, IROS, RSS). In 2024, he received the IEEE Early Academic Career Award in Robotics and Automation.
   google scholar: https://scholar.google.ch/citations?user=fA0rYxMAAAAJ
 
-- title: TBA
+- title: "Molecule.One: Candid Stories and Hard Lessons From Our Journey Building AI Synthetic Chemist"
   abstract: >-
-    TBA
+    For the first time, we’re sharing the story behind Molecule.One. Founded in 2018 to make making medicines faster, we built the first generative deep learning product for chemistry. We battled — as early as in 2019 — problems that we know understand as hallucination and alignment. We then almost went under. We raised back building the most comprehensive reaction dataset in our highly automated laboratory, just to face another almost fatal adversity. In the process, we found ourselves immersed in a broader and sweeping change in the AI landscape. We offer a candid look at ups and downs, distilling insights and giving broader predictions about the future of AI-first companies.
   time: 09:30 - 10:30
   room: Hall A
   date: Friday / 8 November
