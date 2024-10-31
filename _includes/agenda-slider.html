@@ -16,7 +16,7 @@ Expects following parameters: agenda-data
         <div class="col-lg-12 slider-container">
             <div class="slider-tabs">
                 {% for day in include.agenda-data %}
-                <a class="slider-item page-scroll person item-col-4" data-index="{{ forloop.index0 }}" href="#agenda">
+                <a class="slider-item page-scroll person item-col-4" data-index="{{ forloop.index0 }}" data-date="{{ day.date }}" href="#agenda">
                     <div class="center-verticaly" style="max-height: 34px;">
                         <div>
                             <span class="speaker-name">
