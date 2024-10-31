@@ -5,4 +5,3 @@
 {% include js/slider.js %}
 {% include js/emph-i.js %}
 {% include js/yannic-no-glasses.js %}
-{% include js/agenda-for-today.js %}

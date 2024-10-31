@@ -99,8 +99,22 @@ for (let slider of sliders) {
 
   observer.observe(slider);
 
-  let firstSliderItem = slider.querySelector('.slider-item');
-  let firstSliderItemContent = slider.querySelector('.slider-item-content');
+  var firstSliderItem = slider.querySelector('.slider-item');
+  var firstSliderItemContent = slider.querySelector('.slider-item-content');
+
+  // If the slider is the agenda slider, show today's tab
+  if (slider.id === 'agenda-slider') {
+    // Find the tab index for today's date
+    const today = new Date().toISOString().split("T")[0];
+
+    sliderItems.forEach((tab, index) => {
+      if (tab.getAttribute("data-date") === today) {
+        firstSliderItem = tab;
+        firstSliderItemContent = sliderItemContents[index];
+      }
+    });
+  } 
+
   firstSliderItemContent.classList.add('fade-in');
   handleSliderItemClick(firstSliderItem);
 }

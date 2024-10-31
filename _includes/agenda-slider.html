@@ -13,8 +13,8 @@ Expects following parameters: agenda-data
         </div>
     </div>
     <div class="row">
-        <div class="col-lg-12 slider-container">
-            <div class="slider-tabs">
+        <div id="agenda-slider" class="col-lg-12 slider-container">
+            <div id="agenda-slider-tabs" class="slider-tabs">
                 {% for day in include.agenda-data %}
                 <a class="slider-item page-scroll person item-col-4" data-index="{{ forloop.index0 }}" data-date="{{ day.date }}" href="#agenda">
                     <div class="center-verticaly" style="max-height: 34px;">
@@ -28,7 +28,7 @@ Expects following parameters: agenda-data
                 {% endfor %}
             </div>
 
-            <div class="slider-content">
+            <div id="agenda-slider-content" class="slider-content">
                 {% for day in include.agenda-data %}
                 <div class="row slider-item-content" data-index="{{ forloop.index0 }}">
                     <div class="col-lg-12">
