@@ -148,12 +148,6 @@
         time: 09:30 - 10:30
         room: Hall A
         url: /program#invited-talk-5
-      - title: 'Invited talk 6: <strong>TBA</strong>'
-        subtitle: "by TBA"
-        element-class: col-lg-4
-        time: 09:30 - 10:30
-        room: Hall B
-        # url: /program#invited-talk-6
 
     - events: 
       - title: '<i class="fa-solid fa-award"></i> Talks by Witold Lipski Award Laureates'
@@ -222,12 +216,12 @@
         room: Hall A
         url: /program#sponsor-talk-1
 
-      - title: "Sponsor Talk 2: <strong>TBA</strong>"
-        subtitle: "by TBA (G Research)"
+      - title: "Sponsor Talk 2: <strong>Careers in Quant Finance</strong>"
+        subtitle: "by Charles Martinez & Scarlett Bailey (G Research)"
         element-class: col-lg-4
         time: 12:20 - 13:20
         room: Hall B
-        # url: /program#sponsor-talk-2
+        url: /program#sponsor-talk-2
 
     - events:
       - title: '<i class="fa-solid fa-utensils"></i> Lunch'
@@ -342,12 +336,6 @@
         time: 09:30 - 10:30
         room: Hall A
         url: /program#invited-talk-10
-      - title: 'Invited Talk 11: <strong>TBA</strong>'
-        subtitle: "by TBA"
-        element-class: col-lg-4
-        time: 09:30 - 10:30
-        room: Hall B
-        # url: /program#invited-talk-11
 
     - events:
       - title: 'Poster Session 2 + <i class="fa-solid fa-mug-saucer"></i> Coffee'
