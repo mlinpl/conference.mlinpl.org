@@ -104,7 +104,6 @@ for (let slider of sliders) {
 
   // If the slider is the agenda slider, show today's tab
   if (slider.id === 'agenda-slider') {
-    // Find the tab index for today's date
     const today = new Date().toISOString().split("T")[0];
 
     sliderItems.forEach((tab, index) => {
