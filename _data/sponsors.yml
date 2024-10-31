@@ -9,8 +9,8 @@
   # caption: 'Check out AI Audio Challenge organized by ElevenLabs <a href="/ai-audio-challenge">here</a>.'
 
 - title: '/ <span class="platinium-shine-text">Platinum sponsors</span>'
-  imageMaxWidth: 400px
-  imageMaxHeight: 220px
+  imageMaxWidth: 360px
+  imageMaxHeight: 210px
   margin: 45px 60px
   sponsors:
     - name: Allegro
