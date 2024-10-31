@@ -31,9 +31,9 @@
     - name: Google
       image: "images/optimized/sponsors-600x600/Google.webp"
       url: https://goo.gle/4f4Dmko
-    # - name: Google DeepMind
-    #   image: "images/optimized/sponsors-600x600/GoogleDeepMind.webp"
-    #   url: https://www.deepmind.com
+    - name: Google DeepMind
+      image: "images/optimized/sponsors-600x600/GoogleDeepMind.webp"
+      url: https://www.deepmind.com
     - name: Ideas NCBR
       image: "images/optimized/sponsors-600x600/IdeasNCBR.webp"
       url: "https://ideas-ncbr.pl/en"
