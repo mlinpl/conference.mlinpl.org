@@ -287,21 +287,21 @@
       - title: "Discussion Panel: <Strong>AI Safety</strong>"
         subtitle: "by ElevenLabs"
         element-class: col-lg-4
-        time: 16:00 - 17:00
+        time: 16:10 - 17:10
         room: Main Hall
         url: /program#discussion-panel-4
 
       - title: "Invited Talk 7: <strong>TBA</strong>"
         subtitle: "by Jan Peters"
         element-class: col-lg-4
-        time: 16:00 - 17:00
+        time: 16:10 - 17:10
         room: Hall A
         url: /program#invited-talk-7
 
       - title: "Invited Talk 8: <strong>RLHF as conditioning on human preferences</strong>"
         subtitle: "by Tomek Korbak (UK AI Safety Institute)"
         element-class: col-lg-4
-        time: 16:00 - 17:00
+        time: 16:10 - 17:10
         room: Hall B
         url: /program#invited-talk-8
 
@@ -309,7 +309,7 @@
         - title: "Poster Session 1"
           subtitle: "with posters: 1-14, 16-31"
           element-class: col-lg-12
-          time: 17:00 - 18:30
+          time: 17:10 - 18:40
           url: /program#poster-1
 
 - title: Saturday / 9 November
