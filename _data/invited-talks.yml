@@ -34,7 +34,7 @@
   date: Thursday / 7 November
   id: 3
   author-name: Wojciech Samek
-  author-title: Technische Universität Berlin
+  author-title: Technical University of Berlin
   author-image: images/optimized/speakers-600x600/WojciechSamek.webp
   author-bio: >-
     Wojciech Samek is a Professor in the EECS Department at TU Berlin and is jointly heading the AI Department at Fraunhofer HHI. He is a Fellow at BIFOLD - Berlin Institute for the Foundation of Learning and Data, the ELLIS Unit Berlin, and the DFG Research Unit DeSBi. Furthermore, he is a Senior Editor for IEEE TNNLS, an Associate Editor for Pattern Recognition, and an elected member of the IEEE MLSP Technical Committee and Germany's Platform for AI. He also serves as a member of the scientific advisory board of IDEAS NCBR - Polish Centre of Innovation in the Field of Artificial Intelligence. Wojciech has co-authored more than 200 papers and was the leading editor of the Springer book "Explainable AI: Interpreting, Explaining and Visualizing Deep Learning" (2019), and co-editor of the open access Springer book “xxAI – Beyond explainable AI” (2022). He has served as Program Co-Chair for IEEE MLSP'23, and as Area Chair for NAACL'21 and NeurIPS'23, and is a recipient of multiple best paper awards, including the 2020 Pattern Recognition Best Paper Award and the 2022 Digital Signal Processing Best Paper Prize.
@@ -48,7 +48,7 @@
   date: Friday / 8 November
   id: 4
   author-name: Roberto Calandra
-  author-title: Technische Universität Dresden
+  author-title: Technical University of Dresden
   author-image: images/optimized/speakers-600x600/RobertoCalandra.webp
   author-bio: >-
     Roberto Calandra is a Full (W3) Professor at the Technische Universität Dresden where he leads the Learning, Adaptive Systems and Robotics (LASR) lab. Previously, he founded at Meta AI (formerly Facebook AI Research) the Robotic Lab in Menlo Park. Prior to that, he was a Postdoctoral Scholar at the University of California, Berkeley (US) in the Berkeley Artificial Intelligence Research (BAIR) Lab. His education includes a Ph.D. from TU Darmstadt (Germany), a M.Sc. in Machine Learning and Data Mining from the Aalto university (Finland), and a B.Sc. in Computer Science from the Università degli Studi di Palermo (Italy). His scientific interests are broadly at the conjunction of Robotics and Machine Learning, with the goal of making robots more intelligent and useful in the real world. Among his contributions is the design and commercialization of DIGIT -- the first commercial high-resolution compact tactile sensor, which is currently the most widely used tactile sensor in robotics. Roberto served as Program Chair for AISTATS 2020, as Guest Editor for the JMLR Special Issue on Bayesian Optimization, and has previously co-organized over 16 international workshops (including at NeurIPS, ICML, ICLR, ICRA, IROS, RSS). In 2024, he received the IEEE Early Academic Career Award in Robotics and Automation.
@@ -78,7 +78,7 @@
   date: Friday / 8 November
   id: 7
   author-name: Jan Peters
-  author-title: Technische Universitaet Darmstadt
+  author-title: Technical University of Darmstadt
   author-image: images/optimized/speakers-600x600/JanPeters.webp
   author-bio: >-
     Jan Peters is a full professor (W3) for Intelligent Autonomous Systems at the Computer Science Department of the Technische Universitaet Darmstadt.
@@ -153,8 +153,8 @@
   date: Saturday / 9 November
   id: 13
   author-name: Yuki Asano
-  author-title: University of Amsterdam
+  author-title: University of Technology Nuremberg
   author-image: images/optimized/speakers-600x600/YukiAsano.webp
   author-bio: >-
-    Yuki is an assistant professor for computer vision and machine learning at the QUVA lab at the University of Amsterdam, where he works with Cees Snoek, Max Welling and Efstratios Gavves. His PhD was at the Visual Geometry Group (VGG) at the University of Oxford where he worked with Andrea Vedaldi and Christian Rupprecht. Prior to this, he studied physics at the University of Munich (LMU) and Economics in Hagen as well as a MSc in Mathematical Modelling and Scientific Computing at the Mathematical Institute in Oxford.
+    Yuki Asano is the head of the Fundamental AI (FunAI) Lab and full Professor at the University of Technology Nuremberg. Prior to this, Yuki lead the QUVA lab at the University of Amsterdam, where he closely collaborated with Qualcomm AI Research. His PhD was at the Visual Geometry Group (VGG) at the University of Oxford, where he worked with Andrea Vedaldi and Christian Rupprecht. Also, he loves running, the mountains, and their combination.
   google scholar: https://scholar.google.com/citations?user=CdpLhlgAAAAJ
