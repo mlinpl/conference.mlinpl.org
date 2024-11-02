@@ -1,6 +1,6 @@
-- title: TBA
+- title: Towards Real-World Fact-Checking with Large Language Models
   abstract: >-
-    TBA
+    Misinformation poses a growing threat to our society. It has a severe impact on public health by promoting fake cures or vaccine hesitancy, and it is used as a weapon during military conflicts to spread fear and distrust. Current research on natural language processing (NLP) for fact-checking focuses on identifying evidence and predicting the veracity of a claim. People’s beliefs, however, often do not depend on the claim and rational reasoning but on credible content that makes the claim seem more reliable, such as scientific publications or visual content that was manipulated or stems from unrelated contexts. To combat misinformation, we need to show (1) “Why was the claim believed to be true?“, (2) “Why is the claim false?“, (3) “Why is the alternative explanation correct?“. In this talk, I will zoom in on two critical aspects of such misinformation supported by credible though misleading content. Firstly, I will present our efforts to dismantle misleading narratives based on fallacious interpretations of scientific publications. Secondly, I will show how we can use multimodal large language models to (1) detect misinformation based on visual content and (2) provide strong alternative explanations for the visual content.
   time: 12:15 - 13:15
   room: Main Hall
   date: Thursday / 7 November
