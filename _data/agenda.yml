@@ -68,7 +68,7 @@
           time: 12:00 - 12:15
           room: Halls A & B
     - events:
-        - title: "Invited Talk 1: <strong>TBA</strong>"
+        - title: "Invited Talk 1: <strong>Towards Real-World Fact-Checking with Large Language Models</strong>"
           subtitle: "by Iryna Gurevych (Technical University of Darmstadt)"
           element-class: col-lg-6
           time: 12:15 - 13:15
