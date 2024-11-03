@@ -291,7 +291,7 @@
         room: Main Hall
         url: /program#discussion-panel-4
 
-      - title: "Invited Talk 7: <strong>TBA</strong>"
+      - title: "Invited Talk 7: <strong>Inductive Biases for Robot Reinforcement Learning</strong>"
         subtitle: "by Jan Peters"
         element-class: col-lg-4
         time: 16:10 - 17:10
