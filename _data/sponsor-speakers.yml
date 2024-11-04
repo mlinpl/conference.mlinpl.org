@@ -13,6 +13,24 @@
   bio: >-
     Alicja Rączkowska is a Senior Research Engineer in the Machine Learning Research team at Allegro, where she works on applying and advancing NLP methods in the e-commerce domain. Obtained her PhD from the University of Warsaw, where she focused on machine learning methods for histopathology.
 
+- name: Charles Martinez
+  title: G-Research
+  image: images/optimized/speakers-600x600/CharlesMartinez.webp
+  bio: >-
+    Dr Charles Martinez is the Academic Relations Manager at G-Research. Charles completed a PhD in Phonon interactions in Gallium Nitride nanostructures at the University of Nottingham. Charles' previous role was as Elsevier's Key Account Manager, managing sales and renewals for the UK Russell Group institutions, Government and Funding body accounts, including being one of the negotiators in the UK ScienceDirect Read and Publish agreement. Since leaving Elsevier Charles is dedicated to forming beneficial partnerships between G-Research and Europe's top institutions, and is living in Cambridge, UK.
+
+- name: Scarlett Bailey
+  title: G-Research
+  image: images/optimized/speakers-600x600/ScarlettBailey.webp
+  bio: >-
+    Scarlett Bailey is currently an intern in the Talent Acquisition department at G-Research, completing her placement year while studying for a BSc in Management at the University of Bath. As part of the team, Scarlett supports recruitment for the Summer Research Programme and other internship opportunities, with a focus on engaging emerging talent in quantitative research and technology. She also contributes to G-Research's global attraction events, connecting students with career opportunities across the company.
+
+- name: Long Cheng
+  title: Google
+  image: images/optimized/speakers-600x600/LongCheng.webp
+  bio: >-
+    Long Cheng is an Engineering Leader at Google Cloud Vertex AI - a unified machine learning (ML) platform that aims to streamline the entire ML workflow, making it easier for data scientists and ML engineers to build, deploy, and scale AI models. Vertex AI offers a comprehensive suite of tools to manage every stage of the ML development lifecycle, from data preparation and model training to deployment, monitoring, and maintenance. As the site lead for Google Cloud Vertex AI in Poland, Long spearheads the development of MLOps infrastructure (Model training pipelines, Model Garden, Fine-tuning and etc.) and AI serving infrastructure for both online and batch predictions of Gemini and other pretrained AI models, leveraging GPU and TPU acceleration. Long brings a wealth of experience in product strategy and cross-functional leadership, effectively guiding engineering and product management teams to achieve evolving business goals. Prior to that, he gained over 12 years of experience in the U.S. as a lead engineer with top tech companies such as Google, Oracle and Microsoft.
+
 - name: Tomasz Sapiński
   title: Comarch
   image: images/optimized/speakers-600x600/TomaszSapinski.webp
@@ -25,12 +43,6 @@
   bio: >-
     Przemysław Musialski is the leader of the research group Computer Graphics at IDEAS NCBR. He is also an associate professor of Computer Science at New Jersey Institute of Technology, USA. His research spans geometric modeling, geometry processing, computational fabrication, and machine learning, focusing on creating algorithmic solutions for digital content generation. Before joining IDEAS NCBR, he led the Computational Fabrication group at Vienna University of Technology’s Center for Geometry and Computational Design, and previously, he held academic and research positions at VRVis Vienna, TU Vienna, Arizona State University, and King Abdullah University of Science and Technology. He holds an MSc degree in Media Systems Science from Bauhaus University Weimar in Germany and a PhD in Computer Science from the Vienna University of Technology in Austria. He is a member of the ACM SIGGRAPH and the EUROGRAPHICS association.
 
-- name: Long Cheng
-  title: Google
-  image: images/optimized/speakers-600x600/LongCheng.webp
-  bio: >-
-    Long Cheng is an Engineering Leader at Google Cloud Vertex AI - a unified machine learning (ML) platform that aims to streamline the entire ML workflow, making it easier for data scientists and ML engineers to build, deploy, and scale AI models. Vertex AI offers a comprehensive suite of tools to manage every stage of the ML development lifecycle, from data preparation and model training to deployment, monitoring, and maintenance. As the site lead for Google Cloud Vertex AI in Poland, Long spearheads the development of MLOps infrastructure (Model training pipelines, Model Garden, Fine-tuning and etc.) and AI serving infrastructure for both online and batch predictions of Gemini and other pretrained AI models, leveraging GPU and TPU acceleration. Long brings a wealth of experience in product strategy and cross-functional leadership, effectively guiding engineering and product management teams to achieve evolving business goals. Prior to that, he gained over 12 years of experience in the U.S. as a lead engineer with top tech companies such as Google, Oracle and Microsoft.
-
 - name: Daniel Śliwiński
   title: LOT Polish Airlines
   image: images/optimized/speakers-600x600/DanielSliwinski.webp
@@ -42,14 +54,3 @@
   image: images/optimized/speakers-600x600/PatrykRadon.webp
   bio: >-
     Patryk Radoń with a bachelors and master's degree from Cracow's AGH and Cracow University of Technology, he has honed his skills in data science over five years of practical experience. Currently working at LOT Polish Airlines, he specializes in modeling customer behavior with statistical background in causal inference and customer personalization, focused primarily on areas related to CRM and ecommerce. His expertise lies in leveraging data to drive business growth, optimize customer interactions, and enhance marketing strategies. In his free time he strives to balance his time between rock climbing, traveling and practicing martial arts.
-
-- name: Charles Martinez
-  title: G-Research
-  image: images/optimized/speakers-600x600/CharlesMartinez.webp
-  bio: >-
-    Dr Charles Martinez is the Academic Relations Manager at G-Research. Charles completed a PhD in Phonon interactions in Gallium Nitride nanostructures at the University of Nottingham. Charles' previous role was as Elsevier's Key Account Manager, managing sales and renewals for the UK Russell Group institutions, Government and Funding body accounts, including being one of the negotiators in the UK ScienceDirect Read and Publish agreement. Since leaving Elsevier Charles is dedicated to forming beneficial partnerships between G-Research and Europe's top institutions, and is living in Cambridge, UK.
-
-# - name: Scarlett Bailey
-#   title: G-Research
-#   image: images/optimized/speakers-600x600/ScarlettBailey.webp
-#   bio: >-
