@@ -414,10 +414,11 @@
         time: 13:30 - 15:00
 
     - events:
+      - element-class: col-lg-4
       - title: 'Sponsor talk 3: <strong>TBA</strong>'
         subtitle: 'by TBA'
         time: 
-        element-class: col-lg-offset-4 col-lg-4
+        element-class: col-lg-4
         time: 15:00 - 15:30
         room: Hall A
         # url: /program#sponsor-talk-3
