@@ -23,7 +23,7 @@ Expects following parameters:
             {% if talk.author-name %}
             <div class="person-photo-wrapper width-100 width-max-300px" style="margin-bottom: 1em;">
                 <div>
-                    <img src="{{ talk.author-image }}" alt="{{ talk.author-name }} photo">
+                    <img src="{{ talk.author-image | relative_url }}" alt="{{ talk.author-name }} photo">
                 </div>
             </div>
             <h3 style="margin-bottom: 0.2em">{{ talk.author-name }}</h3>
@@ -35,7 +35,7 @@ Expects following parameters:
             {% for author in talk.authors %}
             <div class="person-photo-wrapper width-100 width-max-300px" style="margin-bottom: 1em;">
                 <div>
-                    <img src="{{ author.image }}" alt="{{ author.name }} photo">
+                    <img src="{{ author.image | relative_url }}" alt="{{ author.name }} photo">
                 </div>
             </div>
             <h3 style="margin-bottom: 0.2em">{{ author.name }}</h3>
