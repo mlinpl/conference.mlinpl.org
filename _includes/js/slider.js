@@ -66,12 +66,14 @@ for (let slider of sliders) {
 
   function setSliderTimeout() {
     let sliderTimer = slider.getElementsByClassName('slider-timer')[0];
-    if (sliderTimer) sliderTimer.classList.add('width-from-0-to-100');
-    timeoutId = setTimeout(() => {
-      currentIndex = (currentIndex + 1) % sliderItems.length;
-      let nextItem = sliderItems[currentIndex];
-      updateSlider(nextItem);
-    }, TIMEOUT_DURATION);
+    if (sliderTimer) {
+      sliderTimer.classList.add('width-from-0-to-100');
+      timeoutId = setTimeout(() => {
+        currentIndex = (currentIndex + 1) % sliderItems.length;
+        let nextItem = sliderItems[currentIndex];
+        updateSlider(nextItem);
+      }, TIMEOUT_DURATION);
+    }
   }
 
   function clearSliderTimeout() {
