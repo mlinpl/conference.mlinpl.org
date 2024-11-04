@@ -9,10 +9,11 @@ Expects following parameters: day
 {% for event in session.events %}
 <div class="{{ event.element-class }} agenda-item">
     <div>
-        {{ event.time }} 
+        <span style="text-transform: uppercase;">{{ event.time }}
         {% if event.room %}
         / {{ event.room }}
         {% endif %}
+        </span>
 
         {% if event.url %}
         <a href="{{ event.url | relative_url }}">
@@ -27,6 +28,10 @@ Expects following parameters: day
         </a>
         {% endif %}
 
+        {% if event.note %}
+        <span style="text-transform: uppercase;">{{ event.note }}</span>
+        {% endif %}
+
         {% if event.subevents %}
         <ul>
         {% for subevent in event.subevents %}
@@ -35,9 +40,14 @@ Expects following parameters: day
             <a href="{{ subevent.url | relative_url }}">
             {% endif %}
             <h5>{{ subevent.title }}</h5>
+            {% if subevent.subtitle %}
             <h6>{{ subevent.subtitle }}</h6>
+            {% endif %}
             {% if subevent.url %}
             </a>
+            {% endif %}
+            {% if subevent.note %}
+            <span style="text-transform: uppercase;">{{ subevent.note }}</span>
             {% endif %}
         </li>
         {% endfor %}
