@@ -66,12 +66,14 @@ for (let slider of sliders) {
 
   function setSliderTimeout() {
     let sliderTimer = slider.getElementsByClassName('slider-timer')[0];
-    if (sliderTimer) sliderTimer.classList.add('width-from-0-to-100');
-    timeoutId = setTimeout(() => {
-      currentIndex = (currentIndex + 1) % sliderItems.length;
-      let nextItem = sliderItems[currentIndex];
-      updateSlider(nextItem);
-    }, TIMEOUT_DURATION);
+    if (sliderTimer) {
+      sliderTimer.classList.add('width-from-0-to-100');
+      timeoutId = setTimeout(() => {
+        currentIndex = (currentIndex + 1) % sliderItems.length;
+        let nextItem = sliderItems[currentIndex];
+        updateSlider(nextItem);
+      }, TIMEOUT_DURATION);
+    }
   }
 
   function clearSliderTimeout() {
@@ -99,8 +101,21 @@ for (let slider of sliders) {
 
   observer.observe(slider);
 
-  let firstSliderItem = slider.querySelector('.slider-item');
-  let firstSliderItemContent = slider.querySelector('.slider-item-content');
+  var firstSliderItem = slider.querySelector('.slider-item');
+  var firstSliderItemContent = slider.querySelector('.slider-item-content');
+
+  // If the slider is the agenda slider, show today's tab
+  if (slider.id === 'agenda-slider') {
+    const today = new Date().toISOString().split("T")[0];
+
+    sliderItems.forEach((tab, index) => {
+      if (tab.getAttribute("data-date") === today) {
+        firstSliderItem = tab;
+        firstSliderItemContent = sliderItemContents[index];
+      }
+    });
+  } 
+
   firstSliderItemContent.classList.add('fade-in');
   handleSliderItemClick(firstSliderItem);
 }
