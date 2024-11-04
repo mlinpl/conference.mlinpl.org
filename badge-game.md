@@ -16,10 +16,11 @@ You can **network with other attendees** to collect their names and symbols or *
 
 The assigned symbols are printed on the back of the badges, so you can ask participants to show them.
 
-<div align="center">
-<img class="width-100 width-max-300px photo" style="margin-bottom: 5px;" src="{{ "./images/optimized/badge-game-800x800/badge-chess.webp" | relative_url }}">
-<img class="width-100 width-max-300px photo" style="margin-bottom: 5px;" src="{{ "./images/optimized/badge-game-800x800/badge-dna.webp" | relative_url }}">
+<div align="center" style="margin-bottom: 30px;">
+    <img class="width-100 width-max-300px photo" style="margin-bottom: 5px;" src="{{ "./images/optimized/badge-game-800x800/badge-chess.webp" | relative_url }}">
+    <img class="width-100 width-max-300px photo" style="margin-bottom: 5px;" src="{{ "./images/optimized/badge-game-800x800/badge-dna.webp" | relative_url }}">
 </div>
+
 ## / Hints
 
 Don't worry if you can't find the pattern right away — after each day we will provide hints to guide you in solving the mapping function. But remember, the faster you solve the puzzle, the higher your chances of winning.
@@ -34,4 +35,4 @@ Prizes can be collected at the registration desk.
 
 Submit your predictions for the test set names by filling out the form below:
 
-<a href="https://mlinplmeetups.paperform.co/" class="btn btn-default btn-lg" target="_blank"><i class="fa-solid fa-list"></i> Submit results</a>
+<a href="https://badge-game.paperform.co" class="btn btn-default btn-lg" target="_blank"><i class="fa-solid fa-list"></i> Submit results</a>
