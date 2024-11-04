@@ -18,6 +18,7 @@ permalink: /cfc-instructions
 ## / Instructions for Contributed Posters
 
 - All the posters should be in English.
+- The participants are expected to bring their posters. **We will not print the posters for the participants.**
 - The printed version of the poster has to be A0-size in a vertical orientation (recommended) or smaller. Larger posters will not fit on the poster boards.
 - There will be poster sessions during the conference. Your poster will be assigned to one of them and a specific poster board.
 - Please be at least 5-10 minutes before the start of the session in the room where your poster presentation will be held to hang it on the designated poster board. We don't know yet, but it might be possible to hang your poster earlier.
