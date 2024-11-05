@@ -160,11 +160,19 @@
         element-class: col-lg-4
         time: 10:35 - 12:00
         room: Main Hall
-        # subevents:
-        #   - title: "<strong>TBA</strong>"
-        #     subtitle: "by TBA"
-        #     time:
-        #     url: 
+        subevents:
+          - title: "<strong>Adaptiveness in deep learning models</strong>"
+            # subtitle: "by TBA"
+            # time:
+            # url: 
+          - title: "<strong>Good practices for applied computer science: field-tested in ML-based medical and space projects</strong>"
+            # subtitle: "by TBA"
+            # time:
+            # url:
+          - title: "<strong>On (dynamic) shortest paths data structuresy</strong>"
+            # subtitle: "by TBA"
+            # time:
+            # url:
 
       - title: 'Contributed Talks Session 1:'
         subevents:
