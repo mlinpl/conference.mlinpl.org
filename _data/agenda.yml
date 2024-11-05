@@ -460,7 +460,7 @@
           room: Hall A
           url: /program#invited-talk-10
         - title: 'Invited talk 11: <strong>Improving Foundation Models (with academic compute)</strong>'
-          subtitle: "by Yuki Asano (University of Amsterdam)"
+          subtitle: "by Yuki Asano (University of Technology Nuremberg)"
           element-class: col-lg-4
           time: 16:10 - 17:10
           room: Hall B
