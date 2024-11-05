@@ -447,8 +447,8 @@
         time: 15:30 - 16:00
         room: Hall A
         url: /program#sponsor-talk-5
-      - title: 'Sponsor talk 6: <strong>TBA</strong>'
-        subtitle: 'by Daniel Śliwiński and Patryk Radoń (LOT)'
+      - title: 'Sponsor talk 6: <strong>Leveraging Feature Store for high-sparsity recommendations in LOT Polish Airlines</strong>'
+        subtitle: 'by Daniel Śliwiński and Patryk Radoń (LOT Polish Airlines)'
         time:
         element-class: col-lg-4
         time: 15:30 - 16:00
