@@ -122,7 +122,8 @@
         - title: '<i class="fa-solid fa-champagne-glasses"></i> Conference Party'
           element-class: col-lg-12
           time: 19:00 - 24:00
-          note: <i class="fa-solid fa-location-dot"></i> Bolek Pub & Restaurant, al. Niepodległości 211, 02-086 Warszawa
+          subtitle: <i class="fa-solid fa-location-dot"></i> Bolek Pub & Restaurant, al. Niepodległości 211, 02-086 Warszawa
+          note: Remember to take your badges with you, they is required to enter.
     - events:
         - title: AI Art Exhibition
           element-class: col-lg-12 aiart-blue
@@ -147,7 +148,7 @@
         time: 09:30 - 10:30
         room: Main Hall
         url: /program#invited-talk-4
-      - title: 'Invited talk 5: <strong>Molecule.One: Candid Stories and Hard Lessons From Our Journey Building AI Synthetic Chemist</strong>'
+      - title: 'Invited talk 5: <strong>molecule.one: Candid Stories and Hard Lessons From Our Journey Building AI Synthetic Chemist</strong>'
         subtitle: "by Stanisław Jastrzębski (Molecule.one)"
         element-class: col-lg-4
         time: 09:30 - 10:30
@@ -304,19 +305,19 @@
         room: Main Hall
         url: /program#discussion-panel-4
 
-      - title: "Invited Talk 7: <strong>Inductive Biases for Robot Reinforcement Learning</strong>"
+      - title: "Invited Talk 6: <strong>Inductive Biases for Robot Reinforcement Learning</strong>"
         subtitle: "by Jan Peters"
         element-class: col-lg-4
         time: 16:10 - 17:10
         room: Hall A
-        url: /program#invited-talk-7
+        url: /program#invited-talk-6
 
-      - title: "Invited Talk 8: <strong>RLHF as conditioning on human preferences</strong>"
+      - title: "Invited Talk 7: <strong>RLHF as conditioning on human preferences</strong>"
         subtitle: "by Tomek Korbak (UK AI Safety Institute)"
         element-class: col-lg-4
         time: 16:10 - 17:10
         room: Hall B
-        url: /program#invited-talk-8
+        url: /program#invited-talk-7
 
     - events:
         - title: "Poster Session 1"
@@ -343,18 +344,18 @@
         subtitle: (Also open after 09:30)
 
     - events: 
-      - title: 'Invited Talk 9: <strong>Unveiling the Potential of AI-enabled In-silico Trials in Medical Innovation</strong>'
+      - title: 'Invited Talk 8: <strong>Unveiling the Potential of AI-enabled In-silico Trials in Medical Innovation</strong>'
         subtitle: "by Alejandro Frangi (University of Manchester)"
         element-class: col-lg-4
         time: 09:30 - 10:30
         room: Main Hall
-        url: /program#invited-talk-9
-      - title: 'Invited Talk 10: <strong>Modern Bayesian Experimental Design</strong>'
+        url: /program#invited-talk-8
+      - title: 'Invited Talk 9: <strong>Modern Bayesian Experimental Design</strong>'
         subtitle: "by Tom Rainforth (University of Oxford)"
         element-class: col-lg-4
         time: 09:30 - 10:30
         room: Hall A
-        url: /program#invited-talk-10
+        url: /program#invited-talk-9
 
     - events:
       - title: 'Poster Session 2 + <i class="fa-solid fa-mug-saucer"></i> Coffee'
@@ -424,14 +425,14 @@
     - events:
       - element-class: col-lg-4
       - title: 'Sponsor talk 3: <strong>TBA</strong>'
-        subtitle: 'by TBA'
+        subtitle: 'by Long Cheng (Google)'
         time: 
         element-class: col-lg-4
         time: 15:00 - 15:30
         room: Hall A
         # url: /program#sponsor-talk-3
       - title: 'Sponsor talk 4: <strong>TBA</strong>'
-        subtitle: 'by TBA'
+        subtitle: 'by Przemysław Musialski (IDEAS NCBR)'
         time: 
         element-class: col-lg-4
         time: 15:00 - 15:30
@@ -440,14 +441,14 @@
 
     - events:
       - title: 'Sponsor talk 5: <strong>TBA</strong>'
-        subtitle: 'by TBA'
+        subtitle: 'by Tomasz Sapiński (Comarch)'
         time: 
         element-class: col-lg-offset-4 col-lg-4
         time: 15:30 - 16:00
         room: Hall A
         # url: /program#sponsor-talk-5
       - title: 'Sponsor talk 6: <strong>TBA</strong>'
-        subtitle: 'by TBA'
+        subtitle: 'by Daniel Śliwiński and Patryk Radoń (LOT)'
         time:
         element-class: col-lg-4
         time: 15:30 - 16:00
@@ -460,18 +461,18 @@
           time: 16:10 - 17:10
           room: Main Hall 
           url: /program#discussion-panel-3
-        - title: 'Invited Talk 12: <strong>Computer Vision in the age of LLMs</strong>'
+        - title: 'Invited Talk 10: <strong>Computer Vision in the age of LLMs</strong>'
           subtitle: "by Lucas Beyer (Google DeepMind)"
           element-class: col-lg-4
           time: 16:10 - 17:10
           room: Hall A
-          url: /program#invited-talk-12
-        - title: 'Invited talk 13: <strong>Improving Foundation Models (with academic compute)</strong>'
-          subtitle: "by Yuki Asano (University of Amsterdam)"
+          url: /program#invited-talk-10
+        - title: 'Invited talk 11: <strong>Improving Foundation Models (with academic compute)</strong>'
+          subtitle: "by Yuki Asano (University of Technology Nuremberg)"
           element-class: col-lg-4
           time: 16:10 - 17:10
           room: Hall B
-          url: /program#invited-talk-13
+          url: /program#invited-talk-11
     - events:
         - title: 'Closing ceremony'
           element-class: col-lg-12
