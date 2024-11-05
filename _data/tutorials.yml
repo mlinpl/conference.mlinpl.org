@@ -1,7 +1,7 @@
 - title: 'Gaussian Splatting'
   date: Sunday / 10 November
   time: 9:00 - 13:00
-  room: TBA
+  room: 5070, MIM UW
   id: 1
   desc-md: >-
     In this hands-on tutorial, we will introduce you to Gaussian Splatting, an advanced technology for generating detailed 3D scenes from 2D images. You will begin the session by creating your own dataset, where we will capture you or your chosen object. Each participant will work then on their own dataset.
@@ -52,7 +52,7 @@
 - title: 'How LLMs are Revolutionizing the cybersecurity field'
   date: Sunday / 10 November
   time: 9:00 - 13:00
-  room: TBA
+  room: 5060, MIM UW
   id: 2
   desc-md: >-
     The ever-evolving threat landscape demands constant adaptation. Traditional methods struggle. Large Language Models (LLMs) emerge, wielding the power of language. This talk explores LLMs' revolution in cybersecurity. LLMs are AI models trained on massive text and code datasets. This grants them an understanding of complex linguistic patterns, invaluable in cybersecurity. Firstly, LLMs excel at advanced threat detection. Analyzing vast amounts of data, they identify subtle anomalies indicating brewing attacks. Traditional methods rely on pre-defined rules, vulnerable to novel attack vectors. LLMs, with their ability to learn and adapt, identify unseen threats, providing a crucial early warning system. Secondly, LLMs offer proactive threat analysis. By ingesting vast quantities of threat intelligence data, including past attack methods and attacker motivations, LLMs uncover patterns and predict future attack vectors. This allows security teams to take a pre-emptive approach, focusing resources on fortifying potential weaknesses before attackers exploit them. Imagine an LLM analyzing a hacker forum, identifying discussions about targeting a specific software vulnerability. This foresight empowers security professionals to patch the vulnerability before a widespread breach. Furthermore, LLMs can revolutionize vulnerability research . Traditionally, identifying vulnerabilities is time-consuming and laborious. LLMs, with their ability to analyze vast code repositories, pinpoint potential vulnerabilities through code patterns and language constructs associated with known weaknesses. This streamlines the vulnerability discovery process, allowing security teams to address critical issues before attackers identify them. While LLMs offer a powerful new frontier, challenges remain. Issues surrounding explainability, bias in training data, and potential misuse require careful consideration. However, the potential benefits are undeniable. As these models continue to evolve and integrate with existing security solutions, they hold the promise of a more secure and resilient digital landscape.
@@ -75,7 +75,7 @@
 - title: 'Beyond transformers - new sequence processing architectures'
   date: Sunday / 10 November
   time: 9:00 - 13:00
-  room: TBA
+  room: 4070, MIM UW
   id: 3
   desc-md: >-
     The transformer neural architecture took by storm the AI community and is now used in many applications, from language models to image generation. With its widespread use we start to better understand transformer’s operating principles, limitations, and possible solutions to them. This tutorial aims to offer a clear picture of where transformer models are today and where they might be heading in the future or what might replace them. This tutorial will open with an overview of how transformers work, their strengths, their weaknesses, and recent theoretical findings about their capabilities, such as their ability to simulate different types of computations and their scalability with hardware. We will next cover important topics about how transformers handle context and attention and compare them with newly proposed alternatives, such as state-space models, to highlight the differences and trade-offs. We will discuss learning mechanisms both in the case of learning from training data during pre-training and in-context learning doing evaluation. We’ll look at techniques for handling long contexts and speculate on the relationship between in-context and from data learning. This will lead us to open questions about the future of AI models, such as understanding where knowledge is actually stored in sequence prediction models and is there a potential for models with an almost unlimited learning capacity.	
@@ -127,7 +127,7 @@
 - title: 'Machine learning on molecules and molecular fingerprints'
   date: Sunday / 10 November
   time: 9:00 - 13:00
-  room: TBA
+  room: 4060, MIM UW
   id: 4
   desc-md: >-
     Machine learning on molecules is a vital subject in chemoinformatics and de novo drug design. Tasks like molecular property prediction and virtual screening are crucial in modern pharmaceutical workflows. However, molecules are nontrivial to process, typically being represented as attributed graphs. As such, they are naturally non-Euclidean and have no notion of distance, requiring vectorization before performing classification, regression, or other ML tasks. Dedicated embedding methods are required, in order to encode relevant structural and functional information. Molecular fingerprints are the most popular group of algorithms in this regard, offering efficient solutions for many problems. One of the most recent developments in this area is scikit-fingerprints, a scikit-learn compatible library for easy and efficient computation of molecular fingerprints, which will be extensively used during the tutorial. This workshop will introduce participants to machine learning on molecules, molecular fingerprints, and how to apply them to practical problems. We will cover basics of chemoinformatics, reading and processing data, how molecular fingerprints work, and how to apply them to molecular property prediction or virtual screening. As a bonus, participants will learn why graph neural networks (GNNs) are not a silver bullet, and why molecular fingerprints are still very much relevant in the era of GNNs popularity.
@@ -155,7 +155,7 @@
 - title: 'Multi-Agent Reinforcement Learning Tutorial for Optimal Urban Route Choice Using TorchRL'
   date: Sunday / 10 November
   time: 14:30 - 16:30
-  room: TBA
+  room: 5060, MIM UW
   id: 5
   desc-md: >-
     In this tutorial, we will demonstrate how to implement Multi-Agent Reinforcement Learning (MARL) scenarios in an urban setting using our custom PettingZoo framework, RouteRL. We will showcase a simplified traffic route choice environment integrating Simulation of Urban MObility (SUMO), an open-source traffic simulation, with the reinforcement learning library, TorchRL. This framework aims to replicate the daily decision-making process involved in route selection. It incorporates two types of agents: human drivers, which are modeled using human route choice behavioral models from transportation research, and Automated Vehicles (AVs), RL agents with individual or collective goals. We will present our environment and its functionality as well as experiments with different state-of-the-art RL algorithms aiming to assess how the agents learn and compare the learning of human agents and AVs.
@@ -184,7 +184,7 @@
 - title: 'Practical Submodular Optimization'
   date: Sunday / 10 November
   time: 14:30 - 18:30
-  room: TBA
+  room: 4060, MIM UW
   id: 6
   desc-md: >-
     In today’s rapidly evolving landscape, Generative AI (GenAI) and large language models (LLMs) dominate the spotlight, sparking excitement and revolutionizing industries across the board. While these advancements capture imaginations, it's easy to overlook the continued relevance of classical algorithmic tools that remain fundamental to solving real-world problems. Among these, submodular optimization stands as a cornerstone of algorithmic heuristics, providing a powerful and elegant abstraction for a wide range of practical scenarios. This tutorial highlights how submodular optimization offers efficient solutions to problems where greedy algorithms excel — thanks to its unique structure that allows ideas from convex continuous optimization to be applied in discrete scenarios. From sensor placement to data summarization through feature selection, submodular optimization elegantly balances simplicity and performance. Moreover, there are situations where sophisticated deep learning models are just impossible to apply due to the very nature of the problem itself. For example, when working with streaming data—where the full dataset isn't available in advance and decisions must be made on the fly—submodular optimization becomes indispensable. Its adaptability to such constraints showcases why it remains a critical tool.
