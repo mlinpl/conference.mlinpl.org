@@ -28,4 +28,64 @@
   author-bio-md: >-
     Dr Charles Martinez is the Academic Relations Manager at G-Research. Charles completed a PhD in Phonon interactions in Gallium Nitride nanostructures at the University of Nottingham. Charles' previous role was as Elsevier's Key Account Manager, managing sales and renewals for the UK Russell Group institutions, Government and Funding body accounts, including being one of the negotiators in the UK ScienceDirect Read and Publish agreement. Since leaving Elsevier Charles is dedicated to forming beneficial partnerships between G-Research and Europe's top institutions, and is living in Cambridge, UK.
 
+
     Scarlett Bailey is currently an intern in the Talent Acquisition department at G-Research, completing her placement year while studying for a BSc in Management at the University of Bath. As part of the team, Scarlett supports recruitment for the Summer Research Programme and other internship opportunities, with a focus on engaging emerging talent in quantitative research and technology. She also contributes to G-Research's global attraction events, connecting students with career opportunities across the company.
+
+- title: LLM Serving
+  abstract: >-
+    The presentation Scaling and Optimizing LLM Serving focuses on techniques for efficiently deploying Large Language Models (LLMs) to meet performance demands. It covers key fundamentals like prefill, decoding, and memory optimization, and explains the importance of metrics such as latency, throughput, and cost. The talk compares popular model-serving frameworks (vLLM, Hugging Face Text Generation Inference, and Nvidia TensorRT-LLM), highlighting their advantages and limitations. It also introduces optimization techniques, including quantization, batching, and memory management strategies like PagedAttention, and concludes with recommendations for selecting the right hardware and server configurations to maximize LLM efficiency and scalability.
+  date: Saturday / 9 November
+  time: 15:00 - 15:30
+  room: Hall A
+  slider-order: 3
+  author-name: Long Cheng
+  author-title: Google
+  author-image: images/optimized/speakers-600x600/LongCheng.webp
+  author-bio: >-
+    Long Cheng is an Engineering Leader at Google Cloud Vertex AI - a unified machine learning (ML) platform that aims to streamline the entire ML workflow, making it easier for data scientists and ML engineers to build, deploy, and scale AI models. Vertex AI offers a comprehensive suite of tools to manage every stage of the ML development lifecycle, from data preparation and model training to deployment, monitoring, and maintenance. As the site lead for Google Cloud Vertex AI in Poland, Long spearheads the development of MLOps infrastructure (Model training pipelines, Model Garden, Fine-tuning and etc.) and AI serving infrastructure for both online and batch predictions of Gemini and other pretrained AI models, leveraging GPU and TPU acceleration. Long brings a wealth of experience in product strategy and cross-functional leadership, effectively guiding engineering and product management teams to achieve evolving business goals. Prior to that, he gained over 12 years of experience in the U.S. as a lead engineer with top tech companies such as Google, Oracle and Microsoft.
+
+- title: TBA
+  abstract: >-
+    TBA
+  date: Saturday / 9 November
+  time: 15:30 - 16:00
+  room: Hall B
+  slider-order: 4
+  author-name: Przemysław Musialski
+  author-title: IDEAS NCBR
+  author-image: images/optimized/speakers-600x600/PrzemyslawMusialski.webp
+  author-bio: >-
+    Przemysław Musialski is the leader of the research group Computer Graphics at IDEAS NCBR. He is also an associate professor of Computer Science at New Jersey Institute of Technology, USA. His research spans geometric modeling, geometry processing, computational fabrication, and machine learning, focusing on creating algorithmic solutions for digital content generation. Before joining IDEAS NCBR, he led the Computational Fabrication group at Vienna University of Technology’s Center for Geometry and Computational Design, and previously, he held academic and research positions at VRVis Vienna, TU Vienna, Arizona State University, and King Abdullah University of Science and Technology. He holds an MSc degree in Media Systems Science from Bauhaus University Weimar in Germany and a PhD in Computer Science from the Vienna University of Technology in Austria. He is a member of the ACM SIGGRAPH and the EUROGRAPHICS association.
+
+- title: "Revolutionizing IT Operations with AI: The Comarch Experience"
+  abstract: >-
+    In today's digital landscape, IT operations must continuously evolve to meet increasing demands for efficiency, scalability, and resilience. Artificial Intelligence (AI) is transforming how IT teams manage systems, predict issues, and automate routine tasks, allowing organizations to move from reactive to proactive operational strategies. This presentation explores the impact of AI on IT operations, from AI-powered monitoring and predictive analytics to automated incident response and daily operations support systems. Gain insights into real-world AI applications in Comarch, the benefits of AI-empowerment, and how AI enhances and optimizes everyday tasks. Discover how integrating AI can revolutionize IT operations, driving greater innovation, agility, and cost-effectiveness in modern enterprises.
+  date: Saturday / 9 November
+  time: 15:30 - 16:00
+  room: Hall A
+  slider-order: 5
+  author-name: Tomasz Sapiński
+  author-title: Comarch
+  author-image: images/optimized/speakers-600x600/TomaszSapinski.webp
+  author-bio: >-
+    Tomasz Sapiński is a highly experienced IT professional with a strong background in software development and image processing using AI. He holds a degree from Lodz University of Technology and has spent over 15 years in the industry, gaining extensive experience in project management and IT system implementations around the world. Tomasz is also a skilled Data Scientist with a keen interest in the development of AI and neural networks, and their practical applications.
+
+- title: Leveraging Feature Store for high-sparsity recommendations in LOT Polish Airlines
+  abstract: >-
+    TBA
+  date: Saturday / 9 November
+  time: 15:30 - 16:00
+  room: Hall B
+  slider-order: 6
+  authors:
+    - name: Daniel Śliwiński
+      title: LOT Polish Airlines
+      image: images/optimized/speakers-600x600/DanielSliwinski.webp
+    - name: Patryk Radoń
+      title: LOT Polish Airlines
+      image: images/optimized/speakers-600x600/PatrykRadon.webp
+  author-bio-md: >-
+    Daniel Śliwiński holds a master's degree in Data Science and Business Analytics from the University of Warsaw, where he focused on exploring the intersection of airline e-commerce and machine learning. He also has a bachelor's degree in Japanese Studies. Currently, Daniel is a Junior Data Scientist at LOT Polish Airlines, where he has contributed to various projects for over two years, working primarily on personalization, segmentation, forecasting, and big data initiatives. Outside of work, Daniel trains in Olympic weightlifting and competes in triathlon.
+
+
+    Patryk Radoń with a bachelors and master's degree from Cracow's AGH and Cracow University of Technology, he has honed his skills in data science over five years of practical experience. Currently working at LOT Polish Airlines, he specializes in modeling customer behavior with statistical background in causal inference and customer personalization, focused primarily on areas related to CRM and ecommerce. His expertise lies in leveraging data to drive business growth, optimize customer interactions, and enhance marketing strategies. In his free time he strives to balance his time between rock climbing, traveling and practicing martial arts.
