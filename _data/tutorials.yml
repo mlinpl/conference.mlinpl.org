@@ -162,7 +162,7 @@
     **The tutorial is expected to take approximately 2 hours.**
 
 
-    **Prerequisites:** Participants should have a basic understanding of reinforcement learning concepts before attending this tutorial. Additionally, they should prepare their development environment by installing and setting up the necessary tools. This includes creating and activating a Conda environment with Python 3.12. Within this environment, they should use pip to install the required libraries: Gym, PettingZoo, and torchrl.
+    **Prerequisites:** Participants should have a basic understanding of reinforcement learning concepts before attending this tutorial. Additionally, they should prepare their development environment by installing and setting up the necessary tools. This includes creating and activating a Conda environment with Python 3.12. Within this environment, they should use pip to install the required libraries: Gym, PettingZoo, and torchrl. Additionally, the participants should download and install SUMO software from [https://eclipse.dev/sumo/](https://eclipse.dev/sumo/).
 
   authors:
     - name: Anastasia Psarou
