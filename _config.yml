@@ -97,7 +97,7 @@ navigation:
       # - name: "/ Conference game"
       #   url: "/conference-game"
       - name: "/ Conference booklet"
-        url: "/docs/booklet.pdf"
+        url: "/docs/mlinpl_2024_booklet.pdf"
       - name: "/ Pre-conference meetups"
         url: "/meetups"
       - name: '<span class="main-name">ML <span style="color: #4BCAFD !important;">i</span>n PL</span> <span class="sub-name">AI ART FESTIVAL</span>'
