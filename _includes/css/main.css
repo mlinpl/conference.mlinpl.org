@@ -408,7 +408,7 @@ ol > li > ol > li > ol > li:before {
     }
 
     .nav-dropdown-content {
-        min-width: 180px;
+        min-width: 220px;
         position: absolute;
         background-color: {{ site.color.background }};
         box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
@@ -703,6 +703,10 @@ body {
 /* Some classes for images in about page */
 .width-100 {
     width: 100%;
+}
+
+.width-50 {
+    width: 49%;
 }
 
 .width-max-300px {
