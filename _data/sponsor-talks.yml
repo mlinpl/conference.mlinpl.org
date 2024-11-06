@@ -44,9 +44,9 @@
   author-bio: >-
     Long Cheng is an Engineering Leader at Google Cloud Vertex AI - a unified machine learning (ML) platform that aims to streamline the entire ML workflow, making it easier for data scientists and ML engineers to build, deploy, and scale AI models. Vertex AI offers a comprehensive suite of tools to manage every stage of the ML development lifecycle, from data preparation and model training to deployment, monitoring, and maintenance. As the site lead for Google Cloud Vertex AI in Poland, Long spearheads the development of MLOps infrastructure (Model training pipelines, Model Garden, Fine-tuning and etc.) and AI serving infrastructure for both online and batch predictions of Gemini and other pretrained AI models, leveraging GPU and TPU acceleration. Long brings a wealth of experience in product strategy and cross-functional leadership, effectively guiding engineering and product management teams to achieve evolving business goals. Prior to that, he gained over 12 years of experience in the U.S. as a lead engineer with top tech companies such as Google, Oracle and Microsoft.
 
-- title: TBA
+- title: Neuro-Symbolic AI for Applications in Architecture and Design of Virtual Worlds
   abstract: >-
-    TBA
+    Artificial intelligence is rapidly evolving, offering new tools that blend human reasoning with machine learning. One exciting development is neuro-symbolic AI, a hybrid approach combining neural networks with rule-based, symbolic reasoning. This method bridges the flexibility of deep learning with the interpretability of structured logic, making it ideal for creative and complex fields like architecture and design. In this talk, I will discuss how neuro-symbolic models are applied to tasks such as facade reconstruction, where they can transform images into detailed, adaptable models for use in design. This approach offers both precision and creativity, enabling architects and designers to move seamlessly between images and structured designs. Through examples, we’ll explore the potential of neuro-symbolic AI to enhance workflows and provide powerful, intuitive tools for architects, designers, and researchers alike.
   date: Saturday / 9 November
   time: 15:30 - 16:00
   room: Hall B
