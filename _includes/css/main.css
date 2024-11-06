@@ -705,6 +705,10 @@ body {
     width: 100%;
 }
 
+.width-50 {
+    width: 49%;
+}
+
 .width-max-300px {
     max-width: 300px;
 }
