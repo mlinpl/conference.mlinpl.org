@@ -10,7 +10,7 @@ permalink: /badge-game
 Welcome to our conference badge game. This year each participant's badge contains **one of two symbols**, which are printed on their badges, based solely on their full names:
 
 <span style="font-size: 1.25em; text-align: center; display: block;">
-<span style="letter-spacing: 5px;"><span style="font-style: italic;">f</span>(</span>\<first-name\>, \<last-name<span style="letter-spacing: 5px;">\>) → {<i class="fa-solid fa-chess"></i>, <i class="fa-solid fa-dna"></i>}</span>
+<span style="letter-spacing: 5px;"><span style="font-style: italic;">f</span>(</span>\<first-name\>, \<last-name<span style="letter-spacing: 5px;">\>) → {<i class="fa-solid fa-dna"></i>, <i class="fa-solid fa-chess"></i>}</span>
 </span>
 
 As in classic machine learning problems, your task is to **collect data** and **discover the mapping function**.
@@ -24,8 +24,8 @@ You can **network with other attendees** to collect their names and symbols or *
 The assigned symbols are printed on the back of the badges, so you can ask participants to show them.
 
 <div align="center" style="margin-bottom: 30px;">
-    <img class="width-100 width-max-300px photo" style="margin-bottom: 5px;" src="{{ "./images/optimized/badge-game-800x800/badge-chess.webp" | relative_url }}">
     <img class="width-100 width-max-300px photo" style="margin-bottom: 5px;" src="{{ "./images/optimized/badge-game-800x800/badge-dna.webp" | relative_url }}">
+    <img class="width-100 width-max-300px photo" style="margin-bottom: 5px;" src="{{ "./images/optimized/badge-game-800x800/badge-chess.webp" | relative_url }}">
 </div>
 
 ## / Hints
