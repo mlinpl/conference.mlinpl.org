@@ -72,7 +72,7 @@
 
 - title: Leveraging Feature Store for high-sparsity recommendations in LOT Polish Airlines
   abstract: >-
-    TBA
+    Recommendation systems are an essential part of most e-commerce industries, often responsible for a significant portion of revenue. However, every branch of this industry has its own set of exceptions and challenges that affect how recommender systems have to be designed. In airlines, these exceptions become extreme as returning visitors become sparse, many purchases are anonymous, and items, such as flight tickets, can be sold at different prices depending on the circumstances. To overcome these challenges, we propose a simple method that utilizes information collected about users and items, omitting the need for extracting user/item embeddings with matrix factorization. Additionally, we will talk about how we used a Feature Store as a foundation for this project and why it could be beneficial to implement it in your Data Science team as well.
   date: Saturday / 9 November
   time: 15:30 - 16:00
   room: Hall B
