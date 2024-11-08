@@ -32,6 +32,8 @@ The assigned symbols are printed on the back of the badges, so you can ask parti
 
 Don't worry if you can't find the pattern right away — after each day we will provide hints to guide you in solving the mapping function. But remember, the faster you solve the puzzle, the higher your chances of winning.
 
+- **#1** - The mapping function is based on the first letters of the first and last name.
+
 ## / Submit results
 
 Submit your predictions for the test set names by filling out the form below:
