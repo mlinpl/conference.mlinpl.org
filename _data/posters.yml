@@ -435,7 +435,7 @@
 
 - author-name: Małgorzata Kurcjusz-Gzowska
   title: "Application of the R-CNN Algorithm for Street Light Detection as a Light Pollution Estimation Tool"
-  author-title: "Warsaw University of Life Sciences"
+  author-title: "Institute of Civil Engineering, Warsaw University of Life Sciences; Faculty of Mathematics and Information Science, Warsaw University of Technology"
   abstract: >- 
     Light pollution is a significant ecological and social problem that negatively affects human health, disrupts the natural circadian rhythms of organisms, and disrupts the functioning of ecosystems, leading to serious environmental consequences. According to current knowledge, one of the most important factors contributing to the increase in light pollution is not the intensity of light, but the large number of light sources in a given area. In this study, an object-detection model was used to detect street lights in aerial photos taken at night by a drone. In particular, the focus was on using the R-CNN algorithm for fast and efficient detection of street lights. The image processing model was trained based on collected and hand-annotated data from eight selected areas of Warsaw. The model showed high precision in locating the street lights, which is of great importance for urban planners in developing strategies to reduce light pollution and optimize the layout of urban lighting.
   author-bio: >- 
