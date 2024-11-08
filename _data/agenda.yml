@@ -8,42 +8,42 @@
           subevents:
             - title: Opening remarks
             - title: "<strong>Real-Time Omnidirectional 3D Multi-Person Human Pose Estimation with Occlusion Handling</strong>"
-              subtitle: by Pawel Knap
+              subtitle: by Pawel Knap (University of Southampton / University of Freiburg)
               time: 8:10 - 8:30
               url: /program#srw-talk-1
 
             - title: "<strong>Accumulated Local Effects and Graph Neural Networks</strong>"
-              subtitle: by Paulina Kaczyńska
+              subtitle: by Paulina Kaczyńska (University of Warsaw / IPPT PAN)
               time: 8:30 - 8:50
               url: /program#srw-talk-2
 
             - title: "<strong>Interrogating Time Series Foundation Models</strong>"
-              subtitle: by Michal Wilinski
+              subtitle: by Michal Wilinski (Carnegie Mellon University / Poznan University of Technology)
               time: 8:50 - 9:10
               url: /program#srw-talk-3
 
             - title: "<strong>Harnessing YouTube for Evaluating General-Purpose Speech Recognition Machine Learning Models</strong>"
-              subtitle: by Tomasz Wojnar
+              subtitle: by Tomasz Wojnar (Jagiellonian University)
               time: 9:10 - 9:30
               url: /program#srw-talk-4
 
             - title: "<strong>Cherish Every MOMENT</strong>"
-              subtitle: by Nina Zukowska
+              subtitle: by Nina Zukowska (FU Berlin / CMU)
               time: 9:50 - 10:10
               url: /program#srw-talk-5
 
             - title: "<strong>Towards Sustainable Cloud Environments by Leveraging Time Series Forecasting for Enhanced Resource Utilization</strong>"
-              subtitle: by Mateusz Smendowski
+              subtitle: by Mateusz Smendowski (AGH University of Kraków)
               time: 10:10 - 10:30
               url: /program#srw-talk-6
 
             - title: "<strong>BATTLE-AMP - Benchmarking Assessment Tests for The Leading Efficacy of Antimicrobial Peptides</strong>"
-              subtitle: by Wojciech Zarzecki
+              subtitle: by Wojciech Zarzecki (Computational Medicine Group, MIMUW)
               time: 10:30 - 10:50
               url: /program#srw-talk-7
 
             - title: "<strong>Statistical Criteria for the Prediction of Dynamical Clustering in Granular Gases</strong>"
-              subtitle: by Sai Preetham, Sata
+              subtitle: by Sai Preetham, Sata (Otto-von-Guericke-University Magdeburg)
               time: 10:50 - 11:10
               url: /program#srw-talk-8
 
@@ -92,7 +92,7 @@
           room: Main Hall
           url: /program#discussion-panel-1
         - title: "Invited Talk 3: <strong>Explainable AI for LLMs</strong>"
-          subtitle: "by Wojciech Samek (Technische Universität Berlin)"
+          subtitle: "by Wojciech Samek (Technical University of Berlin)"
           element-class: col-lg-6
           time: 14:45 - 15:45
           room: Halls A & B
@@ -143,12 +143,12 @@
         subtitle: (Also open after 09:30)
     - events: 
       - title: 'Invited talk 4: <strong>Perceiving, Understanding, and Interacting through Touch</strong>'
-        subtitle: "by Roberto Calandra (Technische Universität Dresden)"
+        subtitle: "by Roberto Calandra (Technical University of Dresden)"
         element-class: col-lg-4
         time: 09:30 - 10:30
         room: Main Hall
         url: /program#invited-talk-4
-      - title: 'Invited talk 5: <strong>molecule.one: Candid Stories and Hard Lessons From Our Journey Building AI Synthetic Chemist</strong>'
+      - title: 'Invited talk 5: <strong>molecule.one: Candid Stories and Hard Lessons from our Journey Building an AI for Science Startup</strong>'
         subtitle: "by Stanisław Jastrzębski (Molecule.one)"
         element-class: col-lg-4
         time: 09:30 - 10:30
@@ -170,7 +170,7 @@
             # subtitle: "by TBA"
             # time:
             # url:
-          - title: "<strong>On (dynamic) shortest paths data structuresy</strong>"
+          - title: "<strong>On (dynamic) shortest paths data structures</strong>"
             # subtitle: "by TBA"
             # time:
             # url:
@@ -178,15 +178,15 @@
       - title: 'Contributed Talks Session 1:'
         subevents:
           - title: "<strong>Exceeding Historical Exposure in Session-Based Recommender Systems</strong>"
-            subtitle: by Klaudia Balcer
+            subtitle: by Klaudia Balcer (University of Wrocław)
             time: 10:35 - 11:00
             url: /program#contributed-talk-1
           - title: "<strong>Leveraging Multi-Armed Bandit Algorithms for Dynamic Decision Making</strong>"
-            subtitle: by Tudor Coman
+            subtitle: by Tudor Coman (Adobe)
             time: 11:05 - 11:30
             url: /program#contributed-talk-2
           - title: "<strong>From Theory to Practice: A Practitioner's Journey with Knowledge Graphs</strong>"
-            subtitle: by Patryk Wielopolski
+            subtitle: by Patryk Wielopolski (DataWalk)
             time: 11:35 - 12:00
             url: /program#contributed-talk-3
         element-class: col-lg-4
@@ -196,15 +196,15 @@
       - title: 'Contributed Talks Session 2:'
         subevents:
           - title: "<strong>Deep Learning for Effective Analysis of High Content Screening</strong>"
-            subtitle: by Adriana Borowa
+            subtitle: by Adriana Borowa (Ardigen)
             time: 10:35 - 11:00
             url: /program#contributed-talk-4
           - title: "<strong>Aggregated Attributions for Explanatory Analysis of 3D Segmentation Models</strong>"
-            subtitle: by Maciej Chrabaszcz
+            subtitle: by Maciej Chrabaszcz (NASK / Warsaw University of Technology)
             time: 11:05 - 11:30
             url: /program#contributed-talk-5
           - title: "<strong>Towards Medical Foundation Model - A Unified Dataset for Pretraining Medical Imaging Models</strong>"
-            subtitle: by Barbara Klaudel
+            subtitle: by Barbara Klaudel (TheLion.AI)
             time: 11:35 - 12:00
             url: /program#contributed-talk-6
         element-class: col-lg-4
@@ -231,7 +231,7 @@
         url: /program#sponsor-talk-1
 
       - title: "Sponsor Talk 2: <strong>Careers in Quant Finance</strong>"
-        subtitle: "by Charles Martinez & Scarlett Bailey (G Research)"
+        subtitle: "by Charles Martinez & Scarlett Bailey (G-Research)"
         element-class: col-lg-4
         time: 12:20 - 13:20
         room: Hall B
@@ -247,15 +247,15 @@
         time: 14:30 - 16:00
         subevents:
           - title: "<strong>RNAgrail: GRAph Neural Network and Diffusion Model for RNA 3D Structure Prediction</strong>"
-            subtitle: by Marek Justyna
+            subtitle: by Marek Justyna (Poznan University of Technology)
             time: 14:30 - 14:55
             url: /program#contributed-talk-7
           - title: "<strong>Fake it till you make it: Planning Chemical Syntheses for Drug Discovery</strong>"
-            subtitle: by Krzysztof Maziarz
+            subtitle: by Krzysztof Maziarz (Microsoft Research)
             time: 15:00 - 15:25
             url: /program#contributed-talk-8
           - title: "<strong>Uncertainty-Aware Self-Supervised Learning on Multi-Dimensional Time Series for Animal Behavior</strong>"
-            subtitle: by France Rose
+            subtitle: by France Rose (University of Cologne)
             time: 15:30 - 15:55
             url: /program#contributed-talk-9
         element-class: col-lg-4
@@ -265,15 +265,15 @@
         time: 14:30 - 16:00
         subevents:
           - title: "<strong>How LLMs are Revolutionizing the Cybersecurity Field</strong>"
-            subtitle: by Natasha Al-Khatib
+            subtitle: by Natasha Al-Khatib (Symbio)
             time: 14:30 - 14:55
             url: /program#contributed-talk-10
           - title: "<strong>Efficient Fine-Tuning of LLMs: Exploring PEFT Methods and LoRA-XS Insights</strong>"
-            subtitle: by Klaudia Bałazy
+            subtitle: by Klaudia Bałazy (NVIDIA / Jagiellonian University)
             time: 15:00 - 15:25
             url: /program#contributed-talk-11
           - title: "<strong>Open LLMs are Necessary for Private Adaptations and Outperform their Closed Alternatives</strong>"
-            subtitle: by Adam Dziedzic
+            subtitle: by Adam Dziedzic (CISPA Helmholtz Center for Information Security)
             time: 15:30 - 15:55
             url: /program#contributed-talk-12
         element-class: col-lg-4
@@ -283,15 +283,15 @@
         time: 14:30 - 16:00
         subevents:
           - title: "<strong>Personalisation of Large-Scale Diffusion Models</strong>"
-            subtitle: by Kamil Deja
+            subtitle: by Kamil Deja (Warsaw University of Technology / IDEAS NCBR)
             time: 14:30 - 14:55
             url: /program#contributed-talk-13
           - title: "<strong>Current Trends in Intrinsically Interpretable Deep Learning</strong>"
-            subtitle: by Dawid Rymarczyk
+            subtitle: by Dawid Rymarczyk (Jagiellonian University / Ardigen)
             time: 15:00 - 15:25
             url: /program#contributed-talk-14
           - title: "<strong>Neural Rendering: The Future of 3D Modeling</strong>"
-            subtitle: by Przemysław Spurek
+            subtitle: by Przemysław Spurek (Jagiellonian University)
             time: 15:30 - 15:55
             url: /program#contributed-talk-15
         element-class: col-lg-4
@@ -306,7 +306,7 @@
         url: /program#discussion-panel-4
 
       - title: "Invited Talk 6: <strong>Inductive Biases for Robot Reinforcement Learning</strong>"
-        subtitle: "by Jan Peters"
+        subtitle: "by Jan Peters (Technical University of Darmstadt)"
         element-class: col-lg-4
         time: 16:10 - 17:10
         room: Hall A
@@ -368,15 +368,15 @@
       - title: 'Contributed Talks Session 6:'
         subevents:
           - title: "<strong>Finding NeMo: Localizing Neurons Responsible For Memorization in Diffusion Models</strong>"
-            subtitle: by Franziska Boenisch
+            subtitle: by Franziska Boenisch (CISPA Helmholtz Center for Information Security)
             time: 12:00 - 12:25
             url: /program#contributed-talk-16
           - title: "<strong>CDI: Copyrighted Data Identification in Diffusion Models</strong>"
-            subtitle: by Jan Dubiński
+            subtitle: by Jan Dubiński (Warsaw University of Technology / IDEAS NCBR)
             time: 12:30 - 12:55
             url: /program#contributed-talk-17
           - title: "<strong>Global Counterfactual Directions</strong>"
-            subtitle: by Bartlomiej Sobieski
+            subtitle: by Bartlomiej Sobieski (MI2.ai / University of Warsaw)
             time: 13:00 - 13:25
             url: /program#contributed-talk-18
         element-class: col-lg-4
@@ -385,15 +385,15 @@
       - title: 'Contributed Talks Session 7:'
         subevents:
           - title: "<strong>Accelerating Goal-Conditioned RL Algorithms and Research</strong>"
-            subtitle: by Michał Bortkiewicz
+            subtitle: by Michał Bortkiewicz (Warsaw University of Technology)
             time: 12:00 - 12:25
             url: /program#contributed-talk-19
           - title: "<strong>Fine-tuning Reinforcement Learning Models is Secretly a Forgetting Mitigation Problem</strong>"
-            subtitle: by Bartłomiej Cupiał
+            subtitle: by Bartłomiej Cupiał (University of Warsaw / IDEAS NCBR)
             time: 12:30 - 12:55
             url: /program#contributed-talk-20
           - title: "<strong>AdaGlimpse: Active Visual Exploration with Arbitrary Glimpse Position and Scale</strong>"
-            subtitle: by Adam Pardyl
+            subtitle: by Adam Pardyl (IDEAS NCBR / Jagiellonian University)
             time: 13:00 - 13:25
             url: /program#contributed-talk-21
         element-class: col-lg-4
@@ -402,15 +402,15 @@
       - title: 'Contributed Talks Session 8:'
         subevents:
           - title: "<strong>Fixed points of nonnegative neural networks</strong>"
-            subtitle: by Tomasz Piotrowski
+            subtitle: by Tomasz Piotrowski (Nicolaus Copernicus University in Toruń)
             time: 12:00 - 12:25
             url: /program#contributed-talk-22
           - title: "<strong>Augmentation-aware Self-supervised Learning with Conditioned Projector</strong>"
-            subtitle: by Marcin Przewięźlikowski
+            subtitle: by Marcin Przewięźlikowski (GMUM, Jagiellonian University / IDEAS NCBR)
             time: 12:30 - 12:55
             url: /program#contributed-talk-23
           - title: "<strong>Meta-analysis of Bayesian Analyses</strong>"
-            subtitle: by Omar Rivasplata
+            subtitle: by Omar Rivasplata (University of Manchester)
             time: 13:00 - 13:25
             url: /program#contributed-talk-24
         element-class: col-lg-4
