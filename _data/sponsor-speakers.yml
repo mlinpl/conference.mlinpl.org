@@ -37,11 +37,11 @@
   bio: >-
     Tomasz Sapiński is a highly experienced IT professional with a strong background in software development and image processing using AI. He holds a degree from Lodz University of Technology and has spent over 15 years in the industry, gaining extensive experience in project management and IT system implementations around the world. Tomasz is also a skilled Data Scientist with a keen interest in the development of AI and neural networks, and their practical applications.
 
-- name: Przemysław Musialski
+- name: Przemysław Spurek
   title: IDEAS NCBR
-  image: images/optimized/speakers-600x600/PrzemyslawMusialski.webp
+  image: images/optimized/cfc-600x600/PrzemyslawSpurek.webp
   bio: >-
-    Przemysław Musialski is the leader of the research group Computer Graphics at IDEAS NCBR. He is also an associate professor of Computer Science at New Jersey Institute of Technology, USA. His research spans geometric modeling, geometry processing, computational fabrication, and machine learning, focusing on creating algorithmic solutions for digital content generation. Before joining IDEAS NCBR, he led the Computational Fabrication group at Vienna University of Technology’s Center for Geometry and Computational Design, and previously, he held academic and research positions at VRVis Vienna, TU Vienna, Arizona State University, and King Abdullah University of Science and Technology. He holds an MSc degree in Media Systems Science from Bauhaus University Weimar in Germany and a PhD in Computer Science from the Vienna University of Technology in Austria. He is a member of the ACM SIGGRAPH and the EUROGRAPHICS association.
+    Przemysław Spurek is the leader of the Neural Rendering research team at IDEAS NCBR and a researcher in the GMUM group operating at the Jagiellonian University in Krakow. In 2014, he defended his PhD in machine learning and information theory. In 2023, he obtained his habilitation degree and became a university professor. He has published articles at prestigious international conferences such as NeurIPS, ICML, IROS, AISTATS, ECML. He co-authored the book Głębokie uczenie. Wprowadzenie [Deep Learning. Introduction] – a compendium of knowledge about the basics of AI. He was the director of PRELUDIUM, SONATA, OPUS and SONATA BIS NCN grants. Currently, his research focuses mainly on neural rendering, in particular NeRF and Gaussian Splatting models.
 
 - name: Daniel Śliwiński
   title: LOT Polish Airlines
