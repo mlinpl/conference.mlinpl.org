@@ -33,9 +33,12 @@ The assigned symbols are printed on the back of the badges, so you can ask parti
 Don't worry if you can't find the pattern right away — after each day we will provide hints to guide you in solving the mapping function. But remember, the faster you solve the puzzle, the higher your chances of winning.
 
 - **#1** - The mapping function is based on the first letters of the first and last name.
+- **#2** - Pay attention to letters M, L, or P.
 
 ## / Submit results
 
 Submit your predictions for the test set names by filling out the form below:
 
 <a href="https://badge-game.paperform.co" class="btn btn-default btn-lg" target="_blank"><i class="fa-solid fa-list"></i> Submit results</a>
+
+The form will close at **4:00 pm on Friday**, November 9.
