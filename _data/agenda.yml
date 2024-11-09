@@ -431,8 +431,7 @@
         time: 15:00 - 15:30
         room: Hall A
         url: /program#sponsor-talk-3
-      - title: 'Sponsor talk 4: <strong> TBA
-</strong>'
+      - title: 'Sponsor talk 4: <strong>NeRF based generative models</strong>'
         subtitle: 'by Przemysław Spurek (IDEAS NCBR)'
         time: 
         element-class: col-lg-4

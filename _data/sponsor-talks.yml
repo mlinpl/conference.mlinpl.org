@@ -44,11 +44,12 @@
   author-bio: >-
     Long Cheng is an Engineering Leader at Google Cloud Vertex AI - a unified machine learning (ML) platform that aims to streamline the entire ML workflow, making it easier for data scientists and ML engineers to build, deploy, and scale AI models. Vertex AI offers a comprehensive suite of tools to manage every stage of the ML development lifecycle, from data preparation and model training to deployment, monitoring, and maintenance. As the site lead for Google Cloud Vertex AI in Poland, Long spearheads the development of MLOps infrastructure (Model training pipelines, Model Garden, Fine-tuning and etc.) and AI serving infrastructure for both online and batch predictions of Gemini and other pretrained AI models, leveraging GPU and TPU acceleration. Long brings a wealth of experience in product strategy and cross-functional leadership, effectively guiding engineering and product management teams to achieve evolving business goals. Prior to that, he gained over 12 years of experience in the U.S. as a lead engineer with top tech companies such as Google, Oracle and Microsoft.
 
-- title: TBA
-  # abstract: >-
-  #   TBA 
+- title: NeRF based generative models
+  abstract: >-
+    Recently, generative models for 3D objects have gained much popularity in virtual (VR) and augmented reality (AR) applications. Training such models using standard 3D representations, like voxels or point clouds, is challenging and requires complex tools for proper color rendering. In order to overcome this limitation, Neural Radiance Fields (NeRFs) offer a state-of-the-art quality in synthesizing novel views of complex 3D scenes from a small subset of 2D images.
+    In the presentation, I describe generative models which use hypernetworks paradigm to produce 3D objects represented by NeRF. The advantage of the models over existing approaches is that it produces a dedicated NeRF representation for the object without sharing some global parameters of the rendering component.
   date: Saturday / 9 November
-  time: 15:30 - 16:00
+  time: 15:00 - 15:30
   room: Hall B
   slider-order: 4
   author-name: Przemysław Spurek
