@@ -41,6 +41,7 @@ header:
   date-location: 7 - 10 November / Copernicus Science Centre, Warsaw, Poland
   # Countdown settings
   countdown-date: "2024-11-07T08:00:00"
+  countdown-overwrite: 'Thank you for participating!'
   arrow-url: "#tickets"
   # Meetup countdown settings
   meetup-countdown-date: "2024-06-20T17:45:00"
