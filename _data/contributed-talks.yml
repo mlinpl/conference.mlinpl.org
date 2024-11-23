@@ -12,6 +12,7 @@
   session: CfC Session 1
   id: 1
   author-image: images/optimized/cfc-600x600/klaudia_balcer.webp
+  slides: docs/cfc_talk_1.pdf
 
 - author-name: Tudor Coman
   title: "Leveraging Multi-Armed Bandit Algorithms for Dynamic Decision Making"
@@ -27,6 +28,7 @@
   session: CfC Session 1
   id: 2
   author-image: images/optimized/cfc-600x600/tudor_coman.webp
+  slides: docs/cfc_talk_2.pdf
 
 - author-name: Patryk Wielopolski
   title: "From Theory to Practice: A Practitioner's Journey with Knowledge Graphs"
@@ -42,6 +44,7 @@
   session: CfC Session 1
   id: 3
   author-image: images/optimized/cfc-600x600/patryk_wielopolski.webp
+  slides: docs/cfc_talk_3.pdf
 
 - author-name: Adriana Borowa
   title: "Deep Learning for effective analysis of High Content Screening"
@@ -57,6 +60,7 @@
   session: CfC Session 2
   id: 4
   author-image: images/optimized/cfc-600x600/adriana_borowa.webp
+  slides: docs/cfc_talk_4.pdf
 
 - author-name: Maciej Chrabaszcz
   title: "Aggregated Attributions for Explanatory Analysis of 3D Segmentation Models"
@@ -72,6 +76,7 @@
   session: CfC Session 2
   id: 5
   author-image: images/optimized/cfc-600x600/maciej_chrabaszcz.webp
+  slides: docs/cfc_talk_5.pdf
 
 - author-name: Barbara Klaudel
   title: "Towards Medical Foundation Model -- a Unified Dataset for Pretraining Medical Imaging Models"
@@ -87,6 +92,7 @@
   session: CfC Session 2
   id: 6
   author-image: images/optimized/cfc-600x600/barbara_klaudel.webp
+  slides: docs/cfc_talk_6.pdf
 
 - author-name: Marek Justyna
   title: "RNAgrail: GRAph neural network and diffusIon modeL for RNA 3D structure prediction"
@@ -102,6 +108,7 @@
   session: CfC Session 3
   id: 7
   author-image: images/optimized/cfc-600x600/marek_justyna.webp
+  slides: docs/cfc_talk_7.pdf
 
 - author-name: Krzysztof Maziarz
   title: "Fake it till you make it: planning chemical syntheses for drug discovery"
@@ -117,6 +124,7 @@
   session: CfC Session 3
   id: 8
   author-image: images/optimized/cfc-600x600/krzysztof_maziarz.webp
+  slides: docs/cfc_talk_8.pdf
 
 - author-name: France Rose
   title: "Uncertainty-aware self-supervised learning on multi-dimensional time series for animal behavior"
@@ -132,6 +140,7 @@
   session: CfC Session 3
   id: 9
   author-image: images/optimized/cfc-600x600/france_rose.webp
+  slides: docs/cfc_talk_9.pdf
 
 - author-name: Natasha <nobr>Al-Khatib</nobr>
   title: "How LLMs are Revolutionizing the cybersecurity field"
@@ -147,6 +156,7 @@
   session: CfC Session 4
   id: 10
   author-image: images/optimized/cfc-600x600/NatashaAlkhatib.webp
+  slides: docs/cfc_talk_10.pdf
 
 - author-name: Klaudia Bałazy
   title: "Efficient Fine-Tuning of LLMs: Exploring PEFT Methods and LoRA-XS Insights"
@@ -162,6 +172,7 @@
   session: CfC Session 4
   id: 11
   author-image: images/optimized/cfc-600x600/klaudia_balazy.webp
+  slides: docs/cfc_talk_11.pdf
 
 - author-name: Adam Dziedzic
   title: "Open LLMs are Necessary for Private Adaptations and Outperform their Closed Alternatives"
@@ -177,6 +188,7 @@
   session: CfC Session 4
   id: 12
   author-image: images/optimized/cfc-600x600/adam_dziedzic.webp
+  slides: docs/cfc_talk_12.pdf
 
 - author-name: Kamil Deja
   title: "Personalisation of large-scale diffusion models"
@@ -192,6 +204,7 @@
   session: CfC Session 5
   id: 13
   author-image: images/optimized/cfc-600x600/kamil_deja.webp
+  slides: docs/cfc_talk_13.pdf
 
 - author-name: Dawid Rymarczyk
   title: "Current trends in intrinsically interpretable deep learning"
@@ -207,6 +220,7 @@
   session: CfC Session 5
   id: 14
   author-image: images/optimized/cfc-600x600/dawid_rymarczyk.webp
+  slides: docs/cfc_talk_14.pdf
 
 - author-name: Przemysław Spurek
   title: "Neural rendering: the future of 3D modeling"
@@ -222,6 +236,7 @@
   session: CfC Session 5
   id: 15
   author-image: images/optimized/cfc-600x600/przemyslaw_spurek.webp
+  slides: docs/cfc_talk_15.pdf
 
 - author-name: Franziska Boenisch
   title: "Finding NeMo: Localizing Neurons Responsible For Memorization in Diffusion Models"
@@ -237,6 +252,7 @@
   session: CfC Session 6
   id: 16
   author-image: images/optimized/cfc-600x600/franziska_boenisch.webp
+  slides: docs/cfc_talk_16.pdf
 
 - author-name: Jan Dubiński
   title: "CDI: Copyrighted Data Identification in Diffusion Models"
@@ -252,6 +268,7 @@
   session: CfC Session 6
   id: 17
   author-image: images/optimized/cfc-600x600/jan_dubinski.webp
+  slides: docs/cfc_talk_17.pdf
 
 - author-name: Bartlomiej Sobieski
   title: "Global Counterfactual Directions"
@@ -267,6 +284,7 @@
   session: CfC Session 6
   id: 18
   author-image: images/optimized/cfc-600x600/bartlomiej_sobieski.webp
+  slides: docs/cfc_talk_18.pdf
 
 - author-name: Michał Bortkiewicz
   title: "Accelerating Goal-Conditioned RL Algorithms and Research"
@@ -282,6 +300,7 @@
   session: CfC Session 7
   id: 19
   author-image: images/optimized/cfc-600x600/michal_bortkiewicz.webp
+  slides: docs/cfc_talk_19.pdf
 
 - author-name: Bartłomiej Cupiał
   title: "Fine-tuning Reinforcement Learning Models is Secretly a Forgetting Mitigation Problem"
@@ -297,6 +316,7 @@
   session: CfC Session 7
   id: 20
   author-image: images/optimized/cfc-600x600/bartlomiej_cupial.webp
+  slides: docs/cfc_talk_20.pdf
 
 - author-name: Adam Pardyl
   title: "AdaGlimpse: Active Visual Exploration with Arbitrary Glimpse Position and Scale"
@@ -312,6 +332,7 @@
   session: CfC Session 7
   id: 21
   author-image: images/optimized/cfc-600x600/adam_pardyl.webp
+  slides: docs/cfc_talk_21.pdf
 
 - author-name: Tomasz Piotrowski
   title: "Fixed points of nonnegative neural networks"
@@ -327,6 +348,7 @@
   session: CfC Session 8
   id: 22
   author-image: images/optimized/cfc-600x600/tomasz_piotrowski.webp
+  slides: docs/cfc_talk_22.pdf
 
 - author-name: Marcin Przewięźlikowski
   title: "Augmentation-aware Self-supervised Learning with Conditioned Projector"
@@ -342,6 +364,7 @@
   session: CfC Session 8
   id: 23
   author-image: images/optimized/cfc-600x600/marcin_przewiezlikowski.webp
+  slides: docs/cfc_talk_23.pdf
 
 - author-name: Omar Rivasplata
   title: "Meta-analysis of Bayesian Analyses"
@@ -357,4 +380,4 @@
   session: CfC Session 8
   id: 24
   author-image: images/optimized/cfc-600x600/omar_rivasplata.webp
-
+  slides: docs/cfc_talk_24.pdf
