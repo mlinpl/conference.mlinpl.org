@@ -41,7 +41,7 @@ header:
   date-location: 7 - 10 November / Copernicus Science Centre, Warsaw, Poland
   # Countdown settings
   countdown-date: "2024-11-07T08:00:00"
-  countdown-overwrite: 'Thank you for participating!'
+  countdown-overwrite: 'Thank you for participating!</br>Find the <i class="fa-solid fa-camera-retro"></i> photos <a href="/photos">here</a>'
   arrow-url: "#tickets"
   # Meetup countdown settings
   meetup-countdown-date: "2024-06-20T17:45:00"
@@ -57,6 +57,8 @@ navigation:
     subsites:
       - name: "/ More information"
         url: "/about-ml-in-pl-conference"
+      - name: "/ Photos"
+        url: "/photos"
       - name: "/ Previous editions"
         subsites:
           - name: "/ 2023"
