@@ -1,0 +1,44 @@
+<!-- Photos -->
+{% comment %}
+Expects following parameters: photo-gallery-data
+{% endcomment %}
+<div class="row pswp-gallery" id="photo-gallery">
+    {% for photo-set in include.photo-gallery-data %}
+    {% if photo-set.name %}
+    <div class="col-xs-12">
+        <h2>{{ photo-set.name }}</h2>
+    </div>
+    {% endif %}
+    <div class="col-xs-12 d-flex text-center" style="margin-bottom: 70px;">
+        {% for photo in photo-set.photos %}
+        {% if photo.width and photo.height %}
+            {% assign photo-width = photo.width}
+            {% assign photo-height = photo.height}
+        {% else %}
+            {% assign photo-width = photo-set.default-width %}
+            {% assign photo-height = photo-set.default-height %}
+        {% endif %}
+        <div style="text-align: center; width: 248px; margin: 14px;">
+            <a href="{{ photo-set.src-dir | relative_url }}/{{ photo.filename }}" target="_blank"
+                data-pswp-src="{{ photo-set.src-dir | relative_url }}/{{ photo.filename }}"
+                data-pswp-width="{{ photo-width }}" 
+                data-pswp-height="{{ photo-height }}"
+            >
+                <img class="photo" src="{{ photo-set.thumbnails-dir | relative_url }}/{{ photo.filename }}" 
+                    style="height: auto; max-width: 240px; max-height: 240px;">
+            </a>
+        </div>
+        {% endfor %}
+    </div>
+    {% endfor %}
+</div>
+
+<script type="module">
+    import PhotoSwipeLightbox from '/libs/photoswipe/photoswipe-lightbox.esm.js';
+    const lightbox = new PhotoSwipeLightbox({
+      gallery: '#photo-gallery',
+      children: 'a',
+      pswpModule: () => import('/libs/photoswipe/photoswipe.esm.js')
+    });
+    lightbox.init();
+</script>
