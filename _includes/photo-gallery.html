@@ -11,9 +11,9 @@ Expects following parameters: photo-gallery-data
     {% endif %}
     <div class="col-xs-12 d-flex text-center" style="margin-bottom: 70px;">
         {% for photo in photo-set.photos %}
-        {% if photo.width and photo.height %}
-            {% assign photo-width = photo.width}
-            {% assign photo-height = photo.height}
+        {% if photo.width %}
+            {% assign photo-width = photo.width %}
+            {% assign photo-height = photo.height %}
         {% else %}
             {% assign photo-width = photo-set.default-width %}
             {% assign photo-height = photo-set.default-height %}
