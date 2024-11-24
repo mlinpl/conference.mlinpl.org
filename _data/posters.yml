@@ -12,6 +12,7 @@
   session: Poster Session 1
   id: 1
   author-image: images/optimized/cfc-600x600/maciej_szymkowski.webp
+  poster: docs/poster_1.pdf
 
 - author-name: Antoni Zajko
   title: "Are encoders able to learn landmarkers?"
@@ -27,6 +28,7 @@
   session: Poster Session 1
   id: 2
   author-image: images/empty.png
+  poster: docs/poster_2.pdf
 
 - author-name: Kacper Trębacz
   title: "Improving performance of distributed learning through density estimation."
@@ -42,6 +44,7 @@
   session: Poster Session 1
   id: 3
   author-image: images/optimized/cfc-600x600/kacper_trebacz.webp
+  poster: docs/poster_3.pdf
 
 - author-name: Łukasz Staniszewski
   title: "Unrevealing Hidden Relations Between Latent Space and Image Generations in Diffusion Models"
@@ -57,6 +60,7 @@
   session: Poster Session 1
   id: 4
   author-image: images/optimized/cfc-600x600/lukasz_staniszewski.webp
+  poster: docs/poster_4.pdf
 
 - author-name: Kinga Kwoka
   title: "Model fusion for multimodal prediction of plant species composition"
@@ -87,6 +91,7 @@
   session: Poster Session 1
   id: 6
   author-image: images/optimized/cfc-600x600/filip_reka.webp
+  poster: docs/poster_6.pdf
 
 - author-name: Bartłomiej Sadlej
   title: "Region-constrained Visual Counterfactual Explanations"
@@ -102,6 +107,7 @@
   session: Poster Session 1
   id: 7
   author-image: images/empty.png
+  poster: docs/poster_7.pdf
 
 - author-name: Dawid Płudowski
   title: "Adaptivee: Adaptive Ensemble for Tabular Data"
@@ -132,6 +138,7 @@
   session: Poster Session 1
   id: 9
   author-image: images/optimized/cfc-600x600/emilia_wisnios.webp
+  poster: docs/poster_9.pdf
 
 - author-name: Mateusz Panasiuk
   title: "Bayesian Ensemble Learning for Robust Time Series Forecasting in Financial Markets"
@@ -147,6 +154,7 @@
   session: Poster Session 1
   id: 10
   author-image: images/optimized/cfc-600x600/mateusz_panasiuk.webp
+  poster: docs/poster_10.pdf
 
 - author-name: Stanisław Pawlak
   title: "Addressing the Devastating Effects of Single-Task Data Poisoning in Exemplar-free Continual Learning"
@@ -162,6 +170,7 @@
   session: Poster Session 1
   id: 11
   author-image: images/optimized/cfc-600x600/stanislaw_pawlak.webp
+  poster: docs/poster_11.pdf
 
 - author-name: Oleksii Furman
   title: "Probabilistically Plausible Counterfactual Explanations with Normalizing Flows"
@@ -177,6 +186,7 @@
   session: Poster Session 1
   id: 12
   author-image: images/optimized/cfc-600x600/oleksii_furman.webp
+  poster: docs/poster_12.pdf
 
 - author-name: Paulina Tomaszewska
   title: "Position: Do Not Explain Vision Models Without Context"
@@ -192,6 +202,7 @@
   session: Poster Session 1
   id: 13
   author-image: images/optimized/cfc-600x600/paulina_tomaszewska.webp
+  poster: docs/poster_13.pdf
 
 - author-name: Joanna Kaleta
   title: "LumiGauss: High-Fidelity Outdoor Relighting with 2D Gaussian Splatting"
@@ -252,6 +263,7 @@
   session: Poster Session 1
   id: 17
   author-image: images/optimized/cfc-600x600/katarzyna_zaleska.webp
+  poster: docs/poster_17.pdf
 
 - author-name: Nichal Ashok Narotamo
   title: "Efficient Intent Detection Across Multiple Industries: A Unified Approach"
@@ -312,6 +324,7 @@
   session: Poster Session 1
   id: 21
   author-image: images/optimized/cfc-600x600/jedrzej_warczynski.webp
+  poster: docs/poster_21.pdf
 
 - author-name: Pisula Juan Ignacio
   title: "Addressing data heterogeneity in federated learning with Mixture-of-Experts models"
@@ -327,6 +340,7 @@
   session: Poster Session 1
   id: 22
   author-image: images/empty.png
+  poster: docs/poster_22.pdf
 
 - author-name: Jolanta Śliwa
   title: "Application of machine learning to support pen & paper RPG game design"
@@ -342,6 +356,7 @@
   session: Poster Session 1
   id: 23
   author-image: images/optimized/cfc-600x600/jolanta_sliwa.webp
+  poster: docs/poster_23.pdf
 
 - author-name: Bartłomiej Fliszkiewicz
   title: "Repurposing Pharmaceuticals for Organophosphorus Poisoning"
@@ -357,6 +372,7 @@
   session: Poster Session 1
   id: 24
   author-image: images/empty.png
+  poster: docs/poster_24.pdf
 
 - author-name: Jan Dubiński
   title: "Efficiently enhancing product design process with Stable Diffusion"
@@ -387,6 +403,7 @@
   session: Poster Session 1
   id: 26
   author-image: images/optimized/cfc-600x600/bartosz_cywinski.webp
+  poster: docs/poster_26.pdf
 
 - author-name: David Bertram
   title: "Boosting Neurodegenerative Disorder Screenings with Machine Learning"
@@ -417,6 +434,7 @@
   session: Poster Session 1
   id: 28
   author-image: images/optimized/cfc-600x600/lukasz_sztukiewicz.webp
+  poster: docs/poster_28.pdf
 
 - author-name: Bartosz Ptak
   title: "Making marine biologists' life easier with computer vision - porpoise detection and tracking in coastal waters"
@@ -432,6 +450,7 @@
   session: Poster Session 1
   id: 29
   author-image: images/optimized/cfc-600x600/bartosz_ptak.webp
+  poster: docs/poster_29.pdf
 
 - author-name: Małgorzata Kurcjusz-Gzowska
   title: "Application of the R-CNN Algorithm for Street Light Detection as a Light Pollution Estimation Tool"
@@ -462,6 +481,7 @@
   session: Poster Session 1
   id: 31
   author-image: images/empty.png
+  poster: docs/poster_31.pdf
 
 - author-name: Aleksander Obuchowski
   title: "Eskulap - The First Polish Open-source Medical Large Language Model"
@@ -492,6 +512,7 @@
   session: Poster Session 2
   id: 33
   author-image: images/empty.png
+  poster: docs/poster_33.pdf
 
 - author-name: Łukasz Niedźwiedzki
   title: "Improving Physics-Informed Neural Networks for Modeling Molecular Transport in the Human Brain"
@@ -522,6 +543,7 @@
   session: Poster Session 2
   id: 35
   author-image: images/empty.png
+  poster: docs/poster_35.pdf
 
 - author-name: Wojciech Kusa
   title: "Multimodal and Contextualised Machine Translation in the E-commerce Domain"
@@ -612,6 +634,7 @@
   session: Poster Session 2
   id: 41
   author-image: images/optimized/cfc-600x600/emilia_majerz.webp
+  poster: docs/poster_41.pdf
 
 - author-name: Moritz Staudinger
   title: "Beyond ChatGPT: A Reproducibility and Generalizability Study of Large Language Models for Query Generation"
@@ -627,6 +650,7 @@
   session: Poster Session 2
   id: 42
   author-image: images/optimized/cfc-600x600/moritz_staudinger.webp
+  poster: docs/poster_42.pdf
 
 - author-name: Jakub Steczkiewicz
   title: "ImplicitDeepfake: Plausible Face-Swapping through Implicit Deepfake Avatar Generation using NeRF and Gaussian Splatting"
@@ -642,6 +666,7 @@
   session: Poster Session 2
   id: 43
   author-image: images/empty.png
+  poster: docs/poster_43.pdf
 
 - author-name: Antoni Kowalczuk
   title: "Robust Self-Supervised Learning Across Diverse Downstream Tasks"
@@ -657,6 +682,7 @@
   session: Poster Session 2
   id: 44
   author-image: images/optimized/cfc-600x600/antoni_kowalczuk.webp
+  poster: docs/poster_44.pdf
 
 - author-name: Julia May
   title: "What do LLMs know about English language?"
@@ -672,6 +698,7 @@
   session: Poster Session 2
   id: 45
   author-image: images/optimized/cfc-600x600/julia_may.webp
+  poster: docs/poster_45.pdf
 
 - author-name: Filip Leonarski
   title: "Big Data for Structural Biology at the Swiss Light Source Synchrotron Facility"
@@ -717,6 +744,7 @@
   session: Poster Session 2
   id: 48
   author-image: images/optimized/cfc-600x600/hubert_rybka.webp
+  poster: docs/poster_48.pdf
 
 - author-name: Jakub Poziemski
   title: "Application of vision transformers to protein-ligand affinity prediction."
@@ -732,6 +760,7 @@
   session: Poster Session 2
   id: 49
   author-image: images/empty.png
+  poster: docs/poster_49.pdf
 
 - author-name: Paweł Skierś
   title: "Joint Diffusion models in Continual Learning"
@@ -762,6 +791,7 @@
   session: Poster Session 2
   id: 51
   author-image: images/empty.png
+  poster: docs/poster_51.pdf
 
 - author-name: Adam Kania
   title: "FreSh: Frequency Shifting for Accelerated Neural Representation Learning"
@@ -777,6 +807,7 @@
   session: Poster Session 2
   id: 52
   author-image: images/empty.png
+  poster: docs/poster_52.pdf
 
 - author-name: Emilia Kacprzak
   title: "Exploring the potential of prompting strategies in TOD creation: humans vs machines in the challenges of dialog generating, annotating and defining text style"
@@ -807,6 +838,7 @@
   session: Poster Session 2
   id: 54
   author-image: images/empty.png
+  poster: docs/poster_54.pdf
 
 - author-name: Florian Bürger
   title: "Advanced Multi-Object Tracking and Classification of Cancer Cells with Transient Fluorescent Signals"
@@ -823,6 +855,7 @@
   session: Poster Session 2
   id: 55
   author-image: images/empty.png
+  poster: docs/poster_55.pdf
 
 - author-name: Łukasz Staniszewski
   title: "Ready, aim, edit! 🎯 Precise Parameter Localization for Text Editing with Diffusion Models"
@@ -838,6 +871,7 @@
   session: Poster Session 2
   id: 56
   author-image: images/optimized/cfc-600x600/lukasz_staniszewski.webp
+  poster: docs/poster_56.pdf
 
 - author-name: Ignacy Stępka
   title: "Adaptive fill-in: how to mitigate the loss of an agent in decentralized federated learning"
@@ -853,6 +887,7 @@
   session: Poster Session 2
   id: 57
   author-image: images/optimized/cfc-600x600/ignacy_stepka.webp
+  poster: docs/poster_57.pdf
 
 - author-name: Mikołaj Zieliński
   title: "Smart sampling for object removal operations in Neural Radiance Fields"
@@ -868,6 +903,7 @@
   session: Poster Session 2
   id: 58
   author-image: images/optimized/cfc-600x600/mikolaj_zielinski.webp
+  poster: docs/poster_58.pdf
 
 - author-name: Piotr Stefański
   title: "Improved Scene Classification in Dynamic Combat Sports by Video Frame Segmentation"
@@ -883,6 +919,7 @@
   session: Poster Session 2
   id: 59
   author-image: images/optimized/cfc-600x600/piotr_stefanski.webp
+  poster: docs/poster_59.pdf
 
 - author-name: Gracjan Góral
   title: "Seeing Through Their Eyes: Evaluating Visual Perspective Taking in Vision Language Models"
@@ -943,4 +980,4 @@
   session: Poster Session 2
   id: 63
   author-image: images/optimized/cfc-600x600/mateusz_piechocki.webp
-
+  poster: docs/poster_63.pdf
