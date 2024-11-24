@@ -39,6 +39,6 @@ Don't worry if you can't find the pattern right away — after each day we will 
 
 Submit your predictions for the test set names by filling out the form below:
 
-<a href="https://badge-game.paperform.co" class="btn btn-default btn-lg" target="_blank"><i class="fa-solid fa-list"></i> Submit results</a>
+<a href="https://badge-game.paperform.co" class="btn btn-nonactive btn-default btn-lg" target="_blank"  disabled><i class="fa-solid fa-list"></i> Submit results</a>
 
-The form will close at **4:00 pm on Friday**, November 9.
+Submissions are closed.
