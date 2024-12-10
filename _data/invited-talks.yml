@@ -11,6 +11,7 @@
   author-bio: >-
     Iryna Gurevych is Professor of Ubiquitous Knowledge Processing in the Department of Computer Science at the Technical University of Darmstadt in Germany. She also is an adjunct professor at MBZUAI in Abu-Dhabi, UAE, and an affiliated professor at INSAIT in Sofia, Bulgaria. She is widely known for fundamental contributions to and innovative applications of natural language processing and machine learning. Professor Gurevych is a past president of the Association for Computational Linguistics (ACL), the leading professional society in the field of natural language processing. Her many accolades include being a Fellow of the ACL, an ELLIS Fellow, and the recipient of an ERC Advanced Grant.
   google-scholar: https://scholar.google.com/citations?user=t3A39e8AAAAJ&hl=en
+  slides: https://docs.google.com/presentation/d/e/2PACX-1vTr10Cas1Z08Lj9yIA7cqrqXuRr-FusG7xS8PRt0Eph8RGO6UDrVHAuGwjyT6ujuPQFLKua6FyMWmbn/pub?start=false&loop=false&delayms=3000
 
 - title: "Evolving programs with LLMs"
   abstract: >-
@@ -25,6 +26,7 @@
   author-bio: >-
     Bernardino is a researcher at Google DeepMind, where he has been a core team member of AlphaFold2 for protein folding, and AlphaTensor for matrix multiplication algorithms. More recently, he initiated FunSearch, a system which uses Large Language Models for program search and has discovered new mathematical knowledge. Long before that, in 2009, Bernardino started his AI journey by studying the MSc Computational Statistics and Machine Learning at UCL. In 2010 he started a PhD, also at UCL, supervised by Prof. Massimiliano Pontil and Prof. Nadia Berthouze, and in 2013 he also did an internship at Microsoft Research. After finishing his PhD in 2014, he joined the Torr Vision Group as a Postdoc at the University of Oxford, researching about semantic segmentation and zero-shot learning. He has several papers published in Nature, as well as in machine learning conferences like NeurIPS and ICML. His main motivation is to leverage the power of AI to bring light to important scientific problems.
   google scholar: https://scholar.google.com/citations?user=_LC9U6EAAAAJ
+  slides: https://docs.google.com/presentation/d/1bMF0t3T9BUCVX3cjVfMBnpmCs2DLE4A8TFzJyCVBpBY/edit?usp=sharing
 
 - title: "Explainable AI for LLMs"
   abstract: >-
@@ -39,6 +41,7 @@
   author-bio: >-
     Wojciech Samek is a Professor in the EECS Department at TU Berlin and is jointly heading the AI Department at Fraunhofer HHI. He is a Fellow at BIFOLD - Berlin Institute for the Foundation of Learning and Data, the ELLIS Unit Berlin, and the DFG Research Unit DeSBi. Furthermore, he is a Senior Editor for IEEE TNNLS, an Associate Editor for Pattern Recognition, and an elected member of the IEEE MLSP Technical Committee and Germany's Platform for AI. He also serves as a member of the scientific advisory board of IDEAS NCBR - Polish Centre of Innovation in the Field of Artificial Intelligence. Wojciech has co-authored more than 200 papers and was the leading editor of the Springer book "Explainable AI: Interpreting, Explaining and Visualizing Deep Learning" (2019), and co-editor of the open access Springer book “xxAI – Beyond explainable AI” (2022). He has served as Program Co-Chair for IEEE MLSP'23, and as Area Chair for NAACL'21 and NeurIPS'23, and is a recipient of multiple best paper awards, including the 2020 Pattern Recognition Best Paper Award and the 2022 Digital Signal Processing Best Paper Prize.
   google scholar: https://scholar.google.com/citations?user=7aQwO08AAAAJ
+  slides: docs/invited_talk_3.pdf
 
 - title: "Perceiving, Understanding, and Interacting through Touch"
   abstract: >-
@@ -53,6 +56,7 @@
   author-bio: >-
     Roberto Calandra is a Full (W3) Professor at the Technische Universität Dresden where he leads the Learning, Adaptive Systems and Robotics (LASR) lab. Previously, he founded at Meta AI (formerly Facebook AI Research) the Robotic Lab in Menlo Park. Prior to that, he was a Postdoctoral Scholar at the University of California, Berkeley (US) in the Berkeley Artificial Intelligence Research (BAIR) Lab. His education includes a Ph.D. from TU Darmstadt (Germany), a M.Sc. in Machine Learning and Data Mining from the Aalto university (Finland), and a B.Sc. in Computer Science from the Università degli Studi di Palermo (Italy). His scientific interests are broadly at the conjunction of Robotics and Machine Learning, with the goal of making robots more intelligent and useful in the real world. Among his contributions is the design and commercialization of DIGIT -- the first commercial high-resolution compact tactile sensor, which is currently the most widely used tactile sensor in robotics. Roberto served as Program Chair for AISTATS 2020, as Guest Editor for the JMLR Special Issue on Bayesian Optimization, and has previously co-organized over 16 international workshops (including at NeurIPS, ICML, ICLR, ICRA, IROS, RSS). In 2024, he received the IEEE Early Academic Career Award in Robotics and Automation.
   google scholar: https://scholar.google.ch/citations?user=fA0rYxMAAAAJ
+  slides: https://slides.com/rcalandra/2024-ml-in-pl
 
 - title: "molecule.one: Candid Stories and Hard Lessons from our Journey Building an AI for Science Startup"
   abstract: >-
@@ -69,6 +73,7 @@
     
     His PhD thesis was based on work on foundations of deep learning done during research visits at MILA (with Yoshua Bengio) and the University of Edinburgh (with Amos Storkey). He received his PhD from Jagiellonian University, advised by Jacek Tabor. Beyond academia, he gained industrial experience at Google, Microsoft and Palantir. In his scientific work, he has published at leading machine learning venues (NeurIPS, ICLR, ICML, JMLR, Nature SR). He is also actively contributing to the machine learning community as an Area Chair (most recently NeurIPS '23) and as an Action Editor for TMLR. At Molecule.one, he leads technical teams working on software for synthesis planning based on deep learning, public data sources, and experiments from a highly automated laboratory.
   google-scholar: https://scholar.google.com/citations?user=YQ5rrk4AAAAJ
+  slides: https://docs.google.com/presentation/d/e/2PACX-1vRd7QNMZ7rHZVjyxbd1ycYg5dZdaDTzgjZp6Jzf-2HauvmGlcarXOxn4lAnkMM9tt9NQwfxtHdte8Th/pub?start=false&loop=false&delayms=3000
 
 - title: Inductive Biases for Robot Reinforcement Learning
   abstract: >-
@@ -84,6 +89,7 @@
     Jan Peters is a full professor (W3) for Intelligent Autonomous Systems at the Computer Science Department of the Technische Universitaet Darmstadt.
     Jan Peters has received the Dick Volz Best 2007 US PhD Thesis Runner-Up Award, the Robotics: Science & Systems – Early Career Spotlight, the INNS Young Investigator Award, and the IEEE Robotics & Automation Society’s Early Career Award as well as numerous best paper awards. In 2015, he received an ERC Starting Grant and in 2019, he was appointed as an IEEE Fellow and in 2020 an ELLIS fellow.
   google-scholar: https://scholar.google.pl/citations?hl=en&user=-kIVAcAAAAAJ
+  slides: docs/invited_talk_6.pdf
 
 - title: "RLHF as conditioning on human preferences"
   abstract: >-
@@ -98,6 +104,7 @@
   author-bio: >-
     Tomek Korbak is a Senior Research Scientist at the UK AI Safety Institute working on safety cases for frontier models. Previously, he was a Member of Technical Staff at Anthropic working on honesty. Before that, he did a PhD at the University of Sussex focusing on RL from human feedback (RLHF) and spent time as a visiting researcher at NYU working with Ethan Perez, Sam Bowman and Kyunghyun Cho. He studied cognitive science, philosophy and physics at the University of Warsaw.
   google scholar: https://scholar.google.com/citations?user=YQ5rrk4AAAAJ
+  slides: https://docs.google.com/presentation/d/17NceQ84ZxpvFANA5N0-kQY8Ydv6itj4qy1Jl_xCP4qA/edit?usp=sharing
 
 - title: "Unveiling the Potential of AI-enabled In-silico Trials in Medical Innovation"
   abstract: >-
@@ -129,6 +136,7 @@
   author-bio: >-
     Tom is a Senior Researcher in Machine Learning and leader of the RainML Research Lab at the Department of Statistics in the University of Oxford. He is the principal investigator for the ERC Starting Grant Data-Driven Algorithms for Data Acquisition. His research covers a wide range of topics in and around machine learning and experimental design, with areas of particular interest including Bayesian experimental design, deep learning, representation learning, generative models, Monte Carlo methods, active learning, probabilistic programming, and approximate inference.
   google scholar: https://scholar.google.com/citations?user=ieLRNKMAAAAJ
+  slides: docs/invited_talk_9.pptx
 
 - title: "Computer Vision in the age of LLMs"
   abstract: >-
@@ -157,3 +165,4 @@
   author-bio: >-
     Yuki Asano is the head of the Fundamental AI (FunAI) Lab and full Professor at the University of Technology Nuremberg. Prior to this, Yuki lead the QUVA lab at the University of Amsterdam, where he closely collaborated with Qualcomm AI Research. His PhD was at the Visual Geometry Group (VGG) at the University of Oxford, where he worked with Andrea Vedaldi and Christian Rupprecht. Also, he loves running, the mountains, and their combination.
   google scholar: https://scholar.google.com/citations?user=CdpLhlgAAAAJ
+  slides: docs/invited_talk_11.pdf
