@@ -73,7 +73,6 @@
     
     His PhD thesis was based on work on foundations of deep learning done during research visits at MILA (with Yoshua Bengio) and the University of Edinburgh (with Amos Storkey). He received his PhD from Jagiellonian University, advised by Jacek Tabor. Beyond academia, he gained industrial experience at Google, Microsoft and Palantir. In his scientific work, he has published at leading machine learning venues (NeurIPS, ICLR, ICML, JMLR, Nature SR). He is also actively contributing to the machine learning community as an Area Chair (most recently NeurIPS '23) and as an Action Editor for TMLR. At Molecule.one, he leads technical teams working on software for synthesis planning based on deep learning, public data sources, and experiments from a highly automated laboratory.
   google-scholar: https://scholar.google.com/citations?user=YQ5rrk4AAAAJ
-  slides: https://docs.google.com/presentation/d/e/2PACX-1vRd7QNMZ7rHZVjyxbd1ycYg5dZdaDTzgjZp6Jzf-2HauvmGlcarXOxn4lAnkMM9tt9NQwfxtHdte8Th/pub?start=false&loop=false&delayms=3000
 
 - title: Inductive Biases for Robot Reinforcement Learning
   abstract: >-
