@@ -20,12 +20,12 @@
 
 
 # Head settings
-title: ML in PL Conference 2024
+title: ML in PL Conference 2025
 email: contact@conference.mlinpl.org
-event-date: "2024-11-07T00:00:00"
+event-date: "2025-10-15T00:00:00"
 description: >-
-  ML in PL Conference 2024 is an event focused on the best of Machine Learning both in academia and in business.
-main-image: images/mlinpl-conference-2024-logo-black.png
+  ML in PL Conference 2025 is an event focused on the best of Machine Learning both in academia and in business.
+main-image: images/mlinpl-conference-2025-logo-black.png
 twitter-username: "@MLinPL"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://conference.mlinpl.org" # the base hostname & protocol for your site, e.g. http://example.com
@@ -35,22 +35,27 @@ author:
 
 
 # Header settings
-inline-logo: '<span class="logo"><span class="main-name">ML <span class="emph">i</span>n PL</span> <span class="sub-name">Conference 2024</span></span>'
+inline-logo: '<span class="logo"><span class="main-name">ML <span class="emph">i</span>n PL</span> <span class="sub-name">Conference 2025</span></span>'
+mlinpl-inline-logo: <span class="logo"><span class="main-name">ML&nbsp;<span class="emph">i</span>n&nbsp;PL</span></span>
 header:
-  heading: '<img src="images/mlinpl-conference-2024-logo-black.png" alt="ML in PL Conference 2024" style="max-height: 1.5em; max-width: 90%;">'
-  date-location: 7 - 10 November / Copernicus Science Centre, Warsaw, Poland
+  heading: '<img src="images/mlinpl-conference-2025-logo-black.png" alt="ML in PL Conference 2025" style="max-height: 1.5em; max-width: 90%;">'
+  date-location: 15 - 18 October / Copernicus Science Centre, Warsaw, Poland
+
   # Countdown settings
-  countdown-date: "2024-11-07T08:00:00"
-  countdown-overwrite: 'Thank you for participating!</br>Find the <i class="fa-solid fa-camera-retro"></i> photos <a href="/photos">here</a>'
-  arrow-url: "#tickets"
+  countdown-date: "2025-10-15T08:00:00"
+  # countdown-overwrite: 'Thank you for participating!</br>Find the <i class="fa-solid fa-camera-retro"></i> photos <a href="/photos">here</a>'
+
+  arrow-url: "#about"
+  # arrow-url: "#tickets" <- When tickets section added, change to this
+
   # Meetup countdown settings
   meetup-countdown-date: "2024-06-20T17:45:00"
 
 
 # Navigation settings
 navigation:
-  - name: "/ Tickets"
-    url: "#tickets"
+  # - name: "/ Tickets"
+  #   url: "#tickets"
 
   - name: "/ About"
     url: "#about"
@@ -61,6 +66,8 @@ navigation:
         url: "/photos"
       - name: "/ Previous editions"
         subsites:
+          - name: "/ 2024"
+            url: "https://conference2024.mlinpl.org"
           - name: "/ 2023"
             url: "https://conference2023.mlinpl.org"
           - name: "/ 2022"
@@ -76,42 +83,41 @@ navigation:
           - name: "/ 2017"
             url: "https://conference2017.mlinpl.org"
 
-  - name: "/ Program"
-    url: "#program"
-    subsites:
-      - name: "/ Agenda"
-        url: "#agenda"
-      - name: "/ Invited speakers"
-        url: "#invited-speakers"
-      - name: "/ AI Audio Challenge"
-        url: "/ai-audio-challenge"
-      - name: "/ Discussion Panels"
-        url: "#panels"
-      # - name: "/ Agenda"
-      #   url: "#agenda"
-      - name: "/ Full program"
-        url: "/program"
-      - name: "/ Conference game"
-        url: "/badge-game"
-      - name: "/ Call for Contributions"
-        url: "/call-for-contributions"
-      - name: "/ Call for Tutorials"
-        url: "/call-for-tutorials"
-      - name: "/ Venue"
-        url: "#venue"
-      - name: "/ Conference booklet"
-        url: "/docs/mlinpl_2024_booklet.pdf"
-      - name: "/ Pre-conference meetups"
-        url: "/meetups"
-      - name: '<span class="main-name">ML <span style="color: #4BCAFD !important;">i</span>n PL</span> <span class="sub-name">AI ART FESTIVAL</span>'
-        url: https://aiart.mlinpl.org/
-        target: "_blank"
-  
-  - name: "/ Timeline"
-    url: "#timeline"
+  - name: "/ Call for Sponsors"
+    url: "#call-for-sponsors"
 
-  - name: "/ Sponsors & partners"
-    url: "#sponsors"
+  # - name: "/ Program"
+  #   url: "#program"
+  #   subsites:
+  #     # - name: "/ Agenda"
+  #     #   url: "#agenda"
+  #     # - name: "/ Invited speakers"
+  #     #   url: "#invited-speakers"
+  #     # - name: "/ Discussion panels"
+  #     #   url: "#panels"
+  #     # - name: "/ Full program"
+  #     #   url: "/program"
+  #     # - name: "/ Conference game"
+  #     #   url: "/badge-game"
+  #     # - name: "/ Call for Contributions"
+  #     #   url: "/call-for-contributions"
+  #     # - name: "/ Call for Tutorials"
+  #     #   url: "/call-for-tutorials"
+      # - name: "/ Venue"
+      #   url: "#venue"
+  #     # - name: "/ Conference booklet"
+  #     #   url: "/docs/mlinpl_2024_booklet.pdf"
+  #     - name: "/ Pre-conference meetups"
+  #       url: "/meetups"
+  #     # - name: '<span class="main-name">ML <span style="color: #4BCAFD !important;">i</span>n PL</span> <span class="sub-name">AI ART FESTIVAL</span>'
+  #     #   url: https://aiart.mlinpl.org/
+  #     #   target: "_blank"
+  
+  # - name: "/ Timeline"
+  #   url: "#timeline"
+
+  # - name: "/ Sponsors & partners"
+  #   url: "#sponsors"
 
   - name: "/ Organizers"
     url: "#organizers"
@@ -130,7 +136,7 @@ defaults:
   - scope:
       path: ""
     values:
-      image: /images/mlinpl-conference-2024-event-banner.jpg
+      image: /images/mlinpl-conference-2025-event-banner.png
 
 
 # Colors and styles settings
