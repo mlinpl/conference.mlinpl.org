@@ -5,22 +5,40 @@
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
     {% include nav.html %}
     {% include header.html %}
+
+    {% comment %}
     {% include conference/tickets.html %}
+    {% endcomment %}
+
     {% include conference/about.html %}
+
+    {% comment %}
     {% include conference/invited-speakers-slider.html %}
-    {% include conference/ai-audio-challenge.html %}
     {% include conference/panels-slider.html %}
     {% include conference/sponsor-speakers-slider.html %}
     {% include conference/badge-game.html %}
     {% include agenda-slider.html agenda-data=site.data.agenda %}
-    {% include conference/calls.html %}
-    {% include conference/venue.html %}
-    {% include conference/aiart.html %}
-    {% include conference/timeline-with-calendars.html %}
-    {% comment %}
-    {% include conference/sponsors-call.html %}
     {% endcomment %}
+
+    {% comment %}
+    {% include conference/calls.html %}
+    {% endcomment %}
+
+    {% include conference/venue.html %}
+
+    {% comment %}
+    {% include conference/timeline-with-calendars.html %}
+    {% endcomment %}
+
+    {% comment %}
+    {% include conference/aiart.html %}
+    {% endcomment %}
+
+    {% include conference/sponsors-call.html %}
+    {% comment %}
     {% include conference/sponsors.html %}
+    {% endcomment %}
+
     {% include conference/organizers.html %}
     {% include conference/advisory-board.html %}
     {% include contact.html %}
