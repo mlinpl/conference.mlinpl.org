@@ -1,7 +1,7 @@
-- style: linkedin
-  link: https://www.linkedin.com/events/7152751987237826560/about/
-  icon: <i class="fa-brands fa-linkedin" style="font-size:20px"></i>
+# - style: linkedin
+#   link: https://www.linkedin.com/events/7152751987237826560/about/
+#   icon: <i class="fa-brands fa-linkedin" style="font-size:20px"></i>
 
-- style: facebook
-  link: https://www.facebook.com/events/404359928694015
-  icon: <i class="fa-brands fa-facebook" style="font-size:20px"></i>
+# - style: facebook
+#   link: https://www.facebook.com/events/404359928694015
+#   icon: <i class="fa-brands fa-facebook" style="font-size:20px"></i>

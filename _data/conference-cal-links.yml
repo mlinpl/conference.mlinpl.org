@@ -1,15 +1,15 @@
 - style: google
-  link: https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20241107%2F20241111&details=&location=Warsaw%2C%20Poland&text=ML%20in%20PL%20Conference%202024
+  link: https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20251015%2F20251018&details=&location=Warsaw%2C%20Poland&text=ML%20in%20PL%20Conference%202025
   icon: <i class="fa-brands fa-google" style="font-size:18px"></i>
 
 - style: outlook
-  link: https://outlook.live.com/calendar/0/deeplink/compose?allday=true&body=&enddt=2024-11-11T01%3A00%3A00%2B00%3A00&location=Warsaw%2C%20Poland&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2023-10-26T00%3A00%3A00%2B00%3A00&subject=ML%20in%20PL%20Conference%202024
+  link: https://outlook.live.com/calendar/0/deeplink/compose?allday=true&body=&enddt=2025-10-18T23%3A59%3A00%2B00%3A00&location=Warsaw%2C%20Poland&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2025-10-15T00%3A00%3A00%2B00%3A00&subject=ML%20in%20PL%20Conference%202025
   icon: <i class="fa-solid fa-envelope" style="font-size:18px"></i>
 
 - style: office
-  link: https://outlook.office.com/calendar/0/deeplink/compose?allday=true&body=&enddt=2024-11-11T01%3A00%3A00%2B00%3A00&location=Warsaw%2C%20Poland&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2023-10-26T00%3A00%3A00%2B00%3A00&subject=ML%20in%20PL%20Conference%202024
+  link: https://outlook.office.com/calendar/0/deeplink/compose?allday=true&body=&enddt=2025-10-18T23%3A59%3A00%2B00%3A00&location=Warsaw%2C%20Poland&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2025-10-15T00%3A00%3A00%2B00%3A00&subject=ML%20in%20PL%20Conference%202025
   icon: <i class="fa-brands fa-microsoft" style="font-size:18px"></i>
 
 - style: yahoo
-  link: https://calendar.yahoo.com/?desc=&dur=allday&et=20241111&in_loc=Warsaw%2C%20Poland&st=20241107&title=ML%20in%20PL%20Conference%202024&v=60
+  link: https://calendar.yahoo.com/?desc=&dur=allday&et=20251018&in_loc=Warsaw%2C%20Poland&st=20251015&title=ML%20in%20PL%20Conference%202025&v=60
   icon: <i class="fa-brands fa-yahoo" style="font-size:20px"></i>
