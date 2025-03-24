@@ -1,26 +1,20 @@
 - date: 1 May
-  description: Call for Contributions (Talks, Posters, and Tutorials) submissions open
+  description: Call for Contributions (Talks, Posters, and Tutorials) and Early Bird applications open
 
-- date: 1 August
-  description: Start of Early Bird (selective) registration
+- date: 31 July, 23:59 (AoE)
+  description: Deadline for Call for Contributions and Early Bird applications
 
-- date: 31 August, 23:59 (AoE)
-  description: Call for Tutorials submissions deadline
+- date: 15 August
+  description: Results of Call for Contributions and Early Bird applications </br>/ Early Bird ticket sales open
 
-- date: 31 August, 23:59 (AoE)
-  description: Call for Talks and Posters submissions deadline </br>/ End of Early Bird registration period
+- date: 25 August
+  description: Regular tickets sales open
+  
+- date: 31 August
+  description: Early Bird ticket sales close
 
-- date: 7 September
-  description: Early bird tickets acceptance notifications
-
-- date: 9 September, 18:00 CEST (GMT+2)
-  description: Regular tickets sales start
-
-- date: 18 September
-  description: Talks and posters acceptance notifications
-
-- date: 24 October, 18:00 CEST (GMT+2)
-  description: Late tickets sales start
+- date: 1 October
+  description: Late tickets sales open
 
 - date: 15 - 18 October
-  description: {<span class="logo"><span class="main-name">ML <span class="emph">i</span>n PL</span> <span class="sub-name">Conference 2025</span></span>}
+  description: <span class="logo"><span class="main-name">ML <span class="emph">i</span>n PL</span> <span class="sub-name">Conference 2025</span></span>
