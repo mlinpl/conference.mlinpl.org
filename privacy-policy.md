@@ -17,7 +17,7 @@ As mentioned above, according to the GDPR, we inform you that:
 
 1. **SECTION I – THE CONTROLLER**
    1. The data controller of your data is **_ML in PL Association_**_, with its registered seat in Warsaw, Plac Bankowy 2 Street, KRS number: 0000754960, REGON: 381658081, NIP: 1182183164._
-   2. In matters related to the processing of personal data, please contact The Controller via e-mail address <contact\@conference.mlinpl.org>.
+   2. In matters related to the processing of personal data, please contact The Controller via e-mail address <contact@conference.mlinpl.org>.
 2. **SECTION II – DATA PROCESSING. PURPOSES AND LEGAL BASIS FOR DATA PROCESSING**
    1. In connection with purposes for data processing, the Controller collects and processes personal data, making every effort to ensure that the processed personal data is adequately secured.
    2. The processing of personal data is based on the applicable law, in particular, the GDPR.
