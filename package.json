@@ -1,0 +1,7 @@
+{
+  "name": "conference.mlinpl.org",
+  "scripts": {
+    "build": "docker build -t conference.mlinpl.org .",
+    "run": "docker run -p 4000:4000 conference.mlinpl.org"
+  }
+}
