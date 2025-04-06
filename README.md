@@ -19,6 +19,7 @@ Run the following command:
 Windows / Linux / Mac:
 ```
 docker run -p 4000:4000 conference.mlinpl.org
+```
 
 ### Accesing the site
 Access the site at [http://localhost:4000](http://0.0.0.0:4000/www-dev/)
