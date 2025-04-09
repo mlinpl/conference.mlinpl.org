@@ -21,5 +21,7 @@ Windows / Linux / Mac:
 docker run -p 4000:4000 conference.mlinpl.org
 ```
 
+You can also run these commands from NPM SCRIPTS panel if you are using VS Code
+
 ### Accesing the site
 Access the site at [http://localhost:4000](http://0.0.0.0:4000/www-dev/)
