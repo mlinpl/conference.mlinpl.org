@@ -86,9 +86,9 @@ navigation:
   - name: "/ Call for Sponsors"
     url: "#call-for-sponsors"
 
-  # - name: "/ Program"
-  #   url: "#program"
-  #   subsites:
+  - name: "/ Program"
+    url: "#program"
+    subsites:
   #     # - name: "/ Agenda"
   #     #   url: "#agenda"
   #     # - name: "/ Invited speakers"
@@ -99,10 +99,10 @@ navigation:
   #     #   url: "/program"
   #     # - name: "/ Conference game"
   #     #   url: "/badge-game"
-  #     # - name: "/ Call for Contributions"
-  #     #   url: "/call-for-contributions"
-  #     # - name: "/ Call for Tutorials"
-  #     #   url: "/call-for-tutorials"
+      - name: "/ Call for Contributions"
+        url: "/call-for-contributions"
+      - name: "/ Call for Tutorials"
+        url: "/call-for-tutorials"
       # - name: "/ Venue"
       #   url: "#venue"
   #     # - name: "/ Conference booklet"
