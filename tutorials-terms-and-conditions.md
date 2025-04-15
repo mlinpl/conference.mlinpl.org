@@ -36,7 +36,9 @@ Rules of contributed tutorials acceptance to the **ML in PL** CONFERENCE 2025 (h
 ## § 4. THE RULES AND THE COURSE OF THE COMPETITION
 
 1. The Competition will start on 1 May 2025 and end on 31 July 2025 (hereinafter, the “Duration of the Competition”).
-2. The registration for the Competition takes place via the registration form in the Call for Tutorials section available at [**https://conference.mlinpl.org/tutorials/**](https://conference2025.mlinpl.org/tutorials/) (hereinafter, the “Website”).
+2. The registration for the Competition takes place via the registration form in the [Call for Tutorials]({{ "./call-for-tutorials" | relative_url }}).
+
+(hereinafter, the “Website”).
 3. In order to participate in the Competition, the Participant is obliged to submit the registration form on the Website through which the Participant provides:
     1. his/her personal data,
     2. information about  affiliation with a research institution or lack thereof
@@ -65,7 +67,7 @@ Rules of contributed tutorials acceptance to the **ML in PL** CONFERENCE 2025 (h
 
 ## § 6. PROCESSING OF PERSONAL DATA
 
-1. The details concerning the processing of the Participant’s personal data are described in the [Privacy Policy](https://conference2024.mlinpl.org/privacy-policy).
+1. The details concerning the processing of the Participant’s personal data are described in the [Privacy Policy]({{ "./privacy-policy" | relative_url }}).
 
 
 ## § 7. COMPLAINTS

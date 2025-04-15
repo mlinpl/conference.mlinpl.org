@@ -5,7 +5,7 @@ html-title: Call for Contributions</br>(Talks and Posters)
 permalink: /call-for-contributions
 ---
 
-We are excited to invite you to submit proposals for **contributed talks and posters** for **{{ site.inline-logo }}** and **Student Research Workshop**. The talks and posters will be held at the Main Conference on 16 - 17 October 2025. Student Research Workshop will take place on 15 October 2025, at the start of the conference. We invite you to send your submissions to Call for Contributions (CfC) from 1 May to 31 July 2025.
+We are excited to invite you to submit proposals for **contributed talks and posters** for **{{ site.inline-logo }}** and **Student Research Workshop**. The talks and posters will be held at the Main Conference on 15 - 17 October 2025. Student Research Workshop will take place on 15 October 2025, at the start of the conference. We invite you to send your submissions to Call for Contributions (CfC) from 1 May to 31 July 2025.
 
 <ul class="list-inline banner-social-buttons">
     <li>
@@ -60,17 +60,17 @@ The co-authors of accepted papers will have a guaranteed option to buy the ticke
     desc-col-width=9
 %}
 
-**The talks and posters accepted at the Main Conference will be presented on 16 - 17 October 2025. The Student Research Workshop will be held on 15 October 2025.**
+**The talks and posters accepted at the Main Conference will be presented on 15 - 17 October 2025. The Student Research Workshop will be held on 15 October 2025.**
 
 ## / Awards
 
-The best contributed talks and posters from the Main Conference will be awarded with gift cards. The winners will be decided by the audience votes.
+The best contributed talks and posters from the Main Conference will be awarded. The winners will be decided by the audience votes.
 
 <!-- ## / Submit your talk/poster proposal
 
 <ul class="list-inline banner-social-buttons">
     <li>
-        <a href="https://mlinpl2024cfc.paperform.co/" class="btn btn-default btn-lg"><i class="fa-solid fa-list"></i> Submit your talk/poster proposal</a>
+        <a href="https://mlinpl2025cfc.paperform.co/" class="btn btn-default btn-lg"><i class="fa-solid fa-list"></i> Submit your talk/poster proposal</a>
     </li>
     <li>
         <a href="{{ "./cfc-terms-and-conditions" | relative_url }}" class="btn btn-default"><i class="fa-solid fa-file-lines"></i> Terms and conditions of CfC</a>

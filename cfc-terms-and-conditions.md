@@ -30,7 +30,7 @@ Rules of contributed talks, posters, student research workshop acceptance to {{ 
 
 1. Only natural persons, who have full capacity for legal acts on the territory of Poland can participate in the Competition.
 2. In order to participate in the Competition, it is necessary to agree to the provisions of the Terms of Participation and to get acquainted with the processing of personal data referred to in the Privacy Policy.
-3. Participation in the Competition and related data sharing is completely voluntary. The person who joined the Competition in order to present a talk or poster (hereinafter, the "Participant") is bound by the [Terms of Participation](https://conference.mlinpl.org/terms-of-participation).
+3. Participation in the Competition and related data sharing is completely voluntary. The person who joined the Competition in order to present a talk or poster (hereinafter, the "Participant") is bound by the [Terms of Participation]({{ "./terms-of-participation" | relative_url }}).
 
 
 ## § 4. The rules and the course of the Competition
@@ -92,7 +92,7 @@ Rules of contributed talks, posters, student research workshop acceptance to {{ 
 
 ## § 8. Processing of personal data
 
-1. The details concerning the processing of the Participant’s personal data are described in the [Privacy Policy](https://conference.mlinpl.org/privacy-policy).
+1. The details concerning the processing of the Participant’s personal data are described in the [Privacy Policy]({{ "./privacy-policy" | relative_url }}).
 
 
 ## § 9. Complaints
