@@ -5,7 +5,7 @@ html-title: Call for Contributions</br>(Talks and Posters)
 permalink: /call-for-contributions
 ---
 
-We are excited to invite you to submit proposals for **contributed talks and posters** for **{{ site.inline-logo }}** and **Student Research Workshop**. The talks and posters will be held at the Main Conference on 16 - 17 October 2025. Student Research Workshop will take place on 15 October 2024, at the start of the conference. We invite you to send your submissions to Call for Contributions (CfC) from 1 May to 31 July 2025.
+We are excited to invite you to submit proposals for **contributed talks and posters** for **{{ site.inline-logo }}** and **Student Research Workshop**. The talks and posters will be held at the Main Conference on 16 - 17 October 2025. Student Research Workshop will take place on 15 October 2025, at the start of the conference. We invite you to send your submissions to Call for Contributions (CfC) from 1 May to 31 July 2025.
 
 <ul class="list-inline banner-social-buttons">
     <li>

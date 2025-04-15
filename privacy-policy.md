@@ -6,9 +6,10 @@ permalink: /privacy-policy
 
 ## § 1. GENERAL PROVISIONS
 
-1. This Privacy Policy sets forth the rules for the processing and protection of personal data of <https://conference.mlinpl.org> Website Users as relates to data provided by Users for Registration, participation in the Conferences, and payment by Participants.
+1. This Privacy Policy sets forth the rules for the processing and protection of personal data of https://conference.mlinpl.org Website Users as relates to data provided by Users for Registration, participation in the Conferences, and payment by Participants.
 2. Controller shall process the personal data in accordance with regulations of REGULATION (EU) 2016/679 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation) (further as: “**GDPR**”) and other applicable laws.
 3. Controller declares to apply technical and organizational means ensuring the protection of processed personal data which are adequate in relation to threats and categories of personal data encompassed by said protection, in particular by securing data from access and theft by unauthorised persons, from processing in a manner inconsistent with the provisions of law, and from alteration, loss, damage and destruction.
+
 
 
 ## § 2. INFORMATION ON DATA PROCESSING
@@ -22,6 +23,7 @@ As mentioned above, according to the GDPR, we inform you that:
    1. In connection with purposes for data processing, the Controller collects and processes personal data, making every effort to ensure that the processed personal data is adequately secured.
    2. The processing of personal data is based on the applicable law, in particular, the GDPR.
    3. The legal basis for the personal data processing is defined in Article 6 of the GDPR which governs general rules on the compliance of the personal data processing. In any case, the Controller shall process the data relevant to a given case and for the purpose for which it was collected, ensuring its appropriate protection.
+
    
    <div class="letters-ol" markdown="1"> 
    Therefore, we declare that your personal data will be processed:
@@ -35,12 +37,16 @@ As mentioned above, according to the GDPR, we inform you that:
          3. **job recruitment,** in cooperation with our partners and sponsors who can reach out to you to present their current job offers, if you grant your consent for passing on your personal data contained in e.g. your Curriculum Vitae;
             - the legal basis for the processing of your personal data in this case is your consent to the processing of personal data (art. 6 point 1 a) of GDPR). The consent is voluntary, but necessary in order to take part in the recruitment process;
    2. as to the **participation in the Conference**:
-      1. for the purpose of performance of the contract to which you are the party and which is concluded by accepting the Terms of Participation and submitting the Registration Form, in particular for the purpose of enabling participation in the Conference, processing the payment and for identification of the Data Subject during the above mentioned events;
-      2. the scope of data collected about you in this case is e.g. your name, data necessary to process the payment, image - the legal basis for the processing of data in this case is the performance of a contract to which the Data Subject is a party (art. 6 point 1 b) of GDPR), as well as legitimate interest of MLinPL related to organising the Conference;
+      1. for the purpose of performance of the contract to which  you are the party and which is concluded by accepting the Terms of Participation and submitting the Registration Form, in particular for the purpose of enabling participation in the Conference, processing the payment and for identification of the Data Subject during the above mentioned events;
+      2. for the purpose of measurement and statistics which we create both for internal purposes and communicate these to the broader public in the anonymized manner (e.g. to say how many students participated in the Conference, what was the gender of the participants) - the legal basis for the processing of your personal data in this case is our legitimate interest in organisation and improvement of the Conference (art. 6 point 1 f) of GDPR);
+      3. job recruitment, in cooperation with our partners and sponsors who can reach out to you to present their current job offers, if you grant your consent for passing on your personal data contained in e.g. your Curriculum Vitae - the legal basis for the processing of your personal data in this case is your consent to the processing of personal data (art. 6 point 1 a) of GDPR). The consent is voluntary, but necessary in order to take part in the recruitment process;
+      4. the scope of data collected about you in this case is e.g. your name, data necessary to process the payment, image - the legal basis for the processing of data in this case is the performance of a contract to which the Data Subject is a party (art. 6 point 1 b) of GDPR), as well as legitimate interest of MLinPL related to organising the Conference;
+
    3. as to the **participation in the Conference as a contributor (CFC, Tutorial, Sponsor’s Lecture etc.)**:
       1. for the purpose of selecting the contributors who will qualify to participate in the conference to present their posters, talks and lecturers;
       2. the scope of data collected about you in this case is e.g. your name, title, image and other information related to the your contribution;
       3. the legal basis for the processing of data in this case is the performance of a contract - in the scope relating to your participation (art. 6 point 1 b) of GDPR) and our legitimate interest in organisation and improvement of the Conference, as well as legitimate interest related to organising and informing about the Conference (art. 6 point 1 f) of GDPR);
+
    4. as to the reception of the email messages as the **newsletter subscribers:**
       1. for the purpose of sending offers and latest news on machine learning in Poland and abroad to Data Subjects by the Controller;
       2. the legal basis for the processing of your personal data in this case is your consent to receiving the newsletter (art. 6 point 1 a) of GDPR).
@@ -50,7 +56,8 @@ As mentioned above, according to the GDPR, we inform you that:
    </div>
 3. **SECTION III – DATA PROCESSING PERIOD**
    1. Your personal data will be stored for a period necessary to perform purposes indicated in point 2.3 above or until you withdraw your consent to the processing of data, if a consent is the legal basis for processing.
-   2. If personal data is collected for the purpose of performing an order or concluding a contract, the personal data is stored from the moment of data collecting until the contract termination or contract performance after the moment of its termination. In the case of personal data collection in order to fulfill obligations resulting from the law, the data shall be kept for the period of fulfilling obligations and tasks resulting from individual law provisions. In case of personal data processing for the purposes of the legitimate Controller’s interests, the data shall be kept until a reasoned objection is raised to the processing for such purposes.
+   2. If personal data is collected for the purpose of performing an order or concluding a contract, the personal data is stored from the moment of data collecting until the contract termination or contract performance after the moment of its termination.  In the case of personal data collection in order to fulfill obligations resulting from the law, the data shall be kept for the period of fulfilling obligations and tasks resulting from individual law provisions. In case of personal data processing for the purposes of the legitimate Controller’s interests, the data shall be kept until a  reasoned objection is raised to the processing for such purposes.
+
 
 4. **SECTION IV – RIGHTS RELATED TO PERSONAL DATA PROCESSING**
    1. You have a right to:
