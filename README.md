@@ -29,5 +29,7 @@ Windows / Linux / Mac:
 docker stop conference-mlinpl-container
 ```
 
+You can also run these commands from NPM SCRIPTS panel if you are using VS Code
+
 ### Accesing the site
 Access the site at [http://localhost:4000](http://0.0.0.0:4000/www-dev/)
