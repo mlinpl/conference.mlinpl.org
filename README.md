@@ -18,7 +18,15 @@ Run the following command:
 
 Windows / Linux / Mac:
 ```
-docker run -p 4000:4000 conference.mlinpl.org
+docker run --name conference-mlinpl-container --rm -p 4000:4000 conference.mlinpl.org
+```
+
+### Stopping the container
+Run the following command:
+
+Windows / Linux / Mac:
+```
+docker stop conference-mlinpl-container
 ```
 
 ### Accesing the site
