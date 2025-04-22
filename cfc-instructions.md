@@ -9,7 +9,7 @@ permalink: /cfc-instructions
 - All talks should be held in English.
 - All the talks will have a length of 20 minutes + 5 minutes for questions. Please prepare your talk accordingly so that it is within the time limit.
 - The talks will be grouped into sessions with 3 talks per session. The exact time, order of talks, and room for each session will be announced in the conference program.
-- To avoid technical difficulties, this year, we will ask you to provide the slides before the session in the form of a PDF file or a link to your slides (e.g., Google Slides, PowerPoint Online, Canva). We will upload them to our conference computer and make sure that everything works smoothly. 
+- To avoid technical difficulties, this year, we will ask you to provide the slides before the session in the form of a PDF file or a link to Googlr Slides. We will upload them to our conference computer and make sure that everything works smoothly. 
 - Please be 5-10 minutes before the start of the session in the room where your talk will be held to meet the session chair and test the slides.
 - In cases when the presentation requires specific software, please contact us in advance.
 - The slide switcher will be available for you to use during the session.
