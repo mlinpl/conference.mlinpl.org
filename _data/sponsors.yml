@@ -71,11 +71,11 @@
 #       image: "images/optimized/sponsors-600x600/TCL.webp"
 #       url: "https://tcl-research.pl"
 
-# - title: "/ Partners"
-#   imageMaxWidth: 280px
-#   imageMaxHeight: 120px
-#   margin: 30px 45px
-#   sponsors:
+- title: "/ Partners"
+  imageMaxWidth: 280px
+  imageMaxHeight: 120px
+  margin: 30px 45px
+  sponsors:
 #     - name: Hugging Face
 #       image: images/optimized/partners-600x600/HuggingFace.webp
 #       url: "https://huggingface.co/"
@@ -85,9 +85,9 @@
 #     - name: LOT Polish Airlines
 #       image: "images/optimized/sponsors-600x600/LOT.webp"
 #       url: "https://www.lot.com/pl/en"
-#     - name: OCTO Legal
-#       image: "images/optimized/sponsors-600x600/OCTOLegal.webp"
-#       url: "https://octolegal.com/"
+    - name: OCTO Legal
+      image: "images/optimized/sponsors-600x600/OCTOLegal.webp"
+      url: "https://octolegal.com/"
 
 - title: "/ Honorary Patronages"
   imageMaxWidth: 270px
