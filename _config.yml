@@ -100,8 +100,8 @@ navigation:
         url: "/call-for-contributions"
       - name: "/ Call for Tutorials"
         url: "/call-for-tutorials"
-      # - name: "/ Venue"
-      #   url: "#venue"
+      - name: "/ Venue"
+        url: "#venue"
   #     # - name: "/ Conference booklet"
   #     #   url: "/docs/mlinpl_2024_booklet.pdf"
   #     - name: "/ Pre-conference meetups"
@@ -110,8 +110,8 @@ navigation:
   #     #   url: https://aiart.mlinpl.org/
   #     #   target: "_blank"
   
-  # - name: "/ Timeline"
-  #   url: "#timeline"
+  - name: "/ Timeline"
+    url: "#timeline"
 
   - name: "/ Call for Sponsors"
     url: "#call-for-sponsors"
