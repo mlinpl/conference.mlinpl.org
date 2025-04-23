@@ -20,11 +20,14 @@
 #       image: "images/optimized/sponsors-600x600/GResearch.webp"
 #       url: "https://www.gresearch.com"
 
-# - title: '/ <span class="gold-shine-text">Gold sponsors</span>'
-#   imageMaxWidth: 280px
-#   imageMaxHeight: 90px
-#   margin: 30px 45px
-#   sponsors:
+- title: '/ <span class="gold-shine-text">Gold sponsors</span>'
+  imageMaxWidth: 280px
+  imageMaxHeight: 90px
+  margin: 30px 45px
+  sponsors:
+    - name: Raiffeisen Tech
+      image: "images/optimized/sponsors-600x600/RaiffeisenTech.webp"
+      url: "https://www.raiffeisen-tech.com/pl/pl/tech.html"
 #     - name: Comarch
 #       image: "images/optimized/sponsors-600x600/Comarch.webp"
 #       url: "https://www.comarch.com"
