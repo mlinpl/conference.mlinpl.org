@@ -83,9 +83,6 @@ navigation:
           - name: "/ 2017"
             url: "https://conference2017.mlinpl.org"
 
-  - name: "/ Call for Sponsors"
-    url: "#call-for-sponsors"
-
   - name: "/ Program"
     url: "#program"
     subsites:
@@ -115,6 +112,9 @@ navigation:
   
   # - name: "/ Timeline"
   #   url: "#timeline"
+
+  - name: "/ Call for Sponsors"
+    url: "#call-for-sponsors"
 
   # - name: "/ Sponsors & partners"
   #   url: "#sponsors"
