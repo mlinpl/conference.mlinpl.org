@@ -75,15 +75,6 @@
   bio: >-
     Piotr Miłoś is an associate professor in the Polish Academy of Sciences, a team leader at IDEAS NCBR and a member of the ELLIS Society. He is interested in methods that can deliver robust decision-making capabilities in complex scenarios. This covers many scenarios including continual learning, automated reasoning in mathematics, planning algorithms and sequential modelling. 
 
-- name: Inez Okulska
-  affiliation: NASK / Ministry of Digital Affairs Republic of Poland
-  image: images/optimized/advisory-board-300x300/InezOkulska.webp
-  google-scholar: https://scholar.google.pl/citations?user=wKQ-ZfQAAAAJ&hl=pl
-  bio-intro: >-
-    Inez Okulska is the Head of the Department of Linguistic Engineering and Text Analysis at the NASK National Research Institute and Director of Innovaition & Tech Department at the Ministry of Digital Affairs Republic of Poland.
-  bio-more: >-
-    After completing a colorful humanistic path (which included, among others, linguistics, comparative literary studies, cultural studies, philosophy), culminating in a doctorate in translation studies and a postdoctoral fellowship at Harvard University, she completed master's studies in automation and robotics at the WEiTI faculty of the Warsaw University of Technology. Scientifically interested in the semantic and pragmalinguistic potential of grammar, explores proprietary vector representations of text and their algebraic potential. She implements projects related to cybersecurity, primarily at the level of detection and classification of undesirable content. She was selected as one of Perspectywy Top100 WomenInAI in Poland.
-
 - name: Razvan Pascanu
   affiliation: DeepMind
   image: images/optimized/advisory-board-300x300/RazvanPascanu.webp
