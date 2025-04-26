@@ -203,3 +203,6 @@ exclude:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+include:
+  - googleb6957abd960a4507.html
