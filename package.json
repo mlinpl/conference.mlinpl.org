@@ -2,7 +2,9 @@
   "name": "conference.mlinpl.org",
   "scripts": {
     "build": "docker build -t conference.mlinpl.org .",
-    "run": "docker run --name conference-mlinpl-container --rm -p 4000:4000 conference.mlinpl.org",
+    "run": "docker run --name conference-mlinpl-container --rm -p 127.0.0.1:4000:4000 conference.mlinpl.org",
+    "run:livereload": "docker run --name conference-mlinpl-container --rm -e JEKYLL_LIVERELOAD=\"--livereload\" -p 127.0.0.1:4000:4000 -p 127.0.0.1:35729:35729 conference.mlinpl.org",
+    "open": "start http://localhost:4000",
     "stop": "docker stop conference-mlinpl-container"
   }
 }
