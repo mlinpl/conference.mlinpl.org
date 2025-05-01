@@ -100,11 +100,29 @@
   twitter: ""
   image: "images/optimized/organizers-300x300/MaciejChrabaszcz.webp"
 
+- name: "Kamil Cięszczyk"
+  title: "Website Team"
+  linkedin: "https://www.linkedin.com/in/777kamilc/"
+  twitter: ""
+  image: "images/optimized/organizers-300x300/KamilCieszczyk.webp"
+
+- name: "Dominik Danelski"
+  title: "Sponsors Team"
+  linkedin: "https://www.linkedin.com/in/dominik-danelski-4bb097237/"
+  twitter: ""
+  image: "images/optimized/organizers-300x300/DominikDanelski.webp"
+
 - name: "Jan Fidor"
   title: "Sponsors Team"
   linkedin: "https://www.linkedin.com/in/jan-fidor-b05521228/"
   twitter: ""
   image: "images/optimized/organizers-300x300/JanFidor.webp"
+
+- name: "Bohdan Forostianyi"
+  title: "Sponsors Team"
+  linkedin: "https://www.linkedin.com/in/bohdan-forostianyi-%F0%9F%87%BA%F0%9F%87%A6-64a4bb1a7/"
+  twitter: ""
+  image: "images/optimized/organizers-300x300/BohdanForostianyi.webp"
 
 - name: "Zuzanna Glinka"
   title: "Special Ops Team"
@@ -183,6 +201,18 @@
   linkedin: "linkedin.com/in/karonowacka"
   twitter: ""
   image: "images/optimized/organizers-300x300/KarolinaNowacka.webp"
+
+- name: "Aleksander Nowak"
+  title: "Finance Team"
+  linkedin: "https://www.linkedin.com/in/aleksander-nowak-b56972238/"
+  twitter: ""
+  image: "images/optimized/organizers-300x300/AleksanderNowak.webp"
+
+- name: "Weronika Ormaniec"
+  title: "Speakers Team"
+  linkedin: "https://www.linkedin.com/in/weronika-ormaniec/"
+  twitter: ""
+  image: "images/optimized/organizers-300x300/WeronikaOrmaniec.webp"
 
 - name: "Ernest Perkowski"
   title: "Sponsors Team"
