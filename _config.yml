@@ -45,8 +45,9 @@ header:
   countdown-date: "2025-10-15T08:00:00"
   # countdown-overwrite: 'Thank you for participating!</br>Find the <i class="fa-solid fa-camera-retro"></i> photos <a href="/photos">here</a>'
 
-  arrow-url: "#about"
-  # arrow-url: "#tickets" <- When tickets section added, change to this
+  # arrow-url: "#about"
+  # When tickets section added, change to this
+  arrow-url: "#tickets" 
 
   # Meetup countdown settings
   meetup-countdown-date: "2024-06-20T17:45:00"
@@ -54,8 +55,8 @@ header:
 
 # Navigation settings
 navigation:
-  # - name: "/ Tickets"
-  #   url: "#tickets"
+  - name: "/ Tickets"
+    url: "#tickets"
 
   - name: "/ About"
     url: "#about"
