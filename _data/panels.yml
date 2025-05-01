@@ -1,129 +1,91 @@
-- name: AI in Law
-  date: Thursday / 7 November
-  room: Main Hall
-  time: 14:45 - 15:45
+- name: AI IN SECURITY
+  # date: Thursday / 7 November
+  # room: Main Hall
+  # time: 14:45 - 15:45
   id: 1
   desc: |-
-    Join us for the "AI in Law" panel, where we would like to explore the influence of artificial intelligence on the legal sector. During discussion we will delve into the potential role for AI-driven technologies and their promise to increase access to justice as well as challenges for responsible AI adoption.
-  note: "Organized in cooperation with OCTO Legal. Moderators: Marek Ballaun, Emilia Wiśnios"
-  panelists:
-    - name: Gabriela Bar
-      image: images/optimized/speakers-600x600/GabrielaBar.webp
-      title: 
-      bio-intro: >-
-        Founder of the Gabriela Bar Law & AI firm, an experienced expert in the field of new technology law and the law and ethics of Artificial Intelligence (AI), researcher, member of Women in AI, recognised in Forbes’ list of the 25 Best Business Lawyers (2022) and the TOP100 Women in AI in Poland (2022). Member of the IEEE Legal Committee within the IEEE Global Initiative on Ethics of Autonomous and Intelligent Systems, the Association for New Technology Law, and the FBE New Technologies Commission. Teaches at several universities, actively participates in scientific conferences and industry seminars.
-      bio-more: >-
-        Author of numerous publications in the field of AI, digital services, and personal data protection. Lawyer in EU projects: Smart Human Oriented Platform for Connected Factories – SHOP4CF, Multi-Agent Systems for Pervasive Artificial Intelligence for assisting Humans in Modular Production Environments – MAS4AI, and an independent AI ethics expert in the EXTRA-BRAIN project.
-    - name: Michał Jackowski
-      image: images/optimized/speakers-600x600/MichalJackowski.webp
-      title:
-      bio-intro: >-
-        Prof. Michał Jackowski - Executive MBA at ESCP Europe, International Cooperation Leader of the AI Working Group at the Ministry of Digitital Affairs, member of Plenary Group drafting LLM Code of Practice for EU AI Office, law professor (SWPS University), attorney and tax advisor with over 20 years of experience as an entrepreneur. Advisor and representative of the technology industry in difficult legislative processes. Co-founder of DSK Law Firm - a law and tax firm specializing in advising the IT sector, and co-founder of innovative startups AnyLawyer and LexDigital. 
-      bio-more: >-
-        Arbitrator of the arbitration court at the Polish Chamber of Information Technology and Telecommunications. Advisor and representative of the technology industry in difficult legislative processes. Author of several books and numerous scientific publications in the field of law. A promoter of knowledge at the intersection of law and AI - he hosts the Monday Bagel podcast on YT, where he regularly publishes interviews with scientists, legal practitioners and AI experts. Privately - he is a marathon runner and skier, and enjoys reading books - especially about digital transformation in the future, medieval history and Asian culture.
-    - name: Alkan Dogan
-      image: images/optimized/speakers-600x600/AlkanDogan.webp
-      title:
-      bio-intro: >-
-        Alkan Dogan is the European Lead for Legal Engineering at Simmons & Simmons Wavelength. Based in Frankfurt, he is spearheading the firm’s legal engineering activities and projects across Europe. Alkan specializes in initiating and creating tech-driven solutions for our clients to ensure a streamlined delivery of legal services. This includes the utilization of technology, data analytics, AI, design thinking and process optimization techniques to increase usability and efficiency of client processes. 
-      bio-more: >-
-        In addition to his position as European Lead for Legal Engineering, Alkan is currently pursuing a doctorate degree (Dr. rer. pol.) at the Friedrich Schiller University in Jena. His field of study focuses on the impact of behavioural biases on effective innovation management and measures to mitigate these effects as an organization.
+    The "AI in Security" panel will focus on the intersection of AI and cybersecurity. We aim to explore topics such as the role of AI in threat detection, vulnerability assessment, and incident response, as well as the ethical and societal implications of deploying AI in security systems. Additionally, we will discuss the potential risks associated with AI-driven cybersecurity solutions, including adversarial attacks and data privacy concerns.
+  # note: "Moderators: "
+  # panelists:
+  #   - name: Gabriela Bar
+  #     image: images/optimized/speakers-600x600/GabrielaBar.webp
+  #     title: 
+  #     bio-intro: >-
+  #       Founder of the Gabriela Bar Law & AI firm, an experienced expert in the field of new technology law and the law and ethics of Artificial Intelligence (AI), researcher, member of Women in AI, recognised in Forbes’ list of the 25 Best Business Lawyers (2022) and the TOP100 Women in AI in Poland (2022). Member of the IEEE Legal Committee within the IEEE Global Initiative on Ethics of Autonomous and Intelligent Systems, the Association for New Technology Law, and the FBE New Technologies Commission. Teaches at several universities, actively participates in scientific conferences and industry seminars.
+  #     bio-more: >-
+  #       Author of numerous publications in the field of AI, digital services, and personal data protection. Lawyer in EU projects: Smart Human Oriented Platform for Connected Factories – SHOP4CF, Multi-Agent Systems for Pervasive Artificial Intelligence for assisting Humans in Modular Production Environments – MAS4AI, and an independent AI ethics expert in the EXTRA-BRAIN project.
+  #   - name: Michał Jackowski
+  #     image: images/optimized/speakers-600x600/MichalJackowski.webp
+  #     title:
+  #     bio-intro: >-
+  #       Prof. Michał Jackowski - Executive MBA at ESCP Europe, International Cooperation Leader of the AI Working Group at the Ministry of Digitital Affairs, member of Plenary Group drafting LLM Code of Practice for EU AI Office, law professor (SWPS University), attorney and tax advisor with over 20 years of experience as an entrepreneur. Advisor and representative of the technology industry in difficult legislative processes. Co-founder of DSK Law Firm - a law and tax firm specializing in advising the IT sector, and co-founder of innovative startups AnyLawyer and LexDigital. 
+  #     bio-more: >-
+  #       Arbitrator of the arbitration court at the Polish Chamber of Information Technology and Telecommunications. Advisor and representative of the technology industry in difficult legislative processes. Author of several books and numerous scientific publications in the field of law. A promoter of knowledge at the intersection of law and AI - he hosts the Monday Bagel podcast on YT, where he regularly publishes interviews with scientists, legal practitioners and AI experts. Privately - he is a marathon runner and skier, and enjoys reading books - especially about digital transformation in the future, medieval history and Asian culture.
+  #   - name: Alkan Dogan
+  #     image: images/optimized/speakers-600x600/AlkanDogan.webp
+  #     title:
+  #     bio-intro: >-
+  #       Alkan Dogan is the European Lead for Legal Engineering at Simmons & Simmons Wavelength. Based in Frankfurt, he is spearheading the firm’s legal engineering activities and projects across Europe. Alkan specializes in initiating and creating tech-driven solutions for our clients to ensure a streamlined delivery of legal services. This includes the utilization of technology, data analytics, AI, design thinking and process optimization techniques to increase usability and efficiency of client processes. 
+  #     bio-more: >-
+  #       In addition to his position as European Lead for Legal Engineering, Alkan is currently pursuing a doctorate degree (Dr. rer. pol.) at the Friedrich Schiller University in Jena. His field of study focuses on the impact of behavioural biases on effective innovation management and measures to mitigate these effects as an organization.
 
-- name: Career Paths in ML
-  date: Friday / 8 November
-  room: Main Hall
-  time: 12:20 - 13:20
+- name: Open models, open data
+  # date: Friday / 8 November
+  # room: Main Hall
+  # time: 12:20 - 13:20
   id: 2
   desc: >-
-    Join us for the "Career Paths in Machine Learning" panel, where we will explore the critical decisions and turning points in the careers of machine learning professionals. This discussion will delve into the important choice between pursuing a career in industry or academia.
-  note: "Moderators: Alicja Grochocka-Dorocińska, Maciej Chrabąszcz"
-  panelists:
-    - name: Bartłomiej Twardowski
-      image: images/optimized/speakers-600x600/BartlomiejTwardowski.webp
-      title: IDEAS NCBR, Computer Vision Center UAB
-      bio-intro: >-
-        Bartłomiej Twardowski is a Research Team Leader at the IDEAS NCBR and a researcher at the Computer Vision Center, Universitat Autònoma de Barcelona. His research interests focus on computer vision and continual learning of neural networks.
-      bio-more: >-
-        He earned his Ph.D. in 2018, focusing on recommender systems and neural networks. Following his doctoral studies, he served as an assistant professor at Warsaw University of Technology in the AI group for 1.5 years before deciding to join the Computer Vision Center, UAB, for a post-doctoral program. He has been actively involved in various research projects related to DL/NLP/ML (ranging from €40k to €1.4M). He is a Ramón y Cajal fellow. He has a wide industry experience (more than 12 years), including international companies, e.g., Zalando, Adform, Huawei, Naspers Group (Allegro), as well as helping startups with research projects (Sotrender, Scattered). Throughout his career, he has had the opportunity to publish papers in prestigious conferences such as CVPR (2020, 2024, 3 papers), NeurIPS (2020, 2023), ICCV (2021, 2023), ICLR (2023, 2024), and ECIR (2021, 2023). Additionally, he has served as a reviewer for multiple AI/ML  conferences, i.e., AAAI, CVPR, ECCV, ICCV, ICML, WACV and NeurIPS.
-        Currently, his research primarily focuses on lifelong machine learning in computer vision, efficient neural network training, transferability and domain adaptation, as well as information retrieval and recommender systems.
-    - name: Anna Dawid
-      image: images/optimized/speakers-600x600/AnnaDawid.webp
-      title: Leiden University
-      bio-intro: >-
-        Ania is an assistant professor at the Leiden Institute of Advanced Computer Science (LIACS) at Leiden University in the Netherlands, happily playing with interpretable machine learning for science, ultracold platforms for quantum simulations, and the theory of machine learning. Before joining LIACS, she was a research fellow at the Center of Computational Quantum Physics of the Flatiron Institute in New York. 
-      bio-more: >-
-        In 2022, she defended her joint Ph.D. in physics and photonics under the supervision of Prof. Michał Tomza (Faculty of Physics, University of Warsaw, Poland) and Prof. Maciej Lewenstein (ICFO – The Institute of Photonic Sciences, Spain). Before that, she did an MSc in quantum chemistry and a BSc in biotechnology at the University of Warsaw. Ania is the first author of the book "Machine Learning in Quantum Sciences" by Cambridge University Press (in press). She is also a 2022 FNP START laureate, awardee of two NCN grants, and one of the selected participants in the Lindau Nobel Laureate Meeting in 2024.
-    - name: Tomek Korbak
-      title: UK AI Safety Institute
-      image: images/optimized/speakers-600x600/TomaszKorbak.webp
-      bio: >-
-        Tomek Korbak is a Senior Research Scientist at the UK AI Safety Institute working on safety cases for frontier models. Previously, he was a Member of Technical Staff at Anthropic working on honesty. Before that, he did a PhD at the University of Sussex focusing on RL from human feedback (RLHF) and spent time as a visiting researcher at NYU working with Ethan Perez, Sam Bowman and Kyunghyun Cho. He studied cognitive science, philosophy and physics at the University of Warsaw.
+    The “Open Models, Open Data” panel will explore the rationale and methodologies for openly developing and publishing AI models and datasets. We will examine the spectrum of <em>openness</em>—ranging from accessible weights to fully open code and data, including varying license implications—and discuss best practices for responsible public release. Key considerations will include the necessary scope and rigor of pre-release evaluation, validation, and documentation to ensure quality, reliability, and ethical standards.
+  # note: "Moderators: "
+  # panelists:
+  #   - name: Bartłomiej Twardowski
+  #     image: images/optimized/speakers-600x600/BartlomiejTwardowski.webp
+  #     title: IDEAS NCBR, Computer Vision Center UAB
+  #     bio-intro: >-
+  #       Bartłomiej Twardowski is a Research Team Leader at the IDEAS NCBR and a researcher at the Computer Vision Center, Universitat Autònoma de Barcelona. His research interests focus on computer vision and continual learning of neural networks.
+  #     bio-more: >-
+  #       He earned his Ph.D. in 2018, focusing on recommender systems and neural networks. Following his doctoral studies, he served as an assistant professor at Warsaw University of Technology in the AI group for 1.5 years before deciding to join the Computer Vision Center, UAB, for a post-doctoral program. He has been actively involved in various research projects related to DL/NLP/ML (ranging from €40k to €1.4M). He is a Ramón y Cajal fellow. He has a wide industry experience (more than 12 years), including international companies, e.g., Zalando, Adform, Huawei, Naspers Group (Allegro), as well as helping startups with research projects (Sotrender, Scattered). Throughout his career, he has had the opportunity to publish papers in prestigious conferences such as CVPR (2020, 2024, 3 papers), NeurIPS (2020, 2023), ICCV (2021, 2023), ICLR (2023, 2024), and ECIR (2021, 2023). Additionally, he has served as a reviewer for multiple AI/ML  conferences, i.e., AAAI, CVPR, ECCV, ICCV, ICML, WACV and NeurIPS.
+  #       Currently, his research primarily focuses on lifelong machine learning in computer vision, efficient neural network training, transferability and domain adaptation, as well as information retrieval and recommender systems.
+  #   - name: Anna Dawid
+  #     image: images/optimized/speakers-600x600/AnnaDawid.webp
+  #     title: Leiden University
+  #     bio-intro: >-
+  #       Ania is an assistant professor at the Leiden Institute of Advanced Computer Science (LIACS) at Leiden University in the Netherlands, happily playing with interpretable machine learning for science, ultracold platforms for quantum simulations, and the theory of machine learning. Before joining LIACS, she was a research fellow at the Center of Computational Quantum Physics of the Flatiron Institute in New York. 
+  #     bio-more: >-
+  #       In 2022, she defended her joint Ph.D. in physics and photonics under the supervision of Prof. Michał Tomza (Faculty of Physics, University of Warsaw, Poland) and Prof. Maciej Lewenstein (ICFO – The Institute of Photonic Sciences, Spain). Before that, she did an MSc in quantum chemistry and a BSc in biotechnology at the University of Warsaw. Ania is the first author of the book "Machine Learning in Quantum Sciences" by Cambridge University Press (in press). She is also a 2022 FNP START laureate, awardee of two NCN grants, and one of the selected participants in the Lindau Nobel Laureate Meeting in 2024.
+  #   - name: Tomek Korbak
+  #     title: UK AI Safety Institute
+  #     image: images/optimized/speakers-600x600/TomaszKorbak.webp
+  #     bio: >-
+  #       Tomek Korbak is a Senior Research Scientist at the UK AI Safety Institute working on safety cases for frontier models. Previously, he was a Member of Technical Staff at Anthropic working on honesty. Before that, he did a PhD at the University of Sussex focusing on RL from human feedback (RLHF) and spent time as a visiting researcher at NYU working with Ethan Perez, Sam Bowman and Kyunghyun Cho. He studied cognitive science, philosophy and physics at the University of Warsaw.
   
-- name: AI in Medicine
-  date: Saturday / 9 November
-  room: Main Hall
-  time: 16:10 - 17:10
+- name: "PL in ML: Polish View on Machine Learning"
+  # date: Saturday / 9 November
+  # room: Main Hall
+  # time: 16:10 - 17:10
   id: 3
   desc: >-
-    Join us for a panel discussion on "AI in Medicine", where we will delve into the influence of artificial intelligence on the healthcare sector. The focus areas are practical applications of AI in clinical settings and the role of AI in expediting research breakthroughs across medicine and biology.
-  note: "Moderators: Błażej Dolicki, Aleksandra Daniluk"
-  panelists:
-    - name: Anna Gambin
-      image: images/optimized/speakers-600x600/AnnaGambin.webp
-      title: University of Warsaw
-      bio-intro: >-
-        Professor Anna Gambin is deputy dean for research and international cooperation at the Faculty of Mathematics, Computer Science and Mechanics at the University of Warsaw (term 2016-2024). In her scientific work she deals with mathematical modeling of molecular processes and efficient algorithms for the analysis of biomedical data. 
-      bio-more: >-
-        Recently, her research is focused on computational methods supporting medical diagnostics based on genomic and proteomic data. She is the author of over 100 scientific publications and, to date, has supervised 13 PhDs in computational biology.
-    - name: Wouter Bulten
-      image: images/optimized/speakers-600x600/WouterBulten.webp
-      title: Aiosyn
-      bio-intro: >-
-        Wouter is the Chief Operation and Product Officer (COO & CPO) of Aiosyn. At Aiosyn he works on precision pathology for cancer and kidney diseases using AI. Wouter studied Artificial Intelligence and worked as a software engineer and data scientist. He holds a Ph.D. in computational pathology with a focus on using artificial intelligence for clinical diagnostics. 
-      bio-more: >-
-        Wouter’s research showed that AI algorithms could grade prostate cancer on the level of experienced pathologists and actively assist pathologists in performing better diagnoses. Wouter was also one of the main organizers of the PANDA challenge, collaborating with Karolinska Institute and Google Health. Wouter’s research was published in top journals like The Lancet Oncology and Nature Medicine.
-    - name: Piotr Wygocki
-      image: images/optimized/speakers-600x600/PiotrWygocki.webp
-      title: MIM Fertility
-      bio-intro: >-
-        Piotr Wygocki, PhD, is the Co-Founder and CEO of MIM Fertility, a Polish deep tech company developing AI solutions tailored to the needs of IVF clinics. He is also the Co-Founder of MIM Solutions, a software house specializing in MedTech innovations. 
-      bio-more: >-
-        Piotr Wygocki holds a Ph.D. in Informatics and dual master's degrees in Informatics and Mathematics from the University of Warsaw, where he serves as an Assistant Professor. A winner of KaggleDays Warsaw 2019. He is a member of the AIFS and the Business Advisory Group to EC President Ursula von der Leyen for the Global Gateway Programme. He has also earned recognition in the Deloitte Technology Fast 50 Central Europe 2023.
-
-- name: AI Safety
-  date: Friday / 8 November
-  room: Main Hall
-  time: 16:10 - 17:10
-  id: 4
-  desc: >-
-    Join us for the “AI Safety” panel, powered by ElevenLabs, where we will discuss real-world challenges of building and assessing models for safety, while maintaining top performance. We will explore ways for AI manipulation, as well as automated and human-in-the-loop systems for preventing misuse.
-  note: "Moderator: Aleksandra Pedraszewska"
-  panelists:
-    - name: Aleksandra Pedraszewska
-      image: images/optimized/speakers-600x600/AleksandraPedraszewska.webp
-      title: ElevenLabs
-      bio-intro: >-
-        Aleksandra leads AI Safety Operations at ElevenLabs – the most realistic AI audio tool for generating speech, voices and dubbing of content in 32 languages, with over 1 million users (including TIME, HarperCollins, and nvidia) and $1.1bn valuation. She is responsible for ensuring that ElevenLabs’ products are developed, deployed, and used in a safe way, maximising audio AI's transformative potential.
-      bio-more: >-
-        Aleksandra has extensive operational experience, having directed a venture-backed deep tech company for 7 years, and holds an MPhil in Technology Policy from Cambridge Judge Business School, and a BA from the University of Cambridge. She supports IP-driven companies as an Entrepreneur-in-Residence at Cambridge and a mentor at Conception X.
-    - name: Anna Bialas
-      image: images/optimized/speakers-600x600/AnnaBialas.webp
-      title: Cohere
-      bio-intro: >-
-        Anna is a Machine Learning Engineer at Cohere, a provider of foundational LLM models for enterprise customers. Her work focuses on post-training techniques to customize models and ensure safety, consistency, and accuracy, while also designing evaluation frameworks to assess model performance. Previously, she worked as a Quant at Goldman Sachs and as a Natural Language Data Scientist at Harvard Business School.
-      bio-more: >-
-        Anna holds a Bachelor's degree in Computer Science from Oxford University and a Master's in Data Science from Harvard University. Her research on adversarial attacks on large language models was featured at ICML 2023.
-    - name: Julia Bazinska
-      image: images/optimized/speakers-600x600/JuliaBazinska.webp
-      title: Lakera AI
-      bio-intro: >-
-        Julia is a Machine Learning Engineer at Lakera AI, developing their core product. Lakera AI is a frontrunner in AI security, known for empowering developers to build secure AI applications with Lakera Guard, which protects against prompt injections, data leaks, and other risks. Her career trajectory includes internships at Google, DeepMind, and IBM Research.
-      bio-more: >-
-        Julia earned her Bachelor's degree in Computer Science from the University of Warsaw and completed her Master's at ETH Zurich in 2023. Her professional interests are in Machine Learning for Natural Language Processing, AI security, and performance optimization of ML systems.
-    - name: Matija Franklin
-      image: images/optimized/speakers-600x600/MatijaFranklin.webp
-      title: Human In the Loop / UCL
-      bio-intro: >-
-        Matija is an AI Safety Researcher who has worked with OpenAI, DeepMind, the AI Objectives Institute, ContextualAI, and Mercor on advancing methods for collecting human data for post-training, developing evals and benchmarks. His work on AI Manipulation and General Purpose AI Systems has impacted the EU AI Act, and he is currently involved in crafting the Codes of Practice for the EU AI Office. 
-      bio-more: >-
-        He holds a BA/MSc in Psychological Sciences and Experimental Psychology from the University of Cambridge, and completed his PhD in Cognitive Science at the Causal Cognition Laboratory, at University College London.
+    The “PL in ML: Polish View on Machine Learning” panel will take a closer look at the state of machine learning in Poland—what’s working, what’s not, and where we go from here. We will discuss key institutional issues and explore how ML research and development should be conducted in Poland—while asking the crucial question: is there hope for a thriving ML ecosystem here? Our conversation will cover pressing topics, including Poland's position on the U.S. export priority list for AI chips, the role of new government-supported research initiatives, and the broader policy landscape shaping AI development. While we acknowledge the challenges, our goal is to foster a constructive dialogue that highlights opportunities and the potential for growth in the Polish ML community.
+  # note: "Moderators: "
+  # panelists:
+  #   - name: Anna Gambin
+  #     image: images/optimized/speakers-600x600/AnnaGambin.webp
+  #     title: University of Warsaw
+  #     bio-intro: >-
+  #       Professor Anna Gambin is deputy dean for research and international cooperation at the Faculty of Mathematics, Computer Science and Mechanics at the University of Warsaw (term 2016-2024). In her scientific work she deals with mathematical modeling of molecular processes and efficient algorithms for the analysis of biomedical data. 
+  #     bio-more: >-
+  #       Recently, her research is focused on computational methods supporting medical diagnostics based on genomic and proteomic data. She is the author of over 100 scientific publications and, to date, has supervised 13 PhDs in computational biology.
+  #   - name: Wouter Bulten
+  #     image: images/optimized/speakers-600x600/WouterBulten.webp
+  #     title: Aiosyn
+  #     bio-intro: >-
+  #       Wouter is the Chief Operation and Product Officer (COO & CPO) of Aiosyn. At Aiosyn he works on precision pathology for cancer and kidney diseases using AI. Wouter studied Artificial Intelligence and worked as a software engineer and data scientist. He holds a Ph.D. in computational pathology with a focus on using artificial intelligence for clinical diagnostics. 
+  #     bio-more: >-
+  #       Wouter’s research showed that AI algorithms could grade prostate cancer on the level of experienced pathologists and actively assist pathologists in performing better diagnoses. Wouter was also one of the main organizers of the PANDA challenge, collaborating with Karolinska Institute and Google Health. Wouter’s research was published in top journals like The Lancet Oncology and Nature Medicine.
+  #   - name: Piotr Wygocki
+  #     image: images/optimized/speakers-600x600/PiotrWygocki.webp
+  #     title: MIM Fertility
+  #     bio-intro: >-
+  #       Piotr Wygocki, PhD, is the Co-Founder and CEO of MIM Fertility, a Polish deep tech company developing AI solutions tailored to the needs of IVF clinics. He is also the Co-Founder of MIM Solutions, a software house specializing in MedTech innovations. 
+  #     bio-more: >-
+  #       Piotr Wygocki holds a Ph.D. in Informatics and dual master's degrees in Informatics and Mathematics from the University of Warsaw, where he serves as an Assistant Professor. A winner of KaggleDays Warsaw 2019. He is a member of the AIFS and the Business Advisory Group to EC President Ursula von der Leyen for the Global Gateway Programme. He has also earned recognition in the Deloitte Technology Fast 50 Central Europe 2023.

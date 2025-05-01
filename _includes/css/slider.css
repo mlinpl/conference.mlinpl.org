@@ -62,7 +62,7 @@
 .slider-item-content {
     opacity: 0;
     text-align: justify;
-    min-height: 600px;
+    /* min-height: 600px; */
     overflow: hidden;
     display: none;
 }
