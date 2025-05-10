@@ -1,3 +1,10 @@
+# TEMPLATE
+# - name:
+#   title:
+#   image: images/optimized/speakers-600x600/___.webp
+#   bio: >-
+#   google-scholar:
+
 - name: Mihaela van der Schaar
   title: Cambridge University
   image: images/optimized/speakers-600x600/MihaelaVanDerSchaar.webp
@@ -7,4 +14,15 @@
     Mihaela was elected IEEE Fellow in 2009 and Fellow of the Royal Society in 2024. She has received numerous awards, including the Johann Anton Merck Award (2024), the Oon Prize on Preventative Medicine from the University of Cambridge (2018), a National Science Foundation CAREER Award (2004), 3 IBM Faculty Awards, the IBM Exploratory Stream Analytics Innovation Award, the Philips Make a Difference Award and several best paper awards, including the IEEE Darlington Award. She was a Turing Fellow at The Alan Turing Institute in London between 2016 and 2024. In 2025, she was appointed as Spinoza Guest Professor at Amsterdam University Medical Center. 
 
     Mihaela is personally credited as inventor on 35 USA patents, many of which are still frequently cited and adopted in standards. She has made over 45 contributions to international standards for which she received 3 ISO Awards. In 2019, a Nesta report determined that Mihaela was the most-cited female AI researcher in the U.K. 
-  google scholar: 
+  google-scholar: 
+    https://scholar.google.com/citations?user=DZ3S--MAAAAJ&hl=en
+
+- name: Sara Magliacane
+  title: University of Amsterdam
+  image: images/optimized/speakers-600x600/SaraMagliacane.webp
+  bio: >-
+    Sara Magliacane is an assistant professor in the Amsterdam Machine Learning Lab at the University of Amsterdam and an ELLIS Scholar in the Interactive Learning and Interventional Representations program. During Spring 2022, she visited the Simons Institute in Berkeley for a semester on Causality.
+    The goal of her research is to find how causality can improve current machine learning (ML) algorithms, especially in terms of robustness, generalization across domains/tasks, and safety. Her research focuses on three directions: causal representation learning (i.e. learning causal factors from high-dimensional data, e.g. sequences of images), causal discovery (i.e. learning causal relations from data), and causality-inspired ML, e.g. how can ideas from causality help ML/RL adapt to new domains, nonstationarity and varying number of objects with different latent parameters, even when we cannot guarantee that we identified the true causal factors.
+    Previously, she was a Research Scientist at MIT-IBM Watson AI lab and a postdoctoral researcher at IBM Research NY, working on methods to design experiments that would allow one to learn causal relations in a sample-efficient and intervention-efficient way. She received a PhD at VU Amsterdam on learning causal relations jointly from different experimental settings, even with latent confounders and small samples. During her PhD, she interned at Google Zürich and NYC. Previously, she studied Computer Engineering at Politecnico di Milano and Torino and at the University of Trieste.
+  google-scholar:
+    https://scholar.google.com/citations?user=H3j_zQ4AAAAJ&hl=en

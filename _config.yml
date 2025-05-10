@@ -89,8 +89,8 @@ navigation:
     subsites:
   #     # - name: "/ Agenda"
   #     #   url: "#agenda"
-  #     # - name: "/ Invited speakers"
-  #     #   url: "#invited-speakers"
+      - name: "/ Invited speakers"
+        url: "#invited-speakers"
       - name: "/ Discussion panels"
         url: "#panels"
   #     # - name: "/ Full program"
