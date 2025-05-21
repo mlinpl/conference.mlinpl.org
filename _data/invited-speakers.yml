@@ -26,3 +26,17 @@
     Previously, she was a Research Scientist at MIT-IBM Watson AI lab and a postdoctoral researcher at IBM Research NY, working on methods to design experiments that would allow one to learn causal relations in a sample-efficient and intervention-efficient way. She received a PhD at VU Amsterdam on learning causal relations jointly from different experimental settings, even with latent confounders and small samples. During her PhD, she interned at Google Zürich and NYC. Previously, she studied Computer Engineering at Politecnico di Milano and Torino and at the University of Trieste.
   google-scholar:
     https://scholar.google.com/citations?user=H3j_zQ4AAAAJ&hl=en
+
+- name: Bartłomiej Papież
+  title: University of Oxford
+  image: images/optimized/speakers-600x600/BartłomiejPapież.webp
+  bio: >-
+    Bartek Papież leads multidisciplinary research at the intersection of artificial intelligence, biomedical imaging, and health data science. As Principal Investigator and Group Lead of the Machine Learning & Biomedical Data Research Lab at Oxford’s Big Data Institute, his work bridges the theoretical and applied dimensions of AI and machine learning. His research spans the development of novel algorithms in image analysis, data fusion, optimization, and robustness&fairness. A core focus of his lab is the integration of imaging with non-imaging modalities, including genetic data, electronic health records, and natural language, driving forward impactful applications in medicine, biology, and population health. Papież’s projects address key challenges in longitudinal disease monitoring, multimodal cancer imaging, radiogenomics, and the discovery of therapeutic targets. By combining cutting-edge ML techniques with real-world biomedical data, his research aims to enhance disease understanding, early diagnosis, and precision treatment.
+  google-scholar: 
+
+- name: Francesco Locatello
+  title: Institute of Science and Technology Austria
+  image: images/optimized/speakers-600x600/FrancescoLocatello.webp
+  bio: >-
+    Francesco Locatello is a tenure-track assistant professor at the Institute of Science and Technology Austria (ISTA) and an AI resident at the Chan Zuckerberg Initiative. Before, he was a senior applied scientist at Amazon Web Services, leading the Causal Representation Learning team. He received his PhD from ETH Zürich co-advised by Gunnar Rätsch and Bernhard Schölkopf. His research received several awards, including the ICML 2019 Best Paper award, the Hector Foundation award for outstanding achievements in machine learning from the Heidelberg Academy of Science in 2023, and the Google Research Scholar Award in 2024.
+  google-scholar: https://scholar.google.com/citations?user=wQanfTIAAAAJ&hl=en
