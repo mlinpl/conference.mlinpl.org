@@ -129,7 +129,7 @@
 #       url:
     - name: Czarna Magia
       image: "images/optimized/partners-600x600/CzarnaMagia.webp"
-      url: 
+      url: https://knsiczarnamagia.github.io/
 #     # - name: Digital Festival
 #     #   image: "images/optimized/partners-600x600/DigitalFestival.webp"
 #     #   url: "https://digitalfestival.pl/"
@@ -153,7 +153,7 @@
       url: "https://ai.ii.pw.edu.pl/kolo-naukowe-sztucznej-inteligencji-golem/"
     - name: Kobiety Nauki
       image: "images/optimized/partners-600x600/KobietyNauki.webp"
-      url:
+      url: https://kobietynauki.org/
 #     - name: KNUM
 #       image: "images/optimized/partners-600x600/knum.webp"
 #       url: "https://knum.mimuw.edu.pl/"
