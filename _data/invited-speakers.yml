@@ -27,6 +27,18 @@
   google-scholar:
     https://scholar.google.com/citations?user=H3j_zQ4AAAAJ&hl=en
 
+- name: Johannes Brandstetter
+  title: Johannes Kepler University<br>Emmi AI
+  image: images/optimized/speakers-600x600/JohannesBrandstetter.webp
+  bio: >-
+    Johannes Brandstetter is leading the group “AI for data-driven simulations” at the Institute for Machine Learning at the Johannes Kepler University (JKU) Linz. Additionally, he is a Co-founder and Chief Scientist at Emmi AI — a push towards the data-driven revolution in science and engineering.
+    He obtained his PhD after working several years at the CMS experiment at CERN. During this time, he had the privilege of learning from brilliant minds from all around the world and had the chance to co-author seminal papers in the realm of Higgs boson physics. In 2018, after completing his PhD, his career trajectory shifted towards machine learning, and he was fortunate to join the research group of Mr. LSTM, Sepp Hochreiter, in Linz. Under Sepp’s mentorship, he delved into the intricacies of machine learning and modern deep learning over a span of 2.5 years.
+    From 2021 to 2023, he spent three remarkable years in Amsterdam. Initially, he was part of the Amsterdam Machine Learning Lab led by Max Welling, and subsequently joined Microsoft Research for two years. During this period, his passion for Geometric Deep Learning — particularly involving Geometric (Clifford) algebras — and his interest in partial differential equations (PDEs), with a particular focus on developing neural surrogates for PDEs, became profound. Most importantly, he pivoted towards large-scale PDEs, including weather and climate modeling, which culminated in Aurora.
+    His years in Amsterdam have shaped his research vision. He is firmly convinced that AI is on the cusp of disrupting simulations at industry scale. Every day, thousands and thousands of compute hours are spent on turbulence modeling, simulations of fluid or air flows, heat transfer in materials, traffic flows, and many more. Many of these processes follow similar underlying patterns, yet require different and extremely specialized software to simulate. Even worse, for different parameter settings, the costly simulations need to be run at full length from scratch.
+    This is what he wants to change. Therefore, he has started a new group at JKU Linz which has strong computer vision, numerical simulation, and engineering components. The group aims to advance data-driven simulations at industry scale and to place the Austrian industry engine Linz as a center for doing that.
+  google-scholar:
+    https://scholar.google.com/citations?user=KiRvOHcAAAAJ&hl=de
+
 - name: Bartłomiej Papież
   title: University of Oxford
   image: images/optimized/speakers-600x600/BartłomiejPapież.webp
@@ -40,3 +52,12 @@
   bio: >-
     Francesco Locatello is a tenure-track assistant professor at the Institute of Science and Technology Austria (ISTA) and an AI resident at the Chan Zuckerberg Initiative. Before, he was a senior applied scientist at Amazon Web Services, leading the Causal Representation Learning team. He received his PhD from ETH Zürich co-advised by Gunnar Rätsch and Bernhard Schölkopf. His research received several awards, including the ICML 2019 Best Paper award, the Hector Foundation award for outstanding achievements in machine learning from the Heidelberg Academy of Science in 2023, and the Google Research Scholar Award in 2024.
   google-scholar: https://scholar.google.com/citations?user=wQanfTIAAAAJ&hl=en
+
+- name: Antonio Orvieto
+  title: ELLIS Institute Tübingen<br>MPI for Intelligent Systems
+  image: images/optimized/speakers-600x600/AntonioOrvieto.webp
+  bio: >-
+    Antonio studied Control Engineering in Italy and Switzerland. He holds a PhD in Computer Science from ETH Zürich and spent time at Deepmind (UK), Meta (US), MILA (CA), INRIA (FR), and HILTI (LI). He is currently a Hector Endowed Fellow and Principal Investigator (PI) at the ELLIS Institute Tübingen and Independent Group Leader of the MPI for Intelligent Systems, where he leads the Deep Models and Optimization group. He received the ETH medal for outstanding doctoral theses and the Schmidt Sciences AI2050 Early Career Fellowship.
+    In his research, Antonio strives to improve the efficiency of deep learning technologies by pioneering new architectures and training techniques grounded in theoretical knowledge. His work encompasses two main areas: understanding the intricacies of large-scale optimization dynamics and designing innovative architectures and powerful optimizers capable of handling complex data. Central to his studies is exploring innovative techniques for decoding patterns in sequential data, with implications in biology, neuroscience, natural language processing, and music generation.
+  google-scholar:
+    https://scholar.google.com/citations?user=xkuLyHoAAAAJ&hl=it
