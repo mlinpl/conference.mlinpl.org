@@ -20,11 +20,14 @@
 #       image: "images/optimized/sponsors-600x600/GResearch.webp"
 #       url: "https://www.gresearch.com"
 
-# - title: '/ <span class="gold-shine-text">Gold sponsors</span>'
-#   imageMaxWidth: 280px
-#   imageMaxHeight: 90px
-#   margin: 30px 45px
-#   sponsors:
+- title: '/ <span class="gold-shine-text">Gold sponsors</span>'
+  imageMaxWidth: 280px
+  imageMaxHeight: 90px
+  margin: 30px 45px
+  sponsors:
+    - name: Jane Street
+      image: "images/optimized/sponsors-600x600/JaneStreet.webp"
+      url: "https://www.janestreet.com"
 #     - name: Raiffeisen Tech
 #       image: "images/optimized/sponsors-600x600/RaiffeisenTech.webp"
 #       url: "https://www.raiffeisen-tech.com/pl/pl/tech.html"
@@ -55,9 +58,6 @@
 #   imageMaxHeight: 70px
 #   margin: 30px 50px
 #   sponsors:
-#     - name: Jane Street
-#       image: "images/optimized/sponsors-600x600/JaneStreet.webp"
-#       url: "https://www.janestreet.com"
 #     - name: Palto
 #       image: "images/optimized/sponsors-600x600/Palto.svg"
 #       url: "https://palto.ai"
