@@ -6,7 +6,7 @@
 #   google-scholar:
 
 - name: Mihaela van der Schaar
-  title: Cambridge University
+  title: University of Cambridge
   image: images/optimized/speakers-600x600/MihaelaVanDerSchaar.webp
   bio: >-
     Mihaela van der Schaar is the John Humphrey Plummer Professor of Machine Learning, Artificial Intelligence and Medicine at the University of Cambridge. In addition to leading the van der Schaar Lab, Mihaela is founder and director of the Cambridge Centre for AI in Medicine (CCAIM). 
@@ -31,11 +31,7 @@
   title: Johannes Kepler University<br>Emmi AI
   image: images/optimized/speakers-600x600/JohannesBrandstetter.webp
   bio: >-
-    Johannes Brandstetter is leading the group “AI for data-driven simulations” at the Institute for Machine Learning at the Johannes Kepler University (JKU) Linz. Additionally, he is a Co-founder and Chief Scientist at Emmi AI — a push towards the data-driven revolution in science and engineering.
-    He obtained his PhD after working several years at the CMS experiment at CERN. During this time, he had the privilege of learning from brilliant minds from all around the world and had the chance to co-author seminal papers in the realm of Higgs boson physics. In 2018, after completing his PhD, his career trajectory shifted towards machine learning, and he was fortunate to join the research group of Mr. LSTM, Sepp Hochreiter, in Linz. Under Sepp’s mentorship, he delved into the intricacies of machine learning and modern deep learning over a span of 2.5 years.
-    From 2021 to 2023, he spent three remarkable years in Amsterdam. Initially, he was part of the Amsterdam Machine Learning Lab led by Max Welling, and subsequently joined Microsoft Research for two years. During this period, his passion for Geometric Deep Learning — particularly involving Geometric (Clifford) algebras — and his interest in partial differential equations (PDEs), with a particular focus on developing neural surrogates for PDEs, became profound. Most importantly, he pivoted towards large-scale PDEs, including weather and climate modeling, which culminated in Aurora.
-    His years in Amsterdam have shaped his research vision. He is firmly convinced that AI is on the cusp of disrupting simulations at industry scale. Every day, thousands and thousands of compute hours are spent on turbulence modeling, simulations of fluid or air flows, heat transfer in materials, traffic flows, and many more. Many of these processes follow similar underlying patterns, yet require different and extremely specialized software to simulate. Even worse, for different parameter settings, the costly simulations need to be run at full length from scratch.
-    This is what he wants to change. Therefore, he has started a new group at JKU Linz which has strong computer vision, numerical simulation, and engineering components. The group aims to advance data-driven simulations at industry scale and to place the Austrian industry engine Linz as a center for doing that.
+    Johannes Brandstetter leads the "AI for Data-Driven Simulations" group at the Institute for Machine Learning, JKU - Johannes Kepler Universität Linz, with the aim of advancing data-driven simulations at industry scale. Additionally, he is a Co-founder and Chief Scientist at Emmi AI — a push towards the data-driven revolution in science and engineering.
   google-scholar:
     https://scholar.google.com/citations?user=KiRvOHcAAAAJ&hl=de
 
@@ -61,3 +57,10 @@
     In his research, Antonio strives to improve the efficiency of deep learning technologies by pioneering new architectures and training techniques grounded in theoretical knowledge. His work encompasses two main areas: understanding the intricacies of large-scale optimization dynamics and designing innovative architectures and powerful optimizers capable of handling complex data. Central to his studies is exploring innovative techniques for decoding patterns in sequential data, with implications in biology, neuroscience, natural language processing, and music generation.
   google-scholar:
     https://scholar.google.com/citations?user=xkuLyHoAAAAJ&hl=it
+
+- name: Gitta Kutyniok
+  title: DLR-German Aerospace Center<br>University of Tromsø<br>LMU München
+  image: images/optimized/speakers-600x600/GittaKutyniok.webp
+  bio: >-
+    Gitta Kutyniok currently holds a Bavarian AI Chair for Mathematical Foundations of Artificial Intelligence at the Ludwig-Maximilians-Universität München, and is in addition affiliated with the German Aerospace Center, DLR and the University of Tromsø. Her research work covers the areas of applied and computational harmonic analysis, artificial intelligence, compressed sensing, deep learning, imaging sciences, inverse problems, and applications to life sciences, robotics, and telecommunication
+  google-scholar:
