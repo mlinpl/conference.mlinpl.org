@@ -6,7 +6,7 @@
 #   google-scholar:
 
 - name: Mihaela van der Schaar
-  title: Cambridge University
+  title: University of Cambridge
   image: images/optimized/speakers-600x600/MihaelaVanDerSchaar.webp
   bio: >-
     Mihaela van der Schaar is the John Humphrey Plummer Professor of Machine Learning, Artificial Intelligence and Medicine at the University of Cambridge. In addition to leading the van der Schaar Lab, Mihaela is founder and director of the Cambridge Centre for AI in Medicine (CCAIM). 
@@ -27,6 +27,14 @@
   google-scholar:
     https://scholar.google.com/citations?user=H3j_zQ4AAAAJ&hl=en
 
+- name: Johannes Brandstetter
+  title: Johannes Kepler University<br>Emmi AI
+  image: images/optimized/speakers-600x600/JohannesBrandstetter.webp
+  bio: >-
+    Johannes Brandstetter leads the "AI for Data-Driven Simulations" group at the Institute for Machine Learning, JKU - Johannes Kepler Universität Linz, with the aim of advancing data-driven simulations at industry scale. Additionally, he is a Co-founder and Chief Scientist at Emmi AI — a push towards the data-driven revolution in science and engineering.
+  google-scholar:
+    https://scholar.google.com/citations?user=KiRvOHcAAAAJ&hl=de
+
 - name: Bartłomiej Papież
   title: University of Oxford
   image: images/optimized/speakers-600x600/BartłomiejPapież.webp
@@ -40,3 +48,19 @@
   bio: >-
     Francesco Locatello is a tenure-track assistant professor at the Institute of Science and Technology Austria (ISTA) and an AI resident at the Chan Zuckerberg Initiative. Before, he was a senior applied scientist at Amazon Web Services, leading the Causal Representation Learning team. He received his PhD from ETH Zürich co-advised by Gunnar Rätsch and Bernhard Schölkopf. His research received several awards, including the ICML 2019 Best Paper award, the Hector Foundation award for outstanding achievements in machine learning from the Heidelberg Academy of Science in 2023, and the Google Research Scholar Award in 2024.
   google-scholar: https://scholar.google.com/citations?user=wQanfTIAAAAJ&hl=en
+
+- name: Antonio Orvieto
+  title: ELLIS Institute Tübingen<br>MPI for Intelligent Systems
+  image: images/optimized/speakers-600x600/AntonioOrvieto.webp
+  bio: >-
+    Antonio studied Control Engineering in Italy and Switzerland. He holds a PhD in Computer Science from ETH Zürich and spent time at Deepmind (UK), Meta (US), MILA (CA), INRIA (FR), and HILTI (LI). He is currently a Hector Endowed Fellow and Principal Investigator (PI) at the ELLIS Institute Tübingen and Independent Group Leader of the MPI for Intelligent Systems, where he leads the Deep Models and Optimization group. He received the ETH medal for outstanding doctoral theses and the Schmidt Sciences AI2050 Early Career Fellowship.
+    In his research, Antonio strives to improve the efficiency of deep learning technologies by pioneering new architectures and training techniques grounded in theoretical knowledge. His work encompasses two main areas: understanding the intricacies of large-scale optimization dynamics and designing innovative architectures and powerful optimizers capable of handling complex data. Central to his studies is exploring innovative techniques for decoding patterns in sequential data, with implications in biology, neuroscience, natural language processing, and music generation.
+  google-scholar:
+    https://scholar.google.com/citations?user=xkuLyHoAAAAJ&hl=it
+
+- name: Gitta Kutyniok
+  title: DLR-German Aerospace Center<br>University of Tromsø<br>LMU München
+  image: images/optimized/speakers-600x600/GittaKutyniok.webp
+  bio: >-
+    Gitta Kutyniok currently holds a Bavarian AI Chair for Mathematical Foundations of Artificial Intelligence at the Ludwig-Maximilians-Universität München, and is in addition affiliated with the German Aerospace Center, DLR and the University of Tromsø. Her research work covers the areas of applied and computational harmonic analysis, artificial intelligence, compressed sensing, deep learning, imaging sciences, inverse problems, and applications to life sciences, robotics, and telecommunication
+  google-scholar:

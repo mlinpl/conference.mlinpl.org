@@ -20,11 +20,14 @@
 #       image: "images/optimized/sponsors-600x600/GResearch.webp"
 #       url: "https://www.gresearch.com"
 
-# - title: '/ <span class="gold-shine-text">Gold sponsors</span>'
-#   imageMaxWidth: 280px
-#   imageMaxHeight: 90px
-#   margin: 30px 45px
-#   sponsors:
+- title: '/ <span class="gold-shine-text">Gold sponsors</span>'
+  imageMaxWidth: 280px
+  imageMaxHeight: 90px
+  margin: 30px 45px
+  sponsors:
+    - name: Jane Street
+      image: "images/optimized/sponsors-600x600/JaneStreet.webp"
+      url: "https://www.janestreet.com"
 #     - name: Raiffeisen Tech
 #       image: "images/optimized/sponsors-600x600/RaiffeisenTech.webp"
 #       url: "https://www.raiffeisen-tech.com/pl/pl/tech.html"
@@ -55,9 +58,6 @@
 #   imageMaxHeight: 70px
 #   margin: 30px 50px
 #   sponsors:
-#     - name: Jane Street
-#       image: "images/optimized/sponsors-600x600/JaneStreet.webp"
-#       url: "https://www.janestreet.com"
 #     - name: Palto
 #       image: "images/optimized/sponsors-600x600/Palto.svg"
 #       url: "https://palto.ai"
@@ -124,9 +124,9 @@
 #     - name: AIFlavours
 #       image: "images/optimized/partners-600x600/AIFlavours.webp"
 #       url: "https://www.linkedin.com/company/aiflavours"
-#     - name: bit
-#       image: "images/optimized/partners-600x600/bit.webp"
-#       url:
+    - name: bit
+      image: "images/optimized/partners-600x600/bit.webp"
+      url:
     - name: Czarna Magia
       image: "images/optimized/partners-600x600/CzarnaMagia.webp"
       url: https://knsiczarnamagia.github.io/
@@ -154,9 +154,9 @@
     - name: Kobiety Nauki
       image: "images/optimized/partners-600x600/KobietyNauki.webp"
       url: https://kobietynauki.org/
-#     - name: KNUM
-#       image: "images/optimized/partners-600x600/knum.webp"
-#       url: "https://knum.mimuw.edu.pl/"
+    - name: KNUM
+      image: "images/optimized/partners-600x600/knum.webp"
+      url: "https://knum.mimuw.edu.pl/"
 #     # - name: Machine Learning Prague
 #     #   image: "images/optimized/partners-600x600/MachineLearningPrague.webp"
 #     #   url: "https://mlprague.com/"
@@ -184,6 +184,9 @@
     - name: SKN Data Science
       image: "images/optimized/partners-600x600/SKNDataScience.webp"
       url: https://www.linkedin.com/company/skndatascience
+    - name: SKN PŚ Data Science
+      image: "images/optimized/partners-600x600/SKNPŚ.webp"
+      url:
 #     # - name: SpeakLeash
 #     #   image: "images/optimized/partners-600x600/SpeakLeash.webp"
 #     #   url: https://speakleash.org/en/speakleash-a-k-a-spichlerz-english/
