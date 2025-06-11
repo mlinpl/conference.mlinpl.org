@@ -82,6 +82,18 @@
   image: images/optimized/previous-speakers-300x300/RichCaruana.webp
   comment: His thesis on multi-task learning helped create interest in transfer learning
 
+- name: Iryna Gurevych
+  title: Technical University of Darmstadt
+  google-scholar: 
+  image: images/optimized/previous-speakers-300x300/IrynaGurevych.webp
+  comment: 
+
+- name: Lucas Beyer
+  title: Google DeepMind
+  google-scholar: 
+  image: images/optimized/previous-speakers-300x300/LucasBeyer.webp
+  comment: Co-author of the Vision Transformer (ViT)
+
 - name: Yannic Kilcher
   title: DeepJudge
   google-scholar: https://scholar.google.com/citations?user=r40iAwIAAAAJ
