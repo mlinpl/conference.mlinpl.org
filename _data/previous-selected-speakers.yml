@@ -20,7 +20,7 @@
   title: Insitro
   google-scholar: https://scholar.google.com/citations?user=5Iqe53IAAAAJ
   image: images/optimized/previous-speakers-300x300/DaphneKoller.webp
-  comment: Co-founder of Coursera, CEO and Founder of Insitro a drug discovery startup
+  comment: Co-founder of Coursera; CEO and Founder of Insitro, a drug discovery startup
 
 - name: Łukasz Kaiser
   title: OpenAI / CNRS
@@ -62,7 +62,7 @@
   title: OpenAI
   google-scholar: https://scholar.google.fr/citations?user=Br8UEzAAAAAJ
   image: images/optimized/previous-speakers-300x300/FilipWolski.webp
-  comment: Co-inventor of Proximal Policy Optimization algorithm
+  comment: Co-inventor of Proximal Policy Optimization (PPO) algorithm
 
 - name: Marta Kwiatkowska
   title: University of Oxford
@@ -81,6 +81,18 @@
   google-scholar: https://scholar.google.com/citations?user=B2U8EUwAAAAJ
   image: images/optimized/previous-speakers-300x300/RichCaruana.webp
   comment: His thesis on multi-task learning helped create interest in transfer learning
+
+- name: Iryna Gurevych
+  title: Technical University of Darmstadt
+  google-scholar: 
+  image: images/optimized/previous-speakers-300x300/IrynaGurevych.webp
+  comment: Renowned for her pioneering work in multilingual sentence embeddings and adapters for LLMs
+
+- name: Lucas Beyer
+  title: Google DeepMind
+  google-scholar: 
+  image: images/optimized/previous-speakers-300x300/LucasBeyer.webp
+  comment: Co-author of the Vision Transformer (ViT)
 
 - name: Yannic Kilcher
   title: DeepJudge
