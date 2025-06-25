@@ -130,6 +130,9 @@
     - name: Czarna Magia
       image: "images/optimized/partners-600x600/CzarnaMagia.webp"
       url: https://knsiczarnamagia.github.io/
+    - name: Centre for Credible AI
+      image: "images/optimized/partners-600x600/CCAI.webp"
+      url: https://credible-ai.org/
 #     # - name: Digital Festival
 #     #   image: "images/optimized/partners-600x600/DigitalFestival.webp"
 #     #   url: "https://digitalfestival.pl/"
@@ -160,9 +163,9 @@
 #     # - name: Machine Learning Prague
 #     #   image: "images/optimized/partners-600x600/MachineLearningPrague.webp"
 #     #   url: "https://mlprague.com/"
-#     - name: MI2
-#       image: "images/optimized/partners-600x600/MI2.webp"
-#       url: "https://www.mi2.ai/"
+    - name: MI2
+      image: "images/optimized/partners-600x600/MI2.webp"
+      url: "https://www.mi2.ai/"
 #     # - name: Nauka w Polsce
 #     #   image: "images/optimized/partners-600x600/naukawpolsce.webp"
 #     #   url: "https://naukawpolsce.pl/"
