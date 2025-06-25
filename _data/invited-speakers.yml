@@ -64,3 +64,10 @@
   bio: >-
     Gitta Kutyniok currently holds a Bavarian AI Chair for Mathematical Foundations of Artificial Intelligence at the Ludwig-Maximilians-Universität München, and is in addition affiliated with the German Aerospace Center, DLR and the University of Tromsø. Her research work covers the areas of applied and computational harmonic analysis, artificial intelligence, compressed sensing, deep learning, imaging sciences, inverse problems, and applications to life sciences, robotics, and telecommunication
   google-scholar:
+
+- name: Federico Tombari
+  title: Google<br>Technical University of Munich
+  image: images/optimized/speakers-600x600/FedericoTombari.webp
+  bio: >-
+    Federico Tombari is Research Director at Google where he leads an applied research team in Computer Vision and Machine Learning across North America and Europe. With his team he contributed Computer Vision and ML technology to Google products such as Lens, Maps, Android, ARCore, Pixel. He is also a Lecturer (PrivatDozent) at the Technical University of Munich (TUM). He has 300+ peer-reviewed publications in CV/ML and applications to robotics, autonomous driving, healthcare and augmented reality. He got his PhD from the University of Bologna and his Venia Legendi (Habilitation) from Technical University of Munich (TUM). In 2018-19 he was co-founder and managing director of a startup on 3D perception for AR and robotics, then acquired by Google.
+  google-scholar:
