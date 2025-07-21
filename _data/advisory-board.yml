@@ -92,13 +92,32 @@
     Her main research interests revolve around efficient vision systems, with a focus on deep video models. She is one of the main organisers of EEML summer school and has served as program committee member for top Computer Vision and Machine Learning conferences.
 
 - name: Piotr Sankowski
-  affiliation: IDEAS NCBR / University of Warsaw
+  affiliation: IDEAS / University of Warsaw
   image: images/optimized/advisory-board-300x300/PiotrSankowski.webp
   google-scholar: https://scholar.google.pl/citations?user=-5LVg-0AAAAJ
   bio-intro: >-
-    Piotr Sankowski is a professor at the Institute of Informatics, University of Warsaw, where he received his habilitation in 2009 and where he received a doctorate in computer science in 2005. His research interest focuses on practical application of algorithms, ranging from economic applications, through learning data structures, to parallel algorithms for data science.
+    Piotr Sankowski is a Polish computer scientist. In 2005, he received a
+    doctorate in computer science, and in 2009, habilitation computer science and
+    a doctorate in physics. He completed post-doctoral internships at ETH Zurich
+    and at “Sapienza” University in Rome. He is an author of 100 publications in
+    Computer Science and 20 in Physics. His research achievements include
+    several important contributions to: optimization and algorithms. 
   bio-more: >-    
-    In 2009, Piotr Sankowski received also a doctorate in physics in the field of solid state theory at the Polish Academy of Sciences. In 2010 he received ERC Starting Independent Researcher Grant, in 2015 ERC Proof of Concept Grant, and in 2017 ERC Consolidator Grant. He is a president of IDEAS NCBR – a research and development center operating in the field of artificial intelligence and digital economy. Piotr Sankowski is also a co-founder of the spin-off company MIM Solutions. 
+    He is the first Pole to have received four European Research Council grants: Starting Grant
+    (2010), Proof of Concept Grant (2015), Consolidator Grant (2017) and Proof of
+    Concept Grant (2023).
+    In the years 2021-2024, he was CEO of IDEAS NCBR, a new research and
+    development center operating in the field of artificial intelligence and digital
+    economy. Right now he is acting director of Research Institute IDEAS.
+    In 2015-2021, he was CEO of a spin-out company MIM Solutions
+    (http://mim-solutions.pl). Currently, he is acting as Chief Scientific Advisor.
+    This spin-out has been created as a result of his first ERC PoC project and
+    aims at commercializing algorithmic market modeling. In 2021, the company
+    started to work on two of its own Femtech products which are commercialized
+    under the MIM Fertility brand. Furthermore, MIM Solutions was included into
+    Deloitte Technology Fast 50 CE and EMEA Technology Fast 500 Winners.
+    Finally, from 2023, MIM Solutions serves on the Business Advisory Board for
+    the EU Global Gateway strategy.
 
 - name: Ewa Szczurek
   affiliation: University of Warsaw
