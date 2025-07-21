@@ -59,7 +59,7 @@
 
     - name: Giada Pistilli
       image: images/optimized/speakers-600x600/GiadaPistilli.webp
-      title: HuggingFace
+      title: Hugging Face
       bio-intro: >-
         Giada Pistilli is a philosopher specialized in AI ethics, with a particular focus on conversational agents and generative AI. With a PhD in philosophy from Sorbonne University, her research explores the intersections of value systems, ethical frameworks, multilingualism, cultural biases, and the ethical questions surrounding human-AI relationships and companionships in emerging AI agent systems. 
       bio-more: >-
