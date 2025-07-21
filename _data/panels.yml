@@ -57,14 +57,13 @@
       bio-more: >-
         Michał's work spans novel algorithms in multimodal data processing, robust information extraction, and AI optimization for enterprise. He was instrumental in TILT, a multimodal transformer that set a global benchmark for complex document data processing, showcasing his ability to translate deep technical understanding into market-leading products. At Snowflake, he leads engineering teams on key products like Document AI and Cortex Functions, enabling data-driven AI at scale. His leadership combines cutting-edge ML with practical engineering, enhancing enterprise data understanding and delivering precision AI solutions globally. Michal is passionate about building scalable, practical AI systems that turn complex data into real business value.
 
-    - name: TBA
-      image: images/empty.png
-    # - name: Giada Pistilli
-    #   image: images/optimized/speakers-600x600/GiadaPistilli.webp
-    #   title: HuggingFace
-    #   bio-intro: >-
-        
-    #   bio-more: >-
+    - name: Giada Pistilli
+      image: images/optimized/speakers-600x600/GiadaPistilli.webp
+      title: HuggingFace
+      bio-intro: >-
+        Giada Pistilli is a philosopher specialized in AI ethics, with a particular focus on conversational agents and generative AI. With a PhD in philosophy from Sorbonne University, her research explores the intersections of value systems, ethical frameworks, multilingualism, cultural biases, and the ethical questions surrounding human-AI relationships and companionships in emerging AI agent systems. 
+      bio-more: >-
+        As Principal Ethicist at Hugging Face, she bridges philosophical inquiry with technological development while applying ethical principles to the challenges of large-scale AI systems.
 
     - name: TBA
       image: images/empty.png
