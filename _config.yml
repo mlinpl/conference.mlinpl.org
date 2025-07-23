@@ -47,11 +47,14 @@ header:
 
   # arrow-url: "#about"
   # When tickets section added, change to this
-  arrow-url: "#tickets" 
+  arrow-url: "#tickets"
 
   # Meetup countdown settings
   meetup-countdown-date: "2024-06-20T17:45:00"
 
+# Ticket registration settings
+# Valid values: "early-bird", "regular", "late"
+active-ticket-level: "early-bird"
 
 # Navigation settings
 navigation:

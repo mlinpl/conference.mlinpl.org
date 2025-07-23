@@ -1,105 +1,55 @@
 <!-- Tickets Section -->
 {% comment %}
-To disable a ticket category:
-  1. Add opacity: <div class="ticket-info" style="opacity: 50%;"></div>
-  2. Change the button: <a class="btn btn-default btn-nonactive btn-lg" style="width: 100%;" disabled>
-  3. Remove <strong> from the button text
-  4. Change the table header from: <thead class="bg-active"> to: </thead><thead class="bg-nonactive">
+To change the active ticket level, modify the 'active-ticket-level' setting in _config.yml
+Valid values: "early-bird", "regular", "late"
 {% endcomment %}
 <section id="tickets" class="container content-section">
     <div class="row">
         <div class="col-lg-12">
             <h2>/ Tickets</h2> 
         </div>
-        <!-- <div class="col-lg-12">
-            <p>
-                The Early Bird registration is preceded by a selective application process, open from 1&nbsp;May, 18:00 CEST (GMT+2) until 31&nbsp;July, 23:59 (AOE). The results will be published on 15&nbsp;August, and then the sales will become open.
-            </p>
-        </div> -->
-        <div class="col-lg-4 text-center ticket-col">
-            <div class="ticket-info" style="opacity: 100%;">
-                <a href="https://mlinpl2025eb.paperform.co/" class="btn btn-default btn-lg" style="width: 100%;"><i class="fa-solid fa-pen-to-square"></i><strong> Early bird application</strong></a>
-                <!-- <a class="btn btn-default btn-nonactive btn-lg" style="width: 100%;" disabled><i class="fa-solid fa-ticket"></i> Early bird registration</a> -->
-                <p>
-                    Registration preceded by <strong>a selective application process</strong>, 
-                    open 
-                    from 1&nbsp;May, 18:00 CEST (GMT+2) 
-                    until 31&nbsp;July, 23:59 CEST (GMT+2). 
-                    <!-- The results will be announced by 15&nbsp;August. -->
-                    <!-- Selective registration that is available from 15&nbsp;August until 31&nbsp;August, 23:59 (AoE). -->
-                </p>
-                <table>
-                    <thead class="bg-active">
-                        <tr>
-                            <th>Ticket</th>
-                            <th>Early Bird Price</th>
-                        </tr>
-                    <tbody>
-                        <tr>
-                            <td>Student</td>
-                            <td>350 PLN</td>
-                        </tr>
-                        <tr>
-                            <td>Regular</td>
-                            <td>700 PLN</td>
-                        </tr>
-                    </tbody>
-                </table>
+        
+        {% for ticket_type_array in site.data.tickets %}
+            {% assign ticket_type = ticket_type_array[0] %}
+            {% assign ticket_data = ticket_type_array[1] %}
+            
+            {% unless ticket_type == "active-ticket-url" %}
+                {% assign is_active = false %}
+                {% if ticket_type == site.active-ticket-level %}
+                    {% assign is_active = true %}
+                {% endif %}
+            
+            <div class="col-lg-4 text-center ticket-col"{% unless is_active %} style="opacity: 50%;"{% endunless %}>
+                <div class="ticket-info">
+                    {% if is_active %}
+                        <a href="{{ site.data.tickets.active-ticket-url }}" class="btn btn-default btn-lg" style="width: 100%;"><i class="{{ ticket_data.icon }}"></i><strong> {{ ticket_data.name }}</strong></a>
+                    {% else %}
+                        <a class="btn btn-default btn-nonactive btn-lg" style="width: 100%;" disabled><i class="{{ ticket_data.icon }}"></i> {{ ticket_data.name }}</a>
+                    {% endif %}
+                    <p>
+                        {{ ticket_data.description }}
+                    </p>
+                    <table>
+                        <thead class="{% if is_active %}bg-active{% else %}bg-nonactive{% endif %}">
+                            <tr>
+                                <th>Ticket</th>
+                                <th>{{ ticket_data.price_label }}</th>
+                            </tr>
+                        <tbody>
+                            <tr>
+                                <td>Student</td>
+                                <td>{{ ticket_data.prices.student }}</td>
+                            </tr>
+                            <tr>
+                                <td>Regular</td>
+                                <td>{{ ticket_data.prices.regular }}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
-        </div>
-        <div class="col-lg-4 text-center ticket-col" style="opacity: 50%;">
-            <div class="ticket-info">
-                <a class="btn btn-default btn-nonactive btn-lg" style="width: 100%;" disabled><i class="fa-solid fa-ticket"></i> Regular registration</a>
-                <p>
-                    First-come, first-served registration, which starts 25&nbsp;August, 18:00 CEST (GMT+2) and lasts until all tickets are sold out.
-                </p>
-                <table>
-                    <thead class="bg-nonactive">
-                        <tr>
-                            <th>Ticket</th>
-                            <th>Regular Price</th>
-                        </tr>
-                    <tbody>
-                        <tr>
-                            <td>Student</td>
-                            <td>500 PLN</td>
-                        </tr>
-                        <tr>
-                            <td>Regular</td>
-                            <td>1000 PLN</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-        <div class="col-lg-4 text-center ticket-col" style="opacity: 50%;">
-            <div class="ticket-info">
-                <a class="btn btn-nonactive btn-default btn-lg" style="width: 100%;" disabled><i class="fa-solid fa-ticket"></i> Late registration</a>
-                <p>
-                    Missed out on ticket sales?
-                    We've set aside a very limited number of tickets just for you. 
-                    Available from 1&nbsp;October, 18:00 CEST (GMT+2).</br>
-                    <!-- Currently all tickets are sold out 😎 -->
-                </p>
-                <table>
-                    <thead class="bg-nonactive">
-                        <tr>
-                            <th>Ticket</th>
-                            <th>Late Price</th>
-                        </tr>
-                    <tbody>
-                        <tr>
-                            <td>Student</td>
-                            <td>1400 PLN</td>
-                        </tr>
-                        <tr>
-                            <td>Regular</td>
-                            <td>1400 PLN</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
+            {% endunless %}
+        {% endfor %}
         <!-- <div class="col-lg-4 text-center ticket-col" style="opacity: 50%;">
             <div class="ticket-info">
                 <a href="https://app.evenea.pl/event/mlinpl24-tutorials/" class="btn btn-nonactive btn-default btn-lg" style="width: 100%;" disabled><i class="fa-solid fa-ticket"></i> Tutorial registration</a>

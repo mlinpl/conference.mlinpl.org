@@ -1,0 +1,36 @@
+active-ticket-url: "https://mlinpl2025eb.paperform.co/"
+
+early-bird:
+  name: "Early bird application"
+  icon: "fa-solid fa-pen-to-square"
+  description: >-
+    Registration preceded by <strong>a selective application process</strong>, 
+    open from 1&nbsp;May, 18:00 CEST (GMT+2) 
+    until 31&nbsp;July, 23:59 CEST (GMT+2). 
+  prices:
+    student: "350 PLN"
+    regular: "700 PLN"
+  price_label: "Early Bird Price"
+
+regular:
+  name: "Regular registration"
+  icon: "fa-solid fa-ticket"
+  description: >-
+    First-come, first-served registration, which starts 25&nbsp;August, 18:00 CEST (GMT+2) 
+    and lasts until all tickets are sold out.
+  prices:
+    student: "500 PLN"
+    regular: "1000 PLN"
+  price_label: "Regular Price"
+
+late:
+  name: "Late registration"
+  icon: "fa-solid fa-ticket"
+  description: >-
+    Missed out on ticket sales?
+    We've set aside a very limited number of tickets just for you. 
+    Available from 1&nbsp;October, 18:00 CEST (GMT+2).
+  prices:
+    student: "1400 PLN"
+    regular: "1400 PLN"
+  price_label: "Late Price"
