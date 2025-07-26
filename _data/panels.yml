@@ -65,16 +65,14 @@
       bio-more: >-
         As Principal Ethicist at Hugging Face, she bridges philosophical inquiry with technological development while applying ethical principles to the challenges of large-scale AI systems.
 
-    - name: To Be Announced
-      image: images/empty.png
-    # - name: Marianna Nezhurina
-    #   image: images/optimized/speakers-600x600/MariannaNezhurina.webp
-    #   title: LAION
-    #   bio-intro: >-
-        
-    #   bio-more: >-
+    - name: Marianna Nezhurina
+      image: images/optimized/speakers-600x600/MariannaNezhurina.webp
+      title: LAION
+      bio: >-
+        Marianna Nezhurina is a core researcher in LAION and scientific staff member in Juelich Supercomputing Center (JSC). Her research is focusing on large-scale foundation models and datasets, scalability and generalization of foundation models. She was participating in several open-source efforts like DataComp-LM, LAION CLAP and BigScience BLOOM. Most recently she was taking part in OpenThoughts (open reasoning datasets and models) as a core contributor.
   
 - name: "PL in ML: Polish View on Machine Learning"
+  short-name: "PL in ML: Polish View on ML"
   # date: Saturday / 9 November
   # room: Main Hall
   # time: 16:10 - 17:10
@@ -120,11 +118,10 @@
         Previously, she worked as an AI Cloud Solution Architect at Microsoft, where she was responsible for leading flagship AI projects for the company’s largest clients in Poland. Her work at Microsoft covered a broad range of activities, from MLOps (AI model lifecycle management) to model development and implementation, including work with generative models.
         In addition to her professional work, Pamela is actively involved in education. She lectures at Kozminski University and the Warsaw University of Technology, regularly sharing her knowledge and experience.
 
-    - name: To Be Announced
-      image: images/empty.png
-    # - name: Marek Magryś
-    #   image: images/optimized/speakers-600x600/MarekMagryś.webp
-    #   title: Cyfronet
-    #   bio-intro: >-
-        
-    #   bio-more: >-
+    - name: Marek Magryś
+      image: images/optimized/speakers-600x600/MarekMagryś.webp
+      title: Cyfronet<br><br>
+      bio-intro: >-
+        Marek Magryś is Acting Director of Academic Computer Centre Cyfronet AGH, head of the National Centre of Computing Competence within EuroHPC, specialist in design, implementation, testing and operation of computing systems for HPC (High Performance Computing) and AI (Artificial Intelligence). Chief architect of the fastest Polish supercomputers of recent years, Helios, Athena and Prometheus. 
+      bio-more: >-
+        Expert for the European Commission, member of the INFRAG advisory group for EuroHPC and HPC-AI Leadership Organization EMEA Advisory Committee.
