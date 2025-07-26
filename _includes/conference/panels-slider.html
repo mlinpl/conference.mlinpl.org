@@ -35,7 +35,7 @@
                     <div class="center-verticaly" style="padding-left: 20px;">
                         <div>
                             <span class="speaker-name">
-                                {{ panel.name }}
+                                {{ panel.short-name | default: panel.name }}
                             </span>
                         </div>
                     </div>
@@ -49,4 +49,3 @@
         </div> -->
     </div>
 </section>
-  
