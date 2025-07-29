@@ -1,5 +1,3 @@
-active-ticket-url: "https://mlinpl2025eb.paperform.co/"
-
 early-bird:
   name: "Early bird application"
   icon: "fa-solid fa-pen-to-square"
@@ -11,6 +9,8 @@ early-bird:
     student: "350 PLN"
     regular: "700 PLN"
   price_label: "Early Bird Price"
+  active: true
+  url: "https://mlinpl2025eb.paperform.co/"
 
 regular:
   name: "Regular registration"
@@ -22,6 +22,8 @@ regular:
     student: "500 PLN"
     regular: "1000 PLN"
   price_label: "Regular Price"
+  active: false
+  url: "https://mlinpl2025eb.paperform.co/"
 
 late:
   name: "Late registration"
@@ -34,3 +36,19 @@ late:
     student: "1400 PLN"
     regular: "1400 PLN"
   price_label: "Late Price"
+  active: false
+  url: "https://mlinpl2025eb.paperform.co/"
+
+tutorials:
+  name: "Tutorial registration"
+  icon: "fa-solid fa-graduation-cap"
+  description: >-
+    First-come-first-served registration for tutorials. Starts 21&nbsp;October, 18:00 CEST (GMT+2) 
+    and lasts until all tickets are sold out.
+    <strong>Selected tutorials are free of charge.</strong>
+  prices:
+    student: "60 PLN"
+    regular: "120 PLN"
+  price_label: "Price"
+  active: false
+  url: "https://app.evenea.pl/event/mlinpl25-tutorials/"
