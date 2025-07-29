@@ -10,6 +10,7 @@ early-bird:
     regular: "700 PLN"
   price_label: "Early Bird Price"
   active: true
+  visible: true
   url: "https://mlinpl2025eb.paperform.co/"
 
 regular:
@@ -23,6 +24,7 @@ regular:
     regular: "1000 PLN"
   price_label: "Regular Price"
   active: false
+  visible: true
   url: "https://mlinpl2025eb.paperform.co/"
 
 late:
@@ -37,6 +39,7 @@ late:
     regular: "1400 PLN"
   price_label: "Late Price"
   active: false
+  visible: true
   url: "https://mlinpl2025eb.paperform.co/"
 
 tutorials:
@@ -51,4 +54,5 @@ tutorials:
     regular: "120 PLN"
   price_label: "Price"
   active: false
+  visible: false
   url: "https://app.evenea.pl/event/mlinpl25-tutorials/"

@@ -1,6 +1,6 @@
 <!-- Tickets Section -->
 {% comment %}
-To change which tickets are active, modify the 'active' property for each ticket type in _data/tickets.yml
+To change which tickets are active or visible, modify the 'active' and 'visible' properties for each ticket type in _data/tickets.yml
 {% endcomment %}
 <section id="tickets" class="container content-section">
     <div class="row">
@@ -12,7 +12,9 @@ To change which tickets are active, modify the 'active' property for each ticket
             {% assign ticket_type = ticket_type_array[0] %}
             {% assign ticket_data = ticket_type_array[1] %}
             
-            {% include conference/ticket-card.html ticket-data=ticket_data is-active=ticket_data.active ticket-url=ticket_data.url %}
+            {% if ticket_data.visible %}
+                {% include conference/ticket-card.html ticket-data=ticket_data is-active=ticket_data.active ticket-url=ticket_data.url %}
+            {% endif %}
         {% endfor %}
         
         <div class="col-lg-12">
