@@ -1,0 +1,38 @@
+<!-- Ticket card component -->
+{% comment %}
+Expects following parameters: 
+- ticket-data: The ticket data object
+- is-active: Boolean indicating if this ticket is currently active
+- ticket-url: URL for active tickets (optional, only needed if is-active is true)
+{% endcomment %}
+<div class="col-lg-4 text-center ticket-col"{% unless include.is-active %} style="opacity: 50%;"{% endunless %}>
+    <div class="ticket-info">
+        {% if include.is-active and include.ticket-url %}
+            <a href="{{ include.ticket-url }}" class="btn btn-default btn-lg" style="width: 100%;"><i class="{{ include.ticket-data.icon }}"></i><strong> {{ include.ticket-data.name }}</strong></a>
+        {% else %}
+            <a class="btn btn-default btn-nonactive btn-lg" style="width: 100%;" disabled><i class="{{ include.ticket-data.icon }}"></i> {{ include.ticket-data.name }}</a>
+        {% endif %}
+        <p>
+            {{ include.ticket-data.description }}
+        </p>
+        {% if include.ticket-data.prices %}
+        <table>
+            <thead class="{% if include.is-active %}bg-active{% else %}bg-nonactive{% endif %}">
+                <tr>
+                    <th>Ticket</th>
+                    <th>{{ include.ticket-data.price_label }}</th>
+                </tr>
+            <tbody>
+                <tr>
+                    <td>Student</td>
+                    <td>{{ include.ticket-data.prices.student }}</td>
+                </tr>
+                <tr>
+                    <td>Regular</td>
+                    <td>{{ include.ticket-data.prices.regular }}</td>
+                </tr>
+            </tbody>
+        </table>
+        {% endif %}
+    </div>
+</div>
