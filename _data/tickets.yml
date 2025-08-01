@@ -9,7 +9,7 @@ early-bird:
     student: "350 PLN"
     regular: "700 PLN"
   price_label: "Early Bird Price"
-  active: true
+  active: false
   visible: true
   url: "https://mlinpl2025eb.paperform.co/"
 
