@@ -23,6 +23,4 @@ EXPOSE 4000 35729
 
 RUN chown -R 1000:1000 /app
 
-ENV JEKYLL_LIVERELOAD=""
-
-CMD bundle exec jekyll serve --host 0.0.0.0 $JEKYLL_LIVERELOAD
+CMD [ "bundle", "exec", "jekyll", "serve", "--host", "0.0.0.0" ]
