@@ -12,3 +12,5 @@ _config.yml.bak
 
 # JetBrains IDEs
 .idea
+
+copilot-instructions.md

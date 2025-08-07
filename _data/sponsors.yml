@@ -98,7 +98,7 @@
       image: "images/optimized/honorary-patronages-600x600/CNK.webp"
       url: "https://www.kopernik.org.pl/en"
     - name: University of Warsaw
-      image: "images/optimized/honorary-patronages-600x600/UW.webp"
+      image: "images/honorary-patronages/UW.png"
       url: https://en.uw.edu.pl/
     - name: Warsaw University of Technology
       image: "images/optimized/honorary-patronages-600x600/PW.webp"
@@ -107,11 +107,18 @@
       image: "images/optimized/honorary-patronages-600x600/MIMUW.webp"
       url: https://www.mimuw.edu.pl/en/
     - name: Faculty of Mathematics and Information Science, Warsaw University of Technology
-      image: "images/optimized/honorary-patronages-600x600/MiNIPW.webp"
+      image: "images/honorary-patronages/MiNIPW.png"
       url: https://ww4.mini.pw.edu.pl/
     # - name: Faculty of Electronics and Information Technology, Warsaw University of Technology
     #   image: "images/optimized/honorary-patronages-600x600/WEiTI.webp"
     #   url: https://www.elka.pw.edu.pl/eng/
+    - name: Major of Warsaw
+      # image: "images/honorary-patronages/MayorOfWarsaw.png"
+      image: "images/honorary-patronages/PrezydentWarszawy.png"
+      url: https://en.um.warszawa.pl/
+      margin: 0 0
+      imageMaxWidth: 360px
+      imageMaxHeight: 220px
 
 - title: "/ Media partners"
   imageMaxWidth: 215px
