@@ -94,6 +94,13 @@
   imageMaxHeight: 160px
   margin: 30px 45px
   sponsors:
+    - name: Major of Warsaw
+      image: "images/honorary-patronages/MayorOfWarsaw.png"
+      # image: "images/honorary-patronages/PrezydentWarszawy.png"
+      url: https://en.um.warszawa.pl/
+      margin: 0 0
+      imageMaxWidth: 360px
+      imageMaxHeight: 220px
     - name: Centrum Nauki Kopernik
       image: "images/optimized/honorary-patronages-600x600/CNK.webp"
       url: "https://www.kopernik.org.pl/en"
@@ -112,13 +119,6 @@
     # - name: Faculty of Electronics and Information Technology, Warsaw University of Technology
     #   image: "images/optimized/honorary-patronages-600x600/WEiTI.webp"
     #   url: https://www.elka.pw.edu.pl/eng/
-    - name: Major of Warsaw
-      # image: "images/honorary-patronages/MayorOfWarsaw.png"
-      image: "images/honorary-patronages/PrezydentWarszawy.png"
-      url: https://en.um.warszawa.pl/
-      margin: 0 0
-      imageMaxWidth: 360px
-      imageMaxHeight: 220px
 
 - title: "/ Media partners"
   imageMaxWidth: 215px
