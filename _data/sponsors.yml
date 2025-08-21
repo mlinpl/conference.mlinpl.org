@@ -28,6 +28,9 @@
     - name: Jane Street
       image: "images/optimized/sponsors-600x600/JaneStreet.webp"
       url: "https://www.janestreet.com"
+    - name: QRT
+      image: "images/optimized/sponsors-600x600/QRT.webp"
+      url: "https://www.qube-rt.com/"
 #     - name: Raiffeisen Tech
 #       image: "images/optimized/sponsors-600x600/RaiffeisenTech.webp"
 #       url: "https://www.raiffeisen-tech.com/pl/pl/tech.html"
