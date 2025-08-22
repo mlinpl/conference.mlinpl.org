@@ -63,6 +63,9 @@
       bio: >-
         Marianna Nezhurina is a core researcher in LAION and scientific staff member in Juelich Supercomputing Center (JSC). Her research is focusing on large-scale foundation models and datasets, scalability and generalization of foundation models. She was participating in several open-source efforts like DataComp-LM, LAION CLAP and BigScience BLOOM. Most recently she was taking part in OpenThoughts (open reasoning datasets and models) as a core contributor.
   
+    - name: To Be Announced
+      image: images/empty.png
+
 - name: "PL in ML: Polish View on Machine Learning"
   short-name: "PL in ML: Polish View on ML"
   # date: Saturday / 9 November
