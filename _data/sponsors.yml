@@ -100,6 +100,9 @@
   imageMaxHeight: 160px
   margin: 30px 45px
   sponsors:
+    - name: Minister of Digital Affairs
+      image: "images/optimized/honorary-patronages-600x600/MinistryOfDigitialAffairs.webp"
+      url: https://www.gov.pl/web/cyfryzacja/
     - name: Major of Warsaw
       image: "images/honorary-patronages/MayorOfWarsaw.png"
       # image: "images/honorary-patronages/PrezydentWarszawy.png"
