@@ -148,21 +148,24 @@
 #     # - name: Digital Festival
 #     #   image: "images/optimized/partners-600x600/DigitalFestival.webp"
 #     #   url: "https://digitalfestival.pl/"
+    - name: DATA Pill
+      image: "images/optimized/partners-600x600/DATAPill.webp"
+      url: "https://datapill.tech/"
     - name: Gauss
       image: "images/optimized/partners-600x600/gauss.webp"
       url: "http://gauss.im.pwr.wroc.pl"
     - name: "Ghost Day: Applied Machine Learning Conference"
       image: "images/optimized/partners-600x600/GhostDay.webp"
       url: "https://ghostday.pl"
-#     - name: Gradient KN
-#       image: "images/optimized/partners-600x600/gradient.webp"
-#       url:
+    - name: Gradient KN
+      image: "images/optimized/partners-600x600/gradient.webp"
+      url:
     - name: Group of Horribly Optimistic STatisticians
       image: "images/optimized/partners-600x600/GHOST.webp"
       url: "https://ghost.put.poznan.pl"
-#     - name: GMUM
-#       image: "images/optimized/partners-600x600/gmum.webp"
-#       url: https://gmum.net/
+    - name: GMUM
+      image: "images/optimized/partners-600x600/gmum.webp"
+      url: https://gmum.net/
     - name: Golem
       image: "images/optimized/partners-600x600/golem.webp"
       url: "https://ai.ii.pw.edu.pl/kolo-naukowe-sztucznej-inteligencji-golem/"
@@ -205,9 +208,9 @@
 #     # - name: SpeakLeash
 #     #   image: "images/optimized/partners-600x600/SpeakLeash.webp"
 #     #   url: https://speakleash.org/en/speakleash-a-k-a-spichlerz-english/
-#     - name: KN Solvro
-#       image: "images/optimized/partners-600x600/Solvro.webp"
-#       url: "https://solvro.pwr.edu.pl/"
+    - name: KN Solvro
+      image: "images/optimized/partners-600x600/Solvro.webp"
+      url: "https://solvro.pwr.edu.pl/"
     - name: Warsaw AI
       image: "images/optimized/partners-600x600/WarsawAI.webp"
       url: "https://warsaw.ai"
