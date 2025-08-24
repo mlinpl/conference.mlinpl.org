@@ -118,12 +118,6 @@
   twitter: ""
   image: "images/optimized/organizers-300x300/JanFidor.webp"
 
-- name: "Bohdan Forostianyi"
-  title: "Sponsors Team"
-  linkedin: "https://www.linkedin.com/in/bohdan-forostianyi-%F0%9F%87%BA%F0%9F%87%A6-64a4bb1a7/"
-  twitter: ""
-  image: "images/optimized/organizers-300x300/BohdanForostianyi.webp"
-
 - name: "Zuzanna Glinka"
   title: "Special Ops Team"
   linkedin: "https://www.linkedin.com/in/zuzanna-glinka-6a2359236"
@@ -183,6 +177,12 @@
   linkedin: "https://www.linkedin.com/in/ewelinakedzior/"
   twitter: ""
   image: "images/optimized/organizers-300x300/EwelinaKedzior.webp"
+
+# - name: "Wojciech Lis"
+#   title: "Marketing Team"
+#   linkedin: ""
+#   twitter: ""
+#   image: "images/optimized/organizers-300x300/WojciechLis.webp"
 
 - name: "Wojciech Łapacz"
   title: "Marketing Team"
@@ -267,6 +267,12 @@
   linkedin: "https://www.linkedin.com/in/miko%C5%82aj-s%C5%82upi%C5%84ski-839509109/"
   twitter: ""
   image: "images/optimized/organizers-300x300/MikolajSlupinski.webp"
+
+- name: "Igor Szafarowicz"
+  title: "Sponsors Team"
+  linkedin: ""
+  twitter: ""
+  image: "images/optimized/organizers-300x300/IgorSzafarowicz.webp"
 
 - name: "Michał Tyrolski"
   title: "Speakers Team"
