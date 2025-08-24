@@ -1,0 +1,24 @@
+.event-banner {
+    position: absolute;
+    top: 7em;
+    /* left: 0; */
+    width: 100vw;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 1.2em;
+    z-index: 1000; 
+    padding: 15px 15px;
+    border-top: 3px solid {{ site.color.second }};
+    border-bottom: 3px solid {{ site.color.second }};
+    background-color: {{ site.color.main }};
+}
+
+.event-banner p {
+    margin: 0;
+}
+
+.event-banner a {
+    color: #fff;
+    text-decoration: underline;
+}
