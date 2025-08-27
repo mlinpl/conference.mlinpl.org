@@ -85,3 +85,11 @@
   bio: >-
     Alexey Dosovitskiy is a distinguished researcher in computer vision and machine learning. He earned his MSc and PhD in mathematics from Moscow State University in 2009 and 2012, respectively. From 2013 to 2015, he was a postdoctoral researcher at the University of Freiburg’s Computer Vision Group under Prof. Thomas Brox, focusing on deep learning applications in unsupervised learning, image generation, and motion estimation. Between 2017 and 2019, he served as a research scientist at Intel Labs in Munich, Germany, working on deep learning for computer vision and robotics. In 2019, Dosovitskiy joined Google Research, where he played a pivotal role in applying transformer architectures to computer vision tasks, notably as a lead author of the influential paper “An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale,” which introduced the Vision Transformer (ViT) model. His research interests include artificial intelligence, machine learning, and pattern recognition, with significant contributions to areas such as optical flow estimation, image generation, and object detection. In February 2024, Dosovitskiy joined Inceptive as a Member of Technical Staff, focusing on machine learning for RNA.
   google-scholar:
+
+- name: Herke van Hoof
+  title: University of Amsterdam
+  image: images/optimized/speakers-600x600/HerkeVanHoof.webp
+  bio: >-
+    Herke van Hoof is currently associate professor at the University of Amsterdam in the Netherlands, where he is part of the Amlab. He is interested in modular reinforcement learning. Reinforcement learning is a very general framework, but this tends to result in extremely data-hungry algorithms. Exploiting modular structures, including hierarchical structures, allows sharing information between tasks and exploiting prior knowledge, to learn more with less data.
+    Before joining the University of Amsterdam, Herke van Hoof was a postdoc at McGill University in Montreal, Canada, where he worked with Professors Joelle Pineau, Dave Meger, and Gregory Dudek. He obtained his PhD at TU Darmstadt, Germany, under the supervision of Professor Jan Peters, where he graduated in November 2016. Herke got his bachelor and master degrees in Artificial Intelligence at the University of Groningen in the Netherlands.
+  google-scholar:
