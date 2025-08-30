@@ -18,8 +18,9 @@
     {% comment %}
     {% include conference/sponsor-speakers-slider.html %}
     {% include conference/badge-game.html %}
-    {% include agenda-slider.html agenda-data=site.data.agenda %}
     {% endcomment %}
+
+    {% include agenda-slider.html agenda-data=site.data.agenda draft=true show-full-program=false %}
 
     {% include conference/calls.html %}
 
@@ -33,7 +34,6 @@
     {% comment %}
     {% include conference/sponsors-call.html %}
     {% endcomment %}
-
 
     {% include conference/sponsors.html %}
 

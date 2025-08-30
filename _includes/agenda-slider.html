@@ -1,15 +1,20 @@
 <!-- Agenda Section -->
 {% comment %}
-Expects following parameters: agenda-data
+Expects following parameters: 
+- agenda-data, 
+- (optional) draft=true/false,
+- (optional) show-full-program=true/false - if true, shows the button to the full program page
 {% endcomment %}
 <section id="agenda" class="container content-section">
     <div class="row">
         <div class="col-lg-12">
             <h2>/ Agenda</h2>
+            {% if include.draft %}
             <p>
                 Below we present the draft of the conference agenda, it may change. 
                 The details will be announced in the following days.
             </p>
+            {% endif %}
         </div>
     </div>
     <div class="row">
@@ -46,9 +51,12 @@ Expects following parameters: agenda-data
             </div>
         </div>
     </div>
+
+    {% if include.show-full-program %}
     <div class="row text-center" style="margin-top: 25px;">
         <div class="col-lg-12">
             <a class="btn btn-default btn-lg" href="{{ "./program" | relative_url }}">Full program of <span class="logo"><span class="main-name">ML&nbsp;in&nbsp;PL</span>&nbsp;<span class="sub-name">Conference 2024</span></span> </a>
         </div>
     </div>
+    {% endif %}
 </section>
