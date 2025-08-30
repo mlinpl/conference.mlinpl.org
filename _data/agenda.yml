@@ -126,7 +126,7 @@
     #       element-class: col-lg-12
     #       time: 15:45 - 16:15
     - events:
-        - title: "TBA"
+        - title: '<strong>TBA</strong>'
           element-class: col-lg-12
           time: 17:00 - 18:30
           room: Main Hall
@@ -432,7 +432,7 @@
         room: Hall B
           
     - events: 
-        - title: 'Discussion Panel 3: <strong>AI Security</strong>'
+        - title: 'Discussion Panel 3: <strong>AI&nbsp;Security</strong>'
           element-class: col-lg-4
           time: 16:30 - 17:30
           room: Main Hall 
