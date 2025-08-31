@@ -19,6 +19,9 @@
     - name: G-Research
       image: "images/optimized/sponsors-600x600/GResearch.webp"
       url: "https://www.gresearch.com"
+    - name: Snowflake
+      image: "images/optimized/sponsors-600x600/Snowflake.webp"
+      url: "https://www.snowflake.com/"
 
 - title: '/ <span class="gold-shine-text">Gold sponsors</span>'
   imageMaxWidth: 280px
@@ -52,9 +55,6 @@
 #     - name: RTB House
 #       image: "images/optimized/sponsors-600x600/RTBHouse.webp"
 #       url: "https://rtbhouse.com/careers-offers?department=it_rnd"
-#     - name: Snowflake
-#       image: "images/optimized/sponsors-600x600/Snowflake.webp"
-#       url: "https://www.snowflake.com/"
 
 - title: '/ <span class="silver-shine-text">Silver sponsors</span>'
   imageMaxWidth: 270px
