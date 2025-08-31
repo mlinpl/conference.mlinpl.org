@@ -29,6 +29,11 @@ To change which tickets are active or visible, modify the 'active' and 'visible'
             <!-- <p style="margin-top: 20px;">
                 Do you want a free ticket? <a href="{{ "./call-for-contributions" | relative_url }}">Submit a talk or a poster proposal via Call for Contributions</a> and get a free ticket if it is accepted!
             </p> -->
+            {% unless site.data.tickets.tutorials.visible %}
+            <p style="margin-top: 20px;">
+                Tutorials will be announced soon! Please note that they require separate tickets, which will be available for purchase shortly.
+            </p>
+            {% endunless %}
         </div>
     </div>
 </section>

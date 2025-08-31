@@ -1,37 +1,64 @@
 <!-- Calls Section -->
+{% comment %}
+This section has 3 main states, parametrised with include.state:
+    1. Open calls ("open")
+    2. Closed calls before the conference ("closed")
+    3. After the conference ("after"), with additional parameters:
+        - pdfs: boolean
+{% endcomment %}
 <section id="calls" class="container content-section">
     <div class="row">
         <div class="col-md-12">
             <h2>/ Call for Contributions (Talks, Posters and Tutorials)</h2>
 
-            <!-- When CfC starts -->
-            {% comment %}
-            <p>
-                We are very excited to invite all to submit proposals for talks, posters, and tutorials for {{ site.inline-logo }}!
-                Like every year, the majority of the conference program will be dedicated to presenting our participants' work and research.
-            </p>
-            <p>
-                If you would like to present a talk or a poster, please check the details of the <strong>Call for Contributions</strong>, that can be found <a href="/call-for-contributions">here</a>. 
-                And if you are interested in giving a tutorial, the details of <strong>Call for Tutorials</strong> can be found <a href="/call-for-tutorials">here</a>.
-            </p>
-            {% endcomment %}
+            {% case include.state %}
+                <!-- When CfC starts -->
+                {% when "open" %}
+                    <p>
+                        We are very excited to invite all to submit proposals for talks, posters, and tutorials for {{ site.inline-logo }}!
+                        Like every year, the majority of the conference program will be dedicated to presenting our participants' work and research.
+                    </p>
+                    <p>
+                        If you would like to present a talk or a poster, please check the details of the <strong>Call for Contributions</strong>, that can be found <a href="/call-for-contributions">here</a>. 
+                        And if you are interested in giving a tutorial, the details of <strong>Call for Tutorials</strong> can be found <a href="/call-for-tutorials">here</a>.
+                    </p>
 
-            <!-- After the conference -->
-            <p>
-                We were very excited to invite all to submit proposals for contributed talks and posters for {{ site.inline-logo }}!
-            </p>
-            {% comment %}
-            <p>
-                This year we accepted 24 talks, 63 posters and 6 tutorials that were presented during the main conference. 
-                A list of talks and posters 
-                <!-- (with slides and posters in pdf format)  -->
-                can be found in the full program of the conference. 
-                Results of the Best Contributed Talk and Poster Award can be found <a href="/cfc-awards">here</a>.
-            </p>
-            {% endcomment %}
-            <p>
-                A detailed description of the <strong>Call for Contributions</strong> is available <a href="/call-for-contributions">here</a> and for the <strong>Call for Tutorials</strong> can be found <a href="/call-for-tutorials">here</a>.
-            </p>
+                <!-- When CfC is closed -->
+                {% when "closed" %}
+                    <p>
+                        We were very excited to invite all to submit proposals for contributed talks and posters for {{ site.inline-logo }}!
+                    </p>
+                    <p>
+                        A detailed description of the <strong>Call for Contributions</strong> is available <a href="/call-for-contributions">here</a>, while for the <strong>Call for Tutorials</strong> can be found <a href="/call-for-tutorials">here</a>.
+                    </p>
+                    <p>
+                        We can't wait to see the accepted talks, posters, and tutorials during the conference!
+                    </p>
+                
+                <!-- After the conference -->
+                {% when "after" %}
+                    <p>
+                        We were very excited to invite all to submit proposals for contributed talks and posters for {{ site.inline-logo }}!
+                    </p>
+                    <p>
+                        This year we accepted {{ site.data.stats.cfc.talks_count }} talks, {{ site.data.stats.cfc..posters_count }} posters and {{ site.data.stats.cfc..tutorials_count }} tutorials that were presented during the main conference. 
+                        A list of talks and posters
+                        {% if include.pdfs %}
+                        (with slides and posters in pdf format) 
+                        {% endif %}
+                        can be found in the full program of the conference. 
+                        Results of the Best Contributed Talk and Poster Award can be found <a href="/cfc-awards">here</a>.
+                    </p>
+                    <p>
+                        A detailed description of the <strong>Call for Contributions</strong> is available <a href="/call-for-contributions">here</a>, while for the <strong>Call for Tutorials</strong> can be found <a href="/call-for-tutorials">here</a>.
+                    </p>
+
+                <!-- Fallback -->
+                {% else %}
+                    <p>
+                        Stay tuned for updates on the Call for Contributions for {{ site.inline-logo }}!
+                    </p>
+            {% endcase %}
         </div>
     </div>
 </section>
