@@ -91,6 +91,9 @@
     - name: OCTO Legal
       image: "images/optimized/sponsors-600x600/OCTOLegal.webp"
       url: "https://octolegal.com/"
+    - name: LUMI
+      image: "images/optimized/partners-600x600/LUMI.webp"
+      url: "https://lumi-supercomputer.eu/lumi-ai-factory/"
 
 - title: "/ Honorary Patronages"
   imageMaxWidth: 270px
