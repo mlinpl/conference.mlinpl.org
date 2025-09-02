@@ -34,6 +34,9 @@
     - name: QRT
       image: "images/optimized/sponsors-600x600/QRT.webp"
       url: "https://www.qube-rt.com/"
+    - name: TCL Research Europe
+      image: "images/optimized/sponsors-600x600/TCL.webp"
+      url: "https://tcl-research.pl"
 #     - name: Raiffeisen Tech
 #       image: "images/optimized/sponsors-600x600/RaiffeisenTech.webp"
 #       url: "https://www.raiffeisen-tech.com/pl/pl/tech.html"
@@ -70,9 +73,6 @@
     - name: SII
       image: "images/optimized/sponsors-600x600/Sii.webp"
       url: "https://sii.pl"
-#     - name: TCL Research Europe
-#       image: "images/optimized/sponsors-600x600/TCL.webp"
-#       url: "https://tcl-research.pl"
 
 - title: "/ Partners"
   imageMaxWidth: 280px
