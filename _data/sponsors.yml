@@ -13,9 +13,9 @@
   imageMaxHeight: 210px
   margin: 45px 60px
   sponsors:
-#     - name: Allegro
-#       image: "images/optimized/sponsors-600x600/Allegro.webp"
-#       url: https://ml.allegro.tech
+    - name: Allegro
+      image: "images/optimized/sponsors-600x600/Allegro.webp"
+      url: https://ml.allegro.tech
     - name: G-Research
       image: "images/optimized/sponsors-600x600/GResearch.webp"
       url: "https://www.gresearch.com"
