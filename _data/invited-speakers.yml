@@ -8,11 +8,11 @@
 - name: Mihaela van der Schaar
   title: University of Cambridge
   image: images/optimized/speakers-600x600/MihaelaVanDerSchaar.webp
-  bio: >-
+  bio-intro: >-
     Mihaela van der Schaar is the John Humphrey Plummer Professor of Machine Learning, Artificial Intelligence and Medicine at the University of Cambridge. In addition to leading the van der Schaar Lab, Mihaela is founder and director of the Cambridge Centre for AI in Medicine (CCAIM). 
 
     Mihaela was elected IEEE Fellow in 2009 and Fellow of the Royal Society in 2024. She has received numerous awards, including the Johann Anton Merck Award (2024), the Oon Prize on Preventative Medicine from the University of Cambridge (2018), a National Science Foundation CAREER Award (2004), 3 IBM Faculty Awards, the IBM Exploratory Stream Analytics Innovation Award, the Philips Make a Difference Award and several best paper awards, including the IEEE Darlington Award. She was a Turing Fellow at The Alan Turing Institute in London between 2016 and 2024. In 2025, she was appointed as Spinoza Guest Professor at Amsterdam University Medical Center. 
-
+  bio-more: >-
     Mihaela is personally credited as inventor on 35 USA patents, many of which are still frequently cited and adopted in standards. She has made over 45 contributions to international standards for which she received 3 ISO Awards. In 2019, a Nesta report determined that Mihaela was the most-cited female AI researcher in the U.K. 
   google-scholar: 
     https://scholar.google.com/citations?user=DZ3S--MAAAAJ&hl=en
@@ -20,9 +20,10 @@
 - name: Sara Magliacane
   title: University of Amsterdam
   image: images/optimized/speakers-600x600/SaraMagliacane.webp
-  bio: >-
+  bio-intro: >-
     Sara Magliacane is an assistant professor in the Amsterdam Machine Learning Lab at the University of Amsterdam and an ELLIS Scholar in the Interactive Learning and Interventional Representations program. During Spring 2022, she visited the Simons Institute in Berkeley for a semester on Causality.
     The goal of her research is to find how causality can improve current machine learning (ML) algorithms, especially in terms of robustness, generalization across domains/tasks, and safety. Her research focuses on three directions: causal representation learning (i.e. learning causal factors from high-dimensional data, e.g. sequences of images), causal discovery (i.e. learning causal relations from data), and causality-inspired ML, e.g. how can ideas from causality help ML/RL adapt to new domains, nonstationarity and varying number of objects with different latent parameters, even when we cannot guarantee that we identified the true causal factors.
+  bio-more: >-
     Previously, she was a Research Scientist at MIT-IBM Watson AI lab and a postdoctoral researcher at IBM Research NY, working on methods to design experiments that would allow one to learn causal relations in a sample-efficient and intervention-efficient way. She received a PhD at VU Amsterdam on learning causal relations jointly from different experimental settings, even with latent confounders and small samples. During her PhD, she interned at Google Zürich and NYC. Previously, she studied Computer Engineering at Politecnico di Milano and Torino and at the University of Trieste.
   google-scholar:
     https://scholar.google.com/citations?user=H3j_zQ4AAAAJ&hl=en
@@ -59,7 +60,7 @@
     https://scholar.google.com/citations?user=xkuLyHoAAAAJ&hl=it
 
 - name: Gitta Kutyniok
-  title: DLR-German Aerospace Center<br>University of Tromsø<br>LMU München
+  title: DLR-German Aerospace Center / University of Tromsø / LMU München
   image: images/optimized/speakers-600x600/GittaKutyniok.webp
   bio: >-
     Gitta Kutyniok currently holds a Bavarian AI Chair for Mathematical Foundations of Artificial Intelligence at the Ludwig-Maximilians-Universität München, and is in addition affiliated with the German Aerospace Center, DLR and the University of Tromsø. Her research work covers the areas of applied and computational harmonic analysis, artificial intelligence, compressed sensing, deep learning, imaging sciences, inverse problems, and applications to life sciences, robotics, and telecommunication
@@ -92,4 +93,13 @@
   bio: >-
     Herke van Hoof is currently associate professor at the University of Amsterdam in the Netherlands, where he is part of the Amlab. He is interested in modular reinforcement learning. Reinforcement learning is a very general framework, but this tends to result in extremely data-hungry algorithms. Exploiting modular structures, including hierarchical structures, allows sharing information between tasks and exploiting prior knowledge, to learn more with less data.
     Before joining the University of Amsterdam, Herke van Hoof was a postdoc at McGill University in Montreal, Canada, where he worked with Professors Joelle Pineau, Dave Meger, and Gregory Dudek. He obtained his PhD at TU Darmstadt, Germany, under the supervision of Professor Jan Peters, where he graduated in November 2016. Herke got his bachelor and master degrees in Artificial Intelligence at the University of Groningen in the Netherlands.
+  google-scholar:
+
+- name: Jenia Jitsev
+  title: LAION / Juelich Supercomputer Center / ELLIS
+  image: images/optimized/speakers-600x600/JeniaJitsev.webp
+  bio-intro: >-
+    Jenia Jitsev is co-founder and scientific lead of LAION e.V, the German non-profit research organization committed to research on open large-scale foundation models and datasets. He also leads Scalable Learning & Multi-Purpose AI (SLAMPAI) lab at Juelich Supercomputer Center, Research Center Juelich, Helmholtz Association, Germany and is a member of ELLIS. His background is in machine learning and neuroscience, aiming to understand learning as a generic process of incrementally building up a useful model of the surrounding world from available sensory observations and executed actions. His current research focus is on using scaling laws for measuring and understanding generalization and strong transfer in open foundation models. Jenia is most known for his work on open language-vision foundation models like openCLIP and open datasets like LAION-400M/5B, Re-LAION, DataComp. 
+  bio-more: >-
+    Recently, he also has been studying reasoning and measuring generalization with works on open reasoning datasets/models OpenThoughts/OpenThinker and on discovering generalization weaknesses using AIW problems. Jenia coordinates acquisition of large-scale compute grants for conducting collaborative research on open foundation models across various supercomputing facilities, including EuroHPC. Using these resources, together with the community he is driving and democratizing research on scalable systems for generalist, transferable multi-modal learning, leading to foundation AI models capable of strong transfer and therefore easily adaptable to a broad range of desired tasks and hardware resource settings. For his work, Dr. Jitsev received Best Paper Award at IJCNN 2012, Outstanding Paper Award at NeurIPS 2022 and Falling Walls Scientific Breakthrough of the Year 2023 Award.
   google-scholar:

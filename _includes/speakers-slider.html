@@ -24,7 +24,14 @@ Expects following parameters:
                     <div class="speaker-details-text col-md-8">
                         <h2 class="emph-i">{{ speaker.name }}</h2>
                         <h3>{{ speaker.title }}</h3>
-                        <p>{{ speaker.bio }}</p>
+                        {% if speaker.bio-intro and speaker.bio-more %}
+                            <input type="checkbox" class="read-more-state" id="{{ speaker.name | replace: ' ','-' }}-bio" />
+                            <p class="read-more-wrap">{{ speaker.bio-intro }} <span class="read-more-target">{{ speaker.bio-more }}</span>
+                            </p>
+                            <label for="{{ speaker.name | replace: ' ','-' }}-bio" class="btn btn-default read-more-trigger"></label>
+                        {% elsif speaker.bio %}
+                            <p>{{ speaker.bio }}</p>
+                        {% endif %}
                     </div>
                 </div>
                 {% endfor %}
