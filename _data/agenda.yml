@@ -435,12 +435,12 @@
         - title: 'Invited Talk 13: <strong>TBA</strong>'
           subtitle:
           element-class: col-lg-4
-          time: 16:10 - 17:10
+          time: 16:30 - 17:30
           room: Hall A
         - title: 'Invited talk 14: <strong>TBA</strong>'
           subtitle:
           element-class: col-lg-4
-          time: 16:10 - 17:10
+          time: 16:30 - 17:30
           room: Hall B
     - events:
         - title: 'Closing remarks'
