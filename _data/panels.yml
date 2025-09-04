@@ -63,8 +63,13 @@
       bio: >-
         Marianna Nezhurina is a core researcher in LAION and scientific staff member in Juelich Supercomputing Center (JSC). Her research is focusing on large-scale foundation models and datasets, scalability and generalization of foundation models. She was participating in several open-source efforts like DataComp-LM, LAION CLAP and BigScience BLOOM. Most recently she was taking part in OpenThoughts (open reasoning datasets and models) as a core contributor.
   
-    - name: To Be Announced
-      image: images/empty.png
+    - name: Gerhard Wunder
+      image: images/optimized/speakers-600x600/GerhardWunder.webp
+      title: Freie Universität Berlin
+      bio-intro: >-
+        Gerhard Wunder is a professor for Cybersecurity and AI at the Freie Universität Berlin, a leading excellence university in Germany, supported by the Deutsche Bundesdruckerei GmbH. His main research areas include, e.g., LLMs, AI Explainability & Reasoning, Quantum Algorithms & Communications including Post-Quantum Crypto. 
+      bio-more: >-
+        He has been a visiting professor at the Georgia Institute of Technology (Prof. Jayant) in Atlanta (USA, GA), the Stanford University (Prof. Paulraj) in Palo Alto/USA (CA). Gerhard Wunder is a distinguished DFG Heisenberg Fellow and he has been nominated together with Dr. Müller (BOSCH Stuttgart) and Prof. Paar (Ruhr University Bochum) for the Deutscher Zukunftspreis 2017 for his work in Physical Layer Security. Since 2025 he is also leading the AI department at the distinguished Fraunhofer Institute for Applied and Integrated Security (AISEC) in Munich
 
 - name: "PL in ML: Polish View on Machine Learning"
   short-name: "PL in ML: Polish View on ML"
