@@ -1,47 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-{% include head.html %}
+    {% include head.html %}
 
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-    {% include nav.html %}
-    {% include header.html %}
-    {% include banner.html %}
+    <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+        {% include nav.html %}
+        {% include header.html %}
 
-    {% include conference/tickets.html %}
+        {% if site.state.banner-text %}
+        {% include banner.html %}
+        {% endif %}
 
-    {% include conference/about.html %}
+        {% include conference/tickets.html %}
 
-    {% include conference/invited-speakers-slider.html %}
+        {% include conference/about.html %}
 
-    {% include conference/panels-slider.html %}
-    
-    {% comment %}
-    {% include conference/sponsor-speakers-slider.html %}
-    {% include conference/badge-game.html %}
-    {% endcomment %}
+        {% if site.state.invited-speakers %}
+        {% assign more_are_coming = true %}
+        {% if site.state.invited-speakers == "all" %}
+        {% assign more_are_coming = false %}
+        {% endif %}
+        {% include conference/invited-speakers-slider.html more-are-coming=more_are_coming %}
+        {% endif %}
 
-    {% include agenda-slider.html agenda-data=site.data.agenda draft=true show-full-program=false %}
+        {% include conference/panels-slider.html %}
+        
+        {% comment %}
+        {% include conference/sponsor-speakers-slider.html %}
 
-    {% include conference/calls.html state="closed" %}
+        {% include conference/badge-game.html %}
+        {% endcomment %}
 
-    {% include conference/venue.html %}
-    {% include conference/timeline-with-calendars.html %}
+        {% if site.state.agenda %}
+            {% assign agenda_draft = false %}
+            {% if site.state.agenda == "draft" %}
+                {% assign agenda_draft = true %}
+            {% endif %}
 
-    {% comment %}
-    {% include conference/aiart.html %}
-    {% endcomment %}
+            {% assign agenda_full = false %}
+            {% if site.state.agenda == "full" %}
+                {% assign agenda_full = true %}
+            {% endif %}
 
-    {% comment %}
-    {% include conference/sponsors-call.html %}
-    {% endcomment %}
+            {% include agenda-slider.html agenda-data=site.data.agenda draft=agenda_draft show-full-program=agenda_full %}
+        {% endif %}
 
-    {% include conference/sponsors.html %}
+        {% include conference/calls.html state=site.state.cfc %}
 
-    {% include conference/organizers.html %}
-    {% include conference/advisory-board.html %}
-    {% include contact.html %}
-    {% include footer.html %}
-    {% include js.html %}
-</body>
+        {% include conference/venue.html %}
 
+        {% include conference/timeline-with-calendars.html %}
+
+        {% comment %}
+        {% include conference/aiart.html %}
+        {% endcomment %}
+
+        {% comment %}
+        {% include conference/sponsors-call.html %}
+        {% endcomment %}
+
+        {% include conference/sponsors.html %}
+
+        {% include conference/organizers.html %}
+        {% include conference/advisory-board.html %}
+        {% include contact.html %}
+
+        {% include footer.html %}
+        {% include js.html %}
+    </body>
 </html>
