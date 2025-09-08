@@ -52,6 +52,16 @@ header:
   # Meetup countdown settings
   meetup-countdown-date: "2024-06-20T17:45:00"
 
+# State
+# 
+# Represents the state of the conference.
+# Dynamically controls visibility and content of the site sections.
+state:
+  invited-speakers: "first"  # options: null, "first", "all"
+  cfc: "closed"  # options: null, "open", "closed", "after" (the conference)
+  agenda: "draft"  # options: null, "draft", "full"
+  banner-text: 'Regular ticket sales open now! Secure your spot <a href="https://app.evenea.pl/event/mlinpl25/">here</a>!'
+
 # Navigation settings
 navigation:
   - name: "/ Tickets"
