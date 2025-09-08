@@ -68,19 +68,21 @@
             <p>More information about this year's speakers, calls for talks/posters/workshops and tickets will be published soon. Meanwhile we invite you to:</p>
         </div> -->
 
-        <!-- When the program added, uncomment -->
+        {% if site.state.agenda %}
         <div class="col-lg-6 text-center">
             <a class="btn btn-default btn-lg" href="{{ "./#agenda" | relative_url }}"><i class="fa-solid fa-angles-down"></i> Find this year's agenda below</a>
         </div>
+        {% else %}
+        <div class="col-lg-6 text-center">
+            <a class="btn btn-default btn-lg" href="https://conference2024.mlinpl.org" target="_blank">Check the aftermovie <i class="fa-solid fa-film"></i>, photos <i class="fa-solid fa-camera-retro"></i>, <br>and program&nbsp;<i class="fa-regular fa-calendar-days"></i> of the previous edition</span></span> </a>
+        </div>
+        {% endif %}
 
         <div class="col-lg-6 text-center">
             <a class="btn btn-default btn-lg" href="{{ "./about-ml-in-pl-conference" | relative_url }}">Learn more about <span class="logo"><span class="main-name">ML&nbsp;in&nbsp;PL</span>&nbsp;<span class="sub-name">Conference</span></span> </a>
         </div>
-        
-        <!-- <div class="col-lg-4 text-center">
-            <a class="btn btn-default btn-lg" href="https://conference2024.mlinpl.org" target="_blank">Check the aftermovie <i class="fa-solid fa-film"></i>, photos <i class="fa-solid fa-camera-retro"></i>, <br>and program&nbsp;<i class="fa-regular fa-calendar-days"></i> of the previous edition</span></span> </a>
-        </div> -->
     </div>
+
     {% comment %}
     <div class="row" style="margin-top: 85px;">
         <div class="col-lg-6">
