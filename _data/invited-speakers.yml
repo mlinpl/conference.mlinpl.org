@@ -103,3 +103,10 @@
   bio-more: >-
     Recently, he also has been studying reasoning and measuring generalization with works on open reasoning datasets/models OpenThoughts/OpenThinker and on discovering generalization weaknesses using AIW problems. Jenia coordinates acquisition of large-scale compute grants for conducting collaborative research on open foundation models across various supercomputing facilities, including EuroHPC. Using these resources, together with the community he is driving and democratizing research on scalable systems for generalist, transferable multi-modal learning, leading to foundation AI models capable of strong transfer and therefore easily adaptable to a broad range of desired tasks and hardware resource settings. For his work, Dr. Jitsev received Best Paper Award at IJCNN 2012, Outstanding Paper Award at NeurIPS 2022 and Falling Walls Scientific Breakthrough of the Year 2023 Award.
   google-scholar:
+
+- name: Sander Dieleman
+  title: Google DeepMind
+  image: images/optimized/speakers-600x600/SanderDieleman.webp
+  bio:
+    Sander Dieleman is a Research Scientist at Google DeepMind in London, UK, where he has worked on the development of AlphaGo, WaveNet, Imagen 4, Veo 3, and more. He obtained his PhD from Ghent University in 2016. His current research interests include representation learning and generative modelling of audio, images and video.
+  google-scholar:
