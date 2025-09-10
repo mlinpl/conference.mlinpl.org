@@ -69,6 +69,9 @@
     - name: AI Clearing
       image: "images/optimized/sponsors-600x600/AIClearing.webp"
       url: "https://aiclearing.com/"
+    - name: Air Space Intelligence
+      image: "images/sponsors/ASI.svg"
+      url: "https://www.airspace-intelligence.com/"
 #     - name: Palto
 #       image: "images/optimized/sponsors-600x600/Palto.svg"
 #       url: "https://palto.ai"
