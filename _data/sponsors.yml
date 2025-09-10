@@ -22,6 +22,9 @@
     - name: Snowflake
       image: "images/optimized/sponsors-600x600/Snowflake.webp"
       url: "https://www.snowflake.com/"
+    - name: Tenstorrent
+      image: "images/optimized/sponsors-600x600/Tenstorrent.webp"
+      url: "https://www.tenstorrent.com/"
 
 - title: '/ <span class="gold-shine-text">Gold sponsors</span>'
   imageMaxWidth: 280px
