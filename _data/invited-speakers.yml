@@ -110,3 +110,10 @@
   bio:
     Sander Dieleman is a Research Scientist at Google DeepMind in London, UK, where he has worked on the development of AlphaGo, WaveNet, Imagen 4, Veo 3, and more. He obtained his PhD from Ghent University in 2016. His current research interests include representation learning and generative modelling of audio, images and video.
   google-scholar:
+
+- name: Shreya Pathak
+  title: Google DeepMind
+  image: images/optimized/speakers-600x600/ShreyaPathak.webp
+  bio: >-
+    Shreya Pathak is a research engineer at Google DeepMind, currently on the Gemma team. She works particularly on exploring different architectures for Gemma, optimising for on-device use cases. Prior to this, she had worked on multimodal understanding of video-language models. She graduated from IIT Bombay with a bachelor's in computer science and engineering.
+  

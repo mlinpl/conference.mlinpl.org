@@ -13,13 +13,13 @@
     The "AI in Security" panel will focus on the intersection of AI and cybersecurity. We aim to explore topics such as the role of AI in threat detection, vulnerability assessment, and incident response, as well as the ethical and societal implications of deploying AI in security systems. Additionally, we will discuss the potential risks associated with AI-driven cybersecurity solutions, including adversarial attacks and data privacy concerns.
   # note: "Moderators: "
   panelists:
-    - name: Jakub Kałużny 
-      image: images/optimized/speakers-600x600/JakubKałużny.webp
-      title: Snowflake
-      bio: >-
-        Jakub leads AI Security efforts at Snowflake as a Senior Manager in the Product Security org where he manages a portfolio of AppSec services.
-        Before Snowflake, he was managing pentesting programs and implementing threat modeling processes in various enterprises across Australia and Poland. Speaker at international IT Security conferences - OWASP Global AppSec, Blackhat, HackInTheBox, CONFIdence.
-      # bio-more: >-
+    - name: Gerhard Wunder
+      image: images/optimized/speakers-600x600/GerhardWunder.webp
+      title: Freie Universität Berlin
+      bio-intro: >-
+        Gerhard Wunder is a professor for Cybersecurity and AI at the Freie Universität Berlin, a leading excellence university in Germany, supported by the Deutsche Bundesdruckerei GmbH. His main research areas include, e.g., LLMs, AI Explainability & Reasoning, Quantum Algorithms & Communications including Post-Quantum Crypto. 
+      bio-more: >-
+        He has been a visiting professor at the Georgia Institute of Technology (Prof. Jayant) in Atlanta (USA, GA), the Stanford University (Prof. Paulraj) in Palo Alto/USA (CA). Gerhard Wunder is a distinguished DFG Heisenberg Fellow and he has been nominated together with Dr. Müller (BOSCH Stuttgart) and Prof. Paar (Ruhr University Bochum) for the Deutscher Zukunftspreis 2017 for his work in Physical Layer Security. Since 2025 he is also leading the AI department at the distinguished Fraunhofer Institute for Applied and Integrated Security (AISEC) in Munich
 
     - name: Maura Pintor
       image: images/optimized/speakers-600x600/MauraPintor.webp
@@ -31,13 +31,12 @@
         She was a visiting student at the University of Tuebingen, Germany, from March to June 2020 and at the Software Competence Center Hagenberg (SCCH), Austria, from May to August 2021, and at the Universitat Autònoma de Barcelona (UAB), in the Computer Vision Center (CVC), from July to October 2024.
         She is area chair for NeurIPS, Associate Editor for Pattern Recognition, and reviewer for ACM CCS, ECCV, ICLR, ICCV, and for the journals IEEE TIFS, IEEE TIP, IEEE TDSC, IEEE TNNLS, TOPS. She is co-chair of the ACM Workshop on Artificial Intelligence and Security (AISec), co-located with ACM CCS.
 
-    - name: Gerhard Wunder
-      image: images/optimized/speakers-600x600/GerhardWunder.webp
-      title: Freie Universität Berlin
-      bio-intro: >-
-        Gerhard Wunder is a professor for Cybersecurity and AI at the Freie Universität Berlin, a leading excellence university in Germany, supported by the Deutsche Bundesdruckerei GmbH. His main research areas include, e.g., LLMs, AI Explainability & Reasoning, Quantum Algorithms & Communications including Post-Quantum Crypto. 
-      bio-more: >-
-        He has been a visiting professor at the Georgia Institute of Technology (Prof. Jayant) in Atlanta (USA, GA), the Stanford University (Prof. Paulraj) in Palo Alto/USA (CA). Gerhard Wunder is a distinguished DFG Heisenberg Fellow and he has been nominated together with Dr. Müller (BOSCH Stuttgart) and Prof. Paar (Ruhr University Bochum) for the Deutscher Zukunftspreis 2017 for his work in Physical Layer Security. Since 2025 he is also leading the AI department at the distinguished Fraunhofer Institute for Applied and Integrated Security (AISEC) in Munich
+    - name: Jakub Kałużny 
+      image: images/optimized/speakers-600x600/JakubKałużny.webp
+      title: Snowflake
+      bio: >-
+        Jakub leads AI Security efforts at Snowflake as a Senior Manager in the Product Security org where he manages a portfolio of AppSec services.
+        Before Snowflake, he was managing pentesting programs and implementing threat modeling processes in various enterprises across Australia and Poland. Speaker at international IT Security conferences - OWASP Global AppSec, Blackhat, HackInTheBox, CONFIdence.
 
 - name: Open models, open data
   # date: Friday / 8 November
