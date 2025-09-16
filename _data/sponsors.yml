@@ -34,6 +34,9 @@
   imageMaxHeight: 90px
   margin: 30px 45px
   sponsors:
+    - name: ElevenLabs
+      image: "images/optimized/sponsors-600x600/ElevenLabs.svg"
+      url: "https://elevenlabs.io"
     - name: Jane Street
       image: "images/optimized/sponsors-600x600/JaneStreet.webp"
       url: "https://www.janestreet.com"
