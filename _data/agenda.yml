@@ -1,3 +1,5 @@
+# offset with: col-lg-offset-4
+
 - title: Wednesday / 15 October
   date: 2025-10-15
   location: Copernicus Science Centre
@@ -57,80 +59,69 @@
         - title: Registration
           subtitle: (Also open after 12:00)
           element-class: col-lg-12
-          time: 11:00 - 12:00
+          time: 9:00 - 12:00
     - events:
         - title: Opening remarks
           element-class: col-lg-4
           time: 12:00 - 12:15
           room: Main Hall
+        - title: Opening remarks
+          element-class: col-lg-4
+          time: 12:00 - 12:15
+          room: Hall A
     - events:
         - title: "Discussion Panel 1: <strong> PL in ML</strong>"
           subtitle: 
           element-class: col-lg-4
-          time: 12:15 - 13:15
+          time: 12:20 - 13:20
           room: Main Hall
           # url: /program#discussion-panel-1
         - title: "Invited Talk 1: <strong>TBA</strong>"
-          subtitle:
+          subtitle: by Sara Magliacane (University of Amsterdam)
           element-class: col-lg-4
-          time: 12:15 - 13:15
+          time: 12:20 - 13:20
           room: Hall A
           # url: /program#invited-talk-1
         - title: "Invited Talk 2: <strong>TBA</strong>"
-          subtitle:
+          subtitle: by Shreya Pathak (Google DeepMind)
           element-class: col-lg-4
-          time: 12:15 - 13:15
+          time: 12:20 - 13:20
           room: Hall B
           # url: /program#invited-talk-2
     - events:
         - title: '<i class="fa-solid fa-utensils"></i> Lunch'
           element-class: col-lg-12
-          time: 13:15 - 14:30
-    - events:
-        - title: "Sponsor Talk: <strong>TBA</strong>"
-          element-class: col-lg-4
-          time: 14:30 - 15:30
-          room: Main Hall
-        - title: "Sponsor Talk: <strong>TBA</strong>"
-          subtitle:
-          element-class: col-lg-4
-          time: 14:30 - 15:30
-          room: Hall A
-        - title: "Sponsor Talk: <strong>TBA</strong>"
-          element-class: col-lg-4
-          time: 14:30 - 15:30
-          room: Hall B
+          time: 13:20 - 15:00
     - events:
         - title: 
           subtitle: 
           element-class: col-lg-4
-          # time: 15:45 - 16:45
-          # room: Main Hall
-        - title: "Invited Talk 3: <strong>TBA</strong>"
+        - title: "Sponsor Talk: <strong>TBA</strong>"
           subtitle:
           element-class: col-lg-4
-          time: 15:45 - 16:45
+          time: 15:00 - 16:00
+          room: Hall A
+        - title: "Sponsor Talk: <strong>TBA</strong>"
+          element-class: col-lg-4
+          time: 15:00 - 16:00
+          room: Hall B
+    - events:
+        - title: "Invited Talk 3: <strong>TBA</strong>"
+          subtitle: by Adel Bibi (University of Oxford / Kellog College / Softserve)
+          element-class: col-lg-offset-4  col-lg-4
+          time: 16:15 - 17:15
           room: Hall A
         - title: "Invited Talk 4: <strong>TBA</strong>"
-          subtitle:
+          subtitle: by Francesco Locatello (ISTA)
           element-class: col-lg-4
-          time: 15:45 - 16:45
+          time: 16:15 - 17:15
           room: Hall B
-    # - events:
-    #     - title: '<i class="fa-solid fa-mug-saucer"></i> Coffee'
-    #       element-class: col-lg-12
-    #       time: 15:45 - 16:15
-    - events:
-        - title: '<strong>TBA</strong>'
-          element-class: col-lg-12
-          time: 17:00 - 18:30
-          room: Main Hall
     - events:
         - title: '<i class="fa-solid fa-champagne-glasses"></i> Conference Party'
           element-class: col-lg-12
           time: 19:00 - 24:00
-          # subtitle: <i class="fa-solid fa-location-dot"></i> Bolek Pub & Restaurant, al. Niepodległości 211, 02-086 Warszawa
-          note: '<i class="fa-solid fa-id-badge"></i> Remember to take your badges with you, they are required to enter.'
+          subtitle: <i class="fa-solid fa-location-dot"></i> Bolek Pub & Restaurant, al. Niepodległości 211, 02-086 Warszawa
+          note: '<i class="fa-solid fa-id-badge"></i> Remember to take your badges and ID cards with you, they are required to enter'
 
 - title: Thursday / 16 October
   date: 2025-10-16
@@ -202,42 +193,38 @@
     - events:
       - title: "Discussion Panel 2: <strong>Open models, open data</strong>"
         element-class: col-lg-4
-        time: 11:10 - 12:10
+        time: 11:15 - 12:15
         room: Main Hall
         # url: /program#discussion-panel-2
       - title: "Invited Talk 5: <strong>TBA</strong>"
-        subtitle:
+        subtitle: by Federico Tombari (Google / Technical University of Munich)
         element-class: col-lg-4
-        time: 11:10 - 12:10
+        time: 11:15 - 12:15
         room: Hall A
         # url: /program#invited-talk-5
       - title: "Invited Talk 6: <strong>TBA</strong>"
-        subtitle:
+        subtitle: by Gitta Kutyniok (DLR / University of Tromsø / LMU Munich)
         element-class: col-lg-4
-        time: 11:10 - 12:10
+        time: 11:15 - 12:15
         room: Hall B
         # url: /program#invited-talk-6
 
     - events:
-      - title: '<i class="fa-solid fa-mug-saucer"></i> Coffee'
-        element-class: col-lg-12
-        time: 12:10 - 12:30
-
-    - events:
-      - title: "Poster Session 1"
+      - title: 'Poster Session 1 + <i class="fa-solid fa-mug-saucer"></i> Coffee'
         # subtitle: "with posters: 1-14, 16-31"
         element-class: col-lg-12
-        time: 12:30 - 14:30
+        time: 12:15 - 13:45
         # url: /program#poster-1
+        note: You can continue presenting your posters during lunch
 
     - events:
       - title: '<i class="fa-solid fa-utensils"></i> Lunch'
         element-class: col-lg-12
-        time: 14:30 - 15:30
+        time: 13:00 - 14:30
 
     - events:
       - title: '<i class="fa-solid fa-award"></i> Talks by Witold Lipski Award Laureates'
-        time: 15:30 - 17:00
+        time: 14:30 - 16:00
         element-class: col-lg-4
         room: Main Hall
         # subevents:
@@ -255,7 +242,7 @@
         #     url: /program#contributed-talk-9
         
       - title: "Contributed Talks Session 4"
-        time: 15:30 - 17:00
+        time: 14:30 - 16:00
         # subevents:
         #   - title: "<strong>How LLMs are Revolutionizing the Cybersecurity Field</strong>"
         #     subtitle: by Natasha Al-Khatib (Symbio)
@@ -273,7 +260,7 @@
         room: Hall A
 
       - title: "Contributed Talks Session 5"
-        time: 15:30 - 17:00
+        time: 14:30 - 16:00
         # subevents:
         #   - title: "<strong>Personalisation of Large-Scale Diffusion Models</strong>"
         #     subtitle: by Kamil Deja (Warsaw University of Technology / IDEAS NCBR)
@@ -291,22 +278,37 @@
         room: Hall B
 
     - events:
-      - title: "Invited Talk 7: <strong>TBA</strong>"
+      - title:
         subtitle:
         element-class: col-lg-4
-        time: 17:10 - 18:10
+      - title: "Sponsor Talk: <strong>TBA</strong>"
+        subtitle:
+        element-class: col-lg-4
+        time: 16:15 - 17:15
+        room: Hall A
+      - title: "Sponsor Talk: <strong>TBA</strong>"
+        subtitle:
+        element-class: col-lg-4
+        time: 16:15 - 17:15
+        room: Hall B
+
+    - events:
+      - title: "Invited Talk 7: <strong>TBA</strong>"
+        subtitle: by Mihaela van der Schaar (University of Cambridge)
+        element-class: col-lg-4
+        time: 17:30 - 18:30
         room: Main Hall
 
       - title: "Invited Talk 8: <strong>TBA</strong>"
-        subtitle:
+        subtitle: by Antonio Orvieto (ELLIS Institute Tübingen)
         element-class: col-lg-4
-        time: 17:10 - 18:10
+        time: 17:30 - 18:30
         room: Hall A
 
       - title: "Invited Talk 9: <strong>TBA</strong>"
-        subtitle:
+        subtitle: by Sander Dieleman (Google DeepMind)
         element-class: col-lg-4
-        time: 17:10 - 18:10
+        time: 17:30 - 18:30
         room: Hall B
 
 - title: Friday / 17 October
@@ -376,77 +378,72 @@
         #     url: /program#contributed-talk-6
 
     - events:
-      - title: "Invited Talk 10: <strong>TBA</strong>"
-        subtitle:
+      - title: 'Discussion Panel 3: <strong>AI&nbsp;Security</strong>'
         element-class: col-lg-4
-        time: 11:10 - 12:10
-        room: Main Hall
+        time: 11:15 - 12:15
+        room: Main Hall 
+        # url: /program#discussion-panel-3
+      - title: "Invited Talk 10: <strong>TBA</strong>"
+        subtitle: by Jenia Jitsev (LAION / Juelich Supercomputer Center / ELLIS)
+        element-class: col-lg-4
+        time: 11:15 - 12:15
+        room: Hall A
       
       - title: "Invited Talk 11: <strong>TBA</strong>"
-        subtitle:
+        subtitle: by Alexey Dosovitskiy (LAION / Juelich Supercomputer Center / ELLIS)
         element-class: col-lg-4
-        time: 11:10 - 12:10
-        room: Hall A
-
-      - title: "Invited Talk 12: <strong>TBA</strong>"
-        subtitle:
-        element-class: col-lg-4
-        time: 11:10 - 12:10
+        time: 11:15 - 12:15
         room: Hall B
 
     - events:
       - title: 'Poster Session 2 + <i class="fa-solid fa-mug-saucer"></i> Coffee'
         # subtitle: "with posters: 15, 32-63"
         element-class: col-lg-12
-        time: 12:10 - 14:15
+        time: 12:15 - 13:45
         # url: /program#poster-32
+        note: You can continue presenting your posters during lunch
 
     - events:
       - title: '<i class="fa-solid fa-utensils"></i> Lunch'
         element-class: col-lg-12
-        time: 14:15 - 15:15
+        time: 13:00 - 14:30
 
     - events:
+      - title:
+        subtitle:
+        element-class: col-lg-4
       - title: 'Sponsor talk: <strong>TBA</strong>'
         subtitle:
-        time: 
         element-class: col-lg-4
-        time: 15:15 - 16:15
-        room: Main Hall
-      - title: 'Sponsor talk: <strong>TBA</strong>'
-        subtitle:
-        time: 
-        element-class: col-lg-4
-        time: 15:15 - 16:15
+        time: 14:45 - 15:45
         room: Hall A
       - title: 'Sponsor talk: <strong>TBA</strong>'
         subtitle:
-        time: 
         element-class: col-lg-4
-        time: 15:15 - 16:15
+        time: 14:45 - 15:45
         room: Hall B
           
     - events: 
-        - title: 'Discussion Panel 3: <strong>AI&nbsp;Security</strong>'
-          element-class: col-lg-4
-          time: 16:30 - 17:30
-          room: Main Hall 
-          # url: /program#discussion-panel-3
-        - title: 'Invited Talk 13: <strong>TBA</strong>'
-          subtitle:
-          element-class: col-lg-4
-          time: 16:30 - 17:30
-          room: Hall A
-        - title: 'Invited talk 14: <strong>TBA</strong>'
-          subtitle:
-          element-class: col-lg-4
-          time: 16:30 - 17:30
-          room: Hall B
+      - title: "Invited Talk 12: <strong>TBA</strong>"
+        subtitle: by Johannes Brandstetter (Johannes Kepler University /&nbsp;Emmi&nbsp;AI)
+        element-class: col-lg-4
+        time: 16:00 - 17:00
+        room: Main Hall
+      - title: 'Invited Talk 13: <strong>TBA</strong>'
+        subtitle: by Bartłomiej Papież (University of Oxford)
+        element-class: col-lg-4
+        time: 16:00 - 17:00
+        room: Hall A
+      - title: 'Invited talk 14: <strong>TBA</strong>'
+        subtitle: by Herke van Hoof (University of Amsterdam)
+        element-class: col-lg-4
+        time: 16:00 - 17:00
+        room: Hall B
     - events:
-        - title: 'Closing remarks'
-          element-class: col-lg-12
-          time: 17:30 - 18:00
-          room: Main Hall
+      - title: 'Closing remarks'
+        element-class: col-lg-12
+        time: 17:10 - 17:40
+        room: Main Hall
 
 - title: Saturday / 18 October
   date: 2025-10-18
@@ -483,26 +480,26 @@
     - events:
       - title: 'Break'
         element-class: col-lg-12
-        time: 13:00 - 13:30
+        time: 13:00 - 14:00
     - events:
       - title: 'Tutorial 6: <strong>TBA</strong>'
         element-class: col-lg-4
-        time: 13:30 - 17:30
+        time: 14:00 - 18:00
         # url: /program#tutorial-6
       - title: 'Tutorial 7: <strong>TBA</strong>'
         element-class: col-lg-4
-        time: 13:30 - 17:30
+        time: 14:00 - 18:00
         # url: /program#tutorial-7
       - title: 'Tutorial 8: <strong>TBA</strong>'
         element-class: col-lg-4
-        time: 13:30 - 17:30
+        time: 14:00 - 18:00
         # url: /program#tutorial-8
     - events:
       - title: 'Tutorial 9: <strong>TBA</strong>'
         element-class: col-lg-4
-        time: 13:30 - 17:30
+        time: 14:00 - 18:00
         # url: /program#tutorial-9
       - title: 'Tutorial 10: <strong>TBA</strong>'
         element-class: col-lg-4
-        time: 13:30 - 17:30
+        time: 14:00 - 18:00
         # url: /program#tutorial-11
