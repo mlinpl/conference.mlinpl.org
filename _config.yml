@@ -57,7 +57,7 @@ header:
 # Represents the state of the conference.
 # Dynamically controls visibility and content of the site sections.
 state:
-  invited-speakers: "first"  # options: null, "first", "all"
+  invited-speakers: "all"  # options: null, "first", "all"
   cfc: "closed"  # options: null, "open", "closed", "after" (the conference)
   agenda: "draft"  # options: null, "draft", "full"
   banner-text: 'Regular ticket sales open now! <a href="https://app.evenea.pl/event/mlinpl25/">Secure your spot</a>!'
