@@ -10,7 +10,7 @@ early-bird:
     regular: "700 PLN"
   price_label: "Early Bird Price"
   active: false
-  visible: true
+  visible: false
   url: "https://mlinpl2025eb.paperform.co/"
 
 regular:
@@ -46,13 +46,14 @@ tutorials:
   name: "Tutorial registration"
   icon: "fa-solid fa-graduation-cap"
   description: >-
-    Separate registration for tutorials. Starts 21&nbsp;October, 18:00 CEST (GMT+2) 
+    <strong>Separate registration</strong> for tutorials. Starts 1&nbsp;October, 18:00 CEST (GMT+2) 
     and lasts until all tickets are sold out.
-    <strong>Selected tutorials are free of charge.</strong>
+
+  # <strong>Selected tutorials are free of charge.</strong>
   prices:
     student: "60 PLN"
     regular: "120 PLN"
   price_label: "Price"
   active: false
-  visible: false
+  visible: true
   url: "https://app.evenea.pl/event/mlinpl25-tutorials/"

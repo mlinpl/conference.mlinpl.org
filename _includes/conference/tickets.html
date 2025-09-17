@@ -35,9 +35,15 @@ To change which tickets are active or visible, modify the 'active' and 'visible'
 
             {% unless site.data.tickets.tutorials.visible %}
             <p style="margin-top: 20px;">
-                <i class="emph fa-solid fa-circle-info"></i> Tutorial registration will be announced soon! Please note that attending <strong>tutorials requires separate tickets</strong>.
+                <i class="emph fa-solid fa-circle-info"></i> Tutorial registration will be announced soon! Please note that <strong>attending tutorials requires separate tickets</strong>.
             </p>
             {% endunless %}
+
+            {% if site.data.tickets.tutorials.visible %}
+            <p style="margin-top: 20px;">
+                <i class="emph fa-solid fa-circle-info"></i> Please note that <strong>attending tutorials requires separate tickets</strong>.
+            </p>
+            {% endif %}
         </div>
     </div>
 </section>
