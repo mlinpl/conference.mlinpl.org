@@ -1,5 +1,5 @@
 - name: Przemysław Biecek
-  affiliation: Warsaw University of Technology / University of Warsaw
+  affiliation: Centre for Credible AI / University of Warsaw
   image: images/optimized/advisory-board-300x300/PrzemyslawBiecek.webp
   google-scholar: https://scholar.google.com/citations?user=Af0O75cAAAAJ
   bio: >-
@@ -69,11 +69,11 @@
     He was working on topology, determinacy of games, logic and automata. Then he turned his interests to more practical games and wrote two papers on Morpion Solitaire. Presenting these papers at the IJCAI conference in 2015 he met researchers from DeepMind and discovered the budding field of deep reinforcement learning. This resulted in a series of papers including Learning from memory of Atari 2600, Hierarchical Reinforcement Learning with Parameters, Distributed Deep Reinforcement Learning: Learn how to play Atari games in 21 minutes and Reinforcement Learning of Theorem Proving.
 
 - name: Piotr Miłoś
-  affiliation: IDEAS NCBR / University of Warsaw
+  affiliation: University of Warsaw / Google
   image: images/optimized/advisory-board-300x300/PiotrMilos.webp
   google-scholar: https://scholar.google.com/citations?user=Se68XecAAAAJ
   bio: >-
-    Piotr Miłoś is an associate professor in the Polish Academy of Sciences, a team leader at IDEAS NCBR and a member of the ELLIS Society. He is interested in methods that can deliver robust decision-making capabilities in complex scenarios. This covers many scenarios including continual learning, automated reasoning in mathematics, planning algorithms and sequential modelling. 
+    Piotr Miłoś is an Associate Professor at the University of Warsaw, a member of the ELLIS Society, and a Staff SWE at Google. He is interested in methods that deliver robust decision-making capabilities in complex scenarios. His work covers topics including continual learning, automated reasoning in mathematics, planning algorithms, and sequential modeling
 
 - name: Razvan Pascanu
   affiliation: DeepMind
@@ -92,7 +92,7 @@
     Her main research interests revolve around efficient vision systems, with a focus on deep video models. She is one of the main organisers of EEML summer school and has served as program committee member for top Computer Vision and Machine Learning conferences.
 
 - name: Piotr Sankowski
-  affiliation: IDEAS / University of Warsaw
+  affiliation: IDEAS Research Institute
   image: images/optimized/advisory-board-300x300/PiotrSankowski.webp
   google-scholar: https://scholar.google.pl/citations?user=-5LVg-0AAAAJ
   bio-intro: >-
@@ -120,13 +120,11 @@
     the EU Global Gateway strategy.
 
 - name: Ewa Szczurek
-  affiliation: University of Warsaw
+  affiliation: Helmholtz Center Munich / University of Warsaw
   image: images/optimized/advisory-board-300x300/EwaSzczurek.webp
   google-scholar: https://scholar.google.pl/citations?user=hltmGf0AAAAJ
-  bio-intro: >-
-    Ewa Szczurek is an assistant professor at the Faculty of Mathematics, Informatics and Mechanics at the University of Warsaw. She holds two Master degrees, one from the Uppsala University, Sweden and one from the University of Warsaw, Poland.
-  bio-more: >-
-    She finished PhD studies at the Max Planck Institute for Molecular Genetics in Berlin, Germany and conducted postdoctoral research at ETH Zurich, Switzerland. She now leads a research group focusing on machine learning and molecular biology, with most applications in computational oncology. Her group works mainly with probabilistic graphical models and deep learning, with a recent focus on variational autoencoders.
+  bio: >-
+    Ewa Szczurek is the director of the Institute of AI for Health, Helmholtz Center Munich, Germany and associate professor at the Faculty of Mathematics, Informatics and Mechanics at the University of Warsaw, Poland. She leads joint Munich-Warsaw lab, developing AI methods and applying them to medicine and biology.
 
 - name: Jacek Tabor
   affiliation: Jagiellonian University (GMUM)
@@ -136,10 +134,10 @@
     Jacek Tabor in his scientific work deals with broadly understood machine learning, in particular with deep generative models. He is also a member of the GMUM group (gmum.net) aimed at popularization and development of machine learning methods in Cracow.
 
 - name: Tomasz Trzciński
-  affiliation: Warsaw University of Technology / Tooploox / Jagiellonian University
+  affiliation: Tooploox / IDEAS Research Institute
   image: images/optimized/advisory-board-300x300/TomaszTrzcinski.webp
   google-scholar: https://scholar.google.com/citations?user=bJMRBFoAAAAJ
   bio-intro: >-
     Tomasz Trzciński (DSc, WUT'20; PhD, EPFL'14; MSc, UPC/PoliTo'10) is a Full Professor at Warsaw University of Technology, where he leads a Computer Vision Lab. He is also a Computer Vision Group Leader at IDEAS NCBR, a publicly-funded Polish Center for AI.
   bio-more: >-  
-    He was an Associate Professor at Jagiellonian University of Krakow in years 2020-2023, and a Visiting Scholar at Stanford University in 2017 and at Nanyang Technological University in 2019. Previously, he worked at Google in 2013, Qualcomm in 2012 and Telefónica in 2010. He frequently serves as a reviewer and area chair in major computer science conferences (CVPR, ICCV, ECCV, NeurIPS, ICML) and journals (TPAMI, IJCV, CVIU). He is a Senior Member of IEEE, member of ELLIS Society and director of ELLIS Unit Warsaw, member of the ALICE Collaboration at CERN and an expert of National Science Centre and Foundation for Polish Science. He is a Chief Scientist at Tooploox and a co-founder of Comixify, a technology startup focused on using machine learning algorithms for video editing.
+    He was an Associate Professor at Jagiellonian University of Krakow in years 2020-2023, and a Visiting Scholar at Stanford University in 2017 and at Nanyang Technological University in 2019. Previously, he worked at Google in 2013, Qualcomm in 2012 and Telefónica in 2010. He frequently serves as a reviewer and area chair in major computer science conferences (CVPR, ICCV, ECCV, NeurIPS, ICML) and journals (TPAMI, IJCV, CVIU). He is a Senior Member of IEEE, member of ELLIS Society and director of ELLIS Unit Warsaw, member of the ALICE Collaboration at CERN and an expert of National Science Centre and Foundation for Polish Science. He is a Chief Scientist at Tooploox and also a Deputy Director of IDEAS Research Institute, a publicly-funded Polish center for AI.
