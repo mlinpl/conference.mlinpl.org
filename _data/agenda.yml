@@ -378,7 +378,7 @@
         #     url: /program#contributed-talk-6
 
     - events:
-      - title: 'Discussion Panel 3: <strong>AI&nbsp;Security</strong>'
+      - title: 'Discussion Panel 3: <strong>AI&nbsp;in&nbsp;Security</strong>'
         element-class: col-lg-4
         time: 11:15 - 12:15
         room: Main Hall 
