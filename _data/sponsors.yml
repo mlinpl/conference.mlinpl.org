@@ -157,6 +157,12 @@
 #     - name: AIFlavours
 #       image: "images/optimized/partners-600x600/AIFlavours.webp"
 #       url: "https://www.linkedin.com/company/aiflavours"
+    - name: AI Lab
+      image: "images/optimized/partners-600x600/AI_Lab.webp"
+      url: "https://www.facebook.com/ailabagh/"
+    - name: Best Hacking League
+      image: "images/optimized/partners-600x600/BHL.webp"
+      url: "https://besthackingleague.pl/"
     - name: bit
       image: "images/optimized/partners-600x600/bit.webp"
       url:
