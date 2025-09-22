@@ -18,7 +18,7 @@ The **first five participants** who correctly predict all the labels for the tes
 
 ## / Rules
 
-The rules are simple --- collect as much data as possible and find the mapping function to accurately predict the symbols for the names in the test set. Participants who successfully predict all the symbols for the test set names have a chance to win prizes. If none of the participants solve the puzzle by the end of the conference, the prizes will be raffled among all participants who get the highest number of correct predictions on the test set.
+The rules are simple --- collect as much data as possible and find the mapping function to accurately predict the labels for the names in the test set. Participants who successfully predict all the symbols for the test set names have a chance to win prizes. If none of the participants solve the puzzle by the end of the conference, the prizes will be drawn among all participants who get the highest number of correct predictions on the test set.
 You can **network with other attendees** to collect their names and associated labels or **visit sponsor booths to collect extra data points** that will help you discover the mapping function.
 
 The assigned labels are printed on the back of the badges, so you can ask other participants to show them.
@@ -30,7 +30,7 @@ The assigned labels are printed on the back of the badges, so you can ask other 
 
 ## / Hints
 
-Don't worry if you can't find the pattern right away — after each day we will provide hints to guide you in solving the mapping function. But remember, the faster you solve the puzzle, the higher your chances of winning.
+Don't worry if you can't find the pattern right away --- after each day we will provide hints to guide you in solving the mapping function. But remember, the faster you solve the puzzle, the higher are your chances of winning.
 
 ## / Submit results
 
