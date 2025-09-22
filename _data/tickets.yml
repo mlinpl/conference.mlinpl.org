@@ -23,7 +23,7 @@ regular:
     student: "500 PLN"
     regular: "1000 PLN"
   price_label: "Regular Price"
-  active: true
+  active: false
   visible: true
   url: "https://app.evenea.pl/event/mlinpl25/"
 
