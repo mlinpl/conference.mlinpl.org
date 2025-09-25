@@ -38,6 +38,7 @@ optimize_images advisory-board 300x300 webp 90
 optimize_images previous-speakers 300x300 webp 90
 optimize_images speakers 600x600 webp 90
 optimize_images cfc 600x600 webp 90
+optimize_images tutorials 600x600 webp 90
 
 # Optimize sponsors and partners logos
 optimize_images sponsors 600x600 webp 90

@@ -4,75 +4,15 @@
 # - name: To Be Announced
 #   image: images/empty.png
 
-- name: AI in Security
-  # date: Thursday / 7 November
-  # room: Main Hall
-  # time: 14:45 - 15:45
-  id: 1
-  desc: |-
-    The "AI in Security" panel will focus on the intersection of AI and cybersecurity. We aim to explore topics such as the role of AI in threat detection, vulnerability assessment, and incident response, as well as the ethical and societal implications of deploying AI in security systems. Additionally, we will discuss the potential risks associated with AI-driven cybersecurity solutions, including adversarial attacks and data privacy concerns.
-  # note: "Moderators: "
-  panelists:
-    - name: Gerhard Wunder
-      image: images/optimized/speakers-600x600/GerhardWunder.webp
-      title: Freie Universität Berlin
-      bio-intro: >-
-        Gerhard Wunder is a professor for Cybersecurity and AI at the Freie Universität Berlin, a leading excellence university in Germany, supported by the Deutsche Bundesdruckerei GmbH. His main research areas include, e.g., LLMs, AI Explainability & Reasoning, Quantum Algorithms & Communications including Post-Quantum Crypto. 
-      bio-more: >-
-        He has been a visiting professor at the Georgia Institute of Technology (Prof. Jayant) in Atlanta (USA, GA), the Stanford University (Prof. Paulraj) in Palo Alto/USA (CA). Gerhard Wunder is a distinguished DFG Heisenberg Fellow and he has been nominated together with Dr. Müller (BOSCH Stuttgart) and Prof. Paar (Ruhr University Bochum) for the Deutscher Zukunftspreis 2017 for his work in Physical Layer Security. Since 2025 he is also leading the AI department at the distinguished Fraunhofer Institute for Applied and Integrated Security (AISEC) in Munich
-
-    - name: Maura Pintor
-      image: images/optimized/speakers-600x600/MauraPintor.webp
-      title: PRA Lab
-      bio-intro: >-
-        Maura Pintor is an Assistant Professor at the PRA Lab, in the Department of Electrical and Electronic Engineering of the University of Cagliari, Italy. She received her PhD in Electronic and Computer Engineering from the University of Cagliari in 2022. Her research interests mostly focus on optimizing and debugging adversarial robustness evaluations.
-
-      bio-more: >-
-        She was a visiting student at the University of Tuebingen, Germany, from March to June 2020 and at the Software Competence Center Hagenberg (SCCH), Austria, from May to August 2021, and at the Universitat Autònoma de Barcelona (UAB), in the Computer Vision Center (CVC), from July to October 2024.
-        She is area chair for NeurIPS, Associate Editor for Pattern Recognition, and reviewer for ACM CCS, ECCV, ICLR, ICCV, and for the journals IEEE TIFS, IEEE TIP, IEEE TDSC, IEEE TNNLS, TOPS. She is co-chair of the ACM Workshop on Artificial Intelligence and Security (AISec), co-located with ACM CCS.
-
-    - name: Jakub Kałużny 
-      image: images/optimized/speakers-600x600/JakubKałużny.webp
-      title: Snowflake
-      bio: >-
-        Jakub leads AI Security efforts at Snowflake as a Senior Manager in the Product Security org where he manages a portfolio of AppSec services.
-        Before Snowflake, he was managing pentesting programs and implementing threat modeling processes in various enterprises across Australia and Poland. Speaker at international IT Security conferences - OWASP Global AppSec, Blackhat, HackInTheBox, CONFIdence.
-
-- name: Open models, open data
-  # date: Friday / 8 November
-  # room: Main Hall
-  # time: 12:20 - 13:20
-  id: 2
-  desc: >-
-    The “Open Models, Open Data” panel will explore the rationale and methodologies for openly developing and publishing AI models and datasets. We will examine the spectrum of <em>openness</em>—ranging from accessible weights to fully open code and data, including varying license implications—and discuss best practices for responsible public release. Key considerations will include the necessary scope and rigor of pre-release evaluation, validation, and documentation to ensure quality, reliability, and ethical standards.
-  # note: "Moderators: "
-  panelists:
-    - name: Michał Gdak
-      image: images/optimized/speakers-600x600/MichałGdak.webp
-      title: Snowflake
-      bio-intro: >-
-        Michał Gdak leads pioneering AI/ML  and software engineering at Snowflake. As Director of Engineering and Site Lead for the Warsaw office, he drives multidisciplinary teams and strategically contributes to global AI growth. His decade-plus career bridges theoretical AI advancements with real-world applications.
-      bio-more: >-
-        Michał's work spans novel algorithms in multimodal data processing, robust information extraction, and AI optimization for enterprise. He was instrumental in TILT, a multimodal transformer that set a global benchmark for complex document data processing, showcasing his ability to translate deep technical understanding into market-leading products. At Snowflake, he leads engineering teams on key products like Document AI and Cortex Functions, enabling data-driven AI at scale. His leadership combines cutting-edge ML with practical engineering, enhancing enterprise data understanding and delivering precision AI solutions globally. Michal is passionate about building scalable, practical AI systems that turn complex data into real business value.
-
-    - name: Marianna Nezhurina
-      image: images/optimized/speakers-600x600/MariannaNezhurina.webp
-      title: LAION
-      bio: >-
-        Marianna Nezhurina is a core researcher in LAION and scientific staff member in Juelich Supercomputing Center (JSC). Her research is focusing on large-scale foundation models and datasets, scalability and generalization of foundation models. She was participating in several open-source efforts like DataComp-LM, LAION CLAP and BigScience BLOOM. Most recently she was taking part in OpenThoughts (open reasoning datasets and models) as a core contributor.
-
-    - name: To Be Announced
-      image: images/empty.png
-
 - name: "PL in ML: Polish View on Machine Learning"
   short-name: "PL in ML: Polish View on ML"
-  # date: Saturday / 9 November
-  # room: Main Hall
-  # time: 16:10 - 17:10
-  id: 3
+  date: Wednesday / 15 October
+  room: Main Hall
+  time: 12:20 - 13:20
+  id: 1
   desc: >-
     The “PL in ML: Polish View on Machine Learning” panel will take a closer look at the state of machine learning in Poland—what’s working, what’s not, and where we go from here. We will discuss key institutional issues and explore how ML research and development should be conducted in Poland—while asking the crucial question: is there hope for a thriving ML ecosystem here? Our conversation will cover pressing topics, including Poland's position on the U.S. export priority list for AI chips, the role of new government-supported research initiatives, and the broader policy landscape shaping AI development. While we acknowledge the challenges, our goal is to foster a constructive dialogue that highlights opportunities and the potential for growth in the Polish ML community.
-  # note: "Moderators: "
+  note: "Moderators: Franciszek Budrowski and Maja Jabłońska"
   panelists:
     - name: Piotr Sankowski
       image: images/optimized/speakers-600x600/PiotrSankowski.webp
@@ -118,3 +58,64 @@
         Marek Magryś is Acting Director of Academic Computer Centre Cyfronet AGH, head of the National Centre of Computing Competence within EuroHPC, specialist in design, implementation, testing and operation of computing systems for HPC (High Performance Computing) and AI (Artificial Intelligence). Chief architect of the fastest Polish supercomputers of recent years, Helios, Athena and Prometheus. 
       bio-more: >-
         Expert for the European Commission, member of the INFRAG advisory group for EuroHPC and HPC-AI Leadership Organization EMEA Advisory Committee.
+
+- name: Open models, open data
+  date: Thursday / 16 October
+  room: Main Hall
+  time: 11:15 - 12:15
+  id: 2
+  desc: >-
+    The “Open Models, Open Data” panel will explore the rationale and methodologies for openly developing and publishing AI models and datasets. We will examine the spectrum of <em>openness</em>—ranging from accessible weights to fully open code and data, including varying license implications—and discuss best practices for responsible public release. Key considerations will include the necessary scope and rigor of pre-release evaluation, validation, and documentation to ensure quality, reliability, and ethical standards.
+  note: "Moderators: Emilia Wiśnios and Dima Zhylko"
+  panelists:
+    - name: Michał Gdak
+      image: images/optimized/speakers-600x600/MichałGdak.webp
+      title: Snowflake
+      bio-intro: >-
+        Michał Gdak leads pioneering AI/ML  and software engineering at Snowflake. As Director of Engineering and Site Lead for the Warsaw office, he drives multidisciplinary teams and strategically contributes to global AI growth. His decade-plus career bridges theoretical AI advancements with real-world applications.
+      bio-more: >-
+        Michał's work spans novel algorithms in multimodal data processing, robust information extraction, and AI optimization for enterprise. He was instrumental in TILT, a multimodal transformer that set a global benchmark for complex document data processing, showcasing his ability to translate deep technical understanding into market-leading products. At Snowflake, he leads engineering teams on key products like Document AI and Cortex Functions, enabling data-driven AI at scale. His leadership combines cutting-edge ML with practical engineering, enhancing enterprise data understanding and delivering precision AI solutions globally. Michal is passionate about building scalable, practical AI systems that turn complex data into real business value.
+
+    - name: Marianna Nezhurina
+      image: images/optimized/speakers-600x600/MariannaNezhurina.webp
+      title: LAION
+      bio: >-
+        Marianna Nezhurina is a core researcher in LAION and scientific staff member in Juelich Supercomputing Center (JSC). Her research is focusing on large-scale foundation models and datasets, scalability and generalization of foundation models. She was participating in several open-source efforts like DataComp-LM, LAION CLAP and BigScience BLOOM. Most recently she was taking part in OpenThoughts (open reasoning datasets and models) as a core contributor.
+
+    - name: To Be Announced
+      image: images/empty.png
+
+- name: AI in Security
+  date: Friday / 17 October
+  room: Main Hall
+  time: 11:15 - 12:15
+  id: 3
+  desc: |-
+    The "AI in Security" panel will focus on the intersection of AI and cybersecurity. We aim to explore topics such as the role of AI in threat detection, vulnerability assessment, and incident response, as well as the ethical and societal implications of deploying AI in security systems. Additionally, we will discuss the potential risks associated with AI-driven cybersecurity solutions, including adversarial attacks and data privacy concerns.
+  note: "Moderators: Alicja Grochocka-Dorocińska and TBA"
+  panelists:
+    - name: Gerhard Wunder
+      image: images/optimized/speakers-600x600/GerhardWunder.webp
+      title: Freie Universität Berlin
+      bio-intro: >-
+        Gerhard Wunder is a professor for Cybersecurity and AI at the Freie Universität Berlin, a leading excellence university in Germany, supported by the Deutsche Bundesdruckerei GmbH. His main research areas include, e.g., LLMs, AI Explainability & Reasoning, Quantum Algorithms & Communications including Post-Quantum Crypto. 
+      bio-more: >-
+        He has been a visiting professor at the Georgia Institute of Technology (Prof. Jayant) in Atlanta (USA, GA), the Stanford University (Prof. Paulraj) in Palo Alto/USA (CA). Gerhard Wunder is a distinguished DFG Heisenberg Fellow and he has been nominated together with Dr. Müller (BOSCH Stuttgart) and Prof. Paar (Ruhr University Bochum) for the Deutscher Zukunftspreis 2017 for his work in Physical Layer Security. Since 2025 he is also leading the AI department at the distinguished Fraunhofer Institute for Applied and Integrated Security (AISEC) in Munich
+
+    - name: Maura Pintor
+      image: images/optimized/speakers-600x600/MauraPintor.webp
+      title: PRA Lab
+      bio-intro: >-
+        Maura Pintor is an Assistant Professor at the PRA Lab, in the Department of Electrical and Electronic Engineering of the University of Cagliari, Italy. She received her PhD in Electronic and Computer Engineering from the University of Cagliari in 2022. Her research interests mostly focus on optimizing and debugging adversarial robustness evaluations.
+
+      bio-more: >-
+        She was a visiting student at the University of Tuebingen, Germany, from March to June 2020 and at the Software Competence Center Hagenberg (SCCH), Austria, from May to August 2021, and at the Universitat Autònoma de Barcelona (UAB), in the Computer Vision Center (CVC), from July to October 2024.
+        She is area chair for NeurIPS, Associate Editor for Pattern Recognition, and reviewer for ACM CCS, ECCV, ICLR, ICCV, and for the journals IEEE TIFS, IEEE TIP, IEEE TDSC, IEEE TNNLS, TOPS. She is co-chair of the ACM Workshop on Artificial Intelligence and Security (AISec), co-located with ACM CCS.
+
+    - name: Jakub Kałużny 
+      image: images/optimized/speakers-600x600/JakubKałużny.webp
+      title: Snowflake
+      bio: >-
+        Jakub leads AI Security efforts at Snowflake as a Senior Manager in the Product Security org where he manages a portfolio of AppSec services.
+        Before Snowflake, he was managing pentesting programs and implementing threat modeling processes in various enterprises across Australia and Poland. Speaker at international IT Security conferences - OWASP Global AppSec, Blackhat, HackInTheBox, CONFIdence.
+
