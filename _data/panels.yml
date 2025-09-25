@@ -82,8 +82,13 @@
       bio: >-
         Marianna Nezhurina is a core researcher in LAION and scientific staff member in Juelich Supercomputing Center (JSC). Her research is focusing on large-scale foundation models and datasets, scalability and generalization of foundation models. She was participating in several open-source efforts like DataComp-LM, LAION CLAP and BigScience BLOOM. Most recently she was taking part in OpenThoughts (open reasoning datasets and models) as a core contributor.
 
-    - name: To Be Announced
-      image: images/empty.png
+    - name: Marek Kozłowski
+      image: images/optimized/speakers-600x600/MarekKozlowski.webp
+      title: National Information Processing Institute
+      bio-intro: >-
+        Marek Kozłowski is the Head of AI LAB at National Information Processing Institute in Warsaw (Poland), where he leads a team of researchers who work on AI models and intelligent services based on them, especially in NLP and CV area. He is passionate about natural language processing, computer vision, and machine learning.
+      bio-more: >-
+        He has written 50 scientific publications concerning machine learning and natural language processing. Marek has participated in many public projects concerning national LLMs as e.g. PLLuM, european projects as LLMs4EU, and the commercial research projects for the private sector, including at Samsung, France Telecom, Orange Labs, Millward Brown, Vive Textile Recycling, PKO BP and Connectis. 
 
 - name: AI in Security
   date: Friday / 17 October
