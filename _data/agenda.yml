@@ -75,7 +75,7 @@
           element-class: col-lg-4
           time: 12:20 - 13:20
           room: Main Hall
-          # url: /program#discussion-panel-1
+          url: /program#discussion-panel-1
         - title: "Invited Talk 1: <strong>TBA</strong>"
           subtitle: by Sara Magliacane (University of Amsterdam)
           element-class: col-lg-4
@@ -195,7 +195,7 @@
         element-class: col-lg-4
         time: 11:15 - 12:15
         room: Main Hall
-        # url: /program#discussion-panel-2
+        url: /program#discussion-panel-2
       - title: "Invited Talk 5: <strong>TBA</strong>"
         subtitle: by Federico Tombari (Google / Technical University of Munich)
         element-class: col-lg-4
@@ -382,7 +382,7 @@
         element-class: col-lg-4
         time: 11:15 - 12:15
         room: Main Hall 
-        # url: /program#discussion-panel-3
+        url: /program#discussion-panel-3
       - title: "Invited Talk 10: <strong>TBA</strong>"
         subtitle: by Jenia Jitsev (LAION / Juelich Supercomputer Center / ELLIS)
         element-class: col-lg-4
@@ -390,7 +390,7 @@
         room: Hall A
       
       - title: "Invited Talk 11: <strong>TBA</strong>"
-        subtitle: by Alexey Dosovitskiy (LAION / Juelich Supercomputer Center / ELLIS)
+        subtitle: by Alexey Dosovitskiy (Inceptive)
         element-class: col-lg-4
         time: 11:15 - 12:15
         room: Hall B
@@ -452,54 +452,58 @@
   location-address: <a href="https://www.google.com/maps/place/Faculty+of+Mathematics,+Informatics,+and+Mechanics,+University+of+Warsaw/@52.211788,20.9796542,17z/data=!3m1!4b1!4m6!3m5!1s0x471eccba48f9a455:0xc6c3df3b1dba32be!8m2!3d52.2117847!4d20.9822291!16s%2Fg%2F122t68cc?entry=ttu&g_ep=EgoyMDI0MTAxNC4wIKXMDSoASAFQAw%3D%3D">Stefana Banacha 2, 02-097 Warsaw</a>
   sessions:
     - events:
-      - title: Tutorials registration
-        element-class: col-lg-12
-        time: 8:30 - 9:00
+      - title: 'Tutorial 1: <strong>Counterfactual Explanations: From Theory to Implementation</strong>'
+        element-class: col-lg-4
+        time: 9:00 - 13:00
+        url: /program#tutorial-1
+      - title: 'Tutorial 2: <strong>Where ML Security is Broken and How to Fix it</strong>'
+        element-class: col-lg-4
+        time: 9:00 - 13:00
+        url: /program#tutorial-2
+      - title: 'Tutorial 3: <strong>[Generative AI] The Noise, the flow, the images.</strong>'
+        element-class: col-lg-4
+        time: 9:00 - 13:00
+        url: /program#tutorial-3
     - events:
-      - title: 'Tutorial 1: <strong>TBA</strong>'
+      - title: 'Tutorial 4: <strong>From Superposition to Sparse Autoencoders: Understanding Neural Feature Representations</strong>'
         element-class: col-lg-4
         time: 9:00 - 13:00
-        # url: /program#tutorial-1
-      - title: 'Tutorial 2: <strong>TBA</strong>'
+        url: /program#tutorial-4
+      - title: 'Tutorial 5: <strong>Introduction to Automated Machine Learning (AutoML)</strong>'
         element-class: col-lg-4
         time: 9:00 - 13:00
-        # url: /program#tutorial-2
-      - title: 'Tutorial 3: <strong>TBA</strong>'
+        url: /program#tutorial-5
+      - title: 'Tutorial 6: <strong>TBA</strong>'
         element-class: col-lg-4
         time: 9:00 - 13:00
-        # url: /program#tutorial-3
-    - events:
-      - title: 'Tutorial 4: <strong>TBA</strong>'
-        element-class: col-lg-4
-        time: 9:00 - 13:00
-        # url: /program#tutorial-4
-      - title: 'Tutorial 5: <strong>TBA</strong>'
-        element-class: col-lg-4
-        time: 9:00 - 13:00
-        # url: /program#tutorial-5
+        # url: /program#tutorial-6
     - events:
       - title: 'Break'
         element-class: col-lg-12
         time: 13:00 - 14:00
     - events:
-      - title: 'Tutorial 6: <strong>TBA</strong>'
+      - title: 'Tutorial 7: <strong>Migrating Python AI Prototypes to Cross-Platform Solutions</strong>'
         element-class: col-lg-4
         time: 14:00 - 18:00
-        # url: /program#tutorial-6
-      - title: 'Tutorial 7: <strong>TBA</strong>'
+        url: /program#tutorial-7
+      - title: 'Tutorial 8: <strong>Modern Causal Discovery</strong>'
         element-class: col-lg-4
         time: 14:00 - 18:00
-        # url: /program#tutorial-7
-      - title: 'Tutorial 8: <strong>TBA</strong>'
+        url: /program#tutorial-8
+      - title: 'Tutorial 9: <strong>Creating AI Tools for Healthcare</strong>'
         element-class: col-lg-4
         time: 14:00 - 18:00
-        # url: /program#tutorial-8
+        url: /program#tutorial-9
     - events:
-      - title: 'Tutorial 9: <strong>TBA</strong>'
+      - title: 'Tutorial 10: <strong>Navigating the landscape of transformers&#39; expressivity</strong>'
         element-class: col-lg-4
         time: 14:00 - 18:00
-        # url: /program#tutorial-9
-      - title: 'Tutorial 10: <strong>TBA</strong>'
+        url: /program#tutorial-10
+      - title: 'Tutorial 11: <strong>TBA</strong>'
         element-class: col-lg-4
         time: 14:00 - 18:00
         # url: /program#tutorial-11
+      - title: 'Tutorial 12: <strong>TBA</strong>'
+        element-class: col-lg-4
+        time: 14:00 - 18:00
+        # url: /program#tutorial-12
