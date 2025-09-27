@@ -7,14 +7,14 @@ import pandas as pd
 CFC_BASE_CONFIG = {
     "sort_values": ["Id", "Time", "Room"],
     "fields": {
-        "author-name": lambda row: row["Name and Surname"].strip(),
+        "author-name": lambda row: row["Name and surname"].strip(),
         "title": lambda row: '"' + row["Title of your talk or poster"].strip() + '"',
         "author-title": lambda row: '"' + row["Affiliation"].strip() + '"',
         "abstract": lambda row: ">- \n    "
         + row["Abstract"].strip().replace("\n", "\n    "),
         "author-bio": lambda row: ">- \n    "
         + row["Biography"].strip().replace("\n", "\n    "),
-        "co-authors": lambda row: row["Co-authors"].strip(),
+        "co-authors": lambda row: parse_co_authors(row),
         "date": lambda row: row["Date"].strip(),
         "time": lambda row: row["Time"].strip(),
         "room": lambda row: row["Room"].strip().replace("Lecture Hall", "Hall"),
@@ -24,7 +24,7 @@ CFC_BASE_CONFIG = {
             os.path.join(
                 "images/optimized/cfc-600x600/",
                 polish_to_ascii(
-                    "_".join(s.lower() for s in row["Name and Surname"].split(" "))
+                    "_".join(s.lower() for s in row["Name and surname"].split(" "))
                 )
                 + ".webp",
             ),
@@ -75,11 +75,11 @@ CONFIGS = {
 }
 
 
-def get_file(path, empyt_path):
+def get_file(path, empty_path):
     if os.path.isfile(path):
         return path
     else:
-        return empyt_path
+        return empty_path
 
 
 PL_TO_ASCII = {
@@ -111,6 +111,14 @@ def polish_to_ascii(text):
     return text
 
 
+def parse_co_authors(row):
+    if "Co-authors" in row and row["Co-authors"].strip():
+        return row["Co-authors"].strip()
+    else:
+        co_author_columns = [col for col in row.index if col.startswith("co-author")]
+        co_authors = [row[col].strip() for col in co_author_columns if row[col].strip()]
+        return ", ".join(co_authors)
+
 def main(input_file, output_file, config):
     # Get config
     if config in CONFIGS:
@@ -120,7 +128,6 @@ def main(input_file, output_file, config):
             f"Config {config} not found, available configs: {list(CONFIGS.keys())}"
         )
 
-    # Load and sort organizers
     sep = ","
     if input_file.endswith(".tsv"):
         sep = "\t"
@@ -131,9 +138,9 @@ def main(input_file, output_file, config):
         filter_mask = None
         for filter_col in filter_columns:
             if filter_mask is None:
-                filter_mask = df[filter_col] == "1"
+                filter_mask = (df[filter_col] == 1.0) | (df[filter_col] == "1")
             else:
-                filter_mask *= df[filter_col] == "1"
+                filter_mask *= (df[filter_col] == 1.0) | (df[filter_col] == "1")
         df = df[filter_mask]
         df = df.drop(columns=config["filter_columns"])
     print(df.info())
