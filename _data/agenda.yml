@@ -8,50 +8,39 @@
     - events:
         - title: "Student Research Workshop (open event, no ticket required)"
           subevents:
-            # - title: Opening remarks
-            # - title: "<strong>Real-Time Omnidirectional 3D Multi-Person Human Pose Estimation with Occlusion Handling</strong>"
-            #   subtitle: by Pawel Knap (University of Southampton / University of Freiburg)
-            #   time: 8:10 - 8:30
-            #   url: /program#srw-talk-1
+            - title: "<strong>Attribute-Regularized VAEs for Controlled and Interpretable Antimicrobial Peptide Design</strong>"
+              subtitle: by Aleksandra Gwiazda (Warsaw University of Technology)
+              time: 8:10 - 8:30
+              url: /program#srw-talk-1
+            - title: "<strong>DetoxAI - Python Package for Debiasing Neural Networks</strong>"
+              subtitle: by Łukasz Sztukiewicz (Independent Researcher)
+              time: 8:30 - 8:50
+              url: /program#srw-talk-2
+            - title: "<strong>OMENN: One Matrix to Explain Neural Networks</strong>"
+              subtitle: by Mikołaj Janusz (Jagiellonian University)
+              time: 8:50 - 9:10
+              url: /program#srw-talk-3
+            - title: "<strong>From Blurry to Sharp: Enabling High-Frequency Detail in Implicit Neural Representations</strong>"
+              subtitle: by Tomasz Dądela (Jagiellonian University)
+              time: 9:10 - 9:30
+              url: /program#srw-talk-4
+            - title: "<strong>Semantic Label Reconstruction: How to breach privacy in Federated Learning</strong>"
+              subtitle: by Rafał Malcewicz (Carnegie Mellon University, GHOST Day)
+              time: 9:50 - 10:10
+              url: /program#srw-talk-5
+            - title: "<strong>Filling in the Blanks: Redefining Inpainting with a Novel Geometrical Latent Space VAE Architecture</strong>"
+              subtitle: by Nikodem Świerkowski (Wrocław University of Science and Technology)
+              time: 10:10 - 10:30
+              url: /program#srw-talk-6
+            - title: "<strong>GraphaFold: Graph Neural Network for predicting non-canonical RNA base pairing</strong>"
+              subtitle: by Paulina Hładki (Poznan University of Technology)
+              time: 10:30 - 10:50
+              url: /program#srw-talk-7
+            - title: "<strong>Enhancing Chemical Explainability Through Counterfactual Masking</strong>"
+              subtitle: by Łukasz Janisiów (Jagiellonian University)
+              time: 10:50 - 11:10
+              url: /program#srw-talk-8
 
-            # - title: "<strong>Accumulated Local Effects and Graph Neural Networks</strong>"
-            #   subtitle: by Paulina Kaczyńska (University of Warsaw / IPPT PAN)
-            #   time: 8:30 - 8:50
-            #   url: /program#srw-talk-2
-
-            # - title: "<strong>Interrogating Time Series Foundation Models</strong>"
-            #   subtitle: by Michal Wilinski (Carnegie Mellon University / Poznan University of Technology)
-            #   time: 8:50 - 9:10
-            #   url: /program#srw-talk-3
-
-            # - title: "<strong>Harnessing YouTube for Evaluating General-Purpose Speech Recognition Machine Learning Models</strong>"
-            #   subtitle: by Tomasz Wojnar (Jagiellonian University)
-            #   time: 9:10 - 9:30
-            #   url: /program#srw-talk-4
-
-            # - title: "<strong>Cherish Every MOMENT</strong>"
-            #   subtitle: by Nina Zukowska (FU Berlin / CMU)
-            #   time: 9:50 - 10:10
-            #   url: /program#srw-talk-5
-
-            # - title: "<strong>Towards Sustainable Cloud Environments by Leveraging Time Series Forecasting for Enhanced Resource Utilization</strong>"
-            #   subtitle: by Mateusz Smendowski (AGH University of Kraków)
-            #   time: 10:10 - 10:30
-            #   url: /program#srw-talk-6
-
-            # - title: "<strong>BATTLE-AMP - Benchmarking Assessment Tests for The Leading Efficacy of Antimicrobial Peptides</strong>"
-            #   subtitle: by Wojciech Zarzecki (Computational Medicine Group, MIMUW)
-            #   time: 10:30 - 10:50
-            #   url: /program#srw-talk-7
-
-            # - title: "<strong>Statistical Criteria for the Prediction of Dynamical Clustering in Granular Gases</strong>"
-            #   subtitle: by Sai Preetham, Sata (Otto-von-Guericke-University Magdeburg)
-            #   time: 10:50 - 11:10
-            #   url: /program#srw-talk-8
-
-            # - title: '<i class="fa-solid fa-pizza-slice"></i> Pizza'
-            #   time: 11:10 - 11:30
-         
           element-class: col-lg-12
           time: 8:00 - 11:30
           room: Main Hall 
