@@ -241,11 +241,11 @@
           - title: "<strong>On Space Folds by Neural Networks</strong>"
             subtitle: by Michal Lewandowski (SCCH)
             time: 15:00 - 15:30
-            url: /program#cfc-11
+            url: /program#contributed-talk-11
           - title: "<strong>Exploring Geometric Representational Alignment through Ollivier Ricci Curvature</strong>"
             subtitle: by Nahid Torbati (Max Planck Institute CBS)
             time: 15:30 - 16:00
-            url: /program#cfc-12
+            url: /program#contributed-talk-12
 
       - title: 'Contributed Talks Session 5'
         element-class: col-lg-4
@@ -255,15 +255,15 @@
           - title: "<strong>SAeUron: Interpretable Concept Unlearning in Diffusion Models with Sparse Autoencoders</strong>"
             subtitle: by Kamil Deja (Warsaw University of Technology, IDEAS Research Institute)
             time: 14:30 - 15:00
-            url: /program#cfc-13
+            url: /program#contributed-talk-13
           - title: "<strong>Privacy Attacks on Image AutoRegressive Models</strong>"
             subtitle: by Antoni Kowalczuk (CISPA Helmholtz Center for Information Security)
             time: 15:00 - 15:30
-            url: /program#cfc-14
+            url: /program#contributed-talk-14
           - title: "<strong>Controlling Generative Models through Parameter Localization</strong>"
             subtitle: by Łukasz Staniszewski (Warsaw University of Technology, IDEAS Research Institute)
             time: 15:30 - 16:00
-            url: /program#cfc-15
+            url: /program#contributed-talk-15
 
     - events:
       - title:
@@ -318,15 +318,15 @@
           - title: "<strong>Out of context generalization in LLMs</strong>"
             subtitle: by Anna Sztyber-Betley (Warsaw University of Technology)
             time: 9:30 - 10:00
-            url: /program#cfc-16
+            url: /program#contributed-talk-16
           - title: "<strong>Emergent Misalignment: Narrow finetuning can produce broadly misaligned LLM</strong>"
             subtitle: by Jan Betley (TruthfulAI)
             time: 10:00 - 10:30
-            url: /program#cfc-17
+            url: /program#contributed-talk-17
           - title: "<strong>SafeQuant: LLM Safety Analysis via Quantized Gradient Inspection</strong>"
             subtitle: by Sindhu Padakandla (Fujitsu Research of India Pvt Ltd)
             time: 10:30 - 11:00
-            url: /program#cfc-18
+            url: /program#contributed-talk-18
 
       - title: 'Contributed Talks Session 7'
         element-class: col-lg-4
@@ -336,15 +336,15 @@
           - title: "<strong>Conformal Object Detection by Sequential Risk Control</strong>"
             subtitle: by Léo Andéol (Institute of Mathematics of Toulouse / SNCF)
             time: 9:30 - 10:00
-            url: /program#cfc-19
+            url: /program#contributed-talk-19
           - title: "<strong>A generalized approach to label shift: the Conditional Probability Shift Model</strong>"
             subtitle: by Paweł Teisseyre (Warsaw University of Technology)
             time: 10:00 - 10:30
-            url: /program#cfc-20
+            url: /program#contributed-talk-20
           - title: "<strong>Joint empirical risk minimization for instance-dependent positive-unlabeled data</strong>"
             subtitle: by Jan Mielniczuk (Polish Academy of Sciences)
             time: 10:30 - 11:00
-            url: /program#cfc-21
+            url: /program#contributed-talk-21
 
       - title: 'Contributed Talks Session 8'
         element-class: col-lg-4
@@ -354,15 +354,15 @@
           - title: "<strong>Limits in Causal Discovery and the Path Forward</strong>"
             subtitle: by Mateusz Gajewski (Poznan University of Technology, IDEAS NCBR)
             time: 9:30 - 10:00
-            url: /program#cfc-22
+            url: /program#contributed-talk-22
           - title: "<strong>Inference on Local Variable Importance Measures for Heterogeneous Treatment Effects</strong>"
             subtitle: by Paweł Morzywołek (University of Washington)
             time: 10:00 - 10:30
-            url: /program#cfc-23
+            url: /program#contributed-talk-23
           - title: "<strong>Learning Personalized Treatment Decisions in Precision Medicine: Disentangling Treatment Assignment Bias in Counterfactual Outcome Prediction and Biomarker Identification</strong>"
             subtitle: by Michael Vollenweider (ETH Zurich)
             time: 10:30 - 11:00
-            url: /program#cfc-24
+            url: /program#contributed-talk-24
 
     - events:
       - title: "Discussion Panel 3: <strong>AI&nbsp;in&nbsp;Security</strong>"
