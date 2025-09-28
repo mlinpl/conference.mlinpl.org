@@ -210,10 +210,10 @@
 
     - events:
       - title: 'Poster Session 1 + <i class="fa-solid fa-mug-saucer"></i> Coffee'
-        # subtitle: "with posters: 1-14, 16-31"
+        subtitle: "with posters: 1-30"
         element-class: col-lg-12
         time: 12:15 - 13:45
-        # url: /program#poster-1
+        url: /program#poster-1
         note: You can continue presenting your posters during lunch
 
     - events:
@@ -395,10 +395,10 @@
 
     - events:
       - title: 'Poster Session 2 + <i class="fa-solid fa-mug-saucer"></i> Coffee'
-        # subtitle: "with posters: 15, 32-63"
+        subtitle: "with posters: 31-61"
         element-class: col-lg-12
         time: 12:15 - 13:45
-        # url: /program#poster-32
+        url: /program#poster-31
         note: You can continue presenting your posters during lunch
 
     - events:
