@@ -14,3 +14,8 @@ _config.yml.bak
 .idea
 
 copilot-instructions.md
+
+# Python
+.venv/
+
+_data_raw/
