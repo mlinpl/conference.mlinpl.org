@@ -146,7 +146,7 @@
   room: Hall A
   session: CfC Session 4
   id: 10
-  author-image: images/empty.png
+  author-image: images/optimized/cfc-600x600/weronika_ormaniec.webp
 
 - author-name: Michal Lewandowski
   title: "On Space Folds by Neural Networks"
