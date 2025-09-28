@@ -4,7 +4,7 @@ Expects following parameters:
     talk-title-prefix,
     talks-data
 {% endcomment %}
-<section class="container content-section">
+<section id="{{ include.talk-title-prefix | slugify | append: 's' }}" class="container content-section">
     <div class="row">
         <div class="col-lg-12">
             <h2>{{ include.talks-title }}</h2>
