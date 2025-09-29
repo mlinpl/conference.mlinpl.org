@@ -14,7 +14,6 @@
 }
 
 .event-banner__inner {
-    max-width: 800px; /* adjust as needed */
     margin: 0 auto;
     padding: 15px;
     box-sizing: border-box;
