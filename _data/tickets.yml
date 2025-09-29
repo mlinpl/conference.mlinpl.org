@@ -38,9 +38,9 @@ late:
     student: "1400 PLN"
     regular: "1400 PLN"
   price_label: "Late Price"
-  active: false
+  active: true
   visible: true
-  url: "https://mlinpl2025eb.paperform.co/"
+  url: "https://app.evenea.pl/event/mlinpl25/"
 
 tutorials:
   name: "Tutorial registration"
@@ -54,6 +54,6 @@ tutorials:
     student: "60 PLN"
     regular: "120 PLN"
   price_label: "Price"
-  active: false
+  active: true
   visible: true
   url: "https://app.evenea.pl/event/mlinpl25-tutorials/"
