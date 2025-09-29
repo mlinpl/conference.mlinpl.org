@@ -115,7 +115,7 @@ def parse_co_authors(row):
     if "Co-authors" in row and row["Co-authors"].strip():
         return row["Co-authors"].strip()
     else:
-        co_author_columns = [col for col in row.index if col.startswith("co-author")]
+        co_author_columns = [col for col in row.index if col.lower().startswith("co-author")]
         co_authors = [row[col].strip() for col in co_author_columns if row[col].strip()]
         return ", ".join(co_authors)
 
