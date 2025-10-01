@@ -130,17 +130,23 @@
 
     Antoni Zajko is a PhD student at Warsaw University of Technology with both research and commercial experience in machine learning.
 
-# - title: To Be Announced
-#   date: Saturday / 18 October
-#   time: 9:00 - 13:00
-#   id: 6
-#   desc-md: >-
-#   authors:
-#     - name:
-#       title:
-#       image:
-#   author-bio-md: >-
-#     ...
+- title: Running Models on Tenstorrent Hardware
+  date: Saturday / 18 October
+  time: 9:00 - 13:00
+  id: 6
+  desc-md: >-
+    This workshop offers a guided, hands‑on introduction to running AI workloads on Tenstorrent hardware. Participants will connect to provided environments, experiment with example models, and explore profiling tools. By the end, they’ll have a practical overview of tt-metal and know how to continue developing on Tenstorrent platforms.
+  authors:
+    - name: Maciej Draguła
+      title: Tenstorrent
+      image: images/optimized/tutorials-600x600/Maciej_Dragula.webp
+    - name: Artem Yerofieiev
+      title: Tenstorrent
+      image: images/optimized/tutorials-600x600/Artem_Yerofieiev.webp
+  author-bio-md: |-
+    Maciej Draguła is a Senior Engineer at Tenstorrent, where he develops tt-train, a framework for training large language models on Tenstorrent’s cutting-edge AI hardware, with a focus on optimising operations to reduce training time. Previously, he worked on computer vision applications for avionics at Daedalean, and his experience includes internships at CERN, Google, and Goldman Sachs. He holds a Bachelor’s degree in Computer Science from the University of Wrocław.
+
+    Senior Principal at Tenstorrent, Artem Yerofieiev leads software engineering for TT-NN — the open-source, scaleout-native and tile-based ML framework for Tenstorrent’s next-gen accelerators. Currently building autonomous AI systems to generation software and support hardware-software co-design. Previously led AR-creation tools at Snap and analytical software in a defense R&D lab.
 
 # Afternoon Tutorials
 
@@ -223,26 +229,39 @@
 
     Przemysław Wałęga is an Associate Professor (Senior Lecturer) in Queen Mary University of London, Centre for Fundamental Computer Science. He was a Senior Researcher in University of Oxford, Department of Computer Science and received PhD in Logics in the Institute of Philosophy at the University of Warsaw. His research is devoted to designing formal logical languages for AI, studying their computational properties, and developing efficient reasoning algorithms for them. He is especially interested in methods for complex reasoning about time which brings together computer scientists, mathematical logicians, and philosophers.
 
-# - title: To Be Announced
-#   date: Saturday / 18 October
-#   time: 14:00 - 18:00
-#   id: 11
-#   desc-md: >-
-#   authors:
-#     - name:
-#       title:
-#       image:
-#   author-bio-md: >-
-#     ...
+- title: 'Machine Translation in the LLM Era: A Practical Guide'
+  date: Saturday / 18 October
+  time: 14:00 - 18:00
+  id: 11
+  desc-md: |-
+    In the LLM era, one might think that the problem of Machine Translation is solved. But it’s certainly not, especially at scale and in domain-specific contexts. This tutorial provides a practical overview of modern MT. I will start with the core concepts like parallel data, system architectures and evaluation methods, and then will move to more advanced topics like quality-aware decoding or applications of reinforcement learning to MT. During the hands-on session, we will implement and evaluate state-of-the-art MT techniques on our own!
 
-# - title: To Be Announced
-#   date: Saturday / 18 October
-#   time: 14:00 - 18:00
-#   id: 12
-#   desc-md: >-
-#   authors:
-#     - name:
-#       title:
-#       image:
-#   author-bio-md: >-
-#     ...
+    **Prerequisites:** No prior knowledge in Machine Translation is required, but familiarity with basic deep learning concepts is beneficial. Hands-on session will be run in a Jupyter notebook. To actively participate in the tutorial, you need to have Python 3 installed together with libraries transformers and trl.
+  authors:
+    - name: Mieszko Rutkowski
+      title: Allegro
+      image: images/optimized/tutorials-600x600/Mieszko_Rutkowski.webp
+  author-bio-md: >-
+    Mieszko Rutkowski is a Research Engineer at Allegro, where he contributes to developing Allegro Translation Engine. His interests include Machine Translation, especially with reinforcement learning and multimodal methods. Previously he worked on risk management at UBS and on astrophysics at the Jagiellonian University.
+
+- title: 'End "It Works On My Machine": A Practical Guide to Nix and uv'
+  date: Saturday / 18 October
+  time: 14:00 - 18:00
+  id: 12
+  desc-md: |-
+    Welcome to dependency hell; this workshop is your way out. Learn to replace the chaos of pip, apt, and docker with modern tools used by elite firms like Jane Street and Anduril to build reliable and isolated environments. To achieve this, we'll first go back to basics, teaching you the Linux fundamentals—how PATH, environment variables, and linking really work—that cause these problems in the first place. Armed with that knowledge, you will learn to use Nix to declaratively define and build perfectly self-contained environments from a single file. The result is true isolation, giving you the power to reliably set up any project and switch between conflicting toolchains instantly. Finally, you'll turbocharge your Python workflows with the uv package manager and see how these principles scale up, from ensuring dev/prod parity to managing entire, reproducible operating systems with NixOS.
+  authors:
+    - name: Wojtek Czekalski
+      title: CEO at Dialo
+      # image: images/optimized/tutorials-600x600/Wojtek_Czekalski.webp
+      image: images/empty.png
+    - name: Patryk Wojnarowsk
+      title: Dialo
+      # image: images/optimized/tutorials-600x600/Patryk_Wojnarowski.webp
+      image: images/empty.png
+    - name: Adam Cholewiński
+      title: Dialo
+      # image: images/optimized/tutorials-600x600/Adam_Cholewinski.webp
+      image: images/empty.png
+  # author-bio-md: >-
+  #   ...
