@@ -59,9 +59,10 @@ header:
 state:
   invited-speakers: "all"  # options: null, "first", "all"
   cfc: "closed"  # options: null, "open", "closed", "after" (the conference)
-  agenda: "draft"  # options: null, "draft", "full"
-  # banner-text: 'Regular ticket sales open now! <a href="https://app.evenea.pl/event/mlinpl25/">Secure your spot</a>!'
-  banner-text: 'Regular tickets sold out! Late registration opens 1 October.'
+  agenda: "full"  # options: null, "draft", "full"
+  # banner-text: 'Regular ticket sales is open now! <a href="https://app.evenea.pl/event/mlinpl25/">Secure your spot</a>!'
+  # banner-text: 'Regular tickets sold out! Late registration opens 1 October.'
+  banner-text: 'Regular tickets sold out. <a href="https://app.evenea.pl/event/mlinpl25/">Late registration</a> for conference is open now!<br>Also check out our tutorials (which require <a href="https://app.evenea.pl/event/mlinpl25-tutorials/">separate tickets</a>).'
 
 # Navigation settings
 navigation:
