@@ -632,20 +632,20 @@
   id: 42
   author-image: images/optimized/cfc-600x600/jakub_chojnacki.webp
 
-- author-name: Filip Ręka
-  title: "LoRA-based Adapter Tuning for Arbitrary Class Specialisation in Embedding Models"
-  author-title: "AGH"
+- author-name: Mateusz Pyla
+  title: "Understanding Generalization-Memorization Trade-offs, Learning Dynamics, and Expert Democratization in Mixture of Experts Architectures"
+  author-title: "Jagiellonian University"
   abstract: >- 
-    Embedding models like CLIP offer general-purpose representations across diverse visual and textual domains, but adapting them to specific use cases often compromises generality or requires extensive finetuning. In this work, we propose a parameter-efficient approach using LoRA adapters to specialise a frozen embedding backbone for arbitrary target classes. Each class receives its own LoRA module, enabling modular, per-class adaptation without disrupting the global representation space or retraining shared parameters.  This setup allows new semantic classes to be introduced incrementally, with only small, specialised adapters added per class. We show how this method preserves inter-class structure while allowing for class-specific expressivity, and explore the conditions under which these local adapters diverge or interfere. To support dynamic use at inference, we also discuss routing mechanisms for selecting the appropriate adapter based on input similarity.  Finally, we explore potential methods for aligning the resulting class-specific embedding subspaces, enabling compatibility between adapted and non-adapted representations in a shared global embedding space.
+    Mixture of Experts (MoE) architectures have emerged as a promising paradigm for scaling neural networks while maintaining computational efficiency through sparse activation. However, recent findings reveal fundamental tensions between the benefits of expert specialization and the risks of overfitting that challenge conventional wisdom about MoE design. This work provides an analysis of MoE architectures through the lens of generalization versus memorization trade-offs, examining how expert routing decisions influence model behavior across different task complexities.
   author-bio: >- 
-    Phd student working on medical LLMs with main focus on language guided therapy for cancer treatment. I hold a Masters degree in Data Science.
-  co-authors: 
-  date: 17.10.2025
+    Mateusz is pursuing his PhD in AI at Jagiellonian University. He holds a Master’s degree from Dauphine-PSL Université in Paris and a Bachelor’s degree from the University of Edinburgh. His research expertise includes optimization, mechanistic interpretability, and Bayesian learning.
+  co-authors: Stanisław Jastrzębski
+  date: 16.10.2025
   time: 12:15 - 13:45
   room: 
-  session: Poster Session 2
+  session: Poster Session 1
   id: 43
-  author-image: images/optimized/cfc-600x600/filip_reka.webp
+  author-image: images/optimized/cfc-600x600/mateusz_pyla.webp
 
 - author-name: Tomasz Ponitka
   title: "The Pseudo-Dimension of Contracts"
