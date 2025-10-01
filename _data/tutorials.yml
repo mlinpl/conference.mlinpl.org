@@ -134,8 +134,10 @@
   date: Saturday / 18 October
   time: 9:00 - 13:00
   id: 6
-  desc-md: >-
+  desc-md: |-
     This workshop offers a guided, hands‑on introduction to running AI workloads on Tenstorrent hardware. Participants will connect to provided environments, experiment with example models, and explore profiling tools. By the end, they’ll have a practical overview of tt-metal and know how to continue developing on Tenstorrent platforms.
+
+    **This tutorial is free of charge but also requires registration. Please register <a href="https://app.evenea.pl/event/mlinpl25-tutorials/" target="_blank">here</a>.**
   authors:
     - name: Maciej Draguła
       title: Tenstorrent
@@ -241,8 +243,10 @@
     - name: Mieszko Rutkowski
       title: Allegro
       image: images/optimized/tutorials-600x600/Mieszko_Rutkowski.webp
-  author-bio-md: >-
+  author-bio-md: |-
     Mieszko Rutkowski is a Research Engineer at Allegro, where he contributes to developing Allegro Translation Engine. His interests include Machine Translation, especially with reinforcement learning and multimodal methods. Previously he worked on risk management at UBS and on astrophysics at the Jagiellonian University.
+
+    **This tutorial is free of charge but also requires registration. Please register <a href="https://app.evenea.pl/event/mlinpl25-tutorials/" target="_blank">here</a>.**
 
 - title: 'End "It Works On My Machine": A Practical Guide to Nix and uv'
   date: Saturday / 18 October
@@ -250,6 +254,8 @@
   id: 12
   desc-md: |-
     Welcome to dependency hell; this workshop is your way out. Learn to replace the chaos of pip, apt, and docker with modern tools used by elite firms like Jane Street and Anduril to build reliable and isolated environments. To achieve this, we'll first go back to basics, teaching you the Linux fundamentals—how PATH, environment variables, and linking really work—that cause these problems in the first place. Armed with that knowledge, you will learn to use Nix to declaratively define and build perfectly self-contained environments from a single file. The result is true isolation, giving you the power to reliably set up any project and switch between conflicting toolchains instantly. Finally, you'll turbocharge your Python workflows with the uv package manager and see how these principles scale up, from ensuring dev/prod parity to managing entire, reproducible operating systems with NixOS.
+
+    **This tutorial is free of charge but also requires registration. Please register <a href="https://app.evenea.pl/event/mlinpl25-tutorials/" target="_blank">here</a>.**
   authors:
     - name: Wojtek Czekalski
       title: CEO at Dialo
