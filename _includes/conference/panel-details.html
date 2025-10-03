@@ -17,7 +17,7 @@ Expects following parameters: panel, include-details
 <h2 class="bold emph-i">{{ include.panel.name }}</h2>
 {% endif %}
 
-<p>{{ include.panel.desc }}</p>
+<p>{{ include.panel.desc | markdownify }}</p>
 {% if include.panel.note %}
 <p style="font-size: 16px; margin-top: -20px">{{ include.panel.note }}</p>
 {% endif %}
