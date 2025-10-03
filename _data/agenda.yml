@@ -60,7 +60,7 @@
           room: Hall A
     - events:
         - title: "Discussion Panel 1: <strong> PL in ML</strong>"
-          subtitle: 
+          subtitle: (conducted in Polish)
           element-class: col-lg-4
           time: 12:20 - 13:20
           room: Main Hall
