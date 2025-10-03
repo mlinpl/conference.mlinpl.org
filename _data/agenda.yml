@@ -65,18 +65,18 @@
           time: 12:20 - 13:20
           room: Main Hall
           url: /program#discussion-panel-1
-        - title: "Invited Talk 1: <strong>TBA</strong>"
+        - title: "Invited Talk 1: <strong>Causal representation learning in temporal settings with actions</strong>"
           subtitle: by Sara Magliacane (University of Amsterdam)
           element-class: col-lg-4
           time: 12:20 - 13:20
           room: Hall A
-          # url: /program#invited-talk-1
+          url: /program#invited-talk-1
         - title: "Invited Talk 2: <strong>TBA</strong>"
           subtitle: by Shreya Pathak (Google DeepMind)
           element-class: col-lg-4
           time: 12:20 - 13:20
           room: Hall B
-          # url: /program#invited-talk-2
+          url: /program#invited-talk-2
     - events:
         - title: '<i class="fa-solid fa-utensils"></i> Lunch'
           element-class: col-lg-12
@@ -100,11 +100,13 @@
           element-class: col-lg-offset-4  col-lg-4
           time: 16:15 - 17:15
           room: Hall A
-        - title: "Invited Talk 4: <strong>TBA</strong>"
+          url: /program#invited-talk-3
+        - title: "Invited Talk 4: <strong>Bridging perception and causality with causal representations</strong>"
           subtitle: by Francesco Locatello (ISTA)
           element-class: col-lg-4
           time: 16:15 - 17:15
           room: Hall B
+          url: /program#invited-talk-4
     - events:
         - title: '<i class="fa-solid fa-champagne-glasses"></i> Conference Party'
           element-class: col-lg-12
@@ -184,18 +186,18 @@
         time: 11:15 - 12:15
         room: Main Hall
         url: /program#discussion-panel-2
-      - title: "Invited Talk 5: <strong>TBA</strong>"
+      - title: "Invited Talk 5: <strong>Beyond the screen: capturing, understanding and generating 3D scenes</strong>"
         subtitle: by Federico Tombari (Google / Technical University of Munich)
         element-class: col-lg-4
         time: 11:15 - 12:15
         room: Hall A
-        # url: /program#invited-talk-5
-      - title: "Invited Talk 6: <strong>TBA</strong>"
+        url: /program#invited-talk-5
+      - title: "Invited Talk 6: <strong>Reliable and Sustainable AI: From Mathematical Foundations to Next Generation AI Computing</strong>"
         subtitle: by Gitta Kutyniok (DLR / University of Tromsø / LMU Munich)
         element-class: col-lg-4
         time: 11:15 - 12:15
         room: Hall B
-        # url: /program#invited-talk-6
+        url: /program#invited-talk-6
 
     - events:
       - title: 'Poster Session 1 + <i class="fa-solid fa-mug-saucer"></i> Coffee'
@@ -281,23 +283,26 @@
         room: Hall B
 
     - events:
-      - title: "Invited Talk 7: <strong>TBA</strong>"
+      - title: "Invited Talk 7: <strong>Unleashing Creativity using AI Agent Networks</strong>"
         subtitle: by Mihaela van der Schaar (University of Cambridge)
         element-class: col-lg-4
         time: 17:30 - 18:30
         room: Main Hall
+        url: /program#invited-talk-7
 
-      - title: "Invited Talk 8: <strong>TBA</strong>"
+      - title: "Invited Talk 8: <strong>Training LLMs: Do We Understand Our Optimizers?</strong>"
         subtitle: by Antonio Orvieto (ELLIS Institute Tübingen)
         element-class: col-lg-4
         time: 17:30 - 18:30
         room: Hall A
+        url: /program#invited-talk-8
 
       - title: "Invited Talk 9: <strong>TBA</strong>"
         subtitle: by Sander Dieleman (Google DeepMind)
         element-class: col-lg-4
         time: 17:30 - 18:30
         room: Hall B
+        url: /program#invited-talk-9
 
 - title: Friday / 17 October
   date: 2025-10-17
@@ -375,12 +380,13 @@
         element-class: col-lg-4
         time: 11:15 - 12:15
         room: Hall A
-      
-      - title: "Invited Talk 11: <strong>TBA</strong>"
+        url: /program#invited-talk-10
+      - title: "Invited Talk 11: <strong>From pixels to nucleotides</strong>"
         subtitle: by Alexey Dosovitskiy (Inceptive)
         element-class: col-lg-4
         time: 11:15 - 12:15
         room: Hall B
+        url: /program#invited-talk-11
 
     - events:
       - title: 'Poster Session 2 + <i class="fa-solid fa-mug-saucer"></i> Coffee'
@@ -411,21 +417,24 @@
         room: Hall B
           
     - events: 
-      - title: "Invited Talk 12: <strong>TBA</strong>"
+      - title: "Invited Talk 12: <strong>What’s the next wave of disruption in science and engineering?</strong>"
         subtitle: by Johannes Brandstetter (Johannes Kepler University /&nbsp;Emmi&nbsp;AI)
         element-class: col-lg-4
         time: 16:00 - 17:00
         room: Main Hall
+        url: /program#invited-talk-12
       - title: 'Invited Talk 13: <strong>TBA</strong>'
         subtitle: by Bartłomiej Papież (University of Oxford)
         element-class: col-lg-4
         time: 16:00 - 17:00
         room: Hall A
-      - title: 'Invited talk 14: <strong>TBA</strong>'
+        url: /program#invited-talk-13
+      - title: 'Invited Talk 14: <strong>Modular learning for improving AI assistants</strong>'
         subtitle: by Herke van Hoof (University of Amsterdam)
         element-class: col-lg-4
         time: 16:00 - 17:00
         room: Hall B
+        url: /program#invited-talk-14
     - events:
       - title: 'Closing remarks'
         element-class: col-lg-12
