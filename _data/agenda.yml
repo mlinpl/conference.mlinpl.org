@@ -469,7 +469,7 @@
         element-class: col-lg-4
         time: 9:00 - 13:00
         url: /program#tutorial-5
-      - title: 'Tutorial 6: <strong>Running Models on Tenstorrent Hardware</strong>'
+      - title: 'Tutorial 6: <strong>Next Generation Hardware for ML - Hands on with Tenstorrent🤘</strong>'
         element-class: col-lg-4
         time: 9:00 - 13:00
         url: /program#tutorial-6
