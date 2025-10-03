@@ -10,7 +10,9 @@
   room: Main Hall
   time: 12:20 - 13:20
   id: 1
-  desc: >-
+  desc: |-
+    **Unlike all other events during the conference, this panel will be conducted in Polish.**
+
     The “PL in ML: Polish View on Machine Learning” panel will take a closer look at the state of machine learning in Poland—what’s working, what’s not, and where we go from here. We will discuss key institutional issues and explore how ML research and development should be conducted in Poland—while asking the crucial question: is there hope for a thriving ML ecosystem here? Our conversation will cover pressing topics, including Poland's position on the U.S. export priority list for AI chips, the role of new government-supported research initiatives, and the broader policy landscape shaping AI development. While we acknowledge the challenges, our goal is to foster a constructive dialogue that highlights opportunities and the potential for growth in the Polish ML community.
   note: "Moderators: Franciszek Budrowski and Maja Jabłońska"
   panelists:
