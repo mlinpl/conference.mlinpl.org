@@ -6,7 +6,7 @@
   author-bio: >- 
     Adrian Łańcucki is a senior engineer at NVIDIA, where he optimizes the performance of LLMs and conducts research on representation learning, unsupervised segmentation, and generative modeling for text and speech. He is the author of FastPitch, a widely adopted text-to-speech model that significantly accelerated speech synthesis research. In 2019, Adrian obtained a Ph.D. in machine learning from the University of Wroclaw, Poland, and he has since actively collaborated with academia.
   co-authors: 
-  date: 16.10.2025
+  date: Thursday / 16 October
   time: 9:30 - 10:00
   room: Main Hall
   session: CfC Session 1
@@ -21,7 +21,7 @@
   author-bio: >- 
     Lukasz is a researcher specializing in natural language processing and document understanding. With a strong background in the industry and several international competition wins, he has contributed to the advancement of language modeling, particularly in multimodal models incorporating visual and layout features alongside textual information. He came to Snowflake as part of the Applica.ai acquisition and was recently involved in developing Snowflake Arctic and Arctic-TILT LLMs. His PhD thesis focused on neural network architectures shifting paradigms toward what is now called generative AI.
   co-authors: Michał Pietruszka, Wojciech Jaśkowski, Dawid Jurkiewicz, Piotr Halama, Paweł Józiak, Łukasz Garncarek, Paweł Liskowski, et al.
-  date: 16.10.2025
+  date: Thursday / 16 October
   time: 10:00 - 10:30
   room: Main Hall
   session: CfC Session 1
@@ -36,7 +36,7 @@
   author-bio: >- 
     I'm a PhD student working on LLM efficiency, scaling laws and Mixture of Experts.
   co-authors: Marcin Chochowski, Daniel Korzekwa
-  date: 16.10.2025
+  date: Thursday / 16 October
   time: 10:30 - 11:00
   room: Main Hall
   session: CfC Session 1
@@ -51,7 +51,7 @@
   author-bio: >- 
     Adam Pardyl is a PhD candidate in Group of Machine Learning Research at Jagiellonian University and a researcher at IDEAS NCBR. His research interests include computer vision for embodied AI, reinforcement learning, and MLLMs for robotics.
   co-authors: Dominik Matuszek, Mateusz Przebieracz, Marek Cygan, Bartosz Zieliński, Maciej Wołczyk
-  date: 16.10.2025
+  date: Thursday / 16 October
   time: 9:30 - 10:00
   room: Hall A
   session: CfC Session 2
@@ -66,7 +66,7 @@
   author-bio: >- 
     Former math student, now exploring the boundaries between mathematics, artificial intelligence, and language. My work focuses on language models and their ability to reason, reflect, and sometimes hallucinate.  I am fascinated by the intersection of psychology and AI. In particular, I apply psychological frameworks and experimental paradigms to study, challenge, and sometimes surprise artificial models.  My research is rarely done alone – I share my home office with five cats ("the demons"), who are convinced every keyboard was made for them.
   co-authors: Emilia Wiśnios, Paweł Budzianowski
-  date: 16.10.2025
+  date: Thursday / 16 October
   time: 10:00 - 10:30
   room: Hall A
   session: CfC Session 2
@@ -81,7 +81,7 @@
   author-bio: >- 
     PhD candidate in Computer Science at the University of Warsaw and a Research Engineer at Nomagic. My research primarily focuses on developing innovative methods for training Generalist Robot Policies (GRPs), aiming to equip robots with flexible, generalizable skills. I hold a Master's degree in Mathematics from the University of Warsaw and I spent a half of my master studies at École Polytechnique Fédérale de Lausanne (EPFL).
   co-authors: Marek Cygan, Piotr Zalewski
-  date: 16.10.2025
+  date: Thursday / 16 October
   time: 10:30 - 11:00
   room: Hall A
   session: CfC Session 2
@@ -96,7 +96,7 @@
   author-bio: >- 
     Konrad Staniszewski is a Ph.D. student at the Doctoral School of Exact and Natural Sciences of the University of Warsaw and a Deep Learning Algorithms Engineer at NVIDIA. His work focuses on optimizations for Large Language Models. His interests are machine learning, natural language processing, and algorithmics. He got his master’s degree at the Faculty of Mathematics, Informatics, and Mechanics at the University of Warsaw.
   co-authors: 
-  date: 16.10.2025
+  date: Thursday / 16 October
   time: 9:30 - 10:00
   room: Hall B
   session: CfC Session 3
@@ -111,7 +111,7 @@
   author-bio: >- 
     Paweł Cyrta – Applied Research Scientist and Engineer specializing in speech and audio analysis, dedicated to transforming cutting-edge research into real-world applications. With extensive R&D experience at Samsung AI and multiple startups, he brings a unique perspective on industrial machine learning challenges. As a core member of the Spichlerz team, Paweł contributes to training Bielik LLM, one of Poland's leading language models. He developed Polish speech-to-text models powering Stenograf.io's transcription services. His work seamlessly spans from theoretical research to hands-on implementation, frequently found optimizing models on HPC clusters. Currently pursuing a Ph.D. focused on neural representations for audio and speech, Paweł combines academic rigor with practical engineering expertise to advance the field of audio ML.
   co-authors: 
-  date: 16.10.2025
+  date: Thursday / 16 October
   time: 10:00 - 10:30
   room: Hall B
   session: CfC Session 3
@@ -126,7 +126,7 @@
   author-bio: >- 
     Human-Centric AI Researcher, bridging cognitive neuroscience and psychological methods with deep learning to enhance AI's alignment with human cognition. Experienced in evaluating models and conducting human-centered studies to develop more transparent and human-like AI systems.
   co-authors: Micha Heilbron
-  date: 16.10.2025
+  date: Thursday / 16 October
   time: 10:30 - 11:00
   room: Hall B
   session: CfC Session 3
@@ -141,7 +141,7 @@
   author-bio: >- 
     A PhD student from ETH Zurich, advised by Thomas Hofmann. Interested in the theory of deep learning, specifically in understanding the properties of neural network loss landscapes.  Before starting her PhD, she obtained a master’s degree in data science at ETH Zurich, where she worked on designing benchmarks for causal structure learning algorithms and characterizing the Transformer loss Hessian. Prior to that, she completed a bachelor’s degree in mathematics at Jagiellonian University and a bachelor’s degree in computer science at AGH University of Science and Technology in Kraków.
   co-authors: 
-  date: 16.10.2025
+  date: Thursday / 16 October
   time: 14:30 - 15:00
   room: Hall A
   session: CfC Session 4
@@ -156,7 +156,7 @@
   author-bio: >- 
     Michal began his academic journey with a BSc in Mathematical Physics and an MSc in Applied Physics from the University of Warsaw. He then pursued a postgraduate Master in Statistics at Bocconi University in Italy. Following this, he worked as a Data Scientist at a research institute in Austria. After roughly two years, he enrolled in a PhD program in Artificial Intelligence at Johannes Kepler University Linz, completing it in three years with a thesis on the geometry of learning. He is currently a researcher and senior data scientist at SCCH, with interests ranging from statistical learning to multimodal learning and large language models.
   co-authors: 
-  date: 16.10.2025
+  date: Thursday / 16 October
   time: 15:00 - 15:30
   room: Hall A
   session: CfC Session 4
@@ -171,7 +171,7 @@
   author-bio: >- 
     I am a PhD researcher specializing in Geometric Representational Learning, focusing on designing and applying geometrical methods to advance our understanding of computational systems and their representational structures.
   co-authors: 
-  date: 16.10.2025
+  date: Thursday / 16 October
   time: 15:30 - 16:00
   room: Hall A
   session: CfC Session 4
@@ -186,7 +186,7 @@
   author-bio: >- 
     Kamil Deja is a team leader at Research Institute IDEAS and an Assistant Professor at Warsaw University of Technology where he obtained a Ph.D. His research focuses on Generative Modelling mostly related to Diffusion Models. He has previously interned at Virje Universiteit in Amsterdam and twice at Amazon Alexa.
   co-authors: Bartosz Cywiński
-  date: 16.10.2025
+  date: Thursday / 16 October
   time: 14:30 - 15:00
   room: Hall B
   session: CfC Session 5
@@ -201,7 +201,7 @@
   author-bio: >- 
     I am involved in research regarding Trustworthy Machine Learning with the main focus on image generative models like diffusion models and image autoregressive models. I explore topics related to training data privacy, and the privacy risks associated with the potential of data leakage from the models.
   co-authors: Jan Dubiński, Franziska Boenisch, Adam Dziedzic
-  date: 16.10.2025
+  date: Thursday / 16 October
   time: 15:00 - 15:30
   room: Hall B
   session: CfC Session 5
@@ -216,7 +216,7 @@
   author-bio: >- 
     Łukasz Staniszewski is a recent graduate of the Warsaw University of Technology and a researcher at the IDEAS Research Institute. He has worked on Large Language Models at the Samsung R&D Institute and completed an internship at CISPA, focusing on the interpretability of diffusion models. His primary interest lies in understanding how the Generative Models work underneath to enable more effective control over them—an objective he aims to pursue further during his upcoming PhD studies.
   co-authors: 
-  date: 16.10.2025
+  date: Thursday / 16 October
   time: 15:30 - 16:00
   room: Hall B
   session: CfC Session 5
@@ -231,7 +231,7 @@
   author-bio: >- 
     PhD in Automatic Control and Robotics, Anna Sztyber-Betley works as an assistant professor in the Institute of Automatic Control and Robotics, Faculty of Mechatronics, WUT. She is an enthusiast of education in AI and ML. Recently cooperating with Truthful AI (Berkeley) on AI Safety projects.
   co-authors: Jan Betley
-  date: 17.10.2025
+  date: Friday / 17 October
   time: 9:30 - 10:00
   room: Main Hall
   session: CfC Session 6
@@ -246,7 +246,7 @@
   author-bio: >- 
     Over 10 years of experience as a software developer in various startups. Pivoted to technical AI safety in 2023, first at OpenAI Dangerous Capability Evaluations team and since 2024 a full-time researcher mostly focused on out-of-context reasoning in LLMs. Two NeurIPS 2024 posters, ICLR 2025 spotlight and ICML 2025 oral.
   co-authors: Anna Sztyber-Betley
-  date: 17.10.2025
+  date: Friday / 17 October
   time: 10:00 - 10:30
   room: Main Hall
   session: CfC Session 6
@@ -261,7 +261,7 @@
   author-bio: >- 
     I am a Senior Researcher, working on developing algorithms to make AI more safe and secure. Earlier, I finished my PhD in the Department of Computer Science and Automation (CSA), Indian Institute of Science (IISc). I have extensive experience in Reinforcement learning, Autonomous vehicles and AI.
   co-authors: 
-  date: 17.10.2025
+  date: Friday / 17 October
   time: 10:30 - 11:00
   room: Main Hall
   session: CfC Session 6
@@ -276,7 +276,7 @@
   author-bio: >- 
     I am a PhD Student working on Conformal Prediction for Complex Vision Tasks at the Institute of Mathematics of Toulouse and the SNCF (French State Railways). I am interested in building tools for trustworthy AI. I do most of my work with the DEEL Team of IRT Saint Exupery. Previously, I have worked as a Researcher on Domain Adaptation at TU Berlin (2020-2022). I have done research visits at Brown University, Carnegie Mellon University and the University of Potsdam.
   co-authors: Luca Mossina, Adrien Mazoyer, Sebastien Gerchinovitz
-  date: 17.10.2025
+  date: Friday / 17 October
   time: 9:30 - 10:00
   room: Hall A
   session: CfC Session 7
@@ -291,7 +291,7 @@
   author-bio: >- 
     Paweł Teisseyre received the Ph.D. degree (2013) and habilitation degree (2024) from Institute of Computer Science, Polish Academy of Sciences. He works as an Associate Professor in the Institute of Computer Science, Polish Academy of Sciences and as an Assistant Professor at the Faculty of Mathematics and Information Sciences, Warsaw University of Technology. His research interests include feature selection in high-dimensional supervised problems, multi-label classification, learning from partially labelled data, learning under distribution shift and applications of machine learning methods in medicine and genetics.
   co-authors: Jan Mielniczuk
-  date: 17.10.2025
+  date: Friday / 17 October
   time: 10:00 - 10:30
   room: Hall A
   session: CfC Session 7
@@ -306,7 +306,7 @@
   author-bio: >- 
     Jan Mielniczuk is a full professor at the Institute of Computer Science, Polish Academy of Sciences, and professor at the Faculty of Mathematics and Information Sciences of Warsaw University of Technology.  His main research contributions concern computational statistics and data mining, in particular time series modeling and prediction, inference for high dimensional and misspecified data, model selection, computer-intensive methods, asymptotic analysis, and quantification of dependence. He is an author and co-author of two books and over ninety articles.
   co-authors: Paweł Teisseyre, Wojciech Rejchel
-  date: 17.10.2025
+  date: Friday / 17 October
   time: 10:30 - 11:00
   room: Hall A
   session: CfC Session 7
@@ -321,7 +321,7 @@
   author-bio: >- 
     Mateusz Gajewski is a PhD student at Poznan University of Technology and IDEAS NCBR. His research interests include causal inference (with a primary focus on causal discovery) and explainability in machine learning, particularly through game-theoretic approaches.
   co-authors: Mateusz Olko
-  date: 17.10.2025
+  date: Friday / 17 October
   time: 9:30 - 10:00
   room: Hall B
   session: CfC Session 8
@@ -336,7 +336,7 @@
   author-bio: >- 
     I am a postdoc in the Department of Statistics at the University of Washington. My research focuses on causal inference and statistical inference for infinite-dimensional parameters, with application to study the efficacy of infectious disease prevention strategies.
   co-authors: Peter Gilbert, Alex Luedtke
-  date: 17.10.2025
+  date: Friday / 17 October
   time: 10:00 - 10:30
   room: Hall B
   session: CfC Session 8
@@ -351,7 +351,7 @@
   author-bio: >- 
     My name is Michael Samir Vollenweider and I am currently enrolled at ETH Zurich, where I’m pursuing a Master’s degree in Data Science. I also hold a Bachelor’s degree in Computational Science and Engineering from the same university. Throughout my studies have focused on understanding how to effectively apply mathematical tools to biological and biomedical problems. Having acquired a variety of fundamental skills in mathematics, computer science and biology, I now strive to contribute to the emerging field of causal machine learning in health care.   Accordingly, I recently started working on my Master’s thesis in Professor Bühlmann’s lab under the supervision of Marin Sola. The thesis focuses on predicting the effect of unseen combinations of different cancer therapies by leveraging causal representation learning. Prior to working on my thesis, I studied the impact of various kinds of treatment selection bias in clinical studies in collaboration with Manuel Schürch at UZH and USZ. Working on the resulting manuscript and publishing it at the ML4H conference in autumn 2024 has prepared me well for my current work.  I will start my PhD in the same field next year in Summer at ETH Zurich.
   co-authors: Manuel Schürch, Chiara Rohrer, Gabriele Gut, Michael Krauthammer, Andreas Wicki
-  date: 17.10.2025
+  date: Friday / 17 October
   time: 10:30 - 11:00
   room: Hall B
   session: CfC Session 8
