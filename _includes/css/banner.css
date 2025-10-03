@@ -8,10 +8,15 @@
     padding: 10px 0;
     font-size: 1.2em;
     z-index: 1000; 
-    padding: 15px 15px;
     border-top: 3px solid {{ site.color.second }};
     border-bottom: 3px solid {{ site.color.second }};
     background-color: {{ site.color.main }};
+}
+
+.event-banner__inner {
+    margin: 0 auto;
+    padding: 15px;
+    box-sizing: border-box;
 }
 
 .event-banner p {
@@ -22,3 +27,4 @@
     color: #fff;
     text-decoration: underline;
 }
+
