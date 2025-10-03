@@ -407,20 +407,20 @@
   id: 27
   author-image: images/optimized/cfc-600x600/zuzanna_gawrysiak.webp
 
-- author-name: Lukasz Popek
-  title: "Smart Flattening: AI-Assisted Unwrapping of 3D Guitar Body Geometry for Custom Graphic Application"
-  author-title: "Warsaw University of Technology"
+- author-name: Mateusz Pyla
+  title: "Understanding Generalization-Memorization Trade-offs, Learning Dynamics, and Expert Democratization in Mixture of Experts Architectures"
+  author-title: "Jagiellonian University"
   abstract: >- 
-    Applying 2D images onto 3D objects with complex shapes remains a major challenge in custom product design, especially in industries where shapes are detailed and unusual. Manually turning 3D objects exported from CAD software into accurate 2D grid layouts (called UV unwrapping) for texture mapping can be difficult and time-consuming. It often requires model remeshing to achieve more regular geometry and prevent image stretching. In this paper, we propose an AI-powered framework that automates and optimizes the UV unwrapping process of guitar body geometries. By leveraging the knowledge of diverse guitar body shapes and mapping techniques, our system finds the best way to unwrap the 3D model while keeping the proportions and minimizing texture stretching. This approach supports the designer’s workflow and supports a broader vision of automating the electric guitar production process. The approach was developed in collaboration with the Ruf Guitars ltd and will serve as a use case technology within the company's pipeline. It will allow for scalable manufacturing of custom instruments with high-fidelity graphic visualizations.
+    Mixture of Experts (MoE) architectures have emerged as a promising paradigm for scaling neural networks while maintaining computational efficiency through sparse activation. However, recent findings reveal fundamental tensions between the benefits of expert specialization and the risks of overfitting that challenge conventional wisdom about MoE design. This work provides an analysis of MoE architectures through the lens of generalization versus memorization trade-offs, examining how expert routing decisions influence model behavior across different task complexities.
   author-bio: >- 
-    Łukasz Popek is a PhD candidate at Warsaw University of Technology, with a dual Master’s background from WUT and the University of Warsaw. His research concerns applying generative AI in industrial processes, focusing on photorealistic texture generation for composite electric guitars. He has worked across startups and applied research projects, delivering AI-driven solutions in UAV safety, thermal vision, and creative automation.
-  co-authors: Julian Konowalski
-  date: Friday / 17 October
+    Mateusz is pursuing his PhD in AI at Jagiellonian University. He holds a Master’s degree from Dauphine-PSL Université in Paris and a Bachelor’s degree from the University of Edinburgh. His research expertise includes optimization, mechanistic interpretability, and Bayesian learning.
+  co-authors: Stanisław Jastrzębski
+  date:  Thursday / 16 October
   time: 12:15 - 13:45
   room: 
   session: Poster Session 1
   id: 28
-  author-image: images/optimized/cfc-600x600/lukasz_popek.webp
+  author-image: images/optimized/cfc-600x600/mateusz_pyla.webp
 
 - author-name: Jarosław Janas
   title: "A Multi-bit Watermarking Scheme for LLM-Generated Short Texts"
@@ -632,20 +632,20 @@
   id: 42
   author-image: images/optimized/cfc-600x600/jakub_chojnacki.webp
 
-- author-name: Filip Ręka
-  title: "LoRA-based Adapter Tuning for Arbitrary Class Specialisation in Embedding Models"
-  author-title: "AGH"
+- author-name: Lukasz Popek
+  title: "Smart Flattening: AI-Assisted Unwrapping of 3D Guitar Body Geometry for Custom Graphic Application"
+  author-title: "Warsaw University of Technology"
   abstract: >- 
-    Embedding models like CLIP offer general-purpose representations across diverse visual and textual domains, but adapting them to specific use cases often compromises generality or requires extensive finetuning. In this work, we propose a parameter-efficient approach using LoRA adapters to specialise a frozen embedding backbone for arbitrary target classes. Each class receives its own LoRA module, enabling modular, per-class adaptation without disrupting the global representation space or retraining shared parameters.  This setup allows new semantic classes to be introduced incrementally, with only small, specialised adapters added per class. We show how this method preserves inter-class structure while allowing for class-specific expressivity, and explore the conditions under which these local adapters diverge or interfere. To support dynamic use at inference, we also discuss routing mechanisms for selecting the appropriate adapter based on input similarity.  Finally, we explore potential methods for aligning the resulting class-specific embedding subspaces, enabling compatibility between adapted and non-adapted representations in a shared global embedding space.
+    Applying 2D images onto 3D objects with complex shapes remains a major challenge in custom product design, especially in industries where shapes are detailed and unusual. Manually turning 3D objects exported from CAD software into accurate 2D grid layouts (called UV unwrapping) for texture mapping can be difficult and time-consuming. It often requires model remeshing to achieve more regular geometry and prevent image stretching. In this paper, we propose an AI-powered framework that automates and optimizes the UV unwrapping process of guitar body geometries. By leveraging the knowledge of diverse guitar body shapes and mapping techniques, our system finds the best way to unwrap the 3D model while keeping the proportions and minimizing texture stretching. This approach supports the designer’s workflow and supports a broader vision of automating the electric guitar production process. The approach was developed in collaboration with the Ruf Guitars ltd and will serve as a use case technology within the company's pipeline. It will allow for scalable manufacturing of custom instruments with high-fidelity graphic visualizations.
   author-bio: >- 
-    Phd student working on medical LLMs with main focus on language guided therapy for cancer treatment. I hold a Masters degree in Data Science.
-  co-authors: 
+    Łukasz Popek is a PhD candidate at Warsaw University of Technology, with a dual Master’s background from WUT and the University of Warsaw. His research concerns applying generative AI in industrial processes, focusing on photorealistic texture generation for composite electric guitars. He has worked across startups and applied research projects, delivering AI-driven solutions in UAV safety, thermal vision, and creative automation.
+  co-authors: Julian Konowalski
   date: Friday / 17 October
   time: 12:15 - 13:45
   room: 
   session: Poster Session 2
   id: 43
-  author-image: images/optimized/cfc-600x600/filip_reka.webp
+  author-image: images/optimized/cfc-600x600/lukasz_popek.webp
 
 - author-name: Tomasz Ponitka
   title: "The Pseudo-Dimension of Contracts"
