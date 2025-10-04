@@ -82,6 +82,9 @@
     - name: Air Space Intelligence
       image: "images/sponsors/ASI.svg"
       url: "https://www.airspace-intelligence.com/"
+    - name: Accenture
+      image: "images/sponsors/Accenture.svg"
+      url: "https://www.accenture.com/"
 #     - name: Palto
 #       image: "images/optimized/sponsors-600x600/Palto.svg"
 #       url: "https://palto.ai"
