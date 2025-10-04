@@ -261,15 +261,12 @@
   authors:
     - name: Wojtek Czekalski
       title: CEO at Dialo
-      # image: images/optimized/tutorials-600x600/Wojtek_Czekalski.webp
-      image: images/empty.png
+      image: images/optimized/tutorials-600x600/Wojciech_Czekalski.webp
     - name: Patryk Wojnarowski
       title: Dialo
-      # image: images/optimized/tutorials-600x600/Patryk_Wojnarowski.webp
-      image: images/empty.png
+      image: images/optimized/tutorials-600x600/Patryk_Wojnarowski.webp
     - name: Adam Cholewiński
       title: Dialo
-      # image: images/optimized/tutorials-600x600/Adam_Cholewinski.webp
-      image: images/empty.png
+      image: images/optimized/tutorials-600x600/Adam_Cholewinski.webp
   # author-bio-md: >-
   #   ...
