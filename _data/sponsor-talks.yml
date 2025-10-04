@@ -10,95 +10,103 @@
 #  author-image:
 #  author-bio: >-
 
-- title: AlleNoise - large-scale text classification benchmark dataset with real-world label noise
+- title: "🤘 All Things Metal"
   abstract: >-
-    Label noise remains a challenge for training robust classification models, as it might negatively impact their classification performance. To help with the development of new algorithms, we've published AlleNoise, a curated text classification dataset with real-world instance-dependent label noise. In this presentation, we will show how we've evaluated existing robust classification methods and argue why they are ill-equipped for handling such realistic noise patterns.
-  date: Friday / 8 November
-  time: 12:20 - 13:20
-  room: Hall A
+    TBA
+  date: Friday / 17 October
+  time: 14:45-15:45
+  room: Hall B
   slider-order: 1
-  author-name: Alicja Rączkowska
-  author-title: Allegro
-  author-image: images/optimized/speakers-600x600/AlicjaRaczkowska.webp
-  author-bio: >-
-    Alicja Rączkowska is a Senior Research Engineer in the Machine Learning Research team at Allegro, where she works on applying and advancing NLP methods in the e-commerce domain. Obtained her PhD from the University of Warsaw, where she focused on machine learning methods for histopathology.
+  author-title: Tenstorrent
+  author-image: images/optimized/speakers-600x600/MaciejDragula.webp
+  author-bio-md: >-
+    Maciej Draguła is a Senior Engineer at Tenstorrent, where he develops tt-train, a framework for training large language models on Tenstorrent’s cutting-edge AI hardware, with a focus on optimising operations to reduce training time. Previously, he worked on computer vision applications for avionics at Daedalean, and his experience includes internships at CERN, Google, and Goldman Sachs. He holds a Bachelor’s degree in Computer Science from the University of Wrocław.
 
-- title: Careers in Quant Finance
+    Senior Principal at Tenstorrent, Artem Yerofieiev leads software engineering for TT-NN — the open-source, scaleout-native and tile-based ML framework for Tenstorrent’s next-gen accelerators. Currently building autonomous AI systems to generation software and support hardware-software co-design. Previously led AR-creation tools at Snap and analytical software in a defense R&D lab.
+  authors:
+    - name: Maciej Draguła
+      title: Tenstorrent
+      image: images/optimized/speakers-600x600/MaciejDragula.webp
+    - name: Artem Yerofieiev
+      title: Tenstorrent
+      image: images/optimized/speakers-600x600/ArtemYerofieiev.webp
+
+- title: "G-Research: what makes us unique, what new techniques we are working on and how you can be part of it."
   abstract: >-
-    An introduction to G-Research Quantitative Finance activities, what we look for in potential quants and how our recruitment process works.
-  date: Friday / 8 November
-  time: 12:20 - 13:20
+    An introduction to the Quant Finance industry, how G-Research is unique and examples of how we are working in the NLP area. A summary of our scholarships, internships and recruitment schemes will follow.
+  date: Thursday / 16 October
+  time: 16:15-17:15
   room: Hall B
   slider-order: 2
-  authors:
-    - name: Charles Martinez
-      title: G-Research
-      image: images/optimized/speakers-600x600/CharlesMartinez.webp
-    - name: Scarlett Bailey
-      title: G-Research
-      image: images/optimized/speakers-600x600/ScarlettBailey.webp
-  author-bio-md: >-
+  author-name: Charles Martinez
+  author-title: G-Research
+  author-image: images/optimized/speakers-600x600/CharlesMartinez.webp
+  author-bio: >-
     Dr Charles Martinez is the Academic Relations Manager at G-Research. Charles completed a PhD in Phonon interactions in Gallium Nitride nanostructures at the University of Nottingham. Charles' previous role was as Elsevier's Key Account Manager, managing sales and renewals for the UK Russell Group institutions, Government and Funding body accounts, including being one of the negotiators in the UK ScienceDirect Read and Publish agreement. Since leaving Elsevier Charles is dedicated to forming beneficial partnerships between G-Research and Europe's top institutions, and is living in Cambridge, UK.
 
-
-    Scarlett Bailey is currently an intern in the Talent Acquisition department at G-Research, completing her placement year while studying for a BSc in Management at the University of Bath. As part of the team, Scarlett supports recruitment for the Summer Research Programme and other internship opportunities, with a focus on engaging emerging talent in quantitative research and technology. She also contributes to G-Research's global attraction events, connecting students with career opportunities across the company.
-
-- title: LLM Serving
+- title: Evolving Search and Recommendations at a Leading E-commerce Platform
   abstract: >-
-    The presentation Scaling and Optimizing LLM Serving focuses on techniques for efficiently deploying Large Language Models (LLMs) to meet performance demands. It covers key fundamentals like prefill, decoding, and memory optimization, and explains the importance of metrics such as latency, throughput, and cost. The talk compares popular model-serving frameworks (vLLM, Hugging Face Text Generation Inference, and Nvidia TensorRT-LLM), highlighting their advantages and limitations. It also introduces optimization techniques, including quantization, batching, and memory management strategies like PagedAttention, and concludes with recommendations for selecting the right hardware and server configurations to maximize LLM efficiency and scalability.
-  date: Saturday / 9 November
-  time: 15:00 - 15:30
+    Allegro stands as the largest e-commerce marketplace of European origin, with search and recommendation systems at its core. How do you inspire users or generate complementary recommendations within a single modeling paradigm? How do you cater to the long tail of search queries or incorporate multiple modalities within one model? Explore the challenges of training pipelines for coexisting models. Discover how Large Language Models (LLMs) have reshaped the landscape and peek into emerging architectural paradigms. Join research engineers Aleksandra Chrabrowa (search) and Mateusz Marzec (recommendation) as they journey through Allegro's search and recommendation frontier.
+  date: Wednesday / 15 October
+  time: 15:00-16:00
   room: Hall A
   slider-order: 3
-  author-name: Long Cheng
-  author-title: Google
-  author-image: images/optimized/speakers-600x600/LongCheng.webp
-  author-bio: >-
-    Long Cheng is an Engineering Leader at Google Cloud Vertex AI - a unified machine learning (ML) platform that aims to streamline the entire ML workflow, making it easier for data scientists and ML engineers to build, deploy, and scale AI models. Vertex AI offers a comprehensive suite of tools to manage every stage of the ML development lifecycle, from data preparation and model training to deployment, monitoring, and maintenance. As the site lead for Google Cloud Vertex AI in Poland, Long spearheads the development of MLOps infrastructure (Model training pipelines, Model Garden, Fine-tuning and etc.) and AI serving infrastructure for both online and batch predictions of Gemini and other pretrained AI models, leveraging GPU and TPU acceleration. Long brings a wealth of experience in product strategy and cross-functional leadership, effectively guiding engineering and product management teams to achieve evolving business goals. Prior to that, he gained over 12 years of experience in the U.S. as a lead engineer with top tech companies such as Google, Oracle and Microsoft.
+  author-title: Allegro
+  author-image: images/optimized/speakers-600x600/AleksandraChrabrowa.webp
+  author-bio-md: >-
+    Aleksandra Chrabrowa brings over five years of experience as a commercial research engineer, specializing in training machine learning models for large-scale systems, including retrieval models for Allegro search. Her expertise encompasses both large-scale training of in-house Transformer models and utilizing off-the-shelf LLM solutions. With a background in physics from the University of Warsaw, she merges scientific knowledge with practical application.
 
-- title: NeRF based generative models
+    Mateusz Marzec is a Research Engineer at Allegro, specializing in personalized retrieval and recommendation systems. With degrees in Mathematics, Economic Analytics, and Data Science, he combines strong mathematical skills with hands-on experience in machine learning and data analysis. Mateusz has a strong passion for research, especially work that bridges the gap between theory and practice. He enjoys exploring innovative methods in information retrieval and recommendation systems, with a focus on solutions that can be effectively applied in real-world products and systems.
+  authors:
+    - name: Aleksandra Chrabrowa
+      title: Allegro
+      image: images/optimized/speakers-600x600/AleksandraChrabrowa.webp
+    - name: Mateusz Marzec
+      title: Allegro
+      image: images/optimized/speakers-600x600/MateuszMarzec.webp
+
+- title: TRANSLATING CUTTING-EDGE RESEARCH INTO IMPACTFUL PRODUCTS
   abstract: >-
-    Recently, generative models for 3D objects have gained much popularity in virtual (VR) and augmented reality (AR) applications. Training such models using standard 3D representations, like voxels or point clouds, is challenging and requires complex tools for proper color rendering. In order to overcome this limitation, Neural Radiance Fields (NeRFs) offer a state-of-the-art quality in synthesizing novel views of complex 3D scenes from a small subset of 2D images.
-    In the presentation, I describe generative models which use hypernetworks paradigm to produce 3D objects represented by NeRF. The advantage of the models over existing approaches is that it produces a dedicated NeRF representation for the object without sharing some global parameters of the rendering component.
-  date: Saturday / 9 November
-  time: 15:00 - 15:30
-  room: Hall B
+    The ongoing AI revolution profoundly reshapes our world. However, translating cutting-edge research into impactful products in a timely manner presents a significant challenge. At Snowflake, we bridge the gap between pioneering AI research and practical application, delivering user-friendly, reliable, and scalable solutions for data scientists, engineers, and researchers. This presentation will highlight these innovative products, with a special focus on the development of our latest Arctic-Extract model for unstructured data processing. Arctic-Extract significantly surpasses the capabilities of our previous DocumentAI model, achieving state-of-the-art results on documents up to 125 pages with minimal GPU memory requirements.
+  date: Thursday / 16 October
+  time: 16:15-17:15
+  room: Hall A
   slider-order: 4
-  author-name: Przemysław Spurek
-  author-title: IDEAS NCBR
-  author-image: images/optimized/cfc-600x600/PrzemyslawSpurek.webp
+  author-name: Mateusz Chiliński
+  author-title: Snowflake
+  author-image: images/optimized/speakers-600x600/MateuszChilinski.webp
   author-bio: >-
-    Przemysław Spurek is the leader of the Neural Rendering research team at IDEAS NCBR and a researcher in the GMUM group operating at the Jagiellonian University in Krakow. In 2014, he defended his PhD in machine learning and information theory. In 2023, he obtained his habilitation degree and became a university professor. He has published articles at prestigious international conferences such as NeurIPS, ICML, IROS, AISTATS, ECML. He co-authored the book Głębokie uczenie. Wprowadzenie [Deep Learning. Introduction] – a compendium of knowledge about the basics of AI. He was the director of PRELUDIUM, SONATA, OPUS and SONATA BIS NCN grants. Currently, his research focuses mainly on neural rendering, in particular NeRF and Gaussian Splatting models.
+    Mateusz Chiliński, PhD, is a researcher and machine learning professional specializing in Document Understanding and Large Language Models (LLMs). For the past year, he has been a Research Scientist in the Document AI team at Snowflake, where he designs, trains, and deploys cutting-edge AI features. His role focuses on the end-to-end productization of LLMs, from research to production.
+    His academic foundation includes a PhD in Computer Science and a background in computational genomics, providing a cross-disciplinary perspective on complex data. Mateusz's extensive research experience is demonstrated by over 16 scientific publications in high-quality journals, reflecting his deep expertise in advanced machine learning and AI.
 
-- title: "Revolutionizing IT Operations with AI: The Comarch Experience"
+- title: "Measuring What Matters: The Challenges of Evaluating and Optimizing LLMs"
   abstract: >-
-    In today's digital landscape, IT operations must continuously evolve to meet increasing demands for efficiency, scalability, and resilience. Artificial Intelligence (AI) is transforming how IT teams manage systems, predict issues, and automate routine tasks, allowing organizations to move from reactive to proactive operational strategies. This presentation explores the impact of AI on IT operations, from AI-powered monitoring and predictive analytics to automated incident response and daily operations support systems. Gain insights into real-world AI applications in Comarch, the benefits of AI-empowerment, and how AI enhances and optimizes everyday tasks. Discover how integrating AI can revolutionize IT operations, driving greater innovation, agility, and cost-effectiveness in modern enterprises.
-  date: Saturday / 9 November
-  time: 15:30 - 16:00
+    From fine-tuning to prompt engineering, LLM adaptation is evolving fast - but knowing whether an optimized model is "good enough" remains a challenge. This talk focuses on the pitfalls of LLM evaluation and shares practical strategies for comparing full-precision and optimized models, especially when the process must be automated without human judgment in the loop.
+  date: Friday / 17 October
+  time: 14:45-15:45
   room: Hall A
   slider-order: 5
-  author-name: Tomasz Sapiński
-  author-title: Comarch
-  author-image: images/optimized/speakers-600x600/TomaszSapinski.webp
+  author-name: Patrycja Cieplicka
+  author-title: Tooploox
+  author-image: images/optimized/speakers-600x600/PatrycjaCieplicka.webp
   author-bio: >-
-    Tomasz Sapiński is a highly experienced IT professional with a strong background in software development and image processing using AI. He holds a degree from Lodz University of Technology and has spent over 15 years in the industry, gaining extensive experience in project management and IT system implementations around the world. Tomasz is also a skilled Data Scientist with a keen interest in the development of AI and neural networks, and their practical applications.
+    Patrycja Cieplicka is a computer science graduate from the Warsaw University of Technology with over six years of experience in machine learning. Her work focuses on Large Language Models, particularly model post-training, evaluation, and optimization.
 
-- title: Leveraging Feature Store for high-sparsity recommendations in LOT Polish Airlines
+- title: Sequential Representation Learning for Real-Time Bidding
   abstract: >-
-    Recommendation systems are an essential part of most e-commerce industries, often responsible for a significant portion of revenue. However, every branch of this industry has its own set of exceptions and challenges that affect how recommender systems have to be designed. In airlines, these exceptions become extreme as returning visitors become sparse, many purchases are anonymous, and items, such as flight tickets, can be sold at different prices depending on the circumstances. To overcome these challenges, we propose a simple method that utilizes information collected about users and items, omitting the need for extracting user/item embeddings with matrix factorization. Additionally, we will talk about how we used a Feature Store as a foundation for this project and why it could be beneficial to implement it in your Data Science team as well.
-  date: Saturday / 9 November
-  time: 15:30 - 16:00
+    In this talk, we present our ongoing work on integrating large-scale sequential user modeling into real-time bidding (RTB) systems — a domain where extreme latency constraints typically prevent the use of computationally intensive architectures. We will begin with a short introduction to online advertising, outlining the key machine learning challenges that arise in high-throughput bidding environments. We then describe how we leverage transformer-based architectures trained on whole-web traffic to enrich user profiles and enhance downstream prediction models. Finally, we showcase how these representations can be deployed within production-grade RTB pipelines without violating strict performance requirements.
+  date: Wednesday / 15 October
+  time: 15:00-15:30
   room: Hall B
   slider-order: 6
-  authors:
-    - name: Daniel Śliwiński
-      title: LOT Polish Airlines
-      image: images/optimized/speakers-600x600/DanielSliwinski.webp
-    - name: Patryk Radoń
-      title: LOT Polish Airlines
-      image: images/optimized/speakers-600x600/PatrykRadon.webp
   author-bio-md: >-
-    Daniel Śliwiński holds a master's degree in Data Science and Business Analytics from the University of Warsaw, where he focused on exploring the intersection of airline e-commerce and machine learning. He also has a bachelor's degree in Japanese Studies. Currently, Daniel is a Junior Data Scientist at LOT Polish Airlines, where he has contributed to various projects for over two years, working primarily on personalization, segmentation, forecasting, and big data initiatives. Outside of work, Daniel trains in Olympic weightlifting and competes in triathlon.
+    Maciej leads the ML team at RTB House responsible for deploying advanced sequence modeling within production bidding pipelines. He holds a PhD in mathematics from the University of Warsaw and has conducted research at École polytechnique fédérale de Lausanne and University of Amsterdam.
 
-
-    Patryk Radoń with a bachelors and master's degree from Cracow's AGH and Cracow University of Technology, he has honed his skills in data science over five years of practical experience. Currently working at LOT Polish Airlines, he specializes in modeling customer behavior with statistical background in causal inference and customer personalization, focused primarily on areas related to CRM and ecommerce. His expertise lies in leveraging data to drive business growth, optimize customer interactions, and enhance marketing strategies. In his free time he strives to balance his time between rock climbing, traveling and practicing martial arts.
+    Mateusz is a Machine Learning Researcher at RTB House, working on transformer-based sequence models for user behavior modeling. He earned a master’s in Machine Learning at the University of Warsaw, with a thesis applying transformer models to proteomics.
+  authors:
+    - name: Mateusz Błajda
+      title: RTB House
+      image: images/empty.png
+    - name: Maciej Zdanowicz
+      title: RTB House
+      image: images/empty.png

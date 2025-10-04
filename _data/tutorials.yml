@@ -132,7 +132,7 @@
 
     Antoni Zajko is a PhD student at Warsaw University of Technology with both research and commercial experience in machine learning.
 
-- title: Running Models on Tenstorrent Hardware
+- title: Next Generation Hardware for ML - Hands on with Tenstorrent🤘
   date: Saturday / 18 October
   time: 9:00 - 13:00
   id: 6
@@ -261,15 +261,12 @@
   authors:
     - name: Wojtek Czekalski
       title: CEO at Dialo
-      # image: images/optimized/tutorials-600x600/Wojtek_Czekalski.webp
-      image: images/empty.png
+      image: images/optimized/tutorials-600x600/Wojciech_Czekalski.webp
     - name: Patryk Wojnarowski
       title: Dialo
-      # image: images/optimized/tutorials-600x600/Patryk_Wojnarowski.webp
-      image: images/empty.png
+      image: images/optimized/tutorials-600x600/Patryk_Wojnarowski.webp
     - name: Adam Cholewiński
       title: Dialo
-      # image: images/optimized/tutorials-600x600/Adam_Cholewinski.webp
-      image: images/empty.png
+      image: images/optimized/tutorials-600x600/Adam_Cholewinski.webp
   # author-bio-md: >-
   #   ...
