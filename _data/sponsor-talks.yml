@@ -1,3 +1,15 @@
+#  TEMPLATE
+# - title:
+#  abstract: >-
+#  date:
+#  time:
+#  room:
+#  slider-order:
+#  author-name:
+#  author-title:
+#  author-image:
+#  author-bio: >-
+
 - title: AlleNoise - large-scale text classification benchmark dataset with real-world label noise
   abstract: >-
     Label noise remains a challenge for training robust classification models, as it might negatively impact their classification performance. To help with the development of new algorithms, we've published AlleNoise, a curated text classification dataset with real-world instance-dependent label noise. In this presentation, we will show how we've evaluated existing robust classification methods and argue why they are ill-equipped for handling such realistic noise patterns.

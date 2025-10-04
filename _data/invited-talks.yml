@@ -1,167 +1,240 @@
-- title: Towards Real-World Fact-Checking with Large Language Models
-  abstract: >-
-    Misinformation poses a growing threat to our society. It has a severe impact on public health by promoting fake cures or vaccine hesitancy, and it is used as a weapon during military conflicts to spread fear and distrust. Current research on natural language processing (NLP) for fact-checking focuses on identifying evidence and predicting the veracity of a claim. People’s beliefs, however, often do not depend on the claim and rational reasoning but on credible content that makes the claim seem more reliable, such as scientific publications or visual content that was manipulated or stems from unrelated contexts. To combat misinformation, we need to show (1) “Why was the claim believed to be true?“, (2) “Why is the claim false?“, (3) “Why is the alternative explanation correct?“. In this talk, I will zoom in on two critical aspects of such misinformation supported by credible though misleading content. Firstly, I will present our efforts to dismantle misleading narratives based on fallacious interpretations of scientific publications. Secondly, I will show how we can use multimodal large language models to (1) detect misinformation based on visual content and (2) provide strong alternative explanations for the visual content.
-  time: 12:15 - 13:15
-  room: Main Hall
-  date: Thursday / 7 November
+# TEMPLATE
+# - title:
+#  abstract: >-
+#  time:
+#  room:
+#  date:
+#  id:
+#  author-name:
+#  author-title:
+#  author-image:
+#  author-bio: >-
+#  google-scholar:
+#  slides:
+
+- title: Causal representation learning in temporal settings with actions
+  abstract: |-
+    Causal inference reasons about the effect of unseen interventions or external manipulations on a system. Similar to classic approaches to machine learning, it typically assumes that the causal variables of interest are given from the outset. However, real-world data often comprises high-dimensional, low-level observations (e.g., pixels in a video) and is thus usually not structured into such meaningful causal units. Causal representation learning aims at addressing this gap by learning high-level causal variables along with their causal relations directly from raw, unstructured data, e.g. images, videos or text.
+
+    In this talk I will focus on learning causal representations from temporal sequences, e.g. sequences of images that capture the state of an environment. In particular I will describe some of our work in which we leverage perturbations of an underlying system, e.g. the effects of actions performed by an agent in an environment, to provably identify causal variables and their relations from high-dimensional observations up to component-wise transformations and permutations in an unsupervised way. This allows us to apply our methods to realistic simulated environments for embodied AI, in which an agent is performing actions in an environment for which it only receives unstructured high-dimensional observations. In this setting our methods learn a latent representation that allows us to identify individually each causal variable, e.g. the different attributes or states of each object in the environment, as well as learn their interactions and the interactions with the agent in the form of causal relations. By reverse engineering the underlying causal system directly from visual inputs and actions, we can then provide a potential first step towards AI systems that reason about the world causally without supervision.
+  time: 12:20 - 13:20
+  room: Hall A
+  date: Wednesday / 15 October
   id: 1
-  author-name: Iryna Gurevych
-  author-title: Technical University of Darmstadt
-  author-image: images/optimized/speakers-600x600/IrynaGurevych.webp
-  author-bio: >-
-    Iryna Gurevych is Professor of Ubiquitous Knowledge Processing in the Department of Computer Science at the Technical University of Darmstadt in Germany. She also is an adjunct professor at MBZUAI in Abu-Dhabi, UAE, and an affiliated professor at INSAIT in Sofia, Bulgaria. She is widely known for fundamental contributions to and innovative applications of natural language processing and machine learning. Professor Gurevych is a past president of the Association for Computational Linguistics (ACL), the leading professional society in the field of natural language processing. Her many accolades include being a Fellow of the ACL, an ELLIS Fellow, and the recipient of an ERC Advanced Grant.
-  google-scholar: https://scholar.google.com/citations?user=t3A39e8AAAAJ&hl=en
-  slides: https://docs.google.com/presentation/d/e/2PACX-1vTr10Cas1Z08Lj9yIA7cqrqXuRr-FusG7xS8PRt0Eph8RGO6UDrVHAuGwjyT6ujuPQFLKua6FyMWmbn/pub?start=false&loop=false&delayms=3000
-
-- title: "Evolving programs with LLMs"
-  abstract: >-
-    In this talk I will present FunSearch, a method to search for new solutions in mathematics and computer science. FunSearch works by pairing a pre-trained LLM, whose goal is to provide creative solutions in the form of computer code, with an automated “evaluator”, which guards against hallucinations and incorrect ideas. By iterating back-and-forth between these two components, initial solutions “evolve” into new knowledge. I will present the application of FunSearch to a central problem in extremal combinatorics — the cap set problem — where we discover new constructions of large cap sets going beyond the best known ones, both in finite dimensional and asymptotic cases. This represents the first discoveries made for established open problems using LLMs. Then, I will present the application of FunSearch to an algorithmic problem, online bin packing, which showcases the generality of the method. In this use case, FunSearch finds new heuristics that improve upon widely used baselines. I will conclude the talk by discussing the implications of searching in the space of code.
-  time: 12:15 - 13:15
-  room: Halls A & B
-  date: Thursday / 7 November
-  id: 2
-  author-name: Bernardino Romera Paredes
-  author-title: Google DeepMind
-  author-image: images/optimized/speakers-600x600/BernardinoRomeraParedes.webp
-  author-bio: >-
-    Bernardino is a researcher at Google DeepMind, where he has been a core team member of AlphaFold2 for protein folding, and AlphaTensor for matrix multiplication algorithms. More recently, he initiated FunSearch, a system which uses Large Language Models for program search and has discovered new mathematical knowledge. Long before that, in 2009, Bernardino started his AI journey by studying the MSc Computational Statistics and Machine Learning at UCL. In 2010 he started a PhD, also at UCL, supervised by Prof. Massimiliano Pontil and Prof. Nadia Berthouze, and in 2013 he also did an internship at Microsoft Research. After finishing his PhD in 2014, he joined the Torr Vision Group as a Postdoc at the University of Oxford, researching about semantic segmentation and zero-shot learning. He has several papers published in Nature, as well as in machine learning conferences like NeurIPS and ICML. His main motivation is to leverage the power of AI to bring light to important scientific problems.
-  google scholar: https://scholar.google.com/citations?user=_LC9U6EAAAAJ
-  slides: https://docs.google.com/presentation/d/1bMF0t3T9BUCVX3cjVfMBnpmCs2DLE4A8TFzJyCVBpBY/edit?usp=sharing
-
-- title: "Explainable AI for LLMs"
-  abstract: >-
-    Large Language Models are prone to biased predictions and hallucinations, underlining the paramount importance of understanding their model-internal reasoning process. However, achieving faithful explanations for the entirety of a black-box transformer model and maintaining computational efficiency is difficult. This talk will present a recent extension of the Layer-wise Relevance Propagation (LRP) attribution method to handle attention layers, which addresses this challenge effectively. Our method is the first to faithfully and holistically attribute not only input but also latent representations of transformer models with the computational efficiency similar to a singular backward pass. Since the LRP is a model-aware XAI method, it not only identifies the relevant features in input space (e.g., pixels or words) but also provides deep insights into the model’s representation and the reasoning process. Through extensive evaluations against existing methods on Llama 2, Flan-T5 and the Vision Transformer architecture, we demonstrate that our proposed approach surpasses alternative methods in terms of faithfulness and enables the understanding of latent representations, opening up the door for concept-based explanations.
-  time: 14:45 - 15:45
-  room: Halls A & B
-  date: Thursday / 7 November
-  id: 3
-  author-name: Wojciech Samek
-  author-title: Technical University of Berlin
-  author-image: images/optimized/speakers-600x600/WojciechSamek.webp
-  author-bio: >-
-    Wojciech Samek is a Professor in the EECS Department at TU Berlin and is jointly heading the AI Department at Fraunhofer HHI. He is a Fellow at BIFOLD - Berlin Institute for the Foundation of Learning and Data, the ELLIS Unit Berlin, and the DFG Research Unit DeSBi. Furthermore, he is a Senior Editor for IEEE TNNLS, an Associate Editor for Pattern Recognition, and an elected member of the IEEE MLSP Technical Committee and Germany's Platform for AI. He also serves as a member of the scientific advisory board of IDEAS NCBR - Polish Centre of Innovation in the Field of Artificial Intelligence. Wojciech has co-authored more than 200 papers and was the leading editor of the Springer book "Explainable AI: Interpreting, Explaining and Visualizing Deep Learning" (2019), and co-editor of the open access Springer book “xxAI – Beyond explainable AI” (2022). He has served as Program Co-Chair for IEEE MLSP'23, and as Area Chair for NAACL'21 and NeurIPS'23, and is a recipient of multiple best paper awards, including the 2020 Pattern Recognition Best Paper Award and the 2022 Digital Signal Processing Best Paper Prize.
-  google scholar: https://scholar.google.com/citations?user=7aQwO08AAAAJ
-  slides: docs/invited_talk_3.pdf
-
-- title: "Perceiving, Understanding, and Interacting through Touch"
-  abstract: >-
-    Touch is a crucial sensor modality in both humans and robots. Recent advances in tactile sensing hardware have resulted -- for the first time -- in the availability of mass-produced, high-resolution, inexpensive, and reliable tactile sensors. In this talk, I will argue for the importance of creating a new computational field of "Touch processing" dedicated to the processing and understanding of touch through the use of Artificial Intelligence. This new field will present significant challenges both in terms of research and engineering, but also significantly opportunities in digitizing a new sensing modality. To conclude, I will present some applications of touch in robotics and discuss other future applications.
-  time: 09:30 - 10:30
-  room: Main Hall
-  date: Friday / 8 November
-  id: 4
-  author-name: Roberto Calandra
-  author-title: Technical University of Dresden
-  author-image: images/optimized/speakers-600x600/RobertoCalandra.webp
-  author-bio: >-
-    Roberto Calandra is a Full (W3) Professor at the Technische Universität Dresden where he leads the Learning, Adaptive Systems and Robotics (LASR) lab. Previously, he founded at Meta AI (formerly Facebook AI Research) the Robotic Lab in Menlo Park. Prior to that, he was a Postdoctoral Scholar at the University of California, Berkeley (US) in the Berkeley Artificial Intelligence Research (BAIR) Lab. His education includes a Ph.D. from TU Darmstadt (Germany), a M.Sc. in Machine Learning and Data Mining from the Aalto university (Finland), and a B.Sc. in Computer Science from the Università degli Studi di Palermo (Italy). His scientific interests are broadly at the conjunction of Robotics and Machine Learning, with the goal of making robots more intelligent and useful in the real world. Among his contributions is the design and commercialization of DIGIT -- the first commercial high-resolution compact tactile sensor, which is currently the most widely used tactile sensor in robotics. Roberto served as Program Chair for AISTATS 2020, as Guest Editor for the JMLR Special Issue on Bayesian Optimization, and has previously co-organized over 16 international workshops (including at NeurIPS, ICML, ICLR, ICRA, IROS, RSS). In 2024, he received the IEEE Early Academic Career Award in Robotics and Automation.
-  google scholar: https://scholar.google.ch/citations?user=fA0rYxMAAAAJ
-  slides: https://slides.com/rcalandra/2024-ml-in-pl
-
-- title: "molecule.one: Candid Stories and Hard Lessons from our Journey Building an AI for Science Startup"
-  abstract: >-
-    For the first time, we’re sharing the story behind Molecule.One. Founded in 2018 to make making medicines faster, we built the first generative deep learning product for chemistry. We battled — as early as in 2019 — problems that we know understand as hallucination and alignment. We then almost went under. We raised back building the most comprehensive reaction dataset in our highly automated laboratory, just to face another almost fatal adversity. In the process, we found ourselves immersed in a broader and sweeping change in the AI landscape. We offer a candid look at ups and downs, distilling insights and giving broader predictions about the future of AI-first companies.
-  time: 09:30 - 10:30
-  room: Hall A
-  date: Friday / 8 November
-  id: 5
-  author-name: Stanisław Jastrzębski
-  author-title: Molecule.one
-  author-image: images/optimized/speakers-600x600/StanislawJastrzebski.webp
+  author-name: Sara Magliacane
+  author-title: University of Amsterdam
+  author-image: images/optimized/speakers-600x600/SaraMagliacane.webp
   author-bio: |-
-    Stanislaw Jastrzebski serves as the CTO and Chief Scientist at Molecule.one, a biotech startup in the drug discovery space. He is passionate about improving the fundamental aspects of deep learning and applying it to automate scientific discovery. He completed his postdoctoral training at New York University in deep learning.
-    
-    His PhD thesis was based on work on foundations of deep learning done during research visits at MILA (with Yoshua Bengio) and the University of Edinburgh (with Amos Storkey). He received his PhD from Jagiellonian University, advised by Jacek Tabor. Beyond academia, he gained industrial experience at Google, Microsoft and Palantir. In his scientific work, he has published at leading machine learning venues (NeurIPS, ICLR, ICML, JMLR, Nature SR). He is also actively contributing to the machine learning community as an Area Chair (most recently NeurIPS '23) and as an Action Editor for TMLR. At Molecule.one, he leads technical teams working on software for synthesis planning based on deep learning, public data sources, and experiments from a highly automated laboratory.
-  google-scholar: https://scholar.google.com/citations?user=YQ5rrk4AAAAJ
+    Sara Magliacane is an assistant professor in the Amsterdam Machine Learning Lab at the University of Amsterdam and an ELLIS Scholar in the Interactive Learning and Interventional Representations program. During Spring 2022, she visited the Simons Institute in Berkeley for a semester on Causality.
+    The goal of her research is to find how causality can improve current machine learning (ML) algorithms, especially in terms of robustness, generalization across domains/tasks, and safety. Her research focuses on three directions: causal representation learning (i.e. learning causal factors from high-dimensional data, e.g. sequences of images), causal discovery (i.e. learning causal relations from data), and causality-inspired ML, e.g. how can ideas from causality help ML/RL adapt to new domains, nonstationarity and varying number of objects with different latent parameters, even when we cannot guarantee that we identified the true causal factors.
 
-- title: Inductive Biases for Robot Reinforcement Learning
-  abstract: >-
-    Autonomous robots that can assist humans in situations of daily life have been a long standing vision of robotics, artificial intelligence, and cognitive sciences. A first step towards this goal is to create robots that can learn tasks triggered by environmental context or higher level instruction. However, learning techniques have yet to live up to this promise as only few methods manage to scale to high-dimensional manipulator or humanoid robots. In this talk, we investigate a general framework suitable for learning motor skills in robotics which is based on the principles behind many analytical robotics approaches. To accomplish robot reinforcement learning learning from just few trials, the learning system can no longer explore all learn-able solutions but has to prioritize one solution over others – independent of the observed data. Such prioritization requires explicit or implicit assumptions, often called ‘induction biases’ in machine learning. Extrapolation to new robot learning tasks requires induction biases deeply rooted in general principles and domain knowledge from robotics, physics and control. Empirical evaluations on a several robot systems illustrate the effectiveness and applicability to learning control on an anthropomorphic robot arm. These robot motor skills range from toy examples (e.g., paddling a ball, ball-in-a-cup) to playing robot table tennis, juggling and manipulation of various objects.
-  time: 16:10 - 17:10
-  room: Hall A
-  date: Friday / 8 November
-  id: 6
-  author-name: Jan Peters
-  author-title: Technical University of Darmstadt
-  author-image: images/optimized/speakers-600x600/JanPeters.webp
-  author-bio: >-
-    Jan Peters is a full professor (W3) for Intelligent Autonomous Systems at the Computer Science Department of the Technische Universitaet Darmstadt.
-    Jan Peters has received the Dick Volz Best 2007 US PhD Thesis Runner-Up Award, the Robotics: Science & Systems – Early Career Spotlight, the INNS Young Investigator Award, and the IEEE Robotics & Automation Society’s Early Career Award as well as numerous best paper awards. In 2015, he received an ERC Starting Grant and in 2019, he was appointed as an IEEE Fellow and in 2020 an ELLIS fellow.
-  google-scholar: https://scholar.google.pl/citations?hl=en&user=-kIVAcAAAAAJ
-  slides: docs/invited_talk_6.pdf
+    Previously, she was a Research Scientist at MIT-IBM Watson AI lab and a postdoctoral researcher at IBM Research NY, working on methods to design experiments that would allow one to learn causal relations in a sample-efficient and intervention-efficient way. She received a PhD at VU Amsterdam on learning causal relations jointly from different experimental settings, even with latent confounders and small samples. During her PhD, she interned at Google Zürich and NYC. Previously, she studied Computer Engineering at Politecnico di Milano and Torino and at the University of Trieste.
+  google-scholar: https://scholar.google.com/citations?user=H3j_zQ4AAAAJ&hl=en
+  slides:
 
-- title: "RLHF as conditioning on human preferences"
-  abstract: >-
-    The dominant approach to aligning large language models with human preferences is reinforcement learning from human feedback (RLHF): finetuning an LLM to maximise a reward function representing human preferences. In this talk, I will try to present a complementary perspective: that we can also think about LLM alignment not in terms of reward maximisation but in terms of conditioning LMs on evidence about human preferences. First, I will explain how minimizing the classic RLHF objective is equivalent to approximate Bayesian inference. Then, I will go on to argue that the conditioning view also inspires other approaches to LLM alignment. I will discuss three: minimising different f-divergences from a target distribution, learning from feedback expressed in natural language and aligning LMs already during pretraining by directly learning a distribution conditional on alignment score. I will end the talk discussing how they correspond to conditioning subsequent priors on subsequent pieces of evidence about human preferences.
-  time: 16:10 - 17:10
+- title: TBA
+  abstract: |-
+    TBA
+  time: 12:20 - 13:20
   room: Hall B
-  date: Friday / 8 November
-  id: 7
-  author-name: Tomek Korbak
-  author-title: UK AI Safety Institute
-  author-image: images/optimized/speakers-600x600/TomaszKorbak.webp
-  author-bio: >-
-    Tomek Korbak is a Senior Research Scientist at the UK AI Safety Institute working on safety cases for frontier models. Previously, he was a Member of Technical Staff at Anthropic working on honesty. Before that, he did a PhD at the University of Sussex focusing on RL from human feedback (RLHF) and spent time as a visiting researcher at NYU working with Ethan Perez, Sam Bowman and Kyunghyun Cho. He studied cognitive science, philosophy and physics at the University of Warsaw.
-  google scholar: https://scholar.google.com/citations?user=YQ5rrk4AAAAJ
-  slides: https://docs.google.com/presentation/d/17NceQ84ZxpvFANA5N0-kQY8Ydv6itj4qy1Jl_xCP4qA/edit?usp=sharing
-
-- title: "Unveiling the Potential of AI-enabled In-silico Trials in Medical Innovation"
-  abstract: >-
-    The rapid introduction of novel medical technologies necessitates swift, reliable scientific validation of their safety and efficacy to protect patient welfare. Traditional clinical trials, while essential, face challenges such as detecting low-frequency side effects, high costs, and practical limitations, especially with paediatric patients, rare diseases, and underrepresented ethnic groups. In-silico trials (IST), powered by Computational Medicine, offer a promising solution by using computer simulations to test medical products on virtual patient populations. This approach allows for the a-priori optimisation of clinical outcomes, thorough risk assessment, and failure mode analysis before human trials. Although in-silico evidence is still emerging, it has the potential to revolutionise health and life sciences R&D and regulatory processes.
-  time: 09:30 - 10:30
-  room: Main Hall
-  date: Saturday / 9 November
-  id: 8
-  author-name: Alejandro Frangi
-  author-title: University of Manchester
-  author-image: images/optimized/speakers-600x600/AlejandroFrangi.webp
-  author-bio: |- 
-    Prof. Alejandro Frangi FREng, holds the Bicentennial Turing Chair in Computational Medicine at the University of Manchester, UK, with joint appointments in the Schools of Computer Science and Health Science. Additionally, he is the Royal Academy of Engineering Chair in Emerging Technologies, specialising in Precision Computational Medicine for in silico trials of medical devices. He serves as the Director of the Christabel Pankhurst Institute for Health Technology Research and Innovation and is a Fellow at the Alan Turing Institute. Recently, his research vision was recognised with an ERC Advanced Grant from the European Research Council. He leads the InSilicoUK Pro-Innovation Regulations Network (www.insilicouk.org). 
-    
-    Professor Frangi's main research interests lie at the crossroads of medical image analysis and modelling with an emphasis on machine learning (phenomenological models) and computational physiology (mechanistic models). His work has had a profound impact on the field, particularly in the areas of cardiovascular, musculoskeletal and neurosciences. He is particularly interested in statistical methods applied to population imaging and in silico clinical trials. 
-    
-    Prof. Frangi's contributions to the field have been widely recognised. He has received numerous accolades, including the IEEE Engineering in Medicine and Biology Technical Achievement Award (2021) and Early Career Award (2006). In 2011, he was honored with the UPF Medal for his service as Dean of the Escuela Politècnica Superior. He also received the ICREA-Academia Prize from the Institució Catalana de Recerca i Estudis Avançats (ICREA) in 2008, a President's International Initiative Award from the Chinese Academy of Science in 2019. Prof. Frangi has also edited a textbook on Medical Image Analysis, published in the MICCAI-Elsevier Book Series by Academic Press.
-  google scholar: https://scholar.google.com/citations?user=ieLRNKMAAAAJ
-
-- title: "Modern Bayesian Experimental Design"
-  abstract: >-
-    Bayesian experimental design (BED) provides a powerful and general framework for optimizing the design of experiments. However, its deployment often poses substantial computational challenges that can undermine its practical use. In this talk, I will outline how recent advances have transformed our ability to overcome these challenges and thus utilize BED effectively, before discussing some key areas for future development in the field.   time: 09:30 - 10:30
-  room: Hall A
-  date: Saturday / 9 November
-  id: 9
-  author-name: Tom Rainforth
-  author-title: University of Oxford
-  author-image: images/optimized/speakers-600x600/TomRainforth.webp
-  author-bio: >-
-    Tom is a Senior Researcher in Machine Learning and leader of the RainML Research Lab at the Department of Statistics in the University of Oxford. He is the principal investigator for the ERC Starting Grant Data-Driven Algorithms for Data Acquisition. His research covers a wide range of topics in and around machine learning and experimental design, with areas of particular interest including Bayesian experimental design, deep learning, representation learning, generative models, Monte Carlo methods, active learning, probabilistic programming, and approximate inference.
-  google scholar: https://scholar.google.com/citations?user=ieLRNKMAAAAJ
-  slides: docs/invited_talk_9.pptx
-
-- title: "Computer Vision in the age of LLMs"
-  abstract: >-
-    I will discuss how computer vision has changed with the integration of language and the advent of LLMs, with focus on the recent works of our group. Depending on the audience's familiarity, I may spend most of the time covering the way these modalities are integrated via SigLIP, CapPa, and PaLI, as well as touch on some fairness and cultural diversity aspects ("No Filter" paper), or spend more time on the advanced way in which classically "typical vision" tasks such as detection, segmentation, monocular depth, are finding their way into VLMs and the standard language-modeling approach, covering UViM, RL-tuning, GIVT, and more recent approaches towards fully end-to-end multimodal learning.
-  time: 16:10 - 17:10
-  room: Hall A
-  date: Saturday / 9 November
-  id: 10
-  author-name: Lucas Beyer
+  date: Wednesday / 15 October
+  id: 2
+  author-name: Shreya Pathak
   author-title: Google DeepMind
-  author-image: images/optimized/speakers-600x600/LucasBeyer.webp
-  author-bio: >-
-    Lucas grew up in Belgium wanting to make video games and their AI. He went on to study mechanical engineering at RWTH Aachen in Germany, then did a PhD in robotic perception and computer vision there too. Now, he is a staff research scientist at Google DeepMind (formerly Brain) in Zürich, leading multimodal vision-language research.
-  google-scholar: https://scholar.google.com/citations?user=p2gwhK4AAAAJ
+  author-image: images/optimized/speakers-600x600/ShreyaPathak.webp
+  author-bio: |-
+    Shreya Pathak is a research engineer at Google DeepMind, currently on the Gemma team. She works particularly on exploring different architectures for Gemma, optimising for on-device use cases. Prior to this, she had worked on multimodal understanding of video-language models. She graduated from IIT Bombay with a bachelor's in computer science and engineering.
+  slides:
 
-- title: Improving Foundation Models (with academic compute)
-  abstract: >-
-    I will talk about how we can build on top of pretrained Foundation Models to achieve better models for vision, language, audio and multi-modal tasks. First I will show that despite its strong performance, DINOv2 and other vision backbones often lack spatial understanding of images. To counteract this, we use NeCo, a new post-pretraining approach based on patch-nearest neighbors, which significantly improves the dense performances of this and any other model despite using only 16 GPU hours. Next I will introduce two parameter-efficient finetuning methods for LLMs and for VLMs that significantly reduce the amount of parameters required for successfully tuning these models. Finally, I will present our latest work, where we show that gradients from self-supervised losses can be successfully used as features for improved retrieval performances across vision, audio and text.
-  time: 16:10 - 17:10
+- title: TBA
+  abstract: |-
+    TBA
+  time: 16:15 - 17:15
+  room: Hall A
+  date: Wednesday / 15 October
+  id: 3
+  author-name: Adel Bibi
+  author-title: University of Oxford / Kellog College / Softserve
+  author-image: images/optimized/speakers-600x600/AdelBibi.webp
+  author-bio: |-
+    Adel Bibi is a senior researcher in machine learning and computer vision at the Department of Engineering Science of the University of Oxford, a Research Fellow (JRF) at Kellogg College, and a member of the ELLIS Society. Bibi is also an R&D Distinguished Advisor with Softserve.
+    Previously, Bibi was a senior research associate and a postdoctoral researcher with Philip H.S. Torr since October 2020. He received his MSc and PhD degrees from King Abdullah University of Science & Technology (KAUST) in 2016 and 2020, respectively, advised by Bernard Ghanem.
+
+    Bibi was awarded the CRG grant by KAUST to work on robust deep learning, an Amazon Research Award in 2022 in the Machine Learning Algorithms and Theory track, the Google Gemma 2 Academic Award in 2024, and the Systemic AI Safety grant of by the UK AI Security Institute in 2025. Bibi received four best paper awards; a NeurIPS23 workshop, an ICML23 workshop, a 2022 CVPR workshop, and one at the Optimization and Big Data Conference in 2018. His contributions include over 30 papers published in top machine learning and computer vision conferences. He also received four outstanding reviewer awards (CVPR18, CVPR19, ICCV19, ICLR22) and a Notable Area Chair Award in NeurIPS23 and acts as a senior area chair NeurIPS.
+  slides:
+
+- title: Bridging perception and causality with causal representations
+  abstract: |-
+    TBA
+  time: 16:15 - 17:15
   room: Hall B
-  date: Saturday / 9 November
-  id: 11
-  author-name: Yuki Asano
-  author-title: University of Technology Nuremberg
-  author-image: images/optimized/speakers-600x600/YukiAsano.webp
+  date: Wednesday / 15 October
+  id: 4
+  author-name: Francesco Locatello
+  author-title: ISTA
+  author-image: images/optimized/speakers-600x600/FrancescoLocatello.webp
+  author-bio: |-
+    Francesco Locatello is a tenure-track assistant professor at the Institute of Science and Technology Austria (ISTA) and an AI resident at the Chan Zuckerberg Initiative. Before, he was a senior applied scientist at Amazon Web Services, leading the Causal Representation Learning team. He received his PhD from ETH Zürich co-advised by Gunnar Rätsch and Bernhard Schölkopf. His research received several awards, including the ICML 2019 Best Paper award, the Hector Foundation award for outstanding achievements in machine learning from the Heidelberg Academy of Science in 2023, and the Google Research Scholar Award in 2024.
+  google-scholar: https://scholar.google.com/citations?user=wQanfTIAAAAJ&hl=en
+  slides:
+
+- title: "Beyond the screen: capturing, understanding and generating 3D scenes"
+  abstract: |-
+    TBA
+  time: 11:15 - 12:15
+  room: Hall A
+  date: Thursday / 16 October
+  id: 5
+  author-name: Federico Tombari
+  author-title: Google / Technical University of Munich
+  author-image: images/optimized/speakers-600x600/FedericoTombari.webp
+  author-bio: |-
+    Federico Tombari is Research Director at Google where he leads an applied research team in Computer Vision and Machine Learning across North America and Europe. With his team he contributed Computer Vision and ML technology to Google products such as Lens, Maps, Android, ARCore, Pixel. He is also a Lecturer (PrivatDozent) at the Technical University of Munich (TUM). He has 300+ peer-reviewed publications in CV/ML and applications to robotics, autonomous driving, healthcare and augmented reality. He got his PhD from the University of Bologna and his Venia Legendi (Habilitation) from Technical University of Munich (TUM). In 2018-19 he was co-founder and managing director of a startup on 3D perception for AR and robotics, then acquired by Google.
+  slides:
+
+- title: "Reliable and Sustainable AI: From Mathematical Foundations to Next Generation AI Computing"
+  abstract: |-
+    The current wave of artificial intelligence is transforming industry, society, and the sciences at an unprecedented pace. Yet, despite its remarkable progress, today’s AI still suffers from two major limitations: a lack of reliability and excessive energy consumption.
+
+    This lecture will begin with an overview of this dynamic field, focusing first on reliability. We will present recent theoretical advances in the areas of generalization and explainability, which are core aspects of trustworthy AI that also intersect with regulatory frameworks such as the EU AI Act. From there, we will explore fundamental limitations of existing AI systems, including challenges related to computability and the energy inefficiency of current digital hardware. These challenges highlight the pressing need to rethink the foundations of AI computing.
+
+    In the second part of the talk, we will turn to neuromorphic computing; a promising and rapidly evolving paradigm that emulates biological neural systems using analog hardware. We will introduce spiking neural networks, a key model in this area, and share some of our recent mathematical findings. These results point toward a new generation of AI systems that are not only provably reliable but also sustainable.
+  time: 11:15 - 12:15
+  room: Hall B
+  date: Thursday / 16 October
+  id: 6
+  author-name: Gitta Kutyniok
+  author-title: DLR / University of Tromsø / LMU Munich
+  author-image: images/optimized/speakers-600x600/GittaKutyniok.webp
+  author-bio: |-
+    Gitta Kutyniok currently holds a Bavarian AI Chair for Mathematical Foundations of Artificial Intelligence at the Ludwig-Maximilians-Universität München, and is in addition affiliated with the German Aerospace Center, DLR and the University of Tromsø. Her research work covers the areas of applied and computational harmonic analysis, artificial intelligence, compressed sensing, deep learning, imaging sciences, inverse problems, and applications to life sciences, robotics, and telecommunication
+  slides:
+
+- title: Unleashing Creativity using AI Agent Networks
+  abstract: |-
+    TBA
+  time: 17:30 - 18:30
+  room: Main Hall
+  date: Thursday / 16 October
+  id: 7
+  author-name: Mihaela van der Schaar
+  author-title: University of Cambridge
+  author-image: images/optimized/speakers-600x600/MihaelaVanDerSchaar.webp
+  author-bio: |-
+    Mihaela van der Schaar is the John Humphrey Plummer Professor of Machine Learning, Artificial Intelligence and Medicine at the University of Cambridge. In addition to leading the van der Schaar Lab, Mihaela is founder and director of the Cambridge Centre for AI in Medicine (CCAIM). 
+
+    Mihaela was elected IEEE Fellow in 2009 and Fellow of the Royal Society in 2024. She has received numerous awards, including the Johann Anton Merck Award (2024), the Oon Prize on Preventative Medicine from the University of Cambridge (2018), a National Science Foundation CAREER Award (2004), 3 IBM Faculty Awards, the IBM Exploratory Stream Analytics Innovation Award, the Philips Make a Difference Award and several best paper awards, including the IEEE Darlington Award. She was a Turing Fellow at The Alan Turing Institute in London between 2016 and 2024. In 2025, she was appointed as Spinoza Guest Professor at Amsterdam University Medical Center. 
+
+    Mihaela is personally credited as inventor on 35 USA patents, many of which are still frequently cited and adopted in standards. She has made over 45 contributions to international standards for which she received 3 ISO Awards. In 2019, a Nesta report determined that Mihaela was the most-cited female AI researcher in the U.K. 
+  google-scholar: https://scholar.google.com/citations?user=DZ3S--MAAAAJ&hl=en
+  slides:
+
+- title: "Training LLMs: Do We Understand Our Optimizers?"
+  abstract: |-
+    Why does Adam so consistently outperform SGD when training Transformer language models? Despite many proposed explanations, this optimizer gap is still not fully understood. In this talk, we will present results from two complementary studies. First, using over 2000 language model training runs, we compare Adam with simplified variants such as signed gradient and signed momentum. We find that while signed momentum is faster than SGD, it still lags behind Adam; however, we crucially notice that constraining Adam’s momentum parameters to be equal (beta1 = beta2) retains near-optimal performance. This is of great practical importance and also reveals a new insight: Adam in this form has a robust statistical interpretation and a clear link to mollified sign descent. Second, through carefully tuned comparisons of SGD with momentum and Adam, we show that SGD can actually match Adam in small-batch training, but loses ground as batch size grows. Analyzing both Transformer experiments and quadratic models with stochastic differential equations, we shed new light on the role of batch size in shaping training dynamics.
+  time: 17:30 - 18:30
+  room: Hall A
+  date: Thursday / 16 October
+  id: 8
+  author-name: Antonio Orvieto
+  author-title: ELLIS Institute Tübingen
+  author-image: images/optimized/speakers-600x600/AntonioOrvieto.webp
+  author-bio: |-
+    Antonio studied Control Engineering in Italy and Switzerland. He holds a PhD in Computer Science from ETH Zürich and spent time at Deepmind (UK), Meta (US), MILA (CA), INRIA (FR), and HILTI (LI). He is currently a Hector Endowed Fellow and Principal Investigator (PI) at the ELLIS Institute Tübingen and Independent Group Leader of the MPI for Intelligent Systems, where he leads the Deep Models and Optimization group. He received the ETH medal for outstanding doctoral theses and the Schmidt Sciences AI2050 Early Career Fellowship.
+
+    In his research, Antonio strives to improve the efficiency of deep learning technologies by pioneering new architectures and training techniques grounded in theoretical knowledge. His work encompasses two main areas: understanding the intricacies of large-scale optimization dynamics and designing innovative architectures and powerful optimizers capable of handling complex data. Central to his studies is exploring innovative techniques for decoding patterns in sequential data, with implications in biology, neuroscience, natural language processing, and music generation.
+  google-scholar: https://scholar.google.com/citations?user=xkuLyHoAAAAJ&hl=it
+  slides:
+
+- title: TBA
+  abstract: |- 
+    TBA
+  time: 17:30 - 18:30
+  room: Hall B
+  date: Thursday / 16 October
+  id: 9
+  author-name: Sander Dieleman
+  author-title: Google DeepMind
+  author-image: images/optimized/speakers-600x600/SanderDieleman.webp
+  author-bio: |-
+    Sander Dieleman is a Research Scientist at Google DeepMind in London, UK, where he has worked on the development of AlphaGo, WaveNet, Imagen 4, Veo 3, and more. He obtained his PhD from Ghent University in 2016. His current research interests include representation learning and generative modelling of audio, images and video.
+  slides:
+
+- title: TBA
+  abstract: |-
+    TBA
+  time: 11:15 - 12:15
+  room: Hall A
+  date: Friday / 17 October
+  id: 10
+  author-name: Jenia Jitsev
+  author-title: LAION / Juelich Supercomputer Center / ELLIS
+  author-image: images/optimized/speakers-600x600/JeniaJitsev.webp
   author-bio: >-
-    Yuki Asano is the head of the Fundamental AI (FunAI) Lab and full Professor at the University of Technology Nuremberg. Prior to this, Yuki lead the QUVA lab at the University of Amsterdam, where he closely collaborated with Qualcomm AI Research. His PhD was at the Visual Geometry Group (VGG) at the University of Oxford, where he worked with Andrea Vedaldi and Christian Rupprecht. Also, he loves running, the mountains, and their combination.
-  google scholar: https://scholar.google.com/citations?user=CdpLhlgAAAAJ
-  slides: docs/invited_talk_11.pdf
+    Jenia Jitsev is co-founder and scientific lead of LAION e.V, the German non-profit research organization committed to research on open large-scale foundation models and datasets. He also leads Scalable Learning & Multi-Purpose AI (SLAMPAI) lab at Juelich Supercomputer Center, Research Center Juelich, Helmholtz Association, Germany and is a member of ELLIS. His background is in machine learning and neuroscience, aiming to understand learning as a generic process of incrementally building up a useful model of the surrounding world from available sensory observations and executed actions. His current research focus is on using scaling laws for measuring and understanding generalization and strong transfer in open foundation models. Jenia is most known for his work on open language-vision foundation models like openCLIP and open datasets like LAION-400M/5B, Re-LAION, DataComp. 
+
+    Recently, he also has been studying reasoning and measuring generalization with works on open reasoning datasets/models OpenThoughts/OpenThinker and on discovering generalization weaknesses using AIW problems. Jenia coordinates acquisition of large-scale compute grants for conducting collaborative research on open foundation models across various supercomputing facilities, including EuroHPC. Using these resources, together with the community he is driving and democratizing research on scalable systems for generalist, transferable multi-modal learning, leading to foundation AI models capable of strong transfer and therefore easily adaptable to a broad range of desired tasks and hardware resource settings. For his work, Dr. Jitsev received Best Paper Award at IJCNN 2012, Outstanding Paper Award at NeurIPS 2022 and Falling Walls Scientific Breakthrough of the Year 2023 Award.
+  slides:
+
+- title: From pixels to nucleotides
+  abstract: >-
+    TBA
+  time: 11:15 - 12:15
+  room: Hall B
+  date: Friday / 17 October
+  id: 11
+  author-name: Alexey Dosovitskiy
+  author-title: Inceptive
+  author-image: images/optimized/speakers-600x600/AlexeyDosovitskiy.webp
+  author-bio: >-
+    Alexey Dosovitskiy is a distinguished researcher in computer vision and machine learning. He earned his MSc and PhD in mathematics from Moscow State University in 2009 and 2012, respectively. From 2013 to 2015, he was a postdoctoral researcher at the University of Freiburg’s Computer Vision Group under Prof. Thomas Brox, focusing on deep learning applications in unsupervised learning, image generation, and motion estimation. Between 2017 and 2019, he served as a research scientist at Intel Labs in Munich, Germany, working on deep learning for computer vision and robotics. In 2019, Dosovitskiy joined Google Research, where he played a pivotal role in applying transformer architectures to computer vision tasks, notably as a lead author of the influential paper “An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale,” which introduced the Vision Transformer (ViT) model. 
+
+    His research interests include artificial intelligence, machine learning, and pattern recognition, with significant contributions to areas such as optical flow estimation, image generation, and object detection. In February 2024, Dosovitskiy joined Inceptive as a Member of Technical Staff, focusing on machine learning for RNA.
+  slides:
+
+- title: What’s the next wave of disruption in science and engineering?
+  abstract: >-
+    In the era of LLMs, one gets notoriously confronted with the question of where we stand with applicability of large-scale deep learning models within scientific or engineering domains. The discussion starts by reiterating on recent triumphs in weather and climate modeling, making connections to computer vision, physics-informed learning and neural operators. Secondly, we discuss breakthroughs in multi-physics modeling, computational fluid dynamics, and related fields, putting an emphasis on what it takes to build reference models for whole industry verticals. We relate those breakthroughs to advancements in engineering and much faster process cycles.
+  time: 16:00 - 17:00
+  room: Main Hall
+  date: Friday / 17 October
+  id: 12
+  author-name: Johannes Brandstetter
+  author-title: Johannes Kepler University / Emmi AI
+  author-image: images/optimized/speakers-600x600/JohannesBrandstetter.webp
+  author-bio: >-
+    Johannes Brandstetter leads the "AI for Data-Driven Simulations" group at the Institute for Machine Learning, JKU - Johannes Kepler Universität Linz, with the aim of advancing data-driven simulations at industry scale. Additionally, he is a Co-founder and Chief Scientist at Emmi AI — a push towards the data-driven revolution in science and engineering.
+  google-scholar: https://scholar.google.com/citations?user=KiRvOHcAAAAJ&hl=de
+  slides:
+
+- title: TBA
+  abstract: >-
+    TBA
+  time: 16:00 - 17:00
+  room: Hall A
+  date: Friday / 17 October
+  id: 13
+  author-name: Bartłomiej Papież
+  author-title: University of Oxford
+  author-image: images/optimized/speakers-600x600/BartłomiejPapież.webp
+  author-bio: >-
+    Bartek Papież leads multidisciplinary research at the intersection of artificial intelligence, biomedical imaging, and health data science. As Principal Investigator and Group Lead of the Machine Learning & Biomedical Data Research Lab at Oxford’s Big Data Institute, his work bridges the theoretical and applied dimensions of AI and machine learning. His research spans the development of novel algorithms in image analysis, data fusion, optimization, and robustness&fairness. A core focus of his lab is the integration of imaging with non-imaging modalities, including genetic data, electronic health records, and natural language, driving forward impactful applications in medicine, biology, and population health. 
+
+    Papież’s projects address key challenges in longitudinal disease monitoring, multimodal cancer imaging, radiogenomics, and the discovery of therapeutic targets. By combining cutting-edge ML techniques with real-world biomedical data, his research aims to enhance disease understanding, early diagnosis, and precision treatment.
+  slides:
+
+- title: Modular learning for improving AI assistants
+  abstract: >-
+    Recent years have seen massive success in AI, from generative modelling to deep reinforcement learning. However, success has mostly been limited to domains where data is cheap and plentiful, or where models can be pre-trained on massive data sets. This excludes many domains of practical importance, such as tasks involving scientific data, real-world infrastructure, or robotics. In this talk, I will advocate for a modular approach, where complex behaviour is composed out of simpler elements. I will give examples of three recent projects, where a modular approach was adopted to increase generalisation, data efficiency, and/or instructability of artificial agents. Concluding, I will give my outlook on future developments of AI systems according to these principles, laying the foundations for more capable AI assistants.
+  time: 16:00 - 17:00
+  room: Hall B
+  date: Friday / 17 October
+  id: 14
+  author-name: Herke van Hoof
+  author-title: University of Amsterdam
+  author-image: images/optimized/speakers-600x600/HerkeVanHoof.webp
+  author-bio: >-
+    Herke van Hoof is currently associate professor at the University of Amsterdam in the Netherlands, where he is part of the Amlab. He is interested in modular reinforcement learning. Reinforcement learning is a very general framework, but this tends to result in extremely data-hungry algorithms. Exploiting modular structures, including hierarchical structures, allows sharing information between tasks and exploiting prior knowledge, to learn more with less data.
+
+    Before joining the University of Amsterdam, Herke van Hoof was a postdoc at McGill University in Montreal, Canada, where he worked with Professors Joelle Pineau, Dave Meger, and Gregory Dudek. He obtained his PhD at TU Darmstadt, Germany, under the supervision of Professor Jan Peters, where he graduated in November 2016. Herke got his bachelor and master degrees in Artificial Intelligence at the University of Groningen in the Netherlands.
+  slides:

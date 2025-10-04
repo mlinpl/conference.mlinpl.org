@@ -1,201 +1,275 @@
-- title: 'Gaussian Splatting'
-  date: Sunday / 10 November
+# TEMPLATE
+# - title:
+#   date: 
+#   time: 
+#   id:
+#   desc-md: >-
+#   authors:
+#     - name:
+#       title:
+#       image:
+#   author-bio-md: >-
+#
+
+# Morning Tutorials
+
+- title: 'Counterfactual Explanations: From Theory to Implementation'
+  date: Saturday / 18 October
   time: 9:00 - 13:00
-  room: 5070, MIM UW
   id: 1
-  desc-md: >-
-    In this hands-on tutorial, we will introduce you to Gaussian Splatting, an advanced technology for generating detailed 3D scenes from 2D images. You will begin the session by creating your own dataset, where we will capture you or your chosen object. Each participant will work then on their own dataset.
-    Throughout the tutorial, you will dive deep into the practical aspects of Gaussian Splatting. We’ll guide you step-by-step through the entire workflow, from preparing the dataset from videos to training the model and refining your final 3D objects. By the end of the session, you will not only have your own 3D scene but also a solid understanding of the technology behind it. You will gain insight into critical techniques for optimizing the splatting process, addressing common challenges, and achieving high-quality 3D results.
-    Whether you are a beginner or have some experience with computer graphics, this tutorial will equip you with the skills to employ Gaussian Splatting technology in your own projects. Join us for an exciting journey into the world of cutting-edge 3D scene reconstruction!
+  desc-md: |-
+    This tutorial demystifies Counterfactual Explanations, a powerful technique for making black-box AI models transparent and actionable. Unlike traditional XAI methods that simply highlight important features, counterfactuals provide practical, user-friendly answers to the essential question: <strong>"What needs to change to get a different outcome?"</strong> In this tutorial, participants will progress from theoretical foundations to implementing counterfactual methods and using them. You'll learn how to generate explanations that help end-users understand not just why they were denied a loan, but precisely what they need to change to get approved next time. The tutorial balances theory with extensive coding exercises. We'll cover both basic implementations and advanced techniques using modern methods. By the end, you'll understand how to use counterfactual explanations for your AI systems to improve transparency. You'll leave with ready-to-use code and practical implementation strategies.
 
+    **Knowledge Prerequisites**
+    <ul>
+      <li>Intermediate Python programming skills (comfortable with functions, classes, and common data structures)</li>
+      <li>Basic understanding of machine learning concepts (classification, features, training/testing)</li>
+      <li>Familiarity with common libraries like NumPy, Pandas, and Matplotlib</li>
+      <li>Basic knowledge of classification models (particularly decision trees and random forests)</li>
+      <li>Exposure to the concept of model explainability (though expertise is not required)</li>
+    </ul>
+    **Technical Setup:** Participants should have the following installed prior to the tutorial: Python 3.10+ environment (Anaconda distribution recommended) and Jupyter Notebook or JupyterLab.
 
+  authors:
+    - name: Oleksii Furman
+      title: Wrocław University of Science and Technology
+      image: images/optimized/tutorials-600x600/Oleksii_Furman.webp
+    - name: Łukasz Lenkiewicz
+      title: Wrocław University of Science and Technology
+      image: images/optimized/tutorials-600x600/Lukasz_Lenkiewicz.webp
+    - name: Marcel Musiałek
+      title: Wrocław University of Science and Technology
+      image: images/optimized/tutorials-600x600/Marcel_Musialek.webp
+  author-bio-md: |-
+    Oleksii Furman is a Ph.D. student in Artificial Intelligence at Wrocław University of Science and Technology, specializing in generative models and explainable AI (XAI). His research develops innovative approaches to enhance the transparency and interpretability of black-box machine learning models, particularly through counterfactual explanations. He aims to bridge the gap between complex AI systems and human understanding, making machine learning more accessible and trustworthy. He has co-authored papers at prominent machine learning conferences.
 
-    **Prerequisites:** You must know 3D Gaussian distribution and how to train fully connected neural networks.
-  authors: 
-    - name: Przemysław Spurek
-      title: IDEAS NCBR / GMUM, Jagiellonian University
-      image: images/optimized/cfc-600x600/przemyslaw_spurek.webp
-    
-    - name: Weronika Smolak-Dyżewska
-      title: Jagiellonian University
-      image: images/optimized/cfc-600x600/WeronikaSmolakDyzewska.webp
+    Łukasz Lenkiewicz is pursuing his Ph.D. in Artificial Intelligence at Wrocław University of Science and Technology, where he investigates new directions in explainable AI. His doctoral research focuses on developing counterfactual explanations at the local, global, and group-wise level, aiming to capture both individual decisions and broader model behavior. Beyond tabular data, he explores explainability in computer vision, developing techniques that clarify how visual recognition models operate and can be put to use. His research highlights practical integration, focusing on turning theoretical advances in explainability into real-world applications.
 
-    - name: Piotr Borycki
-      title: Jagiellonian University
-      image: images/optimized/cfc-600x600/PiotrBorycki.webp
+    Marcel Musiałek is a third-year undergraduate student at Wrocław University of Science and Technology, with a strong interest in computer vision, particularly in the medical sector and explainable AI (XAI). He actively develops his research interests through scientific projects and throughout the university’s science club. His focus is on expanding his knowledge and building solid foundations for future education and research.
 
-    - name:  Joanna Waczyńska
-      title: Jagiellonian University
-      image: images/optimized/cfc-600x600/JoannaWaczynska.webp
-
-    - name:  Dawid Malarz
-      title: Jagiellonian University
-      image: images/optimized/cfc-600x600/DawidMalarz.webp
-  author-bio-md: >-
-    Przemysław Spurek is the leader of the Neural Rendering research team at IDEAS NCBR and a researcher in the GMUM group operating at the Jagiellonian University in Krakow. In 2014, he defended his PhD in machine learning and information theory. In 2023, he obtained his habilitation degree and became a university professor. He has published articles at prestigious international conferences such as NeurIPS, ICML, IROS, AISTATS, ECML. He co-authored the book Głębokie uczenie. Wprowadzenie [Deep Learning. Introduction] – a compendium of knowledge about the basics of AI. He was the director of PRELUDIUM, SONATA, OPUS and SONATA BIS NCN grants. Currently, his research focuses mainly on neural rendering, in particular NeRF and Gaussian Splatting models.
-
-
-    Weronika is currently pursuing her PhD in Technical Computer Science at Jagiellonian University in Kraków. Her main area of interest is neural rendering models for 3D scene reconstruction, especially Gaussian Splatting. She employs it in different areas from physical simulations to medical data.
-
-
-
-    Piotr Borycki is currently pursuing a Master’s degree in Computer Mathematics at Jagiellonian University in Kraków. His research focuses on 3D object representation, particularly using Neural Radiance Fields (NeRF) and Gaussian Splatting.
-
-
-
-    Joanna is pursuing her PhD in Technical Computer Science at Jagiellonian University in Kraków, where she focuses on object representation in computer vision. Her research primarily revolves around models based on Gaussian Splatting, enabling fast rendering and modification of visual data. In recent years, she has had the privilege of collaborating with CERN and the University of Cambridge, while also participating in the first edition of AI Tech program at Wrocław University of Technology.
-
-
-
-    Dawid has three years of experience working as a Machine Learning Engineer and is now focused on research in 3D object reconstruction using Neural Radiance Fields (NeRF) and Gaussian Splatting. His work aims to enhance the efficiency and accuracy of 3D object representation techniques in modern computer vision applications.
-
-- title: 'How LLMs are Revolutionizing the cybersecurity field'
-  date: Sunday / 10 November
+- title: Where ML Security is Broken and How to Fix it
+  date: Saturday / 18 October
   time: 9:00 - 13:00
-  room: 5060, MIM UW
   id: 2
-  desc-md: >-
-    The ever-evolving threat landscape demands constant adaptation. Traditional methods struggle. Large Language Models (LLMs) emerge, wielding the power of language. This talk explores LLMs' revolution in cybersecurity. LLMs are AI models trained on massive text and code datasets. This grants them an understanding of complex linguistic patterns, invaluable in cybersecurity. Firstly, LLMs excel at advanced threat detection. Analyzing vast amounts of data, they identify subtle anomalies indicating brewing attacks. Traditional methods rely on pre-defined rules, vulnerable to novel attack vectors. LLMs, with their ability to learn and adapt, identify unseen threats, providing a crucial early warning system. Secondly, LLMs offer proactive threat analysis. By ingesting vast quantities of threat intelligence data, including past attack methods and attacker motivations, LLMs uncover patterns and predict future attack vectors. This allows security teams to take a pre-emptive approach, focusing resources on fortifying potential weaknesses before attackers exploit them. Imagine an LLM analyzing a hacker forum, identifying discussions about targeting a specific software vulnerability. This foresight empowers security professionals to patch the vulnerability before a widespread breach. Furthermore, LLMs can revolutionize vulnerability research . Traditionally, identifying vulnerabilities is time-consuming and laborious. LLMs, with their ability to analyze vast code repositories, pinpoint potential vulnerabilities through code patterns and language constructs associated with known weaknesses. This streamlines the vulnerability discovery process, allowing security teams to address critical issues before attackers identify them. While LLMs offer a powerful new frontier, challenges remain. Issues surrounding explainability, bias in training data, and potential misuse require careful consideration. However, the potential benefits are undeniable. As these models continue to evolve and integrate with existing security solutions, they hold the promise of a more secure and resilient digital landscape.
+  desc-md: |-
+    Adversarial robustness is a critical concern for modern machine learning systems, yet reliably evaluating model resilience to adversarial attacks remains a major challenge. In practice, robustness is often measured using gradient-based methods that optimize perturbations to simulate worst-case inputs. These empirical evaluations might provide an inaccurate picture of model security, as small flaws in the attack setup can lead to overly optimistic results. Without systematic testing and diagnostic tools, even well-intentioned evaluations risk repeating past mistakes. 
+    
+    This tutorial will guide participants through the fundamentals of adversarial robustness evaluation, emphasizing the importance of rigorous and reproducible methods. We will present a comparison framework for benchmarking gradient-based attacks that helps identify optimization failures, standardize evaluation protocols, and support fair comparisons across models and datasets. Through practical examples, attendees will learn how to design, test, and debug adversarial attacks in a principled way. Looking forward, we discuss how these challenges extend to the evaluation of foundation models and multimodal systems, where conventional adversarial techniques may be adapted and still produce significant impact. As machine learning models continue to grow in scale and complexity, there is a growing need for robust and efficient evaluation methodologies. We conclude with a discussion of open problems and future research directions aimed at strengthening the reliability and trustworthiness of machine learning under adversarial conditions.
 
+    **Prerequisites:** Participants should have a basic understanding of machine learning and deep learning concepts, including neural network training and evaluation. Familiarity with PyTorch is strongly recommended, as examples and hands-on exercises will be based on it. Some background in adversarial machine learning (e.g., knowledge of adversarial examples or gradient-based attacks) is helpful but not strictly required, as essential concepts will be introduced during the tutorial. 
+    
+    **Software Requirements:** All hands-on exercises will be conducted using Google Colab, so no local installation is necessary. Participants only need a Google account and a modern web browser. We will provide pre-configured Colab notebooks with all dependencies already listed, and they will be installed during the tutorial. Access to a GPU runtime in Colab is recommended for optimal performance but not strictly required.
 
+  authors:
+    - name: Maura Pintor
+      title: University of Cagliari
+      image: images/optimized/tutorials-600x600/Maura_Pintor.webp
+    - name: Giorgio Piras
+      title: University of Cagliari
+      image: images/optimized/tutorials-600x600/Giorgio_Piras.webp
+  author-bio-md: |-
+    Maura Pintor (PhD 2022, honors) is an Assistant Professor at the PRA Lab, University of Cagliari, Italy. Her research focuses on optimizing and debugging adversarial robustness evaluations. She has held visiting positions at the University of Tuebingen (Germany, 2020), SCCH (Austria, 2021), and the Computer Vision Center (Spain, 2024). Maura serves as Area Chair for NeurIPS, Associate Editor for Pattern Recognition, and regularly reviews for top-tier conferences and journals, including ACM CCS, ICLR, ECCV, and ICCV. She is co-chair of the ACM Workshop on Artificial Intelligence and Security (AISec), co-located with ACM CCS, and contributes to several EU Horizon projects, including ELSA, Sec4AI4Sec, and CoEvolution. She is the main maintainer of the open-source SecML-Torch library.
 
-    **Prerequisites:** Participants for this LLM for cybersecurity tutorial ideally should have: Basic understanding of cybersecurity concepts: Familiarity with common threats, vulnerabilities, and security practices is helpful. No prior knowledge of LLMs is required: The tutorial will introduce the concept and core functionalities of LLMs. However, a basic understanding of artificial intelligence (AI) and machine learning (ML) could be beneficial. Regarding the needed software, they should install jupyter notebook or any Python framework. Langchain python library should also be installed for processin cybersecurity tasks with LLM.
+    Giorgio Piras (PhD 2025, honors) is a Postdoctoral Researcher at the PRA Lab, University of Cagliari, Italy. His research interests broadly cover adversarial machine learning, with a particular focus on adversarial pruning methods and LLM security. During his PhD, he was a visiting student at the Karlsruhe Institute of Technology, Germany. He regularly serves as a reviewer for Pattern Recognition, Neurocomputing, and IEEE TIFS journals, and AAAI, USENIX, ACM CCS conferences. He is now involved with the University of Cagliari in the EU Horizon Projects Sec4Ai4Sec and CoEvolution.
 
-
-  author-name: Natasha <nobr>Al-Khatib</nobr>
-  author-title: Symbio
-  author-image: images/optimized/cfc-600x600/NatashaAlkhatib.webp
-  author-bio-md: >-
-    Dr. Natasha Al-Khatib is a seasoned expert in automotive cybersecurity with a Ph.D. in Artificial Intelligence. Their doctoral research focused on developing cutting-edge intrusion detection systems for autonomous vehicles, demonstrating a deep understanding of the unique challenges and vulnerabilities within this domain.
-    Following their academic pursuits, Natasha joined ETAS Bosch as a cybersecurity consultant, where they contributed to the development and implementation of various tools and services to enhance automotive security. Their expertise in this field allowed them to play a pivotal role in safeguarding critical automotive systems.
-    Currently, Natasha holds the position of Automotive Cybersecurity Leader at Symbio, a leading provider of fuel cell systems for the automotive industry. In this role, they leverage their extensive knowledge and experience to ensure the security of Symbio's hydrogen-based fuel cell technology, protecting both consumers and manufacturers from potential cyber threats.
-
-
-
-- title: 'Beyond transformers - new sequence processing architectures'
-  date: Sunday / 10 November
+- title: "[Generative AI] The Noise, the flow, the images."
+  date: Saturday / 18 October
   time: 9:00 - 13:00
-  room: 4070, MIM UW
   id: 3
-  desc-md: >-
-    The transformer neural architecture took by storm the AI community and is now used in many applications, from language models to image generation. With its widespread use we start to better understand transformer’s operating principles, limitations, and possible solutions to them. This tutorial aims to offer a clear picture of where transformer models are today and where they might be heading in the future or what might replace them. This tutorial will open with an overview of how transformers work, their strengths, their weaknesses, and recent theoretical findings about their capabilities, such as their ability to simulate different types of computations and their scalability with hardware. We will next cover important topics about how transformers handle context and attention and compare them with newly proposed alternatives, such as state-space models, to highlight the differences and trade-offs. We will discuss learning mechanisms both in the case of learning from training data during pre-training and in-context learning doing evaluation. We’ll look at techniques for handling long contexts and speculate on the relationship between in-context and from data learning. This will lead us to open questions about the future of AI models, such as understanding where knowledge is actually stored in sequence prediction models and is there a potential for models with an almost unlimited learning capacity.	
+  desc-md: |-
+    A brief introduction to flow matching. We will cover the idea and intuition behind flow matching, how it relates to diffusion models, and what training a flow matching model looks like in practice. We will introduce the flow matching setup for continuous data, show how this setup can be modified with the use of optimal transport and close out with a discrete flow matching example.
 
-
-
-    **Prerequisites:** Familiarity with transformer architecture. Python, PyTorch, Colab.	
-
+    **Prerequisites:** Basic knowledge of linear algebra, probability theory, vector fields, physics, and neural networks. Familiarity with Python, PyTorch, Jupyter Notebook.
   authors:
-    - name: Michał Bartoszkiewicz
-      title: Pathway
-      image: images/optimized/cfc-600x600/MichalBartoszkiewicz.webp
+    - name: Maciej Żelaszczyk
+      title: Samsung AI Center Warsaw
+      image: images/optimized/tutorials-600x600/Maciej_Zelaszczyk.webp
+  author-bio-md: |-
+    Maciej is a Senior Research Scientist at the Samsung AI Center Warsaw, where he researches topics related to safety and alignment in neural networks. He holds a Ph.D. in computer science from the Warsaw University of Technology with a dissertation on representation learning. Prior to joining Samsung, he worked in a variety of fields, including a stint as Software Engineer at Cardinal Cryptography, a Senior Data Scientist position at Yosh.AI with focus on recommendation systems and as Machine Learning Engineer at Daftcode developing a matchmaking system for mobile games. Apart from that, he also has experience in finance, particularly quantitative investments.
 
-    - name: Jan Chorowski
-      title: Pathway
-      image: images/optimized/cfc-600x600/JanChorowski.webp
-
-    - name: Adrian Kosowski 
-      title: Pathway
-      image: images/optimized/cfc-600x600/AdrianKosowski.webp
-
-    - name: Adrian Łańcucki
-      title: NVIDIA
-      image: images/optimized/cfc-600x600/AdrianLancucki.webp
-
-    - name: Przemysław Uznański
-      title: Pathway
-      image: images/optimized/cfc-600x600/PrzemyslawUznanski.webp
-
-  author-bio-md: >-
-    Michał Bartoszkiewicz designs the Pathway data processing framework. He is a competitive programmer with a long list of achievements including Topcoder finals, Google Code Jam and Facebook HackerCup. He co-founded nasza-klasa.pl, the first Polish social network.
-
-
-
-    Jan Chorowski is the CTO at Pathway building Live AI systems, underpinned by a proprietary real-time data processing engine and an AI framework. He received his M.Sc. degree in electrical engineering from Wrocław University of Technology and Ph.D. from University of Louisville. He has worked at the University of Wroclaw and has collaborated with several research teams, including Google Brain, Microsoft Research and Yoshua Bengio’s lab. 
-
-
-
-    Adrian Kosowski specializes in network theory, discrete dynamical systems, graph navigability, and graph learning. He obtained his PhD in Computer Science at the age of 20, and has co-authored over 100 publications across Theoretical Computer Science, Physics, and Biology. Before co-founding Pathway, he was a tenured researcher at Inria and an associate professor at Ecole Polytechnique. He is also a co-founder of Spoj.com.
-
-
-
-    Adrian Łańcucki is a senior engineer at NVIDIA. His research focuses on representation learning and generative modeling for text and speech, as well as improving quality and efficiency at scale. In 2019, Adrian obtained a Ph.D. in machine learning from the University of Wroclaw, Poland. Since then, he has actively collaborated with academia.
-
-
-
-    Przemek Uznański is the streaming algorithms and data structure expert at Pathway, and a former competitive programmer (finalist of ACM ICPC, TopCoder Open and Facebook HackerCup). He did his PhD at the INRIA Bordeaux on the topic of distributed computing, then was a Post-doc at ETH Zurich, Aalto (Finland), and in Marseille. He was an assistant professor at University of Wrocław
-
-- title: 'Machine learning on molecules and molecular fingerprints'
-  date: Sunday / 10 November
+- title: "From Superposition to Sparse Autoencoders: Understanding Neural Feature Representations"
+  date: Saturday / 18 October
   time: 9:00 - 13:00
-  room: 4060, MIM UW
   id: 4
-  desc-md: >-
-    Machine learning on molecules is a vital subject in chemoinformatics and de novo drug design. Tasks like molecular property prediction and virtual screening are crucial in modern pharmaceutical workflows. However, molecules are nontrivial to process, typically being represented as attributed graphs. As such, they are naturally non-Euclidean and have no notion of distance, requiring vectorization before performing classification, regression, or other ML tasks. Dedicated embedding methods are required, in order to encode relevant structural and functional information. Molecular fingerprints are the most popular group of algorithms in this regard, offering efficient solutions for many problems. One of the most recent developments in this area is scikit-fingerprints, a scikit-learn compatible library for easy and efficient computation of molecular fingerprints, which will be extensively used during the tutorial. This workshop will introduce participants to machine learning on molecules, molecular fingerprints, and how to apply them to practical problems. We will cover basics of chemoinformatics, reading and processing data, how molecular fingerprints work, and how to apply them to molecular property prediction or virtual screening. As a bonus, participants will learn why graph neural networks (GNNs) are not a silver bullet, and why molecular fingerprints are still very much relevant in the era of GNNs popularity.
+  desc-md: |-
+    Modern neural networks often learn representations that are difficult to interpret, with individual neurons responding to multiple unrelated features - a phenomenon called polysemanticity. This workshop explores the theoretical foundations and practical implications of how neural networks represent features through the lens of Anthropic's influential "Toy Models of Superposition" paper. Participants will gain hands-on experience with the fundamental concepts of mechanistic interpretability by building and analyzing simple neural networks that demonstrate superposition - the ability of models to represent more features than they have dimensions. Through interactive exercises attendees will train toy models with varying sparsity levels and observe how networks organize features into geometric structures like antipodal pairs and pentagons when forced to compress high-dimensional feature spaces.  The workshop concludes with an exploration of Sparse Autoencoders (SAEs) as a promising solution for disentangling features. Participants will implement and train their own SAEs on the toy models, visualizing how dictionary learning techniques can recover interpretable feature representations from seemingly incomprehensible neural activations. This workshop bridges theory and practice, providing both the mathematical intuition behind superposition phenomena and practical tools for investigating real neural network behavior - essential knowledge for anyone interested in AI safety, interpretability research, or understanding the inner workings of modern ML systems.
 
-
-
-    **Prerequisites:** We assume reasonably good Python programming knowledge, as well as general familiarity with machine learning and popular data science libraries, e.g. NumPy, Pandas, matplotlib, scikit-learn. Any previous experience with chemoinformatics is not required. We will work with Jupyter Notebooks, and attendees can use either local development environment or Google Colab.
-
+    **Prerequisites:** Participants should have a basic understanding of deep learning and PyTorch. For this tutorial, we will be using Google Colab, so only a web browser with internet access is required.
   authors:
-    - name: Jakub Adamczyk
-      title: AGH University of Krakow / Placewise
-      image: images/optimized/cfc-600x600/jakub_adamczyk.webp
+    - name: Patryk Wielopolski
+      title: Independent Researcher, AI Safety Poland
+      image: images/optimized/tutorials-600x600/Patryk_Wielopolski.webp
+    - name: Taras Kutsyk
+      title: Jagiellonian University, AI Safety Poland
+      image: images/optimized/tutorials-600x600/Taras_Kutsyk.webp
+  author-bio-md: |-
+    Patryk Wielopolski is an AI researcher with a Ph.D. in probabilistic modeling and publications at AAAI, ECAI, and TPAMI. He previously served as Solution Innovation Leader at DataWalk, leading the company's AI research agenda on Knowledge Graphs, Large Language Models, and unstructured data processing. As an active member of Poland's AI community, he co-founded the genwro.ai research group and contributed to the Polish AI Olympics. At previous ML in PL conferences, he presented on knowledge graphs (2024) and TreeFlow (2023), receiving the Best Contributed Talk Award for the latter. Patryk is currently transitioning his research focus to AI Safety.
 
-    - name: Piotr Ludynia
-      title: AGH University of Krakow
-      image: images/optimized/cfc-600x600/piotr_ludynia.webp
-  author-bio-md: >-
-    Jakub Adamczyk is a PhD candidate in Computer Science at AGH University of Krakow. His research concerns graph representation learning, graph classification, chemoinformatics, and molecular property prediction. He also works at Placewise as Data Science Engineer, focusing on various ML problems in tabular learning, CV and NLP, and their end-to-end MLOps. Besides his professional work, he does Historical European Martial Arts (HEMA) and likes reading.
+    Taras Kutsyk is a Ph.D. student specializing in AI Interpretability and Safety. He began his career in machine learning with research on satellite imagery enhancement, before shifting his focus to AI Safety after completing the AI Safety Fundamentals course. Since then, he has completed research internships in mechanistic interpretability of language models, including the MATS program under Neel Nanda and the AI Safety Camp (AISC). His work has led to front-page–promoted blog posts on new insights into Sparse Autoencoders (SAEs). Taras is currently investigating model organisms of misalignment and developing mechanistic approaches to prevent it.
 
-    
-
-    Piotr Ludynia is currently pursuing a Master’s degree at AGH University of Cracow - Poland, specializing in machine learning with a focus on graph and molecular learning. He also works on deep learning research and neural network acceleration at Intel. In his free time he writes, plays modern metal guitar and produces music.
-
-
-- title: 'Multi-Agent Reinforcement Learning Tutorial for Optimal Urban Route Choice Using TorchRL'
-  date: Sunday / 10 November
-  time: 14:30 - 16:30
-  room: 5060, MIM UW
+- title: Introduction to Automated Machine Learning (AutoML)
+  date: Saturday / 18 October
+  time: 9:00 - 13:00
   id: 5
-  desc-md: >-
-    In this tutorial, we will demonstrate how to implement Multi-Agent Reinforcement Learning (MARL) scenarios in an urban setting using our custom PettingZoo framework, RouteRL. We will showcase a simplified traffic route choice environment integrating Simulation of Urban MObility (SUMO), an open-source traffic simulation, with the reinforcement learning library, TorchRL. This framework aims to replicate the daily decision-making process involved in route selection. It incorporates two types of agents: human drivers, which are modeled using human route choice behavioral models from transportation research, and Automated Vehicles (AVs), RL agents with individual or collective goals. We will present our environment and its functionality as well as experiments with different state-of-the-art RL algorithms aiming to assess how the agents learn and compare the learning of human agents and AVs.
-    **The tutorial is expected to take approximately 2 hours.**
+  desc-md: |-
+    AutoML aims to democratise machine learning by automating key stages of the model development pipeline - making it accessible to experts and domain specialists. This tutorial offers a comprehensive overview of the AutoML field, including its motivations, history, and technical foundations. We will explore the major components of an AutoML system: algorithm selection, hyperparameter optimisation, meta-learning,  and ensemble methods. The human expert's role in the AutoML pipeline and challenges such as interpretability and monitoring will also be discussed. The practical component of the tutorial includes hands-on experience with popular open-source AutoML frameworks in Python, such as AutoGluon and MLJAR. Participants will build complete AutoML pipelines, compare tools, and understand their strengths and limitations. This tutorial is ideal for ML practitioners, researchers, and data scientists who want to understand how AutoML works under the hood and how to use it effectively in real-world projects.
 
-
-    **Prerequisites:** Participants should have a basic understanding of reinforcement learning concepts before attending this tutorial. Additionally, they should prepare their development environment by installing and setting up the necessary tools. This includes creating and activating a Conda environment with Python 3.12. Within this environment, they should use pip to install the required libraries: Gym, PettingZoo, and torchrl. Additionally, the participants should download and install SUMO software from [https://eclipse.dev/sumo/](https://eclipse.dev/sumo/).
-
+    **Prerequisites:** Basic knowledge of machine learning concepts (supervised learning, model evaluation, overfitting). Familiarity with Python programming and standard ML libraries (scikit-learn, pandas). Participants should install the following Python-based AutoML libraries in a virtual environment: auto-gluon, mljar. A Jupyter notebook environment (e.g., Anaconda, JupyterLab, or Google Colab) is recommended for hands-on exercises. 
   authors:
-    - name: Anastasia Psarou
-      title: Jagiellonian University
-      image: images/optimized/cfc-600x600/anastasia_psarou.webp
+    - name: Anna Kozak
+      title: Warsaw University of Technology
+      image: images/optimized/tutorials-600x600/Anna_Kozak.webp
+    - name: Katarzyna Woźnica
+      title: Warsaw University of Technology, Systems Research Institute, Polish Academy of Sciences
+      image: images/optimized/tutorials-600x600/Katarzyna_Woznica.webp
+    - name: Antoni Zajko
+      title: Warsaw University of Technology
+      image: images/optimized/tutorials-600x600/Antoni_Zajko.webp
+  author-bio-md: |-
+    Anna Kozak is a data scientist with over eight years of experience. She conducts research in Automated Machine Learning at the Warsaw University of Technology, and lectures data visualisation, machine learning, and statistics.
 
-    - name: Ahmet Onur Akman
-      title: Jagiellonian University
-      image: images/optimized/cfc-600x600/onur_akman.webp
+    Katarzyna Woźnica holds a PhD in Computer Science with a specialization in Machine Learning. Her work centers on AutoML, hyperparameter optimization, and meta-learning, with a focus on human-in-the-loop methods and Automated Data Science. She has experience applying machine learning methods in medical research and clinical practice.
 
-  author-bio-md: >-
-    Anastasia Psarou is a PhD student in the Faculty of Mathematics and Computer Science at Jagiellonian University. Currently, she is working as part of the COeXISTENCE team towards discovering what happens in the future cities when intelligent machines (autonomous vehicles) and humans share limited resources of urban mobility.
+    Antoni Zajko is a PhD student at Warsaw University of Technology with both research and commercial experience in machine learning.
 
-
-
-    Ahmet Onur Akman is a Computer Engineer with a specialization in Artificial Intelligence. Currently, he is a PhD student in the Faculty of Mathematics and Computer Science at Jagiellonian University interested in foreseeing what happens when our cities are shared with autonomous, intelligent robots, competing with human drivers for limited resources.
-
-
-- title: 'Practical Submodular Optimization'
-  date: Sunday / 10 November
-  time: 14:30 - 18:30
-  room: 4060, MIM UW
+- title: Running Models on Tenstorrent Hardware
+  date: Saturday / 18 October
+  time: 9:00 - 13:00
   id: 6
-  desc-md: >-
-    In today’s rapidly evolving landscape, Generative AI (GenAI) and large language models (LLMs) dominate the spotlight, sparking excitement and revolutionizing industries across the board. While these advancements capture imaginations, it's easy to overlook the continued relevance of classical algorithmic tools that remain fundamental to solving real-world problems. Among these, submodular optimization stands as a cornerstone of algorithmic heuristics, providing a powerful and elegant abstraction for a wide range of practical scenarios. This tutorial highlights how submodular optimization offers efficient solutions to problems where greedy algorithms excel — thanks to its unique structure that allows ideas from convex continuous optimization to be applied in discrete scenarios. From sensor placement to data summarization through feature selection, submodular optimization elegantly balances simplicity and performance. Moreover, there are situations where sophisticated deep learning models are just impossible to apply due to the very nature of the problem itself. For example, when working with streaming data—where the full dataset isn't available in advance and decisions must be made on the fly—submodular optimization becomes indispensable. Its adaptability to such constraints showcases why it remains a critical tool.
-    
-    The tutorial will be divided into three parts. It will begin with an introduction to the fundamental mathematics behind submodular functions, providing a clear and accessible overview. The second part will focus on practical results, drawing from selected ICML, NeurIPS, and AAAI papers to demonstrate how submodular optimization is applied across various domains. The final part will examine a detailed case study, illustrating how submodularity can be used to model dynamic pricing in ride-hailing platforms, connecting theory with a real-world application.
+  desc-md: |-
+    This workshop offers a guided, hands‑on introduction to running AI workloads on Tenstorrent hardware. Participants will connect to provided environments, experiment with example models, and explore profiling tools. By the end, they’ll have a practical overview of tt-metal and know how to continue developing on Tenstorrent platforms.
+
+    **This tutorial is free of charge but also requires registration. Please register <a href="https://app.evenea.pl/event/mlinpl25-tutorials/" target="_blank">here</a>.**
   authors:
-    - name: Marek Adamczyk
-      title: University of Wrocław
-      image: images/optimized/cfc-600x600/marek_adamczyk.webp
+    - name: Maciej Draguła
+      title: Tenstorrent
+      image: images/optimized/tutorials-600x600/Maciej_Dragula.webp
+    - name: Artem Yerofieiev
+      title: Tenstorrent
+      image: images/optimized/tutorials-600x600/Artem_Yerofieiev.webp
+  author-bio-md: |-
+    Maciej Draguła is a Senior Engineer at Tenstorrent, where he develops tt-train, a framework for training large language models on Tenstorrent’s cutting-edge AI hardware, with a focus on optimising operations to reduce training time. Previously, he worked on computer vision applications for avionics at Daedalean, and his experience includes internships at CERN, Google, and Goldman Sachs. He holds a Bachelor’s degree in Computer Science from the University of Wrocław.
 
-  author-bio-md: >-
-    Marek Adamczyk works at the University of Wrocław's Institute of Informatics. He is a theoretical computer scientist focused on algorithms that predict the future. His research addresses combinatorial problems, drawing from fields such as probability theory, stochastic optimization, online optimization, mechanism design, and algorithmic game theory.
+    Senior Principal at Tenstorrent, Artem Yerofieiev leads software engineering for TT-NN — the open-source, scaleout-native and tile-based ML framework for Tenstorrent’s next-gen accelerators. Currently building autonomous AI systems to generation software and support hardware-software co-design. Previously led AR-creation tools at Snap and analytical software in a defense R&D lab.
 
-    While his work has a strong foundational and theoretical focus, all of the problems he explores are motivated by natural business and practical applications. Modern internet environments require solutions at the intersection of machine learning, data science, and advanced algorithmics due to the vast amounts of data from which predictions must be inferred and the need for rapid decision-making in large data streams.
+# Afternoon Tutorials
+
+- title: Migrating Python AI Prototypes to Cross-Platform Solutions
+  date: Saturday / 18 October
+  time: 14:00 - 18:00
+  id: 7
+  desc-md: |-
+    This tutorial helps active and aspiring developers and engineers understand how to migrate Python-based AI proof-of-concepts into production-ready, cross-platform systems. It focuses on practical strategies for translating NumPy-based computations, model inference, and LLM integrations into Java/Kotlin environments using technologies such as ONNX, Multik, LangChain4j, pgvector and Kotlin coroutines. Learners will gain skills to preserve performance, ensure interoperability, and future-proof AI-driven applications.
+
+    **Prerequisites:**
+    - Proficiency in Python and NumPy
+    - Familiarity with AI model inference and APIs
+    - Some experience with Java (or Kotlin as a bonus)
+    - Software installed: Python 3 with an editor of their choice, Java 21+, IntelliJ IDEA Community Edition (preferably), Gradle, Kotlin
+  authors:
+    - name: Tudor Coman
+      title: Adobe
+      image: images/optimized/tutorials-600x600/Tudor_Coman.webp
+  author-bio-md: |-
+    Tudor Coman is a Machine Learning Engineer at Adobe with more than seven years of experience. His work spans reinforcement learning, natural language processing, and large language models, alongside deep expertise in developing web services and big data infrastructures that support advanced AI use cases. His current focus includes production-level integration of multi-armed bandits algorithms in experimentation use cases, as well as generative content analysis and suggestions for A/B tests.
+
+- title: Modern Causal Discovery
+  date: Saturday / 18 October
+  time: 14:00 - 18:00
+  id: 8
+  desc-md: |-
+    Complex real-world systems, such as the human body, the global climate, or an economy, can often be decomposed into simpler components that interact with one another, typically in sparse and structured relationships. These interaction patterns, named causal relationships, form the basis for modeling such systems more effectively. The field of causal discovery focuses on recovering these underlying interaction patterns from observational or experimental data and offers a principled solution to this challenge.  Contrary to traditional statistical models, causal discovery allows distinguishing correlation from causation, leading to robust conclusions and deepened scientific insight. Causal discovery methods are becoming increasingly central to scientific inquiry across disciplines such as medicine, biology, economics, and climate science, where they help reveal underlying causal mechanisms, inform experimental design, and support more effective decision-making.  This tutorial introduces the theoretical foundations and recent advances in causal discovery, with a focus on scalable, modern approaches. We begin with an accessible overview of the theory of causality, emphasizing the distinction between correlation and causation, key assumptions, and common frameworks such as structural causal models and graphical representations. We then review foundational techniques in causal discovery before progressing to state-of-the-art algorithms, that integrate deep learning methods for increased efficiency and flexibility. The tutorial concludes with a discussion of current challenges, open research questions, and practical considerations for applying causal discovery in real-world settings. Attendees will gain a broad yet detailed understanding of the field, equipping them to apply causal discovery techniques to scientific and applied problems across domains.
+
+    **Prerequisites:** Participants should have a working knowledge of undergraduate-level calculus and linear algebra. Familiarity with basic probability and statistics is recommended. Basic Python programming experience is expected, including use of standard scientific libraries such as NumPy and SciPy.
+  authors:
+    - name: Mateusz Olko
+      title: University of Warsaw, IDEAS NCBR
+      image: images/optimized/tutorials-600x600/Mateusz_Olko.webp
+    - name: Mateusz Gajewski
+      title: Poznań University of Technology, IDEAS NCBR
+      image: images/optimized/tutorials-600x600/Mateusz_Gajewski.webp
+  author-bio-md: |-
+    Mateusz Olko is a doctoral researcher at the University of Warsaw and IDEAS NCBR. He earned both his Bachelor’s and Master’s degrees in Computer Science from the University of Warsaw, specializing in machine learning. He explores topics in causal machine learning and causal discovery, with a particular interest in how they can be connected to deep learning. More broadly, he is interested in computational reasoning and how learning systems can better capture structure and support decision-making. His research has been recognized at top-tier AI conferences, including NeurIPS and ICML.
+
+    Mateusz Gajewski is a PhD student in the Intelligent Algorithms and Data Structures Research Group at Poznań University of Technology and IDEAS NCBR. His primary research interests focus on causality, particularly causal discovery and the application of causal methods in small data settings. He is also interested in explainability, especially approaches involving game theory, as well as the intersection between causality and explainability.
+
+- title: Creating AI Tools for Healthcare
+  date: Saturday / 18 October
+  time: 14:00 - 18:00
+  id: 9
+  desc-md: |-
+    This tutorial explores the development of AI tools tailored for healthcare applications, drawing from real-world projects like the Eskulap ecosystem—a suite of Polish-language models for medical natural language processing. We will dive into key components: large language models (LLMs) for tasks such as medical question-answering and summarization, text ncoders for generating embeddings to support retrieval-augmented systems, Image Encoders for analyzing medical visuals like scans; and automatic speech recognition (ASR) models for transcribing clinical conversations.  Participants will learn Parameter-Efficient Fine-Tuning (PEFT) techniques, including Low-Rank Adaptation (LoRA) to mitigate catastrophic forgetting during continual training, Task-Specific Denoising Autoencoders (TSDAE) for robust representation learning, and Contrastive Learning for improving embeddings through positive-negative pair discrimination. We will also cover data acquisition strategies, emphasizing synthetic data generation to address scarcity in medical datasets, alongside cleaning and augmentation methods from sources like scientific publications and Wikipedia.  The tutorial balances theoretical foundations with practical implementations, highlighting challenges like data privacy and model efficiency in healthcare. Attendees will gain hands-on experience building modular AI systems, with examples from ongoing research. This session underscores the importance of AI in advancing equitable healthcare, particularly in underrepresented languages and domains.
+
+    **Prerequisites:** Participants should have a basic understanding of machine learning concepts, including neural networks, supervised/unsupervised learning, and familiarity with Python programming. Prior exposure to deep learning frameworks like PyTorch or Hugging Face Transformers is recommended but not mandatory, as the tutorial will include introductory overviews.
+  authors:
+    - name: Barbara Klaudel
+      title: TheLion.AI / Gdańsk University of Technology
+      image: images/optimized/tutorials-600x600/Barbara_Klaudel.webp
+    - name: Aleksander Obuchowski
+      title: Medalion Technology / TheLion.AI
+      image: images/optimized/tutorials-600x600/Aleksander_Obuchowski.webp
+  author-bio-md: |-
+    Barbara Klaudel is a co-founder of an interdisciplinary research group, TheLion.AI, devoted to creating AI-based open-source solutions for healthcare. She leads the project UMIE, which standardizes medical imaging datasets and releases medical imaging encoders. She works as a chief research officer at Medalion Technology. She lectures at the Gdańsk University of Technology. She was awarded Forbes 25 under 25.
+
+    Aleksander Obuchowski is a co-founder of an interdisciplinary research group, TheLion.AI, devoted to creating AI-based open-source solutions for healthcare. He leads the project Eskulap, which releases a set of tools for Polish medical NLP (you will learn more about them during our tutorial). He works as a chief technology officer at Medalion Technology. He was awarded Forbes 25 under 25.
+
+- title: Navigating the landscape of transformers' expressivity
+  date: Saturday / 18 October
+  time: 14:00 - 18:00
+  id: 10
+  desc-md: |-
+    Why models based on transformers perform great on some tasks and not so well on others? What kinds of problems are easy for transformers and which are hard or even impossible? In recent years, there has been a significant progress in theoretical study of transformers' expressivity. But also, there has been some misunderstanding. For instance, are transformers really Turing-complete or are they rather weak, basically not able to understand more than regular languages? This tutorial will give an overview of basic results in the area. During these introductory lectures, we will try to understand what is really known about transformers, what are the open questions and especially, what kind of simplifying assumptions are made by some theoreticians of transformers?
+
+    **Prerequisites:** We don’t assume any knowledge except basic understanding of linear algebra and some knowledge from first year undergraduate CS courses. However, the tutorial will be generally easier to follow for people who already have some basic knowledge of the building blocks of the transformer, in particular what is an attention layer and a multi layer perceptron/feedforward neural network.
+  authors:
+    - name: Tomasz Steifer
+      title: Institute of Fundamental Technological Research, Polish Academy of Sciences
+      image: images/optimized/tutorials-600x600/Tomasz_Steifer.webp
+    - name: Przemysław Andrzej Wałęga
+      title: Queen Mary University of London
+      image: images/optimized/tutorials-600x600/Przemyslaw_Walega.webp
+  author-bio-md: |-
+    Tomasz Steifer is an adiunkt at the Institute of Fundamental Technological Research of the Polish Academy of Sciences and external collaborator at the Centro Nacional de Inteligencia Artificial (Chile). After obtaining his PhD from the Institute of Computer Science of the Polish Academy of Sciences, he was a postdoc at the Pontificia Universidad Católica de Chile and, through various fellowships, spent time at the Laboratoire Bordelais de Recherche en Informatique, at the University of California, Berkeley and at the University of Bristol. He works on theoretical foundations of machine learning and AI, including learning theory and the expressivity of transformer architecture, as well as on topics in mathematical logic and computational social choice.
+
+    Przemysław Wałęga is an Associate Professor (Senior Lecturer) in Queen Mary University of London, Centre for Fundamental Computer Science. He was a Senior Researcher in University of Oxford, Department of Computer Science and received PhD in Logics in the Institute of Philosophy at the University of Warsaw. His research is devoted to designing formal logical languages for AI, studying their computational properties, and developing efficient reasoning algorithms for them. He is especially interested in methods for complex reasoning about time which brings together computer scientists, mathematical logicians, and philosophers.
+
+- title: 'Machine Translation in the LLM Era: A Practical Guide'
+  date: Saturday / 18 October
+  time: 14:00 - 18:00
+  id: 11
+  desc-md: |-
+    In the LLM era, one might think that the problem of Machine Translation is solved. But it’s certainly not, especially at scale and in domain-specific contexts. This tutorial provides a practical overview of modern MT. I will start with the core concepts like parallel data, system architectures and evaluation methods, and then will move to more advanced topics like quality-aware decoding or applications of reinforcement learning to MT. During the hands-on session, we will implement and evaluate state-of-the-art MT techniques on our own!
+
+    **Prerequisites:** No prior knowledge in Machine Translation is required, but familiarity with basic deep learning concepts is beneficial. Hands-on session will be run in a Jupyter notebook. To actively participate in the tutorial, you need to have Python 3 installed together with libraries transformers and trl.
+  authors:
+    - name: Mieszko Rutkowski
+      title: Allegro
+      image: images/optimized/tutorials-600x600/Mieszko_Rutkowski.webp
+  author-bio-md: |-
+    Mieszko Rutkowski is a Research Engineer at Allegro, where he contributes to developing Allegro Translation Engine. His interests include Machine Translation, especially with reinforcement learning and multimodal methods. Previously he worked on risk management at UBS and on astrophysics at the Jagiellonian University.
+
+    **This tutorial is free of charge but also requires registration. Please register <a href="https://app.evenea.pl/event/mlinpl25-tutorials/" target="_blank">here</a>.**
+
+- title: 'End "It Works On My Machine": A Practical Guide to Nix and uv'
+  date: Saturday / 18 October
+  time: 14:00 - 18:00
+  id: 12
+  desc-md: |-
+    Welcome to dependency hell; this workshop is your way out. Learn to replace the chaos of pip, apt, and docker with modern tools used by elite firms like Jane Street and Anduril to build reliable and isolated environments. To achieve this, we'll first go back to basics, teaching you the Linux fundamentals—how PATH, environment variables, and linking really work—that cause these problems in the first place. Armed with that knowledge, you will learn to use Nix to declaratively define and build perfectly self-contained environments from a single file. The result is true isolation, giving you the power to reliably set up any project and switch between conflicting toolchains instantly. Finally, you'll turbocharge your Python workflows with the uv package manager and see how these principles scale up, from ensuring dev/prod parity to managing entire, reproducible operating systems with NixOS.
+
+    **This tutorial is free of charge but also requires registration. Please register <a href="https://app.evenea.pl/event/mlinpl25-tutorials/" target="_blank">here</a>.**
+  authors:
+    - name: Wojtek Czekalski
+      title: CEO at Dialo
+      # image: images/optimized/tutorials-600x600/Wojtek_Czekalski.webp
+      image: images/empty.png
+    - name: Patryk Wojnarowski
+      title: Dialo
+      # image: images/optimized/tutorials-600x600/Patryk_Wojnarowski.webp
+      image: images/empty.png
+    - name: Adam Cholewiński
+      title: Dialo
+      # image: images/optimized/tutorials-600x600/Adam_Cholewinski.webp
+      image: images/empty.png
+  # author-bio-md: >-
+  #   ...
