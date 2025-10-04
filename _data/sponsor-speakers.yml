@@ -1,17 +1,16 @@
-- name: Georgy Marchuk
-  title: ElevenLabs
-  image: images/optimized/speakers-600x600/GeorgyMarchuk.webp
+- name: Maciej Draguła
+  title: Tenstorrent
+  image: images/optimized/speakers-600x600/MaciejDragula.webp
   bio: >-
-    Georgy Marchuk is a Software Engineer at ElevenLabs – the most realistic AI audio tool for generating speech, voices and dubbing of content in 32 languages, with over 1 million users (including TIME, HarperCollins, and nvidia). Georgy oversees the development of new product features within the self-serve platform and developer APIs, optimises data collection processes, and ensures the safety of AI systems. He is passionate about applying AI in practical, real-world contexts, always looking for ways to make cutting-edge technologies more accessible and impactful.
+    Maciej Draguła is a Senior Engineer at Tenstorrent, where he develops tt-train, a framework for training large language models on Tenstorrent’s cutting-edge AI hardware, with a focus on optimising operations to reduce training time.
 
-    Before joining ElevenLabs, Georgy was a member of technical staff at Pipedrive, a leading CRM platform, where he worked with the core platform and drove new products from zero to shipped. Prior to that, he held various design engineering positions.
-    Georgy is deeply involved in open-source communities, running the Open Source Software Institute and co-hosting the Rebase podcast, where he meets the biggest names of open-source technology. He holds a BSc in Computing from Teesside University.
+    Previously, he worked on computer vision applications for avionics at Daedalean, and his experience includes internships at CERN, Google, and Goldman Sachs. He holds a Bachelor’s degree in Computer Science from the University of Wrocław. Senior Principal at Tenstorrent.
 
-- name: Alicja Rączkowska
-  title: Allegro / IDEAS NCBR
-  image: images/optimized/speakers-600x600/AlicjaRaczkowska.webp
+- name: Artem Yerofieiev
+  title: Tenstorrent
+  image: images/optimized/speakers-600x600/ArtemYerofieiev.webp
   bio: >-
-    Alicja Rączkowska is a Senior Research Engineer in the Machine Learning Research team at Allegro, where she works on applying and advancing NLP methods in the e-commerce domain. She is also a postdoc at IDEAS NCBR, working on explainability and uncertainty in digital pathology. Obtained her PhD from the University of Warsaw, where she focused on machine learning methods for histopathology.
+    Artem Yerofieiev leads software engineering for TT-NN — the open-source, scaleout-native and tile-based ML framework for Tenstorrent’s next-gen accelerators. Currently building autonomous AI systems to generation software and support hardware-software co-design. Previously led AR-creation tools at Snap and analytical software in a defense R&D lab.
 
 - name: Charles Martinez
   title: G-Research
@@ -19,38 +18,40 @@
   bio: >-
     Dr Charles Martinez is the Academic Relations Manager at G-Research. Charles completed a PhD in Phonon interactions in Gallium Nitride nanostructures at the University of Nottingham. Charles' previous role was as Elsevier's Key Account Manager, managing sales and renewals for the UK Russell Group institutions, Government and Funding body accounts, including being one of the negotiators in the UK ScienceDirect Read and Publish agreement. Since leaving Elsevier Charles is dedicated to forming beneficial partnerships between G-Research and Europe's top institutions, and is living in Cambridge, UK.
 
-- name: Scarlett Bailey
-  title: G-Research
-  image: images/optimized/speakers-600x600/ScarlettBailey.webp
+- name: Aleksandra Chrabrowa
+  title: Allegro
+  image: images/optimized/speakers-600x600/AleksandraChrabrowa.webp
   bio: >-
-    Scarlett Bailey is currently an intern in the Talent Acquisition department at G-Research, completing her placement year while studying for a BSc in Management at the University of Bath. As part of the team, Scarlett supports recruitment for the Summer Research Programme and other internship opportunities, with a focus on engaging emerging talent in quantitative research and technology. She also contributes to G-Research's global attraction events, connecting students with career opportunities across the company.
+    Aleksandra Chrabrowa brings over five years of experience as a commercial research engineer, specializing in training machine learning models for large-scale systems, including retrieval models for Allegro search. Her expertise encompasses both large-scale training of in-house Transformer models and utilizing off-the-shelf LLM solutions. With a background in physics from the University of Warsaw, she merges scientific knowledge with practical application.
 
-- name: Long Cheng
-  title: Google
-  image: images/optimized/speakers-600x600/LongCheng.webp
+- name: Mateusz Marzec
+  title: Allegro
+  image: images/optimized/speakers-600x600/MateuszMarzec.webp
   bio: >-
-    Long Cheng is an Engineering Leader at Google Cloud Vertex AI - a unified machine learning (ML) platform that aims to streamline the entire ML workflow, making it easier for data scientists and ML engineers to build, deploy, and scale AI models. Vertex AI offers a comprehensive suite of tools to manage every stage of the ML development lifecycle, from data preparation and model training to deployment, monitoring, and maintenance. As the site lead for Google Cloud Vertex AI in Poland, Long spearheads the development of MLOps infrastructure (Model training pipelines, Model Garden, Fine-tuning and etc.) and AI serving infrastructure for both online and batch predictions of Gemini and other pretrained AI models, leveraging GPU and TPU acceleration. Long brings a wealth of experience in product strategy and cross-functional leadership, effectively guiding engineering and product management teams to achieve evolving business goals. Prior to that, he gained over 12 years of experience in the U.S. as a lead engineer with top tech companies such as Google, Oracle and Microsoft.
+    Mateusz Marzec is a Research Engineer at Allegro, specializing in personalized retrieval and recommendation systems.
+    With degrees in Mathematics, Economic Analytics, and Data Science, he combines strong mathematical skills with hands-on experience in machine learning and data analysis. Mateusz has a strong passion for research, especially work that bridges the gap between theory and practice. He enjoys exploring innovative methods in information retrieval and recommendation systems, with a focus on solutions that can be effectively applied in real-world products and systems.
 
-- name: Tomasz Sapiński
-  title: Comarch
-  image: images/optimized/speakers-600x600/TomaszSapinski.webp
+- name: Mateusz Chiliński
+  title: Snowflake
+  image: images/optimized/speakers-600x600/MateuszChilinski.webp
   bio: >-
-    Tomasz Sapiński is a highly experienced IT professional with a strong background in software development and image processing using AI. He holds a degree from Lodz University of Technology and has spent over 15 years in the industry, gaining extensive experience in project management and IT system implementations around the world. Tomasz is also a skilled Data Scientist with a keen interest in the development of AI and neural networks, and their practical applications.
+    Mateusz Chiliński, PhD, is a researcher and machine learning professional specializing in Document Understanding and Large Language Models (LLMs). For the past year, he has been a Research Scientist in the Document AI team at Snowflake, where he designs, trains, and deploys cutting-edge AI features. His role focuses on the end-to-end productization of LLMs, from research to production.
+    His academic foundation includes a PhD in Computer Science and a background in computational genomics, providing a cross-disciplinary perspective on complex data. Mateusz's extensive research experience is demonstrated by over 16 scientific publications in high-quality journals, reflecting his deep expertise in advanced machine learning and AI.
 
-- name: Przemysław Spurek
-  title: IDEAS NCBR
-  image: images/optimized/cfc-600x600/PrzemyslawSpurek.webp
+- name: Patrycja Cieplicka
+  title: Tooploox
+  image: images/optimized/speakers-600x600/PatrycjaCieplicka.webp
   bio: >-
-    Przemysław Spurek is the leader of the Neural Rendering research team at IDEAS NCBR and a researcher in the GMUM group operating at the Jagiellonian University in Krakow. In 2014, he defended his PhD in machine learning and information theory. In 2023, he obtained his habilitation degree and became a university professor. He has published articles at prestigious international conferences such as NeurIPS, ICML, IROS, AISTATS, ECML. He co-authored the book Głębokie uczenie. Wprowadzenie [Deep Learning. Introduction] – a compendium of knowledge about the basics of AI. He was the director of PRELUDIUM, SONATA, OPUS and SONATA BIS NCN grants. Currently, his research focuses mainly on neural rendering, in particular NeRF and Gaussian Splatting models.
+    Patrycja Cieplicka is a computer science graduate from the Warsaw University of Technology with over six years of experience in machine learning. Her work focuses on Large Language Models, particularly model post-training, evaluation, and optimization.
 
-- name: Daniel Śliwiński
-  title: LOT Polish Airlines
-  image: images/optimized/speakers-600x600/DanielSliwinski.webp
+- name: Mateusz Błajda
+  title: RTB House
+  image: images/empty.png
   bio: >-
-    Daniel Śliwiński holds a master's degree in Data Science and Business Analytics from the University of Warsaw, where he focused on exploring the intersection of airline e-commerce and machine learning. He also has a bachelor's degree in Japanese Studies. Currently, Daniel is a Junior Data Scientist at LOT Polish Airlines, where he has contributed to various projects for over two years, working primarily on personalization, segmentation, forecasting, and big data initiatives. Outside of work, Daniel trains in Olympic weightlifting and competes in triathlon.
+    Mateusz is a Machine Learning Researcher at RTB House, working on transformer-based sequence models for user behavior modeling. He earned a master’s in Machine Learning at the University of Warsaw, with a thesis applying transformer models to proteomics.
 
-- name: Patryk Radoń
-  title: LOT Polish Airlines
-  image: images/optimized/speakers-600x600/PatrykRadon.webp
+- name: Maciej Zdanowicz
+  title: RTB House
+  image: images/optimized/speakers-600x600/MaciejZdanowicz.webp
   bio: >-
-    Patryk Radoń with a bachelors and master's degree from Cracow's AGH and Cracow University of Technology, he has honed his skills in data science over five years of practical experience. Currently working at LOT Polish Airlines, he specializes in modeling customer behavior with statistical background in causal inference and customer personalization, focused primarily on areas related to CRM and ecommerce. His expertise lies in leveraging data to drive business growth, optimize customer interactions, and enhance marketing strategies. In his free time he strives to balance his time between rock climbing, traveling and practicing martial arts.
+    Maciej leads the ML team at RTB House responsible for deploying advanced sequence modeling within production bidding pipelines. He holds a PhD in mathematics from the University of Warsaw and has conducted research at École polytechnique fédérale de Lausanne and University of Amsterdam.
