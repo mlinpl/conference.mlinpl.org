@@ -8,50 +8,39 @@
     - events:
         - title: "Student Research Workshop (open event, no ticket required)"
           subevents:
-            # - title: Opening remarks
-            # - title: "<strong>Real-Time Omnidirectional 3D Multi-Person Human Pose Estimation with Occlusion Handling</strong>"
-            #   subtitle: by Pawel Knap (University of Southampton / University of Freiburg)
-            #   time: 8:10 - 8:30
-            #   url: /program#srw-talk-1
+            - title: "<strong>Attribute-Regularized VAEs for Controlled and Interpretable Antimicrobial Peptide Design</strong>"
+              subtitle: by Aleksandra Gwiazda (Warsaw University of Technology)
+              time: 8:10 - 8:30
+              url: /program#srw-talk-1
+            - title: "<strong>DetoxAI - Python Package for Debiasing Neural Networks</strong>"
+              subtitle: by Łukasz Sztukiewicz (Independent Researcher)
+              time: 8:30 - 8:50
+              url: /program#srw-talk-2
+            - title: "<strong>OMENN: One Matrix to Explain Neural Networks</strong>"
+              subtitle: by Mikołaj Janusz (Jagiellonian University)
+              time: 8:50 - 9:10
+              url: /program#srw-talk-3
+            - title: "<strong>From Blurry to Sharp: Enabling High-Frequency Detail in Implicit Neural Representations</strong>"
+              subtitle: by Tomasz Dądela (Jagiellonian University)
+              time: 9:10 - 9:30
+              url: /program#srw-talk-4
+            - title: "<strong>Semantic Label Reconstruction: How to breach privacy in Federated Learning</strong>"
+              subtitle: by Rafał Malcewicz (Carnegie Mellon University, GHOST Day)
+              time: 9:50 - 10:10
+              url: /program#srw-talk-5
+            - title: "<strong>Filling in the Blanks: Redefining Inpainting with a Novel Geometrical Latent Space VAE Architecture</strong>"
+              subtitle: by Nikodem Świerkowski (Wrocław University of Science and Technology)
+              time: 10:10 - 10:30
+              url: /program#srw-talk-6
+            - title: "<strong>GraphaFold: Graph Neural Network for predicting non-canonical RNA base pairing</strong>"
+              subtitle: by Paulina Hładki (Poznan University of Technology)
+              time: 10:30 - 10:50
+              url: /program#srw-talk-7
+            - title: "<strong>Enhancing Chemical Explainability Through Counterfactual Masking</strong>"
+              subtitle: by Łukasz Janisiów (Jagiellonian University)
+              time: 10:50 - 11:10
+              url: /program#srw-talk-8
 
-            # - title: "<strong>Accumulated Local Effects and Graph Neural Networks</strong>"
-            #   subtitle: by Paulina Kaczyńska (University of Warsaw / IPPT PAN)
-            #   time: 8:30 - 8:50
-            #   url: /program#srw-talk-2
-
-            # - title: "<strong>Interrogating Time Series Foundation Models</strong>"
-            #   subtitle: by Michal Wilinski (Carnegie Mellon University / Poznan University of Technology)
-            #   time: 8:50 - 9:10
-            #   url: /program#srw-talk-3
-
-            # - title: "<strong>Harnessing YouTube for Evaluating General-Purpose Speech Recognition Machine Learning Models</strong>"
-            #   subtitle: by Tomasz Wojnar (Jagiellonian University)
-            #   time: 9:10 - 9:30
-            #   url: /program#srw-talk-4
-
-            # - title: "<strong>Cherish Every MOMENT</strong>"
-            #   subtitle: by Nina Zukowska (FU Berlin / CMU)
-            #   time: 9:50 - 10:10
-            #   url: /program#srw-talk-5
-
-            # - title: "<strong>Towards Sustainable Cloud Environments by Leveraging Time Series Forecasting for Enhanced Resource Utilization</strong>"
-            #   subtitle: by Mateusz Smendowski (AGH University of Kraków)
-            #   time: 10:10 - 10:30
-            #   url: /program#srw-talk-6
-
-            # - title: "<strong>BATTLE-AMP - Benchmarking Assessment Tests for The Leading Efficacy of Antimicrobial Peptides</strong>"
-            #   subtitle: by Wojciech Zarzecki (Computational Medicine Group, MIMUW)
-            #   time: 10:30 - 10:50
-            #   url: /program#srw-talk-7
-
-            # - title: "<strong>Statistical Criteria for the Prediction of Dynamical Clustering in Granular Gases</strong>"
-            #   subtitle: by Sai Preetham, Sata (Otto-von-Guericke-University Magdeburg)
-            #   time: 10:50 - 11:10
-            #   url: /program#srw-talk-8
-
-            # - title: '<i class="fa-solid fa-pizza-slice"></i> Pizza'
-            #   time: 11:10 - 11:30
-         
           element-class: col-lg-12
           time: 8:00 - 11:30
           room: Main Hall 
@@ -71,23 +60,23 @@
           room: Hall A
     - events:
         - title: "Discussion Panel 1: <strong> PL in ML</strong>"
-          subtitle: 
+          subtitle: (conducted in Polish)
           element-class: col-lg-4
           time: 12:20 - 13:20
           room: Main Hall
-          # url: /program#discussion-panel-1
-        - title: "Invited Talk 1: <strong>TBA</strong>"
+          url: /program#discussion-panel-1
+        - title: "Invited Talk 1: <strong>Causal representation learning in temporal settings with actions</strong>"
           subtitle: by Sara Magliacane (University of Amsterdam)
           element-class: col-lg-4
           time: 12:20 - 13:20
           room: Hall A
-          # url: /program#invited-talk-1
+          url: /program#invited-talk-1
         - title: "Invited Talk 2: <strong>TBA</strong>"
           subtitle: by Shreya Pathak (Google DeepMind)
           element-class: col-lg-4
           time: 12:20 - 13:20
           room: Hall B
-          # url: /program#invited-talk-2
+          url: /program#invited-talk-2
     - events:
         - title: '<i class="fa-solid fa-utensils"></i> Lunch'
           element-class: col-lg-12
@@ -111,11 +100,13 @@
           element-class: col-lg-offset-4  col-lg-4
           time: 16:15 - 17:15
           room: Hall A
-        - title: "Invited Talk 4: <strong>TBA</strong>"
+          url: /program#invited-talk-3
+        - title: "Invited Talk 4: <strong>Bridging perception and causality with causal representations</strong>"
           subtitle: by Francesco Locatello (ISTA)
           element-class: col-lg-4
           time: 16:15 - 17:15
           room: Hall B
+          url: /program#invited-talk-4
     - events:
         - title: '<i class="fa-solid fa-champagne-glasses"></i> Conference Party'
           element-class: col-lg-12
@@ -137,84 +128,83 @@
     - events: 
       - title: 'Contributed Talks Session 1'
         element-class: col-lg-4
-        element-class: col-lg-4
         time: 9:30 - 11:00
         room: Main Hall
-        # subevents:
-          # - title: "<strong>Adaptiveness in deep learning models</strong>"
-          #   # subtitle: "by TBA"
-          #   # time:
-          #   # url: 
-          # - title: "<strong>Good practices for applied computer science: field-tested in ML-based medical and space projects</strong>"
-          #   # subtitle: "by TBA"
-          #   # time:
-          #   # url:
-          # - title: "<strong>On (dynamic) shortest paths data structures</strong>"
-          #   # subtitle: "by TBA"
-          #   # time:
-          #   # url:
+        subevents:
+          - title: "<strong>Learning Dynamic Segmentation and Compression of Sequences in Transformer LLMs</strong>"
+            subtitle: by Adrian Łańcucki (NVIDIA)
+            time: 9:30 - 10:00
+            url: /program#contributed-talk-1
+          - title: "<strong>State-of-the-Art Document AI on a Single 24GB GPU</strong>"
+            subtitle: by Łukasz Borchmann (Snowflake)
+            time: 10:00 - 10:30
+            url: /program#contributed-talk-2
+          - title: "<strong>Scaling Fine-Grained MoE Beyond 50B Parameters: Empirical Evaluation and Practical Insights</strong>"
+            subtitle: by Jakub Krajewski (University of Warsaw)
+            time: 10:30 - 11:00
+            url: /program#contributed-talk-3
 
       - title: 'Contributed Talks Session 2'
         element-class: col-lg-4
         time: 9:30 - 11:00
         room: Hall A
-        # subevents:
-        #   - title: "<strong>Exceeding Historical Exposure in Session-Based Recommender Systems</strong>"
-        #     subtitle: by Klaudia Balcer (University of Wrocław)
-        #     time: 10:35 - 11:00
-        #     url: /program#contributed-talk-1
-        #   - title: "<strong>Leveraging Multi-Armed Bandit Algorithms for Dynamic Decision Making</strong>"
-        #     subtitle: by Tudor Coman (Adobe)
-        #     time: 11:05 - 11:30
-        #     url: /program#contributed-talk-2
-        #   - title: "<strong>From Theory to Practice: A Practitioner's Journey with Knowledge Graphs</strong>"
-        #     subtitle: by Patryk Wielopolski (DataWalk)
-        #     time: 11:35 - 12:00
-        #     url: /program#contributed-talk-3
+        subevents:
+          - title: "<strong>FlySearch: Exploring how vision-language models explore</strong>"
+            subtitle: by Adam Pardyl (Jagiellonian University; IDEAS NCBR)
+            time: 9:30 - 10:00
+            url: /program#contributed-talk-4
+          - title: "<strong>How Good Are Open-Source Models for Robot Learning?</strong>"
+            subtitle: by Gracjan Góral (University of Warsaw)
+            time: 10:00 - 10:30
+            url: /program#contributed-talk-5
+          - title: "<strong>Shaping Robotic Actions with Fourier Flow Matching</strong>"
+            subtitle: by Mateusz Wyszyński (University of Warsaw)
+            time: 10:30 - 11:00
+            url: /program#contributed-talk-6
 
       - title: 'Contributed Talks Session 3'
         element-class: col-lg-4
         time: 9:30 - 11:00
         room: Hall B
-        # subevents:
-        #   - title: "<strong>Deep Learning for Effective Analysis of High Content Screening</strong>"
-        #     subtitle: by Adriana Borowa (Ardigen)
-        #     time: 10:35 - 11:00
-        #     url: /program#contributed-talk-4
-        #   - title: "<strong>Aggregated Attributions for Explanatory Analysis of 3D Segmentation Models</strong>"
-        #     subtitle: by Maciej Chrabaszcz (NASK / Warsaw University of Technology)
-        #     time: 11:05 - 11:30
-        #     url: /program#contributed-talk-5
-        #   - title: "<strong>Towards Medical Foundation Model - A Unified Dataset for Pretraining Medical Imaging Models</strong>"
-        #     subtitle: by Barbara Klaudel (TheLion.AI)
-        #     time: 11:35 - 12:00
-        #     url: /program#contributed-talk-6
+        subevents:
+          - title: "<strong>Cache Me If You Can: Reducing Model Size and KV Cache Traffic for Faster LLM Inference</strong>"
+            subtitle: by Konrad Staniszewski (NVIDIA, University of Warsaw)
+            time: 9:30 - 10:00
+            url: /program#contributed-talk-7
+          - title: "<strong>Neural self-supervised audio representation for SpeechLLM: neural audio codecs for Polish language</strong>"
+            subtitle: by Paweł Cyrta (AGH Cyfronet / Stenograf.io)
+            time: 10:00 - 10:30
+            url: /program#contributed-talk-8
+          - title: "<strong>Entity Tracking as a Microcosm of Semantic Abilities in LLMs and Humans</strong>"
+            subtitle: by Karolina Drożdż (IDEAS Research Institute)
+            time: 10:30 - 11:00
+            url: /program#contributed-talk-9
 
     - events:
       - title: "Discussion Panel 2: <strong>Open models, open data</strong>"
         element-class: col-lg-4
         time: 11:15 - 12:15
         room: Main Hall
-        # url: /program#discussion-panel-2
-      - title: "Invited Talk 5: <strong>TBA</strong>"
+        url: /program#discussion-panel-2
+      - title: "Invited Talk 5: <strong>Beyond the screen: capturing, understanding and generating 3D scenes</strong>"
         subtitle: by Federico Tombari (Google / Technical University of Munich)
         element-class: col-lg-4
         time: 11:15 - 12:15
         room: Hall A
-        # url: /program#invited-talk-5
-      - title: "Invited Talk 6: <strong>TBA</strong>"
+        url: /program#invited-talk-5
+      - title: "Invited Talk 6: <strong>Reliable and Sustainable AI: From Mathematical Foundations to Next Generation AI Computing</strong>"
         subtitle: by Gitta Kutyniok (DLR / University of Tromsø / LMU Munich)
         element-class: col-lg-4
         time: 11:15 - 12:15
         room: Hall B
-        # url: /program#invited-talk-6
+        url: /program#invited-talk-6
 
     - events:
       - title: 'Poster Session 1 + <i class="fa-solid fa-mug-saucer"></i> Coffee'
-        # subtitle: "with posters: 1-14, 16-31"
+        subtitle: "with posters: 1-30"
         element-class: col-lg-12
         time: 12:15 - 13:45
-        # url: /program#poster-1
+        url: /program#poster-1
         note: You can continue presenting your posters during lunch
 
     - events:
@@ -241,41 +231,41 @@
         #     time: 15:30 - 15:55
         #     url: /program#contributed-talk-9
         
-      - title: "Contributed Talks Session 4"
-        time: 14:30 - 16:00
-        # subevents:
-        #   - title: "<strong>How LLMs are Revolutionizing the Cybersecurity Field</strong>"
-        #     subtitle: by Natasha Al-Khatib (Symbio)
-        #     time: 14:30 - 14:55
-        #     url: /program#contributed-talk-10
-        #   - title: "<strong>Efficient Fine-Tuning of LLMs: Exploring PEFT Methods and LoRA-XS Insights</strong>"
-        #     subtitle: by Klaudia Bałazy (NVIDIA / Jagiellonian University)
-        #     time: 15:00 - 15:25
-        #     url: /program#contributed-talk-11
-        #   - title: "<strong>Open LLMs are Necessary for Private Adaptations and Outperform their Closed Alternatives</strong>"
-        #     subtitle: by Adam Dziedzic (CISPA Helmholtz Center for Information Security)
-        #     time: 15:30 - 15:55
-        #     url: /program#contributed-talk-12
+      - title: 'Contributed Talks Session 4'
         element-class: col-lg-4
+        time: 14:30 - 16:00
         room: Hall A
+        subevents:
+          - title: "<strong>What Does It Mean to Be a Transformer? Insights from a Theoretical Hessian Analysis</strong>"
+            subtitle: by Weronika Ormaniec (ETH Zurich)
+            time: 14:30 - 15:00
+            url: /program#contributed-talk-10
+          - title: "<strong>On Space Folds by Neural Networks</strong>"
+            subtitle: by Michal Lewandowski (SCCH)
+            time: 15:00 - 15:30
+            url: /program#contributed-talk-11
+          - title: "<strong>Exploring Geometric Representational Alignment through Ollivier Ricci Curvature</strong>"
+            subtitle: by Nahid Torbati (Max Planck Institute CBS)
+            time: 15:30 - 16:00
+            url: /program#contributed-talk-12
 
-      - title: "Contributed Talks Session 5"
-        time: 14:30 - 16:00
-        # subevents:
-        #   - title: "<strong>Personalisation of Large-Scale Diffusion Models</strong>"
-        #     subtitle: by Kamil Deja (Warsaw University of Technology / IDEAS NCBR)
-        #     time: 14:30 - 14:55
-        #     url: /program#contributed-talk-13
-        #   - title: "<strong>Current Trends in Intrinsically Interpretable Deep Learning</strong>"
-        #     subtitle: by Dawid Rymarczyk (Jagiellonian University / Ardigen)
-        #     time: 15:00 - 15:25
-        #     url: /program#contributed-talk-14
-        #   - title: "<strong>Neural Rendering: The Future of 3D Modeling</strong>"
-        #     subtitle: by Przemysław Spurek (Jagiellonian University)
-        #     time: 15:30 - 15:55
-        #     url: /program#contributed-talk-15
+      - title: 'Contributed Talks Session 5'
         element-class: col-lg-4
+        time: 14:30 - 16:00
         room: Hall B
+        subevents:
+          - title: "<strong>SAeUron: Interpretable Concept Unlearning in Diffusion Models with Sparse Autoencoders</strong>"
+            subtitle: by Kamil Deja (Warsaw University of Technology, IDEAS Research Institute)
+            time: 14:30 - 15:00
+            url: /program#contributed-talk-13
+          - title: "<strong>Privacy Attacks on Image AutoRegressive Models</strong>"
+            subtitle: by Antoni Kowalczuk (CISPA Helmholtz Center for Information Security)
+            time: 15:00 - 15:30
+            url: /program#contributed-talk-14
+          - title: "<strong>Controlling Generative Models through Parameter Localization</strong>"
+            subtitle: by Łukasz Staniszewski (Warsaw University of Technology, IDEAS Research Institute)
+            time: 15:30 - 16:00
+            url: /program#contributed-talk-15
 
     - events:
       - title:
@@ -293,23 +283,26 @@
         room: Hall B
 
     - events:
-      - title: "Invited Talk 7: <strong>TBA</strong>"
+      - title: "Invited Talk 7: <strong>Unleashing Creativity using AI Agent Networks</strong>"
         subtitle: by Mihaela van der Schaar (University of Cambridge)
         element-class: col-lg-4
         time: 17:30 - 18:30
         room: Main Hall
+        url: /program#invited-talk-7
 
-      - title: "Invited Talk 8: <strong>TBA</strong>"
+      - title: "Invited Talk 8: <strong>Training LLMs: Do We Understand Our Optimizers?</strong>"
         subtitle: by Antonio Orvieto (ELLIS Institute Tübingen)
         element-class: col-lg-4
         time: 17:30 - 18:30
         room: Hall A
+        url: /program#invited-talk-8
 
       - title: "Invited Talk 9: <strong>TBA</strong>"
         subtitle: by Sander Dieleman (Google DeepMind)
         element-class: col-lg-4
         time: 17:30 - 18:30
         room: Hall B
+        url: /program#invited-talk-9
 
 - title: Friday / 17 October
   date: 2025-10-17
@@ -324,83 +317,83 @@
     - events: 
       - title: 'Contributed Talks Session 6'
         element-class: col-lg-4
-        element-class: col-lg-4
         time: 9:30 - 11:00
         room: Main Hall
-        # subevents:
-          # - title: "<strong>Adaptiveness in deep learning models</strong>"
-          #   # subtitle: "by TBA"
-          #   # time:
-          #   # url: 
-          # - title: "<strong>Good practices for applied computer science: field-tested in ML-based medical and space projects</strong>"
-          #   # subtitle: "by TBA"
-          #   # time:
-          #   # url:
-          # - title: "<strong>On (dynamic) shortest paths data structures</strong>"
-          #   # subtitle: "by TBA"
-          #   # time:
-          #   # url:
+        subevents:
+          - title: "<strong>Out of context generalization in LLMs</strong>"
+            subtitle: by Anna Sztyber-Betley (Warsaw University of Technology)
+            time: 9:30 - 10:00
+            url: /program#contributed-talk-16
+          - title: "<strong>Emergent Misalignment: Narrow finetuning can produce broadly misaligned LLM</strong>"
+            subtitle: by Jan Betley (TruthfulAI)
+            time: 10:00 - 10:30
+            url: /program#contributed-talk-17
+          - title: "<strong>SafeQuant: LLM Safety Analysis via Quantized Gradient Inspection</strong>"
+            subtitle: by Sindhu Padakandla (Fujitsu Research of India Pvt Ltd)
+            time: 10:30 - 11:00
+            url: /program#contributed-talk-18
 
       - title: 'Contributed Talks Session 7'
         element-class: col-lg-4
         time: 9:30 - 11:00
         room: Hall A
-        # subevents:
-        #   - title: "<strong>Exceeding Historical Exposure in Session-Based Recommender Systems</strong>"
-        #     subtitle: by Klaudia Balcer (University of Wrocław)
-        #     time: 10:35 - 11:00
-        #     url: /program#contributed-talk-1
-        #   - title: "<strong>Leveraging Multi-Armed Bandit Algorithms for Dynamic Decision Making</strong>"
-        #     subtitle: by Tudor Coman (Adobe)
-        #     time: 11:05 - 11:30
-        #     url: /program#contributed-talk-2
-        #   - title: "<strong>From Theory to Practice: A Practitioner's Journey with Knowledge Graphs</strong>"
-        #     subtitle: by Patryk Wielopolski (DataWalk)
-        #     time: 11:35 - 12:00
-        #     url: /program#contributed-talk-3
+        subevents:
+          - title: "<strong>Conformal Object Detection by Sequential Risk Control</strong>"
+            subtitle: by Léo Andéol (Institute of Mathematics of Toulouse / SNCF)
+            time: 9:30 - 10:00
+            url: /program#contributed-talk-19
+          - title: "<strong>A generalized approach to label shift: the Conditional Probability Shift Model</strong>"
+            subtitle: by Paweł Teisseyre (Warsaw University of Technology)
+            time: 10:00 - 10:30
+            url: /program#contributed-talk-20
+          - title: "<strong>Joint empirical risk minimization for instance-dependent positive-unlabeled data</strong>"
+            subtitle: by Jan Mielniczuk (Polish Academy of Sciences)
+            time: 10:30 - 11:00
+            url: /program#contributed-talk-21
 
       - title: 'Contributed Talks Session 8'
         element-class: col-lg-4
         time: 9:30 - 11:00
         room: Hall B
-        # subevents:
-        #   - title: "<strong>Deep Learning for Effective Analysis of High Content Screening</strong>"
-        #     subtitle: by Adriana Borowa (Ardigen)
-        #     time: 10:35 - 11:00
-        #     url: /program#contributed-talk-4
-        #   - title: "<strong>Aggregated Attributions for Explanatory Analysis of 3D Segmentation Models</strong>"
-        #     subtitle: by Maciej Chrabaszcz (NASK / Warsaw University of Technology)
-        #     time: 11:05 - 11:30
-        #     url: /program#contributed-talk-5
-        #   - title: "<strong>Towards Medical Foundation Model - A Unified Dataset for Pretraining Medical Imaging Models</strong>"
-        #     subtitle: by Barbara Klaudel (TheLion.AI)
-        #     time: 11:35 - 12:00
-        #     url: /program#contributed-talk-6
+        subevents:
+          - title: "<strong>Limits in Causal Discovery and the Path Forward</strong>"
+            subtitle: by Mateusz Gajewski (Poznan University of Technology, IDEAS NCBR)
+            time: 9:30 - 10:00
+            url: /program#contributed-talk-22
+          - title: "<strong>Inference on Local Variable Importance Measures for Heterogeneous Treatment Effects</strong>"
+            subtitle: by Paweł Morzywołek (University of Washington)
+            time: 10:00 - 10:30
+            url: /program#contributed-talk-23
+          - title: "<strong>Learning Personalized Treatment Decisions in Precision Medicine: Disentangling Treatment Assignment Bias in Counterfactual Outcome Prediction and Biomarker Identification</strong>"
+            subtitle: by Michael Vollenweider (ETH Zurich)
+            time: 10:30 - 11:00
+            url: /program#contributed-talk-24
 
     - events:
-      - title: 'Discussion Panel 3: <strong>AI&nbsp;in&nbsp;Security</strong>'
+      - title: "Discussion Panel 3: <strong>AI&nbsp;in&nbsp;Security</strong>"
         element-class: col-lg-4
         time: 11:15 - 12:15
         room: Main Hall 
-        # url: /program#discussion-panel-3
+        url: /program#discussion-panel-3
       - title: "Invited Talk 10: <strong>TBA</strong>"
         subtitle: by Jenia Jitsev (LAION / Juelich Supercomputer Center / ELLIS)
         element-class: col-lg-4
         time: 11:15 - 12:15
         room: Hall A
-      
-      - title: "Invited Talk 11: <strong>TBA</strong>"
-        subtitle: by Alexey Dosovitskiy (LAION / Juelich Supercomputer Center / ELLIS)
+        url: /program#invited-talk-10
+      - title: "Invited Talk 11: <strong>From pixels to nucleotides</strong>"
+        subtitle: by Alexey Dosovitskiy (Inceptive)
         element-class: col-lg-4
         time: 11:15 - 12:15
         room: Hall B
+        url: /program#invited-talk-11
 
     - events:
       - title: 'Poster Session 2 + <i class="fa-solid fa-mug-saucer"></i> Coffee'
-        # subtitle: "with posters: 15, 32-63"
+        subtitle: "with posters: 31-61"
         element-class: col-lg-12
         time: 12:15 - 13:45
-        # url: /program#poster-32
+        url: /program#poster-31
         note: You can continue presenting your posters during lunch
 
     - events:
@@ -424,21 +417,24 @@
         room: Hall B
           
     - events: 
-      - title: "Invited Talk 12: <strong>TBA</strong>"
+      - title: "Invited Talk 12: <strong>What’s the next wave of disruption in science and engineering?</strong>"
         subtitle: by Johannes Brandstetter (Johannes Kepler University /&nbsp;Emmi&nbsp;AI)
         element-class: col-lg-4
         time: 16:00 - 17:00
         room: Main Hall
+        url: /program#invited-talk-12
       - title: 'Invited Talk 13: <strong>TBA</strong>'
         subtitle: by Bartłomiej Papież (University of Oxford)
         element-class: col-lg-4
         time: 16:00 - 17:00
         room: Hall A
-      - title: 'Invited talk 14: <strong>TBA</strong>'
+        url: /program#invited-talk-13
+      - title: 'Invited Talk 14: <strong>Modular learning for improving AI assistants</strong>'
         subtitle: by Herke van Hoof (University of Amsterdam)
         element-class: col-lg-4
         time: 16:00 - 17:00
         room: Hall B
+        url: /program#invited-talk-14
     - events:
       - title: 'Closing remarks'
         element-class: col-lg-12
@@ -452,54 +448,58 @@
   location-address: <a href="https://www.google.com/maps/place/Faculty+of+Mathematics,+Informatics,+and+Mechanics,+University+of+Warsaw/@52.211788,20.9796542,17z/data=!3m1!4b1!4m6!3m5!1s0x471eccba48f9a455:0xc6c3df3b1dba32be!8m2!3d52.2117847!4d20.9822291!16s%2Fg%2F122t68cc?entry=ttu&g_ep=EgoyMDI0MTAxNC4wIKXMDSoASAFQAw%3D%3D">Stefana Banacha 2, 02-097 Warsaw</a>
   sessions:
     - events:
-      - title: Tutorials registration
-        element-class: col-lg-12
-        time: 8:30 - 9:00
+      - title: 'Tutorial 1: <strong>Counterfactual Explanations: From Theory to Implementation</strong>'
+        element-class: col-lg-4
+        time: 9:00 - 13:00
+        url: /program#tutorial-1
+      - title: 'Tutorial 2: <strong>Where ML Security is Broken and How to Fix it</strong>'
+        element-class: col-lg-4
+        time: 9:00 - 13:00
+        url: /program#tutorial-2
+      - title: 'Tutorial 3: <strong>[Generative AI] The Noise, the flow, the images.</strong>'
+        element-class: col-lg-4
+        time: 9:00 - 13:00
+        url: /program#tutorial-3
     - events:
-      - title: 'Tutorial 1: <strong>TBA</strong>'
+      - title: 'Tutorial 4: <strong>From Superposition to Sparse Autoencoders: Understanding Neural Feature Representations</strong>'
         element-class: col-lg-4
         time: 9:00 - 13:00
-        # url: /program#tutorial-1
-      - title: 'Tutorial 2: <strong>TBA</strong>'
+        url: /program#tutorial-4
+      - title: 'Tutorial 5: <strong>Introduction to Automated Machine Learning (AutoML)</strong>'
         element-class: col-lg-4
         time: 9:00 - 13:00
-        # url: /program#tutorial-2
-      - title: 'Tutorial 3: <strong>TBA</strong>'
+        url: /program#tutorial-5
+      - title: 'Tutorial 6: <strong>Running Models on Tenstorrent Hardware</strong>'
         element-class: col-lg-4
         time: 9:00 - 13:00
-        # url: /program#tutorial-3
-    - events:
-      - title: 'Tutorial 4: <strong>TBA</strong>'
-        element-class: col-lg-4
-        time: 9:00 - 13:00
-        # url: /program#tutorial-4
-      - title: 'Tutorial 5: <strong>TBA</strong>'
-        element-class: col-lg-4
-        time: 9:00 - 13:00
-        # url: /program#tutorial-5
+        url: /program#tutorial-6
     - events:
       - title: 'Break'
         element-class: col-lg-12
         time: 13:00 - 14:00
     - events:
-      - title: 'Tutorial 6: <strong>TBA</strong>'
+      - title: 'Tutorial 7: <strong>Migrating Python AI Prototypes to Cross-Platform Solutions</strong>'
         element-class: col-lg-4
         time: 14:00 - 18:00
-        # url: /program#tutorial-6
-      - title: 'Tutorial 7: <strong>TBA</strong>'
+        url: /program#tutorial-7
+      - title: 'Tutorial 8: <strong>Modern Causal Discovery</strong>'
         element-class: col-lg-4
         time: 14:00 - 18:00
-        # url: /program#tutorial-7
-      - title: 'Tutorial 8: <strong>TBA</strong>'
+        url: /program#tutorial-8
+      - title: 'Tutorial 9: <strong>Creating AI Tools for Healthcare</strong>'
         element-class: col-lg-4
         time: 14:00 - 18:00
-        # url: /program#tutorial-8
+        url: /program#tutorial-9
     - events:
-      - title: 'Tutorial 9: <strong>TBA</strong>'
+      - title: 'Tutorial 10: <strong>Navigating the landscape of transformers&#39; expressivity</strong>'
         element-class: col-lg-4
         time: 14:00 - 18:00
-        # url: /program#tutorial-9
-      - title: 'Tutorial 10: <strong>TBA</strong>'
+        url: /program#tutorial-10
+      - title: 'Tutorial 11: <strong>Machine Translation in the LLM Era: A Practical Guide</strong>'
         element-class: col-lg-4
         time: 14:00 - 18:00
-        # url: /program#tutorial-11
+        url: /program#tutorial-11
+      - title: 'Tutorial 12: <strong>End "It Works On My Machine": A Practical Guide to Nix and uv</strong>'
+        element-class: col-lg-4
+        time: 14:00 - 18:00
+        url: /program#tutorial-12

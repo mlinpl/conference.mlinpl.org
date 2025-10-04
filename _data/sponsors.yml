@@ -49,6 +49,9 @@
     - name: QRT
       image: "images/optimized/sponsors-600x600/QRT.webp"
       url: "https://www.qube-rt.com/"
+    - name: RTB House
+      image: "images/optimized/sponsors-600x600/RTBHouse.webp"
+      url: "https://www.rtbhouse.com/careers-offers?department=it_rnd"
     - name: TCL Research Europe
       image: "images/optimized/sponsors-600x600/TCL.webp"
       url: "https://tcl-research.pl"
@@ -67,8 +70,6 @@
 #     - name: Ideas NCBR
 #       image: "images/optimized/sponsors-600x600/IdeasNCBR.webp"
 #       url: "https://ideas-ncbr.pl/en"
-#       image: "images/optimized/sponsors-600x600/RTBHouse.webp"
-#       url: "https://rtbhouse.com/careers-offers?department=it_rnd"
 
 - title: '/ <span class="silver-shine-text">Silver sponsors</span>'
   imageMaxWidth: 270px
@@ -217,6 +218,9 @@
 #     # - name: Opium
 #     #   image: "images/optimized/partners-600x600/Opium.webp"
 #     #   url: http://opium.sh
+    - name: 'OMatKo!!!'
+      image: "images/optimized/partners-600x600/OMatKo.webp"
+      url: https://prac.im.pwr.edu.pl/~omatko/
     - name: Polish ML Community
       image: "images/optimized/partners-600x600/PolishMLCommunity.webp"
       url: "https://polishml.community/"
