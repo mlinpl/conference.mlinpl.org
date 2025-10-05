@@ -52,6 +52,6 @@
 
 - name: Maciej Zdanowicz
   title: RTB House
-  image: images/optimized/speakers-600x600/MaciejZdanowicz.webp
+  image: images/empty.png
   bio: >-
     Maciej leads the ML team at RTB House responsible for deploying advanced sequence modeling within production bidding pipelines. He holds a PhD in mathematics from the University of Warsaw and has conducted research at École polytechnique fédérale de Lausanne and University of Amsterdam.
