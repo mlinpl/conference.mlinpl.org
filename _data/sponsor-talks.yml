@@ -36,7 +36,7 @@
     An introduction to the Quant Finance industry, how G-Research is unique and examples of how we are working in the NLP area. A summary of our scholarships, internships and recruitment schemes will follow.
   date: Thursday / 16 October
   time: 16:15-17:15
-  room: Hall B
+  room: Hall A
   slider-order: 2
   author-name: Charles Martinez
   author-title: G-Research
@@ -49,7 +49,7 @@
     Allegro stands as the largest e-commerce marketplace of European origin, with search and recommendation systems at its core. How do you inspire users or generate complementary recommendations within a single modeling paradigm? How do you cater to the long tail of search queries or incorporate multiple modalities within one model? Explore the challenges of training pipelines for coexisting models. Discover how Large Language Models (LLMs) have reshaped the landscape and peek into emerging architectural paradigms. Join research engineers Aleksandra Chrabrowa (search) and Mateusz Marzec (recommendation) as they journey through Allegro's search and recommendation frontier.
   date: Wednesday / 15 October
   time: 15:00-16:00
-  room: Hall A
+  room: Hall B
   slider-order: 3
   author-title: Allegro
   author-image: images/optimized/speakers-600x600/AleksandraChrabrowa.webp
@@ -70,7 +70,7 @@
     The ongoing AI revolution profoundly reshapes our world. However, translating cutting-edge research into impactful products in a timely manner presents a significant challenge. At Snowflake, we bridge the gap between pioneering AI research and practical application, delivering user-friendly, reliable, and scalable solutions for data scientists, engineers, and researchers. This presentation will highlight these innovative products, with a special focus on the development of our latest Arctic-Extract model for unstructured data processing. Arctic-Extract significantly surpasses the capabilities of our previous DocumentAI model, achieving state-of-the-art results on documents up to 125 pages with minimal GPU memory requirements.
   date: Thursday / 16 October
   time: 16:15-17:15
-  room: Hall A
+  room: Hall B
   slider-order: 4
   author-name: Mateusz Chiliński
   author-title: Snowflake
@@ -97,7 +97,7 @@
     In this talk, we present our ongoing work on integrating large-scale sequential user modeling into real-time bidding (RTB) systems — a domain where extreme latency constraints typically prevent the use of computationally intensive architectures. We will begin with a short introduction to online advertising, outlining the key machine learning challenges that arise in high-throughput bidding environments. We then describe how we leverage transformer-based architectures trained on whole-web traffic to enrich user profiles and enhance downstream prediction models. Finally, we showcase how these representations can be deployed within production-grade RTB pipelines without violating strict performance requirements.
   date: Wednesday / 15 October
   time: 15:00-15:30
-  room: Hall B
+  room: Hall A
   slider-order: 6
   author-bio-md: |-
     Maciej leads the ML team at RTB House responsible for deploying advanced sequence modeling within production bidding pipelines. He holds a PhD in mathematics from the University of Warsaw and has conducted research at École polytechnique fédérale de Lausanne and University of Amsterdam.

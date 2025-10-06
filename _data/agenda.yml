@@ -85,23 +85,23 @@
         - title: 
           subtitle: 
           element-class: col-lg-4
-        - title: "Sponsor Talk: <strong>Evolving Search and Recommendations at a Leading E-commerce Platform</strong>"
-          subtitle: by Aleksandra Chrabrowa and Mateusz Marzec (Allegro)
-          element-class: col-lg-4
-          time: 15:00 - 16:00
-          room: Hall A
-          url: /program#sponsor-talk-3
         - title: 'Sponsor Talk: <strong>Sequential Representation Learning for Real-Time Bidding</strong>'
           subtitle: by Mateusz Błajda and Maciej Zdanowicz (RTB House)
           element-class: col-lg-4
           time: 15:00 - 15:30
-          room: Hall B
+          room: Hall A
           url: /program#sponsor-talk-6
         - title: 'Sponsor Talk: <strong>TBA</strong>'
           subtitle:
           element-class: col-lg-4
           time: 15:30 - 16:00
+          room: Hall A
+        - title: "Sponsor Talk: <strong>Evolving Search and Recommendations at a Leading E-commerce Platform</strong>"
+          subtitle: by Aleksandra Chrabrowa and Mateusz Marzec (Allegro)
+          element-class: col-lg-4
+          time: 15:00 - 16:00
           room: Hall B
+          url: /program#sponsor-talk-3
     - events:
         - title: "Invited Talk 3: <strong>TBA</strong>"
           subtitle: by Adel Bibi (University of Oxford / Kellog College / Softserve)
@@ -279,18 +279,18 @@
       - title:
         subtitle:
         element-class: col-lg-4
-      - title: "Sponsor Talk: <strong>TRANSLATING CUTTING-EDGE RESEARCH INTO IMPACTFUL PRODUCTS</strong>"
-        subtitle: by Mateusz Chiliński (Snowflake)
-        element-class: col-lg-4
-        time: 16:15 - 17:15
-        room: Hall A
-        url: /program#sponsor-talk-4
       - title: "Sponsor Talk: <strong>G-Research: what makes us unique, what new techniques we are working on and how you can be part of it.</strong>"
         subtitle: by Charles Martinez (G-Research)
         element-class: col-lg-4
         time: 16:15 - 17:15
-        room: Hall B
+        room: Hall A
         url: /program#sponsor-talk-2
+      - title: "Sponsor Talk: <strong>TRANSLATING CUTTING-EDGE RESEARCH INTO IMPACTFUL PRODUCTS</strong>"
+        subtitle: by Mateusz Chiliński (Snowflake)
+        element-class: col-lg-4
+        time: 16:15 - 17:15
+        room: Hall B
+        url: /program#sponsor-talk-4
 
     - events:
       - title: "Invited Talk 7: <strong>Unleashing Creativity using AI Agent Networks</strong>"
