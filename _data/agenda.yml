@@ -91,11 +91,12 @@
           time: 15:00 - 15:30
           room: Hall A
           url: /program#sponsor-talk-6
-        - title: 'Sponsor Talk: <strong>TBA</strong>'
-          subtitle:
+        - title: 'Sponsor Talk: <strong>Phoenix from the ashes - IDEAS Research Institute</strong>'
+          subtitle: by Tomasz Trzciński (IDEAS Research Institute)
           element-class: col-lg-4
           time: 15:30 - 16:00
           room: Hall A
+          url: /program#sponsor-talk-7
         - title: "Sponsor Talk: <strong>Evolving Search and Recommendations at a Leading E-commerce Platform</strong>"
           subtitle: by Aleksandra Chrabrowa and Mateusz Marzec (Allegro)
           element-class: col-lg-4
