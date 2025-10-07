@@ -59,50 +59,51 @@
           time: 12:00 - 12:15
           room: Hall A
     - events:
-        - title: "Discussion Panel 1: <strong> PL in ML</strong>"
-          subtitle: (conducted in Polish)
-          element-class: col-lg-4
-          time: 12:20 - 13:20
-          room: Main Hall
-          url: /program#discussion-panel-1
-        - title: "Invited Talk 1: <strong>Causal representation learning in temporal settings with actions</strong>"
-          subtitle: by Sara Magliacane (University of Amsterdam)
-          element-class: col-lg-4
-          time: 12:20 - 13:20
-          room: Hall A
-          url: /program#invited-talk-1
-        - title: "Invited Talk 2: <strong>TBA</strong>"
-          subtitle: by Shreya Pathak (Google DeepMind)
-          element-class: col-lg-4
-          time: 12:20 - 13:20
-          room: Hall B
-          url: /program#invited-talk-2
+      - title: "Discussion Panel 1: <strong> PL in ML</strong>"
+        subtitle: (conducted in Polish)
+        element-class: col-lg-4
+        time: 12:20 - 13:20
+        room: Main Hall
+        url: /program#discussion-panel-1
+      - title: "Invited Talk 1: <strong>Causal representation learning in temporal settings with actions</strong>"
+        subtitle: by Sara Magliacane (University of Amsterdam)
+        element-class: col-lg-4
+        time: 12:20 - 13:20
+        room: Hall A
+        url: /program#invited-talk-1
+      - title: "Invited Talk 2: <strong>TBA</strong>"
+        subtitle: by Shreya Pathak (Google DeepMind)
+        element-class: col-lg-4
+        time: 12:20 - 13:20
+        room: Hall B
+        url: /program#invited-talk-2
     - events:
-        - title: '<i class="fa-solid fa-utensils"></i> Lunch'
-          element-class: col-lg-12
-          time: 13:20 - 15:00
+      - title: '<i class="fa-solid fa-utensils"></i> Lunch'
+        element-class: col-lg-12
+        time: 13:20 - 15:00
     - events:
-        - title: 
-          subtitle: 
-          element-class: col-lg-4
-        - title: 'Sponsor Talk: <strong>Sequential Representation Learning for Real-Time Bidding</strong>'
-          subtitle: by Mateusz Błajda and Maciej Zdanowicz (RTB House)
-          element-class: col-lg-4
-          time: 15:00 - 15:30
-          room: Hall A
-          url: /program#sponsor-talk-1
-        - title: 'Sponsor Talk: <strong>Phoenix from the ashes - IDEAS Research Institute</strong>'
-          subtitle: by Tomasz Trzciński (IDEAS Research Institute)
-          element-class: col-lg-4
-          time: 15:30 - 16:00
-          room: Hall A
-          url: /program#sponsor-talk-2
-        - title: "Sponsor Talk: <strong>Evolving Search and Recommendations at a Leading E-commerce Platform</strong>"
-          subtitle: by Aleksandra Chrabrowa and Mateusz Marzec (Allegro)
-          element-class: col-lg-4
-          time: 15:00 - 16:00
-          room: Hall B
-          url: /program#sponsor-talk-3
+      - title: 
+        subtitle: 
+        element-class: col-lg-4
+      - title: 'Sponsor Talk: <strong>Sequential Representation Learning for Real-Time Bidding</strong>'
+        subtitle: by Mateusz Błajda and Maciej Zdanowicz (RTB House)
+        element-class: col-lg-4
+        time: 15:00 - 15:30
+        room: Hall A
+        url: /program#sponsor-talk-1
+      - title: "Sponsor Talk: <strong>Evolving Search and Recommendations at a Leading E-commerce Platform</strong>"
+        subtitle: by Aleksandra Chrabrowa and Mateusz Marzec (Allegro)
+        element-class: col-lg-4
+        time: 15:00 - 16:00
+        room: Hall B
+        url: /program#sponsor-talk-3
+    - events:
+      - title: 'Sponsor Talk: <strong>Phoenix from the ashes - IDEAS Research Institute</strong>'
+        subtitle: by Tomasz Trzciński (IDEAS Research Institute)
+        element-class: col-lg-4 col-lg-offset-4
+        time: 15:30 - 16:00
+        room: Hall A
+        url: /program#sponsor-talk-2
     - events:
         - title: "Invited Talk 3: <strong>TBA</strong>"
           subtitle: by Adel Bibi (University of Oxford / Kellog College / Softserve)
