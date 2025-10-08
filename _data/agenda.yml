@@ -8,7 +8,7 @@
     - events:
         - title: "Student Research Workshop (open event, no ticket required)"
           subevents:
-            - title: "<strong>Attribute-Regularized VAEs for Controlled and Interpretable Antimicrobial Peptide Design</strong>"
+            - title: "<strong>PepGlider: Property Regularized VAE for interpretable and controllable peptide design</strong>"
               subtitle: by Aleksandra Gwiazda (Warsaw University of Technology)
               time: 8:10 - 8:30
               url: /program#srw-talk-1
