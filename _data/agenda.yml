@@ -111,7 +111,7 @@
           time: 16:15 - 17:15
           room: Hall A
           url: /program#invited-talk-3
-        - title: "Invited Talk 4: <strong>Bridging perception and causality with causal representations</strong>"
+        - title: "Invited Talk 4: <strong>Learning to see the hidden world: A perspective on causal representations</strong>"
           subtitle: by Francesco Locatello (ISTA)
           element-class: col-lg-4
           time: 16:15 - 17:15
@@ -309,7 +309,7 @@
         room: Hall A
         url: /program#invited-talk-8
 
-      - title: "Invited Talk 9: <strong>TBA</strong>"
+      - title: "Invited Talk 9: <strong>Diffusion models for image and video generation</strong>"
         subtitle: by Sander Dieleman (Google DeepMind)
         element-class: col-lg-4
         time: 17:30 - 18:30
@@ -437,7 +437,7 @@
         time: 16:00 - 17:00
         room: Main Hall
         url: /program#invited-talk-12
-      - title: 'Invited Talk 13: <strong>TBA</strong>'
+      - title: 'Invited Talk 13: <strong>Equity in Healthcare AI: The Interplay of Data, Biases, and Explanation</strong>'
         subtitle: by Bartłomiej Papież (University of Oxford)
         element-class: col-lg-4
         time: 16:00 - 17:00

@@ -1,6 +1,6 @@
 # TEMPLATE
 # - title:
-#  abstract: >-
+#  abstract: |-
 #  time:
 #  room:
 #  date:
@@ -8,7 +8,7 @@
 #  author-name:
 #  author-title:
 #  author-image:
-#  author-bio: >-
+#  author-bio: |-
 #  google-scholar:
 #  slides:
 
@@ -63,9 +63,9 @@
     Bibi was awarded the CRG grant by KAUST to work on robust deep learning, an Amazon Research Award in 2022 in the Machine Learning Algorithms and Theory track, the Google Gemma 2 Academic Award in 2024, and the Systemic AI Safety grant of by the UK AI Security Institute in 2025. Bibi received four best paper awards; a NeurIPS23 workshop, an ICML23 workshop, a 2022 CVPR workshop, and one at the Optimization and Big Data Conference in 2018. His contributions include over 30 papers published in top machine learning and computer vision conferences. He also received four outstanding reviewer awards (CVPR18, CVPR19, ICCV19, ICLR22) and a Notable Area Chair Award in NeurIPS23 and acts as a senior area chair NeurIPS.
   slides:
 
-- title: Bridging perception and causality with causal representations
+- title: "Learning to see the hidden world: A perspective on causal representations"
   abstract: |-
-    TBA
+    Deciphering observations into structural knowledge of the world is a key component of the scientific discovery process and a longstanding challenge for AI. In this talk, I will present our recent works positioning causal representations as the bridge between perception and causal knowledge. I will begin with the challenge of prediction powered causal inference and how to train predictors that are causally valid proxies of latent variables. Next, I will also show how AI models enable "looking at the data first" and discovering effects in randomized trials without supervision. Finally, I will showcase how these ideas go beyond traditional causal models and bridge to the discovery of dynamical systems. 
   time: 16:15 - 17:15
   room: Hall B
   date: Wednesday / 15 October
@@ -146,9 +146,9 @@
   google-scholar: https://scholar.google.com/citations?user=xkuLyHoAAAAJ&hl=it
   slides:
 
-- title: TBA
+- title: Diffusion models for image and video generation
   abstract: |- 
-    TBA
+    An overview of all the components that are necessary to build a state-of-the-art image or video generation model based on latent diffusion.
   time: 17:30 - 18:30
   room: Hall B
   date: Thursday / 16 October
@@ -207,9 +207,9 @@
   google-scholar: https://scholar.google.com/citations?user=KiRvOHcAAAAJ&hl=de
   slides:
 
-- title: TBA
+- title: "Equity in Healthcare AI: The Interplay of Data, Biases, and Explanation"
   abstract: >-
-    TBA
+    Machine learning in healthcare is often undermined by inequities in data and models. Bias mitigation and explainable AI (XAI) are two strategies for equitable systems, yet both face critical challenges. Recent work shows that bias mitigation outcomes hinge on subgroup definitions—poor choices can worsen disparities. Meanwhile, explainability methods shape clinician trust: natural language explanations risk overreliance, while combining them with saliency maps fosters more balanced decision-making. This talk examines the interplay between subgroup design and explanation strategies, arguing that equitable healthcare requires aligning data, mitigation, and explanations in real-world clinical deployment.
   time: 16:00 - 17:00
   room: Hall A
   date: Friday / 17 October
