@@ -38,7 +38,7 @@ late:
     student: "1400 PLN"
     regular: "1400 PLN"
   price_label: "Late Price"
-  active: true
+  active: false
   visible: true
   url: "https://app.evenea.pl/event/mlinpl25/"
 
