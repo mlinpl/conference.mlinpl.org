@@ -61,9 +61,6 @@
 #     - name: Comarch
 #       image: "images/optimized/sponsors-600x600/Comarch.webp"
 #       url: "https://www.comarch.com"
-#     - name: Google
-#       image: "images/optimized/sponsors-600x600/Google.webp"
-#       url: https://goo.gle/4f4Dmko
 #     - name: Google DeepMind
 #       image: "images/optimized/sponsors-600x600/GoogleDeepMind.webp"
 #       url: https://www.deepmind.com
@@ -85,6 +82,9 @@
     - name: Accenture
       image: "images/sponsors/Accenture.svg"
       url: "https://www.accenture.com/"
+    - name: Google
+      image: "images/optimized/sponsors-600x600/Google.webp"
+      url: https://goo.gle/4f4Dmko
 #     - name: Palto
 #       image: "images/optimized/sponsors-600x600/Palto.svg"
 #       url: "https://palto.ai"
