@@ -98,7 +98,7 @@
   time: 11:15 - 12:15
   id: 3
   desc: |-
-    The "AI in Security" panel will focus on the intersection of AI and cybersecurity. We aim to explore topics such as the role of AI in threat detection, vulnerability assessment, and incident response, as well as the ethical and societal implications of deploying AI in security systems. Additionally, we will discuss the potential risks associated with AI-driven cybersecurity solutions, including adversarial attacks and data privacy concerns.
+    The "AI in Security" panel will focus on the intersection of AI and cybersecurity. We aim to explore topics such as the inherent vulnerabilities of AI models, new adversarial attack vectors, and the adequacy of traditional security measures, as well as the ethical and societal implications of deploying AI in security systems. Additionally, we will discuss the potential risks associated with AI-driven cybersecurity solutions, including adversarial attacks and data privacy concerns.
   note: "Moderators: Alicja Grochocka-Dorocińska and Maciej Chrabąszcz"
   panelists:
     - name: Gerhard Wunder
