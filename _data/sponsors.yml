@@ -1,12 +1,12 @@
-# - title: '/ <span class="dimond-shine-text">Strategic sponsor</span>'
-#   imageMaxWidth: 480px
-#   imageMaxHeight: 240px
-#   margin: 45px 60px
-#   sponsors:
-#     - name: ElevenLabs
-#       image: "images/optimized/sponsors-600x600/ElevenLabs.svg"
-#       url: "https://elevenlabs.io"
-#   # caption: 'Check out AI Audio Challenge organized by ElevenLabs <a href="/ai-audio-challenge">here</a>.'
+- title: '/ <span class="dimond-shine-text">Strategic sponsor</span>'
+  imageMaxWidth: 480px
+  imageMaxHeight: 210px
+  margin: 45px 60px
+  sponsors:
+    - name: Dialo
+      image: "images/optimized/sponsors-600x600/Dialo.webp"
+      url: "https://dialo.ai"
+  # caption: 'Check out AI Audio Challenge organized by ElevenLabs <a href="/ai-audio-challenge">here</a>.'
 
 - title: '/ <span class="platinium-shine-text">Platinum sponsors</span>'
   imageMaxWidth: 360px
