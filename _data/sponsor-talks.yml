@@ -24,10 +24,10 @@
   authors:
     - name: Mateusz Błajda
       title: RTB House
-      image: images/empty.png
+      image: images/optimized/speakers-600x600/MateuszBłajda.webp
     - name: Maciej Zdanowicz
       title: RTB House
-      image: images/empty.png
+      image: images/optimized/speakers-600x600/MaciejZdanowicz.webp
 
 - title: "Phoenix from the ashes - IDEAS Research Institute"
   abstract: |-
