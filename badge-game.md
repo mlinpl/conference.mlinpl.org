@@ -37,7 +37,7 @@ Don't worry if you can't find the pattern right away --- after each day we will 
 Submit your predictions for the test set names by filling out the form below:
 
 <div align="center" style="margin-bottom: 30px;">
-    <a href="https://badge-game.paperform.co" class="btn btn-nonactive btn-default btn-lg" target="_blank"  disabled><i class="fa-solid fa-list"></i> Submit results</a>
+    <a href="https://mlinpl2025-badge-game.paperform.co" class="btn btn-nonactive btn-default btn-lg" target="_blank"  disabled><i class="fa-solid fa-list"></i> Submit results</a>
 </div>
 
 <!-- Submissions are closed. -->
