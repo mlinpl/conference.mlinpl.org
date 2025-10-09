@@ -241,14 +241,14 @@
     In the LLM era, one might think that the problem of Machine Translation is solved. But it’s certainly not, especially at scale and in domain-specific contexts. This tutorial provides a practical overview of modern MT. I will start with the core concepts like parallel data, system architectures and evaluation methods, and then will move to more advanced topics like quality-aware decoding or applications of reinforcement learning to MT. During the hands-on session, we will implement and evaluate state-of-the-art MT techniques on our own!
 
     **Prerequisites:** No prior knowledge in Machine Translation is required, but familiarity with basic deep learning concepts is beneficial. Hands-on session will be run in a Jupyter notebook. To actively participate in the tutorial, you need to have Python 3 installed together with libraries transformers and trl.
+
+    **This tutorial is free of charge but also requires registration. Please register <a href="https://app.evenea.pl/event/mlinpl25-tutorials/" target="_blank">here</a>.**
   authors:
     - name: Mieszko Rutkowski
       title: Allegro
       image: images/optimized/tutorials-600x600/Mieszko_Rutkowski.webp
   author-bio-md: |-
     Mieszko Rutkowski is a Research Engineer at Allegro, where he contributes to developing Allegro Translation Engine. His interests include Machine Translation, especially with reinforcement learning and multimodal methods. Previously he worked on risk management at UBS and on astrophysics at the Jagiellonian University.
-
-    **This tutorial is free of charge but also requires registration. Please register <a href="https://app.evenea.pl/event/mlinpl25-tutorials/" target="_blank">here</a>.**
 
 - title: 'End "It Works On My Machine": A Practical Guide to Nix and uv'
   date: Saturday / 18 October

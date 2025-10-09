@@ -105,7 +105,9 @@
 
 - title: "🤘 All Things Metal"
   abstract: |-
-    TBA
+    Training modern AI models demands scalable hardware. Modern processors spend most of their time and energy waiting for data, yet hide this bottleneck from developers. Tenstorrent builds programmable RISC‑V processors with full control over data movement, cost‑efficient DRAM memory systems, and simple Ethernet for easy scale‑out.
+    
+    We pair this with TT‑Metal — a low‑level API giving complete control over the hardware — and TT‑Train, our C++ multi‑device training engine for transformer workloads. These tools enable fast, cost‑efficient training and inference, and open the door to entirely new classes of AI models.
   date: Friday / 17 October
   time: 14:45-15:45
   room: Hall B
