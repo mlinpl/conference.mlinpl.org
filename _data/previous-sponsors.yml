@@ -94,8 +94,6 @@
 - name: ReSpo Vison
   image: images/optimized/previous-sponsors-300x300/ReSpoVision.webp
 
-
-
 - name: InPost
   image: images/optimized/previous-sponsors-300x300/InPost.webp
 
@@ -113,3 +111,6 @@
 
 - name: nethone
   image: images/optimized/previous-sponsors-300x300/nethone.webp
+
+- name: ElevenLabs
+  image: images/previous-sponsors/ElevenLabs.svg
