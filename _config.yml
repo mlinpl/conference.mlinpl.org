@@ -63,6 +63,7 @@ state:
   # banner-text: 'Regular ticket sales is open now! <a href="https://app.evenea.pl/event/mlinpl25/">Secure your spot</a>!'
   # banner-text: 'Regular tickets sold out! Late registration opens 1 October.'
   # banner-text: 'Late Registration and Tutorial Registration (attending requires separate ticket) open now!'
+  banner-text: 'There are still available tickets for tutorials (separate from the main event)!'
 
 # Navigation settings
 navigation:
