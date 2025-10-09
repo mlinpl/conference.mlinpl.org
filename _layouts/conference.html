@@ -43,8 +43,10 @@
 
             {% include agenda-slider.html agenda-data=site.data.agenda draft=agenda_draft show-full-program=agenda_full %}
         {% endif %}
-
+        
         {% include conference/calls.html state=site.state.cfc %}
+
+        {% include conference/transport.html %}
 
         {% include conference/venue.html %}
 
