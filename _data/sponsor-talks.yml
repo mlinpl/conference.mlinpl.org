@@ -1,6 +1,6 @@
 #  TEMPLATE
 # - title:
-#  abstract: >-
+#  abstract: |-
 #  date:
 #  time:
 #  room:
@@ -8,52 +8,50 @@
 #  author-name:
 #  author-title:
 #  author-image:
-#  author-bio: >-
+#  author-bio: |-
 
-- title: "🤘 All Things Metal"
-  abstract: >-
-    TBA
-  date: Friday / 17 October
-  time: 14:45-15:45
-  room: Hall B
+- title: Sequential Representation Learning for Real-Time Bidding
+  abstract: |-
+    In this talk, we present our ongoing work on integrating large-scale sequential user modeling into real-time bidding (RTB) systems — a domain where extreme latency constraints typically prevent the use of computationally intensive architectures. We will begin with a short introduction to online advertising, outlining the key machine learning challenges that arise in high-throughput bidding environments. We then describe how we leverage transformer-based architectures trained on whole-web traffic to enrich user profiles and enhance downstream prediction models. Finally, we showcase how these representations can be deployed within production-grade RTB pipelines without violating strict performance requirements.
+  date: Wednesday / 15 October
+  time: 15:00-15:30
+  room: Hall A
   slider-order: 1
-  author-title: Tenstorrent
-  author-image: images/optimized/speakers-600x600/MaciejDragula.webp
-  author-bio-md: >-
-    Maciej Draguła is a Senior Engineer at Tenstorrent, where he develops tt-train, a framework for training large language models on Tenstorrent’s cutting-edge AI hardware, with a focus on optimising operations to reduce training time. Previously, he worked on computer vision applications for avionics at Daedalean, and his experience includes internships at CERN, Google, and Goldman Sachs. He holds a Bachelor’s degree in Computer Science from the University of Wrocław.
+  author-bio-md: |-
+    Maciej leads the ML team at RTB House responsible for deploying advanced sequence modeling within production bidding pipelines. He holds a PhD in mathematics from the University of Warsaw and has conducted research at École polytechnique fédérale de Lausanne and University of Amsterdam.
 
-    Senior Principal at Tenstorrent, Artem Yerofieiev leads software engineering for TT-NN — the open-source, scaleout-native and tile-based ML framework for Tenstorrent’s next-gen accelerators. Currently building autonomous AI systems to generation software and support hardware-software co-design. Previously led AR-creation tools at Snap and analytical software in a defense R&D lab.
+    Mateusz is a Machine Learning Researcher at RTB House, working on transformer-based sequence models for user behavior modeling. He earned a master’s in Machine Learning at the University of Warsaw, with a thesis applying transformer models to proteomics.
   authors:
-    - name: Maciej Draguła
-      title: Tenstorrent
-      image: images/optimized/speakers-600x600/MaciejDragula.webp
-    - name: Artem Yerofieiev
-      title: Tenstorrent
-      image: images/optimized/speakers-600x600/ArtemYerofieiev.webp
+    - name: Mateusz Błajda
+      title: RTB House
+      image: images/optimized/speakers-600x600/MateuszBłajda.webp
+    - name: Maciej Zdanowicz
+      title: RTB House
+      image: images/optimized/speakers-600x600/MaciejZdanowicz.webp
 
-- title: "G-Research: what makes us unique, what new techniques we are working on and how you can be part of it."
-  abstract: >-
-    An introduction to the Quant Finance industry, how G-Research is unique and examples of how we are working in the NLP area. A summary of our scholarships, internships and recruitment schemes will follow.
-  date: Thursday / 16 October
-  time: 16:15-17:15
-  room: Hall B
+- title: "Phoenix from the ashes - IDEAS Research Institute"
+  abstract: |-
+    Does Poland deserve a full-fetched AI center focused on research excellence in artificial intelligence? If your answer is ‘yes’, welcome to the club. We think so too, and this talk will hipefully convince you we are all right. We will offer a short peek behind the scenes of the recently established publicly-funded IDEAS Research Institute, founded on the ashes of the sound-alike subsidiary of National Research and Development Center. With almost 100 people on board, more than a dozen research groups, 15 A* papers in 2025 and a well-established collaboration with the Polish Ministries of Defense and Digital Affairs, we are back on track to become the focal point of Polish machine learning scene.
+  date: Wednesday / 15 October
+  time: 15:30-16:00
+  room: Hall A
   slider-order: 2
-  author-name: Charles Martinez
-  author-title: G-Research
-  author-image: images/optimized/speakers-600x600/CharlesMartinez.webp
+  author-name: Tomasz Trzciński
+  author-title: IDEAS Research Institute
+  author-image: images/optimized/advisory-board-300x300/TomaszTrzcinski.webp
   author-bio: >-
-    Dr Charles Martinez is the Academic Relations Manager at G-Research. Charles completed a PhD in Phonon interactions in Gallium Nitride nanostructures at the University of Nottingham. Charles' previous role was as Elsevier's Key Account Manager, managing sales and renewals for the UK Russell Group institutions, Government and Funding body accounts, including being one of the negotiators in the UK ScienceDirect Read and Publish agreement. Since leaving Elsevier Charles is dedicated to forming beneficial partnerships between G-Research and Europe's top institutions, and is living in Cambridge, UK.
+    Tomasz Trzciński is a Full Professor at Warsaw University of Technology, where he leads a Computer Vision Lab. He is a Chief Scientist at Tooploox and also a Deputy Director of IDEAS Research Institute, a publicly-funded Polish center for AI. Previously, he worked at Google in 2013, Qualcomm in 2012 and Telefónica in 2010. He frequently serves as a reviewer and area chair in major computer science conferences (CVPR, ICCV, ECCV, NeurIPS, ICML) and journals (TPAMI, IJCV, CVIU).
 
 - title: Evolving Search and Recommendations at a Leading E-commerce Platform
-  abstract: >-
+  abstract: |-
     Allegro stands as the largest e-commerce marketplace of European origin, with search and recommendation systems at its core. How do you inspire users or generate complementary recommendations within a single modeling paradigm? How do you cater to the long tail of search queries or incorporate multiple modalities within one model? Explore the challenges of training pipelines for coexisting models. Discover how Large Language Models (LLMs) have reshaped the landscape and peek into emerging architectural paradigms. Join research engineers Aleksandra Chrabrowa (search) and Mateusz Marzec (recommendation) as they journey through Allegro's search and recommendation frontier.
   date: Wednesday / 15 October
   time: 15:00-16:00
-  room: Hall A
+  room: Hall B
   slider-order: 3
   author-title: Allegro
   author-image: images/optimized/speakers-600x600/AleksandraChrabrowa.webp
-  author-bio-md: >-
+  author-bio-md: |-
     Aleksandra Chrabrowa brings over five years of experience as a commercial research engineer, specializing in training machine learning models for large-scale systems, including retrieval models for Allegro search. Her expertise encompasses both large-scale training of in-house Transformer models and utilizing off-the-shelf LLM solutions. With a background in physics from the University of Warsaw, she merges scientific knowledge with practical application.
 
     Mateusz Marzec is a Research Engineer at Allegro, specializing in personalized retrieval and recommendation systems. With degrees in Mathematics, Economic Analytics, and Data Science, he combines strong mathematical skills with hands-on experience in machine learning and data analysis. Mateusz has a strong passion for research, especially work that bridges the gap between theory and practice. He enjoys exploring innovative methods in information retrieval and recommendation systems, with a focus on solutions that can be effectively applied in real-world products and systems.
@@ -65,48 +63,65 @@
       title: Allegro
       image: images/optimized/speakers-600x600/MateuszMarzec.webp
 
-- title: TRANSLATING CUTTING-EDGE RESEARCH INTO IMPACTFUL PRODUCTS
-  abstract: >-
-    The ongoing AI revolution profoundly reshapes our world. However, translating cutting-edge research into impactful products in a timely manner presents a significant challenge. At Snowflake, we bridge the gap between pioneering AI research and practical application, delivering user-friendly, reliable, and scalable solutions for data scientists, engineers, and researchers. This presentation will highlight these innovative products, with a special focus on the development of our latest Arctic-Extract model for unstructured data processing. Arctic-Extract significantly surpasses the capabilities of our previous DocumentAI model, achieving state-of-the-art results on documents up to 125 pages with minimal GPU memory requirements.
+- title: "G-Research: what makes us unique, what new techniques we are working on and how you can be part of it."
+  abstract: |-
+    An introduction to the Quant Finance industry, how G-Research is unique and examples of how we are working in the NLP area. A summary of our scholarships, internships and recruitment schemes will follow.
   date: Thursday / 16 October
   time: 16:15-17:15
   room: Hall A
   slider-order: 4
+  author-name: Charles Martinez
+  author-title: G-Research
+  author-image: images/optimized/speakers-600x600/CharlesMartinez.webp
+  author-bio: |-
+    Dr Charles Martinez is the Academic Relations Manager at G-Research. Charles completed a PhD in Phonon interactions in Gallium Nitride nanostructures at the University of Nottingham. Charles' previous role was as Elsevier's Key Account Manager, managing sales and renewals for the UK Russell Group institutions, Government and Funding body accounts, including being one of the negotiators in the UK ScienceDirect Read and Publish agreement. Since leaving Elsevier Charles is dedicated to forming beneficial partnerships between G-Research and Europe's top institutions, and is living in Cambridge, UK.
+
+- title: TRANSLATING CUTTING-EDGE RESEARCH INTO IMPACTFUL PRODUCTS
+  abstract: |-
+    The ongoing AI revolution profoundly reshapes our world. However, translating cutting-edge research into impactful products in a timely manner presents a significant challenge. At Snowflake, we bridge the gap between pioneering AI research and practical application, delivering user-friendly, reliable, and scalable solutions for data scientists, engineers, and researchers. This presentation will highlight these innovative products, with a special focus on the development of our latest Arctic-Extract model for unstructured data processing. Arctic-Extract significantly surpasses the capabilities of our previous DocumentAI model, achieving state-of-the-art results on documents up to 125 pages with minimal GPU memory requirements.
+  date: Thursday / 16 October
+  time: 16:15-17:15
+  room: Hall B
+  slider-order: 5
   author-name: Mateusz Chiliński
   author-title: Snowflake
   author-image: images/optimized/speakers-600x600/MateuszChilinski.webp
-  author-bio: >-
+  author-bio: |-
     Mateusz Chiliński, PhD, is a researcher and machine learning professional specializing in Document Understanding and Large Language Models (LLMs). For the past year, he has been a Research Scientist in the Document AI team at Snowflake, where he designs, trains, and deploys cutting-edge AI features. His role focuses on the end-to-end productization of LLMs, from research to production.
     His academic foundation includes a PhD in Computer Science and a background in computational genomics, providing a cross-disciplinary perspective on complex data. Mateusz's extensive research experience is demonstrated by over 16 scientific publications in high-quality journals, reflecting his deep expertise in advanced machine learning and AI.
 
 - title: "Measuring What Matters: The Challenges of Evaluating and Optimizing LLMs"
-  abstract: >-
+  abstract: |-
     From fine-tuning to prompt engineering, LLM adaptation is evolving fast - but knowing whether an optimized model is "good enough" remains a challenge. This talk focuses on the pitfalls of LLM evaluation and shares practical strategies for comparing full-precision and optimized models, especially when the process must be automated without human judgment in the loop.
   date: Friday / 17 October
   time: 14:45-15:45
   room: Hall A
-  slider-order: 5
+  slider-order: 6
   author-name: Patrycja Cieplicka
   author-title: Tooploox
   author-image: images/optimized/speakers-600x600/PatrycjaCieplicka.webp
-  author-bio: >-
+  author-bio: |-
     Patrycja Cieplicka is a computer science graduate from the Warsaw University of Technology with over six years of experience in machine learning. Her work focuses on Large Language Models, particularly model post-training, evaluation, and optimization.
 
-- title: Sequential Representation Learning for Real-Time Bidding
-  abstract: >-
-    In this talk, we present our ongoing work on integrating large-scale sequential user modeling into real-time bidding (RTB) systems — a domain where extreme latency constraints typically prevent the use of computationally intensive architectures. We will begin with a short introduction to online advertising, outlining the key machine learning challenges that arise in high-throughput bidding environments. We then describe how we leverage transformer-based architectures trained on whole-web traffic to enrich user profiles and enhance downstream prediction models. Finally, we showcase how these representations can be deployed within production-grade RTB pipelines without violating strict performance requirements.
-  date: Wednesday / 15 October
-  time: 15:00-15:30
+- title: "🤘 All Things Metal"
+  abstract: |-
+    Training modern AI models demands scalable hardware. Modern processors spend most of their time and energy waiting for data, yet hide this bottleneck from developers. Tenstorrent builds programmable RISC‑V processors with full control over data movement, cost‑efficient DRAM memory systems, and simple Ethernet for easy scale‑out.
+    
+    We pair this with TT‑Metal — a low‑level API giving complete control over the hardware — and TT‑Train, our C++ multi‑device training engine for transformer workloads. These tools enable fast, cost‑efficient training and inference, and open the door to entirely new classes of AI models.
+  date: Friday / 17 October
+  time: 14:45-15:45
   room: Hall B
-  slider-order: 6
-  author-bio-md: >-
-    Maciej leads the ML team at RTB House responsible for deploying advanced sequence modeling within production bidding pipelines. He holds a PhD in mathematics from the University of Warsaw and has conducted research at École polytechnique fédérale de Lausanne and University of Amsterdam.
+  slider-order: 7
+  author-title: Tenstorrent
+  author-image: images/optimized/speakers-600x600/MaciejDragula.webp
+  author-bio-md: |-
+    Maciej Draguła is a Senior Engineer at Tenstorrent, where he develops tt-train, a framework for training large language models on Tenstorrent’s cutting-edge AI hardware, with a focus on optimising operations to reduce training time. Previously, he worked on computer vision applications for avionics at Daedalean, and his experience includes internships at CERN, Google, and Goldman Sachs. He holds a Bachelor’s degree in Computer Science from the University of Wrocław.
 
-    Mateusz is a Machine Learning Researcher at RTB House, working on transformer-based sequence models for user behavior modeling. He earned a master’s in Machine Learning at the University of Warsaw, with a thesis applying transformer models to proteomics.
+    Senior Principal at Tenstorrent, Artem Yerofieiev leads software engineering for TT-NN — the open-source, scaleout-native and tile-based ML framework for Tenstorrent’s next-gen accelerators. Currently building autonomous AI systems to generation software and support hardware-software co-design. Previously led AR-creation tools at Snap and analytical software in a defense R&D lab.
   authors:
-    - name: Mateusz Błajda
-      title: RTB House
-      image: images/empty.png
-    - name: Maciej Zdanowicz
-      title: RTB House
-      image: images/empty.png
+    - name: Maciej Draguła
+      title: Tenstorrent
+      image: images/optimized/speakers-600x600/MaciejDragula.webp
+    - name: Artem Yerofieiev
+      title: Tenstorrent
+      image: images/optimized/speakers-600x600/ArtemYerofieiev.webp
