@@ -65,7 +65,7 @@
 
 - title: "Learning to see the hidden world: A perspective on causal representations"
   abstract: |-
-    Deciphering observations into structural knowledge of the world is a key component of the scientific discovery process and a longstanding challenge for AI. In this talk, I will present our recent works positioning causal representations as the bridge between perception and causal knowledge. I will begin with the challenge of prediction powered causal inference and how to train predictors that are causally valid proxies of latent variables. Next, I will also show how AI models enable "looking at the data first" and discovering effects in randomized trials without supervision. Finally, I will showcase how these ideas go beyond traditional causal models and bridge to the discovery of dynamical systems. 
+    Deciphering observations into structural knowledge of the world is a key component of the scientific discovery process and a longstanding challenge for AI. In this talk, I will present our recent works positioning causal representations as the bridge between perception and causal knowledge. I will begin with the challenge of prediction powered causal inference and how to train predictors that are causally valid proxies of latent variables. Next, I will also show how AI models enable "looking at the data first" and discovering effects in randomized trials without supervision. Finally, I will showcase how these ideas go beyond traditional causal models and bridge to the discovery of dynamical systems.
   time: 16:15 - 17:15
   room: Hall B
   date: Wednesday / 15 October
@@ -107,7 +107,7 @@
   author-title: DLR / University of Tromsø / LMU Munich
   author-image: images/optimized/speakers-600x600/GittaKutyniok.webp
   author-bio: |-
-    Gitta Kutyniok currently holds a Bavarian AI Chair for Mathematical Foundations of Artificial Intelligence at the Ludwig-Maximilians-Universität München, and is in addition affiliated with the German Aerospace Center, DLR and the University of Tromsø. Her research work covers the areas of applied and computational harmonic analysis, artificial intelligence, compressed sensing, deep learning, imaging sciences, inverse problems, and applications to life sciences, robotics, and telecommunication
+    Gitta Kutyniok currently holds a Bavarian AI Chair for Mathematical Foundations of Artificial Intelligence at the Ludwig-Maximilians-Universität München, and is in addition affiliated with the German Aerospace Center, DLR and the University of Tromsø. Her research work covers the areas of applied and computational harmonic analysis, artificial intelligence, compressed sensing, deep learning, imaging sciences, inverse problems, and applications to life sciences, robotics, and telecommunication.
   slides:
 
 - title: Unleashing Creativity using AI Agent Networks
