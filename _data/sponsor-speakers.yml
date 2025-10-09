@@ -46,13 +46,13 @@
 
 - name: Mateusz Błajda
   title: RTB House
-  image: images/empty.png
+  image: images/optimized/speakers-600x600/MateuszBłajda.webp
   bio: >-
     Mateusz is a Machine Learning Researcher at RTB House, working on transformer-based sequence models for user behavior modeling. He earned a master’s in Machine Learning at the University of Warsaw, with a thesis applying transformer models to proteomics.
 
 - name: Maciej Zdanowicz
   title: RTB House
-  image: images/empty.png
+  image: images/optimized/speakers-600x600/MaciejZdanowicz.webp
   bio: >-
     Maciej leads the ML team at RTB House responsible for deploying advanced sequence modeling within production bidding pipelines. He holds a PhD in mathematics from the University of Warsaw and has conducted research at École polytechnique fédérale de Lausanne and University of Amsterdam.
 
