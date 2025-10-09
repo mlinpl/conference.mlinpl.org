@@ -268,5 +268,9 @@
     - name: Adam Cholewiński
       title: Dialo
       image: images/optimized/tutorials-600x600/Adam_Cholewinski.webp
-  # author-bio-md: >-
-  #   ...
+  author-bio-md: |-
+    Wojtek leads development at Dialo. This involves integrating a wide array of technologies, from machine learning models to backend services, making consistent and reproducible environments essential for success.
+
+    Patryk is a Software Engineer at Dialo currently focusing on infrastructure. He believes in building elegant, declarative systems as the most effective way to manage complexity and achieve true reproducibility.
+
+    Adam is a systems engineer who builds performant and reliable systems mostly using OCaml. He is a strong advocate for using functional programming and declarative tooling to eliminate entire classes of bugs before they ever reach production.
