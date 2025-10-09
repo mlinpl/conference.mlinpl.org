@@ -5,8 +5,6 @@ html-title: Conference Badge Game
 permalink: /badge-game
 ---
 
-## / About
-
 Welcome to our conference badge game! This year each participant's badge contains **one of two symbols**, based solely on their first and last names:
 
 <span style="font-size: 1.25em; text-align: center; display: block;">
@@ -34,7 +32,7 @@ Don't worry if you can't find the pattern right away --- after each day we will 
 
 ## / Submit results
 
-Submit your predictions for the test set names by filling out the form below:
+Submit your predictions for the test set names by filling out the form:
 
 <div align="center" style="margin-bottom: 30px;">
     <a href="https://mlinpl2025-badge-game.paperform.co" class="btn btn-nonactive btn-default btn-lg" target="_blank"  disabled><i class="fa-solid fa-list"></i> Submit results</a>
