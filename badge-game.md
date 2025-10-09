@@ -22,8 +22,8 @@ You can **network with other attendees** to collect their names and associated l
 The assigned labels are printed on the back of the badges, so you can ask other participants to show them.
 
 <div align="center" style="margin-bottom: 30px;">
-    <img class="width-100 width-max-300px photo" style="margin-bottom: 5px;" src="{{ "./images/optimized/badge-game-800x800/badge-dna.webp" | relative_url }}">
-    <img class="width-100 width-max-300px photo" style="margin-bottom: 5px;" src="{{ "./images/optimized/badge-game-800x800/badge-chess.webp" | relative_url }}">
+    <img class="width-100 width-max-300px photo" style="margin-bottom: 5px;" src="{{ "./images/optimized/badge-game-800x800/badge-cnn.webp" | relative_url }}">
+    <img class="width-100 width-max-300px photo" style="margin-bottom: 5px;" src="{{ "./images/optimized/badge-game-800x800/badge-rnn.webp" | relative_url }}">
 </div>
 
 ## / Hints
