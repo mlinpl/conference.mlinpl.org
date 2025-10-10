@@ -139,6 +139,25 @@
   desc-md: |-
     This workshop offers a guided, hands‑on introduction to running AI workloads on Tenstorrent hardware. Participants will connect to provided environments, experiment with example models, and explore profiling tools. By the end, they’ll have a practical overview of tt-metal and know how to continue developing on Tenstorrent platforms.
 
+    **Overview:**
+    1. Walkthrough of Stable Diffusion 3.5, general overview and implementation details surrounding the Tensix architecture.  Discussion on multi-core and multi-device challenges, including memory and performance.  Followed by an interactive demo.
+    2. After the demo the workshop will transition to hands-on segments, guided by Jupyter notebooks.  Topics covered will include, but are not limited to:
+      - An introduction to the Metalium programming model, and a deeper dive into the Tensix architecture.
+      - Introduction into TT-NN, a Python and C++ open source library of neural network operations.
+      - MNIST MLP inference guided tutorial.
+      - TT-NN Visualizer tutorial, an OP optimization and memory usage visualization tool.
+      - A Tenstorrent model writing introduction guide.
+    3. Multiple participants that successfully complete the guided workshop will **be awarded Tenstorrent Blackhole and Wormhole cards at the end of the workshop.**
+
+    **Knowledge Prerequisites:**
+    1. Intermediate knowledge of Python and PyTorch.
+    2. Basic understanding of machine learning concepts.
+    3. Basic background knowledge of vision classification and LLM models will be useful, but is not required.
+
+    **Hardware Requirements:**
+    1. Participants will be required to bring their own laptops.
+    2. Connection instructions will be provided to connect to a Tenstorrent VM running on tt-cloud.  The VM already has a preconfigured n150 Wormhole card and Jupyter notebook environment.
+
     **This tutorial is free of charge but also requires registration. Please register <a href="https://app.evenea.pl/event/mlinpl25-tutorials/" target="_blank">here</a>.**
   authors:
     - name: Maciej Draguła
