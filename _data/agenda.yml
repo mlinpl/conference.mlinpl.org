@@ -118,7 +118,7 @@
           room: Hall B
           url: /program#invited-talk-4
     - events:
-        - title: '<i class="fa-solid fa-champagne-glasses"></i> Conference Party (powered by <a href="https://dialo.ai/">Dialo</a>)'
+        - title: '<i class="fa-solid fa-champagne-glasses"></i> Conference Party (powered by <a href="https://dialo.ai/" target="_blank">Dialo</a>)'
           element-class: col-lg-12
           time: 19:00 - 24:00
           subtitle: <i class="fa-solid fa-location-dot"></i> Bolek Pub & Restaurant, al. Niepodległości 211, 02-086 Warszawa
