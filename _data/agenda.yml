@@ -369,7 +369,7 @@
         room: Hall B
         subevents:
           - title: "<strong>Limits in Causal Discovery and the Path Forward</strong>"
-            subtitle: by Mateusz Gajewski (Poznan University of Technology, IDEAS NCBR)
+            subtitle: by Mateusz Gajewski and Mateusz Olko
             time: 9:30 - 10:00
             url: /program#contributed-talk-22
           - title: "<strong>Inference on Local Variable Importance Measures for Heterogeneous Treatment Effects</strong>"

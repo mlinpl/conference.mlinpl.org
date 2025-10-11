@@ -313,20 +313,25 @@
   id: 21
   author-image: images/optimized/cfc-600x600/jan_mielniczuk.webp
 
-- author-name: Mateusz Gajewski
-  title: "Limits in Causal Discovery and the Path Forward"
-  author-title: "Poznan University of Technology, IDEAS NCBR"
+- title: "Limits in Causal Discovery and the Path Forward"
+  authors:
+    - name: Mateusz Gajewski
+      title: Poznan University of Technology, IDEAS NCBR
+      image: images/optimized/cfc-600x600/mateusz_gajewski.webp
+    - name: Mateusz Olko
+      title: University of Warsaw, IDEAS NCBR
+      image: images/optimized/tutorials-600x600/Mateusz_Olko.webp
   abstract: >- 
     Causal discovery—inferring causal relationships from observational data—is of fundamental importance across many scientific fields, from understanding gene regulatory networks in biology to analyzing economic systems and climate dynamics. Real-world causal relationships are typically nonlinear and complex, making neural network-based approaches particularly appealing for their expressiveness and scalability.  Recent developments in neural causal discovery have focused on scaling methods to higher dimensions, with approaches like NOTEARS, DiBS, and BayesDAG promising to handle hundreds of variables with complex nonlinear relationships. However, almost all these methods rely on the faithfulness assumption—that conditional independencies in data correspond to causal structure in the underlying graph. While theoretical results for linear systems have shown that faithfulness becomes increasingly violated as graph complexity grows, the implications for nonlinear neural methods remain unclear. We designed carefully controlled experiments to evaluate faithfulness violations in the nonlinear setting that practitioners actually use.  Our results from an article  “Since Faithfulness Fails: The Performance Limits of Neural Causal Discovery” (published in ICML 2025) confirm the theoretical predictions: we demonstrate that reliable causal discovery would require exponentially many data points as graph size and density increase.  This fundamental limitation suggests the need for alternative paradigms. We discuss promising future directions:  - Amortized approaches: Learning to perform causal discovery across multiple related datasets. - Partial graph discovery: Targeting specific causal questions rather than complete structure recovery. - Grounding methods evaluations in real world systems: Ground-truth graphs are usually not known in real world scenarios, however it is still unknown what characteristics do real world systems exhibit.   This work highlights fundamental constraints in current causal discovery paradigms while pointing toward more realistic and achievable objectives for automated causal reasoning systems.
-  author-bio: >- 
+  author-bio: |- 
     Mateusz Gajewski is a PhD student at Poznan University of Technology and IDEAS NCBR. His research interests include causal inference (with a primary focus on causal discovery) and explainability in machine learning, particularly through game-theoretic approaches.
-  co-authors: Mateusz Olko
+    <br><br>
+    Mateusz Olko is a doctoral researcher at the University of Warsaw and IDEAS NCBR. He earned both his Bachelor’s and Master’s degrees in Computer Science from the University of Warsaw, specializing in machine learning. He explores topics in causal machine learning and causal discovery, with a particular interest in how they can be connected to deep learning. More broadly, he is interested in computational reasoning and how learning systems can better capture structure and support decision-making. His research has been recognized at top-tier AI conferences, including NeurIPS and ICML.
   date: Friday / 17 October
   time: 9:30 - 10:00
   room: Hall B
   session: CfC Session 8
   id: 22
-  author-image: images/optimized/cfc-600x600/mateusz_gajewski.webp
 
 - author-name: Paweł Morzywołek
   title: "Inference on Local Variable Importance Measures for Heterogeneous Treatment Effects"
