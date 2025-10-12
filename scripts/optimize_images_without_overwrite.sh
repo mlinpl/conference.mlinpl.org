@@ -69,3 +69,4 @@ optimize_images honorary-patronages 600x600 webp 90
 
 # Optimize AI-generated images
 optimize_images ai-generated 800x800 webp 90
+optimize_images badge-game 800x800 webp 90
