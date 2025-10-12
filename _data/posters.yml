@@ -316,9 +316,9 @@
 - author-name: Konrad Duraj
   title: "Graph-Unet-Transformer for predicting pressure drops in cardiovascular networks"
   author-title: "Hemolens Diagnostics"
-  abstract: >- 
+  abstract: |- 
     Predicting pressure drops across arterial networks is critical for noninvasive assessment of vascular health and the early detection of potential hemodynamic dysfunctions. Computational fluid dynamics (CFD) approaches offer high fidelity but come with high computational cost and the need for detailed anatomical models. Patient‐specific vascular geometries are represented as attributed graphs, where nodes correspond to vessel cross‐ sections (with features such as diameter and cross‐sectional area), and edges represent the length of each segment. In this study, we propose a hybrid deep‐learning framework that combines a UNET-style graph convolutional neural network (GCN) encoder with a Transformer architecture for pressure drop prediction. The UNET-GCN encodes the topological structure and geometrical features of arterial trees, while the Transformer captures long‐range dependencies among vessel segments. Our model achieves a root mean squared error (RMSE) of 5.65 mmHg and an intersection over union (IoU) associated with fractional flow reserve (FFR) of 0.94 on the validation set, demonstrating that the combination of GCNs and Transformers offers a promising and scalable solution for rapid, noninvasive hemodynamic assessment in personalized medicine.
-  author-bio: >- 
+  author-bio: |- 
     A graduate of the Silesian University of Technology with a specialization in the application of AI in medicine. His extensive commercial experience includes participation in a variety of projects, where he had the opportunity to develop, among others: an algorithm for detecting, identifying, and counting bacteria in images of Petri dishes; a library for training and evaluating satellite image super-resolution techniques; a device for monitoring vital signs in home settings; an algorithm for assessing the correctness and safety of exercises performed by athletes; and a system for monitoring methane emissions from flare stacks at extraction facilities.  He is the author of numerous publications and studies related to the use of advanced deep learning algorithms for comprehensive processing of medical data.
   co-authors: Szymon Kopeć, Jakub Chojnacki, Maciej Zamorski
   date: Thursday / 16 October
@@ -333,13 +333,15 @@
       title: "University of Warsaw"
       image: images/optimized/cfc-600x600/marek_skiba.webp
     - name: Jowita Drozdowicz
-      title: ""
-      image: images/empty.png
+      title: "University of Warsaw / Snowflake"
+      image: images/optimized/cfc-600x600/jowita_drozdowicz.webp
   title: "SAEPER: Sparse AutoEncoders Projection for Reliable PERsonalization in Diffusion Models"
-  abstract: >- 
+  abstract: |-
     Diffusion models are the leading architecture for text-to-image generation due to their ability to synthesize highly detailed images and their flexibility for adaptation through fine-tuning. However, reliably personalizing these models to generate consistent and precise visual concepts remains a challenge. Existing personalization approaches either use zero-shot methods, which often lack visual accuracy and consistency, or fine-tuning techniques, which can suffer from training instability, concept entanglement, and extensive parameter tuning. We propose SAEPER, a novel personalization approach for transformer-based diffusion models that integrates Sparse Autoencoders (SAEs) directly into the fine-tuning process. By leveraging the powerful ability of SAEs to disentangle polysemantic representations into sparse ones, we can isolate and target the specific features relevant for personalization while minimally altering global image semantics. Our experiments demonstrate that incorporating SAEs not only increases the precision and visual fidelity of personalized concepts but also provides a consistently stable training environment. This work establishes that SAEs are not just tools for interpretability, but also emerge as a reliable and powerful component for fine-tuning and personalization, marking entirely new directions for future research.
-  author-bio: >- 
+  author-bio-md: |-
     Marek Skiba is a machine learning researcher and software engineer currently pursuing an MSc in Machine Learning at the University of Warsaw. He has a strong background in AI, diffusion models, and large-scale software development. Marek previously led a quantitative research team, focusing on large-scale financial data analytics. He is a passionate competitive programmer and a bronze medalist at the International Olympiad in Informatics. His research interests include text-to-image diffusion models, explainable AI, and efficient deep learning for edge devices.
+
+    Jowita Drozdowicz is a machine learning engineer and researcher pursuing an MSc in Machine Learning at the University of Warsaw. Her work focuses on diffusion models, model personalization, and explainability. At the University of Warsaw, she contributes to teaching in the Machine Learning program, delivering courses on Natural Language Processing and Deep Neural Networks that cover transformer architectures, large language models, computer vision, and reinforcement learning. A former Polish Olympiad in Informatics laureate, she has a strong background in algorithms and competitive programming.
   co-authors: Vladimir Zaigrajew, Przemysław Biecek, Piotr Sankowski
   date: Thursday / 16 October
   time: 12:15 - 13:45
