@@ -26,21 +26,22 @@
         
         {% include conference/sponsor-speakers-slider.html %}
         
-        {% include conference/badge-game.html %}
-
+        
         {% if site.state.agenda %}
-            {% assign agenda_draft = false %}
-            {% if site.state.agenda == "draft" %}
-                {% assign agenda_draft = true %}
-            {% endif %}
-
-            {% assign agenda_full = false %}
-            {% if site.state.agenda == "full" %}
-                {% assign agenda_full = true %}
-            {% endif %}
-
-            {% include agenda-slider.html agenda-data=site.data.agenda draft=agenda_draft show-full-program=agenda_full %}
+        {% assign agenda_draft = false %}
+        {% if site.state.agenda == "draft" %}
+        {% assign agenda_draft = true %}
         {% endif %}
+        
+        {% assign agenda_full = false %}
+        {% if site.state.agenda == "full" %}
+        {% assign agenda_full = true %}
+        {% endif %}
+        
+        {% include agenda-slider.html agenda-data=site.data.agenda draft=agenda_draft show-full-program=agenda_full %}
+        {% endif %}
+        
+        {% include conference/badge-game.html %}
         
         {% include conference/calls.html state=site.state.cfc %}
 
