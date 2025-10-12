@@ -115,8 +115,8 @@ navigation:
         url: "/call-for-tutorials"
       - name: "/ Venue"
         url: "#venue"
-  #     # - name: "/ Conference booklet"
-  #     #   url: "/docs/mlinpl_2024_booklet.pdf"
+      - name: "/ Conference booklet"
+        url: "/docs/mlinpl-2025-booklet.pdf"
   #     - name: "/ Pre-conference meetups"
   #       url: "/meetups"
   #     # - name: '<span class="main-name">ML <span style="color: #4BCAFD !important;">i</span>n PL</span> <span class="sub-name">AI ART FESTIVAL</span>'
