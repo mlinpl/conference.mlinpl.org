@@ -12,7 +12,12 @@ Expects following parameters:
     </div>
 
     {% for talk in include.talks-data %}
-        {% assign html-id = include.talk-title-prefix | slugify | append: "-" %}
+        {% assign title-prefix = include.talk-title-prefix %}
+        {% if talk.talk-title-prefix %}
+            {% assign title-prefix = talk.talk-title-prefix %}
+        {% endif %}
+
+        {% assign html-id = title-prefix | slugify | append: "-" %}
         {% if talk.id %}
             {% assign html-id = html-id | append: talk.id %}
         {% else %}
@@ -52,8 +57,8 @@ Expects following parameters:
             </div>
             <div class="speaker-details-text col-md-9">
                 <h3 style="margin-bottom: 15px; border-bottom: 1px solid black;">
-                    {% if include.talk-title-prefix %}
-                        {{ include.talk-title-prefix }} 
+                    {% if title-prefix %}
+                        {{ title-prefix }} 
                         {% if talk.id %}
                             {{ talk.id }}:
                         {% else %}
@@ -111,7 +116,6 @@ Expects following parameters:
                 <h4 style="margin-top: 25px; margin-bottom: 0px;"><strong><i class="fa-solid fa-user"></i> Biography:</strong></h4> 
                 {{ talk.author-bio-md | markdownify }}
                 {% endif %}
-
             </div>
         </div>
     {% endfor %}
