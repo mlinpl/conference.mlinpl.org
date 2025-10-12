@@ -16,7 +16,7 @@ The **first five participants** who correctly predict all the labels for the tes
 
 ## / Rules
 
-The rules are simple --- collect as much data as possible and discover the mapping function to accurately predict the labels for the names in the test set. Participants who successfully predict all the symbols for the test set names have a chance to win prizes. If none of the participants solve the puzzle by the end of the conference, the prizes will be drawn among all participants who get the highest number of correct predictions on the test set.
+The rules are simple --- collect as much data as possible and discover the mapping function to accurately predict the labels for the names in the test set. Participants who will succeed with their predictions have a chance to win prizes. If none of the participants solve the puzzle by the end of the conference, the prizes will be drawn among all participants who get the highest number of correct predictions on the test set.
 You can **network with other attendees** to collect their names and associated labels or **visit sponsor booths to collect extra data points** that will help you discover the mapping function.
 
 The assigned labels are printed on the back of the badges, so you can ask other participants to show them.
@@ -32,10 +32,10 @@ Don't worry if you can't find the pattern right away --- after each day we will 
 
 ## / Submit results
 
-Submit your predictions for the test set names by filling out the form:
+Submit your predictions for the test set names by filling out the form (starting from Day 1 of the conference):
 
 <div align="center" style="margin-bottom: 30px;">
-    <a href="https://mlinpl2025-badge-game.paperform.co" class="btn btn-nonactive btn-default btn-lg" target="_blank"  disabled><i class="fa-solid fa-list"></i> Submit results</a>
+    <a href="https://mlinpl2025-badge-game.paperform.co" class="btn btn-nonactive btn-default btn-lg" target="_blank"  disabled><i class="fa-solid fa-list"></i> Submit your predictions</a>
 </div>
 
 <!-- Submissions are closed. -->
