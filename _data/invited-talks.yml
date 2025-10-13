@@ -46,9 +46,9 @@
     Shreya Pathak is a research engineer at Google DeepMind, currently on the Gemma team. She works particularly on exploring different architectures for Gemma, optimising for on-device use cases. Prior to this, she had worked on multimodal understanding of video-language models. She graduated from IIT Bombay with a bachelor's in computer science and engineering.
   slides:
 
-- title: TBA
+- title: "Technical AI Safety & Security: From Alignment to Agentic Systems"
   abstract: |-
-    TBA
+    This talk takes a journey through the evolving landscape of AI safety and security—from the alignment and fairness challenges of today's large language models (LLMs) to the emerging risks of agentic and multi-agent systems. We begin by unpacking how techniques like instruction prefix tuning shape model behavior and the limits of current alignment methods, before exploring cross-lingual fairness and the biases hidden in tokenization. The discussion then shifts toward agentic security, tracing how autonomous LLM-based agents can be hijacked or manipulated, and how these dynamics amplify in multi-agent ecosystems. We conclude by reflecting on new ways to evaluate and benchmark such systems, as AI transitions from passive models to active, interacting agents.
   time: 16:15 - 17:15
   room: Hall A
   date: Wednesday / 15 October
