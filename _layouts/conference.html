@@ -26,7 +26,6 @@
         
         {% include conference/sponsor-speakers-slider.html %}
         
-        
         {% if site.state.agenda %}
         {% assign agenda_draft = false %}
         {% if site.state.agenda == "draft" %}
@@ -40,7 +39,7 @@
         
         {% include agenda-slider.html agenda-data=site.data.agenda draft=agenda_draft show-full-program=agenda_full %}
         {% endif %}
-        
+
         {% include conference/badge-game.html %}
         
         {% include conference/calls.html state=site.state.cfc %}
