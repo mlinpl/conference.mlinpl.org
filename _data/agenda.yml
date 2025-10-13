@@ -71,7 +71,7 @@
         time: 12:20 - 13:20
         room: Hall A
         url: /program#invited-talk-1
-      - title: "Invited Talk 2: <strong>TBA</strong>"
+      - title: "Invited Talk 2: <strong>Architecture for open models</strong>"
         subtitle: by Shreya Pathak (Google DeepMind)
         element-class: col-lg-4
         time: 12:20 - 13:20
@@ -387,7 +387,7 @@
         time: 11:15 - 12:15
         room: Main Hall 
         url: /program#discussion-panel-3
-      - title: "Invited Talk 10: <strong>TBA</strong>"
+      - title: "Invited Talk 10: <strong>Open Foundation Models: Scaling Laws and Generalisation</strong>"
         subtitle: by Jenia Jitsev (LAION / Juelich Supercomputer Center / ELLIS)
         element-class: col-lg-4
         time: 11:15 - 12:15
