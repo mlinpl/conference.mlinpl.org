@@ -32,9 +32,9 @@
   google-scholar: https://scholar.google.com/citations?user=H3j_zQ4AAAAJ&hl=en
   slides:
 
-- title: TBA
+- title: Architecture for open models
   abstract: |-
-    TBA
+    Open models are designed for developers to use on consumer grade hardware. Training these models involves making architectural decisions keeping in mind the constraints introduced by the limits of this hardware. In this talk, we explore the different parts of the model that we can modify. Using the Gemma series as a case study, we'll highlight the specific architectural enhancements added and how each contributes to distinct improvements or capabilities.
   time: 12:20 - 13:20
   room: Hall B
   date: Wednesday / 15 October
@@ -160,9 +160,9 @@
     Sander Dieleman is a Research Scientist at Google DeepMind in London, UK, where he has worked on the development of AlphaGo, WaveNet, Imagen 4, Veo 3, and more. He obtained his PhD from Ghent University in 2016. His current research interests include representation learning and generative modelling of audio, images and video.
   slides:
 
-- title: TBA
+- title: "Open Foundation Models: Scaling Laws and Generalisation"
   abstract: |-
-    TBA
+    To study transferable learning and generalisation, derivation of reproducible scaling laws is crucial. Scaling laws can predict model function and properties such as generalization on unseen larger scales from experiments on smaller scales. Taking language-vision learning as example, we show that scaling law derivation also have potential to enable systematic comparison of various learning procedures that lead to foundation models. Such comparison paves road for guided search for stronger scalable learning procedures to obtain foundation models with stronger generalization for any given compute. The talk will discuss why open foundation models and datasets are essential for this research and also highlight open challenges in properly measuring generalisation.
   time: 11:15 - 12:15
   room: Hall A
   date: Friday / 17 October
