@@ -105,7 +105,7 @@
         room: Hall A
         url: /program#partner-talk-1
     - events:
-        - title: "Invited Talk 3: <strong>TBA</strong>"
+        - title: "Invited Talk 3: <strong>Technical AI Safety & Security: From Alignment to Agentic Systems</strong>"
           subtitle: by Adel Bibi (University of Oxford / Kellog College / Softserve)
           element-class: col-lg-offset-4  col-lg-4
           time: 16:15 - 17:15
