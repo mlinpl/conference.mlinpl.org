@@ -1,0 +1,44 @@
+- author-name: Piotr Ostropolski-Nalewaja
+  title: "My Favourite Problem in Database Theory and a Few Other Things"
+  author-title: "University of Wrocław"
+  abstract: >-
+    This will be a lightweight and accessible talk exploring one of the most intriguing open problems in database theory — conjunctive query containment under bag semantics. After recalling some of the fundamental historical background, we’ll take a look at recent breakthroughs and ongoing efforts to better understand this long-standing challenge.
+  author-bio: >-
+    Piotr Ostropolski-Nalewaja is a researcher at the Institute of Computer Science, University of Wrocław, where he works at the intersection of logic and database theory. His research focuses on the theoretical foundations of automated reasoning and data processing, including topics such as database-query determinacy, first-order rewritability, and query answering under existential rules. In particular, his work addresses decidability questions in the field of knowledge representation. Piotr’s work has been published at leading international conferences, including LICS, PODS, KR, and IJCAI, and has contributed to solving several open problems in knowledge representation. He has collaborated with research groups at Oxford, TU Dresden, ENS Paris, and the University of Montpellier. He is a recipient of the START Scholarship from the Foundation for Polish Science.
+  co-authors:
+  date: Thursday / 16 October
+  time: 14:30 - 14:55
+  room: Main Hall
+  session: Witold Lipski Award Laureates
+  id: 1
+  author-image: images/optimized/speakers-600x600/PiotrOstropolski-Nalewaja.webp
+
+- author-name: Marek Sokołowski
+  title: "Algorithmics of Dynamic Well-Structured Graphs"
+  author-title: "Max Planck Institute for Informatics, Saarbrücken"
+  abstract: >-
+    Graphs – collections of nodes connected by edges – are a way to model relationships in data and systems. In many settings, such as social or communication networks, these connections change over time, leading to dynamic graphs. In this talk, I will discuss data structures that efficiently maintain certain structural properties of dynamic graphs, such as how tree-like they are or whether they contain small separators.
+  author-bio: >-
+    Marek Sokołowski obtained both his master’s degree and Ph.D. at the University of Warsaw under the supervision of Dr. Michał Pilipczuk. Since November 2024, he has been a postdoctoral researcher at the Max Planck Institute for Informatics in Saarbrücken, Germany. His research interests include graph algorithms, structural graph theory – particularly how combinatorial properties of graphs can lead to more efficient solutions to computational problems – and algorithms for evolving networks that maintain such solutions as graphs change over time.
+  co-authors:
+  date: Thursday / 16 October
+  time: 15:00 - 15:25
+  room: Main Hall
+  session: Witold Lipski Award Laureates
+  id: 2
+  author-image: images/optimized/speakers-600x600/MarekSokołowski.webp
+
+- author-name: Marcin Sendera
+  title: "Beyond the Known: Probabilistic Inference for the AI Scientist"
+  author-title: "Jagiellonian University"
+  abstract: >-
+    The next frontier for artificial intelligence lies beyond interpolating known data and towards the discovery of genuinely new knowledge. The grand vision of an "AI Scientist”, a model capable of generating novel hypotheses and contributing to scientific and mathematical breakthroughs, requires a fundamental shift from deterministic mimicry to principled reasoning under uncertainty. The cornerstone for such discovery is Bayesian inference. However, its application to modern deep learning has been historically hampered by the computational intractability of classic methods like MCMC. This talk will present my research on overcoming this barrier by forging a new generation of high-performance inference engines based on diffusion-style samplers. Drawing on a series of papers from my doctoral studies, developed during my research stay at Mila, I will detail my contributions to this paradigm, focusing on improving the scalability, mode-coverage (creativity), and controllability of these powerful models. Finally, I will connect these technical advancements back to the grand vision, arguing that these new inference engines are the key to exploring the "unseen peaks" of the scientific landscape. I will touch upon how this vision integrates with other critical challenges like data scarcity and AI safety, and showcase emerging results that prove the AI Scientist is no longer science fiction.
+  author-bio: >-
+    Marcin Sendera is a PhD candidate at Jagiellonian University specializing in probabilistic deep learning. His research focuses on developing safer and more reliable AI through methods like efficient sampling and uncertainty estimation. He holds an MSc from AGH University and has collaborated with top research institutions, including the University of Cambridge (on early cancer detection) and Mila – Quebec AI Institute, where he worked with Turing Award laureate Yoshua Bengio. He is the principal investigator of a PRELUDIUM grant from the National Science Centre (NCN) and has published his work at major AI conferences, including NeurIPS, ICML, and UAI. His ultimate goal is to apply AI to accelerate scientific discovery and improve the reasoning of AI models.
+  co-authors:
+  date: Thursday / 16 October
+  time: 15:30 - 15:55
+  room: Main Hall
+  session: Witold Lipski Award Laureates
+  id: 3
+  author-image: images/optimized/speakers-600x600/MarcinSendera.webp

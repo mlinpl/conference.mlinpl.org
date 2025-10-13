@@ -227,19 +227,19 @@
         time: 14:30 - 16:00
         element-class: col-lg-4
         room: Main Hall
-        # subevents:
-        #   - title: "<strong>RNAgrail: GRAph Neural Network and Diffusion Model for RNA 3D Structure Prediction</strong>"
-        #     subtitle: by Marek Justyna (Poznan University of Technology)
-        #     time: 14:30 - 14:55
-        #     url: /program#contributed-talk-7
-        #   - title: "<strong>Fake it till you make it: Planning Chemical Syntheses for Drug Discovery</strong>"
-        #     subtitle: by Krzysztof Maziarz (Microsoft Research)
-        #     time: 15:00 - 15:25
-        #     url: /program#contributed-talk-8
-        #   - title: "<strong>Uncertainty-Aware Self-Supervised Learning on Multi-Dimensional Time Series for Animal Behavior</strong>"
-        #     subtitle: by France Rose (University of Cologne)
-        #     time: 15:30 - 15:55
-        #     url: /program#contributed-talk-9
+        subevents:
+          - title: "<strong>My Favourite Problem in Database Theory and a Few Other Things</strong>"
+            subtitle: by Piotr Ostropolski-Nalewaja (University of Wrocław)
+            time: 14:30 - 14:55
+            url: /program#witold-lipski-award-talk-1
+          - title: "<strong>Algorithmics of Dynamic Well-Structured Graphs</strong>"
+            subtitle: by Marek Sokołowski (Max Planck Institute for Informatics, Saarbrücken)
+            time: 15:00 - 15:25
+            url: /program#witold-lipski-award-talk-2
+          - title: "<strong>Beyond the Known: Probabilistic Inference for the AI Scientist</strong>"
+            subtitle: by Marcin Sendera (Jagiellonian University)
+            time: 15:30 - 15:55
+            url: /program#witold-lipski-award-talk-3
         
       - title: 'Contributed Talks Session 4'
         element-class: col-lg-4
