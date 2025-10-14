@@ -160,16 +160,11 @@
 
     **This tutorial is free of charge but also requires registration. Please register <a href="https://app.evenea.pl/event/mlinpl25-tutorials/" target="_blank">here</a>.**
   authors:
-    - name: Maciej Draguła
+    - name: Adam Czajkowski
       title: Tenstorrent
-      image: images/optimized/tutorials-600x600/Maciej_Dragula.webp
-    - name: Artem Yerofieiev
-      title: Tenstorrent
-      image: images/optimized/tutorials-600x600/Artem_Yerofieiev.webp
+      image: images/optimized/tutorials-600x600/Adam_Czajkowski.webp
   author-bio-md: |-
-    Maciej Draguła is a Senior Engineer at Tenstorrent, where he develops tt-train, a framework for training large language models on Tenstorrent’s cutting-edge AI hardware, with a focus on optimising operations to reduce training time. Previously, he worked on computer vision applications for avionics at Daedalean, and his experience includes internships at CERN, Google, and Goldman Sachs. He holds a Bachelor’s degree in Computer Science from the University of Wrocław.
-
-    Senior Principal at Tenstorrent, Artem Yerofieiev leads software engineering for TT-NN — the open-source, scaleout-native and tile-based ML framework for Tenstorrent’s next-gen accelerators. Currently building autonomous AI systems to generation software and support hardware-software co-design. Previously led AR-creation tools at Snap and analytical software in a defense R&D lab.
+    Adam Czajkowski leads software engineering for TT-Metal and Developer Experience initiatives across the company’s software stack, including TT-NN, TT-Metal, and supporting tools. In his career, in addition to his work at Tenstorrent, Adam has developed embedded systems and firmware on RISC-V and ARM, as well as conducted post-graduate research on NUMA multi-processor systems, and custom-build operating systems including K42.
 
 # Afternoon Tutorials
 
