@@ -7,12 +7,18 @@ permalink: /badge-game
 
 Welcome to our conference badge game! This year each participant's badge contains **one of two symbols**, based solely on their first and last names:
 
+<div align="center" style="margin-bottom: 30px;">
+    <img class="width-100 width-max-300px photo" style="margin-bottom: 5px; border: 0;" src="{{ "./images/optimized/badge-game-800x800/CNN.webp" | relative_url }}">
+    <img class="width-100 width-max-300px photo" style="margin-bottom: 5px; border: 0;" src="{{ "./images/optimized/badge-game-800x800/RNN.webp" | relative_url }}">
+</div>
+
 <span style="font-size: 1.25em; text-align: center; display: block;">
     <span style="letter-spacing: 5px; font-style: italic;">f</span>(firstName, lastName) ∈ {CNN, RNN}
 </span>
 
 As in classic machine learning problems, your task is to **collect data** and **discover the unknown mapping function**.
 The **first five participants** who correctly predict all the labels for the test set will receive special prizes. 
+
 
 ## / Rules
 
