@@ -64,7 +64,7 @@
 - name: Open models, open data
   date: Thursday / 16 October
   room: Main Hall
-  time: 11:15 - 12:15
+  time: 17:30 - 18:30
   id: 2
   desc: >-
     The “Open Models, Open Data” panel will explore the rationale and methodologies for openly developing and publishing AI models and datasets. We will examine the spectrum of <em>openness</em>—ranging from accessible weights to fully open code and data, including varying license implications—and discuss best practices for responsible public release. Key considerations will include the necessary scope and rigor of pre-release evaluation, validation, and documentation to ensure quality, reliability, and ethical standards.

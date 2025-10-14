@@ -191,23 +191,24 @@
             url: /program#contributed-talk-9
 
     - events:
-      - title: "Discussion Panel 2: <strong>Open models, open data</strong>"
+      - title: "Invited Talk 5: <strong>Training LLMs: Do We Understand Our Optimizers?</strong>"
+        subtitle: by Antonio Orvieto (ELLIS Institute Tübingen)
         element-class: col-lg-4
         time: 11:15 - 12:15
         room: Main Hall
-        url: /program#discussion-panel-2
-      - title: "Invited Talk 5: <strong>Beyond the screen: capturing, understanding and generating 3D scenes</strong>"
+        url: /program#invited-talk-5
+      - title: "Invited Talk 6: <strong>Beyond the screen: capturing, understanding and generating 3D scenes</strong>"
         subtitle: by Federico Tombari (Google / Technical University of Munich)
         element-class: col-lg-4
         time: 11:15 - 12:15
         room: Hall A
-        url: /program#invited-talk-5
-      - title: "Invited Talk 6: <strong>Reliable and Sustainable AI: From Mathematical Foundations to Next Generation AI Computing</strong>"
+        url: /program#invited-talk-6
+      - title: "Invited Talk 7: <strong>Reliable and Sustainable AI: From Mathematical Foundations to Next Generation AI Computing</strong>"
         subtitle: by Gitta Kutyniok (DLR / University of Tromsø / LMU Munich)
         element-class: col-lg-4
         time: 11:15 - 12:15
         room: Hall B
-        url: /program#invited-talk-6
+        url: /program#invited-talk-7
 
     - events:
       - title: 'Poster Session 1 + <i class="fa-solid fa-mug-saucer"></i> Coffee'
@@ -295,15 +296,14 @@
         url: /program#sponsor-talk-4
 
     - events:
-      - title: "Invited Talk 7: <strong>Unleashing Creativity using AI Agent Networks</strong>"
-        subtitle: by Mihaela van der Schaar (University of Cambridge)
+      - title: "Discussion Panel 2: <strong>Open models, open data</strong>"
         element-class: col-lg-4
-        time: 17:30 - 18:30
+        time: 17:30-18:30
         room: Main Hall
-        url: /program#invited-talk-7
+        url: /program#discussion-panel-2
 
-      - title: "Invited Talk 8: <strong>Training LLMs: Do We Understand Our Optimizers?</strong>"
-        subtitle: by Antonio Orvieto (ELLIS Institute Tübingen)
+      - title: "Invited Talk 8: <strong>Unleashing Creativity using AI Agent Networks</strong>"
+        subtitle: by Mihaela van der Schaar (University of Cambridge)
         element-class: col-lg-4
         time: 17:30 - 18:30
         room: Hall A

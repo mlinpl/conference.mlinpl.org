@@ -78,13 +78,30 @@
   google-scholar: https://scholar.google.com/citations?user=wQanfTIAAAAJ&hl=en
   slides:
 
+- title: "Training LLMs: Do We Understand Our Optimizers?"
+  abstract: |-
+    Why does Adam so consistently outperform SGD when training Transformer language models? Despite many proposed explanations, this optimizer gap is still not fully understood. In this talk, we will present results from two complementary studies. First, using over 2000 language model training runs, we compare Adam with simplified variants such as signed gradient and signed momentum. We find that while signed momentum is faster than SGD, it still lags behind Adam; however, we crucially notice that constraining Adam’s momentum parameters to be equal (beta1 = beta2) retains near-optimal performance. This is of great practical importance and also reveals a new insight: Adam in this form has a robust statistical interpretation and a clear link to mollified sign descent. Second, through carefully tuned comparisons of SGD with momentum and Adam, we show that SGD can actually match Adam in small-batch training, but loses ground as batch size grows. Analyzing both Transformer experiments and quadratic models with stochastic differential equations, we shed new light on the role of batch size in shaping training dynamics.
+  time: 11:15 - 12:15
+  room: Main Hall
+  date: Thursday / 16 October
+  id: 5
+  author-name: Antonio Orvieto
+  author-title: ELLIS Institute Tübingen
+  author-image: images/optimized/speakers-600x600/AntonioOrvieto.webp
+  author-bio: |-
+    Antonio studied Control Engineering in Italy and Switzerland. He holds a PhD in Computer Science from ETH Zürich and spent time at Deepmind (UK), Meta (US), MILA (CA), INRIA (FR), and HILTI (LI). He is currently a Hector Endowed Fellow and Principal Investigator (PI) at the ELLIS Institute Tübingen and Independent Group Leader of the MPI for Intelligent Systems, where he leads the Deep Models and Optimization group. He received the ETH medal for outstanding doctoral theses and the Schmidt Sciences AI2050 Early Career Fellowship.
+
+    In his research, Antonio strives to improve the efficiency of deep learning technologies by pioneering new architectures and training techniques grounded in theoretical knowledge. His work encompasses two main areas: understanding the intricacies of large-scale optimization dynamics and designing innovative architectures and powerful optimizers capable of handling complex data. Central to his studies is exploring innovative techniques for decoding patterns in sequential data, with implications in biology, neuroscience, natural language processing, and music generation.
+  google-scholar: https://scholar.google.com/citations?user=xkuLyHoAAAAJ&hl=it
+  slides:
+
 - title: "Beyond the screen: capturing, understanding and generating 3D scenes"
   abstract: |-
     TBA
   time: 11:15 - 12:15
   room: Hall A
   date: Thursday / 16 October
-  id: 5
+  id: 6
   author-name: Federico Tombari
   author-title: Google / Technical University of Munich
   author-image: images/optimized/speakers-600x600/FedericoTombari.webp
@@ -102,7 +119,7 @@
   time: 11:15 - 12:15
   room: Hall B
   date: Thursday / 16 October
-  id: 6
+  id: 7
   author-name: Gitta Kutyniok
   author-title: DLR / University of Tromsø / LMU Munich
   author-image: images/optimized/speakers-600x600/GittaKutyniok.webp
@@ -114,9 +131,9 @@
   abstract: |-
     TBA
   time: 17:30 - 18:30
-  room: Main Hall
+  room: Hall A
   date: Thursday / 16 October
-  id: 7
+  id: 8
   author-name: Mihaela van der Schaar
   author-title: University of Cambridge
   author-image: images/optimized/speakers-600x600/MihaelaVanDerSchaar.webp
@@ -127,23 +144,6 @@
 
     Mihaela is personally credited as inventor on 35 USA patents, many of which are still frequently cited and adopted in standards. She has made over 45 contributions to international standards for which she received 3 ISO Awards. In 2019, a Nesta report determined that Mihaela was the most-cited female AI researcher in the U.K. 
   google-scholar: https://scholar.google.com/citations?user=DZ3S--MAAAAJ&hl=en
-  slides:
-
-- title: "Training LLMs: Do We Understand Our Optimizers?"
-  abstract: |-
-    Why does Adam so consistently outperform SGD when training Transformer language models? Despite many proposed explanations, this optimizer gap is still not fully understood. In this talk, we will present results from two complementary studies. First, using over 2000 language model training runs, we compare Adam with simplified variants such as signed gradient and signed momentum. We find that while signed momentum is faster than SGD, it still lags behind Adam; however, we crucially notice that constraining Adam’s momentum parameters to be equal (beta1 = beta2) retains near-optimal performance. This is of great practical importance and also reveals a new insight: Adam in this form has a robust statistical interpretation and a clear link to mollified sign descent. Second, through carefully tuned comparisons of SGD with momentum and Adam, we show that SGD can actually match Adam in small-batch training, but loses ground as batch size grows. Analyzing both Transformer experiments and quadratic models with stochastic differential equations, we shed new light on the role of batch size in shaping training dynamics.
-  time: 17:30 - 18:30
-  room: Hall A
-  date: Thursday / 16 October
-  id: 8
-  author-name: Antonio Orvieto
-  author-title: ELLIS Institute Tübingen
-  author-image: images/optimized/speakers-600x600/AntonioOrvieto.webp
-  author-bio: |-
-    Antonio studied Control Engineering in Italy and Switzerland. He holds a PhD in Computer Science from ETH Zürich and spent time at Deepmind (UK), Meta (US), MILA (CA), INRIA (FR), and HILTI (LI). He is currently a Hector Endowed Fellow and Principal Investigator (PI) at the ELLIS Institute Tübingen and Independent Group Leader of the MPI for Intelligent Systems, where he leads the Deep Models and Optimization group. He received the ETH medal for outstanding doctoral theses and the Schmidt Sciences AI2050 Early Career Fellowship.
-
-    In his research, Antonio strives to improve the efficiency of deep learning technologies by pioneering new architectures and training techniques grounded in theoretical knowledge. His work encompasses two main areas: understanding the intricacies of large-scale optimization dynamics and designing innovative architectures and powerful optimizers capable of handling complex data. Central to his studies is exploring innovative techniques for decoding patterns in sequential data, with implications in biology, neuroscience, natural language processing, and music generation.
-  google-scholar: https://scholar.google.com/citations?user=xkuLyHoAAAAJ&hl=it
   slides:
 
 - title: Diffusion models for image and video generation
