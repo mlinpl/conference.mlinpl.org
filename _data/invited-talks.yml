@@ -178,8 +178,8 @@
   slides:
 
 - title: From pixels to nucleotides
-  abstract: >-
-    TBA
+  abstract: |-
+    Machine learning is increasingly shaped by architectures and methods that transcend individual domains, exemplified by transformer-based models. My research trajectory reflects this trend, evolving from computer vision, through transformers, to ML-based drug design -- mRNA-based and beyond. In this talk, I will first discuss the concept of "off-the-grid" architectures for processing visual data, and then connect this work to the core challenges and opportunities in applying ML to drug design.
   time: 11:15 - 12:15
   room: Hall B
   date: Friday / 17 October
@@ -187,7 +187,7 @@
   author-name: Alexey Dosovitskiy
   author-title: Inceptive
   author-image: images/optimized/speakers-600x600/AlexeyDosovitskiy.webp
-  author-bio: >-
+  author-bio: |-
     Alexey Dosovitskiy is a distinguished researcher in computer vision and machine learning. He earned his MSc and PhD in mathematics from Moscow State University in 2009 and 2012, respectively. From 2013 to 2015, he was a postdoctoral researcher at the University of Freiburg’s Computer Vision Group under Prof. Thomas Brox, focusing on deep learning applications in unsupervised learning, image generation, and motion estimation. Between 2017 and 2019, he served as a research scientist at Intel Labs in Munich, Germany, working on deep learning for computer vision and robotics. In 2019, Dosovitskiy joined Google Research, where he played a pivotal role in applying transformer architectures to computer vision tasks, notably as a lead author of the influential paper “An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale,” which introduced the Vision Transformer (ViT) model. 
 
     His research interests include artificial intelligence, machine learning, and pattern recognition, with significant contributions to areas such as optical flow estimation, image generation, and object detection. In February 2024, Dosovitskiy joined Inceptive as a Member of Technical Staff, focusing on machine learning for RNA.
