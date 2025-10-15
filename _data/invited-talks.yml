@@ -97,7 +97,8 @@
 
 - title: "Beyond the screen: capturing, understanding and generating 3D scenes"
   abstract: |-
-    TBA
+    Recent advances in AI—specifically vision-language models, diffusion models, and neural 3D representations—have fundamentally accelerated the ability for machines to generate, capture, and understand three-dimensional environments. This talk will show how these breakthroughs are now powering the state of the art for these tasks, and illustrate some of the transformative real-world applications they enable.<br>
+    Starting from 3D Scene Generation, we will discuss how multi-view diffusion models are employed to create realistic, immersive 3D representations from simple text prompts, moving beyond traditional content creation methods. Then on 3D Scene Capture, we will walk through fast and robust techniques for novel view synthesis on real-world data, highlighting the foundational role of Neural Radiance Fields (NeRF) in achieving photorealistic digitization. Finally on 3D Scene Understanding we will discuss recent innovations in open-set 3D semantic segmentation and scene graphs, enabling machines to interpret geometry and context of complex scenes.
   time: 11:15 - 12:15
   room: Hall A
   date: Thursday / 16 October
