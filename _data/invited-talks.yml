@@ -179,7 +179,7 @@
 
 - title: From pixels to nucleotides
   abstract: |-
-    Machine learning is increasingly shaped by architectures and methods that transcend individual domains, exemplified by transformer-based models. My research trajectory reflects this trend, evolving from computer vision, through transformers, to ML-based drug design -- mRNA-based and beyond. In this talk, I will first discuss the concept of "off-the-grid" architectures for processing visual data, and then connect this work to the core challenges and opportunities in applying ML to drug design.
+    Machine learning is increasingly shaped by architectures and methods that transcend individual domains, exemplified by transformer-based models. My research trajectory reflects this trend, evolving from computer vision, through transformers, to ML-based drug design — mRNA-based and beyond. In this talk, I will first discuss the concept of "off-the-grid" architectures for processing visual data, and then connect this work to the core challenges and opportunities in applying ML to drug design.
   time: 11:15 - 12:15
   room: Hall B
   date: Friday / 17 October
