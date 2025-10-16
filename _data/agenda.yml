@@ -340,8 +340,8 @@
             subtitle: by Jan Betley (TruthfulAI)
             time: 10:00 - 10:30
             url: /program#contributed-talk-17
-          - title: "<strong>SafeQuant: LLM Safety Analysis via Quantized Gradient Inspection</strong>"
-            subtitle: by Sindhu Padakandla (Fujitsu Research of India Pvt Ltd)
+          - title: "<strong>Eliciting Secret Knowledge from Language Models</strong>"
+            subtitle: by Bartosz Cywiński (Warsaw University of Technology, IDEAS Research Institute)
             time: 10:30 - 11:00
             url: /program#contributed-talk-18
 
