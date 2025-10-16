@@ -253,20 +253,20 @@
   id: 17
   author-image: images/optimized/cfc-600x600/jan_betley.webp
 
-- author-name: Sindhu Padakandla
-  title: "SafeQuant: LLM Safety Analysis via Quantized Gradient Inspection"
-  author-title: "Fujitsu Research of India Pvt Ltd"
+- author-name: Bartosz Cywiński
+  title: "Eliciting Secret Knowledge from Language Models"
+  author-title: "Warsaw University of Technology, IDEAS Research Institute"
   abstract: >- 
-    Contemporary jailbreak attacks on Large Language Models (LLMs) employ sophisticated techniques with obfuscated content to bypass safety guardrails. Existing defenses either use computationally intensive LLM verification or require adversarial fine-tuning, leaving models vulnerable to advanced attacks. We introduce SafeQuant, a novel defense framework that leverages quantized gradient patterns to identify harmful prompts efficiently. Our key insight is that when generating identical responses like “Sure", LLMs exhibit distinctly different internal gradient patterns for safe versus harmful prompts, reflecting conflicts with safety training. By capturing these patterns through selective gradient masking and quantization, SafeQuant significantly outperforms existing defenses across multiple benchmarks while maintaining model utility. The method demonstrates particular effectiveness against sophisticated attacks like WordGame prompts and persuasive adversarial attacks, achieving high F1-score.
+    We want to know what AIs know, even if they don't tell us. This talk will cover a study of uncovering secret knowledge from language models. To study this, we build a suite of secret-keeping LLMs where we train them to possess some secret knowledge that they can use but deny having when asked directly. On this benchmark, we evaluate how well different black-box and white-box methods based on mechanistic interpretability tools can uncover this secret knowledge.
   author-bio: >- 
-    I am a Senior Researcher, working on developing algorithms to make AI more safe and secure. Earlier, I finished my PhD in the Department of Computer Science and Automation (CSA), Indian Institute of Science (IISc). I have extensive experience in Reinforcement learning, Autonomous vehicles and AI.
-  co-authors: 
+    I am a PhD student at Warsaw University of Technology working on mechanistic interpretability. I am interested in applied mech interp.
+  co-authors: Emil Ryd, Senthooran Rajamanoharan, Neel Nanda, Samuel Marks, Arthur Conmy
   date: Friday / 17 October
   time: 10:30 - 11:00
   room: Main Hall
   session: CfC Session 6
   id: 18
-  author-image: images/optimized/cfc-600x600/sindhu_padakandla.webp
+  author-image: images/optimized/cfc-600x600/bartosz_cywinski.webp
 
 - author-name: Léo Andéol
   title: "Conformal Object Detection by Sequential Risk Control"
