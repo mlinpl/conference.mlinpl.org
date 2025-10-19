@@ -54,6 +54,6 @@ tutorials:
     student: "60 PLN"
     regular: "120 PLN"
   price_label: "Price"
-  active: true
+  active: false
   visible: true
   url: "https://app.evenea.pl/event/mlinpl25-tutorials/"
