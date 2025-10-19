@@ -38,6 +38,7 @@ Don't worry if you can't find the pattern right away --- after each day we will 
 
 - **Hint 1:** Numbers hide behind the letters.
 - **Hint 2:** The first letters of the labels (**C**NN, **R**NN) are important.
+- **Hint 3 (post winners' list closed):** A beginning follows the end.
 
 ## / Submit results
 
