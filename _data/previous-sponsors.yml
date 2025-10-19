@@ -34,9 +34,6 @@
 - name: Graphcore
   image: images/optimized/previous-sponsors-300x300/Graphcore.webp
 
-- name: Google
-  image: images/optimized/previous-sponsors-300x300/Google.webp
-
 - name: Nvidia
   image: images/optimized/previous-sponsors-300x300/Nvidia.webp
 
