@@ -64,7 +64,7 @@ header:
 # Dynamically controls visibility and content of the site sections.
 state:
   invited-speakers: "all"  # options: null, "first", "all"
-  cfc: "closed"  # options: null, "open", "closed", "after" (the conference)
+  cfc: "after"  # options: null, "open", "closed", "after" (the conference)
   agenda: "full"  # options: null, "draft", "full"
   # banner-text: 'Regular ticket sales is open now! <a href="https://app.evenea.pl/event/mlinpl25/">Secure your spot</a>!'
   # banner-text: 'Regular tickets sold out! Late registration opens 1 October.'
