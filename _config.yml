@@ -43,11 +43,17 @@ header:
 
   # Countdown settings
   countdown-date: "2025-10-15T08:00:00"
-  # countdown-overwrite: 'Thank you for participating!</br>Find the <i class="fa-solid fa-camera-retro"></i> photos <a href="/photos">here</a>'
 
+  # TODO: Make changes defined and configurable
+  countdown-overwrite: 'Thank you for participating<br>and we hope to see you next year!'
+  # countdown-overwrite: 'Thank you for participating!</br>Find the <i class="fa-solid fa-camera-retro"></i> photos <a href="/photos">here</a> and we hope to see you next year!'
+  # countdown-overwrite: 'Thank you for participating!</br>Find the <a class="page-scroll" href="#aftermovie"> aftermovie and photos <i class="fa-solid fa-photo-film"></i></a> below<br>and we hope to see you <a href="https://conference.mlinpl.org">next year!</a>'
+
+  # TODO: Make changes defined and configurable
+  # #about -> #tickets -> #aftermovie
   # arrow-url: "#about"
-  # When tickets section added, change to this
   arrow-url: "#tickets"
+  # arrow-url: "#aftermovie"
 
   # Meetup countdown settings
   meetup-countdown-date: "2024-06-20T17:45:00"
