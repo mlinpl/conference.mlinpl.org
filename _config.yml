@@ -45,7 +45,7 @@ header:
   countdown-date: "2025-10-15T08:00:00"
 
   # TODO: Make changes defined and configurable
-  countdown-overwrite: 'Thank you for participating<br>and we hope to see you next year!'
+  countdown-overwrite: 'Thank you for participating<br>and we hope to see you <a href="next-year">next year!</a>'
   # countdown-overwrite: 'Thank you for participating!</br>Find the <i class="fa-solid fa-camera-retro"></i> photos <a href="/photos">here</a> and we hope to see you next year!'
   # countdown-overwrite: 'Thank you for participating!</br>Find the <a class="page-scroll" href="#aftermovie"> aftermovie and photos <i class="fa-solid fa-photo-film"></i></a> below<br>and we hope to see you <a href="https://conference.mlinpl.org">next year!</a>'
 
@@ -70,6 +70,13 @@ state:
   # banner-text: 'Regular tickets sold out! Late registration opens 1 October.'
   # banner-text: 'Late Registration and Tutorial Registration (attending requires separate ticket) open now!'
   # banner-text: 'There are still available tickets for tutorials (separate from the main event)!'
+
+next-year:
+  image: images/mlinpl-conference-2026-logo-black.png
+  heading: '<img src="images/mlinpl-conference-2026-logo-black.png" alt="ML in PL Conference 2026" style="max-height: 1.5em; max-width: 90%;">'
+  subheading: 'See you next year at 10th edition!'
+  date-location: 8 - 10 October 2026 / Copernicus Science Centre, Warsaw, Poland
+  countdown-date: "2026-10-08T08:00:00"
 
 # Navigation settings
 navigation:
