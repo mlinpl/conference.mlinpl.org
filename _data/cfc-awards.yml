@@ -1,0 +1,76 @@
+talks:
+  - author-name: Mateusz Wyszyński
+    title: "Shaping Robotic Actions with Fourier Flow Matching"
+    author-title: "University of Warsaw"
+    abstract: >- 
+      We introduce a Fourier-based, asynchronous flow matching approach for Vision–Language–Action (VLA) models, enabling the policy to reason about action trajectories effectively. Classical VLAs predict action chunks directly in the action space. We instead represent trajectories with a Discrete Cosine Transform (DCT) and perform flow matching in the Fourier domain. Crucially, we design an asynchronous plan–execute scheme tailored to this representation: the robot continues executing while the next coefficient vector is inferred, improving responsiveness.
+    author-bio: >- 
+      PhD candidate in Computer Science at the University of Warsaw and a Research Engineer at Nomagic. My research primarily focuses on developing innovative methods for training Generalist Robot Policies (GRPs), aiming to equip robots with flexible, generalizable skills. I hold a Master's degree in Mathematics from the University of Warsaw and I spent a half of my master studies at École Polytechnique Fédérale de Lausanne (EPFL).
+    co-authors: Marek Cygan, Piotr Zalewski
+    date: Thursday / 16 October
+    time: 10:30 - 11:00
+    room: Hall A
+    session: CfC Session 2
+    id: 6
+    author-image: images/optimized/cfc-600x600/mateusz_wyszynski.webp
+
+posters:
+  - author-name: Piotr Wyrwiński
+    title: "WICHER-M : Model for High-Resolution Weather Prediction"
+    author-title: "PCSS, PUT"
+    abstract: >- 
+      Accurate weather prediction offers immense benefits for humanity, enabling better preparation, planning, and decision-making across virtually every sector of society. In agriculture, precision farming relies on localized forecasts to guide irrigation, fertilization, and pest control with high spatial accuracy, helping to optimize yields and reduce input waste. In urban flood management, detailed short-range forecasts are essential to predict localized heavy rainfall and prevent flash flooding, especially in densely populated areas with complex drainage systems. For regional aviation and drone operations, fine-scale predictions of wind, fog, and turbulence are crucial for safety and operational efficiency. In the renewable energy sector, hyper-local forecasts allow grid operators to anticipate fluctuations in energy generation and balance supply and demand more effectively.   For years weather prediction was solved using Numerical Weather Prediction (NWP) methods, resulting in appearance of global climate models such as GFS or ECMWF. Those models provide broad information about climate, however they are unable to give more detailed prognosis. This is why mesoscale models (e.g. WRF) are frequently applied on their outputs to provide more local and accurate predictions of weather. Unfortunately, not only are WRF simulations local, thus not representing the whole globe, but also NWP calculation is compute-intensive, especially for mesoscale models. These shortcomings lead to intensified interest in alternative methods for weather prediction, e.g. AI transformer models.   In recent years there has been a surge of AI models able to match NWP results, such as GraphCast, Aurora or FourCastNet. They all excel in providing accurate weather predictions for whole globe at 0.25° scale, bounded by resolution of prevalent dataset used to train those models, ERA5 (available since 1940), delivering inference speeds thousands of times faster than traditional simulations, while maintaining state-of-the-art accuracy. Some of them tried to mitigate the problem of representing large areas like Poland by only a few pixels by bringing the resolution down to 0.1°. They proposed to fine-tune model on high-resolution IFS HRES dataset, however it is available only from year 2016, with scarce representation of mesoscale areas. Similarly to NWP approach, we believe that the solution of this issue lies in utilization of models such as WRF, which enable us to bring down resolution even more, preserving speed-ups achieved by aforementioned AI models.   We propose WICHER-M (Weather Intelligence through Computational High-resolution Environmental Representation Model) to achieve this goal. We utilize both ERA5 dataset and WRF simulation outcomes matched in time and spatial domain. Using data from 7 years with granularity of 6-hour timesteps we fine-tune global prediction models already proficient in modelling climate to model at lower scale of 0.025°. We adapt decoder architecture of state-of-the-art Aurora to match the desired resolution and train the head to minimize loss on WRF simulation data. Utilizing the fact that Aurora model has a separate pretrained backbone, serving as a simulator of climate model we integrate it into our solution. To the best of our knowledge, predicting weather on the finer scale has only been achieved for single physical variables, whereas our approach attempts to leverage all available climate data.
+    author-bio: >- 
+      Piotr Wyrwiński is a PhD student at Poznan University of Technology and a Machine Learning Researcher at the Poznan Supercomputing and Networking Center. His research explores neurosymbolic learning, program synthesis, and graph-based deep learning. At PCSS, he develops and applies deep learning models in areas such as weather prediction, medical imaging, and satellite data analysis.
+    co-authors: Wiktor Kamzela, Adam Dobosz, Jakub Kubiak, Wojciech Stefaniak
+    date: Thursday / 16 October
+    time: 12:15 - 13:45
+    room: 
+    session: Poster Session 1
+    id: 8
+    author-image: images/optimized/cfc-600x600/piotr_wyrwinski.webp
+
+  - author-name: Jolanta Śliwa
+    title: "Benchmark for Ordinal Regression in pen & paper RPG game design"
+    author-title: "AGH University of Kraków"
+    abstract: >- 
+      In recent years, the pen & paper RPG market has experienced significant growth. As a result, companies are increasingly exploring the integration of AI technologies to enhance player experience and gain a competitive edge. While most research on RPG monster design emphasizes emotional and narrative impact, the field of computer science has contributed little to tools for this field. One key challenge is estimating a monster’s challenge level, a task for which no automated solutions currently exist.  To address this gap, we introduce a benchmark based on Pathfinder 2e, focused on predicting monster levels using ordinal regression techniques. The dataset consists of approximately 2,600 monsters sourced from official bestiaries, rulebooks, and supplements. Each instance contains a set of key monster’s attributes selected via domain expertise. The prediction target, monster level, is a discrete, ordered variable, positioning this task at the intersection of classification and regression, an ordinal regression problem.  We evaluate a variety of modelling approaches, including human-inspired model, classical regression with rounding and dedicated ordinal methods. To account for the chronological nature of the data, we employ an expanding-window-inspired evaluation strategy. Tree-based models consistently outperformed other techniques, while neural approaches yielded disappointing results across all metrics. Model performance was assessed using a combination of classification, regression, and ordinal-specific metrics. Despite variations in absolute error and accuracy, all models demonstrated strong ordinal consistency according to Somer’s D. This benchmark provides practical applications for game design automation, monster creation, and educational use in ordinal modelling.
+    author-bio: >- 
+      I am a new graduate Data Science student from AGH University of Krakow. As part of my engineering and master’s thesis, I co-developed an application that supports the design of opponents in a pen & paper RPG game, using Machine Learning. For this reason, I have recently been spending my free time playing this type of game, and I also immerse myself in the fascinating world of animation.
+    co-authors: 
+    date: Thursday / 16 October
+    time: 12:15 - 13:45
+    room: 
+    session: Poster Session 1
+    id: 14
+    author-image: images/optimized/cfc-600x600/jolanta_sliwa.webp
+
+  - author-name: Zuzanna Gawrysiak
+    title: "Invisible Yet Invincible: A Fast Deep Learning Approach to Image Watermarking"
+    author-title: "Vestigit, Poznan University of Technology"
+    abstract: >- 
+      We introduce a novel deep learning architecture for image watermarking, designed for high efficiency and robustness. Our approach integrates a skip-layer excitation module to enhance feature representation efficiently and uses conditional batch normalisation to adapt the watermarking process to different messages. We leverage message spreading and mask generation techniques to embed the watermark with minimal perceptual distortion. The resulting architecture is not only lightweight and fast but also highly robust against common distortions like blur, cropping, and JPEG compression. Evaluations on standard benchmark datasets confirm our model's competitive performance. By effectively balancing perceptual fidelity, robustness, and computational speed, this work offers a practical solution for applications in digital rights management and content authentication.
+    author-bio: >- 
+      Zuzanna Gawrysiak is an AI engineer and PhD student at Poznan University of Technology, working on deep learning for image and video processing. She currently works at Vestigit, developing efficient video watermarking methods. Her research interests are focused on computer vision, specifically neuro-symbolic autoencoders and domain-aware machine learning methods.
+    co-authors: Tomasz Hawro, Mateusz Gabor
+    date: Thursday / 16 October
+    time: 12:15 - 13:45
+    room: 
+    session: Poster Session 1
+    id: 27
+    author-image: images/optimized/cfc-600x600/zuzanna_gawrysiak.webp
+
+  - author-name: Jakub Adamczyk
+    title: "ML in agrochemistry and ecotoxicology"
+    author-title: "AGH University of Krakow"
+    abstract: >- 
+      Machine learning is widely used in the pharmaceutical industry, where molecular ML and chemoinformatics have supported safer and faster drug development for decades. In contrast, the equally important field of agrochemistry has received far less attention. Yet it has incredible potential with both predictive and generative models, e.g. predicting pesticide toxicity or generating novel, safer agrochemicals. With growing regulatory pressure and a shift toward more sustainable agriculture, there is a pressing need to accelerate the development of alternative pesticides, and ML can play a crucial role in meeting this challenge.  In this talk, I will explore how and why machine learning can be applied in agrochemistry, with a particular focus on ecotoxicology - a critical and highly regulated aspect of modern agrochemical development. In particular, I will present ApisTox, a novel dataset on pesticides toxicity to honey bees, and demonstrate how the methods and workflows can be adapted to other molecular ML applications. We'll then review a range of predictive ML models suited to this kind of data, e.g. molecular fingerprints, graph kernels, and graph neural networks (GNNs). In particular, we will cover our insights for non-traditional molecular structures beyond typical pharmaceutical targets, such as pesticides. Finally, I will discuss potential opportunities for ML in agrochemistry and ecotoxicology areas.
+    author-bio: >- 
+      He is a PhD candidate in Computer Science at AGH University of Krakow and a member of the Graph ML and Chemoinformatics Group at the Faculty of Computer Science. His research focuses on fair evaluation, graph representation learning, graph classification, chemoinformatics, and molecular property prediction. He is also interested in time series, natural language processing (NLP), and MLOps, and teaches these subjects at AGH. He works at Placewise as a Data Science Engineer, where he addresses various machine learning challenges in tabular data, computer vision, and NLP, along with their end-to-end MLOps implementations. Outside of his professional work, he trains in Historical European Martial Arts (HEMA), specializing in messer and longsword, and enjoys reading and tabletop role-playing games.
+    co-authors: 
+    date: Friday / 17 October
+    time: 12:15 - 13:45
+    room: 
+    session: Poster Session 2
+    id: 35
+    author-image: images/optimized/cfc-600x600/jakub_adamczyk.webp
