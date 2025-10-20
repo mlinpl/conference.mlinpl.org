@@ -12,7 +12,6 @@ var next_meetup_header = "/ Next meetup"
 if (meetupCountdownElement) {
     countdown(
         function(ts) {
-            console.log(ts);
             if (ts.value < 0) {
                 meetupCountdownElement.innerHTML = last_meetup_header;
             }
