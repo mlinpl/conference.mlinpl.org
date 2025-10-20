@@ -10,9 +10,6 @@
 - name: Amazon
   image: images/optimized/previous-sponsors-300x300/Amazon.webp
 
-- name: DeepMind
-  image: images/optimized/previous-sponsors-300x300/DeepMind.webp
-
 - name: G-Research
   image: images/optimized/previous-sponsors-300x300/GResearch.webp
 
