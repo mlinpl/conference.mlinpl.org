@@ -1,0 +1,34 @@
+<!-- Intro Header -->
+<header class="intro">
+    <canvas id="intro-background" class="intro-background"></canvas>
+    <div class="intro-body">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <h1 class="event-heading">{{ site.next-year.heading }}</h1>
+                    {% if site.next-year.subheading %}
+                    <h2 class="event-subheading">{{ site.next-year.subheading }}</h2>
+                    {% endif %}
+                    {% if site.next-year.date-location %}
+                    <h3 class="event-date-location">{{ site.next-year.date-location }}</h3>
+                    {% endif %}
+                    
+                    {% if site.next-year.countdown-date %}
+                    <h3 id="next-year-event-countdown" class="event-countdown">
+                        {% if site.next-year.countdown-text %}
+                        <div class="event-countdown-text">{{ site.next-year.countdown-text }}</div>
+                        {% endif %}
+                        <span class="nowrap"><span id="d-left">0</span> <sub>days</sub></span>
+                        <span class="nowrap">/ <span id="h-left">00</span> <sub>hours</sub></span>
+                        <span class="nowrap">/ <span id="m-left">00</span> <sub>minutes</sub></span>
+                        <span class="nowrap">/ <span id="s-left">00</span> <sub>seconds</sub></span>
+                    </h3>
+                    {% endif %}
+                    
+                    <!-- HACK: left but made invisible to fix positioning -->
+                    <div class="btn btn-circle page-scroll" style="visibility: hidden;" aria-hidden="true"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
