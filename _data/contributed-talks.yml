@@ -34,7 +34,7 @@
   abstract: >- 
     Mixture of Experts (MoE) architectures have emerged as pivotal for scaling Large Language Models (LLMs) efficiently.  In a previous paper authored by me and other researchers at IDEAS NCBR, we proposed granularity hyperparameter and derived Scaling Laws for Fine-Grained MoE. Since then, fine-grained MoE approaches - utilizing more numerous, smaller experts - have demonstrated potential in improving model convergence and quality. This work, done during an internship at NVIDIA Warsaw with Marcin Chochowski and Daniel Korzekwa, proposes a set of training recipes and provides a comprehensive empirical evaluation of fine-grained MoE, directly comparing its scaling properties against standard MoE configurations for models with up to 56B total (17B active) parameters. We investigate convergence speed, model performance on downstream benchmarks, and practical training considerations across various setups. Overall, at the largest scale we show that fine-grained MoE achieves better validation loss and higher accuracy across a set of downstream benchmarks. This study offers empirical grounding and practical insights for leveraging fine-grained MoE in the development of future large-scale models.
   author-bio: >- 
-    I'm a PhD student working on LLM efficiency, scaling laws and Mixture of Experts.
+    Jakub Krajewski is a PhD student working on LLM efficiency, scaling laws and Mixture of Experts.
   co-authors: Marcin Chochowski, Daniel Korzekwa
   date: Thursday / 16 October
   time: 10:30 - 11:00
