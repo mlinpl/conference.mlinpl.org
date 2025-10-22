@@ -231,4 +231,5 @@ exclude:
 #   - vendor/ruby/
 
 include:
+  - pages/
   - googleb6957abd960a4507.html
