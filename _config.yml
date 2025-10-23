@@ -56,10 +56,9 @@ header:
   # arrow-url: "#aftermovie"
 
   # Meetup countdown settings
-  meetup-countdown-date: "2024-06-20T17:45:00"
+  # meetup-countdown-date: "2024-06-20T17:45:00"
 
-# State
-# 
+# State settings
 # Represents the state of the conference.
 # Dynamically controls visibility and content of the site sections.
 state:
@@ -71,6 +70,7 @@ state:
   # banner-text: 'Late Registration and Tutorial Registration (attending requires separate ticket) open now!'
   # banner-text: 'There are still available tickets for tutorials (separate from the main event)!'
 
+# Next year settings
 next-year:
   image: images/mlinpl-conference-2026-logo-black.png
   heading: '<img src="images/mlinpl-conference-2026-logo-black.png" alt="ML in PL Conference 2026" style="max-height: 1.5em; max-width: 90%;">'
@@ -219,6 +219,7 @@ sass:
 #
 exclude:
   - drafts/
+  - pages/drafts/
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/
