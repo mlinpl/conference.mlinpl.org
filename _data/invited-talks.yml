@@ -30,7 +30,7 @@
 
     Previously, she was a Research Scientist at MIT-IBM Watson AI lab and a postdoctoral researcher at IBM Research NY, working on methods to design experiments that would allow one to learn causal relations in a sample-efficient and intervention-efficient way. She received a PhD at VU Amsterdam on learning causal relations jointly from different experimental settings, even with latent confounders and small samples. During her PhD, she interned at Google Zürich and NYC. Previously, she studied Computer Engineering at Politecnico di Milano and Torino and at the University of Trieste.
   google-scholar: https://scholar.google.com/citations?user=H3j_zQ4AAAAJ&hl=en
-  slides:
+  slides: docs/invited-talk-1.pdf
 
 - title: Architecture for open models
   abstract: |-
@@ -44,7 +44,7 @@
   author-image: images/optimized/speakers-600x600/ShreyaPathak.webp
   author-bio: |-
     Shreya Pathak is a research engineer at Google DeepMind, currently on the Gemma team. She works particularly on exploring different architectures for Gemma, optimising for on-device use cases. Prior to this, she had worked on multimodal understanding of video-language models. She graduated from IIT Bombay with a bachelor's in computer science and engineering.
-  slides:
+  slides: docs/invited-talk-2.pdf
 
 - title: "Technical AI Safety & Security: From Alignment to Agentic Systems"
   abstract: |-
@@ -93,7 +93,7 @@
 
     In his research, Antonio strives to improve the efficiency of deep learning technologies by pioneering new architectures and training techniques grounded in theoretical knowledge. His work encompasses two main areas: understanding the intricacies of large-scale optimization dynamics and designing innovative architectures and powerful optimizers capable of handling complex data. Central to his studies is exploring innovative techniques for decoding patterns in sequential data, with implications in biology, neuroscience, natural language processing, and music generation.
   google-scholar: https://scholar.google.com/citations?user=xkuLyHoAAAAJ&hl=it
-  slides:
+  slides: docs/invited-talk-5.pdf
 
 - title: "Beyond the screen: capturing, understanding and generating 3D scenes"
   abstract: |-
@@ -173,7 +173,7 @@
     Jenia Jitsev is co-founder and scientific lead of LAION e.V, the German non-profit research organization committed to research on open large-scale foundation models and datasets. He also leads Scalable Learning & Multi-Purpose AI (SLAMPAI) lab at Juelich Supercomputer Center, Research Center Juelich, Helmholtz Association, Germany and is a member of ELLIS. His background is in machine learning and neuroscience, aiming to understand learning as a generic process of incrementally building up a useful model of the surrounding world from available sensory observations and executed actions. His current research focus is on using scaling laws for measuring and understanding generalization and strong transfer in open foundation models. Jenia is most known for his work on open language-vision foundation models like openCLIP and open datasets like LAION-400M/5B, Re-LAION, DataComp. 
 
     Recently, he also has been studying reasoning and measuring generalization with works on open reasoning datasets/models OpenThoughts/OpenThinker and on discovering generalization weaknesses using AIW problems. Jenia coordinates acquisition of large-scale compute grants for conducting collaborative research on open foundation models across various supercomputing facilities, including EuroHPC. Using these resources, together with the community he is driving and democratizing research on scalable systems for generalist, transferable multi-modal learning, leading to foundation AI models capable of strong transfer and therefore easily adaptable to a broad range of desired tasks and hardware resource settings. For his work, Dr. Jitsev received Best Paper Award at IJCNN 2012, Outstanding Paper Award at NeurIPS 2022 and Falling Walls Scientific Breakthrough of the Year 2023 Award.
-  slides:
+  slides: docs/invited-talk-10.pdf
 
 - title: From pixels to nucleotides
   abstract: |-
@@ -236,4 +236,4 @@
     Herke van Hoof is currently associate professor at the University of Amsterdam in the Netherlands, where he is part of the Amlab. He is interested in modular reinforcement learning. Reinforcement learning is a very general framework, but this tends to result in extremely data-hungry algorithms. Exploiting modular structures, including hierarchical structures, allows sharing information between tasks and exploiting prior knowledge, to learn more with less data.
 
     Before joining the University of Amsterdam, Herke van Hoof was a postdoc at McGill University in Montreal, Canada, where he worked with Professors Joelle Pineau, Dave Meger, and Gregory Dudek. He obtained his PhD at TU Darmstadt, Germany, under the supervision of Professor Jan Peters, where he graduated in November 2016. Herke got his bachelor and master degrees in Artificial Intelligence at the University of Groningen in the Netherlands.
-  slides:
+  slides: docs/invited-talk-14.pdf
