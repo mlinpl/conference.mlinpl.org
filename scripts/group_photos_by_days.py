@@ -1,3 +1,12 @@
+# /// script
+# requires-python = ">=3.11"
+# dependencies = [
+#   "pillow",
+#   "piexif",
+#   "pyyaml",
+# ]
+# ///
+
 from datetime import datetime
 import os
 from PIL import Image
@@ -45,7 +54,15 @@ def organize_photos(thumbnails_dir):
             taken_datetime = extract_datetime(thumb_path)
             
             # Create photo entry
+            # Determine if photo is vertical
+            img = Image.open(thumb_path)
+            width, height = img.size
+            is_vertical = height > width
+            
             photo_entry = {'filename': filename}
+            if is_vertical:
+                photo_entry['width'] = 1600
+                photo_entry['height'] = 2400
                 
             # Group by date
             date_key = taken_datetime.strftime('%Y-%m-%d')
@@ -61,7 +78,7 @@ def organize_photos(thumbnails_dir):
         group = {
             'name': f'<i class="fa-solid fa-calendar-day"></i> Day {i} - {datetime.strptime(date, "%Y-%m-%d").strftime("%A / %d %B %Y")}',
             'src-dir': 'images/photos/2400x1600',
-            'thumbnails-dir': 'images/photos/thumbnails',
+            'thumbnails-dir': 'images/photos/thumbnail',
             'default-width': 2400,
             'default-height': 1600,
             'photos': [photo[0] for photo in day_photos]
@@ -72,7 +89,7 @@ def organize_photos(thumbnails_dir):
 
 
 if __name__ == "__main__":
-    thumbnails_dir = "images/photos/thumbnails"
+    thumbnails_dir = "images/photos/thumbnail"
     
     if not os.path.exists(thumbnails_dir):
         print(f"Error: Directory not found!")
