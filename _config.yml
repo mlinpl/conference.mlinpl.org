@@ -88,8 +88,8 @@ navigation:
     subsites:
       - name: "/ More information"
         url: "/about-ml-in-pl-conference"
-      # - name: "/ Photos"
-      #   url: "/photos"
+      - name: "/ Photos"
+        url: "/photos"
       - name: "/ Previous editions"
         subsites:
           - name: "/ 2024"
