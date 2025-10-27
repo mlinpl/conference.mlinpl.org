@@ -29,6 +29,7 @@
       title: RTB House
       image: images/optimized/speakers-600x600/MaciejZdanowicz.webp
   id: 1
+  slides: docs/sponsor-talk-1.pdf
 
 - title: "Phoenix from the ashes - IDEAS Research Institute"
   abstract: |-
@@ -44,6 +45,7 @@
     Tomasz Trzciński is a Full Professor at Warsaw University of Technology, where he leads a Computer Vision Lab. He is a Chief Scientist at Tooploox and also a Deputy Director of IDEAS Research Institute, a publicly-funded Polish center for AI. Previously, he worked at Google in 2013, Qualcomm in 2012 and Telefónica in 2010. He frequently serves as a reviewer and area chair in major computer science conferences (CVPR, ICCV, ECCV, NeurIPS, ICML) and journals (TPAMI, IJCV, CVIU).
   talk-title-prefix: Partner Talk
   id: 1
+  slides: docs/partner-talk-1.pdf
 
 - title: Evolving Search and Recommendations at a Leading E-commerce Platform
   abstract: |-
