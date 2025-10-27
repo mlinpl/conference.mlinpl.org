@@ -13,6 +13,7 @@
   id: 1
   author-image: images/optimized/speakers-600x600/PiotrOstropolski-Nalewaja.webp
   author-image-note: "Photo by Paweł Piotrowski"
+  slides: docs/lipski-award-talk-1.pdf
 
 - author-name: Marek Sokołowski
   title: "Algorithmics of Dynamic Well-Structured Graphs"
@@ -28,6 +29,7 @@
   session: Witold Lipski Award Laureates
   id: 2
   author-image: images/optimized/speakers-600x600/MarekSokołowski.webp
+  slides: docs/lipski-award-talk-2.pdf
 
 - author-name: Marcin Sendera
   title: "Beyond the Known: Probabilistic Inference for the AI Scientist"
@@ -43,3 +45,5 @@
   session: Witold Lipski Award Laureates
   id: 3
   author-image: images/optimized/speakers-600x600/MarcinSendera.webp
+  slides: docs/lipski-award-talk-3.pdf
+  
