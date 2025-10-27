@@ -12,6 +12,7 @@
   session: CfC Session 1
   id: 1
   author-image: images/optimized/cfc-600x600/adrian_lancucki.webp
+  slides: docs/contributed-talk-1.pptx
 
 - author-name: Łukasz Borchmann
   title: "State-of-the-Art Document AI on a Single 24GB GPU"
@@ -27,6 +28,7 @@
   session: CfC Session 1
   id: 2
   author-image: images/optimized/cfc-600x600/lukasz_borchmann.webp
+  slides: docs/contributed-talk-2.pdf
 
 - author-name: Jakub Krajewski
   title: "Scaling Fine-Grained MoE Beyond 50B Parameters: Empirical Evaluation and Practical Insights"
@@ -42,6 +44,7 @@
   session: CfC Session 1
   id: 3
   author-image: images/optimized/cfc-600x600/jakub_krajewski.webp
+  slides: docs/contributed-talk-3.pptx
 
 - author-name: Adam Pardyl
   title: "FlySearch: Exploring how vision-language models explore"
@@ -57,6 +60,7 @@
   session: CfC Session 2
   id: 4
   author-image: images/optimized/cfc-600x600/adam_pardyl.webp
+  slides: docs/contributed-talk-4.pdf
 
 - author-name: Gracjan Góral
   title: "How Good Are Open-Source Models for Robot Learning?"
@@ -72,6 +76,7 @@
   session: CfC Session 2
   id: 5
   author-image: images/optimized/cfc-600x600/gracjan_goral.webp
+  # slides: docs/contributed-talk-5.pptx
 
 - author-name: Mateusz Wyszyński
   title: "Shaping Robotic Actions with Fourier Flow Matching"
@@ -87,6 +92,7 @@
   session: CfC Session 2
   id: 6
   author-image: images/optimized/cfc-600x600/mateusz_wyszynski.webp
+  # slides: docs/contributed-talk-6.pptx
 
 - author-name: Konrad Staniszewski
   title: "Cache Me If You Can: Reducing Model Size and KV Cache Traffic for Faster LLM Inference"
@@ -117,6 +123,7 @@
   session: CfC Session 3
   id: 8
   author-image: images/optimized/cfc-600x600/pawel_cyrta.webp
+  slides: docs/contributed-talk-8.pdf
 
 - author-name: Karolina Drożdż
   title: "Entity Tracking as a Microcosm of Semantic Abilities in LLMs and Humans"
@@ -147,6 +154,7 @@
   session: CfC Session 4
   id: 10
   author-image: images/optimized/cfc-600x600/weronika_ormaniec.webp
+  slides: docs/contributed-talk-10.pdf
 
 - author-name: Michal Lewandowski
   title: "On Space Folds by Neural Networks"
@@ -162,6 +170,7 @@
   session: CfC Session 4
   id: 11
   author-image: images/optimized/cfc-600x600/michal_lewandowski.webp
+  slides: docs/contributed-talk-11.pdf
 
 - author-name: Nahid Torbati
   title: "Exploring Geometric Representational Alignment through Ollivier Ricci Curvature"
@@ -177,6 +186,7 @@
   session: CfC Session 4
   id: 12
   author-image: images/empty.png
+  slides: docs/contributed-talk-12.pptx
 
 - author-name: Kamil Deja
   title: "SAeUron: Interpretable Concept Unlearning in Diffusion Models with Sparse Autoencoders"
@@ -207,6 +217,7 @@
   session: CfC Session 5
   id: 14
   author-image: images/optimized/cfc-600x600/antoni_kowalczuk.webp
+  # slides: docs/contributed-talk-14.pptx
 
 - author-name: Łukasz Staniszewski
   title: "Controlling Generative Models through Parameter Localization"
@@ -222,6 +233,7 @@
   session: CfC Session 5
   id: 15
   author-image: images/optimized/cfc-600x600/lukasz_staniszewski.webp
+  slides: docs/contributed-talk-15.pdf
 
 - author-name: Anna Sztyber-Betley
   title: "Out of context generalization in LLMs"
@@ -237,6 +249,7 @@
   session: CfC Session 6
   id: 16
   author-image: images/optimized/cfc-600x600/anna_sztyber-betley.webp
+  slides: docs/contributed-talk-16.pdf
 
 - author-name: Jan Betley
   title: "Emergent Misalignment: Narrow finetuning can produce broadly misaligned LLM"
@@ -252,6 +265,7 @@
   session: CfC Session 6
   id: 17
   author-image: images/optimized/cfc-600x600/jan_betley.webp
+  slides: docs/contributed-talk-17.pptx
 
 - author-name: Bartosz Cywiński
   title: "Eliciting Secret Knowledge from Language Models"
@@ -267,6 +281,7 @@
   session: CfC Session 6
   id: 18
   author-image: images/optimized/cfc-600x600/bartosz_cywinski.webp
+  slides: docs/contributed-talk-18.pptx
 
 - author-name: Léo Andéol
   title: "Conformal Object Detection by Sequential Risk Control"
@@ -282,6 +297,7 @@
   session: CfC Session 7
   id: 19
   author-image: images/empty.png
+  slides: docs/contributed-talk-19.pdf
 
 - author-name: Paweł Teisseyre
   title: "A generalized approach to label shift: the Conditional Probability Shift Model"
@@ -332,6 +348,7 @@
   room: Hall B
   session: CfC Session 8
   id: 22
+  slides: docs/contributed-talk-22.pdf
 
 - author-name: Paweł Morzywołek
   title: "Inference on Local Variable Importance Measures for Heterogeneous Treatment Effects"
@@ -347,6 +364,7 @@
   session: CfC Session 8
   id: 23
   author-image: images/optimized/cfc-600x600/pawel_morzywolek.webp
+  slides: docs/contributed-talk-23.pdf
 
 - author-name: Michael Vollenweider
   title: "Learning Personalized Treatment Decisions in Precision Medicine: Disentangling Treatment Assignment Bias in Counterfactual Outcome Prediction and Biomarker Identification"
@@ -362,3 +380,4 @@
   session: CfC Session 8
   id: 24
   author-image: images/optimized/cfc-600x600/michael_vollenweider.webp
+  slides: docs/contributed-talk-24.pdf
