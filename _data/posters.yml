@@ -12,9 +12,10 @@
   session: Poster Session 1
   id: 1
   author-image: images/optimized/cfc-600x600/bartosz_marcinkowski.webp
+  poster: docs/poster-1.pdf
 
 - author-name: Grzegorz Rypeść
-  title: "Gradient Free Continual Learning"
+  title: "Gradient-Free Continual Learning"
   author-title: "Warsaw University of Technology, RTB House"
   abstract: >- 
     Continual Learning (CL) seeks to train neural networks on sequential tasks without catastrophic forgetting. A key limitation of existing CL methods is their reliance on gradient-based optimization, which breaks down when data from previous tasks is no longer accessible - a common constraint in CL. In this work, we propose a paradigm shift: we hypothesize that the core issue in catastrophic forgetting is not data unavailability, but the inability to compute gradients for prior tasks. To address this, we introduce EvoCL, a novel gradient-free continual learning framework that leverages Evolution Strategies (ES) for optimization. EvoCL memorizes compressed latent features of past tasks and employs an adapter network to approximate their loss, enabling effective learning without relying on stored exemplars or backpropagation through old data. Our approach achieves promising results under the assumption of low number of trainable parameters and opens up new avenues for data-free and gradient-free continual learning.
@@ -27,6 +28,7 @@
   session: Poster Session 1
   id: 2
   author-image: images/optimized/cfc-600x600/grzegorz_rypesc.webp
+  poster: docs/poster-2.pdf
 
 - author-name: Piotr Ludynia
   title: "Surpassing Complex Models With Simple Graph Feature Extraction"
@@ -42,6 +44,7 @@
   session: Poster Session 1
   id: 3
   author-image: images/optimized/cfc-600x600/piotr_ludynia.webp
+  poster: docs/poster-3.pdf
 
 - author-name: Joanna Wiekiera
   title: "Continual learning for satellite data analysis"
@@ -57,6 +60,7 @@
   session: Poster Session 1
   id: 4
   author-image: images/optimized/cfc-600x600/joanna_wiekiera.webp
+  poster: docs/poster-4.pdf
 
 - author-name: Lucas Sancéré
   title: "Context-aware skin cancer cell classification based on GNNs"
@@ -72,6 +76,7 @@
   session: Poster Session 1
   id: 5
   author-image: images/optimized/cfc-600x600/lucas_sancere.webp
+  poster: docs/poster-5.pdf
 
 - author-name: Eryk Zarębski
   title: "Vision Transformers for Enhanced Analysis of X-ray Fluorescence Spectra in Cultural Heritage"
@@ -87,6 +92,7 @@
   session: Poster Session 1
   id: 6
   author-image: images/optimized/cfc-600x600/eryk_zarebski.webp
+  poster: docs/poster-6.pdf
 
 - author-name: Jan Małaśnicki
   title: "μ-Parametrization for Mixture of Experts"
@@ -102,6 +108,7 @@
   session: Poster Session 1
   id: 7
   author-image: images/empty.png
+  poster: docs/poster-7.pdf
 
 - author-name: Piotr Wyrwiński
   title: "WICHER-M : Model for High-Resolution Weather Prediction"
@@ -147,6 +154,7 @@
   session: Poster Session 1
   id: 10
   author-image: images/optimized/cfc-600x600/bartosz_cywinski.webp
+  poster: docs/poster-10.pdf
 
 - author-name: Maciej Pióro
   title: "Joint MoE Scaling Laws: Mixture of Experts Can Be Memory Efficient"
@@ -162,6 +170,7 @@
   session: Poster Session 1
   id: 11
   author-image: images/optimized/cfc-600x600/maciej_pioro.webp
+  poster: docs/poster-11.pdf
 
 - author-name: Turhan Can Kargin
   title: "Probing the general spatial awareness of vision encoders via equivariance"
@@ -177,6 +186,7 @@
   session: Poster Session 1
   id: 12
   author-image: images/optimized/cfc-600x600/turhan_can_kargin.webp
+  poster: docs/poster-12.pdf
 
 - author-name: Maciej Wojtala
   title: "MACTAS: Self-Attention-Based Module for Inter-Agent Communication in Multi-Agent Reinforcement Learning"
@@ -192,6 +202,7 @@
   session: Poster Session 1
   id: 13
   author-image: images/optimized/cfc-600x600/maciej_wojtala.webp
+  poster: docs/poster-13.pdf
 
 - author-name: Jolanta Śliwa
   title: "Benchmark for Ordinal Regression in pen & paper RPG game design"
@@ -207,6 +218,7 @@
   session: Poster Session 1
   id: 14
   author-image: images/optimized/cfc-600x600/jolanta_sliwa.webp
+  poster: docs/poster-14.pdf
 
 - author-name: Jakub Paszke
   title: "SARA: An LLM-Powered Agent for Scientific Collaborations and Grant Discovery"
@@ -222,7 +234,7 @@
   session: Poster Session 1
   id: 15
   author-image: images/optimized/cfc-600x600/jakub_paszke.webp
-
+  
 - author-name: Dominik Lewy
   title: "Lost in the Details: GenAI’s Visual Blind Spots and Paths to Clarity"
   author-title: "Lingaro"
@@ -252,6 +264,7 @@
   session: Poster Session 1
   id: 17
   author-image: images/optimized/cfc-600x600/maria_galanty.webp
+  poster: docs/poster-17.pdf
 
 - author-name: Michał Brzozowski
   title: "Representation-based Broad Hallucination Detectors Fail to Generalize Out of Distribution"
@@ -267,6 +280,7 @@
   session: Poster Session 1
   id: 18
   author-image: images/optimized/cfc-600x600/michal_brzozowski.webp
+  poster: docs/poster-18.pdf
 
 - author-name: Mathilde Vergnaud
   title: "Quantitative approaches in vessel morphology analysis in corneal eye diseases"
@@ -282,6 +296,7 @@
   session: Poster Session 1
   id: 19
   author-image: images/optimized/cfc-600x600/mathilde_vergnaud.webp
+  poster: docs/poster-19.pdf
 
 - author-name: Joanna Ceklarz
   title: "Explainable AI for Pharmacophore-Based Drug Activity Prediction"
@@ -312,6 +327,7 @@
   session: Poster Session 1
   id: 21
   author-image: images/empty.png
+  poster: docs/poster-21.pdf
 
 - author-name: Konrad Duraj
   title: "Graph-Unet-Transformer for predicting pressure drops in cardiovascular networks"
@@ -348,7 +364,8 @@
   room: 
   session: Poster Session 1
   id: 23
-
+  poster: docs/poster-23.pdf
+  
 - author-name: Jan Dubiński
   title: "Radioactive Watermarks in Diffusion and Autoregressive Image Generative Models"
   author-title: "Warsaw University of Technology; NASK National Research Institute"
@@ -378,6 +395,7 @@
   session: Poster Session 1
   id: 25
   author-image: images/optimized/cfc-600x600/piotr_wojcik.webp
+  poster: docs/poster-25.pdf
 
 - author-name: Wojciech Zarzecki
   title: "Interpretable Protein Design: Disentangling RFDiffusion Features using Sparse Autoencoders"
@@ -393,7 +411,8 @@
   session: Poster Session 1
   id: 26
   author-image: images/optimized/cfc-600x600/wojciech_zarzecki.webp
-
+  poster: docs/poster-26.pdf
+  
 - author-name: Zuzanna Gawrysiak
   title: "Invisible Yet Invincible: A Fast Deep Learning Approach to Image Watermarking"
   author-title: "Vestigit, Poznan University of Technology"
@@ -408,6 +427,7 @@
   session: Poster Session 1
   id: 27
   author-image: images/optimized/cfc-600x600/zuzanna_gawrysiak.webp
+  poster: docs/poster-27.pdf
 
 - author-name: Mateusz Pyla
   title: "Understanding Generalization-Memorization Trade-offs, Learning Dynamics, and Expert Democratization in Mixture of Experts Architectures"
@@ -438,6 +458,7 @@
   session: Poster Session 1
   id: 29
   author-image: images/optimized/cfc-600x600/jaroslaw_janas.webp
+  poster: docs/poster-29.pdf
 
 - author-name: Emilia Kaczmarczyk
   title: "Analyzing Latent Representations in Time Series Foundation Models"
@@ -468,6 +489,7 @@
   session: Poster Session 2
   id: 31
   author-image: images/optimized/cfc-600x600/cezary_dolega.webp
+  poster: docs/poster-31.pdf
 
 - author-name: Jeremy Cochoy
   title: "Contrastive Forecasting: Latent-Space Prediction for Time Series via Joint Embedding"
@@ -483,6 +505,7 @@
   session: Poster Session 2
   id: 32
   author-image: images/optimized/cfc-600x600/jeremy_cochoy.webp
+  poster: docs/poster-32.pdf
 
 - author-name: Julia Kiczka
   title: "Beyond Reconstruction Error: Leveraging Latent Representations for Anomaly Detection in Time Series"
@@ -513,6 +536,7 @@
   session: Poster Session 2
   id: 34
   author-image: images/optimized/cfc-600x600/alessandro_crimi.webp
+  poster: docs/poster-34.pdf
 
 - author-name: Jakub Adamczyk
   title: "ML in agrochemistry and ecotoxicology"
@@ -528,6 +552,7 @@
   session: Poster Session 2
   id: 35
   author-image: images/optimized/cfc-600x600/jakub_adamczyk.webp
+  poster: docs/poster-35.pdf
 
 - author-name: Witold Drzewakowski
   title: "Lightweight Latent Verifiers for Efficient Meta-Generation Strategies"
@@ -573,6 +598,7 @@
   session: Poster Session 2
   id: 38
   author-image: images/optimized/cfc-600x600/maciej_stefaniak.webp
+  poster: docs/poster-38.pdf
 
 - author-name: Aleksandra Krasnodębska
   title: "PL-Guard: Benchmarking Language Model Safety for Polish"
@@ -588,6 +614,7 @@
   session: Poster Session 2
   id: 39
   author-image: images/optimized/cfc-600x600/aleksandra_krasnodebska.webp
+  poster: docs/poster-39.pdf
 
 - author-name: Zofia Hendrysiak
   title: "Teaching Small Models Big Math: A Curriculum Learning Approach for Bielik"
@@ -618,6 +645,7 @@
   session: Poster Session 2
   id: 41
   author-image: images/empty.png
+  poster: docs/poster-41.pdf
 
 - author-name: Jakub Chojnacki
   title: "MT-SAS: Multi-Task Structure Aware Segmentation of Anatomical Regions"
@@ -678,6 +706,7 @@
   session: Poster Session 2
   id: 45
   author-image: images/optimized/cfc-600x600/tomasz_szczepanski.webp
+  poster: docs/poster-45.pdf
 
 - author-name: Kacper Marzol
   title: "VeGaSMedical - Spatiotemporal Gaussian Modeling for Ultrasound Interpolation and Anatomical Mesh Generation"
@@ -693,6 +722,7 @@
   session: Poster Session 2
   id: 46
   author-image: images/empty.png
+  poster: docs/poster-46.pdf
 
 - author-name: Szymon Płotka
   title: "Mamba Goes HoME: Hierarchical Soft Mixture-of-Experts for 3D Medical Image Segmentation"
@@ -738,6 +768,7 @@
   session: Poster Session 2
   id: 49
   author-image: images/empty.png
+  poster: docs/poster-49.pdf
 
 - author-name: Michał Sala
   title: "PAST LIME: Explaining Code Generation via AST-Based Perturbations"
@@ -753,6 +784,7 @@
   session: Poster Session 2
   id: 50
   author-image: images/optimized/cfc-600x600/michal_sala.webp
+  poster: docs/poster-50.pdf
 
 - author-name: Pawel Struski
   title: "Competitive Market Behaviour of LLMs"
@@ -768,6 +800,7 @@
   session: Poster Session 2
   id: 51
   author-image: images/optimized/cfc-600x600/pawel_struski.webp
+  poster: docs/poster-51.pdf
 
 - author-name: Katarzyna Woźnica
   title: "SeFNet: Linking tabular datasets with semantic feature nets"
@@ -783,6 +816,7 @@
   session: Poster Session 2
   id: 52
   author-image: images/empty.png
+  poster: docs/poster-52.pdf
 
 - author-name: Stanisław Pawlak
   title: "Backdoor Vectors: a Task Arithmetic View on Backdoor Attacks and Defenses"
@@ -798,6 +832,7 @@
   session: Poster Session 2
   id: 53
   author-image: images/optimized/cfc-600x600/stanislaw_pawlak.webp
+  poster: docs/poster-53.pdf
 
 - author-name: Bartosz Jezierski
   title: "Comparing Different Jailbreak Detection Methods"
@@ -813,6 +848,7 @@
   session: Poster Session 2
   id: 54
   author-image: images/empty.png
+  poster: docs/poster-54.pdf
 
 - author-name: Paulina Kaczyńska
   title: "Immunogenic cell death detection and classification with Machine Learning"
@@ -828,6 +864,7 @@
   session: Poster Session 2
   id: 55
   author-image: images/empty.png
+  poster: docs/poster-55.pdf
 
 - author-name: Ryszard Staruch
   title: "Adapting LLMs for Minimal-edit Grammatical Error Correction"
@@ -843,6 +880,7 @@
   session: Poster Session 2
   id: 56
   author-image: images/optimized/cfc-600x600/ryszard_staruch.webp
+  poster: docs/poster-56.pdf
 
 - author-name: Łukasz Niedźwiedzki
   title: "Exploiting Spatial Structure with Time Series Foundation Models"
@@ -873,6 +911,7 @@
   session: Poster Session 2
   id: 58
   author-image: images/optimized/cfc-600x600/hubert_plisiecki.webp
+  poster: docs/poster-58.pdf
 
 - author-name: Dawid Plaskowski
   title: "Beyond Context Limits: Retrieval-Augmented Time Series Forecasting with Prior-data Fitted Networks and Time Series Foundation Models"
@@ -903,6 +942,7 @@
   session: Poster Session 2
   id: 60
   author-image: images/optimized/cfc-600x600/julian_kedys.webp
+  poster: docs/poster-60.pdf
 
 - author-name: Kajetan Dymkiewicz
   title: "Unpacking the Potential: Refining and Evaluating Language Models Across Dimensions"
