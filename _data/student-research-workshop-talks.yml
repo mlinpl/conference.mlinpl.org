@@ -12,6 +12,7 @@
   session: Student Research Workshop
   id: 1
   author-image: images/optimized/cfc-600x600/aleksandra_gwiazda.webp
+  slides: docs/srw-talk-1.pptx
 
 - author-name: Łukasz Sztukiewicz
   title: "DetoxAI - Python Package for Debiasing Neural Networks"
@@ -42,6 +43,7 @@
   session: Student Research Workshop
   id: 3
   author-image: images/optimized/cfc-600x600/mikolaj_janusz.webp
+  slides: docs/srw-talk-3.pptx
 
 - author-name: Tomasz Dądela
   title: "From Blurry to Sharp: Enabling High-Frequency Detail in Implicit Neural Representations"
@@ -57,6 +59,7 @@
   session: Student Research Workshop
   id: 4
   author-image: images/optimized/cfc-600x600/tomasz_dadela.webp
+  # slides: docs/srw-talk-4.pptx
 
 - author-name: Rafał Malcewicz
   title: "Semantic Label Reconstruction: How to breach privacy in Federated Learning"
@@ -72,6 +75,7 @@
   session: Student Research Workshop
   id: 5
   author-image: images/optimized/cfc-600x600/rafal_malcewicz.webp
+  slides: docs/srw-talk-5.pdf
 
 - author-name: Nikodem Świerkowski
   title: "Filling in the Blanks: Redefining Inpainting with a Novel Geometrical Latent Space VAE Architecture"
@@ -87,6 +91,7 @@
   session: Student Research Workshop
   id: 6
   author-image: images/optimized/cfc-600x600/nikodem_swierkowski.webp
+  slides: docs/srw-talk-6.pptx
 
 - author-name: Paulina Hładki
   title: "GraphaFold: Graph Neural Network for predicting non-canonical RNA base pairing"
@@ -102,6 +107,7 @@
   session: Student Research Workshop
   id: 7
   author-image: images/optimized/cfc-600x600/paulina_hladki.webp
+  slides: docs/srw-talk-7.pptx
 
 - author-name: Łukasz Janisiów
   title: "Enhancing Chemical Explainability Through Counterfactual Masking"
@@ -117,3 +123,4 @@
   session: Student Research Workshop
   id: 8
   author-image: images/optimized/cfc-600x600/lukasz_janisiow.webp
+  slides: docs/srw-talk-8.pptx
