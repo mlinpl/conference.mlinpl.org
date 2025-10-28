@@ -125,7 +125,9 @@
   author-image: images/optimized/speakers-600x600/GittaKutyniok.webp
   author-bio: |-
     Gitta Kutyniok currently holds a Bavarian AI Chair for Mathematical Foundations of Artificial Intelligence at the Ludwig-Maximilians-Universität München, and is in addition affiliated with the German Aerospace Center, DLR and the University of Tromsø. Her research work covers the areas of applied and computational harmonic analysis, artificial intelligence, compressed sensing, deep learning, imaging sciences, inverse problems, and applications to life sciences, robotics, and telecommunication.
-  slides: docs/invited-talk-7.pptx
+  slides: 
+    - docs/invited-talk-7.pdf
+    - docs/invited-talk-7.pptx
 
 - title: Unleashing Creativity using AI Agent Networks
   time: 17:30 - 18:30
