@@ -91,15 +91,17 @@ Expects following parameters:
                 {{ talk.desc-md | markdownify }}
                 {% endif %}
                 {% if talk.slides %}
-                    {% assign slides = talk.slides %}
-                    {% if slides contains '.pdf' %}
-                        <a class="btn btn-default" href="{{ slides | relative_url }}" target="_blank"><i class="fa-solid fa-file-pdf"></i> slides</a>
-                    {% elsif slides contains '.pptx' or slides contains '.ppt' %}
-                        <a class="btn btn-default" href="{{ slides | relative_url }}" target="_blank"><i class="fa-solid fa-file-powerpoint"></i> slides</a>
-                        <a class="btn btn-default" href="https://view.officeapps.live.com/op/embed.aspx?src={{ slides | absolute_url | url_encode }}" target="_blank"><i class="fa-brands fa-microsoft"></i> slides (online preview)</a>
-                    {% else %}
-                        <a class="btn btn-default" href="{{ slides | relative_url }}" target="_blank"><i class="fa-solid fa-file"></i> slides</a>
-                    {% endif %}
+                    {% assign slides_list = talk.slides | arrayify %}
+                    {% for item in slides_list %}
+                        {% if item contains '.pdf' %}
+                            <a class="btn btn-default" href="{{ item | relative_url }}" target="_blank"><i class="fa-solid fa-file-pdf"></i> slides</a>
+                        {% elsif item contains '.pptx' or item contains '.ppt' %}
+                            <a class="btn btn-default" href="{{ item | relative_url }}" target="_blank"><i class="fa-solid fa-file-powerpoint"></i> slides</a>
+                            <a class="btn btn-default" href="https://view.officeapps.live.com/op/embed.aspx?src={{ item | absolute_url | url_encode }}" target="_blank"><i class="fa-brands fa-microsoft"></i> slides (online preview)</a>
+                        {% else %}
+                            <a class="btn btn-default" href="{{ item | relative_url }}" target="_blank"><i class="fa-solid fa-file"></i> slides</a>
+                        {% endif %}
+                    {% endfor %}
                 {% endif %}
                 {% if talk.poster %}
                     <a class="btn btn-default" href="{{ talk.poster | relative_url }}"><i class="fa-solid fa-file-pdf"></i> poster</a>

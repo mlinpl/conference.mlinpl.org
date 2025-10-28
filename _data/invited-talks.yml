@@ -1,16 +1,16 @@
 # TEMPLATE
 # - title:
-#  abstract: |-
-#  time:
-#  room:
-#  date:
-#  id:
-#  author-name:
-#  author-title:
-#  author-image:
-#  author-bio: |-
-#  google-scholar:
-#  slides:
+#   abstract: |-
+#   time:
+#   room:
+#   date:
+#   id:
+#   author-name:
+#   author-title:
+#   author-image:
+#   author-bio: |-
+#   google-scholar:
+#   slides:
 
 - title: Causal representation learning in temporal settings with actions
   abstract: |-
@@ -108,7 +108,6 @@
   author-image: images/optimized/speakers-600x600/FedericoTombari.webp
   author-bio: |-
     Federico Tombari is Research Director at Google where he leads an applied research team in Computer Vision and Machine Learning across North America and Europe. With his team he contributed Computer Vision and ML technology to Google products such as Lens, Maps, Android, ARCore, Pixel. He is also a Lecturer (PrivatDozent) at the Technical University of Munich (TUM). He has 300+ peer-reviewed publications in CV/ML and applications to robotics, autonomous driving, healthcare and augmented reality. He got his PhD from the University of Bologna and his Venia Legendi (Habilitation) from Technical University of Munich (TUM). In 2018-19 he was co-founder and managing director of a startup on 3D perception for AR and robotics, then acquired by Google.
-  slides:
 
 - title: "Reliable and Sustainable AI: From Mathematical Foundations to Next Generation AI Computing"
   abstract: |-
@@ -126,7 +125,7 @@
   author-image: images/optimized/speakers-600x600/GittaKutyniok.webp
   author-bio: |-
     Gitta Kutyniok currently holds a Bavarian AI Chair for Mathematical Foundations of Artificial Intelligence at the Ludwig-Maximilians-Universität München, and is in addition affiliated with the German Aerospace Center, DLR and the University of Tromsø. Her research work covers the areas of applied and computational harmonic analysis, artificial intelligence, compressed sensing, deep learning, imaging sciences, inverse problems, and applications to life sciences, robotics, and telecommunication.
-  slides:
+  slides: docs/invited-talk-7.pptx
 
 - title: Unleashing Creativity using AI Agent Networks
   time: 17:30 - 18:30
@@ -157,7 +156,6 @@
   author-image: images/optimized/speakers-600x600/SanderDieleman.webp
   author-bio: |-
     Sander Dieleman is a Research Scientist at Google DeepMind in London, UK, where he has worked on the development of AlphaGo, WaveNet, Imagen 4, Veo 3, and more. He obtained his PhD from Ghent University in 2016. His current research interests include representation learning and generative modelling of audio, images and video.
-  slides:
 
 - title: "Open Foundation Models: Scaling Laws and Generalisation"
   abstract: |-
@@ -189,7 +187,9 @@
     Alexey Dosovitskiy is a distinguished researcher in computer vision and machine learning. He earned his MSc and PhD in mathematics from Moscow State University in 2009 and 2012, respectively. From 2013 to 2015, he was a postdoctoral researcher at the University of Freiburg’s Computer Vision Group under Prof. Thomas Brox, focusing on deep learning applications in unsupervised learning, image generation, and motion estimation. Between 2017 and 2019, he served as a research scientist at Intel Labs in Munich, Germany, working on deep learning for computer vision and robotics. In 2019, Dosovitskiy joined Google Research, where he played a pivotal role in applying transformer architectures to computer vision tasks, notably as a lead author of the influential paper “An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale,” which introduced the Vision Transformer (ViT) model. 
 
     His research interests include artificial intelligence, machine learning, and pattern recognition, with significant contributions to areas such as optical flow estimation, image generation, and object detection. In February 2024, Dosovitskiy joined Inceptive as a Member of Technical Staff, focusing on machine learning for RNA.
-  slides:
+  slides: 
+    - docs/invited-talk-11.pdf
+    - docs/invited-talk-11.pptx
 
 - title: What’s the next wave of disruption in science and engineering?
   abstract: >-
@@ -220,7 +220,6 @@
     Bartek Papież leads multidisciplinary research at the intersection of artificial intelligence, biomedical imaging, and health data science. As Principal Investigator and Group Lead of the Machine Learning & Biomedical Data Research Lab at Oxford’s Big Data Institute, his work bridges the theoretical and applied dimensions of AI and machine learning. His research spans the development of novel algorithms in image analysis, data fusion, optimization, and robustness&fairness. A core focus of his lab is the integration of imaging with non-imaging modalities, including genetic data, electronic health records, and natural language, driving forward impactful applications in medicine, biology, and population health. 
 
     Papież’s projects address key challenges in longitudinal disease monitoring, multimodal cancer imaging, radiogenomics, and the discovery of therapeutic targets. By combining cutting-edge ML techniques with real-world biomedical data, his research aims to enhance disease understanding, early diagnosis, and precision treatment.
-  slides:
 
 - title: Modular learning for improving AI assistants
   abstract: >-
