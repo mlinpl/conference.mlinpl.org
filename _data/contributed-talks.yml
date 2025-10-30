@@ -76,7 +76,7 @@
   session: CfC Session 2
   id: 5
   author-image: images/optimized/cfc-600x600/gracjan_goral.webp
-  # slides: docs/contributed-talk-5.pptx
+  slides:  https://docs.mlinpl.org/conference/2025/program/contributed-talks/contributed-talk-5.pptx
 
 - author-name: Mateusz Wyszyński
   title: "Shaping Robotic Actions with Fourier Flow Matching"
@@ -92,7 +92,7 @@
   session: CfC Session 2
   id: 6
   author-image: images/optimized/cfc-600x600/mateusz_wyszynski.webp
-  # slides: docs/contributed-talk-6.pptx
+  slides: https://docs.mlinpl.org/conference/2025/program/contributed-talks/contributed-talk-6.pptx
 
 - author-name: Konrad Staniszewski
   title: "Cache Me If You Can: Reducing Model Size and KV Cache Traffic for Faster LLM Inference"
@@ -217,7 +217,7 @@
   session: CfC Session 5
   id: 14
   author-image: images/optimized/cfc-600x600/antoni_kowalczuk.webp
-  # slides: docs/contributed-talk-14.pptx
+  slides: https://docs.mlinpl.org/conference/2025/program/contributed-talks/contributed-talk-14.pptx
 
 - author-name: Łukasz Staniszewski
   title: "Controlling Generative Models through Parameter Localization"

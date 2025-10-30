@@ -59,7 +59,7 @@
   session: Student Research Workshop
   id: 4
   author-image: images/optimized/cfc-600x600/tomasz_dadela.webp
-  # slides: docs/srw-talk-4.pptx
+  slides: https://docs.mlinpl.org/conference/2025/program/srw-talks/srw-talk-4.pptx
 
 - author-name: Rafał Malcewicz
   title: "Semantic Label Reconstruction: How to breach privacy in Federated Learning"
