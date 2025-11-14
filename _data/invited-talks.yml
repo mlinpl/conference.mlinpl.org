@@ -206,7 +206,7 @@
   author-bio: >-
     Johannes Brandstetter leads the "AI for Data-Driven Simulations" group at the Institute for Machine Learning, JKU - Johannes Kepler Universität Linz, with the aim of advancing data-driven simulations at industry scale. Additionally, he is a Co-founder and Chief Scientist at Emmi AI — a push towards the data-driven revolution in science and engineering.
   google-scholar: https://scholar.google.com/citations?user=KiRvOHcAAAAJ&hl=de
-  slides:
+  slides: docs/invited-talk-12.pdf
 
 - title: "Equity in Healthcare AI: The Interplay of Data, Biases, and Explanation"
   abstract: >-
