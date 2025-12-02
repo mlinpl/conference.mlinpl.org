@@ -645,7 +645,6 @@
   session: Poster Session 2
   id: 41
   author-image: images/empty.png
-  poster: docs/poster-41.pdf
 
 - author-name: Jakub Chojnacki
   title: "MT-SAS: Multi-Task Structure Aware Segmentation of Anatomical Regions"
