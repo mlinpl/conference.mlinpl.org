@@ -10,6 +10,10 @@
         {% include banner.html %}
         {% endif %}
 
+        {% if site.state.aftermovie %}
+        {% include conference/aftermovie.html %}
+        {% endif %}
+
         {% include conference/tickets.html %}
 
         {% include conference/about.html %}

@@ -44,16 +44,23 @@ header:
   # Countdown settings
   countdown-date: "2025-10-15T08:00:00"
 
-  # TODO: Make changes defined and configurable
-  # countdown-overwrite: 'Thank you for participating<br>and we hope to see you <a href="next-year">next year!</a>'
-  countdown-overwrite: 'Thank you for participating!</br>Take a look at <a href="/photos">the photos <i class="fa-solid fa-camera-retro"></i></a><br>and we hope to see you <a href="next-year">next year!</a>'
-  # countdown-overwrite: 'Thank you for participating!</br>Find the <a class="page-scroll" href="#aftermovie"> aftermovie and photos <i class="fa-solid fa-photo-film"></i></a> below<br>and we hope to see you <a href="https://conference.mlinpl.org">next year!</a>'
+  # Manual override for countdown message (optional)
+  # If set, this message will be shown instead of the automatic selection below
+  # countdown-overwrite: 'Custom message here...'
 
-  # TODO: Make changes defined and configurable
-  # #about -> #tickets -> #aftermovie
-  # arrow-url: "#about"
-  arrow-url: "#tickets"
-  # arrow-url: "#aftermovie"
+  # Post-event messages (used when countdown is over)
+  # These are automatically selected based on what content is available (see state.photos and state.aftermovie)
+  post-event-messages:
+    with-aftermovie: 'Thank you for participating!</br>Find the <a class="page-scroll" href="#aftermovie"> aftermovie and photos <i class="fa-solid fa-photo-film"></i></a> below<br>and we hope to see you <a href="next-year">next year!</a>'
+    with-photos: 'Thank you for participating!</br>Take a look at <a href="/photos">the photos <i class="fa-solid fa-camera-retro"></i></a><br>and we hope to see you <a href="next-year">next year!</a>'
+    default: 'Thank you for participating<br>and we hope to see you <a href="next-year">next year!</a>'
+  
+  # Primary call-to-action arrow destinations by conference phase
+  # Points to the most relevant section based on where we are in the conference timeline
+  arrow-destinations:
+    before-tickets: "#about"      # Before ticket sales open
+    during-tickets: "#tickets"     # During ticket sales
+    after-event: "#aftermovie"     # After the conference
 
   # Meetup countdown settings
   # meetup-countdown-date: "2024-06-20T17:45:00"
@@ -69,6 +76,8 @@ state:
   # banner-text: 'Regular tickets sold out! Late registration opens 1 October.'
   # banner-text: 'Late Registration and Tutorial Registration (attending requires separate ticket) open now!'
   # banner-text: 'There are still available tickets for tutorials (separate from the main event)!'
+  photos: true  # options: true, false
+  aftermovie: true  # options: true, false
 
 # Next year settings
 next-year:

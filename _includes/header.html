@@ -13,9 +13,20 @@
                     <h3 class="event-date-location">{{ site.header.date-location }}</h3>
                     {% endif %}
                     
+                    {% comment %} Check for manual override first, otherwise auto-select based on available content {% endcomment %}
                     {% if site.header.countdown-overwrite %}
+                        {% assign post_event_message = site.header.countdown-overwrite %}
+                    {% elsif site.state.aftermovie %}
+                        {% assign post_event_message = site.header.post-event-messages.with-aftermovie %}
+                    {% elsif site.state.photos %}
+                        {% assign post_event_message = site.header.post-event-messages.with-photos %}
+                    {% else %}
+                        {% assign post_event_message = site.header.post-event-messages.default %}
+                    {% endif %}
+
+                    {% if post_event_message %}
                     <h3 id="event-countdown" class="event-countdown">
-                        {{ site.header.countdown-overwrite }}
+                        {{ post_event_message }}
                     </h3>
                     {% else if site.header.countdown-date %}
                     <h3 id="event-countdown" class="event-countdown">
@@ -29,7 +40,16 @@
                     </h3>
                     {% endif %}
 
-                    <a href="{{ site.header.arrow-url }}" class="btn btn-circle page-scroll">
+                    {% comment %} Select arrow destination based on conference phase {% endcomment %}
+                    {% if site.state.aftermovie %}
+                        {% assign arrow_url = site.header.arrow-destinations.after-event %}
+                    {% elsif site.state.agenda == "full" %}
+                        {% assign arrow_url = site.header.arrow-destinations.during-tickets %}
+                    {% else %}
+                        {% assign arrow_url = site.header.arrow-destinations.before-tickets %}
+                    {% endif %}
+
+                    <a href="{{ arrow_url }}" class="btn btn-circle page-scroll">
                         <i class="fa fa-angle-double-down animated"></i>
                     </a>
                 </div>
