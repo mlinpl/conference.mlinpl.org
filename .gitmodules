@@ -1,0 +1,4 @@
+[submodule "2026"]
+	path = 2026
+	url = https://github.com/mlinpl/conference2026.mlinpl.org
+	branch = main
