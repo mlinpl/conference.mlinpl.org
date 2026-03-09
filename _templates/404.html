@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Page Not Found – ML in PL Conference</title>
+    <script>
+      (function () {
+        var defaultYear = "${DEFAULT_YEAR}";
+        var knownYears = /^(${YEARS_PATTERN})$/;
+        // The site is served from the domain root, so basePath is intentionally empty.
+        // If the site is hosted under a subpath (e.g. "/conference"), set basePath accordingly.
+        var basePath = "";
+        var raw = window.location.pathname;
+
+        // Strip the base path prefix to get the relative path
+        var relativePath = raw.startsWith(basePath) ? raw.slice(basePath.length) : raw;
+
+        // Check whether relativePath starts with a known year  (/YYYY/...)
+        var yearMatch = relativePath.match(/^\/([^\/]+)(\/.*)?$/);
+        var firstSegment = yearMatch ? yearMatch[1] : "";
+        var rest = (yearMatch && yearMatch[2]) ? yearMatch[2] : "/";
+
+        var target;
+        if (knownYears.test(firstSegment)) {
+          // Path already contains a known year, show the current year's 404
+          target = basePath + "/" + firstSegment + "/404";
+        } else {
+          // No year in path, try same sub-path under default year
+          target = basePath + "/" + defaultYear + relativePath;
+        }
+
+        window.location.replace(target);
+      })();
+    </script>
+  </head>
+  <body>
+    <p>Page not found. Redirecting...</p>
+  </body>
+</html>
