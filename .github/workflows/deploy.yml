@@ -71,6 +71,19 @@ jobs:
           done
           echo "}" >> _site/versions.json
 
+      - name: Generate Root Sitemap Index
+        run: |
+          {
+            echo '<?xml version="1.0" encoding="UTF-8"?>'
+            echo '<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'
+            for year in ${{ env.YEARS }}; do
+              echo "  <sitemap>"
+              echo "    <loc>https://conference.mlinpl.org/${year}/sitemap.xml</loc>"
+              echo "  </sitemap>"
+            done
+            echo '</sitemapindex>'
+          } > _site/sitemap.xml
+
       - name: Generate Root Redirect
         run: |
           export DEFAULT_YEAR="${{ env.DEFAULT_YEAR }}"
@@ -84,6 +97,9 @@ jobs:
 
       - name: Copy CNAME for custom domain
         run: cp CNAME _site/CNAME
+
+      - name: Copy robots.txt
+        run: cp robots.txt _site/robots.txt
 
       - name: Copy Google Search Console verification file
         run: cp google*.html _site/ || true
