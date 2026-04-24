@@ -2,3 +2,5 @@ years:
   - "2026"
 default_year: "2026"
 site_url: "https://conference.mlinpl.org"
+root_copies:
+  - source: "about-ml-in-pl-conference.html"
