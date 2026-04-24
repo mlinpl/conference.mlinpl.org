@@ -6,11 +6,13 @@ BUILD_CONFIG_FILE="${BUILD_CONFIG_FILE:-build-config.yml}"
 YEARS_FROM_CONFIG=""
 DEFAULT_YEAR_FROM_CONFIG=""
 SITE_URL_FROM_CONFIG=""
+ROOT_COPY_RULES_FROM_CONFIG=""
 
 if [[ -f "${BUILD_CONFIG_FILE}" ]]; then
   YEARS_FROM_CONFIG=$(ruby -r yaml -e 'cfg = YAML.load_file(ARGV[0]) || {}; years = cfg["years"]; puts(years.is_a?(Array) ? years.map(&:to_s).join(" ") : "")' "${BUILD_CONFIG_FILE}")
   DEFAULT_YEAR_FROM_CONFIG=$(ruby -r yaml -e 'cfg = YAML.load_file(ARGV[0]) || {}; value = cfg["default_year"]; puts(value.nil? ? "" : value.to_s)' "${BUILD_CONFIG_FILE}")
   SITE_URL_FROM_CONFIG=$(ruby -r yaml -e 'cfg = YAML.load_file(ARGV[0]) || {}; value = cfg["site_url"]; puts(value.nil? ? "" : value.to_s)' "${BUILD_CONFIG_FILE}")
+  ROOT_COPY_RULES_FROM_CONFIG=$(ruby -r yaml -e 'cfg = YAML.load_file(ARGV[0]) || {}; rules = cfg["root_copies"]; unless rules.is_a?(Array); exit; end; rules.each do |rule|; next unless rule.is_a?(Hash); source = rule["source"].to_s.strip; next if source.empty?; target = rule["target"].to_s.strip; target = source if target.empty?; puts "#{source}\t#{target}"; end' "${BUILD_CONFIG_FILE}")
 fi
 
 YEARS="${YEARS:-${YEARS_FROM_CONFIG}}"
@@ -96,11 +98,35 @@ fi
 echo "Copying ${DEFAULT_YEAR} root index..."
 cp "_site/${DEFAULT_YEAR}/index.html" "_site/index.html"
 
-echo "Generating 404 redirect..."
-export DEFAULT_YEAR
-export YEARS_PATTERN
-YEARS_PATTERN=$(echo "${YEARS}" | tr ' ' '|')
-envsubst < _templates/404.html > _site/404.html
+if [[ -n "${ROOT_COPY_RULES_FROM_CONFIG}" ]]; then
+  echo "Copying configured root pages from ${DEFAULT_YEAR}..."
+  while IFS=$'\t' read -r source_relative target_relative; do
+    [[ -z "${source_relative}" ]] && continue
+    [[ -z "${target_relative}" ]] && continue
+
+    source_path="_site/${DEFAULT_YEAR}/${source_relative}"
+    target_path="_site/${target_relative}"
+
+    if [[ -f "${source_path}" ]]; then
+      cp "${source_path}" "${target_path}"
+      echo "  copied: ${source_relative} -> ${target_relative}"
+    else
+      echo "  skipped (missing source): ${source_relative}"
+    fi
+  done <<< "${ROOT_COPY_RULES_FROM_CONFIG}"
+fi
+
+DEFAULT_YEAR_404="_site/${DEFAULT_YEAR}/404.html"
+if [[ -f "${DEFAULT_YEAR_404}" ]]; then
+  echo "Copying ${DEFAULT_YEAR} 404 page to root..."
+  cp "${DEFAULT_YEAR_404}" "_site/404.html"
+else
+  echo "Generating 404 redirect (fallback)..."
+  export DEFAULT_YEAR
+  export YEARS_PATTERN
+  YEARS_PATTERN=$(echo "${YEARS}" | tr ' ' '|')
+  envsubst < _templates/404.html > _site/404.html
+fi
 
 if [[ "${GENERATE_SITEMAP_INDEX}" == "true" ]]; then
   echo "Generating root sitemap index..."

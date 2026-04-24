@@ -36,6 +36,7 @@ The unified build configuration is defined in `build-config.yml`.
 - `years`: list of year subdirectories to build
 - `default_year`: year used for the root index redirect
 - `site_url`: base URL used in generated sitemap index
+- `root_copies`: files copied from `_site/<default_year>/...` to `_site/...` (`target` is optional; defaults to `source`)
 
 Update `build-config.yml` when adding or changing supported years.
 
@@ -60,7 +61,7 @@ This script:
 - updates git submodules,
 - rebuilds `_site/`,
 - builds configured year editions from `build-config.yml` under `_site/<year>`,
-- generates the root `404.html` redirect from `_templates/404.html`,
+- copies root `404.html` from `_site/<default_year>/404.html` (falls back to `_templates/404.html` redirect if missing),
 - starts Jekyll at `http://localhost:4000`.
 
 ## Alternative: work only on a year site
