@@ -3,14 +3,12 @@ name: Build and Deploy Unified Site
 on:
   push:
     branches: ["main"]
-  workflow_dispatch:      # "Manual Button"
-  repository_dispatch:    # Allows submodule repos to trigger this build
+  workflow_dispatch:  # "Manual Button"
+  repository_dispatch:  # Allows submodule repos to trigger this build
     types: [submodule_update]
 
 # --- CONFIGURATION ---
 env:
-  YEARS: "2026"
-  DEFAULT_YEAR: "2026"
   RUBY_VERSION: "3.1"
 # ---------------------
 
@@ -29,79 +27,19 @@ jobs:
           submodules: 'recursive'
           fetch-depth: 0
 
-      - name: Update Submodules to Latest Commits
-        run: git submodule update --remote --recursive
-
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: ${{ env.RUBY_VERSION }}
           bundler-cache: true
 
-      - name: Build All Years and Generate Version Manifest
+      - name: Build unified site
         run: |
-          mkdir -p _site
-          # Initialize the versions file
-          echo "{" > _site/versions.json
-          
-          YEAR_COUNT=$(echo ${{ env.YEARS }} | wc -w)
-          CURRENT_INDEX=0
-
-          for year in ${{ env.YEARS }}; do
-            CURRENT_INDEX=$((CURRENT_INDEX + 1))
-            echo "::group::Building $year"
-            if [ -d "$year" ]; then
-              # Get version metadata for this submodule
-              COMMIT_HASH=$(cd "$year" && git rev-parse --short HEAD)
-              BUILD_DATE=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
-              
-              # Append to versions.json
-              if [ "$CURRENT_INDEX" -eq "$YEAR_COUNT" ]; then
-                echo "  \"$year\": { \"commit\": \"$COMMIT_HASH\", \"built_at\": \"$BUILD_DATE\" }" >> _site/versions.json
-              else
-                echo "  \"$year\": { \"commit\": \"$COMMIT_HASH\", \"built_at\": \"$BUILD_DATE\" }," >> _site/versions.json
-              fi
-
-              cd "$year"
-              bundle install
-              bundle exec jekyll build --baseurl "/${year}" --destination "../_site/${year}"
-              cd ..
-            fi
-            echo "::endgroup::"
-          done
-          echo "}" >> _site/versions.json
-
-      - name: Generate Root Sitemap Index
-        run: |
-          {
-            echo '<?xml version="1.0" encoding="UTF-8"?>'
-            echo '<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'
-            for year in ${{ env.YEARS }}; do
-              echo "  <sitemap>"
-              echo "    <loc>https://conference.mlinpl.org/${year}/sitemap.xml</loc>"
-              echo "  </sitemap>"
-            done
-            echo '</sitemapindex>'
-          } > _site/sitemap.xml
-
-      - name: Copy Default Year Index to Root
-        run: |
-          cp _site/${{ env.DEFAULT_YEAR }}/index.html _site/index.html
-
-      - name: Generate 404 Redirect
-        run: |
-          export DEFAULT_YEAR="${{ env.DEFAULT_YEAR }}"
-          export YEARS_PATTERN=$(echo "${{ env.YEARS }}" | tr ' ' '|')
-          envsubst < _templates/404.html > _site/404.html
-
-      - name: Copy CNAME for custom domain
-        run: cp CNAME _site/CNAME
-
-      - name: Copy robots.txt
-        run: cp robots.txt _site/robots.txt
-
-      - name: Copy Google Search Console verification file
-        run: cp google*.html _site/ || true
+          UPDATE_SUBMODULES=true \
+          GENERATE_VERSIONS=true \
+          GENERATE_SITEMAP_INDEX=true \
+          COPY_ROOT_FILES=true \
+          bash scripts/build_unified_site.sh
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

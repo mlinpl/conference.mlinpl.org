@@ -29,6 +29,16 @@ The workflow runs when:
 
 This means year-site repositories can trigger a rebuild of the unified site after they publish changes. In addition, this workflow updates submodules to their latest remote commits during the build.
 
+### Build configuration
+
+The unified build configuration is defined in `build-config.yml`.
+
+- `years`: list of year subdirectories to build
+- `default_year`: year used for the root index redirect
+- `site_url`: base URL used in generated sitemap index
+
+Update `build-config.yml` when adding or changing supported years.
+
 ## Local setup
 
 1. Clone the repository.
@@ -49,7 +59,7 @@ bash run_locally.sh
 This script:
 - updates git submodules,
 - rebuilds `_site/`,
-- builds the configured default year edition (see `YEARS` and `DEFAULT_YEAR` in `run_locally.sh`) under `_site/<year>`,
+- builds configured year editions from `build-config.yml` under `_site/<year>`,
 - generates the root `404.html` redirect from `_templates/404.html`,
 - starts Jekyll at `http://localhost:4000`.
 
