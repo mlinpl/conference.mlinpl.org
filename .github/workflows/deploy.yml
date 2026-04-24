@@ -84,10 +84,9 @@ jobs:
             echo '</sitemapindex>'
           } > _site/sitemap.xml
 
-      - name: Generate Root Redirect
+      - name: Copy Default Year Index to Root
         run: |
-          export DEFAULT_YEAR="${{ env.DEFAULT_YEAR }}"
-          envsubst < _templates/index.html > _site/index.html
+          cp _site/${{ env.DEFAULT_YEAR }}/index.html _site/index.html
 
       - name: Generate 404 Redirect
         run: |
