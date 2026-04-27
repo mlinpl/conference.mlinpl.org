@@ -138,8 +138,32 @@ if [[ "${GENERATE_SITEMAP_INDEX}" == "true" ]]; then
       echo "    <loc>${SITE_URL}/${year}/sitemap.xml</loc>"
       echo "  </sitemap>"
     done
+    echo "  <sitemap>"
+    echo "    <loc>${SITE_URL}/root-sitemap.xml</loc>"
+    echo "  </sitemap>"
     echo '</sitemapindex>'
   } > _site/sitemap.xml
+
+  echo "Generating root sitemap for copied pages..."
+  {
+    echo '<?xml version="1.0" encoding="UTF-8"?>'
+    echo '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'
+    # Add the main root index
+    echo "  <url>"
+    echo "    <loc>${SITE_URL}/</loc>"
+    echo "  </url>"
+    # Add files copied to root
+    if [[ -n "${ROOT_COPY_RULES_FROM_CONFIG}" ]]; then
+      while IFS=$'\t' read -r source_relative target_relative; do
+        [[ -z "${source_relative}" ]] && continue
+        [[ -z "${target_relative}" ]] && continue
+        echo "  <url>"
+        echo "    <loc>${SITE_URL}/${target_relative}</loc>"
+        echo "  </url>"
+      done <<< "${ROOT_COPY_RULES_FROM_CONFIG}"
+    fi
+    echo '</urlset>'
+  } > _site/root-sitemap.xml
 fi
 
 if [[ "${COPY_ROOT_FILES}" == "true" ]]; then

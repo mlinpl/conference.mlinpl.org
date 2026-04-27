@@ -7,7 +7,7 @@ set -euo pipefail
 
 UPDATE_SUBMODULES=true \
 GENERATE_VERSIONS=false \
-GENERATE_SITEMAP_INDEX=false \
+GENERATE_SITEMAP_INDEX=true \
 COPY_ROOT_FILES=false \
 bash scripts/build_unified_site.sh
 
