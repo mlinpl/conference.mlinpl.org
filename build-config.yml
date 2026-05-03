@@ -5,3 +5,6 @@ site_url: "https://conference.mlinpl.org"
 root_copies:
   - source: "about-ml-in-pl-conference.html"
   - source: "privacy-policy.html"
+  - source: "terms-of-participation.html"
+  - source: "call-for-contributions.html"
+  - source: "call-for-tutorials.html"
