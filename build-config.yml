@@ -8,3 +8,14 @@ root_copies:
   - source: "terms-of-participation.html"
   - source: "call-for-contributions.html"
   - source: "call-for-tutorials.html"
+
+external_redirects:
+  2017: "https://conference2017.mlinpl.org"
+  2018: "https://conference2018.mlinpl.org"
+  2019: "https://conference2019.mlinpl.org"
+  2020: "https://conference2020.mlinpl.org"
+  2021: "https://conference2021.mlinpl.org"
+  2022: "https://conference2022.mlinpl.org"
+  2023: "https://conference2023.mlinpl.org"
+  2024: "https://conference2024.mlinpl.org"
+  2025: "https://conference2025.mlinpl.org"

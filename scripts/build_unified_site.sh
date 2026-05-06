@@ -7,12 +7,14 @@ YEARS_FROM_CONFIG=""
 DEFAULT_YEAR_FROM_CONFIG=""
 SITE_URL_FROM_CONFIG=""
 ROOT_COPY_RULES_FROM_CONFIG=""
+EXTERNAL_REDIRECTS_FROM_CONFIG=""
 
 if [[ -f "${BUILD_CONFIG_FILE}" ]]; then
   YEARS_FROM_CONFIG=$(ruby -r yaml -e 'cfg = YAML.load_file(ARGV[0]) || {}; years = cfg["years"]; puts(years.is_a?(Array) ? years.map(&:to_s).join(" ") : "")' "${BUILD_CONFIG_FILE}")
   DEFAULT_YEAR_FROM_CONFIG=$(ruby -r yaml -e 'cfg = YAML.load_file(ARGV[0]) || {}; value = cfg["default_year"]; puts(value.nil? ? "" : value.to_s)' "${BUILD_CONFIG_FILE}")
   SITE_URL_FROM_CONFIG=$(ruby -r yaml -e 'cfg = YAML.load_file(ARGV[0]) || {}; value = cfg["site_url"]; puts(value.nil? ? "" : value.to_s)' "${BUILD_CONFIG_FILE}")
   ROOT_COPY_RULES_FROM_CONFIG=$(ruby -r yaml -e 'cfg = YAML.load_file(ARGV[0]) || {}; rules = cfg["root_copies"]; unless rules.is_a?(Array); exit; end; rules.each do |rule|; next unless rule.is_a?(Hash); source = rule["source"].to_s.strip; next if source.empty?; target = rule["target"].to_s.strip; target = source if target.empty?; puts "#{source}\t#{target}"; end' "${BUILD_CONFIG_FILE}")
+  EXTERNAL_REDIRECTS_FROM_CONFIG=$(ruby -r yaml -e 'cfg = YAML.load_file(ARGV[0]) || {}; redirects = cfg["external_redirects"]; unless redirects.is_a?(Hash); exit; end; redirects.each do |k, v|; puts "#{k}\t#{v}"; end' "${BUILD_CONFIG_FILE}")
 fi
 
 YEARS="${YEARS:-${YEARS_FROM_CONFIG}}"
@@ -126,6 +128,19 @@ else
   export YEARS_PATTERN
   YEARS_PATTERN=$(echo "${YEARS}" | tr ' ' '|')
   envsubst < _templates/404.html > _site/404.html
+fi
+
+if [[ -n "${EXTERNAL_REDIRECTS_FROM_CONFIG}" ]]; then
+  echo "Generating external redirects..."
+  while IFS=$'\t' read -r redirect_source redirect_target; do
+    [[ -z "${redirect_source}" ]] && continue
+    [[ -z "${redirect_target}" ]] && continue
+
+    echo "  redirect: /${redirect_source} -> ${redirect_target}"
+    mkdir -p "_site/${redirect_source}"
+    export REDIRECT_TARGET="${redirect_target}"
+    envsubst < _templates/redirect.html > "_site/${redirect_source}/index.html"
+  done <<< "${EXTERNAL_REDIRECTS_FROM_CONFIG}"
 fi
 
 if [[ "${GENERATE_SITEMAP_INDEX}" == "true" ]]; then
