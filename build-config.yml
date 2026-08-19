@@ -8,6 +8,7 @@ root_copies:
   - source: "terms-of-participation.html"
   - source: "call-for-contributions.html"
   - source: "call-for-tutorials.html"
+  - source: "cfc-instructions.html"
 
 external_redirects:
   2017: "https://conference2017.mlinpl.org"
