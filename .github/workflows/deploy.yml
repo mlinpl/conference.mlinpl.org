@@ -24,7 +24,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          submodules: 'recursive'
+          # Submodules are fetched by the build script at their latest commit (--remote)
+          submodules: false
           fetch-depth: 1
 
       - name: Setup Ruby
