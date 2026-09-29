@@ -34,6 +34,8 @@ if [[ -z "${SITE_URL}" ]]; then
 fi
 
 UPDATE_SUBMODULES="${UPDATE_SUBMODULES:-false}"
+# Empty fetches full submodule history; CI sets 1 to skip history it does not need
+SUBMODULE_DEPTH="${SUBMODULE_DEPTH:-}"
 GENERATE_VERSIONS="${GENERATE_VERSIONS:-false}"
 GENERATE_SITEMAP_INDEX="${GENERATE_SITEMAP_INDEX:-false}"
 COPY_ROOT_FILES="${COPY_ROOT_FILES:-false}"
@@ -44,13 +46,18 @@ echo "  YEARS=${YEARS}"
 echo "  DEFAULT_YEAR=${DEFAULT_YEAR}"
 echo "  SITE_URL=${SITE_URL}"
 echo "  UPDATE_SUBMODULES=${UPDATE_SUBMODULES}"
+echo "  SUBMODULE_DEPTH=${SUBMODULE_DEPTH}"
 echo "  GENERATE_VERSIONS=${GENERATE_VERSIONS}"
 echo "  GENERATE_SITEMAP_INDEX=${GENERATE_SITEMAP_INDEX}"
 echo "  COPY_ROOT_FILES=${COPY_ROOT_FILES}"
 
 if [[ "${UPDATE_SUBMODULES}" == "true" ]]; then
   echo "Updating submodules to latest versions..."
-  git submodule update --init --recursive --remote
+  if [[ -n "${SUBMODULE_DEPTH}" ]]; then
+    git submodule update --init --recursive --remote --depth "${SUBMODULE_DEPTH}"
+  else
+    git submodule update --init --recursive --remote
+  fi
 fi
 
 echo "Cleaning up previous builds..."
